@@ -1599,5 +1599,6 @@
       "user_is_offline": "Connection offline, please check your internet connection",
       "user_is_online": "Connected! You're back online"
     }
-  }
+  },
+  "fiat_purchase_review": "Review your purchase"
 }
