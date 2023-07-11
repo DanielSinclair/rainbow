@@ -1568,37 +1568,36 @@
       "wallet_title": "Wallet"
     },
     "walletconnect": {
-      "available_networks": "Redes disponibles",
-      "change_network": "Cambiar red",
-      "connected_apps": "Aplicaciones conectadas",
-      "disconnect": "Desconectar",
-      "go_back_to_your_browser": "Volver al navegador",
+      "available_networks": "Available Networks",
+      "change_network": "Change Network",
+      "connected_apps": "Connected apps",
+      "disconnect": "Disconnect",
+      "go_back_to_your_browser": "Go back to your browser",
       "paste_uri": {
-        "button": "Pegar la URI de sesión",
-        "message": "Pegar la URI de WalletConnect abajo",
-        "title": "Nueva sesión de WalletConnect"
+        "button": "Paste session URI",
+        "message": "Paste WalletConnect URI below",
+        "title": "New WalletConnect Session"
       },
       "scam": {
-        "heads_up_title": "¡Aviso!",
-        "ignore_this_request": "Ignorar esta solicitud",
-        "we_found_this_website_in_a_list": "Hemos encontrado este sitio web en una lista de fraudes de criptomonedas maliciosos.\n\n Te recomendamos que ignores esta solicitud y dejes de usar este sitio web inmediatamente"
+        "heads_up_title": "Heads up!",
+        "ignore_this_request": "Ignore This Request",
+        "we_found_this_website_in_a_list": "We found this website in a list of malicious crypto scams.\n\n We recommend that you ignore this request and stop using this website immediately"
       },
-      "switch_network": "Cambiar de red",
-      "switch_wallet": "Cambiar de cartera",
+      "switch_network": "Switch Network",
+      "switch_wallet": "Switch Wallet",
       "titles": {
-        "connect": "¡Te has conectado!",
-        "reject": "Conexión cancelada",
-        "sign": "¡Mensaje firmado!",
-        "sign_canceled": "¡Transacción cancelada!",
-        "transaction_canceled": "¡Transacción cancelada!",
-        "transaction_sent": "¡Transacción enviada!"
+        "connect": "You're connected!",
+        "reject": "Connection canceled",
+        "sign": "Message signed!",
+        "sign_canceled": "Transaction canceled!",
+        "transaction_canceled": "Transaction canceled!",
+        "transaction_sent": "Transaction sent!"
       },
-      "unknown_application": "Aplicación desconocida"
+      "unknown_application": "Unknown Application"
     },
     "warning": {
       "user_is_offline": "Connection offline, please check your internet connection",
       "user_is_online": "Connected! You're back online"
     }
-  },
-  "fiat_purchase_review": "Review your purchase"
+  }
 }
