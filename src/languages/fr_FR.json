@@ -820,13 +820,13 @@
       },
       "cross_chain_swap": {
         "title": "Attendez des retards de pont",
-        "text": "This swap may take longer than expected to complete. \n\n Cross-chain swaps require bridging funds to the destination network, and bridges can sometimes take longer than expected to transfer funds. Your funds will remain safe during this time."
+        "text": "Cet échange peut prendre plus de temps que prévu pour se terminer. \n\n Les échanges entre chaînes nécessitent des fonds de pontage vers le réseau de destination, et les ponts peuvent parfois prendre plus de temps que prévu pour transférer les fonds. Vos fonds resteront en sécurité pendant cette période."
       },
       "go_to_hop_with_icon": {
         "text": "Aller au pont Hop 􀮶"
       },
       "rainbow_fee": {
-        "text": "Rainbow takes a %{feePercentage} fee from swaps. It’s part of what enables us to give you the best Ethereum experience possible."
+        "text": "Rainbow prélève une %{feePercentage} commission sur les échanges. C'est ce qui nous permet de vous offrir la meilleure expérience Ethereum possible."
       },
       "swap_routing": {
         "text": "Par défaut, Rainbow choisit l'itinéraire le moins cher possible pour votre échange. Si vous préférez utiliser spécifiquement 0x ou 1inch, vous pouvez aussi le faire.",
