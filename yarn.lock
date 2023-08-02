@@ -3281,10 +3281,10 @@
   dependencies:
     react-merge-refs "^1.0.0"
 
-"@rainbow-me/swaps@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@rainbow-me/swaps/-/swaps-0.4.0.tgz#ba37d4dc8d3279433d411707de038620e94f844d"
-  integrity sha512-Cq5cunQNPe4F88z76UFqLe2hzKX8A7uWTkZ/M/FmEgkHAWNcFzaT4wa39L6Wls+Wbu30jX9QAtGk26lm9Uf4kQ==
+"@rainbow-me/swaps@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@rainbow-me/swaps/-/swaps-0.5.0.tgz#7823fc9b052ce8af730c7685b6839e7da309dbda"
+  integrity sha512-MU9YnFM+KU3esjtDYW6Ts/uESN+Zb8WhkhM/o5L5/HEhsDYyNEpl5KhI6/sxkehEH8eE2POeFSzNDX76OU98Ew==
   dependencies:
     "@ethersproject/abi" "5.7.0"
     "@ethersproject/abstract-signer" "5.7.0"
@@ -14575,6 +14575,10 @@ react-native-share@8.2.1:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/react-native-share/-/react-native-share-8.2.1.tgz#f9933852de3ddd0f474ab63448e06c22cfecc9d4"
   integrity sha512-dUIgrcdg4nOHrbKN1w+hs17RZ+51NeXd62CEezPAd4tEyj2Ki1qeAxWnJe8ZPRwvB5/6ml7YUR/2PJApxGHCAQ==
+react-native-sound@0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/react-native-sound/-/react-native-sound-0.11.2.tgz#e542dc5b9e16ab4b3ac7e6eaddb1fc8d98da9038"
+  integrity sha512-LmGc8lgOK3qecYMVQpyHvww/C+wgT6sWeMpVbOe4NCRGC2yKd4fo4U0KBUo9PO7AqKESO3I/2GZg1/C0+bwiiA==
 
 react-native-splash-screen@3.2.0:
   version "3.2.0"
