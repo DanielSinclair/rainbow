@@ -1,0 +1,2108 @@
+{
+  "translation": {
+    "account": {
+      "hide": "隐藏",
+      "label_24h": "24小时",
+      "label_asset": "资产",
+      "label_price": "价格",
+      "label_quantity": "数量",
+      "label_status": "状态",
+      "label_total": "总计",
+      "low_market_value": "市值低",
+      "no_market_value": "无市值",
+      "show": "显示",
+      "show_all": "全部显示",
+      "show_less": "显示更少",
+      "tab_balances": "余额",
+      "tab_balances_empty_state": "余额",
+      "tab_balances_tooltip": "以太坊和代币余额",
+      "tab_collectibles": "收藏品",
+      "tab_interactions": "交互",
+      "tab_interactions_tooltip": "智能合约交互",
+      "tab_investments": "池",
+      "tab_savings": "储蓄",
+      "tab_positions": "持仓",
+      "tab_transactions": "交易",
+      "tab_transactions_tooltip": "交易和代币转账",
+      "tab_uniquetokens": "唯一代币",
+      "tab_uniquetokens_tooltip": "唯一代币",
+      "token": "代币",
+      "tokens": "代币",
+      "tx_failed": "失败",
+      "tx_fee": "费用",
+      "tx_from": "来自",
+      "tx_from_lowercase": "来自",
+      "tx_hash": "交易哈希",
+      "tx_pending": "待处理",
+      "tx_received": "已收到",
+      "tx_self": "自己",
+      "tx_sent": "已发送",
+      "tx_timestamp": "时间戳",
+      "tx_to": "至",
+      "tx_to_lowercase": "至",
+      "unknown_token": "未知代币"
+    },
+    "activity_list": {
+      "empty_state": {
+        "default_label": "暂无交易记录",
+        "recycler_label": "暂无交易记录",
+        "testnet_label": "您的测试网交易历史记录从现在开始！"
+      }
+    },
+    "add_funds": {
+      "eth": {
+        "or_send_eth": "或者通过Coinbase或其他交易所向您的钱包发送ETH",
+        "send_from_another_source": "从Coinbase或其他交易所发送，或者向朋友请教！"
+      },
+      "limit_left_this_week": "本周剩余$%{remainingLimit}",
+      "limit_left_this_year": "今年剩余$%{remainingLimit}",
+      "test_eth": {
+        "add_from_faucet": "从水龙头添加",
+        "or_send_test_eth": "或者通过水龙头向您的钱包发送测试ETH",
+        "request_test_eth": "通过 %{testnetName} 水龙头请求测试ETH",
+        "send_test_eth_from_another_source": "从其他 %{testnetName} 钱包发送测试ETH，或者向朋友请教！"
+      },
+      "to_get_started_android": "要开始，请购买一些ETH",
+      "to_get_started_ios": "要开始，请使用Apple Pay购买一些ETH",
+      "weekly_limit_reached": "已达到每周限额",
+      "yearly_limit_reached": "年度限制已达上限"
+    },
+    "avatar_builder": {
+      "emoji_categories": {
+        "activities": "活动",
+        "animals": "动物与自然",
+        "flags": "旗帜",
+        "food": "食物与饮料",
+        "objects": "物体",
+        "smileys": "笑脸与人物",
+        "symbols": "符号",
+        "travel": "旅行与地点"
+      }
+    },
+    "back_up": {
+      "wrong_pin": "您输入的PIN码有误，我们无法进行备份。请使用正确的PIN码再试一次。",
+      "already_backed_up": {
+        "backed_up": "已备份",
+        "backed_up_manually": "已手动备份",
+        "backed_up_message": "您的钱包已备份",
+        "imported": "已导入",
+        "imported_message": "您的钱包已导入"
+      },
+      "backup_deleted_successfully": "备份已成功删除",
+      "cloud": {
+        "back_up_to_platform": "备份到 %{cloudPlatformName}",
+        "manage_platform_backups": "管理 %{cloudPlatformName} 备份",
+        "password": {
+          "a_password_youll_remember": "请使用您能记住的密码。",
+          "backup_password": "备份密码",
+          "choose_a_password": "选择一个密码",
+          "confirm_backup": "确认备份",
+          "confirm_password": "确认密码",
+          "confirm_placeholder": "确认密码",
+          "it_cant_be_recovered": "无法恢复！",
+          "minimum_characters": "最少 %{minimumLength} 个字符",
+          "passwords_dont_match": "密码不匹配",
+          "strength": {
+            "level1": "弱密码",
+            "level2": "良好密码",
+            "level3": "很强密码",
+            "level4": "强密码"
+          },
+          "use_a_longer_password": "使用更长的密码"
+        }
+      },
+      "confirm_password": {
+        "add_to_cloud_platform": "添加到 %{cloudPlatformName} 的备份",
+        "backup_password_placeholder": "备份密码",
+        "confirm_backup": "确认备份",
+        "enter_backup_description": "要将此钱包添加到您的 %{cloudPlatformName} 备份中，请输入您现有的备份密码",
+        "enter_backup_password": "输入备份密码"
+      },
+      "explainers": {
+        "backup": "不要忘记此密码！它与您的 %{cloudPlatformName} 密码是分开的，您应该将其保存在一个安全的地方。\n\n将来您需要它来从备份中恢复您的钱包。",
+        "if_lose_cloud": "如果您丢失此设备，您可以从 %{cloudPlatformName}恢复加密的钱包备份。",
+        "if_lose_imported": "如果您丢失此设备，您可以使用最初导入的密钥来恢复您的钱包。",
+        "if_lose_manual": "如果您丢失此设备，您可以使用您保存的秘密短语来恢复您的钱包。"
+      },
+      "manual": {
+        "label": "您的秘密短语",
+        "pkey": {
+          "confirm_save": "我已保存我的密钥",
+          "save_them": "复制并将其保存在密码管理器或其他安全位置。",
+          "these_keys": "这是您钱包的密钥！"
+        },
+        "seed": {
+          "confirm_save": "我已保存这些单词",
+          "save_them": "将它们写下来或保存在密码管理器中。",
+          "these_keys": "这些单词是您钱包的密钥！"
+        }
+      },
+      "needs_backup": {
+        "back_up_your_wallet": "备份您的钱包",
+        "dont_risk": "不要冒险！备份您的钱包，以防丢失此设备时可以恢复它。",
+        "not_backed_up": "未备份"
+      },
+      "restore_cloud": {
+        "backup_password_placeholder": "备份密码",
+        "confirm_backup": "确认备份",
+        "enter_backup_password": "输入备份密码",
+        "enter_backup_password_description": "要恢复您的钱包，请输入您创建的备份密码",
+        "error_while_restoring": "恢复备份时发生错误",
+        "incorrect_pin_code": "错误的PIN码",
+        "incorrect_password": "密码错误",
+        "restore_from_cloud_platform": "从 %{cloudPlatformName}恢复"
+      },
+      "secret": {
+        "anyone_who_has_these": "任何拥有这些词语的人都可以访问您的整个钱包！",
+        "biometrically_secured": "您的帐户已通过生物识别数据（如指纹或面部识别）保护。要查看您的恢复短语，请在手机设置中打开生物识别功能。",
+        "no_seed_phrase": "无法检索到您的助记词。请确保您已经正确使用生物识别数据（如指纹或面部识别）进行身份验证，或正确输入了您的PIN码。",
+        "copy_to_clipboard": "复制到剪贴板",
+        "for_your_eyes_only": "仅供您亲自使用",
+        "private_key_title": "私钥",
+        "secret_phrase_title": "秘密短语",
+        "show_recovery": "显示恢复 %{typeName}",
+        "view_private_key": "查看私钥",
+        "view_secret_phrase": "查看秘密短语",
+        "you_need_to_authenticate": "您需要进行身份验证才能访问您的恢复 %{typeName}"
+      }
+    },
+    "bluetooth": {
+      "powered_off_alert": {
+        "title": "蓝牙已关闭",
+        "message": "请打开蓝牙以使用此功能",
+        "open_settings": "打开设置",
+        "cancel": "取消"
+      },
+      "permissions_alert": {
+        "title": "蓝牙权限",
+        "message": "请在设置中启用蓝牙权限以使用此功能",
+        "open_settings": "打开设置",
+        "cancel": "取消"
+      }
+    },
+    "button": {
+      "add": "添加",
+      "add_cash": "添加现金",
+      "add_to_list": "添加到列表",
+      "all": "全部",
+      "attempt_cancellation": "尝试取消",
+      "buy_eth": "购买以太币",
+      "cancel": "取消",
+      "close": "关闭",
+      "confirm": "确认",
+      "confirm_exchange": {
+        "deposit": "按住进行存款",
+        "enter_amount": "输入金额",
+        "fetching_quote": "获取报价",
+        "insufficient_eth": "ETH不足",
+        "insufficient_bnb": "BNB不足",
+        "insufficient_funds": "资金不足",
+        "insufficient_liquidity": "􀅵 流动性不足",
+        "no_route_found": "􀅵 未找到路径",
+        "insufficient_matic": "MATIC不足",
+        "insufficient_token": "%{tokenName}不足",
+        "invalid_fee": "无效费用",
+        "invalid_fee_lowercase": "无效费用",
+        "loading": "加载中...",
+        "no_quote_available": "􀅵 无报价可用",
+        "review": "审核",
+        "submitting": "提交中",
+        "swap": "按住以交换",
+        "bridge": "按住以桥接",
+        "swap_anyway": "无论如何交换",
+        "symbol_balance_too_low": "%{symbol} 余额过低",
+        "view_details": "查看详情",
+        "withdraw": "按住以提取"
+      },
+      "connect": "连接",
+      "connect_walletconnect": "使用WalletConnect",
+      "continue": "继续",
+      "delete": "删除",
+      "disconnect_account": "退出登录",
+      "donate": "捐赠ETH",
+      "done": "完成",
+      "edit": "编辑",
+      "exchange": "兑换",
+      "exchange_again": "再次兑换",
+      "exchange_search_placeholder": "搜索代币",
+      "exchange_search_placeholder_network": "在 %{network}上搜索代币",
+      "go_back": "返回",
+      "go_back_lowercase": "返回",
+      "got_it": "明白了",
+      "hide": "隐藏",
+      "hold_to_authorize": {
+        "authorizing": "授权中",
+        "confirming_on_ledger": "正在确认于Ledger",
+        "hold_keyword": "按住",
+        "tap_keyword": "点击"
+      },
+      "hold_to_send": "按住发送",
+      "import": "导入",
+      "learn_more": "了解更多",
+      "less": "更少",
+      "loading": "加载中",
+      "more": "更多",
+      "my_qr_code": "我的二维码",
+      "next": "下一步",
+      "no_thanks": "不，谢谢",
+      "notify_me": "接收通知",
+      "offline": "离线",
+      "ok": "确定",
+      "okay": "好的",
+      "paste": "粘贴",
+      "paste_address": "粘贴",
+      "paste_seed_phrase": "粘贴",
+      "pin": "固定",
+      "proceed": "继续",
+      "proceed_anyway": "仍然继续",
+      "receive": "接收",
+      "remove": "移除",
+      "save": "保存",
+      "send": "发送",
+      "send_another": "发送另一个",
+      "share": "分享",
+      "swap": "交换",
+      "try_again": "重试",
+      "unhide": "取消隐藏",
+      "unpin": "取消固定",
+      "view": "查看",
+      "watch_this_wallet": "观察此钱包",
+      "hidden": "已隐藏"
+    },
+    "cards": {
+      "dpi": {
+        "title": "DeFi脉冲指数",
+        "body": "跟踪行业中的所有顶级去中心化金融代币。",
+        "view": "查看"
+      },
+      "ens_create_profile": {
+        "title": "创建您的ENS个人资料",
+        "body": "用你自己完全拥有的个人资料替换钱包地址。"
+      },
+      "ens_search": {
+        "mini_title": "ENS",
+        "title": "注册.eth名称"
+      },
+      "eth": {
+        "today": "今天"
+      },
+      "gas": {
+        "average": "平均",
+        "gwei": "Gwei",
+        "high": "高",
+        "loading": "加载…",
+        "low": "低",
+        "network_fees": "网络费用",
+        "surging": "激增",
+        "very_low": "非常低"
+      },
+      "learn": {
+        "learn": "学习",
+        "cards": {
+          "get_started": {
+            "title": "从Rainbow开始",
+            "description": "欢迎来到Rainbow！我们很高兴你在这里。我们创建了这个指南，以帮助你了解Rainbow的基础知识，并开始你的Web3和以太坊之旅。"
+          },
+          "backups": {
+            "title": "备份的重要性",
+            "description": "确保钱包的安全性、秘密性和备份是拥有钱包的基本要求。在这里，我们将讨论为什么备份你的钱包很重要，以及备份的不同方法。"
+          },
+          "crypto_and_wallets": {
+            "title": "加密与钱包",
+            "description": "从一个非常简单的层面上来说，钱包只是一个个人和独特的加密密钥（如下所示）。像Rainbow这样的钱包应用程序是用户界面，允许您创建、存储和管理加密密钥，而无需具备技术技能或知识。"
+          },
+          "protect_wallet": {
+            "title": "保护您的钱包",
+            "description": "拥有类似Rainbow这样的以太坊钱包最好的部分之一是您完全掌控自己的资金。与Wells Fargo的银行账户或Coinbase等加密货币交易所不同，我们不会代表您持有资产。"
+          },
+          "connect_to_dapp": {
+            "title": "连接网站或应用",
+            "description": "现在您拥有了以太坊钱包，您可以使用它登录某些网站。您不需要为与每个互动网站都创建新的账户和密码，只需连接您的钱包即可。"
+          },
+          "avoid_scams": {
+            "title": "避免加密货币诈骗",
+            "description": "在Rainbow，我们的目标之一是使探索以太坊这个新世界变得有趣、友好和安全。你知道什么不是这些东西的吗？骗局。它们是恶意的，没有人喜欢它们。我们希望帮助您避免它们，因此我们编写了这个简要指南来帮助您实现这一目标！"
+          },
+          "understanding_web3": {
+            "title": "理解Web3",
+            "description": "自从互联网诞生以来，它一直在不断进化，并经历了许多时代。Web1始于上世纪90年代，这是一个人们连接到互联网并阅读互联网内容的时代，但他们不会发布或贡献任何东西。"
+          },
+          "manage_connections": {
+            "title": "管理连接和网络",
+            "description": "您连接钱包的许多网站或应用程序要求您使用特定的网络。目前，大多数网站使用主要的以太坊网络，并且钱包的新连接通常默认为此网络。"
+          },
+          "supported_networks": {
+            "title": "支持的网络",
+            "description": "直到最近，彩虹和许多其他区块链项目只与以太坊兼容，以太坊是世界上的公共去中心化账本。以太坊非常安全可靠，但并不总是适用于速度和效率。"
+          },
+          "collect_nfts": {
+            "title": "在 OpenSea 上收集 NFT",
+            "description": "NFT是能够拥有和交易的数字收藏品。 \"NFT\" 的首字母缩略词代表不可替代代币，它们可以是从数字交易卡片到数字艺术的任何形式。甚至有一些NFT可以充当实物物品的真实性证书。"
+          }
+        },
+        "categories": {
+          "essentials": "要点",
+          "staying_safe": "保持安全",
+          "beginners_guides": "初学者指南",
+          "blockchains_and_fees": "区块链和费用",
+          "what_is_web3": "什么是Web3？",
+          "apps_and_connections": "应用和连接",
+          "navigating_your_wallet": "导航您的钱包"
+        }
+      },
+      "ledger": {
+        "title": "配对硬件钱包",
+        "body": "通过蓝牙将您的Ledger Nano X连接到Rainbow。"
+      },
+      "receive": {
+        "receive_assets": "接收资产",
+        "copy_address": "复制地址",
+        "description": "您还可以长按上方的\n地址以复制它。"
+      }
+    },
+    "cloud": {
+      "backup_success": "您的钱包已成功备份！"
+    },
+    "contacts": {
+      "contact_row": {
+        "balance_eth": "%{balanceEth} ETH"
+      },
+      "contacts_title": "联系人",
+      "input_placeholder": "姓名",
+      "my_wallets": "我的钱包",
+      "options": {
+        "add": "添加联系人",
+        "cancel": "取消",
+        "delete": "删除联系人",
+        "edit": "编辑联系人",
+        "view": "查看个人资料"
+      },
+      "send_header": "发送",
+      "suggestions": "建议",
+      "to_header": "至",
+      "watching": "关注中"
+    },
+    "deeplinks": {
+      "couldnt_recognize_url": "哎呀！我们无法识别此URL！",
+      "tried_to_use_android": "尝试使用Android软件包",
+      "tried_to_use_ios": "尝试使用iOS软件包"
+    },
+    "developer_settings": {
+      "alert": "警报",
+      "applied": "已应用",
+      "backups_deleted_successfully": "备份已成功删除",
+      "clear_async_storage": "清除异步存储",
+      "clear_pending_txs": "清除待处理交易",
+      "clear_image_cache": "清除图片缓存",
+      "clear_image_metadata_cache": "清除图片元数据缓存",
+      "clear_local_storage": "清除本地存储",
+      "clear_mmkv_storage": "清除MMKV存储",
+      "connect_to_hardhat": "连接到Hardhat",
+      "crash_app_render_error": "崩溃应用程序（渲染错误）",
+      "enable_testnets": "启用测试网络",
+      "installing_update": "正在安装更新",
+      "navigation_entry_point": "导航入口点",
+      "no_update": "没有更新",
+      "not_applied": "未应用",
+      "notifications_debug": "通知调试",
+      "remove_all_backups": "删除所有备份",
+      "keychain": {
+        "menu_title": "重置密钥链",
+        "delete_wallets": "删除所有钱包",
+        "alert_title": "小心！",
+        "alert_body": "🚨🚨🚨 \n这将永久删除您所有的钱包私钥和数据，请确保在进行操作之前已备份好所有内容！！ \n🚨🚨🚨"
+      },
+      "restart_app": "重新启动应用",
+      "reset_experimental_config": "重置实验性配置",
+      "status": "状态",
+      "sync_codepush": "同步 CodePush"
+    },
+    "discover": {
+      "lists": {
+        "lists_title": "列表",
+        "this_list_is_empty": "这个列表是空的！"
+      },
+      "pulse": {
+        "pulse_description": "一起的所有热门 DeFi 代币",
+        "today_suffix": "今天",
+        "trading_at_prefix": "交易于"
+      },
+      "search": {
+        "profiles": "资料",
+        "search_ethereum": "搜索所有以太坊",
+        "search_ethereum_short": "搜索以太坊"
+      },
+      "strategies": {
+        "strategies_title": "策略",
+        "yearn_finance_description": "来自 yearn.finance 的智能收益策略"
+      },
+      "title_discover": "探索",
+      "title_search": "搜索",
+      "top_movers": {
+        "disabled_testnets": "测试网禁用了热门币",
+        "top_movers_title": "热门币"
+      },
+      "uniswap": {
+        "data": {
+          "annualized_fees": "年化费用",
+          "pool_size": "池规模",
+          "profit_30_days": "30天盈利",
+          "volume_24_hours": "24小时交易额"
+        },
+        "disabled_testnets": "测试网上的流动性池已禁用",
+        "error_loading_uniswap": "加载 Uniswap 流动性池数据时出错",
+        "show_more": "显示更多",
+        "title_pools": "Uniswap 流动性池"
+      },
+      "op_rewards": {
+        "card_subtitle": "每次您在Optimism上进行桥接或兑换时都可以获得OP代币奖励。",
+        "card_title": "$OP 奖励",
+        "button_title": "􀐚 查看我的收入"
+      }
+    },
+    "error_boundary": {
+      "error_boundary_oops": "哎呀！",
+      "restart_rainbow": "重新启动 Rainbow",
+      "something_went_wrong": "出了点问题。",
+      "wallets_are_safe": "别担心，您的钱包是安全的！只需重新启动应用即可继续操作。"
+    },
+    "exchange": {
+      "coin_row": {
+        "expires_in": "将在 %{minutes}分钟后过期",
+        "from_divider": "来自",
+        "to_divider": "至",
+        "view_on": "在 %{blockExplorerName}上查看",
+        "view_on_etherscan": "在 Etherscan 上查看"
+      },
+      "flip": "翻转",
+      "max": "最大",
+      "movers": {
+        "loser": "输家",
+        "mover": "赢家"
+      },
+      "long_wait": {
+        "prefix": "等待时间较长",
+        "time": "最长等待时间为 %{estimatedWaitTime}"
+      },
+      "no_results": {
+        "description": "某些代币没有足够的流动性来进行成功兑换。",
+        "description_l2": "某些代币在二层链上没有足够的流动性来进行成功兑换。",
+        "description_no_assets": "您没有任何代币可以进行 %{action}。",
+        "nothing_found": "未找到任何结果",
+        "nothing_here": "这里什么都没有！",
+        "nothing_to_send": "没有可发送的内容"
+      },
+      "price_impact": {
+        "losing_prefix": "有损失",
+        "small_market": "小市场",
+        "label": "可能损失"
+      },
+      "source": {
+        "rainbow": "自动",
+        "0x": "0x",
+        "1inch": "1inch"
+      },
+      "settings": "设置",
+      "use_defaults": "使用默认值",
+      "done": "完成",
+      "losing": "有损失",
+      "high": "高",
+      "slippage_tolerance": "最大滑点",
+      "source_picker": "通过路由交换",
+      "use_flashbots": "使用Flashbots",
+      "swapping_for_prefix": "用于交换",
+      "view_details": "查看详情",
+      "token_sections": {
+        "bridgeTokenSection": "􀊝 桥接",
+        "crosschainMatchSection": "􀤆 在其他网络上",
+        "favoriteTokenSection": "􀋃 收藏",
+        "lowLiquidityTokenSection": "􀇿 流动性较低",
+        "unverifiedTokenSection": "􀇿 未验证",
+        "verifiedTokenSection": "􀇻 已验证",
+        "unswappableTokenSection": "􀘰 没有交易路线"
+      }
+    },
+    "expanded_state": {
+      "asset": {
+        "about_asset": "关于 %{assetName}",
+        "balance": "余额",
+        "get_asset": "获取 %{assetSymbol}",
+        "market_cap": "市值",
+        "read_more_button": "阅读更多",
+        "available_networks": "在 %{availableNetworks} 网络上可用",
+        "available_network": "在 %{availableNetwork} 网络上可用",
+        "available_networkv2": "也可用于 %{availableNetwork}",
+        "social": {
+          "facebook": "脸书",
+          "homepage": "主页",
+          "reddit": "Reddit",
+          "telegram": "电报",
+          "twitter": "推特"
+        },
+        "uniswap_liquidity": "Uniswap流动性",
+        "value": "价值",
+        "volume_24_hours": "24小时交易额"
+      },
+      "chart": {
+        "all_time": "全部时间",
+        "date": {
+          "months": {
+            "month_00": "一月",
+            "month_01": "二月",
+            "month_02": "三月",
+            "month_03": "四月",
+            "month_04": "五月",
+            "month_05": "六月",
+            "month_06": "七月",
+            "month_07": "八月",
+            "month_08": "九月",
+            "month_09": "十月",
+            "month_10": "十一月",
+            "month_11": "十二月"
+          }
+        },
+        "no_price_data": "无价格数据",
+        "past_timespan": "过去 %{formattedTimespan}",
+        "today": "今天",
+        "token_pool": "%{tokenName} 矿池"
+      },
+      "contact_profile": {
+        "name": "姓名"
+      },
+      "liquidity_pool": {
+        "annualized_fees": "年化费用",
+        "fees_earned": "赚取的费用",
+        "half": "一半",
+        "pool_makeup": "池子构成",
+        "pool_shares": "池份额",
+        "pool_size": "池规模",
+        "pool_volume_24h": "24小时矿池交易量",
+        "total_value": "总价值",
+        "underlying_tokens": "基础代币"
+      },
+      "nft_brief_token_info": {
+        "for_sale": "可出售",
+        "last_sale": "最近一次销售价格"
+      },
+      "swap": {
+        "swap": "交换",
+        "bridge": "桥",
+        "flashbots_protect": "Flashbots 保护",
+        "losing": "有损失",
+        "on": "开启",
+        "price_impact": "价格影响",
+        "price_row_per_token": "每个",
+        "slippage_message": "这是一个小市场，所以你得到了一个不理想的价格。尝试较小的交易！",
+        "swapping_via": "通过交换",
+        "unicorn_one": "那只独角兽",
+        "uniswap_v2": "Uniswap v2",
+        "view_on": "在 %{blockExplorerName}上查看",
+        "network_switcher": "在 %{network} 网络上交换",
+        "settling_time": "预计结算时间",
+        "swap_max_alert": {
+          "title": "确定吗？",
+          "message": "您即将交换钱包中所有的 %{inputCurrencyAddress} 。如果您要交换回 %{inputCurrencyAddress}，您可能支付不起手续费。\n\n您是否要自动调整余额以留下一些 %{inputCurrencyAddress}？",
+          "no_thanks": "不，谢谢",
+          "auto_adjust": "自动调整"
+        },
+        "swap_max_insufficient_alert": {
+          "title": "%{symbol}不足",
+          "message": "您的 %{symbol} 不足以支付交换的最大金额的手续费。"
+        }
+      },
+      "swap_details": {
+        "exchange_rate": "汇率",
+        "rainbow_fee": "包括虹费",
+        "refuel": "额外网络代币",
+        "review": "审核",
+        "show_details": "更多详情",
+        "hide_details": "隐藏详情",
+        "price_impact": "价值差异",
+        "minimum_received": "最低收到数",
+        "maximum_sold": "最多出售数",
+        "token_contract": "%{token} 合约",
+        "number_of_exchanges": "%{number} 交易所",
+        "number_of_steps": "%{number} 步骤",
+        "input_exchange_rate": "1 %{inputSymbol} 兑换至 %{executionRate} %{outputSymbol}",
+        "output_exchange_rate": "1 %{outputSymbol} 兑换至 %{executionRate} %{inputSymbol}"
+      },
+      "token_index": {
+        "get_token": "获取 %{assetSymbol}",
+        "makeup_of_token": "1 %{assetSymbol}的构成",
+        "underlying_tokens": "基础代币"
+      },
+      "unique": {
+        "save": {
+          "access_to_photo_library_was_denied": "访问相册被拒绝",
+          "failed_to_save_image": "图片保存失败",
+          "image_download_permission": "图片下载权限",
+          "nft_image": "NFT 图片",
+          "your_permission_is_required": "您需要允许保存图片到您的设备"
+        }
+      },
+      "unique_expanded": {
+        "about": "关于 %{assetFamilyName}",
+        "attributes": "属性",
+        "collection_website": "收藏网站",
+        "configuration": "配置",
+        "copy": "复制",
+        "copy_token_id": "复制令牌 ID",
+        "description": "说明",
+        "discord": "Discord",
+        "edit": "编辑",
+        "expires_in": "过期时间",
+        "expires_on": "过期日期",
+        "floor_price": "底价",
+        "for_sale": "可出售",
+        "in_showcase": "展示中",
+        "last_sale_price": "最近一次销售价格",
+        "manager": "管理者",
+        "open_in_web_browser": "在网页浏览器中打开",
+        "owner": "所有者",
+        "profile_info": "个人资料信息",
+        "properties": "属性",
+        "registrant": "注册者",
+        "resolver": "解析器",
+        "save_to_photos": "保存至照片",
+        "set_primary_name": "设为我的 ENS 名称",
+        "share_token_info": "分享 %{uniqueTokenName} 信息",
+        "showcase": "展示",
+        "toast_added_to_showcase": "已加入展示",
+        "toast_removed_from_showcase": "已从展示移除",
+        "twitter": "推特",
+        "view_all_with_property": "查看所有含属性的对象",
+        "view_collection": "查看收藏",
+        "view_on_marketplace": "在市场上查看...",
+        "view_on_block_explorer": "在 %{blockExplorerName}上查看",
+        "view_on_marketplace_name": "在 %{marketplaceName}上查看",
+        "view_on_platform": "在 %{platform}上查看",
+        "view_on_web": "在网页上查看",
+        "refresh": "刷新元数据",
+        "hide": "隐藏",
+        "unhide": "取消隐藏"
+      }
+    },
+    "explain": {
+      "icon_unlock": {
+        "smol_text": "你找到了宝藏！因为你拥有 Smolverse NFT，你解锁了一个自定义图标！",
+        "optimism_text": "为庆祝Optimism上的NFT，Rainbow和Optimism联合推出了一款限量版应用图标，献给像你一样的Optimistic探险家！",
+        "zora_text": "专为奇幻思考而制作的特别版彩虹 Zorb 图标。",
+        "finiliar_text": "特别版彩虹 Fini 图标，无论晴雨，都可以通知你气价。",
+        "finiliar_title": "你已解锁一个\n彩虹 Fini",
+        "golddoge_text": "庆祝 Kabosu 的 17 岁生日，限量版金色彩虹应用图标。",
+        "raindoge_text": "为庆祝Kabosu17岁生日的限量版彩虹应用图标。",
+        "pooly_text": "为支持者准备的特别版彩虹波利图标。",
+        "pooly_title": "您已解锁了\n个彩虹波利。",
+        "zorb_text": "为庆祝Kabosu17岁生日的彩虹Zorb特别版：您所热爱的\n100%的速度更快、更高效。",
+        "zorb_title": "您已解锁了\n个彩虹Zorb能量！",
+        "poolboy_text": "一个专为链上夏季设计的特别版Rainbow x Poolsuite图标。",
+        "poolboy_title": "您已解锁\n个彩虹Poolboy！",
+        "title": "你已解锁了\n个Rainbow􀆄 %{partner}",
+        "button": "获取图标"
+      },
+      "output_disabled": {
+        "text": "对于 %{fromNetwork}，彩虹无法根据您想要接收的 %{outputToken} 量来准备交换。 \n\n 请尝试输入您想要交换的 %{inputToken} 量。",
+        "title": "输入 %{inputToken} 代替",
+        "title_crosschain": "输入 %{fromNetwork} %{inputToken} 代替",
+        "text_crosschain": "Rainbow can't prepare swaps based on the amount of %{outputToken} you'd like to receive. \n\n Try entering the amount of %{inputToken} you’d like to swap instead.",
+        "text_bridge": "Rainbow can't prepare a bridge based on the amount of %{outputToken} you'd like to receive at the %{toNetwork} destination. \n\n Try entering the amount of %{fromNetwork} %{inputToken} you’d like to bridge instead.",
+        "title_empty": "选择一种代币"
+      },
+      "available_networks": {
+        "text": "%{tokenSymbol} 在 %{networks}上可用。若要在网络间转移 %{tokenSymbol} ，请使用像Hop这样的桥接器。",
+        "title_plural": "可用于 %{length} 个网络",
+        "title_singular": "可用于 %{network} 网络"
+      },
+      "arbitrum": {
+        "text": "Arbitrum是运行在以太坊之上的第2层网络，可以实现更便宜、更快速的交易，同时享受以太坊底层安全性的好处。\n\n它会将许多交易捆绑在一起，然后将它们发送到以太坊上永久存储。",
+        "title": "什么是Arbitrum？"
+      },
+      "backup": {
+        "title": "重要"
+      },
+      "base_fee": {
+        "text_falling": "\n\nFees are dropping right now!",
+        "text_prefix": "基础费用由以太坊网络设置，根据网络使用情况而变化。",
+        "text_rising": "\n\nFees are rising right now! It’s best to use a higher max base fee to avoid a stuck transaction.",
+        "text_stable": "\n\nNetwork traffic is stable right now. Have fun!",
+        "text_surging": "\n\n费用目前异常高！除非您的交易非常紧急，最好等待费用下降。",
+        "title": "当前基础费用"
+      },
+      "failed_walletconnect": {
+        "text": "糟糕，发生了一些错误！网站可能正在经历连接中断。请稍后再试或联系网站团队获取更多详情。",
+        "title": "连接失败"
+      },
+      "failed_wc_invalid_methods": {
+        "text": "DApp请求了彩虹不支持的钱包签名（RPC）方法。",
+        "title": "连接失败"
+      },
+      "failed_wc_invalid_chains": {
+        "text": "DApp请求了彩虹不支持的网络。",
+        "title": "连接失败"
+      },
+      "failed_wc_invalid_chain": {
+        "text": "此请求中指定的网络不受彩虹支持。",
+        "title": "处理失败"
+      },
+      "floor_price": {
+        "text": "一个收藏品的最低询价是该收藏品当前所有在售物品中的最低价格。",
+        "title": "收藏品最低询价"
+      },
+      "gas": {
+        "text": "这是 %{networkName} 区块链用于安全验证您的交易的“燃料费”。\n\n该费用根据您的交易复杂程度和网络繁忙程度而变化！",
+        "title": "%{networkName} 网络费"
+      },
+      "max_base_fee": {
+        "text": "这是您愿意为此交易支付的最高基础费用。\n\n通过设置更高的最大基础费用，可以防止您的交易被卡住，如果费用上涨。",
+        "title": "最大基准费用"
+      },
+      "miner_tip": {
+        "text": "矿工小费直接支付给确认您交易的矿工。\n\n提供更高的小费可以增加交易被快速确认的可能性。",
+        "title": "矿工小费"
+      },
+      "optimism": {
+        "text": "Optimism是以太坊的二层网络，可以实现更便宜和更快的交易，并仍然受益于以太坊的底层安全性。\n\n它将多个交易捆绑在一起，然后再将它们发送到以太坊上永久存储。",
+        "title": "什么是Optimism？"
+      },
+      "base": {
+        "text": "Base是以太坊的二层网络，可以实现更便宜和更快的交易，并仍然受益于以太坊的底层安全性。\n\n它将多个交易捆绑在一起，然后再将它们发送到以太坊上永久存储。",
+        "title": "什么是Base"
+      },
+      "zora": {
+        "text": "Zora是一个在以太坊之上运行的Layer 2网络，可以实现更便宜和更快的交易，同时仍然享受以太坊底层的安全性。\n\n它将许多交易捆绑在一起，然后将它们发送到以太坊永久存储。",
+        "title": "什么是Zora？"
+      },
+      "polygon": {
+        "text": "Polygon是一个侧链，它是以太坊旁边运行并与之兼容的独立网络。\n\n它可以实现更便宜、更快速的交易，但与第二层网络不同，Polygon拥有自己独特的安全性和共识机制，与以太坊不同。",
+        "title": "什么是Polygon？"
+      },
+      "bsc": {
+        "text": "Binance Smart Chain（BSC）是Binance交易平台的区块链。 \n\nBSC允许更便宜和更快的交易，但与Layer 2网络不同，它有自己的安全性和共识机制，与以太坊不同。",
+        "title": "什么是Binance Smart Chain？"
+      },
+      "read_more": "阅读更多",
+      "learn_more": "了解详情",
+      "sending_to_contract": {
+        "text": "The address you entered is for a smart contract.\n\nExcept for rare situations, you probably shouldn't do this. You could lose your assets or they might go to the wrong place.\n\nDouble check the address, verify it with the recipient, or contact support first.",
+        "title": "请稍等！"
+      },
+      "verified": {
+        "text": "Tokens with a verified badge mean they have appeared on at least 3 other outside token lists.\n\nAlways do your own research to ensure you are interacting with a token you trust.",
+        "title": "已验证的代币"
+      },
+      "unverified": {
+        "fragment1": "彩虹表面尽可能多的代币，但任何人都可以创建一个代币，或声称通过一个伪造的合同代表一个项目。 \n\n 请查阅 ",
+        "fragment2": "代币合约",
+        "fragment3": " 并始终进行研究以确保与您信任的代币进行交互。",
+        "title": "%{symbol} 是未经验证的",
+        "go_back": "返回"
+      },
+      "obtain_l2_asset": {
+        "fragment1": "You'll need to get other tokens on %{networkName} to swap for %{networkName} %{tokenName}. \n\n Bridging tokens to %{networkName} is easy using a bridge like Hop. Still curious? ",
+        "fragment2": "阅读更多",
+        "fragment3": " 关于桥接器的内容。",
+        "title": "在 %{networkName}上没有代币"
+      },
+      "insufficient_liquidity": {
+        "fragment1": "The exchanges don't have enough of the tokens you requested to complete this transaction. \n\n Still curious? ",
+        "fragment2": "阅读更多",
+        "fragment3": " 关于自动市场制造商和代币流动性的内容。",
+        "title": "流动性不足"
+      },
+      "no_route_found": {
+        "fragment1": "我们找不到此兑换的路线。 ",
+        "fragment2": "此兑换可能不存在路线，或者金额可能太小。",
+        "title": "未找到路线"
+      },
+      "no_quote": {
+        "title": "没有报价可用",
+        "text": "我们无法找到此交换的报价。这可能是因为没有足够的流动性进行兑换或者代币的实施存在问题。"
+      },
+      "cross_chain_swap": {
+        "title": "预计桥接延迟",
+        "text": "此兑换可能需要比预期更长的时间才能完成。 \n\n 跨链兑换需要将资金桥接到目标网络，桥接可能需要比预期更长的时间来转移资金。您的资金在此期间将保持安全。"
+      },
+      "go_to_hop_with_icon": {
+        "text": "前往 Hop Bridge 􀮶"
+      },
+      "rainbow_fee": {
+        "text": "Rainbow 从交换中收取 %{feePercentage} 的费用。这是让我们能够为您提供最佳以太坊体验的一部分。"
+      },
+      "swap_routing": {
+        "text": "默认情况下，Rainbow 会选择您交换中最便宜的路线。如果您喜欢专门使用 0x 或 1inch，也可以这样做。",
+        "title": "交换路由",
+        "still_curious": {
+          "fragment1": "还有疑问吗？ ",
+          "fragment2": "阅读更多",
+          "fragment3": " 关于我们的交换路由方法"
+        }
+      },
+      "slippage": {
+        "text": "Slippage occurs when the price of a swap changes during the time between you submitting your transaction and its confirmation. \n\nSetting a higher slippage tolerance increases the likelihood your swap will be successful, but may result in you getting a worse price.",
+        "title": "滑点",
+        "still_curious": {
+          "fragment1": "还有疑问吗？ ",
+          "fragment2": "阅读更多",
+          "fragment3": " 关于滑点及其对交换的影响"
+        }
+      },
+      "flashbots": {
+        "text": "Flashbots 可保护您的交易免受前端运行和夹击攻击的影响，避免您获得更差的价格或交易失败。",
+        "title": "Flashbots",
+        "still_curious": {
+          "fragment1": "还有疑问吗？ ",
+          "fragment2": "阅读更多",
+          "fragment3": " 了解有关 Flashbots 及其提供的保护的信息"
+        }
+      },
+      "swap_refuel": {
+        "title": "未检测到 %{networkName} %{gasToken}",
+        "text": "您将无法在不使用 %{networkName} %{gasToken}的情况下使用 %{networkName} 。我们可以使用您钱包中的约 $3 的 ETH 来无缝捆绑它与此桥接。",
+        "button": "增加 $3 的 %{gasToken}%{networkName}"
+      },
+      "swap_refuel_deduct": {
+        "title": "未检测到 %{networkName} %{gasToken}",
+        "text": "您将无法在不使用 %{networkName} %{gasToken}的情况下使用 %{networkName} 。我们可以使用从此交换中扣除的约 $3 的 ETH 来无缝捆绑它与此桥接。",
+        "button": "调整并增加 $3 的 %{gasToken}"
+      },
+      "swap_refuel_notice": {
+        "title": "未检测到 %{networkName} %{gasToken}",
+        "text": "如果您继续进行此交易，您将无法使用 %{networkName} ， %{networkName} ， %{gasToken}来进行互换、跨链或转账您的 %{networkName} 代币，除非您将 %{networkName} 和 %{gasToken} 添加到您的钱包中。",
+        "button": "仍要继续"
+      }
+    },
+    "fedora": {
+      "cannot_verify_bundle": "无法验证软件包！这可能是一个骗局。安装被阻止。",
+      "error": "错误",
+      "fedora": "Fedora",
+      "this_will_override_bundle": "这将覆盖你的软件包。请小心。你是彩虹公司的员工吗？",
+      "wait": "等待"
+    },
+    "fields": {
+      "address": {
+        "long_placeholder": "名称、ENS 或地址",
+        "short_placeholder": "ENS 或地址"
+      }
+    },
+    "gas": {
+      "network_fee": "预计网络费",
+      "current_base_fee": "当前基础费用",
+      "max_base_fee": "最大基准费用",
+      "miner_tip": "矿工小费",
+      "max_transaction_fee": "最大交易费",
+      "warning_separator": "·",
+      "lower_than_suggested": "较低 · 可能会卡住",
+      "higher_than_suggested": "较高 · 支付过多",
+      "max_base_fee_too_low_error": "较低 · 可能会失败",
+      "tip_too_low_error": "较低 · 可能会失败",
+      "alert_message_higher_miner_tip_needed": "建议设置较高的矿工小费，以避免问题。",
+      "alert_message_higher_max_base_fee_needed": "建议设置较高的最大基本费用，以避免问题。",
+      "alert_message_lower": "请仔细检查您输入的金额是否正确 - 您可能支付过多！",
+      "alert_title_higher_max_base_fee_needed": "最低基本费用较低-交易可能会被卡住！",
+      "alert_title_higher_miner_tip_needed": "最低矿工小费-交易可能会被卡住！",
+      "alert_title_lower_max_base_fee_needed": "最高基本费用！",
+      "alert_title_lower_miner_tip_needed": "最高矿工小费！",
+      "proceed_anyway": "仍然继续",
+      "edit_max_bass_fee": "编辑最大基本费用",
+      "edit_miner_tip": "编辑矿工小费"
+    },
+    "homepage": {
+      "back": "返回 rainbow.me",
+      "coming_soon": "即将推出。",
+      "connect_ledger": {
+        "button": "连接到 Ledger",
+        "description": "连接并使用你的 ",
+        "link_text": "Ledger 硬件钱包",
+        "link_title": "购买 Ledger 硬件钱包"
+      },
+      "connect_metamask": {
+        "button": "连接到 MetaMask",
+        "description": "连接到 ",
+        "link_text": "MetaMask 浏览器钱包",
+        "link_title": "MetaMask 浏览器钱包"
+      },
+      "connect_trezor": {
+        "button": "连接到 Trezor",
+        "description": "连接并使用你的 ",
+        "link_text": "Trezor 硬件钱包",
+        "link_title": "购买 Trezor 硬件钱包"
+      },
+      "connect_trustwallet": {
+        "button": "连接到 Trust Wallet",
+        "description_part_one": "使用 ",
+        "description_part_three": " 应用进行连接。",
+        "description_part_two": " 以太坊 ",
+        "link_text_browser": "DApp 浏览器",
+        "link_text_wallet": "Trust Wallet",
+        "link_title_browser": "发现 Trust DApp 浏览器",
+        "link_title_wallet": "发现 Trust Wallet"
+      },
+      "connect_walletconnect": {
+        "button": "使用WalletConnect",
+        "button_mobile": "通过 WalletConnect 连接",
+        "description": "扫描QR码链接您的移动钱包 ",
+        "description_mobile": "连接到任何支持的钱包 ",
+        "link_text": "使用WalletConnect",
+        "link_text_mobile": "WalletConnect",
+        "link_title": "使用WalletConnect",
+        "link_title_mobile": "通过 WalletConnect 连接"
+      },
+      "reassurance": {
+        "access_link": "无法访问您的资金",
+        "assessment": "我们的安全评估结果",
+        "security": "我们非常努力确保您的资金安全。该工具从不接触您的私钥，因此大大减少了攻击的可能性。如果您熟悉编程，可以在GitHub上查看我们的代码。",
+        "security_title": "Manager有多安全？",
+        "source": "查看我们的源代码",
+        "text_mobile": "您需要使用以太坊钱包访问Balance Manager，以查看、发送和交换您的以太币和基于以太坊的代币。",
+        "tracking_link": "我们不追踪您的信息",
+        "work": "这是一个基于网络的工具，可以帮助您管理钱包中的资金。它通过API连接到您的钱包来实现此功能。以下是关于我们如何设计Balance Manager的一些重要要点：",
+        "work_title": "Manager是如何工作的？"
+      },
+      "discover_web3": "发现Web3"
+    },
+    "image_picker": {
+      "cancel": "取消",
+      "confirm": "启用图库访问",
+      "message": "这样Rainbow就可以使用您图库中的照片",
+      "title": "Rainbow想要访问您的照片"
+    },
+    "input": {
+      "asset_amount": "数额",
+      "donation_address": "平衡管理者地址",
+      "email": "电子邮件",
+      "email_placeholder": "your@email.com",
+      "input_placeholder": "在这里输入",
+      "input_text": "输入",
+      "password": "密码",
+      "password_placeholder": "••••••••••",
+      "private_key": "私钥",
+      "recipient_address": "接收人地址"
+    },
+    "list": {
+      "share": {
+        "check_out_my_wallet": "在 🌈 彩虹上查看我的收藏品 %{showcaseUrl}",
+        "check_out_this_wallet": "在 🌈 彩虹上查看该钱包的收藏品 %{showcaseUrl}"
+      }
+    },
+    "message": {
+      "click_to_copy_to_clipboard": "点击以复制到剪贴板",
+      "coming_soon": "即将推出...",
+      "exchange_not_available": "由于其新的 KYC 要求，我们不再支持 Shapeshift。我们正在努力支持其他的交易平台。",
+      "failed_ledger_connection": "连接到 Ledger 失败，请检查您的设备",
+      "failed_request": "请求失败，请刷新页面",
+      "failed_trezor_connection": "连接到 Trezor 失败，请检查您的设备",
+      "failed_trezor_popup_blocked": "请允许 Balance 使用您的 Trezor 弹出窗口",
+      "learn_more": "了解更多",
+      "no_interactions": "没有找到适用于此账户的交互",
+      "no_transactions": "没有找到适用于此账户的交易",
+      "no_unique_tokens": "没有找到适用于此账户的唯一代币",
+      "opensea_footer": " 是一个唯一（或'非同质化'）代币的市场。人们在市场上交易，因此代币有了价值。您可以抵押代币以获取资金。所有这些都建立在以太坊上。 ",
+      "opensea_header": "这个是如何工作的？",
+      "page_not_found": "404 页面未找到",
+      "please_connect_ledger": "请连接并解锁 Ledger，然后选择 Ethereum",
+      "please_connect_trezor": "请连接您的 Trezor 并按照说明操作",
+      "power_by": "Powered by",
+      "walletconnect_not_unlocked": "请使用 WalletConnect 进行连接",
+      "web3_not_available": "请安装 MetaMask Chrome 扩展程序",
+      "web3_not_unlocked": "请解锁您的 MetaMask 钱包",
+      "web3_unknown_network": "未知网络，请切换到另一个"
+    },
+    "modal": {
+      "approve_tx": "在 %{walletType}上批准交易",
+      "back_up": {
+        "alerts": {
+          "cloud_not_enabled": {
+            "description": "似乎您的设备未启用 iCloud drive。\n\n 是否想了解如何启用？",
+            "label": "未启用 iCloud",
+            "no_thanks": "不，谢谢",
+            "show_me": "是的，我要看"
+          }
+        },
+        "default": {
+          "button": {
+            "cloud": "备份您的钱包",
+            "cloud_platform": "备份到 %{cloudPlatformName}",
+            "manual": "手动备份"
+          },
+          "description": "别丢了您的钱包！保存一个加密副本到 %{cloudPlatformName}",
+          "title": "备份您的钱包"
+        },
+        "existing": {
+          "button": {
+            "later": "稍后再说",
+            "now": "立即备份"
+          },
+          "description": "您有尚未备份的钱包。备份它们以防丢失此设备。",
+          "title": "你想要备份吗？"
+        },
+        "imported": {
+          "button": {
+            "back_up": "备份到 %{cloudPlatformName}",
+            "no_thanks": "不，谢谢"
+          },
+          "description": "不要丢失您的钱包！将加密副本保存到 %{cloudPlatformName}。",
+          "title": "你想要备份吗？"
+        }
+      },
+      "confirm_tx": "确认来自 %{walletName}的交易",
+      "default_wallet": " 钱包",
+      "deposit_dropdown_label": "兑换我的",
+      "deposit_input_label": "支付",
+      "donate_title": "从 %{walletName} 发送到余额管理器",
+      "exchange_fee": "兑换费用",
+      "exchange_max": "兑换最大值",
+      "exchange_title": "从 %{walletName}兑换",
+      "external_link_warning": {
+        "go_back": "返回",
+        "visit_external_link": "访问外部链接？",
+        "you_are_attempting_to_visit": "您正在尝试访问一个与彩虹无关的链接。"
+      },
+      "gas_average": "平均",
+      "gas_fast": "快速",
+      "gas_fee": "费用",
+      "gas_slow": "慢速",
+      "helper_max": "最大",
+      "helper_min": "最小",
+      "helper_price": "价格",
+      "helper_rate": "汇率",
+      "helper_value": "价值",
+      "invalid_address": "无效地址",
+      "new": "新建",
+      "previous_short": "上一页",
+      "receive_title": "收到 %{walletName}",
+      "send_max": "发送最大值",
+      "send_title": "从 %{walletName}发送",
+      "tx_confirm_amount": "数额",
+      "tx_confirm_fee": "交易费用",
+      "tx_confirm_recipient": "收件人",
+      "tx_confirm_sender": "寄件人",
+      "tx_fee": "交易费用",
+      "tx_hash": "交易哈希",
+      "tx_verify": "在这里验证您的交易",
+      "withdrawal_dropdown_label": "为",
+      "withdrawal_input_label": "获取"
+    },
+    "nft_offers": {
+      "card": {
+        "title": {
+          "singular": "1项报价",
+          "plural": "%{numOffers} 项报价"
+        },
+        "button": "查看所有报价",
+        "expired": "已过期"
+      },
+      "sheet": {
+        "title": "报价",
+        "total": "总计",
+        "above_floor": "高于最低价",
+        "below_floor": "低于最低价",
+        "no_offers_found": "未找到报价"
+      },
+      "sort_menu": {
+        "highest": "最高价",
+        "from_floor": "从最低价",
+        "recent": "最新报价"
+      },
+      "single_offer_sheet": {
+        "title": "报价",
+        "expires_in": "%{timeLeft}后过期",
+        "floor_price": "底价",
+        "marketplace": "市场",
+        "marketplace_fees": "%{marketplace} 费用",
+        "creator_royalties": "创作者版税",
+        "receive": "接收",
+        "proceeds": "收益",
+        "view_offer": "查看报价",
+        "hold_to_accept": "按住接受",
+        "offer_expired": "报价已过期",
+        "expired": "已过期"
+      }
+    },
+    "notification": {
+      "error": {
+        "failed_get_account_tx": "无法获取帐户交易",
+        "failed_get_gas_prices": "无法获取以太坊燃气价格",
+        "failed_get_tx_fee": "无法估算交易费用",
+        "failed_scanning_qr_code": "无法扫描二维码，请重试",
+        "generic_error": "出了些问题，请重试",
+        "insufficient_balance": "此帐户余额不足",
+        "insufficient_for_fees": "余额不足以支付交易费用",
+        "invalid_address": "地址无效，请核对后重试",
+        "invalid_address_scanned": "扫描的地址无效，请重试",
+        "invalid_private_key_scanned": "扫描的私钥无效，请重试",
+        "no_accounts_found": "未找到以太坊帐户"
+      },
+      "info": {
+        "address_copied_to_clipboard": "地址已复制到剪贴板"
+      }
+    },
+    "pools": {
+      "deposit": "存款",
+      "pools_title": "池",
+      "withdraw": "提取"
+    },
+    "profiles": {
+      "actions": {
+        "edit_profile": "编辑个人资料",
+        "unwatch_ens": "取消关注 %{ensName}",
+        "unwatch_ens_title": "您确定要取消关注 %{ensName}吗？",
+        "watch": "关注",
+        "watching": "关注中"
+      },
+      "banner": {
+        "register_name": "创建您的ENS个人资料",
+        "and_create_ens_profile": "搜索可用的.eth名称"
+      },
+      "select_ens_name": "我的ENS名称",
+      "confirm": {
+        "confirm_registration": "确认注册",
+        "confirm_updates": "确认更新",
+        "duration_plural": "%{content} 年",
+        "duration_singular": "1年",
+        "estimated_fees": "网络费用估计",
+        "estimated_total": "总计估计",
+        "estimated_total_eth": "以太币总计估计",
+        "extend_by": "延长",
+        "extend_registration": "延长注册",
+        "hold_to_begin": "按住开始",
+        "hold_to_confirm": "按住确认",
+        "hold_to_extend": "按住延长",
+        "hold_to_register": "按住注册",
+        "insufficient_bnb": "BNB不足",
+        "insufficient_eth": "ETH不足",
+        "last_step": "最后一步",
+        "last_step_description": "请确认以下内容以注册您的用户名并配置个人资料",
+        "new_expiration_date": "新到期日期",
+        "registration_cost": "注册费用",
+        "registration_details": "注册详情",
+        "registration_duration": "为注册命名",
+        "requesting_register": "请求注册",
+        "reserving_name": "保留您的名称",
+        "set_ens_name": "将其设为我的主要ENS名称",
+        "set_name_registration": "设为主要名称",
+        "speed_up": "加快",
+        "suggestion": "现在购买更多年份以节省费用",
+        "transaction_pending": "交易待定",
+        "transaction_pending_description": "此交易在区块链上确认后，您将自动进入下一步",
+        "wait_one_minute": "等待一分钟",
+        "wait_one_minute_description": "此等待期确保其他人在您之前无法注册此名称"
+      },
+      "create": {
+        "add_cover": "添加封面",
+        "back": "􀆉 返回",
+        "bio": "个人简介",
+        "bio_placeholder": "添加个人简介到您的资料页",
+        "btc": "比特币",
+        "cancel": "取消",
+        "choose_nft": "选择一个NFT",
+        "content": "内容",
+        "content_placeholder": "添加内容哈希",
+        "discord": "Discord",
+        "doge": "狗狗币",
+        "email": "电子邮件",
+        "invalid_email": "邮箱无效",
+        "email_placeholder": "添加您的邮箱",
+        "invalid_username": "无效的 %{app} 用户名",
+        "eth": "以太坊",
+        "github": "GitHub",
+        "instagram": "Instagram",
+        "invalid_asset": "无效的 %{coin} 地址",
+        "invalid_content_hash": "无效的内容哈希",
+        "keywords": "关键词",
+        "keywords_placeholder": "添加关键词",
+        "label": "创建您的个人资料",
+        "ltc": "莱特币",
+        "name": "姓名",
+        "name_placeholder": "添加显示名称",
+        "notice": "注意事项",
+        "notice_placeholder": "添加注意事项",
+        "pronouns": "代词",
+        "pronouns_placeholder": "添加代词",
+        "reddit": "Reddit",
+        "remove": "移除",
+        "review": "审核",
+        "skip": "跳过",
+        "snapchat": "Snapchat",
+        "telegram": "电报",
+        "twitter": "推特",
+        "upload_photo": "上传照片",
+        "uploading": "正在上传",
+        "username_placeholder": "用户名",
+        "wallet_placeholder": "添加一个 %{coin} 地址",
+        "website": "网站",
+        "invalid_website": "无效的网址",
+        "website_placeholder": "添加您的网站"
+      },
+      "details": {
+        "add_to_contacts": "添加至联系人",
+        "copy_address": "复制地址",
+        "open_wallet": "打开钱包",
+        "remove_from_contacts": "从联系人中删除",
+        "share": "分享",
+        "view_on_etherscan": "在 Etherscan 上查看"
+      },
+      "edit": {
+        "label": "编辑您的个人资料"
+      },
+      "intro": {
+        "choose_another_name": "选择另一个ENS名称",
+        "create_your": "创建您的",
+        "ens_profile": "ENS个人资料",
+        "find_your_name": "找到您的名称",
+        "my_ens_names": "我的ENS名称",
+        "portable_identity_info": {
+          "description": "在网站之间使用您的ENS名称和个人资料，无需再次注册。",
+          "title": "一个便携式数字身份"
+        },
+        "search_new_ens": "找一个新名称",
+        "search_new_name": "搜索新的ENS名称",
+        "stored_on_blockchain_info": {
+          "description": "您的个人资料直接存储在以太坊上，属于您自己。",
+          "title": "存储在以太坊上"
+        },
+        "edit_name": "编辑 %{name}",
+        "use_existing_name": "使用现有的ENS名称",
+        "use_name": "使用 %{name}",
+        "wallet_address_info": {
+          "description": "发送到ENS名称而不是难以记住的钱包地址。",
+          "title": "更好的钱包地址"
+        }
+      },
+      "pending_registrations": {
+        "alert_cancel": "取消",
+        "alert_confirm": "仍然继续",
+        "alert_message": "“您即将停止注册过程。\n  您需要重新开始，这意味着您需要发送额外的交易。”",
+        "alert_title": "确定吗？",
+        "finish": "完成",
+        "in_progress": "进行中"
+      },
+      "profile_avatar": {
+        "choose_from_library": "从库中选择",
+        "create_profile": "创建个人资料",
+        "edit_profile": "编辑个人资料",
+        "pick_emoji": "选择表情符号",
+        "shuffle_emoji": "随机切换表情符号",
+        "remove_photo": "移除照片",
+        "view_profile": "查看个人资料"
+      },
+      "search": {
+        "header": "找到您的名称",
+        "description": "搜索可用ENS名称",
+        "available": "🥳 可用",
+        "taken": "😭 已注册",
+        "registered_on": "此名称最后注册于 %{content}",
+        "price": "%{content} / 年",
+        "expiration": "至 %{content}",
+        "3_char_min": "最少3个字符",
+        "already_registering_name": "您已经在注册此名称",
+        "estimated_total_cost_1": "预估总成本为",
+        "estimated_total_cost_2": "使用当前网络费用",
+        "loading_fees": "加载网络费用…",
+        "clear": "􀅉 清除",
+        "continue": "继续 􀆊",
+        "finish": "完成 􀆊",
+        "and_create_ens_profile": "搜索可用的.eth名称",
+        "register_name": "创建您的ENS个人资料"
+      },
+      "search_validation": {
+        "invalid_domain": "这是一个无效的域名",
+        "tld_not_supported": "不支持此顶级域名",
+        "subdomains_not_supported": "不支持子域名",
+        "invalid_length": "您的名称必须至少为3个字符",
+        "invalid_special_characters": "您的名称不能包含特殊字符"
+      },
+      "records": {
+        "since": "自"
+      }
+    },
+    "promos": {
+      "swaps_launch": {
+        "primary_button": "􀖅 尝试一次交换",
+        "secondary_button": "稍后再说",
+        "info_row_1": {
+          "title": "交换所有您喜欢的代币",
+          "description": "Rainbow 在每个地方搜索，为您的交易找到最佳汇率。"
+        },
+        "info_row_2": {
+          "title": "直接在L2上交换",
+          "description": "在 Arbitrum、Optimism、Polygon 和 BSC 上快速便宜地进行交换。"
+        },
+        "info_row_3": {
+          "title": "Flashbots 保护",
+          "description": "价格保护，以及失败交换免费。在交换设置中启用。"
+        },
+        "header": "Rainbow 上的交换",
+        "subheader": "重新介绍"
+      },
+      "notifications_launch": {
+        "primary_button": {
+          "permissions_enabled": "配置",
+          "permissions_not_enabled": "启用"
+        },
+        "secondary_button": "暂不启用",
+        "info_row_1": {
+          "title": "所有钱包活动",
+          "description": "获取关于您的钱包或您正在关注的钱包的活动通知。"
+        },
+        "info_row_2": {
+          "title": "闪电般快速",
+          "description": "立即了解区块链上的交易确认。"
+        },
+        "info_row_3": {
+          "title": "可定制",
+          "description": "发送、接收、销售、铸造、交换等。选择您想要的。"
+        },
+        "header": "通知",
+        "subheader": "介绍"
+      }
+    },
+    "review": {
+      "alert": {
+        "are_you_enjoying_rainbow": "您喜欢使用 Rainbow 吗？ 🥰",
+        "leave_a_review": "在App Store上留下评论！",
+        "no": "不",
+        "yes": "是的"
+      }
+    },
+    "poaps": {
+      "title": "您发现了一个POAP！",
+      "view_on_poap": "在POAP上查看 􀮶",
+      "mint_poap": "􀑒铸造POAP",
+      "minting": "铸造中...",
+      "minted": "POAP铸造完成！",
+      "error": "铸造错误",
+      "error_messages": {
+        "limit_exceeded": "此POAP已经全部铸造完毕！",
+        "event_expired": "此POAP铸造已过期！",
+        "unknown": "未知错误"
+      }
+    },
+    "rewards": {
+      "total_earnings": "总收入",
+      "you_earned": "您已经赚取了 ",
+      "pending_earnings": "待定收益",
+      "next_airdrop": "下次空投",
+      "last_airdrop": "上次空投",
+      "my_stats": "我的统计",
+      "swapped": "交换完成",
+      "bridged": "桥接",
+      "position": "职位",
+      "leaderboard": "排行榜",
+      "leaderboard_data_refresh_notice": "更新周期性地进行。如果您的最新活动没有反映，请稍后查看。",
+      "program_paused": "􀊗暂停",
+      "program_paused_description": "竞赛目前已暂停，不久将恢复。请随后查看更新。",
+      "program_finished": "􀜪 已结束",
+      "program_finished_description": "第一轮竞赛已结束。最终排行榜和奖励奖励如下所示。",
+      "days_left": "剩余%{days} 天",
+      "data_powered_by": "数据来自",
+      "current_value": "当前价值",
+      "rewards_claimed": "已领取的每周奖励",
+      "refreshes_next_week": "下周刷新",
+      "all_rewards_claimed": "本周的全部奖励已领取",
+      "rainbow_users_claimed": "彩虹用户声称 %{amount}",
+      "refreshes_in_with_days": "在 %{days} 天 %{hours} 小时之后刷新",
+      "refreshes_in_without_days": "在 %{hours} 小时之后刷新",
+      "percent": "%{percent}% 奖励",
+      "error_title": "出了点问题",
+      "error_text": "请检查您的互联网连接并稍后再试",
+      "ended_title": "项目已结束",
+      "ended_text": "敬请期待接下来为您准备的新内容",
+      "op": {
+        "airdrop_timing": {
+          "title": "每周空投",
+          "text": "在Optimism上交易或桥接到Optimism可以赚取OP奖励。每周结束时，您所赚取的奖励将会空投到您的钱包中"
+        },
+        "amount_distributed": {
+          "title": "每周分发67,850 OP",
+          "text": "每周最多可以分发67,850 OP的奖励。如果每周奖励用完，则奖励将暂停，并在下周恢复"
+        },
+        "bridge": {
+          "title": "桥接可以赚取0.125%的奖励",
+          "text": "在奖励有效期内，将验证的代币桥接到Optimism将会以约0.125%的OP返还。每天会定期更新\n\n的数据。如果您没有看到最近的桥接数据，请稍后再来查看"
+        },
+        "swap": {
+          "title": "在交换中赚取0.425%",
+          "text": "当奖励生效时，在Optimism上交换经过验证的代币将为您带来约0.425%的OP返现。\n\n统计信息每天定期更新。如果您没有在此处看到最近的交换信息，请稍后再查看。"
+        },
+        "position": {
+          "title": "排行榜位置",
+          "text": "通过交换和桥接获得的OP越多，您在排行榜上的排名就越高。如果您在比赛结束时进入前100名，您将获得高达8,000 OP的额外奖励。"
+        }
+      }
+    },
+    "positions": {
+      "open_dapp": "打开􀮶",
+      "deposits": "存款",
+      "borrows": "借款",
+      "rewards": "奖励"
+    },
+    "savings": {
+      "deposit": "存款",
+      "deposit_from_wallet": "从钱包存款",
+      "earned_lifetime_interest": "已赚取 %{lifetimeAccruedInterest}",
+      "earnings": {
+        "100_year": "百年",
+        "10_year": "十年",
+        "20_year": "二十年",
+        "50_year": "五十年",
+        "5_year": "五年",
+        "est": "估计",
+        "label": "收益",
+        "monthly": "每月",
+        "yearly": "每年"
+      },
+      "get_prefix": "获取",
+      "label": "储蓄",
+      "on_your_dollars_suffix": "在你的美元上",
+      "percentage": "%{percentage}%",
+      "percentage_apy": "%{percentage}% APY",
+      "with_digital_dollars_line_1": "通过像Dai这样的数字美元，节省",
+      "with_digital_dollars_line_2": "比以往赚更多",
+      "withdraw": "提取",
+      "zero_currency": "$0.00"
+    },
+    "send_feedback": {
+      "copy_email": "复制电子邮件地址",
+      "email_error": {
+        "description": "您是否想手动将我们的反馈电子邮件地址复制到您的剪贴板？",
+        "title": "启动电子邮件客户端时出错"
+      },
+      "no_thanks": "不，谢谢"
+    },
+    "settings": {
+      "backup": "备份",
+      "google_account_used": "用于备份的Google帐户",
+      "backup_switch_google_account": "切换Google帐户",
+      "backup_sign_out": "退出",
+      "backup_sign_in": "登录",
+      "backup_loading": "加载中...",
+      "backup_google_account": "Google帐户",
+      "currency": "货币",
+      "app_icon": "应用图标",
+      "dev": "Dev",
+      "developer": "开发人员设置",
+      "done": "完成",
+      "feedback_and_reports": "反馈和漏洞报告",
+      "feedback_and_support": "反馈和支持",
+      "follow_us_on_twitter": "在 Twitter 上关注我们",
+      "hey_friend_message": "👋️ 朋友！您应该下载彩虹，这是我最喜欢的以太坊钱包 🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️",
+      "label": "设置",
+      "language": "语言",
+      "learn": "了解以太坊",
+      "network": "网络",
+      "notifications": "通知",
+      "notifications_section": {
+        "my_wallets": "我的钱包",
+        "watched_wallets": "观察的钱包",
+        "allow_notifications": "允许通知",
+        "sent": "已发送",
+        "received": "已收到",
+        "purchased": "已购买",
+        "sold": "已出售",
+        "minted": "已铸造",
+        "swapped": "交换完成",
+        "approvals": "已批准",
+        "other": "合约和其他",
+        "all": "全部",
+        "off": "关闭",
+        "plus_n_more": "+ %{n} 更多",
+        "no_permissions": "看起来您的通知权限已禁用。请在设置中启用它们，以接收来自Rainbow的通知。",
+        "no_watched_wallets": "您没有监视任何钱包。",
+        "no_owned_wallets": "您在Rainbow中没有任何钱包。创建一个钱包或使用您的秘密短语导入一个。",
+        "open_system_settings": "打开设置",
+        "unsupported_network": "目前，通知仅适用于以太坊主网络交易。",
+        "change_network": "更改您的网络",
+        "no_first_time_permissions": "请允许Rainbow发送通知给您。",
+        "first_time_allow_notifications": "允许通知",
+        "error_alert_title": "订阅失败",
+        "error_alert_content": "请稍后重试。",
+        "offline_alert_content": "似乎您没有连接互联网。\n\n请稍后再试。",
+        "no_settings_for_address_title": "此钱包没有设置",
+        "no_settings_for_address_content": "此钱包没有设置。\n请尝试重新启动应用程序或稍后再试。"
+      },
+      "privacy": "隐私",
+      "privacy_section": {
+        "public_showcase": "公开展示",
+        "when_public": "公开时，您的 NFT 展示将在您的 Rainbow 个人资料中可见！",
+        "when_public_prefix": "公开时，您的 NFT 展示将在您的 Rainbow 网页个人资料中可见！您可以在以下网址查看您的个人资料：",
+        "view_profile": "查看您的个人资料",
+        "analytics_toggle": "分析",
+        "analytics_toggle_description": "通过允许使用情况数据进行分析，帮助Rainbow改进其产品和服务。收集的数据不与您或您的账户关联。"
+      },
+      "restore": "恢复到原始部署",
+      "review": "评价 Rainbow",
+      "share_rainbow": "分享 Rainbow",
+      "theme": "主题",
+      "theme_section": {
+        "system": "系统",
+        "dark": "深色",
+        "light": "浅色"
+      },
+      "icon_change": {
+        "title": "确认更改图标",
+        "warning": "更改图标可能会导致 Rainbow 重新启动。",
+        "confirm": "确认",
+        "cancel": "取消"
+      }
+    },
+    "subscribe_form": {
+      "email_already_subscribed": "对不起，您已经使用此电子邮件注册",
+      "generic_error": "糟糕，出了点问题",
+      "sending": "发送中...",
+      "successful": "请查看您的电子邮件",
+      "too_many_signup_request": "请求注册过多，请稍后重试"
+    },
+    "swap": {
+      "choose_token": "选择代币",
+      "gas": {
+        "custom": "自定义",
+        "edit_price": "编辑燃料价格",
+        "enter_price": "输入气价",
+        "estimated_fee": "预计费用",
+        "fast": "快速",
+        "network_fee": "网络费",
+        "normal": "普通",
+        "slow": "慢速"
+      },
+      "loading": "加载中...",
+      "modal_types": {
+        "confirm": "确认",
+        "deposit": "存款",
+        "receive": "接收",
+        "swap": "交换",
+        "get_symbol_with": "获取 %{symbol} 与",
+        "withdraw": "提取",
+        "withdraw_symbol": "提取 %{symbol}"
+      },
+      "warning": {
+        "cost": {
+          "are_you_sure_title": "确定吗？",
+          "this_transaction_will_cost_you_more": "这笔交易的成本将超过您兑换的价值，您确定要继续吗？"
+        },
+        "edit_price": "编辑燃料价格",
+        "invalid_price": {
+          "message": "您需要输入有效金额",
+          "title": "无效的气价"
+        },
+        "too_high": {
+          "message": "请仔细检查您输入的金额是否正确 - 您可能支付过多！",
+          "title": "高气价！"
+        },
+        "too_low": {
+          "message": "建议设置较高的气价以避免问题。",
+          "title": "低气价-交易可能会被卡住！"
+        }
+      }
+    },
+    "transaction_details": {
+      "from": "来自",
+      "to": "至",
+      "value": "价值",
+      "hash": "Tx散列",
+      "network_fee": "网络费",
+      "hash_copied": "􀁣 交易哈希已复制",
+      "address_copied": "􀁣 地址已复制",
+      "try_again": "􀅉 重试",
+      "context_menu": {
+        "copy_address": "复制地址",
+        "send": "发送",
+        "add_contact": "添加至联系人",
+        "edit_contact": "编辑联系人"
+      },
+      "actions_menu": {
+        "speed_up": "加快",
+        "cancel": "取消",
+        "remove": "移除"
+      }
+    },
+    "time": {
+      "days": {
+        "long": {
+          "plural": "天",
+          "singular": "天"
+        },
+        "micro": "d",
+        "short": {
+          "plural": "天",
+          "singular": "天"
+        }
+      },
+      "hours": {
+        "long": {
+          "plural": "小时",
+          "singular": "小时"
+        },
+        "micro": "h",
+        "short": {
+          "plural": "小时",
+          "singular": "小时"
+        }
+      },
+      "milliseconds": {
+        "long": {
+          "plural": "毫秒",
+          "singular": "毫秒"
+        },
+        "micro": "ms",
+        "short": {
+          "plural": "ms",
+          "singular": "ms"
+        }
+      },
+      "minutes": {
+        "long": {
+          "plural": "分钟",
+          "singular": "分钟"
+        },
+        "micro": "分",
+        "short": {
+          "plural": "分钟",
+          "singular": "分钟"
+        }
+      },
+      "now": "现在",
+      "seconds": {
+        "long": {
+          "plural": "秒",
+          "singular": "秒"
+        },
+        "micro": "秒",
+        "short": {
+          "plural": "秒",
+          "singular": "秒"
+        }
+      }
+    },
+    "toasts": {
+      "copied": "复制\"%{copiedText}\"",
+      "invalid_paste": "您不能在此粘贴"
+    },
+    "hardware_wallets": {
+      "pair_your_nano": "配对您的Nano X",
+      "connect_your_ledger": "通过蓝牙将您的Ledger Nano X与Rainbow连接。如果这是您第一次使用，Rainbow将要求使用蓝牙访问权限。",
+      "learn_more_about_ledger": "了解更多关于Ledger的信息",
+      "pair_a_new_ledger": "配对新的Ledger",
+      "looking_for_devices": "正在查找设备",
+      "confirm_on_device": "在设备上确认",
+      "transaction_rejected": "交易被拒绝",
+      "please_try_again": "如果您想继续，请重新尝试",
+      "connected_and_ready": "您的Ledger已连接，请在您的设备上查看并确认交易。",
+      "make_sure_bluetooth_enabled": "确保您已开启蓝牙，并解锁您的Ledger Nano X。",
+      "device_connected": "设备已连接",
+      "almost_done": "即将完成。在完成之前，您需要在您的Ledger设备上启用盲签名。",
+      "enable_blind_signing": "启用盲签名",
+      "blind_signing_enabled": "盲签名已启用",
+      "blind_signing_description": "盲签名使您的设备可以批准签署智能合约交易。",
+      "learn_more": "了解详情",
+      "finish_importing": "完成导入",
+      "blind_signing_instructions": {
+        "step_1": {
+          "title": "在Ledger上打开ETH应用",
+          "description": "连接并解锁您的设备，并打开以太坊（ETH）应用程序。"
+        },
+        "step_2": {
+          "title": "导航至设置",
+          "description": "按右键导航至设置。然后按下双键以验证您的Ledger设备显示盲签名。"
+        },
+        "step_3": {
+          "title": "启用盲签名",
+          "description": "按下双键以启用交易的盲签名。如果设备显示已启用，则可以继续进行操作。"
+        }
+      },
+      "unlock_ledger": "解锁Ledger",
+      "open_eth_app": "打开ETH应用",
+      "open_eth_app_description": "在您的Ledger上需要打开以太坊应用程序才能继续交易。",
+      "enter_passcode": "输入密码解锁您的Ledger。解锁后，同时按下两个按钮打开以太坊应用。",
+      "errors": {
+        "off_or_locked": "确保您的设备已解锁",
+        "no_eth_app": "在您的设备上打开以太坊应用",
+        "unknown": "未知错误，请关闭并重新打开此表"
+      },
+      "pairing_error_alert": {
+        "title": "连接错误",
+        "body": "请重试，如果问题仍存在，请关闭应用并再次尝试"
+      }
+    },
+    "wallet": {
+      "action": {
+        "add_another": "添加另一个钱包",
+        "cancel": "取消",
+        "copy_contract_address": "复制合约地址",
+        "delete": "删除钱包",
+        "delete_confirm": "确定要删除此钱包吗？",
+        "edit": "编辑钱包",
+        "hide": "隐藏",
+        "import_wallet": "添加钱包",
+        "input": "交易输入",
+        "notifications": {
+          "action_title": "通知设置",
+          "alert_title": "此钱包没有设置",
+          "alert_message": "此钱包没有设置。\n请尝试重新启动应用程序或稍后再试。"
+        },
+        "pair_hardware_wallet": "配对Ledger Nano X",
+        "paste": "粘贴",
+        "pin": "固定",
+        "reject": "拒绝",
+        "remove": "移除钱包",
+        "remove_confirm": "确定要移除此钱包吗？",
+        "send": "发送",
+        "to": "至",
+        "unhide": "取消隐藏",
+        "unpin": "取消固定",
+        "value": "价值",
+        "view_on": "在 %{blockExplorerName}上查看"
+      },
+      "add_cash": {
+        "card_notice": "适用于大多数借记卡",
+        "interstitial": {
+          "other_amount": "其他金额"
+        },
+        "need_help_button_email_subject": "支持",
+        "need_help_button_label": "获取支持",
+        "on_the_way_line_1": "您的 %{currencySymbol} 快就好了",
+        "on_the_way_line_2": "即将到达",
+        "purchase_failed_order_id": "订单编号： %{orderId}",
+        "purchase_failed_subtitle": "您未被收费。",
+        "purchase_failed_support_subject": "购买失败",
+        "purchase_failed_support_subject_with_order_id": "购买失败 - 订单 %{orderId}",
+        "purchase_failed_title": "很抱歉，您的购买失败了。",
+        "purchasing_dai_requires_eth_message": "在购买 DAI 前，您必须在钱包中有一些 ETH！",
+        "purchasing_dai_requires_eth_title": "您没有任何 ETH！",
+        "running_checks": "正在运行检查...",
+        "success_message": "它来了 🥳",
+        "watching_mode_confirm_message": "您所打开的钱包是只读的，因此您无法控制其中的内容。您确定要向 %{truncatedAddress}添加金额吗？",
+        "watching_mode_confirm_title": "您处于“观察模式”"
+      },
+      "add_cash_v2": {
+        "generic_error": {
+          "title": "出了点问题",
+          "message": "我们的团队已收到通知，并将尽快处理。",
+          "button": "确定"
+        },
+        "unauthenticated_ratio_error": {
+          "title": "很抱歉，您未能通过身份验证",
+          "message": "为您的安全起见，在使用Ratio购买加密货币之前，您必须进行身份验证。"
+        },
+        "support_emails": {
+          "help": "我需要购买密码货币的帮助 %{provider}",
+          "account_recovery": "购买密码货币的账户恢复"
+        },
+        "sheet_empty_state": {
+          "title": "找不到您首选的供应商？",
+          "description": "请稍后查看更多选项"
+        },
+        "explain_sheet": {
+          "semi_supported": {
+            "title": "购买成功！",
+            "text": "我们尚未完全支持此资产，但我们正在努力！您很快将在您的钱包中看到它。"
+          }
+        }
+      },
+      "alert": {
+        "finish_importing": "完成导入",
+        "looks_like_imported_public_address": "\n，看起来您只导入了此钱包的公共地址。为了控制其中的内容，您需要先导入私钥或秘密短语。",
+        "nevermind": "算了",
+        "this_wallet_in_watching_mode": "该钱包当前处于“观察”模式！"
+      },
+      "alerts": {
+        "dont_have_asset_in_wallet": "看起来您的钱包中没有该资产...",
+        "invalid_ethereum_url": "无效的以太坊地址",
+        "ooops": "哎呀！",
+        "this_action_not_supported": "此操作目前不支持 :("
+      },
+      "assets": {
+        "no_price": "小余额"
+      },
+      "authenticate": {
+        "alert": {
+          "current_authentication_not_secure_enough": "您当前的身份验证方法（面部识别）不够安全，请前往“设置 > 生物识别与安全”启用其他生物特征识别方法，例如指纹或虹膜。",
+          "error": "错误"
+        },
+        "please": "请进行身份验证",
+        "please_seed_phrase": "请进行身份验证以查看私钥"
+      },
+      "back_ups": {
+        "and_1_more_wallet": "还有 1 个钱包",
+        "and_more_wallets": "还有 %{moreWalletCount} 个钱包",
+        "backed_up": "已备份",
+        "backed_up_manually": "已手动备份",
+        "imported": "已导入"
+      },
+      "balance_title": "余额",
+      "buy": "购买",
+      "change_wallet": {
+        "balance_eth": "%{balanceEth} ETH",
+        "watching": "关注中",
+        "ledger": "Ledger"
+      },
+      "connected_apps": "连接的应用程序",
+      "copy": "复制",
+      "copy_address": "复制地址",
+      "diagnostics": {
+        "authenticate_with_pin": "使用 PIN 进行身份验证",
+        "restore": {
+          "address": "地址",
+          "created_at": "创建于",
+          "heads_up_title": "注意！",
+          "key": "密钥",
+          "label": "标签",
+          "restore": "恢复",
+          "secret": "密钥",
+          "this_action_will_completely_replace": "此操作将完全替换此钱包。确定吗？",
+          "type": "类型",
+          "yes_i_understand": "是的，我明白"
+        },
+        "secret": {
+          "copy_secret": "复制密钥",
+          "okay_i_understand": "好的，我明白",
+          "reminder_title": "提醒",
+          "these_words_are_for_your_eyes_only": "这些文字只供您阅读。您的密语可以访问整个钱包。请小心使用。 \n\n"
+        },
+        "uuid": "您的UUID",
+        "uuid_copied": "􀁣 已复制UUID",
+        "uuid_description": "此标识符允许我们找到您的应用错误和崩溃报告。",
+        "loading": "加载中...",
+        "app_state_diagnostics_title": "应用状态",
+        "app_state_diagnostics_description": "允许您对应用程序状态进行快照，以便与我们的支持团队共享。",
+        "wallet_diagnostics_title": "钱包",
+        "sheet_title": "诊断",
+        "pin_auth_title": "PIN验证",
+        "you_need_to_authenticate_with_your_pin": "您需要通过 PIN 进行身份验证才能访问您的钱包密语",
+        "share_application_state": "共享应用程序状态转储",
+        "wallet_details_title": "钱包详细信息",
+        "wallet_details_description": "以下是已添加到Rainbow的所有钱包的详细信息。"
+      },
+      "error_displaying_address": "显示地址时出错",
+      "feedback": {
+        "cancel": "不，谢谢",
+        "choice": "您是否想手动将我们的反馈电子邮件地址复制到您的剪贴板？",
+        "copy_email_address": "复制电子邮件地址",
+        "email_subject": "📱 彩虹 Beta 反馈",
+        "error": "启动电子邮件客户端时出错",
+        "send": "发送反馈"
+      },
+      "import_failed_invalid_private_key": "由于无效的私钥，导入失败。请重试。",
+      "intro": {
+        "create_wallet": "创建一个钱包",
+        "instructions": "请不要在钱包中存储超过您愿意失去的金额。",
+        "warning": "这是阿尔法软件。",
+        "welcome": "欢迎使用彩虹"
+      },
+      "invalid_ens_name": "这不是一个有效的 ENS 名称",
+      "invalid_unstoppable_name": "这不是一个有效的 Unstoppable 名称",
+      "label": "钱包",
+      "loading": {
+        "error": "加载钱包时出错。请关闭应用程序并重试。",
+        "message": "加载中"
+      },
+      "message_signing": {
+        "failed_signing": "无法签署消息",
+        "message": "消息",
+        "request": "消息签名请求",
+        "sign": "签署消息"
+      },
+      "my_account_address": "我的账户地址：",
+      "network_title": "网络",
+      "new": {
+        "add_wallet_sheet": {
+          "options": {
+            "cloud": {
+              "description_android": "如果您之前在Google Drive上备份了您的钱包，请点击此处恢复它。",
+              "description_ios_one_wallet": "您有 1 个备份的钱包",
+              "description_ios_multiple_wallets": "您有 %{walletCount} 个备份的钱包",
+              "title": "从 %{platform}恢复",
+              "no_backups": "未找到备份",
+              "no_google_backups": "我们无法在Google Drive上找到任何备份。请确保您登录了正确的帐户。"
+            },
+            "create_new": {
+              "description": "使用一个种子短语在新钱包上创建",
+              "title": "创建新钱包"
+            },
+            "hardware_wallet": {
+              "description": "从您的蓝牙硬件钱包添加帐户",
+              "title": "连接您的硬件钱包"
+            },
+            "seed": {
+              "description": "使用来自Rainbow或其他加密钱包的恢复短语",
+              "title": "使用恢复短语或私钥还原"
+            },
+            "watch": {
+              "description": "监视公共地址或ENS名称",
+              "title": "监视以太坊地址"
+            }
+          },
+          "first_wallet": {
+            "description": "导入您自己的钱包或监视他人的钱包",
+            "title": "添加您的第一个钱包"
+          },
+          "additional_wallet": {
+            "description": "创建新钱包或添加现有钱包",
+            "title": "添加另一个钱包"
+          }
+        },
+        "import_or_watch_wallet_sheet": {
+          "paste": "粘贴",
+          "continue": "继续",
+          "import": {
+            "title": "恢复钱包",
+            "description": "使用来自Rainbow或其他加密钱包的恢复短语或私钥还原",
+            "placeholder": "输入恢复短语或私钥",
+            "button": "导入"
+          },
+          "watch": {
+            "title": "监视地址",
+            "placeholder": "输入以太坊地址或ENS名称",
+            "button": "关注"
+          },
+          "watch_or_import": {
+            "title": "添加钱包",
+            "placeholder": "输入秘密短语、私钥、以太坊地址或ENS名称"
+          }
+        },
+        "alert": {
+          "looks_like_already_imported": "看起来你已经导入了这个钱包！",
+          "oops": "哎呀！"
+        },
+        "already_have_wallet": "我已经有一个了",
+        "create_wallet": "创建钱包",
+        "enter_seeds_placeholder": "助记词、私钥、以太坊地址或ENS名称",
+        "get_new_wallet": "获取新钱包",
+        "import_wallet": "导入钱包",
+        "name_wallet": "给你的钱包取个名字",
+        "terms": "继续操作即表示您同意Rainbow的 ",
+        "terms_link": "使用条款"
+      },
+      "pin_authentication": {
+        "choose_your_pin": "设置你的PIN码",
+        "confirm_your_pin": "确认你的PIN码",
+        "still_blocked": "仍然被锁定",
+        "too_many_tries": "尝试次数过多！",
+        "type_your_pin": "输入你的PIN码",
+        "you_need_to_wait_minutes_plural": "再等待 %{minutesCount} 分钟后再试",
+        "you_still_need_to_wait": "仍需等待约 %{timeAmount} %{unitName} 后再试"
+      },
+      "push_notifications": {
+        "please_enable_body": "看起来你正在使用WalletConnect。请启用推送通知，以便在WalletConnect发起交易请求时收到通知。",
+        "please_enable_title": "Rainbow想要向您发送推送通知"
+      },
+      "qr": {
+        "camera_access_needed": "需要相機訪問權限進行掃描！",
+        "enable_camera_access": "啟用相機訪問權限",
+        "error_mounting_camera": "安裝相機時發生錯誤",
+        "find_a_code": "尋找要掃描的代碼",
+        "qr_1_app_connected": "1 连接的应用",
+        "qr_multiple_apps_connected": "%{appsConnectedCount} 已连接的应用",
+        "scan_to_pay_or_connect": "掃描以付款或連接",
+        "simulator_mode": "模擬器模式",
+        "sorry_could_not_be_recognized": "很抱歉，無法識別此QR代碼。",
+        "unrecognized_qr_code_title": "無法識別的QR代碼"
+      },
+      "settings": {
+        "copy_address": "複製地址",
+        "copy_address_capitalized": "复制地址",
+        "copy_seed_phrase": "複製驗證密語",
+        "hide_seed_phrase": "隱藏驗證密語",
+        "show_seed_phrase": "顯示驗證密語"
+      },
+      "something_went_wrong_importing": "導入時出現問題。請重試！",
+      "sorry_cannot_add_ens": "很抱歉，目前無法添加此ENS名稱。請稍後再試！",
+      "sorry_cannot_add_unstoppable": "很抱歉，目前無法添加此Unstoppable名稱。請稍後再試！",
+      "speed_up": {
+        "problem_while_fetching_transaction_data": "在擷取交易數據時出現問題。請重試...",
+        "unable_to_speed_up": "無法加快交易速度"
+      },
+      "transaction": {
+        "alert": {
+          "authentication": "身份驗證失敗",
+          "cancelled_transaction": "無法將取消的交易發送到WalletConnect",
+          "connection_expired": "連接已過期",
+          "failed_sign_message": "无法签署消息",
+          "failed_transaction": "无法发送交易",
+          "failed_transaction_status": "无法发送失败的交易状态",
+          "invalid_transaction": "无效的交易",
+          "please_go_back_and_reconnect": "请返回到 DApp 并重新连接您的钱包",
+          "transaction_status": "无法发送交易状态"
+        },
+        "checkboxes": {
+          "clear_profile_information": "清除配置文件信息",
+          "point_name_to_recipient": "将此名称指向收款人的钱包地址",
+          "transfer_control": "将控制权转移给收款人",
+          "has_a_wallet_that_supports": "我所发送到的收件人拥有一个支持 %{networkName}的钱包",
+          "im_not_sending_to_an_exchange": "我不是发送到交易所"
+        },
+        "complete_checks": "完成检查",
+        "ens_configuration_options": "ENS 配置选项",
+        "confirm": "确认交易",
+        "max": "最大",
+        "placeholder_title": "占位符",
+        "request": "交易请求",
+        "send": "发送交易",
+        "sending_title": "发送中"
+      },
+      "wallet_connect": {
+        "error": "初始化失败，使用 WalletConnect",
+        "failed_to_disconnect": "无法断开所有 WalletConnect 会话",
+        "failed_to_send_request_status": "发送请求状态到WalletConnect失败。",
+        "missing_fcm": "无法初始化WalletConnect：缺少推送通知令牌。请重试。",
+        "walletconnect_session_has_expired_while_trying_to_send": "尝试发送请求状态时，WalletConnect会话已过期。请重新连接。"
+      },
+      "wallet_title": "钱包"
+    },
+    "walletconnect": {
+      "available_networks": "可用网络",
+      "change_network": "更改网络",
+      "connected_apps": "已连接应用",
+      "disconnect": "断开连接",
+      "go_back_to_your_browser": "返回浏览器",
+      "paste_uri": {
+        "button": "粘贴会话URI",
+        "message": "在下面粘贴WalletConnect URI",
+        "title": "新的WalletConnect会话"
+      },
+      "switch_network": "切换网络",
+      "switch_wallet": "切换钱包",
+      "titles": {
+        "connect": "连接成功！",
+        "reject": "连接取消",
+        "sign": "消息已签名！",
+        "sign_canceled": "交易取消！",
+        "transaction_canceled": "交易取消！",
+        "transaction_sent": "交易已发送！"
+      },
+      "unknown_application": "未知应用",
+      "connection_failed": "连接失败",
+      "failed_to_connect_to": "连接到 %{appName}失败",
+      "go_back": "返回",
+      "requesting_network": "请求 %{num} 网络",
+      "requesting_networks": "请求 %{num} 个网络",
+      "unknown_dapp": "未知的Dapp",
+      "unknown_url": "未知的URL",
+      "approval_sheet_network": "网络",
+      "approval_sheet_networks": "%{length} 网络",
+      "auth": {
+        "signin_title": "登录",
+        "signin_prompt": "您是否要使用您的钱包登录 %{name} ？",
+        "signin_with": "使用以下方式登录",
+        "signin_button": "继续",
+        "signin_notice": "继续操作将会签署一条自由信息，以证明您拥有该钱包",
+        "error_alert_title": "身份验证失败",
+        "error_alert_description": "发生错误，请重试或联系我们的支持团队。"
+      },
+      "errors": {
+        "go_back": "返回",
+        "generic_title": "连接失败",
+        "generic_error": "发生错误，请重试或联系我们的支持团队。",
+        "pairing_timeout": "在建立连接之前，此会话已超时。这通常是由于网络错误引起的。请重试。",
+        "pairing_unsupported_methods": "Dapp请求了Rainbow不支持的钱包RPC方法。",
+        "pairing_unsupported_networks": "DApp请求了彩虹不支持的网络。",
+        "request_invalid": "请求包含无效参数。请重试或与Rainbow和/或dapp支持团队联系。",
+        "request_unsupported_network": "此请求中指定的网络不受彩虹支持。",
+        "request_unsupported_methods": "此请求中指定的RPC方法不受Rainbow支持。"
+      }
+    },
+    "warning": {
+      "user_is_offline": "连接断线，请检查您的网络连接",
+      "user_is_online": "已连接！您已恢复在线状态"
+    }
+  }
+}
