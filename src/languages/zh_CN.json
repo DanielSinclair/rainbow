@@ -704,8 +704,8 @@
         "text": "对于 %{fromNetwork}，彩虹无法根据您想要接收的 %{outputToken} 量来准备交换。 \n\n 请尝试输入您想要交换的 %{inputToken} 量。",
         "title": "输入 %{inputToken} 代替",
         "title_crosschain": "输入 %{fromNetwork} %{inputToken} 代替",
-        "text_crosschain": "Rainbow can't prepare swaps based on the amount of %{outputToken} you'd like to receive. \n\n Try entering the amount of %{inputToken} you’d like to swap instead.",
-        "text_bridge": "Rainbow can't prepare a bridge based on the amount of %{outputToken} you'd like to receive at the %{toNetwork} destination. \n\n Try entering the amount of %{fromNetwork} %{inputToken} you’d like to bridge instead.",
+        "text_crosschain": "彩虹无法根据您想要接收的 %{outputToken} 金额准备交换。 \n\n 请尝试输入您想交换的 %{inputToken} 金额。",
+        "text_bridge": "彩虹无法根据您在目标 %{toNetwork} 地址想要接收的 %{outputToken} 金额准备桥接。 \n\n 请尝试输入您想要桥接的 %{fromNetwork} %{inputToken} 金额。",
         "title_empty": "选择一种代币"
       },
       "available_networks": {
@@ -721,10 +721,10 @@
         "title": "重要"
       },
       "base_fee": {
-        "text_falling": "\n\nFees are dropping right now!",
+        "text_falling": "\n\n费用正在下降！",
         "text_prefix": "基础费用由以太坊网络设置，根据网络使用情况而变化。",
-        "text_rising": "\n\nFees are rising right now! It’s best to use a higher max base fee to avoid a stuck transaction.",
-        "text_stable": "\n\nNetwork traffic is stable right now. Have fun!",
+        "text_rising": "\n\n费用正在上涨！最好使用较高的最大基础费用以避免交易卡住。",
+        "text_stable": "\n\n网络流量目前稳定。玩得愉快！",
         "text_surging": "\n\n费用目前异常高！除非您的交易非常紧急，最好等待费用下降。",
         "title": "当前基础费用"
       },
@@ -783,11 +783,11 @@
       "read_more": "阅读更多",
       "learn_more": "了解详情",
       "sending_to_contract": {
-        "text": "The address you entered is for a smart contract.\n\nExcept for rare situations, you probably shouldn't do this. You could lose your assets or they might go to the wrong place.\n\nDouble check the address, verify it with the recipient, or contact support first.",
+        "text": "您输入的地址是一个智能合约。\n\n除非特殊情况，您可能不应该这样做。您可能会丢失您的资产或者它们可能会发错地方。\n\n请仔细检查地址，与收件人核实，或者先联系支持。",
         "title": "请稍等！"
       },
       "verified": {
-        "text": "Tokens with a verified badge mean they have appeared on at least 3 other outside token lists.\n\nAlways do your own research to ensure you are interacting with a token you trust.",
+        "text": "具有验证徽章的代币意味着它们已经出现在至少3个其他外部代币列表中。\n\n始终要进行自己的研究，以确保与您信任的代币进行互动。",
         "title": "已验证的代币"
       },
       "unverified": {
@@ -798,13 +798,13 @@
         "go_back": "返回"
       },
       "obtain_l2_asset": {
-        "fragment1": "You'll need to get other tokens on %{networkName} to swap for %{networkName} %{tokenName}. \n\n Bridging tokens to %{networkName} is easy using a bridge like Hop. Still curious? ",
+        "fragment1": "你需要得到其他代币来交换 %{networkName} 以获取 %{networkName} %{tokenName}。 \n\n 使用Hop这样的桥接器可以轻松地将代币桥接到 %{networkName} 。 仍然感兴趣吗？ ",
         "fragment2": "阅读更多",
         "fragment3": " 关于桥接器的内容。",
         "title": "在 %{networkName}上没有代币"
       },
       "insufficient_liquidity": {
-        "fragment1": "The exchanges don't have enough of the tokens you requested to complete this transaction. \n\n Still curious? ",
+        "fragment1": "交易所没有足够的您请求的代币来完成此交易。 \n\n 仍然感兴趣吗？ ",
         "fragment2": "阅读更多",
         "fragment3": " 关于自动市场制造商和代币流动性的内容。",
         "title": "流动性不足"
@@ -838,7 +838,7 @@
         }
       },
       "slippage": {
-        "text": "Slippage occurs when the price of a swap changes during the time between you submitting your transaction and its confirmation. \n\nSetting a higher slippage tolerance increases the likelihood your swap will be successful, but may result in you getting a worse price.",
+        "text": "滑点在您提交交易和确认之间的时间内，互换价格发生变化时发生。 \n\n设置更高的滑点容忍度可以增加交换成功的可能性，但可能会导致您得到较差的价格。",
         "title": "滑点",
         "still_curious": {
           "fragment1": "还有疑问吗？ ",
