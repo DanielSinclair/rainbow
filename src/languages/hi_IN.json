@@ -1037,7 +1037,7 @@
         },
         "imported": {
           "button": {
-            "back_up": "Back up to %{cloudPlatformName}",
+            "back_up": "%{cloudPlatformName}पर पिछले निकालें",
             "no_thanks": "नहीं धन्यवाद"
           },
           "description": "Don't lose your wallet! Save an encrypted copy to %{cloudPlatformName}.",
