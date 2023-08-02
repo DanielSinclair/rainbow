@@ -695,6 +695,8 @@
         "pooly_title": "You've unlocked a\nRainbow Pooly",
         "zorb_text": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
         "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
+        "poolboy_text": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
+        "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
         "title": "You've unlocked\nRainbow 􀆄 %{partner}",
         "button": "Snag the icon"
       },
@@ -2047,27 +2049,27 @@
       "wallet_title": "Wallet"
     },
     "walletconnect": {
-      "available_networks": "Redes disponibles",
-      "change_network": "Cambiar red",
-      "connected_apps": "Aplicaciones conectadas",
-      "disconnect": "Desconectar",
-      "go_back_to_your_browser": "Volver al navegador",
+      "available_networks": "Available Networks",
+      "change_network": "Change Network",
+      "connected_apps": "Connected apps",
+      "disconnect": "Disconnect",
+      "go_back_to_your_browser": "Go back to your browser",
       "paste_uri": {
-        "button": "Pegar la URI de sesión",
-        "message": "Pegar la URI de WalletConnect abajo",
-        "title": "Nueva sesión de WalletConnect"
+        "button": "Paste session URI",
+        "message": "Paste WalletConnect URI below",
+        "title": "New WalletConnect Session"
       },
-      "switch_network": "Cambiar de red",
-      "switch_wallet": "Cambiar de cartera",
+      "switch_network": "Switch Network",
+      "switch_wallet": "Switch Wallet",
       "titles": {
-        "connect": "¡Te has conectado!",
-        "reject": "Conexión cancelada",
-        "sign": "¡Mensaje firmado!",
-        "sign_canceled": "¡Transacción cancelada!",
-        "transaction_canceled": "¡Transacción cancelada!",
-        "transaction_sent": "¡Transacción enviada!"
+        "connect": "You're connected!",
+        "reject": "Connection canceled",
+        "sign": "Message signed!",
+        "sign_canceled": "Transaction canceled!",
+        "transaction_canceled": "Transaction canceled!",
+        "transaction_sent": "Transaction sent!"
       },
-      "unknown_application": "Aplicación desconocida",
+      "unknown_application": "Unknown Application",
       "connection_failed": "Connection failed",
       "failed_to_connect_to": "Failed to connect to %{appName}",
       "go_back": "Go back",
