@@ -696,15 +696,15 @@
         "zorb_text": "Un icono especial de Rainbow Zorb de edición limitada:\n100% de lo que te encanta, más rápido y eficiente.",
         "zorb_title": "¡Has desbloqueado\nEnergías de Rainbow Zorb!",
         "poolboy_text": "Una edición especial de Rainbow x Poolsuite Icon para el verano inmutable.",
-        "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
-        "title": "You've unlocked\nRainbow 􀆄 %{partner}",
+        "poolboy_title": "¡Has desbloqueado el\nPoolboy Arcoíris!",
+        "title": "¡Has desbloqueado el\nArcoíris 􀆄 %{partner}",
         "button": "Captura el icono"
       },
       "output_disabled": {
-        "text": "For %{fromNetwork}, Rainbow can't prepare swaps based on the amount of %{outputToken} you'd like to receive. \n\n Try entering the amount of %{inputToken} you’d like to swap instead.",
-        "title": "Enter %{inputToken} Instead",
-        "title_crosschain": "Enter %{fromNetwork} %{inputToken} Instead",
-        "text_crosschain": "Rainbow can't prepare swaps based on the amount of %{outputToken} you'd like to receive. \n\n Try entering the amount of %{inputToken} you’d like to swap instead.",
+        "text": "Para %{fromNetwork}, Rainbow no puede preparar intercambios basados en la cantidad de %{outputToken} que te gustaría recibir. \n\n Intenta ingresar la cantidad de %{inputToken} que te gustaría intercambiar en su lugar.",
+        "title": "Ingresa %{inputToken} En Su Lugar",
+        "title_crosschain": "Ingresa %{fromNetwork} %{inputToken} En Su Lugar",
+        "text_crosschain": "Rainbow no puede preparar intercambios basados en la cantidad de %{outputToken} que te gustaría recibir. \n\n Intenta ingresar la cantidad de %{inputToken} que te gustaría intercambiar en su lugar.",
         "text_bridge": "El Rainbow no puede preparar un puente con base en la cantidad de %{outputToken} que te gustaría recibir en el destino %{toNetwork} . \n\n Intenta ingresar la cantidad de %{fromNetwork} %{inputToken} que te gustaría bridgear en su lugar.",
         "title_empty": "Elige un Token"
       },
@@ -723,8 +723,8 @@
       "base_fee": {
         "text_falling": "¡Las comisiones de \n\nse están reduciendo en este momento!",
         "text_prefix": "La comisión base la establece la red de Ethereum y cambia dependiendo de la congestión de la red.",
-        "text_rising": "\n\nFees are rising right now! It’s best to use a higher max base fee to avoid a stuck transaction.",
-        "text_stable": "\n\nNetwork traffic is stable right now. Have fun!",
+        "text_rising": "¡Las tarifas de  \n\nestán subiendo en este momento! Es mejor usar una tarifa base máxima más alta para evitar una transacción bloqueada.",
+        "text_stable": "¡El tráfico de la red de \n\nes estable en este momento. ¡Diviértete!",
         "text_surging": "\n\nFees are unusually high right now! Unless your transaction is urgent, it’s best to wait for fees to drop.",
         "title": "Tarifa base actual"
       },
@@ -750,18 +750,18 @@
       },
       "gas": {
         "text": "Esta es la \"tarifa de gas\" utilizada por la blockchain de %{networkName} para validar de forma segura tu transacción.\n\nEsta tarifa varía dependiendo de la complejidad de tu transacción y de lo ocupada que esté la red.",
-        "title": "%{networkName} network fee"
+        "title": "Tarifa de red %{networkName}"
       },
       "max_base_fee": {
-        "text": "This is the maximum base fee you’re willing to pay for this transaction.\n\nSetting a higher max base fee prevents your transaction from getting stuck if fees rise.",
+        "text": "Esta es la tarifa base máxima que está dispuesto a pagar por esta transacción.\n\nEstablecer una tarifa base máxima más alta evita que su transacción quede atascada si las tarifas aumentan.",
         "title": "Tarifa base máxima"
       },
       "miner_tip": {
-        "text": "The miner tip goes directly to the miner who confirms your transaction on the network.\n\nA higher tip makes your transaction more likely to be confirmed quickly.",
+        "text": "La propina del minero va directamente al minero que confirma su transacción en la red.\n\nUna propina más alta hace que su transacción sea más probable que se confirme rápidamente.",
         "title": "Propina al minero"
       },
       "optimism": {
-        "text": "Optimism is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "text": "Optimism es una red de Capa 2 que se ejecuta en Ethereum, lo que permite transacciones más baratas y rápidas al tiempo que se beneficia de la seguridad subyacente de Ethereum.\n\nAgrupa muchas transacciones juntas en un \"roll up\" antes de enviarlas para vivir permanentemente en Ethereum.",
         "title": "¿Qué es Optimism?"
       },
       "base": {
@@ -820,13 +820,13 @@
       },
       "cross_chain_swap": {
         "title": "Esperar retrasos en el puente",
-        "text": "This swap may take longer than expected to complete. \n\n Cross-chain swaps require bridging funds to the destination network, and bridges can sometimes take longer than expected to transfer funds. Your funds will remain safe during this time."
+        "text": "Este intercambio puede tardar más de lo esperado en completarse. \n\n Los intercambios entre cadenas requieren fondos para el puente hacia la red de destino, y los puentes a veces pueden tardar más de lo esperado en transferir fondos. Sus fondos estarán seguros durante este tiempo."
       },
       "go_to_hop_with_icon": {
         "text": "Ir al puente de Hop 􀮶"
       },
       "rainbow_fee": {
-        "text": "Rainbow takes a %{feePercentage} fee from swaps. It’s part of what enables us to give you the best Ethereum experience possible."
+        "text": "Rainbow cobra una tarifa de %{feePercentage} por intercambios. Es parte de lo que nos permite brindarte la mejor experiencia de Ethereum posible."
       },
       "swap_routing": {
         "text": "Por defecto, Rainbow elige la ruta más barata posible para tu intercambio. Si prefieres utilizar específicamente 0x o 1inch, también puedes hacerlo.",
@@ -838,7 +838,7 @@
         }
       },
       "slippage": {
-        "text": "Slippage occurs when the price of a swap changes during the time between you submitting your transaction and its confirmation. \n\nSetting a higher slippage tolerance increases the likelihood your swap will be successful, but may result in you getting a worse price.",
+        "text": "El deslizamiento ocurre cuando el precio de un intercambio cambia durante el tiempo entre que envías tu transacción y su confirmación. \n\nEstablecer una tolerancia de deslizamiento más alta aumenta la probabilidad de que tu intercambio sea exitoso, pero puede resultar en que obtengas un precio peor.",
         "title": "Deslizamiento",
         "still_curious": {
           "fragment1": "¿Aún tienes curiosidad? ",
@@ -856,13 +856,13 @@
         }
       },
       "swap_refuel": {
-        "title": "No %{networkName} %{gasToken} detected",
-        "text": "You won’t be able to use %{networkName} without %{networkName} %{gasToken}. We can seamlessly bundle it with this bridge using about $3 of ETH from your wallet.",
-        "button": "Add $3 of %{networkName} %{gasToken}"
+        "title": "No se detectaron %{networkName} %{gasToken}",
+        "text": "No podrás utilizar %{networkName} sin %{networkName} %{gasToken}. Podemos incluirlo fácilmente en este puente utilizando aproximadamente $3 de ETH de tu billetera.",
+        "button": "Agregar $3 de %{networkName} %{gasToken}"
       },
       "swap_refuel_deduct": {
         "title": "No se detectó ningún %{networkName} %{gasToken}",
-        "text": "You won’t be able to use %{networkName} without %{networkName} %{gasToken}. We can seamlessly bundle it with this bridge using about $3 of ETH subtracted from this swap.",
+        "text": "No podrás utilizar %{networkName} sin %{networkName} %{gasToken}. Podemos incluirlo fácilmente en este puente utilizando aproximadamente $3 de ETH restados de este intercambio.",
         "button": "Ajustar y agregar $3 de %{gasToken}"
       },
       "swap_refuel_notice": {
