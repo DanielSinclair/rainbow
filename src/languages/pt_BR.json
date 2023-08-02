@@ -562,9 +562,9 @@
           }
         },
         "no_price_data": "Sem dados de preço",
-        "past_timespan": "Past %{formattedTimespan}",
+        "past_timespan": "Passado %{formattedTimespan}",
         "today": "Hoje",
-        "token_pool": "%{tokenName} Pool"
+        "token_pool": "Piscina %{tokenName}"
       },
       "contact_profile": {
         "name": "Nome"
@@ -696,15 +696,15 @@
         "zorb_text": "Um ícone especial de edição limitada Rainbow Zorb:\n100% do que você ama, mais rápido e mais eficiente.",
         "zorb_title": "Você desbloqueou\nEnergia do Zorb Arco-Íris!",
         "poolboy_text": "Um Ícone de Edição Especial do Rainbow x Poolsuite para o verão nas correntes.",
-        "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
-        "title": "You've unlocked\nRainbow 􀆄 %{partner}",
+        "poolboy_title": "Você desbloqueou o Carregador de Piscina Arco-Íris\n!",
+        "title": "Você desbloqueou\nArco-Íris 􀆄 %{partner}",
         "button": "Pegue o ícone"
       },
       "output_disabled": {
-        "text": "For %{fromNetwork}, Rainbow can't prepare swaps based on the amount of %{outputToken} you'd like to receive. \n\n Try entering the amount of %{inputToken} you’d like to swap instead.",
-        "title": "Enter %{inputToken} Instead",
-        "title_crosschain": "Enter %{fromNetwork} %{inputToken} Instead",
-        "text_crosschain": "Rainbow can't prepare swaps based on the amount of %{outputToken} you'd like to receive. \n\n Try entering the amount of %{inputToken} you’d like to swap instead.",
+        "text": "Por %{fromNetwork}, o Arco-Íris não pode preparar trocas com base na quantidade de %{outputToken} que você gostaria de receber. \n\n Tente inserir a quantidade de %{inputToken} que você gostaria de trocar.",
+        "title": "Insira %{inputToken} em vez disso",
+        "title_crosschain": "Insira %{fromNetwork} %{inputToken} em vez disso",
+        "text_crosschain": "O Arco-Íris não pode preparar trocas com base na quantidade de %{outputToken} que você gostaria de receber. \n\n Tente inserir a quantidade de %{inputToken} que você gostaria de trocar.",
         "text_bridge": "O Rainbow não pode preparar uma ponte com base na quantidade de %{outputToken} que você gostaria de receber no destino %{toNetwork} . \n\n Tente informar a quantidade de %{fromNetwork} %{inputToken} que você gostaria de transferir através da ponte.",
         "title_empty": "Escolha um Token"
       },
@@ -750,18 +750,18 @@
       },
       "gas": {
         "text": "Esta é a \"taxa de gás\" usada pela blockchain %{networkName} para validar com segurança sua transação.\n\nEssa taxa varia dependendo da complexidade da sua transação e da movimentação da rede!",
-        "title": "%{networkName} network fee"
+        "title": "Taxa de rede de %{networkName}"
       },
       "max_base_fee": {
-        "text": "This is the maximum base fee you’re willing to pay for this transaction.\n\nSetting a higher max base fee prevents your transaction from getting stuck if fees rise.",
+        "text": "Essa é a taxa máxima base que você está disposto a pagar por essa transação.\n\nConfigurar uma taxa máxima base mais alta impede que sua transação fique presa caso as taxas aumentem.",
         "title": "Taxa base máxima"
       },
       "miner_tip": {
-        "text": "The miner tip goes directly to the miner who confirms your transaction on the network.\n\nA higher tip makes your transaction more likely to be confirmed quickly.",
+        "text": "A gorjeta para os mineradores vai diretamente para o minerador que confirma sua transação na rede.\n\nUma gorjeta maior torna sua transação mais provável de ser confirmada rapidamente.",
         "title": "Gorjeta para o minerador"
       },
       "optimism": {
-        "text": "Optimism is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "text": "O Otimismo é uma rede de camada 2 que roda em cima do Ethereum, permitindo transações mais baratas e rápidas, enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nEle agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
         "title": "O que é o Optimism?"
       },
       "base": {
@@ -820,7 +820,7 @@
       },
       "cross_chain_swap": {
         "title": "Espere por atrasos na ponte",
-        "text": "This swap may take longer than expected to complete. \n\n Cross-chain swaps require bridging funds to the destination network, and bridges can sometimes take longer than expected to transfer funds. Your funds will remain safe during this time."
+        "text": "Essa troca pode demorar mais do que o esperado para ser concluída. \n\n As trocas entre cadeias diferentes requerem a transferência de fundos para a rede de destino, e as pontes às vezes podem demorar mais do que o esperado para transferir os fundos. Seus fundos permanecerão seguros durante este período."
       },
       "go_to_hop_with_icon": {
         "text": "Ir para a Ponte Hop 􀮶"
@@ -838,7 +838,7 @@
         }
       },
       "slippage": {
-        "text": "Slippage occurs when the price of a swap changes during the time between you submitting your transaction and its confirmation. \n\nSetting a higher slippage tolerance increases the likelihood your swap will be successful, but may result in you getting a worse price.",
+        "text": "Deslizamento ocorre quando o preço de uma troca muda durante o tempo entre você enviar sua transação e sua confirmação. \n\nDefinir uma tolerância de deslizamento maior aumenta a probabilidade de sua troca ser bem-sucedida, mas pode resultar em você obter um preço pior.",
         "title": "Slippage",
         "still_curious": {
           "fragment1": "Ainda está curioso? ",
@@ -1823,7 +1823,7 @@
       },
       "back_ups": {
         "and_1_more_wallet": "E mais 1 carteira",
-        "and_more_wallets": "And %{moreWalletCount} more wallets",
+        "and_more_wallets": "E %{moreWalletCount} mais carteiras",
         "backed_up": "Foi feito backup",
         "backed_up_manually": "Backup manual feito",
         "imported": "Importado"
@@ -1856,7 +1856,7 @@
           "copy_secret": "Copiar Segredo",
           "okay_i_understand": "Ok, eu entendo",
           "reminder_title": "Lembrete",
-          "these_words_are_for_your_eyes_only": "These words are for your eyes only. Your secret phrase gives access to your entire wallet. \n\n       Be very careful with it."
+          "these_words_are_for_your_eyes_only": "Essas palavras são apenas para seus olhos. Sua frase secreta dá acesso à sua carteira inteira. \n\n       Tenha muito cuidado com ela."
         },
         "uuid": "Seu UUID",
         "uuid_copied": "􀁣 UUID copiado",
@@ -1991,7 +1991,7 @@
         "error_mounting_camera": "Erro ao montar a câmera",
         "find_a_code": "Encontre um código para escanear",
         "qr_1_app_connected": "1 aplicativo conectado",
-        "qr_multiple_apps_connected": "%{appsConnectedCount} Connected Apps",
+        "qr_multiple_apps_connected": "%{appsConnectedCount} Aplicativos Conectados",
         "scan_to_pay_or_connect": "Escanear para pagar ou conectar",
         "simulator_mode": "Modo Simulador",
         "sorry_could_not_be_recognized": "Desculpe, este código QR não pôde ser reconhecido.",
