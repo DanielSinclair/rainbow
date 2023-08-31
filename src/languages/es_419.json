@@ -25,7 +25,7 @@
       "tab_transactions": "Transacciones",
       "tab_transactions_tooltip": "Transacciones y Transferencias de Tokens",
       "tab_uniquetokens": "Tokens Únicos",
-      "tab_uniquetokens_tooltip": "Tokens únicos",
+      "tab_uniquetokens_tooltip": "Tokens Únicos",
       "token": "token",
       "tokens": "tokens",
       "tx_failed": "Fallado",
@@ -45,7 +45,7 @@
     "activity_list": {
       "empty_state": {
         "default_label": "Sin transacciones aún",
-        "recycler_label": "Aún no hay transacciones",
+        "recycler_label": "Sin transacciones aún",
         "testnet_label": "¡Tu historial de transacciones en la red de pruebas comienza ahora!"
       }
     },
@@ -113,8 +113,8 @@
       },
       "confirm_password": {
         "add_to_cloud_platform": "Agregar a %{cloudPlatformName} copia de seguridad",
-        "backup_password_placeholder": "Contraseña de respaldo",
-        "confirm_backup": "Confirmar respaldo",
+        "backup_password_placeholder": "Contraseña de Resguardo",
+        "confirm_backup": "Confirmar copia de seguridad",
         "enter_backup_description": "Para agregar esta billetera a su copia de seguridad de %{cloudPlatformName} , ingrese su contraseña de copia de seguridad existente",
         "enter_backup_password": "Ingrese la contraseña de copia de seguridad"
       },
@@ -143,9 +143,9 @@
         "not_backed_up": "No respaldado"
       },
       "restore_cloud": {
-        "backup_password_placeholder": "Contraseña de respaldo",
-        "confirm_backup": "Confirmar respaldo",
-        "enter_backup_password": "Ingresar contraseña de respaldo",
+        "backup_password_placeholder": "Contraseña de Resguardo",
+        "confirm_backup": "Confirmar copia de seguridad",
+        "enter_backup_password": "Ingrese la contraseña de copia de seguridad",
         "enter_backup_password_description": "Para restaurar tu billetera, ingresa la contraseña de respaldo que creaste",
         "error_while_restoring": "Error al restaurar la copia de seguridad",
         "incorrect_pin_code": "Código PIN incorrecto",
@@ -176,7 +176,7 @@
       "permissions_alert": {
         "title": "Permisos de Bluetooth",
         "message": "Por favor habilita los permisos de Bluetooth en la configuración para utilizar esta función",
-        "open_settings": "Abrir configuración",
+        "open_settings": "Abrir Configuración",
         "cancel": "Cancelar"
       }
     },
@@ -379,7 +379,7 @@
       },
       "send_header": "Enviar",
       "suggestions": "Sugerencias",
-      "to_header": "Para",
+      "to_header": "A",
       "watching": "Observando"
     },
     "deeplinks": {
@@ -511,7 +511,7 @@
       "source_picker": "Rutas de intercambio vía",
       "use_flashbots": "Usar Flashbots",
       "swapping_for_prefix": "Intercambiando por",
-      "view_details": "Ver detalles",
+      "view_details": "Ver Detalles",
       "token_sections": {
         "bridgeTokenSection": "􀊝 Puente",
         "crosschainMatchSection": "􀤆 En otras redes",
@@ -541,7 +541,7 @@
         },
         "uniswap_liquidity": "Liquidez de Uniswap",
         "value": "Valor",
-        "volume_24_hours": "Volumen 24 horas"
+        "volume_24_hours": "Volumen en 24 horas"
       },
       "chart": {
         "all_time": "Todo el tiempo",
@@ -570,12 +570,12 @@
         "name": "Nombre"
       },
       "liquidity_pool": {
-        "annualized_fees": "Tarifas anuales",
+        "annualized_fees": "Tarifas anualizadas",
         "fees_earned": "Tarifas ganadas",
         "half": "Mitad",
         "pool_makeup": "Composición del pool",
         "pool_shares": "Participaciones en el pool",
-        "pool_size": "Tamaño del grupo",
+        "pool_size": "Tamaño del pool",
         "pool_volume_24h": "Volumen del pool en 24 horas",
         "total_value": "Valor total",
         "underlying_tokens": "Tokens subyacentes"
@@ -585,10 +585,10 @@
         "last_sale": "Último precio de venta"
       },
       "swap": {
-        "swap": "Intercambio",
+        "swap": "Intercambiar",
         "bridge": "Puente",
         "flashbots_protect": "Protección de Flashbots",
-        "losing": "Perdida",
+        "losing": "Perdiendo",
         "on": "Encendido",
         "price_impact": "Impacto de precio",
         "price_row_per_token": "por",
@@ -734,11 +734,11 @@
       },
       "failed_wc_invalid_methods": {
         "text": "La dApp solicitó métodos de firma de billetera (RPC) no compatibles con Rainbow.",
-        "title": "Conexión fallida"
+        "title": "Error de conexión"
       },
       "failed_wc_invalid_chains": {
         "text": "La dApp solicitó redes no compatibles con Rainbow.",
-        "title": "Conexión fallida"
+        "title": "Error de conexión"
       },
       "failed_wc_invalid_chain": {
         "text": "La red especificada en esta solicitud no es compatible con Rainbow.",
@@ -861,12 +861,12 @@
         "button": "Agregar $3 de %{networkName} %{gasToken}"
       },
       "swap_refuel_deduct": {
-        "title": "No se detectó ningún %{networkName} %{gasToken}",
+        "title": "No se detectaron %{networkName} %{gasToken}",
         "text": "No podrás utilizar %{networkName} sin %{networkName} %{gasToken}. Podemos incluirlo fácilmente en este puente utilizando aproximadamente $3 de ETH restados de este intercambio.",
         "button": "Ajustar y agregar $3 de %{gasToken}"
       },
       "swap_refuel_notice": {
-        "title": "No se detectó ningún %{networkName} %{gasToken}",
+        "title": "No se detectaron %{networkName} %{gasToken}",
         "text": "No podrás usar %{networkName} sin %{networkName} %{gasToken}. Si continúas con esta transacción, no podrás intercambiar, enlazar ni transferir tus tokens %{networkName} sin añadir %{networkName} %{gasToken} a tu billetera.",
         "button": "Continuar de todos modos"
       }
@@ -894,7 +894,7 @@
       "lower_than_suggested": "Baja · puede quedarse atascada",
       "higher_than_suggested": "Alta · pago excesivo",
       "max_base_fee_too_low_error": "Baja · probablemente fallará",
-      "tip_too_low_error": "Baja · con probabilidad de fallo",
+      "tip_too_low_error": "Baja · probablemente fallará",
       "alert_message_higher_miner_tip_needed": "Se recomienda establecer una propina más alta para los mineros para evitar problemas.",
       "alert_message_higher_max_base_fee_needed": "Se recomienda establecer un límite base máximo más alto para evitar problemas.",
       "alert_message_lower": "¡Verifica que hayas ingresado la cantidad correcta! Es probable que estés pagando más de lo necesario.",
@@ -902,7 +902,7 @@
       "alert_title_higher_miner_tip_needed": "¡Propina de minero baja! ¡La transacción puede quedar atascada!",
       "alert_title_lower_max_base_fee_needed": "¡Límite base máximo alto!",
       "alert_title_lower_miner_tip_needed": "¡Propina de minero alta!",
-      "proceed_anyway": "Continuar de todos modos",
+      "proceed_anyway": "Continuar de todas formas",
       "edit_max_bass_fee": "Editar límite base máximo",
       "edit_miner_tip": "Editar propina de minero"
     },
@@ -919,11 +919,11 @@
         "button": "Conéctate a MetaMask",
         "description": "Conéctate al ",
         "link_text": "monedero de navegador MetaMask",
-        "link_title": "Cartera de navegador MetaMask"
+        "link_title": "monedero de navegador MetaMask"
       },
       "connect_trezor": {
         "button": "Conéctate a Trezor",
-        "description": "Conectar y firmar con tu ",
+        "description": "Conéctate y firma con tu ",
         "link_text": "Monedero de hardware Trezor",
         "link_title": "Compra un monedero de hardware Trezor"
       },
@@ -945,7 +945,7 @@
         "link_text": "usando WalletConnect",
         "link_text_mobile": "WalletConnect",
         "link_title": "Usar WalletConnect",
-        "link_title_mobile": "Conectar con WalletConnect"
+        "link_title_mobile": "Conéctate con WalletConnect"
       },
       "reassurance": {
         "access_link": "Sin acceso a tus fondos",
@@ -975,7 +975,7 @@
       "input_text": "Entrada",
       "password": "Contraseña",
       "password_placeholder": "••••••••••",
-      "private_key": "Clave privada",
+      "private_key": "Clave Privada",
       "recipient_address": "Dirección del destinatario"
     },
     "list": {
@@ -992,7 +992,7 @@
       "failed_request": "Solicitud fallida, por favor actualiza",
       "failed_trezor_connection": "Error al conectarse a Trezor, por favor revisa tu dispositivo",
       "failed_trezor_popup_blocked": "Permite ventanas emergentes en Balance para usar tu Trezor",
-      "learn_more": "Saber más",
+      "learn_more": "Más información",
       "no_interactions": "No se encontraron interacciones para esta cuenta",
       "no_transactions": "No se encontraron transacciones para esta cuenta",
       "no_unique_tokens": "No se encontraron tokens únicos para esta cuenta",
@@ -1020,12 +1020,12 @@
         },
         "default": {
           "button": {
-            "cloud": "Realiza una copia de seguridad de tu cartera",
-            "cloud_platform": "Realizar copia de seguridad en %{cloudPlatformName}",
+            "cloud": "Haz una copia de seguridad de tu monedero",
+            "cloud_platform": "Resguardar en %{cloudPlatformName}",
             "manual": "Copia de seguridad manual"
           },
           "description": "¡No pierdas tu billetera! Guarda una copia encriptada en %{cloudPlatformName}",
-          "title": "Respaldar tu billetera"
+          "title": "Haz una copia de seguridad de tu monedero"
         },
         "existing": {
           "button": {
@@ -1037,7 +1037,7 @@
         },
         "imported": {
           "button": {
-            "back_up": "Respaldar a %{cloudPlatformName}",
+            "back_up": "Resguardar en %{cloudPlatformName}",
             "no_thanks": "No, gracias"
           },
           "description": "¡No pierdas tu billetera! Guarda una copia encriptada en %{cloudPlatformName}.",
@@ -1053,7 +1053,7 @@
       "exchange_max": "Canjear máximo",
       "exchange_title": "Intercambio desde %{walletName}",
       "external_link_warning": {
-        "go_back": "Regresar",
+        "go_back": "Volver",
         "visit_external_link": "¿Visitar enlace externo?",
         "you_are_attempting_to_visit": "Estás intentando visitar un enlace que no está afiliado con Rainbow."
       },
@@ -1061,7 +1061,7 @@
       "gas_fast": "Rápido",
       "gas_fee": "Tarifa",
       "gas_slow": "Lento",
-      "helper_max": "Máximo",
+      "helper_max": "Máx.",
       "helper_min": "Mín.",
       "helper_price": "Precio",
       "helper_rate": "Tasa",
@@ -1077,7 +1077,7 @@
       "tx_confirm_recipient": "Destinatario",
       "tx_confirm_sender": "Remitente",
       "tx_fee": "Tarifa de transacción",
-      "tx_hash": "Hash de transacción",
+      "tx_hash": "Hash de Transacción",
       "tx_verify": "Verifica tu transacción aquí",
       "withdrawal_dropdown_label": "Para",
       "withdrawal_input_label": "Obtener"
@@ -1114,7 +1114,7 @@
         "proceeds": "Procedimientos",
         "view_offer": "Ver Oferta",
         "offer_expired": "La oferta ha expirado",
-        "expired": "Vencido",
+        "expired": "Expirado",
         "hold_to_sell": "Hold to Sell",
         "error": {
           "title": "Error selling NFT",
@@ -1142,7 +1142,7 @@
     },
     "pools": {
       "deposit": "Depósito",
-      "pools_title": "Piscinas",
+      "pools_title": "Pools",
       "withdraw": "Retirar"
     },
     "profiles": {
@@ -1172,8 +1172,8 @@
         "hold_to_confirm": "Mantener para confirmar",
         "hold_to_extend": "Mantener para extender",
         "hold_to_register": "Mantener para registrar",
-        "insufficient_bnb": "BNB insuficiente",
-        "insufficient_eth": "ETH insuficiente",
+        "insufficient_bnb": "BNB Insuficiente",
+        "insufficient_eth": "ETH Insuficiente",
         "last_step": "Último paso",
         "last_step_description": "Confirma a continuación para registrar tu nombre y configurar tu perfil",
         "new_expiration_date": "Nueva fecha de vencimiento",
@@ -1274,7 +1274,7 @@
       },
       "pending_registrations": {
         "alert_cancel": "Cancelar",
-        "alert_confirm": "Continuar de todos modos",
+        "alert_confirm": "Continuar de todas formas",
         "alert_message": "`Estás a punto de detener el proceso de registro.\n  Tendrás que iniciar de nuevo, lo que significa que deberás enviar una transacción adicional.`",
         "alert_title": "¿Estás seguro?",
         "finish": "Terminar",
@@ -1290,7 +1290,7 @@
         "view_profile": "Ver perfil"
       },
       "search": {
-        "header": "Buscar tu nombre",
+        "header": "Encuentra tu nombre",
         "description": "Buscar nombres ENS disponibles",
         "available": "🥳 Disponible",
         "taken": "😭 Tomado",
@@ -1306,7 +1306,7 @@
         "continue": "Continuar 􀆊",
         "finish": "Finalizar 􀆊",
         "and_create_ens_profile": "Buscar nombres .eth disponibles",
-        "register_name": "Crear tu perfil ENS"
+        "register_name": "Crear tu perfil de ENS"
       },
       "search_validation": {
         "invalid_domain": "Este es un dominio inválido",
@@ -1441,7 +1441,7 @@
       "rewards": "Recompensas"
     },
     "savings": {
-      "deposit": "Depositar",
+      "deposit": "Depósito",
       "deposit_from_wallet": "Depósito desde la billetera",
       "earned_lifetime_interest": "Ganado %{lifetimeAccruedInterest}",
       "earnings": {
@@ -1485,12 +1485,12 @@
       "app_icon": "Icono de la aplicación",
       "dev": "Desarrollo",
       "developer": "Configuración de desarrollador",
-      "done": "Hecho",
+      "done": "Listo",
       "feedback_and_reports": "Comentarios y reportes de errores",
       "feedback_and_support": "Comentarios y soporte",
       "follow_us_on_twitter": "Síguenos en Twitter",
       "hey_friend_message": "👋️ ¡Hola amigo! Deberías descargar Rainbow, es mi billetera Ethereum favorita 🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️",
-      "label": "Configuración",
+      "label": "Configuraciones",
       "language": "Idioma",
       "learn": "Aprende sobre Ethereum",
       "network": "Red",
@@ -1499,25 +1499,25 @@
         "my_wallets": "Mis Billeteras",
         "watched_wallets": "Billeteras Observadas",
         "allow_notifications": "Permitir Notificaciones",
-        "sent": "Enviadas",
-        "received": "Recibidas",
+        "sent": "Enviado",
+        "received": "Recibido",
         "purchased": "Comprado",
         "sold": "Vendido",
         "minted": "Acuñado",
-        "swapped": "Intercambiadas",
+        "swapped": "Intercambiado",
         "approvals": "Aprobado",
         "other": "Contratos y Más",
-        "all": "Todas",
+        "all": "Todos",
         "off": "Desactivado",
         "plus_n_more": "+ %{n} más",
         "no_permissions": "Parece que tus permisos de notificación están desactivados. Por favor, habilítalos en Configuración para recibir notificaciones de Rainbow.",
         "no_watched_wallets": "No estás observando ninguna billetera.",
         "no_owned_wallets": "No tienes ninguna billetera en Rainbow. Crea una billetera o importa una con tu frase secreta.",
-        "open_system_settings": "Abrir configuración",
+        "open_system_settings": "Abrir Configuración",
         "unsupported_network": "Las notificaciones solo están disponibles para transacciones en la red principal de Ethereum en este momento.",
         "change_network": "Cambia tu Red",
         "no_first_time_permissions": "Por favor, permite que Rainbow te envíe notificaciones.",
-        "first_time_allow_notifications": "Permitir notificaciones",
+        "first_time_allow_notifications": "Permitir Notificaciones",
         "error_alert_title": "Suscripción Fallida",
         "error_alert_content": "Por favor, inténtalo de nuevo más tarde.",
         "offline_alert_content": "Parece que no tienes conexión a internet.\n\nPor favor, inténtalo de nuevo más tarde.",
@@ -1589,7 +1589,7 @@
           "title": "Precio del Gas Inválido"
         },
         "too_high": {
-          "message": "Asegúrate de haber ingresado el monto correcto, probablemente estás pagando más de lo necesario.",
+          "message": "¡Verifica que hayas ingresado la cantidad correcta! Es probable que estés pagando más de lo necesario.",
           "title": "¡Precio del gas alto!"
         },
         "too_low": {
@@ -1599,8 +1599,8 @@
       }
     },
     "transaction_details": {
-      "from": "Desde",
-      "to": "Hasta",
+      "from": "De",
+      "to": "A",
       "value": "Valor",
       "hash": "Hash de Tx",
       "network_fee": "Tarifa de Red",
@@ -1608,10 +1608,10 @@
       "address_copied": "􀁣 Dirección copiada",
       "try_again": "􀅉 Inténtalo de nuevo",
       "context_menu": {
-        "copy_address": "Copiar Dirección",
+        "copy_address": "Copiar dirección",
         "send": "Enviar",
-        "add_contact": "Agregar a Contactos",
-        "edit_contact": "Editar Contacto"
+        "add_contact": "Agregar a contactos",
+        "edit_contact": "Editar contacto"
       },
       "actions_menu": {
         "speed_up": "Acelerar",
@@ -1697,7 +1697,7 @@
       "enable_blind_signing": "Activar firma a ciegas",
       "blind_signing_enabled": "Activar la firma ciega",
       "blind_signing_description": "La firma ciega permite que su dispositivo apruebe la firma de transacciones de contratos inteligentes.",
-      "learn_more": "Aprender más",
+      "learn_more": "Saber más",
       "finish_importing": "Finalizar la importación",
       "blind_signing_instructions": {
         "step_1": {
@@ -1709,7 +1709,7 @@
           "description": "Presiona el botón derecho para navegar hasta Configuración. Luego presiona ambos botones para validar que tu dispositivo Ledger muestre Firma Ciega."
         },
         "step_3": {
-          "title": "Activar firma ciega",
+          "title": "Activar firma a ciegas",
           "description": "Presiona ambos botones para habilitar la firma ciega para las transacciones. Si el dispositivo muestra Habilitado, estás listo para continuar."
         }
       },
@@ -1740,8 +1740,8 @@
         "input": "Entrada de la transacción",
         "notifications": {
           "action_title": "Configuración de notificación",
-          "alert_title": "No hay ajustes para esta billetera",
-          "alert_message": "No hay ajustes para esta billetera.\nPor favor intenta reiniciar la aplicación o intenta nuevamente más tarde."
+          "alert_title": "No hay configuraciones para esta billetera",
+          "alert_message": "No hay ajustes para esta billetera.\nPor favor, intenta reiniciar la aplicación o intenta nuevamente más tarde."
         },
         "pair_hardware_wallet": "Vincular un Ledger Nano X",
         "paste": "Pegar",
@@ -1752,7 +1752,7 @@
         "send": "Enviar",
         "to": "A",
         "unhide": "Mostrar",
-        "unpin": "Despinchar",
+        "unpin": "Desanclar",
         "value": "Valor",
         "view_on": "Ver en %{blockExplorerName}"
       },
@@ -1828,8 +1828,8 @@
       "back_ups": {
         "and_1_more_wallet": "Y 1 billetera más",
         "and_more_wallets": "Y %{moreWalletCount} billeteras más",
-        "backed_up": "Respaldo realizado",
-        "backed_up_manually": "Respaldo realizado manualmente",
+        "backed_up": "Resguardado",
+        "backed_up_manually": "Resguardado manualmente",
         "imported": "Importado"
       },
       "balance_title": "Saldo",
@@ -1878,11 +1878,11 @@
       },
       "error_displaying_address": "Error al mostrar la dirección",
       "feedback": {
-        "cancel": "No gracias",
-        "choice": "¿Le gustaría copiar manualmente nuestra dirección de correo electrónico de retroalimentación en su portapapeles?",
+        "cancel": "No, gracias",
+        "choice": "¿Te gustaría copiar manualmente nuestra dirección de correo electrónico de comentarios en tu portapapeles?",
         "copy_email_address": "Copiar dirección de correo electrónico",
         "email_subject": "📱 Retroalimentación de Rainbow Beta",
-        "error": "Error al iniciar el cliente de correo electrónico",
+        "error": "Error al abrir el cliente de correo electrónico",
         "send": "Enviar retroalimentación"
       },
       "import_failed_invalid_private_key": "Fallo en la importación debido a una clave privada inválida. Por favor, inténtalo de nuevo.",
@@ -1956,7 +1956,7 @@
           "watch": {
             "title": "Observar una dirección",
             "placeholder": "Ingresa una dirección Ethereum o nombre ENS",
-            "button": "Vigilar"
+            "button": "Seguir"
           },
           "watch_or_import": {
             "title": "Agregar una billetera",
@@ -2037,7 +2037,7 @@
         "complete_checks": "Completar verificaciones",
         "ens_configuration_options": "Opciones de configuración de ENS",
         "confirm": "Confirmar transacción",
-        "max": "Máximo",
+        "max": "Máx.",
         "placeholder_title": "Marcador de posición",
         "request": "Solicitud de transacción",
         "send": "Enviar transacción",
@@ -2050,7 +2050,7 @@
         "missing_fcm": "No se puede inicializar WalletConnect: falta el token de notificación push. Por favor, intenta de nuevo.",
         "walletconnect_session_has_expired_while_trying_to_send": "La sesión de WalletConnect ha expirado mientras se intentaba enviar el estado de la solicitud. Por favor, reconéctate."
       },
-      "wallet_title": "Billetera"
+      "wallet_title": "Cartera"
     },
     "walletconnect": {
       "available_networks": "Redes Disponibles",
@@ -2074,9 +2074,9 @@
         "transaction_sent": "¡Transacción enviada!"
       },
       "unknown_application": "Aplicación Desconocida",
-      "connection_failed": "La conexión falló",
+      "connection_failed": "Error de conexión",
       "failed_to_connect_to": "Error al conectarse a %{appName}",
-      "go_back": "Regresar",
+      "go_back": "Volver",
       "requesting_network": "Solicitando red %{num}",
       "requesting_networks": "Solicitando redes %{num}",
       "unknown_dapp": "Dapp Desconocido",
@@ -2094,11 +2094,11 @@
       },
       "errors": {
         "go_back": "Volver",
-        "generic_title": "Fallo en la conexión",
-        "generic_error": "Algo salió mal. Por favor, inténtalo de nuevo o ponte en contacto con nuestro equipo de soporte.",
+        "generic_title": "Error de conexión",
+        "generic_error": "Algo salió mal. Por favor, intenta nuevamente o contáctate con nuestro equipo de soporte.",
         "pairing_timeout": "Esta sesión se agotó antes de que se pudiera establecer una conexión. Esto suele ser debido a un error de red. Por favor, intenta nuevamente.",
         "pairing_unsupported_methods": "La dapp solicitó métodos RPC de billetera que no son compatibles con Rainbow.",
-        "pairing_unsupported_networks": "La dapp solicitó redes no compatibles con Rainbow.",
+        "pairing_unsupported_networks": "La dApp solicitó redes no compatibles con Rainbow.",
         "request_invalid": "La solicitud contiene parámetros no válidos. Por favor, intenta nuevamente o contacta con los equipos de soporte de Rainbow y/o la dapp.",
         "request_unsupported_network": "La red especificada en esta solicitud no es compatible con Rainbow.",
         "request_unsupported_methods": "El/los método(s) RPC especificado(s) en esta solicitud no son compatibles con Rainbow."
