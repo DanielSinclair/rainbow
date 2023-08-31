@@ -187,7 +187,7 @@
       "all": "Tous",
       "attempt_cancellation": "Attempt Cancellation :)",
       "buy_eth": "Buy Ethereum :)",
-      "cancel": "Annuler",
+      "cancel": "Cancel :)",
       "close": "Fermer",
       "confirm": "Confirmer",
       "confirm_exchange": {
@@ -229,7 +229,7 @@
       "go_back": "Retourner",
       "go_back_lowercase": "Go back :)",
       "got_it": "Got it :)",
-      "hide": "Cacher",
+      "hide": "Masquer",
       "hold_to_authorize": {
         "authorizing": "Authorizing :)",
         "confirming_on_ledger": "Confirming on Ledger :)",
@@ -250,7 +250,7 @@
       "ok": "D'accord",
       "okay": "Okay :)",
       "paste": "Coller",
-      "paste_address": "Paste :)",
+      "paste_address": "Coller",
       "paste_seed_phrase": "Coller",
       "pin": "Epingler",
       "proceed": "Proceed :)",
@@ -273,7 +273,7 @@
       "dpi": {
         "title": "DeFi Pulse Index :)",
         "body": "All the top decentralized finance tokens in one. Track the industry. :)",
-        "view": "View :)"
+        "view": "Affichage"
       },
       "ens_create_profile": {
         "title": "Create your ENS profile :)",
@@ -372,14 +372,14 @@
       "my_wallets": "My wallets :)",
       "options": {
         "add": "Ajouter le contact",
-        "cancel": "Annuler",
+        "cancel": "Cancel :)",
         "delete": "Effacer le contact",
         "edit": "Modifier le contact",
         "view": "Voir le profil"
       },
-      "send_header": "Send :)",
+      "send_header": "Envoyer",
       "suggestions": "Suggestions :)",
-      "to_header": "To :)",
+      "to_header": "À",
       "watching": "Watching :)"
     },
     "deeplinks": {
@@ -414,7 +414,7 @@
       },
       "restart_app": "Restart app :)",
       "reset_experimental_config": "Reset experimental config :)",
-      "status": "Status :)",
+      "status": "État",
       "sync_codepush": "Sync codepush :)"
     },
     "discover": {
@@ -504,7 +504,7 @@
       },
       "settings": "Settings :)",
       "use_defaults": "Use Defaults :)",
-      "done": "Done :)",
+      "done": "Terminé",
       "losing": "Losing :)",
       "high": "High :)",
       "slippage_tolerance": "Slippage Tolerance :)",
@@ -525,7 +525,7 @@
     "expanded_state": {
       "asset": {
         "about_asset": "About %{assetName} :)",
-        "balance": "Balance :)",
+        "balance": "Solde",
         "get_asset": "Get %{assetSymbol} :)",
         "market_cap": "Market cap :)",
         "read_more_button": "Read more :)",
@@ -567,7 +567,7 @@
         "token_pool": "%{tokenName} Pool :)"
       },
       "contact_profile": {
-        "name": "Name :)"
+        "name": "Nom"
       },
       "liquidity_pool": {
         "annualized_fees": "Annualized fees :)",
@@ -602,7 +602,7 @@
         "swap_max_alert": {
           "title": "Are you sure? :)",
           "message": "You are about to swap all the %{inputCurrencyAddress} available in your wallet. If you want to swap back to %{inputCurrencyAddress}, you may not be able to afford the fee.\n\nWould you like to auto adjust the balance to leave some %{inputCurrencyAddress}? :)",
-          "no_thanks": "No thanks :)",
+          "no_thanks": "Non merci",
           "auto_adjust": "Auto adjust :)"
         },
         "swap_max_insufficient_alert": {
@@ -649,13 +649,13 @@
         "copy_token_id": "Copy Token ID :)",
         "description": "Description :)",
         "discord": "Discorde",
-        "edit": "Edit :)",
+        "edit": "Modifier",
         "expires_in": "Expires in :)",
         "expires_on": "Expires on :)",
         "floor_price": "Floor price :)",
-        "for_sale": "For sale :)",
+        "for_sale": "En vente",
         "in_showcase": "In Showcase :)",
-        "last_sale_price": "Last sale price :)",
+        "last_sale_price": "Dernier prix de vente",
         "manager": "Manager :)",
         "open_in_web_browser": "Open in Web Browser :)",
         "owner": "Owner :)",
@@ -734,11 +734,11 @@
       },
       "failed_wc_invalid_methods": {
         "text": "The dapp requested wallet signing (RPC) methods that are unsupported by Rainbow. :)",
-        "title": "Connection failed :)"
+        "title": "Échec de la connexion"
       },
       "failed_wc_invalid_chains": {
         "text": "L'application a demandé des réseaux non pris en charge par Rainbow.",
-        "title": "Connection failed :)"
+        "title": "Échec de la connexion"
       },
       "failed_wc_invalid_chain": {
         "text": "The network specified in this request is not supported by Rainbow. :)",
@@ -841,7 +841,7 @@
         "text": "Le glissement se produit lorsque le prix d'un échange change entre le moment où vous soumettez votre transaction et sa confirmation. \n\nEn augmentant votre tolérance au glissement, vous augmentez la probabilité que votre échange réussisse, mais vous risquez d'obtenir un prix moins avantageux.",
         "title": "Glissement",
         "still_curious": {
-          "fragment1": "Encore curieux ? ",
+          "fragment1": "Encore curieux? ",
           "fragment2": "Read more :)",
           "fragment3": " concernant le glissement et son impact sur les échanges."
         }
@@ -850,7 +850,7 @@
         "text": "Flashbots protège vos transactions contre les attaques frontrunning et sandwich qui pourraient entraîner un prix moins avantageux ou l'échec de votre transaction.",
         "title": "Flashbots",
         "still_curious": {
-          "fragment1": "Encore curieux ? ",
+          "fragment1": "Encore curieux? ",
           "fragment2": "Read more :)",
           "fragment3": " concernant Flashbots et la protection qu'il offre."
         }
@@ -887,8 +887,8 @@
     "gas": {
       "network_fee": "Frais de réseau",
       "current_base_fee": "Frais de base actuels",
-      "max_base_fee": "Frais de base max.",
-      "miner_tip": "Pourboire du mineur",
+      "max_base_fee": "Frais de base max",
+      "miner_tip": "Pourboire pour le mineur",
       "max_transaction_fee": "Frais de transaction max.",
       "warning_separator": "·",
       "lower_than_suggested": "Faible · risque de blocage",
@@ -923,7 +923,7 @@
       },
       "connect_trezor": {
         "button": "Se connecter à Trezor",
-        "description": " Connectez-vous et signez vos transactions avec votre ",
+        "description": "Connectez-vous et signez vos transactions avec votre ",
         "link_text": "portefeuille matériel Trezor",
         "link_title": "Acheter un hardware wallet Trezor"
       },
@@ -938,14 +938,14 @@
         "link_title_wallet": "Découvrez Trust Wallet"
       },
       "connect_walletconnect": {
-        "button": "Utilisez WalletConnect",
+        "button": "Utiliser WalletConnect",
         "button_mobile": "Connectez-vous avec WalletConnect",
         "description": "Connectez-vous et signez vos transactions avec votre ",
         "description_mobile": "Connectez-vous à n'importe quel portefeuille compatible avec ",
         "link_text": "portefeuille mobile WalletConnect",
         "link_text_mobile": "WalletConnect",
-        "link_title": "portefeuille mobile WalletConnect",
-        "link_title_mobile": "Se connecter avec WalletConnect"
+        "link_title": "Utiliser WalletConnect",
+        "link_title_mobile": "Connectez-vous avec WalletConnect"
       },
       "reassurance": {
         "access_link": "Pas d'accès à vos fonds",
@@ -975,7 +975,7 @@
       "input_text": "Entrée",
       "password": "Mot de passe",
       "password_placeholder": "••••••••••",
-      "private_key": "Clé privée",
+      "private_key": "Private Key :)",
       "recipient_address": "Adresse du destinataire"
     },
     "list": {
@@ -1014,14 +1014,14 @@
           "cloud_not_enabled": {
             "description": "Looks like iCloud drive is not enabled on your device.\n\n Do you want to see how to enable it? :)",
             "label": "iCloud not enabled :)",
-            "no_thanks": "No thanks :)",
+            "no_thanks": "Non merci",
             "show_me": "Yes, Show me :)"
           }
         },
         "default": {
           "button": {
             "cloud": "Back up your wallet :)",
-            "cloud_platform": "Back up to %{cloudPlatformName} :)",
+            "cloud_platform": "Sauvegardez jusqu'à %{cloudPlatformName}",
             "manual": "Back up manually :)"
           },
           "description": "Don't lose your wallet! Save an encrypted copy to %{cloudPlatformName} :)",
@@ -1037,8 +1037,8 @@
         },
         "imported": {
           "button": {
-            "back_up": "Back up to %{cloudPlatformName} :)",
-            "no_thanks": "No thanks :)"
+            "back_up": "Sauvegardez jusqu'à %{cloudPlatformName}",
+            "no_thanks": "Non merci"
           },
           "description": "Don't lose your wallet! Save an encrypted copy to %{cloudPlatformName}. :)",
           "title": "Would you like to back up? :)"
@@ -1057,7 +1057,7 @@
         "visit_external_link": "Visit external link? :)",
         "you_are_attempting_to_visit": "You are attempting to visit a link that is not affiliated with Rainbow. :)"
       },
-      "gas_average": "Moyen",
+      "gas_average": "Average :)",
       "gas_fast": "Vite",
       "gas_fee": "Frais",
       "gas_slow": "Lent",
@@ -1065,7 +1065,7 @@
       "helper_min": "Min",
       "helper_price": "Prix",
       "helper_rate": "Taux",
-      "helper_value": "Valeur",
+      "helper_value": "Value :)",
       "invalid_address": "Adresse non valide",
       "new": "Nouveau",
       "previous_short": "Préc.",
@@ -1093,7 +1093,7 @@
       },
       "sheet": {
         "title": "Offers :)",
-        "total": "Total :)",
+        "total": "Total",
         "above_floor": "above floor :)",
         "below_floor": "below floor :)",
         "no_offers_found": "No offers found :)"
@@ -1110,15 +1110,15 @@
         "marketplace": "Marketplace :)",
         "marketplace_fees": "%{marketplace} Fees :)",
         "creator_royalties": "Creator Royalties :)",
-        "receive": "Receive :)",
+        "receive": "Recevoir",
         "proceeds": "Proceeds :)",
         "view_offer": "View Offer :)",
         "offer_expired": "Offer Expired :)",
         "expired": "Expired :)",
-        "hold_to_sell": "Hold to Sell",
+        "hold_to_sell": "Tenir pour Vendre",
         "error": {
-          "title": "Error selling NFT",
-          "message": "Please contact Rainbow support for assistance."
+          "title": "Erreur de vente NFT",
+          "message": "Veuillez contacter le support Rainbow pour assistance."
         }
       }
     },
@@ -1142,7 +1142,7 @@
     },
     "pools": {
       "deposit": "Dépôt",
-      "pools_title": "Pools :)",
+      "pools_title": "Investissements",
       "withdraw": "Retrait"
     },
     "profiles": {
@@ -1172,8 +1172,8 @@
         "hold_to_confirm": "Hold to Confirm :)",
         "hold_to_extend": "Hold to Extend :)",
         "hold_to_register": "Hold to Register :)",
-        "insufficient_bnb": "Insufficient BNB :)",
-        "insufficient_eth": "Insufficient ETH :)",
+        "insufficient_bnb": "BNB Insuffisants",
+        "insufficient_eth": "ETH Insuffisants",
         "last_step": "One last step :)",
         "last_step_description": "Confirm below to register your name and configure your profile :)",
         "new_expiration_date": "New expiration date :)",
@@ -1201,9 +1201,9 @@
         "choose_nft": "Choose an NFT :)",
         "content": "Content :)",
         "content_placeholder": "Add a content hash :)",
-        "discord": "Discord :)",
+        "discord": "Discorde",
         "doge": "Dogecoin :)",
-        "email": "Email :)",
+        "email": "Adresse de courriel",
         "invalid_email": "Invalid email :)",
         "email_placeholder": "Add your email :)",
         "invalid_username": "Invalid %{app} username :)",
@@ -1216,7 +1216,7 @@
         "keywords_placeholder": "Add keywords :)",
         "label": "Create your profile :)",
         "ltc": "Litecoin :)",
-        "name": "Name :)",
+        "name": "Nom",
         "name_placeholder": "Add a display name :)",
         "notice": "Notice :)",
         "notice_placeholder": "Add a notice :)",
@@ -1287,7 +1287,7 @@
         "pick_emoji": "Pick an Emoji :)",
         "shuffle_emoji": "Shuffle Emoji :)",
         "remove_photo": "Remove Photo :)",
-        "view_profile": "View Profile :)"
+        "view_profile": "Voir le profil"
       },
       "search": {
         "header": "Trouvez votre nom",
@@ -1455,8 +1455,8 @@
         "monthly": "Mensuel",
         "yearly": "Annuel"
       },
-      "get_prefix": "Get :)",
-      "label": "Epargne",
+      "get_prefix": "Obtenir",
+      "label": "Epargnes",
       "on_your_dollars_suffix": "on your dollars :)",
       "percentage": "%{percentage}% :)",
       "percentage_apy": "%{percentage}% APY :)",
@@ -1471,7 +1471,7 @@
         "description": "Would you like to manually copy our feedback email address to your clipboard? :)",
         "title": "Error launching email client :)"
       },
-      "no_thanks": "No thanks :)"
+      "no_thanks": "Non merci"
     },
     "settings": {
       "backup": "Sauvegarder",
@@ -1490,24 +1490,24 @@
       "feedback_and_support": "Feedback & Support :)",
       "follow_us_on_twitter": "Follow Us on Twitter :)",
       "hey_friend_message": "👋️ Hey friend! You should download Rainbow, it's my favorite Ethereum wallet 🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️🌈️ :)",
-      "label": "Réglages",
+      "label": "Settings :)",
       "language": "Langue",
       "learn": "Learn about Rainbow and Ethereum :)",
       "network": "Réseau",
-      "notifications": "Notifications :)",
+      "notifications": "Notifications",
       "notifications_section": {
         "my_wallets": "My Wallets :)",
         "watched_wallets": "Watched Wallets :)",
         "allow_notifications": "Allow Notifications :)",
-        "sent": "Sent :)",
-        "received": "Received :)",
+        "sent": "Envoyé",
+        "received": "Reçu",
         "purchased": "Purchased :)",
         "sold": "Sold :)",
         "minted": "Minted :)",
         "swapped": "Swapped :)",
         "approvals": "Approved :)",
         "other": "Contracts & More :)",
-        "all": "All :)",
+        "all": "Tous",
         "off": "Off :)",
         "plus_n_more": "+ %{n} more :)",
         "no_permissions": "Looks like your notification permissions are disabled. Please enable them in Settings to receive notifications from Rainbow. :)",
@@ -1563,19 +1563,19 @@
         "edit_price": "Modifier le prix du gaz",
         "enter_price": "Enter Gas Price :)",
         "estimated_fee": "Estimated fee :)",
-        "fast": "Rapide",
+        "fast": "Vite",
         "network_fee": "Frais de Réseau",
         "normal": "Normal",
         "slow": "Lent"
       },
       "loading": "Loading... :)",
       "modal_types": {
-        "confirm": "Confirme dans",
-        "deposit": "Dépôts dans",
+        "confirm": "Confirmer",
+        "deposit": "Dépôt",
         "receive": "Recevoir",
-        "swap": "Swaps en",
+        "swap": "Échanger",
         "get_symbol_with": "Obtenez %{symbol} avec",
-        "withdraw": "Se retire dans",
+        "withdraw": "Retrait",
         "withdraw_symbol": "Withdraw %{symbol} :)"
       },
       "warning": {
@@ -1589,7 +1589,7 @@
           "title": "Prix du gaz invalide"
         },
         "too_high": {
-          "message": "Vérifiez à nouveau que vous avez saisi le montant correct. Vous paierez probablement plus que nécessaire!",
+          "message": "Vérifiez bien que vous avez saisi le montant correct - vous payez probablement plus que nécessaire !",
           "title": "Prix de l'essence élevé!"
         },
         "too_low": {
@@ -1599,19 +1599,19 @@
       }
     },
     "transaction_details": {
-      "from": "From :)",
-      "to": "To :)",
+      "from": "De",
+      "to": "À",
       "value": "Value :)",
       "hash": "Tx Hash :)",
-      "network_fee": "Network Fee :)",
+      "network_fee": "Frais de Réseau",
       "hash_copied": "􀁣 Transaction hash copied :)",
       "address_copied": "􀁣 Address copied :)",
       "try_again": "􀅉 Try again :)",
       "context_menu": {
         "copy_address": "Copy Address :)",
-        "send": "Send :)",
-        "add_contact": "Add to Contacts :)",
-        "edit_contact": "Edit Contact :)"
+        "send": "Envoyer",
+        "add_contact": "Ajouter aux contacts",
+        "edit_contact": "Modifier le contact"
       },
       "actions_menu": {
         "speed_up": "Speed Up :)",
@@ -1697,7 +1697,7 @@
       "enable_blind_signing": "Enable blind signing :)",
       "blind_signing_enabled": "Blind signing enabled :)",
       "blind_signing_description": "Blind signing enables your device to approve signing a smart contract transactions. :)",
-      "learn_more": "Learn More :)",
+      "learn_more": "En savoir plus",
       "finish_importing": "Finish importing :)",
       "blind_signing_instructions": {
         "step_1": {
@@ -1730,29 +1730,29 @@
     "wallet": {
       "action": {
         "add_another": "Add another wallet :)",
-        "cancel": "Annuler",
+        "cancel": "Cancel :)",
         "copy_contract_address": "Copy Contract Address :)",
         "delete": "Supprimer le Portefeuille",
         "delete_confirm": "Voulez-vous vraiment supprimer ce portefeuille",
         "edit": "Moadifier le Portefeuille",
-        "hide": "Hide :)",
+        "hide": "Masquer",
         "import_wallet": "Importer un portefeuille",
         "input": "Transaction entrante",
         "notifications": {
           "action_title": "Paramètres de notification",
-          "alert_title": "Aucun paramètre pour ce portefeuille",
-          "alert_message": "Il n'y a aucun paramètre pour ce portefeuille.\nVeuillez essayer de redémarrer l'application ou réessayer plus tard."
+          "alert_title": "Aucun réglage pour ce portefeuille",
+          "alert_message": "Il n'y a pas de réglage pour ce portefeuille.\nVeuillez essayer de redémarrer l'application ou réessayer plus tard."
         },
         "pair_hardware_wallet": "Pair a Ledger Nano X :)",
         "paste": "Coller",
-        "pin": "Pin :)",
+        "pin": "Epingler",
         "reject": "Refuser",
         "remove": "Remove Wallet :)",
         "remove_confirm": "Are you sure you want to remove this wallet? :)",
         "send": "Envoyer",
         "to": "À",
-        "unhide": "Unhide :)",
-        "unpin": "Unpin :)",
+        "unhide": "Afficher",
+        "unpin": "Détacher",
         "value": "Value :)",
         "view_on": "View on %{blockExplorerName} :)"
       },
@@ -1781,7 +1781,7 @@
         "generic_error": {
           "title": "Something went wrong :)",
           "message": "Our team has been notified and will look into it ASAP. :)",
-          "button": "OK :)"
+          "button": "D'accord"
         },
         "unauthenticated_ratio_error": {
           "title": "Nous sommes désolés, l'authentification a échoué",
@@ -1879,10 +1879,10 @@
       "error_displaying_address": "Error displaying address :)",
       "feedback": {
         "cancel": "Non merci",
-        "choice": "Souhaitez-vous copier manuellement l'adresse email de feedback dans votre presse papier ?",
-        "copy_email_address": "Copier adresse email",
+        "choice": "Would you like to manually copy our feedback email address to your clipboard? :)",
+        "copy_email_address": "Copy email address :)",
         "email_subject": "📱 Feedback pour l'alpha du wallet Rainbow",
-        "error": "Erreur lors du chargement de votre client mail",
+        "error": "Error launching email client :)",
         "send": "Envoyer feedback"
       },
       "import_failed_invalid_private_key": "Import failed due to an invalid private key. Please try again. :)",
@@ -1897,7 +1897,7 @@
       "label": "Portefeuilles",
       "loading": {
         "error": "Une erreur est survenue lors du chargement du portefeuille. Veuillez redémarrer l'application.",
-        "message": "Chargement"
+        "message": "Se charge"
       },
       "message_signing": {
         "failed_signing": "Échec de la signature du message",
@@ -1906,7 +1906,7 @@
         "sign": "Signer le message"
       },
       "my_account_address": "My account address: :)",
-      "network_title": "Network :)",
+      "network_title": "Réseau",
       "new": {
         "add_wallet_sheet": {
           "options": {
@@ -1945,13 +1945,13 @@
           }
         },
         "import_or_watch_wallet_sheet": {
-          "paste": "Paste :)",
+          "paste": "Coller",
           "continue": "Continue :)",
           "import": {
             "title": "Restore a wallet :)",
             "description": "Restore with a recovery phrase or private key from Rainbow or another crypto wallet :)",
             "placeholder": "Enter a recovery phrase or private key :)",
-            "button": "Import :)"
+            "button": "Importer"
           },
           "watch": {
             "title": "Watch an address :)",
@@ -2003,7 +2003,7 @@
       },
       "settings": {
         "copy_address": "Copier adresse",
-        "copy_address_capitalized": "Copier Adresse",
+        "copy_address_capitalized": "Copy Address :)",
         "copy_seed_phrase": "Copier clé mnémonique",
         "hide_seed_phrase": "Cacher clé mnémonique",
         "show_seed_phrase": "Afficher clé mnémonique"
@@ -2020,7 +2020,7 @@
           "authentication": "L'authentication a échouée",
           "cancelled_transaction": "Échec de l'envoie de la transaction annulée à WalletConnect",
           "connection_expired": "Connection Expired :)",
-          "failed_sign_message": "Failed to sign message :)",
+          "failed_sign_message": "Échec de la signature du message",
           "failed_transaction": "Failed to send transaction :)",
           "failed_transaction_status": "Échec de l'envoie du status de la transaction échouée",
           "invalid_transaction": "Invalid transaction :)",
@@ -2074,14 +2074,14 @@
         "transaction_sent": "Transaction sent! :)"
       },
       "unknown_application": "Unknown Application :)",
-      "connection_failed": "Connection failed :)",
+      "connection_failed": "Échec de la connexion",
       "failed_to_connect_to": "Failed to connect to %{appName} :)",
       "go_back": "Go back :)",
       "requesting_network": "Requesting %{num} network :)",
       "requesting_networks": "Requesting %{num} networks :)",
       "unknown_dapp": "Unknown Dapp :)",
       "unknown_url": "Unknown URL :)",
-      "approval_sheet_network": "Network :)",
+      "approval_sheet_network": "Réseau",
       "approval_sheet_networks": "%{length} Networks :)",
       "auth": {
         "signin_title": "Sign In :)",
@@ -2094,11 +2094,11 @@
       },
       "errors": {
         "go_back": "Go back :)",
-        "generic_title": "La connexion a échoué",
+        "generic_title": "Échec de la connexion",
         "generic_error": "Something went wrong. Please try again, or reach out to our support team. :)",
         "pairing_timeout": "Cette session a expiré avant qu'une connexion puisse être établie. Cela est généralement dû à une erreur de réseau. Veuillez réessayer.",
         "pairing_unsupported_methods": "L'application décentralisée a demandé des méthodes RPC de portefeuille non prises en charge par Rainbow.",
-        "pairing_unsupported_networks": "L'application décentralisée a demandé des réseaux non pris en charge par Rainbow.",
+        "pairing_unsupported_networks": "L'application a demandé des réseaux non pris en charge par Rainbow.",
         "request_invalid": "La demande contenait des paramètres invalides. Veuillez réessayer ou contacter les équipes de support Rainbow et/ou dapp.",
         "request_unsupported_network": "The network specified in this request is not supported by Rainbow. :)",
         "request_unsupported_methods": "La(les) méthode(s) RPC spécifiée(s) dans cette demande ne sont pas prises en charge par Rainbow."
