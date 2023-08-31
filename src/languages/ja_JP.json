@@ -791,10 +791,10 @@
         "title": "検証済みトークン"
       },
       "unverified": {
-        "fragment1": "Rainbow surfaces as many tokens as possible, but anyone can create a token, or claim to represent a project with a fake contract. \n\n Please review the ",
+        "fragment1": "Rainbowはできるだけ多くのトークンを表示しますが、誰でもトークンを作成したり、偽の契約でプロジェクトを代表すると主張することができます。 \n\n こちらの ",
         "fragment2": "トークン契約",
         "fragment3": " および必ず研究を行い、信頼できるトークンとやり取りすることを確認してください。",
-        "title": "%{symbol} is Unverified",
+        "title": "%{symbol} は未検証です",
         "go_back": "戻る"
       },
       "obtain_l2_asset": {
@@ -1422,11 +1422,11 @@
         },
         "bridge": {
           "title": "ブリッジで0.125%獲得",
-          "text": "While rewards are live, bridging verified tokens to Optimism will earn you approximately 0.125% back in OP.\n\nStats update periodically throughout the day. Check back soon if you don’t see your recent bridging reflected here."
+          "text": "報酬が実施中の間、確認されたトークンをOptimismにブリッジすると、約0.125%のOPが返回されます。\n\n統計は一日中定期的に更新されます。最近のブリッジがここに反映されていない場合は、後ほど再度ご確認ください。"
         },
         "swap": {
           "title": "スワップで0.425%獲得",
-          "text": "While rewards are live, swapping verified tokens on Optimism will earn you approximately 0.425% back in OP.\n\nStats update periodically throughout the day. Check back soon if you don’t see your recent swaps reflected here."
+          "text": "報酬が実施中の間、Optimismで確認済みのトークンを交換すると約0.425％のOPが返されます。\n\n統計は日中定期的に更新されます。最近の交換がここに反映されていない場合は、後ほど再度ご確認ください。"
         },
         "position": {
           "title": "リーダーボードの位置",
@@ -1768,13 +1768,13 @@
         "purchase_failed_order_id": "注文ID： %{orderId}",
         "purchase_failed_subtitle": "料金は発生しませんでした。",
         "purchase_failed_support_subject": "購入に失敗しました",
-        "purchase_failed_support_subject_with_order_id": "Purchase Failed - Order %{orderId}",
+        "purchase_failed_support_subject_with_order_id": "購入失敗 - 注文 %{orderId}",
         "purchase_failed_title": "申し訳ありませんが、購入に失敗しました",
         "purchasing_dai_requires_eth_message": "DAIを購入する前にウォレットにETHが必要です",
         "purchasing_dai_requires_eth_title": "ETHがありません",
         "running_checks": "チェックを実行中...",
         "success_message": "おめでとうございます 🥳",
-        "watching_mode_confirm_message": "The wallet you have open is read-only, so you can’t control what’s inside. Are you sure you want to add cash to %{truncatedAddress}?",
+        "watching_mode_confirm_message": "開いているウォレットは読み取り専用なので、中のものを管理することはできません。本当に %{truncatedAddress}にキャッシュを追加しますか？",
         "watching_mode_confirm_title": "ウォッチングモードです"
       },
       "add_cash_v2": {
@@ -1788,7 +1788,7 @@
           "message": "安全上の理由から、Ratioで暗号通貨を購入する前に認証する必要があります"
         },
         "support_emails": {
-          "help": "I Need Help Buying Crypto With %{provider}",
+          "help": "私は %{provider}で暗号を購入する助けが必要",
           "account_recovery": "暗号通貨購入のアカウント回復"
         },
         "sheet_empty_state": {
@@ -1827,7 +1827,7 @@
       },
       "back_ups": {
         "and_1_more_wallet": "さらに1つのウォレット",
-        "and_more_wallets": "And %{moreWalletCount} more wallets",
+        "and_more_wallets": "そして %{moreWalletCount} 以上のウォレット",
         "backed_up": "バックアップ済み",
         "backed_up_manually": "手動でバックアップ済み",
         "imported": "インポート済み"
@@ -1860,7 +1860,7 @@
           "copy_secret": "シークレットをコピーする",
           "okay_i_understand": "はい、了解しました",
           "reminder_title": "リマインダー",
-          "these_words_are_for_your_eyes_only": "These words are for your eyes only. Your secret phrase gives access to your entire wallet. \n\n       Be very careful with it."
+          "these_words_are_for_your_eyes_only": "これらの言葉はあなたのためだけのものです。あなたの秘密のフレーズはウォレット全体へのアクセス権を提供します。 \n\n       非常に注意して取り扱ってください。"
         },
         "uuid": "あなたのUUID",
         "uuid_copied": "􀁣 UUIDがコピーされました",
@@ -2085,7 +2085,7 @@
       "approval_sheet_networks": "%{length} のネットワーク",
       "auth": {
         "signin_title": "サインインする",
-        "signin_prompt": "Do you want to sign into %{name} with your wallet?",
+        "signin_prompt": "ウォレットを使って %{name} にサインインしたいですか？",
         "signin_with": "でサインインする",
         "signin_button": "続ける",
         "signin_notice": "続行することで、このウォレットが所有していることを証明する無料のメッセージにサインします",
