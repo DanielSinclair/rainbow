@@ -1115,10 +1115,10 @@
         "view_offer": "Посмотреть предложение",
         "offer_expired": "Предложение истекло",
         "expired": "Истекло",
-        "hold_to_sell": "Hold to Sell",
+        "hold_to_sell": "Удерживайте для продажи",
         "error": {
-          "title": "Error selling NFT",
-          "message": "Please contact Rainbow support for assistance."
+          "title": "Ошибка при продаже NFT",
+          "message": "Пожалуйста, обратитесь в службу поддержки Rainbow за помощью."
         }
       }
     },
