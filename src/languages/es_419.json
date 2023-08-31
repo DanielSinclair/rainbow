@@ -725,7 +725,7 @@
         "text_prefix": "La comisión base la establece la red de Ethereum y cambia dependiendo de la congestión de la red.",
         "text_rising": "¡Las tarifas de  \n\nestán subiendo en este momento! Es mejor usar una tarifa base máxima más alta para evitar una transacción bloqueada.",
         "text_stable": "¡El tráfico de la red de \n\nes estable en este momento. ¡Diviértete!",
-        "text_surging": "\n\nFees are unusually high right now! Unless your transaction is urgent, it’s best to wait for fees to drop.",
+        "text_surging": "\n\n¡Las tarifas están inusualmente altas en este momento! A menos que tu transacción sea urgente, es mejor esperar a que las tarifas bajen.",
         "title": "Tarifa base actual"
       },
       "failed_walletconnect": {
@@ -1115,10 +1115,10 @@
         "view_offer": "Ver Oferta",
         "offer_expired": "La oferta ha expirado",
         "expired": "Expirado",
-        "hold_to_sell": "Hold to Sell",
+        "hold_to_sell": "Mantén para vender",
         "error": {
-          "title": "Error selling NFT",
-          "message": "Please contact Rainbow support for assistance."
+          "title": "Error al vender NFT",
+          "message": "Por favor contacta al soporte de Rainbow para asistencia."
         }
       }
     },
@@ -1995,7 +1995,7 @@
         "error_mounting_camera": "Error al montar la cámara",
         "find_a_code": "Encuentra un código para escanear",
         "qr_1_app_connected": "1 Aplicación Conectada",
-        "qr_multiple_apps_connected": "%{appsConnectedCount} Connected Apps",
+        "qr_multiple_apps_connected": "%{appsConnectedCount} Aplicaciones Conectadas",
         "scan_to_pay_or_connect": "Escanear para pagar o conectar",
         "simulator_mode": "Modo Simulador",
         "sorry_could_not_be_recognized": "Lo sentimos, este código QR no pudo ser reconocido.",
