@@ -1113,9 +1113,13 @@
         "receive": "Получить",
         "proceeds": "Доходы",
         "view_offer": "Посмотреть предложение",
-        "hold_to_accept": "Удерживайте, чтобы принять",
         "offer_expired": "Предложение истекло",
-        "expired": "Срок действия истек"
+        "expired": "Срок действия истек",
+        "hold_to_sell": "Hold to Sell",
+        "error": {
+          "title": "Error selling NFT",
+          "message": "Please contact Rainbow support for assistance."
+        }
       }
     },
     "notification": {
