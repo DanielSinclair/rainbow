@@ -1113,9 +1113,13 @@
         "receive": "Receber",
         "proceeds": "Recebimentos",
         "view_offer": "Ver Oferta",
-        "hold_to_accept": "Segure para Aceitar",
         "offer_expired": "Oferta Expirada",
-        "expired": "Expirado"
+        "expired": "Expirado",
+        "hold_to_sell": "Hold to Sell",
+        "error": {
+          "title": "Error selling NFT",
+          "message": "Please contact Rainbow support for assistance."
+        }
       }
     },
     "notification": {
