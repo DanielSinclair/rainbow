@@ -1113,9 +1113,13 @@
         "receive": "受け取る",
         "proceeds": "収益",
         "view_offer": "オファーを表示",
-        "hold_to_accept": "受け入れるには押し続けてください",
         "offer_expired": "オファーの有効期限切れ",
-        "expired": "期限切れ"
+        "expired": "期限切れ",
+        "hold_to_sell": "Hold to Sell",
+        "error": {
+          "title": "Error selling NFT",
+          "message": "Please contact Rainbow support for assistance."
+        }
       }
     },
     "notification": {
