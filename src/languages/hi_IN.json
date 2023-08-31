@@ -1522,7 +1522,7 @@
         "error_alert_content": "कृपया बाद में पुनः प्रयास करें।",
         "offline_alert_content": "ऐसा प्रतीत होता है कि आपका कोई इंटरनेट कनेक्शन नहीं है।\n\nकृपया बाद में पुनः प्रयास करें।",
         "no_settings_for_address_title": "इस वॉलेट के लिए कोई सेटिंग्स नहीं",
-        "no_settings_for_address_content": "There are no settings for this wallet.\nPlease try restarting the app or try again later."
+        "no_settings_for_address_content": "इस बटुए के लिए कोई सेटिंग्स नहीं हैं।\nकृपया ऐप को पुनः आरंभ करने का प्रयास करें या फिर बाद में पुनः प्रयास करें।"
       },
       "privacy": "गोपनीयता",
       "privacy_section": {
@@ -1672,13 +1672,13 @@
         },
         "micro": "s",
         "short": {
-          "plural": "secs",
-          "singular": "sec"
+          "plural": "सेकंड",
+          "singular": "सेकंड"
         }
       }
     },
     "toasts": {
-      "copied": "Copied \"%{copiedText}\"",
+      "copied": "\"%{copiedText}\" कॉपी कर दिया गया",
       "invalid_paste": "आप यहां पेस्ट नहीं कर सकते"
     },
     "hardware_wallets": {
@@ -1809,35 +1809,35 @@
         "this_wallet_in_watching_mode": "यह वॉलेट वर्तमान में \"देखने\" मोड में है!"
       },
       "alerts": {
-        "dont_have_asset_in_wallet": "Looks like you don't have that asset in your wallet...",
-        "invalid_ethereum_url": "Invalid ethereum url",
-        "ooops": "Ooops!",
-        "this_action_not_supported": "This action is currently not supported :("
+        "dont_have_asset_in_wallet": "लगता है कि आपके वॉलेट में उस संपत्ति नहीं है...",
+        "invalid_ethereum_url": "अमान्य इथियरियम url",
+        "ooops": "ओह!",
+        "this_action_not_supported": "यह कार्रवाई वर्तमान में समर्थित नहीं है :("
       },
       "assets": {
-        "no_price": "Small Balances"
+        "no_price": "छोटी राशियां"
       },
       "authenticate": {
         "alert": {
-          "current_authentication_not_secure_enough": "Your current authentication method (Face Recognition) is not secure enough, please go to \"Settings > Biometrics & Security\" and enable an alternative biometric method like Fingerprint or Iris.",
-          "error": "Error"
+          "current_authentication_not_secure_enough": "आपका वर्तमान प्रमाणीकरण विधि (फेस रिकॉग्निशन) पर्याप्त सुरक्षित नहीं है, कृपया \"सेटिंग्स> बायोमेट्रिक्स और सुरक्षा\" पर जाएं और एक वैकल्पिक बायोमेट्रिक विधि जैसे फिंगरप्रिंट या आईरिस को सक्षम करें।",
+          "error": "त्रुटि"
         },
-        "please": "Please authenticate",
-        "please_seed_phrase": "Please authenticate to view private key"
+        "please": "कृपया प्रमाणित करें",
+        "please_seed_phrase": "निजी कुंजी देखने के लिए कृपया प्रमाणित करें"
       },
       "back_ups": {
-        "and_1_more_wallet": "And 1 more wallet",
-        "and_more_wallets": "And %{moreWalletCount} more wallets",
+        "and_1_more_wallet": "और 1 और वॉलेट",
+        "and_more_wallets": "और %{moreWalletCount} और वॉलेट्स",
         "backed_up": "बैकअप हो गया",
         "backed_up_manually": "मैन्युअली बैकअप हो गया",
         "imported": "आयात किया गया"
       },
       "balance_title": "बैलेंस",
-      "buy": "Buy",
+      "buy": "खरीदें",
       "change_wallet": {
         "balance_eth": "%{balanceEth} ETH",
         "watching": "देख रहा है",
-        "ledger": "Ledger"
+        "ledger": "लेजर"
       },
       "connected_apps": "जुड़े हुए एप्स",
       "copy": "कॉपी",
@@ -2045,9 +2045,9 @@
       },
       "wallet_connect": {
         "error": "वॉलेटकनेक्ट के साथ प्रारंभ करने में त्रुटि",
-        "failed_to_disconnect": "Failed to disconnect all WalletConnect sessions",
-        "failed_to_send_request_status": "Failed to send request status to WalletConnect.",
-        "missing_fcm": "Unable to initialize WalletConnect: missing push notification token. Please try again.",
+        "failed_to_disconnect": "सभी WalletConnect सत्रों को डिस्कनेक्ट करने में विफल",
+        "failed_to_send_request_status": "WalletConnect को अनुरोध स्थिति भेजने में विफल रहा।",
+        "missing_fcm": "WalletConnect को आरंभ करने में असमर्थ: पुश अधिसूचना टोकन अनुपलब्ध। कृपया पुनः प्रयास करें।",
         "walletconnect_session_has_expired_while_trying_to_send": "WalletConnect सत्र समाप्त हो गया है जबकि अनुरोध स्थिति भेजने की कोशिश कर रहा था। कृपया पुन: कनेक्ट करें।"
       },
       "wallet_title": "वॉलेट"
