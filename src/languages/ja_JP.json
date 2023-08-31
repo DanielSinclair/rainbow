@@ -115,11 +115,11 @@
         "add_to_cloud_platform": "%{cloudPlatformName} データバックアップに追加",
         "backup_password_placeholder": "バックアップパスワード",
         "confirm_backup": "バックアップの確認",
-        "enter_backup_description": "To add this wallet to your %{cloudPlatformName} backup, enter your existing backup password",
+        "enter_backup_description": "このウォレットをあなたの %{cloudPlatformName} バックアップに追加するためには、既存のバックアップパスワードを入力してください",
         "enter_backup_password": "バックアップパスワードを入力してください"
       },
       "explainers": {
-        "backup": "Don't forget this password! It is separate from your %{cloudPlatformName} password, and you should save it in a secure location.\n\nYou will need it in order to restore your wallet from the backup in the future.",
+        "backup": "このパスワードを忘れないでください！あなたの %{cloudPlatformName} パスワードとは別で、安全な場所に保管してください。\n\nこれは将来、バックアップからウォレットを復元するために必要です。",
         "if_lose_cloud": "このデバイスを紛失した場合、暗号化されたウォレットのバックアップを %{cloudPlatformName}から回復することができます。",
         "if_lose_imported": "このデバイスを紛失した場合、元々インポートしたキーでウォレットを復元することができます。",
         "if_lose_manual": "このデバイスを紛失した場合、保存した秘密フレーズでウォレットを復元することができます。"
@@ -623,12 +623,12 @@
         "token_contract": "%{token} コントラクト",
         "number_of_exchanges": "%{number} 取引所",
         "number_of_steps": "%{number} ステップ",
-        "input_exchange_rate": "1 %{inputSymbol} for %{executionRate} %{outputSymbol}",
-        "output_exchange_rate": "1 %{outputSymbol} for %{executionRate} %{inputSymbol}"
+        "input_exchange_rate": "1 %{inputSymbol} につき %{executionRate} %{outputSymbol}",
+        "output_exchange_rate": "1 %{outputSymbol} につき %{executionRate} %{inputSymbol}"
       },
       "token_index": {
         "get_token": "%{assetSymbol}を入手",
-        "makeup_of_token": "Makeup of 1 %{assetSymbol}",
+        "makeup_of_token": "1 %{assetSymbol}の構成",
         "underlying_tokens": "下層トークン"
       },
       "unique": {
@@ -641,7 +641,7 @@
         }
       },
       "unique_expanded": {
-        "about": "About %{assetFamilyName}",
+        "about": "%{assetFamilyName}について",
         "attributes": "Attributes",
         "collection_website": "Collection Website",
         "configuration": "Configuration",
@@ -705,7 +705,7 @@
         "title": "代わりに %{inputToken} を入力してください",
         "title_crosschain": "代わりに %{fromNetwork} %{inputToken} を入力してください",
         "text_crosschain": "%{outputToken} の量に基づいてレインボーはスワップを準備することはできません。 \n\n の代わりにスワップしたい %{inputToken} の量を入力してみてください。",
-        "text_bridge": "Rainbow can't prepare a bridge based on the amount of %{outputToken} you'd like to receive at the %{toNetwork} destination. \n\n Try entering the amount of %{fromNetwork} %{inputToken} you’d like to bridge instead.",
+        "text_bridge": "レインボーは、あなたが希望する受け取り量に基づいてブリッジを準備することはできません %{outputToken} 。 %{toNetwork} の目的地で。 \n\n 代わりに、ブリッジしたい %{fromNetwork} %{inputToken} の量を入力してみてください。",
         "title_empty": "トークンを選択してください"
       },
       "available_networks": {
@@ -721,11 +721,11 @@
         "title": "重要"
       },
       "base_fee": {
-        "text_falling": "\n\nFees are dropping right now!",
+        "text_falling": "\n\n手数料は現在下がっています！",
         "text_prefix": "基準手数料は Ethereum ネットワークによって設定され、ネットワークの混雑具合に応じて変更されます。",
-        "text_rising": "\n\nFees are rising right now! It’s best to use a higher max base fee to avoid a stuck transaction.",
-        "text_stable": "\n\nNetwork traffic is stable right now. Have fun!",
-        "text_surging": "\n\nFees are unusually high right now! Unless your transaction is urgent, it’s best to wait for fees to drop.",
+        "text_rising": "\n\n手数料は現在上昇しています！取引がスタックしないように、最大基本手数料を高く設定することがベストです。",
+        "text_stable": "\n\nネットワークトラフィックは現在安定しています。楽しんでください！",
+        "text_surging": "\n\n手数料は現在非常に高いです！あなたの取引が緊急でない限り、手数料が下がるのを待つのがベストです。",
         "title": "現在の基本手数料"
       },
       "failed_walletconnect": {
@@ -749,7 +749,7 @@
         "title": "コレクションの最低価格"
       },
       "gas": {
-        "text": "This is the \"gas fee\" used by the %{networkName} blockchain to securely validate your transaction.\n\nThis fee varies depending on the complexity of your transaction and how busy the network is!",
+        "text": "これは、あなたの取引を安全に検証するために %{networkName} ブロックチェーンで使用される「ガス手数料」です。\n\nこの手数料は、あなたの取引の複雑さとネットワークの混雑具合により変動します！",
         "title": "%{networkName} ネットワーク手数料"
       },
       "max_base_fee": {
@@ -804,7 +804,7 @@
         "title": "%{networkName}にトークンがありません"
       },
       "insufficient_liquidity": {
-        "fragment1": "The exchanges don't have enough of the tokens you requested to complete this transaction. \n\n Still curious? ",
+        "fragment1": "交換所には、このトランザクションを完了するために必要なトークンが十分にありません。 \n\n 依然として興味がありますか？ ",
         "fragment2": "続きを読む",
         "fragment3": " について",
         "title": "流動性不足"
@@ -820,13 +820,13 @@
       },
       "cross_chain_swap": {
         "title": "ブリッジの遅延が予想されます",
-        "text": "This swap may take longer than expected to complete. \n\n Cross-chain swaps require bridging funds to the destination network, and bridges can sometimes take longer than expected to transfer funds. Your funds will remain safe during this time."
+        "text": "このスワップは予想以上に時間がかかる可能性があります。 \n\n クロスチェーンスワップでは、資金を目的のネットワークにブリッジする必要があり、ブリッジは場合によっては予想よりも時間がかかることがあります。この期間中、あなたの資金は安全に保管されます。"
       },
       "go_to_hop_with_icon": {
         "text": "Hop Bridge 􀮶に移動する"
       },
       "rainbow_fee": {
-        "text": "Rainbow takes a %{feePercentage} fee from swaps. It’s part of what enables us to give you the best Ethereum experience possible."
+        "text": "Rainbowはスワップから %{feePercentage} の手数料を取ります。これが私たちが最高のEthereum体験を提供するための一部です。"
       },
       "swap_routing": {
         "text": "Rainbowはデフォルトでスワップに最も安いルートを選択します。もし0xまたは1inchのいずれかを特に使用したい場合は、それも可能です。",
@@ -838,7 +838,7 @@
         }
       },
       "slippage": {
-        "text": "Slippage occurs when the price of a swap changes during the time between you submitting your transaction and its confirmation. \n\nSetting a higher slippage tolerance increases the likelihood your swap will be successful, but may result in you getting a worse price.",
+        "text": "スリッページとは、取引の提出とその確認の間にスワップの価格が変わることを指します。 \n\nより高いスリッページ許容度を設定すると、スワップが成功する可能性が高まりますが、より悪い価格で取引が成立する可能性もあります。",
         "title": "スリッページ",
         "still_curious": {
           "fragment1": "まだ気になりますか？ ",
@@ -856,17 +856,17 @@
         }
       },
       "swap_refuel": {
-        "title": "No %{networkName} %{gasToken} detected",
-        "text": "You won’t be able to use %{networkName} without %{networkName} %{gasToken}. We can seamlessly bundle it with this bridge using about $3 of ETH from your wallet.",
-        "button": "Add $3 of %{networkName} %{gasToken}"
+        "title": "%{networkName} %{gasToken} が検出されません",
+        "text": "%{networkName} を使用するには %{networkName} %{gasToken}が必要です。あなたのウォレットから約$3のETHを使って、このブリッジとシームレスにバンドルできます。",
+        "button": "%{networkName} の$3を追加 %{gasToken}"
       },
       "swap_refuel_deduct": {
-        "title": "No %{networkName} %{gasToken} detected",
-        "text": "You won’t be able to use %{networkName} without %{networkName} %{gasToken}. We can seamlessly bundle it with this bridge using about $3 of ETH subtracted from this swap.",
+        "title": "%{networkName} %{gasToken} が検出されません",
+        "text": "%{networkName} を使用するには %{networkName} %{gasToken}が必要です。私たちはこのスワップから差し引かれた約$3のETHを使って、このブリッジとシームレスにバンドルできます。",
         "button": "%{gasToken}の調整と追加が$3されます"
       },
       "swap_refuel_notice": {
-        "title": "No %{networkName} %{gasToken} detected",
+        "title": "%{networkName} %{gasToken} が検出されません",
         "text": "この取引を進めると、 %{networkName} %{gasToken}なしでは %{networkName} を使用できません。この取引を行うと、 %{networkName} トークンをスワップ、ブリッジ、または転送する際に、ウォレットに %{networkName} %{gasToken} を追加することができません。",
         "button": "それでも進める"
       }
@@ -1071,7 +1071,7 @@
       "previous_short": "前",
       "receive_title": "%{walletName}に受信",
       "send_max": "送信最大",
-      "send_title": "Send from %{walletName}",
+      "send_title": "%{walletName}から送る",
       "tx_confirm_amount": "金額",
       "tx_confirm_fee": "トランザクション手数料",
       "tx_confirm_recipient": "受取人",
@@ -1115,10 +1115,10 @@
         "view_offer": "オファーを表示",
         "offer_expired": "オファーの有効期限切れ",
         "expired": "期限切れ",
-        "hold_to_sell": "Hold to Sell",
+        "hold_to_sell": "売却するために保持する",
         "error": {
-          "title": "Error selling NFT",
-          "message": "Please contact Rainbow support for assistance."
+          "title": "NFTの売却中にエラーが発生しました",
+          "message": "サポートにご連絡ください。"
         }
       }
     },
@@ -1232,7 +1232,7 @@
         "upload_photo": "写真をアップロード",
         "uploading": "アップロード中",
         "username_placeholder": "ユーザー名",
-        "wallet_placeholder": "Add a %{coin} address",
+        "wallet_placeholder": "%{coin} アドレスを追加",
         "website": "ウェブサイト",
         "invalid_website": "無効なURL",
         "website_placeholder": "ウェブサイトを追加"
