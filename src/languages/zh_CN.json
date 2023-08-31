@@ -1113,9 +1113,13 @@
         "receive": "接收",
         "proceeds": "收益",
         "view_offer": "查看报价",
-        "hold_to_accept": "按住接受",
         "offer_expired": "报价已过期",
-        "expired": "已过期"
+        "expired": "已过期",
+        "hold_to_sell": "Hold to Sell",
+        "error": {
+          "title": "Error selling NFT",
+          "message": "Please contact Rainbow support for assistance."
+        }
       }
     },
     "notification": {
