@@ -22,7 +22,7 @@
       "tab_investments": "Pools",
       "tab_savings": "Poupanças",
       "tab_showcase": "Vitrine",
-      "tab_points": "Points",
+      "tab_points": "Pontos",
       "tab_positions": "Posições",
       "tab_transactions": "Transações",
       "tab_transactions_tooltip": "Transações e Transferências de Token",
@@ -241,7 +241,7 @@
       "exchange_again": "Trocar Novamente",
       "exchange_search_placeholder": "Buscar tokens",
       "exchange_search_placeholder_network": "Buscar tokens na %{network}",
-      "favorites": "Favorites",
+      "favorites": "Favoritos",
       "go_back": "Voltar",
       "go_back_lowercase": "voltar",
       "got_it": "Entendi",
@@ -628,7 +628,7 @@
         }
       },
       "swap_details": {
-        "reward": "Reward",
+        "reward": "Recompensa",
         "exchange_rate": "Taxa de câmbio",
         "rainbow_fee": "Taxa Rainbow incluída",
         "refuel": "Tokens de rede adicionais",
@@ -1154,28 +1154,28 @@
       "withdrawal_input_label": "Obter"
     },
     "minting": {
-      "hold_to_mint": "Hold To Mint",
+      "hold_to_mint": "Segurar Para Cunhar",
       "minting": "Criando...",
       "minted": "Criado",
-      "mint_unavailable": "Mint Unavailable",
-      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "mint_unavailable": "Cunhagem Indisponível",
+      "mint_on_mintdotfun": "􀮶 Cunhar em mint.fun",
       "error_minting": "Erro Criando",
-      "mint_price": "Mint Price",
+      "mint_price": "Preço da Cunhagem",
       "free": "Grátis",
-      "by": "By",
-      "unknown": "unknown",
+      "by": "Por",
+      "unknown": "desconhecido",
       "max": "Máx",
       "nft_count": "%{number} NFTs",
       "description": "Descrição",
-      "total_minted": "Total Minted",
-      "first_event": "First Event",
-      "last_event": "Last Event",
-      "max_supply": "Max Supply",
-      "contract": "Contract",
+      "total_minted": "Total Cunhado",
+      "first_event": "Primeiro Evento",
+      "last_event": "Último Evento",
+      "max_supply": "Fornecimento Máximo",
+      "contract": "Contrato",
       "network": "Rede",
-      "could_not_find_collection": "Could not find collection",
-      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
-      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+      "could_not_find_collection": "Não foi possível encontrar a coleção",
+      "unable_to_find_check_again": "Não conseguimos encontrar esta coleção, verifique o endereço e a rede ou tente novamente mais tarde",
+      "mintdotfun_unsupported_network": "Mint.fun não suporta esta rede"
     },
     "nfts": {
       "selling": "Vendendo"
@@ -1239,8 +1239,8 @@
       }
     },
     "points": {
-      "coming_soon_title": "Coming Soon",
-      "coming_soon_description": "Points are just around the corner.\nStart earning today."
+      "coming_soon_title": "Em Breve",
+      "coming_soon_description": "Os pontos estão quase chegando.\nComece a ganhar hoje."
     },
     "pools": {
       "deposit": "Depósito",
@@ -1464,21 +1464,21 @@
     },
     "nft_offers_launch": {
       "primary_button": {
-        "has_offers": "View Offers",
+        "has_offers": "Ver Ofertas",
         "not_has_offers": "Fechar"
       },
-      "secondary_button": "Maybe Later",
+      "secondary_button": "Talvez Mais Tarde",
       "info_row_1": {
-        "title": "All your offers in one place",
-        "description": "View your offers across all NFT marketplaces."
+        "title": "Todas as suas ofertas num só lugar",
+        "description": "Veja suas ofertas de todos os mercados de NFT."
       },
       "info_row_2": {
-        "title": "Accept from Rainbow",
-        "description": "Accept offers in a single tap and swap to the token of your choosing."
+        "title": "Aceitar do Rainbow",
+        "description": "Aceite ofertas com um único toque e troque pelo token que você escolher."
       },
       "info_row_3": {
-        "title": "Smart sort modes",
-        "description": "Compare to floor prices, or view your highest or most recent offers."
+        "title": "Modos de classificação inteligentes",
+        "description": "Compare aos preços de base, ou veja suas ofertas mais altas ou mais recentes."
       },
       "header": "Ofertas",
       "subheader": "APRESENTANDO"
@@ -1535,8 +1535,8 @@
       "ended_title": "Programa encerrado",
       "ended_text": "Fique ligado para o que temos guardado para você!",
       "info": {
-        "title": "Earn OP for swapping and bridging",
-        "description": "Get cash back by swapping on or bridging to Optimism. Rewards distributed monthly."
+        "title": "Ganhe OP para trocas e pontes",
+        "description": "Receba dinheiro de volta trocando ou fazendo ponte para o Optimism. Recompensas distribuídas mensalmente."
       },
       "op": {
         "airdrop_timing": {
@@ -1750,7 +1750,7 @@
         "failed": "Falha",
         "purchased": "Comprado",
         "purchasing": "Comprando",
-        "minting": "Minting",
+        "minting": "Cunhando",
         "minted": "Criado",
         "received": "Recebido",
         "receiving": "Recebendo",
@@ -2274,7 +2274,7 @@
       "available_networks": "Redes Disponíveis",
       "change_network": "Alterar Rede",
       "connected_apps": "Aplicativos Conectados",
-      "no_connected_apps": "No Connected apps yet 😢",
+      "no_connected_apps": "Ainda nenhum aplicativo conectado 😢",
       "disconnect": "Desconectar",
       "go_back_to_your_browser": "Volte para o seu navegador",
       "paste_uri": {
@@ -2324,58 +2324,58 @@
         "pairing_timeout": "Esta sessão expirou antes que uma conexão pudesse ser estabelecida. Isso geralmente ocorre devido a um erro de rede. Por favor, tente novamente.",
         "pairing_unsupported_methods": "O Dapp solicitou métodos RPC de carteira que não são suportados pelo Rainbow.",
         "pairing_unsupported_networks": "O dapp solicitou redes que não são suportadas pelo Rainbow.",
-        "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
-        "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
+        "read_only_wallet_on_signing_method": "Parece que você está usando uma carteira somente de leitura, que não é permitido para esta solicitação.",
+        "namespaces_invalid": "Houve um problema com os espaços de nomes solicitados pelo dapp. Por favor, tente novamente ou entre em contato com as equipes de suporte do Rainbow e/ou dapp.",
         "request_invalid": "A solicitação continha parâmetros inválidos. Por favor, tente novamente ou entre em contato com as equipes de suporte do Rainbow e/ou do Dapp.",
-        "eth_sign": "Rainbow does not support legacy eth_sign due to security concerns.  \n Please contact Rainbow and/or dapp support teams if you have any questions.",
+        "eth_sign": "Rainbow não suporta eth_sign legado devido a preocupações de segurança.  \n Entre em contato com as equipes de suporte do Rainbow e/ou dapp se tiver alguma dúvida.",
         "request_unsupported_network": "A rede especificada nesta solicitação não é suportada pelo Rainbow.",
         "request_unsupported_methods": "O método RPC especificado nesta solicitação não é suportado pelo Rainbow."
       },
       "dapp_warnings": {
         "info_alert": {
-          "title": "This app is likely malicious",
-          "description": "Signing messages or transactions from this app could result in losing your assets"
+          "title": "Este aplicativo provavelmente é malicioso",
+          "description": "Assinar mensagens ou transações deste aplicativo pode resultar na perda de seus ativos"
         }
       },
       "simulation": {
         "titles": {
-          "message_request": "Message Request",
+          "message_request": "Solicitação de Mensagem",
           "transaction_request": "Solicitação de transação"
         },
         "simulation_card": {
           "titles": {
-            "not_enough_native_balance": "Not Enough %{symbol}",
-            "likely_to_fail": "Likely to Fail",
-            "simulation_unavailable": "Simulation Unavailable",
-            "simulation_result": "Simulated Result",
-            "simulating": "Simulating"
+            "not_enough_native_balance": "Não Há Suficiente %{symbol}",
+            "likely_to_fail": "Provável de Falhar",
+            "simulation_unavailable": "Simulação Indisponível",
+            "simulation_result": "Resultado da Simulação",
+            "simulating": "Simulando"
           },
           "messages": {
-            "no_changes": "No Changes Detected",
-            "need_more_native": "You’ll need more %{symbol} on %{network} to pay for this transaction. Get some %{symbol} below to continue with this request.",
-            "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
-            "unavailable_zora_network": "Simulation on Zora is not yet supported",
-            "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
+            "no_changes": "Nenhuma Mudança Detectada",
+            "need_more_native": "Você vai precisar de mais %{symbol} em %{network} para pagar por esta transação. Consiga mais %{symbol} abaixo para continuar com este pedido.",
+            "unavailable_personal_sign": "Simulação para sinais pessoais ainda não é suportada",
+            "unavailable_zora_network": "Simulação em Zora ainda não é suportada",
+            "failed_to_simulate": "A simulação falhou, o que sugere que sua transação provavelmente falhará. Isso pode ser um problema com o aplicativo que está usando."
           },
           "event_row": {
-            "unlimited": "Unlimited",
+            "unlimited": "Ilimitado",
             "types": {
               "send": "Enviar",
               "receive": "Receber",
-              "approve": "Approve",
-              "revoke": "Revoke"
+              "approve": "Aprovar",
+              "revoke": "Revogar"
             }
           }
         },
         "details_card": {
-          "title": "Details",
+          "title": "Detalhes",
           "types": {
             "chain": "Rede",
-            "contract": "Contract",
-            "contract_created": "Contract Created",
+            "contract": "Contrato",
+            "contract_created": "Contrato Criado",
             "to": "Para",
-            "function": "Function",
-            "source_code": "Source Code",
+            "function": "Função",
+            "source_code": "Código Fonte",
             "nonce": "Nonce"
           },
           "unknown": "Desconhecido"
@@ -2385,25 +2385,25 @@
           "copy": "Copiar"
         },
         "profile_section": {
-          "signing_with": "Signing with",
-          "free_to_sign": "Free to sign",
-          "no_native_balance": "No %{symbol}",
-          "on_network": "on %{network}"
+          "signing_with": "Assinando com",
+          "free_to_sign": "Livre para assinar",
+          "no_native_balance": "Não %{symbol}",
+          "on_network": "em %{network}"
         },
         "buttons": {
           "cancel": "Cancelar",
-          "confirm": "􀎽 Confirm",
-          "get_native_token": "Get %{symbol}",
-          "buy_native_token": "Buy %{symbol}"
+          "confirm": "􀎽 Enviar Transação",
+          "get_native_token": "Pegar %{symbol}",
+          "buy_native_token": "Comprar %{symbol}"
         },
         "formatted_dates": {
           "today": "Hoje",
-          "day_ago": "day ago",
-          "days_ago": "days ago",
-          "week_ago": "week ago",
-          "weeks_ago": "weeks ago",
-          "month_ago": "month ago",
-          "months_ago": "months ago"
+          "day_ago": "dia atrás",
+          "days_ago": "dias atrás",
+          "week_ago": "semana atrás",
+          "weeks_ago": "semanas atrás",
+          "month_ago": "mês atrás",
+          "months_ago": "meses atrás"
         }
       }
     },
