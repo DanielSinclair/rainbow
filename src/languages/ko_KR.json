@@ -241,7 +241,7 @@
       "exchange_again": "다시 교환",
       "exchange_search_placeholder": "토큰 검색",
       "exchange_search_placeholder_network": "%{network}에서 토큰 검색",
-      "favorites": "Favorites",
+      "favorites": "즐겨찾기",
       "go_back": "뒤로 가기",
       "go_back_lowercase": "뒤로 가기",
       "got_it": "알겠습니다",
@@ -1240,7 +1240,7 @@
     },
     "points": {
       "coming_soon_title": "Coming Soon",
-      "coming_soon_description": "Points are just around the corner.\nStart earning today."
+      "coming_soon_description": "포인트는 바로 앞입니다.\n오늘부터 적립하세요."
     },
     "pools": {
       "deposit": "예금",
@@ -2327,7 +2327,7 @@
         "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
         "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
         "request_invalid": "요청에 잘못된 매개변수가 포함되어 있습니다. 다시 시도하거나 Rainbow 및/또는 dapp 지원 팀에 문의하십시오.",
-        "eth_sign": "Rainbow does not support legacy eth_sign due to security concerns.  \n Please contact Rainbow and/or dapp support teams if you have any questions.",
+        "eth_sign": "보안 문제로 인해 Rainbow는 이전 버전의 eth_sign을 지원하지 않습니다.  \n 궁금한 점이 있으면 Rainbow 및/또는 dapp 지원 팀에 문의하십시오.",
         "request_unsupported_network": "이 요청에서 지정한 네트워크는 Rainbow에서 지원하지 않습니다.",
         "request_unsupported_methods": "이 요청에 명시된 RPC 방법은 Rainbow에서 지원하지 않습니다."
       },
@@ -2344,7 +2344,7 @@
         },
         "simulation_card": {
           "titles": {
-            "not_enough_native_balance": "Not Enough %{symbol}",
+            "not_enough_native_balance": "충분하지 않음 %{symbol}",
             "likely_to_fail": "Likely to Fail",
             "simulation_unavailable": "Simulation Unavailable",
             "simulation_result": "Simulated Result",
@@ -2352,7 +2352,7 @@
           },
           "messages": {
             "no_changes": "No Changes Detected",
-            "need_more_native": "You’ll need more %{symbol} on %{network} to pay for this transaction. Get some %{symbol} below to continue with this request.",
+            "need_more_native": "이 거래를 위해 %{symbol} on %{network} 에 더 많은 것이 필요합니다. 이 요청을 계속하려면 아래에서 %{symbol} 를 받으십시오.",
             "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
             "unavailable_zora_network": "Simulation on Zora is not yet supported",
             "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
@@ -2394,7 +2394,7 @@
           "cancel": "취소",
           "confirm": "􀎽 Confirm",
           "get_native_token": "Get %{symbol}",
-          "buy_native_token": "Buy %{symbol}"
+          "buy_native_token": "구매 %{symbol}"
         },
         "formatted_dates": {
           "today": "오늘",
