@@ -241,7 +241,7 @@
       "exchange_again": "फिर से विनिमय करें",
       "exchange_search_placeholder": "टोकन खोजें",
       "exchange_search_placeholder_network": "%{network}पर टोकन खोजें",
-      "favorites": "Favorites",
+      "favorites": "पसंदीदा",
       "go_back": "वापस जाएँ",
       "go_back_lowercase": "वापस जाएँ",
       "got_it": "समझ गया",
@@ -1240,7 +1240,7 @@
     },
     "points": {
       "coming_soon_title": "Coming Soon",
-      "coming_soon_description": "Points are just around the corner.\nStart earning today."
+      "coming_soon_description": "अंक बस आस-पास हैं।\nआज से कमाई शुरू करें।"
     },
     "pools": {
       "deposit": "जमा",
@@ -2327,7 +2327,7 @@
         "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
         "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
         "request_invalid": "अनुरोध में अमान्य पैरामीटर थे। कृपया पुनः प्रयास करें या रेनबो और/या डैप समर्थन टीमों से संपर्क करें।",
-        "eth_sign": "Rainbow does not support legacy eth_sign due to security concerns.  \n Please contact Rainbow and/or dapp support teams if you have any questions.",
+        "eth_sign": "सुरक्षा चिंता के कारण रेनबो लीगेसी eth_sign का समर्थन नहीं करता है।  \n कृप्या किसी भी प्रश्न होने पर रेनबो और/या डैप समर्थन टीम से संपर्क करें।",
         "request_unsupported_network": "इस अनुरोध में निर्दिष्ट नेटवर्क को रेनबो द्वारा समर्थित नहीं किया जाता है।",
         "request_unsupported_methods": "इस अनुरोध में उल्लिखित RPC विधि(एँ) रेनबो द्वारा समर्थित नहीं हैं।"
       },
@@ -2344,7 +2344,7 @@
         },
         "simulation_card": {
           "titles": {
-            "not_enough_native_balance": "Not Enough %{symbol}",
+            "not_enough_native_balance": "पर्याप्त नहीं %{symbol}",
             "likely_to_fail": "Likely to Fail",
             "simulation_unavailable": "Simulation Unavailable",
             "simulation_result": "Simulated Result",
@@ -2352,7 +2352,7 @@
           },
           "messages": {
             "no_changes": "No Changes Detected",
-            "need_more_native": "You’ll need more %{symbol} on %{network} to pay for this transaction. Get some %{symbol} below to continue with this request.",
+            "need_more_native": "आपको इस लेन-देन के लिए चुकाने के लिए %{network} पर और %{symbol} की आवश्यकता होगी। इस अनुरोध के साथ जारी रखने के लिए नीचे कुछ %{symbol} प्राप्त करें।",
             "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
             "unavailable_zora_network": "Simulation on Zora is not yet supported",
             "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
@@ -2387,14 +2387,14 @@
         "profile_section": {
           "signing_with": "Signing with",
           "free_to_sign": "Free to sign",
-          "no_native_balance": "No %{symbol}",
-          "on_network": "on %{network}"
+          "no_native_balance": "कोई %{symbol}नहीं",
+          "on_network": "पर %{network}"
         },
         "buttons": {
           "cancel": "रद्द करें",
           "confirm": "􀎽 Confirm",
-          "get_native_token": "Get %{symbol}",
-          "buy_native_token": "Buy %{symbol}"
+          "get_native_token": "प्राप्त करें %{symbol}",
+          "buy_native_token": "खरीदें %{symbol}"
         },
         "formatted_dates": {
           "today": "आज",
