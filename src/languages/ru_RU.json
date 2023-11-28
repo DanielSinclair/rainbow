@@ -241,7 +241,7 @@
       "exchange_again": "Обменять снова",
       "exchange_search_placeholder": "Искать токены",
       "exchange_search_placeholder_network": "Искать токены на %{network}",
-      "favorites": "Favorites",
+      "favorites": "Избранное",
       "go_back": "Назад",
       "go_back_lowercase": "назад",
       "got_it": "Понятно",
@@ -1165,7 +1165,7 @@
       "by": "By",
       "unknown": "unknown",
       "max": "Макс.",
-      "nft_count": "%{number} NFTs",
+      "nft_count": "%{number} NFT",
       "description": "Описание",
       "total_minted": "Total Minted",
       "first_event": "First Event",
@@ -1240,7 +1240,7 @@
     },
     "points": {
       "coming_soon_title": "Coming Soon",
-      "coming_soon_description": "Points are just around the corner.\nStart earning today."
+      "coming_soon_description": "Баллы уже близко.\nНачните зарабатывать сегодня."
     },
     "pools": {
       "deposit": "Депозит",
@@ -2327,7 +2327,7 @@
         "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
         "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
         "request_invalid": "В запросе содержатся некорректные параметры. Пожалуйста, попробуйте снова или свяжитесь с командами поддержки Rainbow и/или dapp.",
-        "eth_sign": "Rainbow does not support legacy eth_sign due to security concerns.  \n Please contact Rainbow and/or dapp support teams if you have any questions.",
+        "eth_sign": "Rainbow не поддерживает устаревший eth_sign из-за проблем безопасности.  \n Пожалуйста, свяжитесь с командами поддержки Rainbow и/или dapp, если у вас есть вопросы.",
         "request_unsupported_network": "Сеть, указанная в этом запросе, не поддерживается Rainbow.",
         "request_unsupported_methods": "Метод(ы) RPC, указанные в этом запросе, не поддерживаются Rainbow."
       },
@@ -2344,7 +2344,7 @@
         },
         "simulation_card": {
           "titles": {
-            "not_enough_native_balance": "Not Enough %{symbol}",
+            "not_enough_native_balance": "Недостаточно %{symbol}",
             "likely_to_fail": "Likely to Fail",
             "simulation_unavailable": "Simulation Unavailable",
             "simulation_result": "Simulated Result",
@@ -2352,7 +2352,7 @@
           },
           "messages": {
             "no_changes": "No Changes Detected",
-            "need_more_native": "You’ll need more %{symbol} on %{network} to pay for this transaction. Get some %{symbol} below to continue with this request.",
+            "need_more_native": "Вам потребуется больше %{symbol} на %{network} чтобы оплатить эту транзакцию. Получите некоторые %{symbol} ниже, чтобы продолжить этот запрос.",
             "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
             "unavailable_zora_network": "Simulation on Zora is not yet supported",
             "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
@@ -2387,14 +2387,14 @@
         "profile_section": {
           "signing_with": "Signing with",
           "free_to_sign": "Free to sign",
-          "no_native_balance": "No %{symbol}",
-          "on_network": "on %{network}"
+          "no_native_balance": "Нет %{symbol}",
+          "on_network": "на %{network}"
         },
         "buttons": {
           "cancel": "Отменить",
           "confirm": "􀎽 Confirm",
-          "get_native_token": "Get %{symbol}",
-          "buy_native_token": "Buy %{symbol}"
+          "get_native_token": "Получить %{symbol}",
+          "buy_native_token": "Купить %{symbol}"
         },
         "formatted_dates": {
           "today": "Сегодня",
