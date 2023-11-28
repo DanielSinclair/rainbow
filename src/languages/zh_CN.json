@@ -241,7 +241,7 @@
       "exchange_again": "再次交易",
       "exchange_search_placeholder": "搜索代币",
       "exchange_search_placeholder_network": "在 %{network} 上搜索代币",
-      "favorites": "Favorites",
+      "favorites": "收藏夹",
       "go_back": "返回",
       "go_back_lowercase": "返回",
       "got_it": "我知道了",
@@ -1240,7 +1240,7 @@
     },
     "points": {
       "coming_soon_title": "Coming Soon",
-      "coming_soon_description": "Points are just around the corner.\nStart earning today."
+      "coming_soon_description": "积分即将到来。\n从今天开始积累。"
     },
     "pools": {
       "deposit": "存款",
@@ -2327,7 +2327,7 @@
         "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
         "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
         "request_invalid": "请求中包含无效的参数。请再试一次或联系Rainbow和/或dapp支持团队。",
-        "eth_sign": "Rainbow does not support legacy eth_sign due to security concerns.  \n Please contact Rainbow and/or dapp support teams if you have any questions.",
+        "eth_sign": "由于安全考虑，Rainbow不支持旧版eth_sign。  \n 如果你有任何问题，请联系Rainbow和/或dapp支持团队。",
         "request_unsupported_network": "该请求中指定的网络不受Rainbow支持。",
         "request_unsupported_methods": "请求中指定的RPC方法不受Rainbow支持。"
       },
@@ -2344,7 +2344,7 @@
         },
         "simulation_card": {
           "titles": {
-            "not_enough_native_balance": "Not Enough %{symbol}",
+            "not_enough_native_balance": "%{symbol}不够",
             "likely_to_fail": "Likely to Fail",
             "simulation_unavailable": "Simulation Unavailable",
             "simulation_result": "Simulated Result",
@@ -2352,7 +2352,7 @@
           },
           "messages": {
             "no_changes": "No Changes Detected",
-            "need_more_native": "You’ll need more %{symbol} on %{network} to pay for this transaction. Get some %{symbol} below to continue with this request.",
+            "need_more_native": "你需要更多的 %{symbol} 在 %{network} 上支付这笔交易。获得下面的 %{symbol} 继续进行这个请求。",
             "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
             "unavailable_zora_network": "Simulation on Zora is not yet supported",
             "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
@@ -2387,14 +2387,14 @@
         "profile_section": {
           "signing_with": "Signing with",
           "free_to_sign": "Free to sign",
-          "no_native_balance": "No %{symbol}",
-          "on_network": "on %{network}"
+          "no_native_balance": "没有 %{symbol}",
+          "on_network": "在 %{network}上"
         },
         "buttons": {
           "cancel": "取消",
           "confirm": "􀎽 Confirm",
-          "get_native_token": "Get %{symbol}",
-          "buy_native_token": "Buy %{symbol}"
+          "get_native_token": "获取 %{symbol}",
+          "buy_native_token": "购买 %{symbol}"
         },
         "formatted_dates": {
           "today": "今天",
