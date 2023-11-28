@@ -21,6 +21,8 @@
       "tab_interactions_tooltip": "Interações de Contrato Inteligente",
       "tab_investments": "Pools",
       "tab_savings": "Poupanças",
+      "tab_showcase": "Vitrine",
+      "tab_points": "Points",
       "tab_positions": "Posições",
       "tab_transactions": "Transações",
       "tab_transactions_tooltip": "Transações e Transferências de Token",
@@ -67,6 +69,9 @@
       "weekly_limit_reached": "Limite semanal atingido",
       "yearly_limit_reached": "Limite anual atingido"
     },
+    "assets": {
+      "unkown_token": "Token desconhecido"
+    },
     "avatar_builder": {
       "emoji_categories": {
         "activities": "Atividades",
@@ -80,6 +85,14 @@
       }
     },
     "back_up": {
+      "errors": {
+        "keychain_access": "Você precisa autenticar para prosseguir com o processo de Backup",
+        "decrypting_data": "Senha incorreta! Por favor, tente novamente.",
+        "no_backups_found": "Não conseguimos encontrar seu backup anterior!",
+        "cant_get_encrypted_data": "Não conseguimos acessar seu backup neste momento. Por favor, tente novamente mais tarde.",
+        "missing_pin": "Algo deu errado ao processar seu código PIN. Por favor, tente novamente mais tarde.",
+        "generic": "Erro ao tentar fazer backup. Código de erro: %{errorCodes}"
+      },
       "wrong_pin": "O código PIN que você digitou está incorreto e não podemos fazer backup. Por favor, tente novamente com o código correto.",
       "already_backed_up": {
         "backed_up": "Foi feito backup",
@@ -198,6 +211,7 @@
         "insufficient_bnb": "BNB insuficiente",
         "insufficient_funds": "Fundos insuficientes",
         "insufficient_liquidity": "Liquidez insuficiente",
+        "fee_on_transfer": "Taxa na Transferência de Token",
         "no_route_found": "Nenhuma rota encontrada",
         "insufficient_matic": "MATIC insuficiente",
         "insufficient_token": "%{tokenName}insuficiente",
@@ -218,6 +232,7 @@
       "connect_walletconnect": "Usar WalletConnect",
       "continue": "Continuar",
       "delete": "Excluir",
+      "dismiss": "Dispensar",
       "disconnect_account": "Sair",
       "donate": "Doar ETH",
       "done": "Concluído",
@@ -226,6 +241,7 @@
       "exchange_again": "Trocar Novamente",
       "exchange_search_placeholder": "Buscar tokens",
       "exchange_search_placeholder_network": "Buscar tokens na %{network}",
+      "favorites": "Favorites",
       "go_back": "Voltar",
       "go_back_lowercase": "voltar",
       "got_it": "Entendi",
@@ -418,10 +434,6 @@
       "sync_codepush": "Sincronizar codepush"
     },
     "discover": {
-      "lists": {
-        "lists_title": "Listas",
-        "this_list_is_empty": "Esta lista está vazia!"
-      },
       "pulse": {
         "pulse_description": "Todos os principais tokens DeFi em um só lugar",
         "today_suffix": "hoje",
@@ -430,7 +442,9 @@
       "search": {
         "profiles": "Perfis",
         "search_ethereum": "Pesquisar em todo o Ethereum",
-        "search_ethereum_short": "Pesquisar Ethereum"
+        "search_ethereum_short": "Pesquisar Ethereum",
+        "search": "Pesquisar",
+        "discover": "Descobrir"
       },
       "strategies": {
         "strategies_title": "Estratégias",
@@ -532,6 +546,9 @@
         "available_networks": "Disponível em %{availableNetworks} redes",
         "available_network": "Disponível na rede %{availableNetwork}",
         "available_networkv2": "Também disponível em %{availableNetwork}",
+        "l2_disclaimer": "Esse %{symbol} está na rede %{network}",
+        "l2_disclaimer_send": "Enviando na rede %{network}",
+        "l2_disclaimer_dapp": "Este aplicativo na rede %{network}",
         "social": {
           "facebook": "Facebook",
           "homepage": "Página inicial",
@@ -611,6 +628,7 @@
         }
       },
       "swap_details": {
+        "reward": "Reward",
         "exchange_rate": "Taxa de câmbio",
         "rainbow_fee": "Taxa Rainbow incluída",
         "refuel": "Tokens de rede adicionais",
@@ -697,6 +715,8 @@
         "zorb_title": "Você desbloqueou\nEnergia do Zorb Arco-Íris!",
         "poolboy_text": "Um Ícone de Edição Especial do Rainbow x Poolsuite para o verão nas correntes.",
         "poolboy_title": "Você desbloqueou o Carregador de Piscina Arco-Íris\n!",
+        "adworld_text": "Como um Cidadão do Mundo Arco-Íris, você agora pode desbloquear uma edição especial\nAdWorld x Ícone App Arco-Íris.",
+        "adworld_title": "Bem-vindo ao Mundo Arco-Íris!",
         "title": "Você desbloqueou\nArco-Íris 􀆄 %{partner}",
         "button": "Pegue o ícone"
       },
@@ -809,6 +829,12 @@
         "fragment3": " sobre AMMs e liquidez de tokens.",
         "title": "Liquidez Insuficiente"
       },
+      "fee_on_transfer": {
+        "fragment1": "Esta troca falhará no Arco-Íris porque o %{tokenName} contrato adiciona taxas extras.  \n\n Leia ",
+        "fragment2": "nosso guia",
+        "fragment3": " para obter ajuda para trocar este token!",
+        "title": "Taxa na Transferência de Token"
+      },
       "no_route_found": {
         "fragment1": "Não foi possível encontrar uma rota para esta troca. ",
         "fragment2": "Uma rota pode não existir para esta troca, ou o valor pode ser muito pequeno.",
@@ -885,6 +911,19 @@
       }
     },
     "gas": {
+      "card": {
+        "falling": "Caindo",
+        "rising": "Subindo",
+        "stable": "Estável",
+        "surging": "Em alta"
+      },
+      "speeds": {
+        "slow": "Lento",
+        "normal": "Normal",
+        "fast": "Rápido",
+        "urgent": "Urgente",
+        "custom": "Personalizado"
+      },
       "network_fee": "Taxa estimada da rede",
       "current_base_fee": "Taxa de base atual",
       "max_base_fee": "Taxa base máxima",
@@ -1007,6 +1046,38 @@
       "web3_not_unlocked": "Por favor, desbloqueie sua carteira MetaMask",
       "web3_unknown_network": "Rede desconhecida, por favor mude para outra"
     },
+    "mints": {
+      "mints_sheet": {
+        "mints": "Mintes",
+        "no_data_found": "Nenhum dado encontrado.",
+        "card": {
+          "x_ago": "%{timeElapsed} atrás",
+          "one_mint_past_hour": "1 minte passada hora",
+          "x_mints_past_hour": "%{numMints} mintes passada hora",
+          "x_mints": "%{numMints} mintes",
+          "mint": "Minte",
+          "free": "GRÁTIS"
+        }
+      },
+      "mints_card": {
+        "view_all_mints": "Ver Todos os Mintes",
+        "mints": "Mintes",
+        "collection_cell": {
+          "free": "GRÁTIS"
+        }
+      },
+      "featured_mint_card": {
+        "featured_mint": "Minte Destacado",
+        "one_mint": "1 minte",
+        "x_mints": "%{numMints} mintes",
+        "x_past_hour": "%{numMints} última hora"
+      },
+      "filter": {
+        "all": "Todos",
+        "free": "Grátis",
+        "paid": "Pago"
+      }
+    },
     "modal": {
       "approve_tx": "Aprovar transação em %{walletType}",
       "back_up": {
@@ -1082,6 +1153,33 @@
       "withdrawal_dropdown_label": "Para",
       "withdrawal_input_label": "Obter"
     },
+    "minting": {
+      "hold_to_mint": "Hold To Mint",
+      "minting": "Criando...",
+      "minted": "Criado",
+      "mint_unavailable": "Mint Unavailable",
+      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "error_minting": "Erro Criando",
+      "mint_price": "Mint Price",
+      "free": "Grátis",
+      "by": "By",
+      "unknown": "unknown",
+      "max": "Máx",
+      "nft_count": "%{number} NFTs",
+      "description": "Descrição",
+      "total_minted": "Total Minted",
+      "first_event": "First Event",
+      "last_event": "Last Event",
+      "max_supply": "Max Supply",
+      "contract": "Contract",
+      "network": "Rede",
+      "could_not_find_collection": "Could not find collection",
+      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
+      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+    },
+    "nfts": {
+      "selling": "Vendendo"
+    },
     "nft_offers": {
       "card": {
         "title": {
@@ -1139,6 +1237,10 @@
       "info": {
         "address_copied_to_clipboard": "Endereço copiado para a área de transferência"
       }
+    },
+    "points": {
+      "coming_soon_title": "Coming Soon",
+      "coming_soon_description": "Points are just around the corner.\nStart earning today."
     },
     "pools": {
       "deposit": "Depósito",
@@ -1360,6 +1462,27 @@
         "subheader": "APRESENTANDO"
       }
     },
+    "nft_offers_launch": {
+      "primary_button": {
+        "has_offers": "View Offers",
+        "not_has_offers": "Fechar"
+      },
+      "secondary_button": "Maybe Later",
+      "info_row_1": {
+        "title": "All your offers in one place",
+        "description": "View your offers across all NFT marketplaces."
+      },
+      "info_row_2": {
+        "title": "Accept from Rainbow",
+        "description": "Accept offers in a single tap and swap to the token of your choosing."
+      },
+      "info_row_3": {
+        "title": "Smart sort modes",
+        "description": "Compare to floor prices, or view your highest or most recent offers."
+      },
+      "header": "Ofertas",
+      "subheader": "APRESENTANDO"
+    },
     "review": {
       "alert": {
         "are_you_enjoying_rainbow": "Você está gostando do Rainbow? 🥰",
@@ -1411,6 +1534,10 @@
       "error_text": "Verifique sua conexão com a internet e verifique novamente mais tarde.",
       "ended_title": "Programa encerrado",
       "ended_text": "Fique ligado para o que temos guardado para você!",
+      "info": {
+        "title": "Earn OP for swapping and bridging",
+        "description": "Get cash back by swapping on or bridging to Optimism. Rewards distributed monthly."
+      },
       "op": {
         "airdrop_timing": {
           "title": "Airdrops toda semana",
@@ -1598,6 +1725,53 @@
         }
       }
     },
+    "transactions": {
+      "actions": {
+        "addToContacts": "Adicionar aos Contatos",
+        "cancel": "☠️ Cancelar",
+        "close": "Fechar",
+        "speedUp": "🚀 Acelerar",
+        "trySwapAgain": "Tentar Swap Novamente",
+        "viewContact": "Visualizar Contato"
+      },
+      "pending_title": "Pendente",
+      "dropped_title": "Desconsiderado",
+      "type": {
+        "approved": "Aprovado",
+        "approving": "Aprovando",
+        "bridging": "Pontuando",
+        "bridged": "Ponte concluída",
+        "cancelled": "Cancelado",
+        "cancelling": "Cancelando",
+        "contract interaction": "Interação de contrato",
+        "deposited": "Depositado",
+        "depositing": "Depositando",
+        "dropped": "Desconsiderado",
+        "failed": "Falha",
+        "purchased": "Comprado",
+        "purchasing": "Comprando",
+        "minting": "Minting",
+        "minted": "Criado",
+        "received": "Recebido",
+        "receiving": "Recebendo",
+        "self": "Próprio",
+        "sending": "Enviando",
+        "sent": "Enviado",
+        "speeding up": "Acelerando",
+        "selling": "Vendendo",
+        "sold": "Vendido",
+        "swapped": "Troca concluída",
+        "swapping": "Trocando",
+        "unknown": "Desconhecido",
+        "withdrawing": "Retirando",
+        "withdrew": "Retirou"
+      },
+      "savings": "Poupanças",
+      "signed": "Assinado",
+      "contract_interaction": "Interacção de Contrato",
+      "deposited_with_token": "Depositado %{name}",
+      "withdrew_with_token": "Retirou %{name}"
+    },
     "transaction_details": {
       "from": "De",
       "to": "Para",
@@ -1620,6 +1794,11 @@
       }
     },
     "time": {
+      "today_caps": "Hoje",
+      "today": "hoje",
+      "yesterday_caps": "Ontem",
+      "yesterday": "ontem",
+      "this_month_caps": "Este Mês",
       "days": {
         "long": {
           "plural": "dias",
@@ -1778,6 +1957,13 @@
         "watching_mode_confirm_title": "Você está no Modo de Observação"
       },
       "add_cash_v2": {
+        "sheet_title": "Escolha uma opção de pagamento para comprar cripto",
+        "fees_title": "Taxas",
+        "instant_title": "Imediato",
+        "method_title": "Método",
+        "methods_title": "Método",
+        "network_title": "Rede",
+        "networks_title": "Redes",
         "generic_error": {
           "title": "Algo deu errado",
           "message": "Nossa equipe foi notificada e analisará o problema o mais rápido possível.",
@@ -2027,12 +2213,23 @@
           "please_go_back_and_reconnect": "Por favor, volte para o dapp e reconecte-o à sua carteira",
           "transaction_status": "Falha ao enviar status da transação"
         },
+        "speed_up": {
+          "speed_up_title": "Acelerar transação",
+          "cancel_tx_title": "Cancelar transação",
+          "speed_up_text": "Isso tentará cancelar sua transação pendente. Isso requer a transmissão de outra transação!",
+          "cancel_tx_text": "Isso acelerará sua transação pendente substituindo-a. Ainda há uma chance de sua transação original ser confirmada primeiro!"
+        },
         "checkboxes": {
           "clear_profile_information": "Limpar informações do perfil",
           "point_name_to_recipient": "Apontar esse nome para o endereço da carteira do destinatário",
           "transfer_control": "Transferir controle para o destinatário",
-          "has_a_wallet_that_supports": "A pessoa para quem estou enviando tem uma carteira que suporta %{networkName}",
+          "has_a_wallet_that_supports": "O endereço para o qual estou enviando suporta %{networkName}",
           "im_not_sending_to_an_exchange": "Não estou enviando para uma exchange"
+        },
+        "errors": {
+          "unpredictable_gas": "Oh não! Não conseguimos estimar o limite de gás. Por favor, tente novamente.",
+          "insufficient_funds": "Oh não! O preço do gás mudou e você não tem mais fundos suficientes para esta transação. Por favor, tente novamente com um valor menor.",
+          "generic": "Oh não! Ocorreu um problema ao enviar a transação. Por favor tente novamente."
         },
         "complete_checks": "Verificar completos",
         "ens_configuration_options": "Opções de configuração de ENS",
@@ -2041,7 +2238,10 @@
         "placeholder_title": "Espaço reservado",
         "request": "Solicitação de transação",
         "send": "Enviar transação",
-        "sending_title": "Enviando"
+        "sending_title": "Enviando",
+        "you_own_this_wallet": "Você é o proprietário desta carteira",
+        "first_time_send": "Primeiro envio",
+        "previous_sends": "%{number} envios anteriores"
       },
       "wallet_connect": {
         "error": "Erro ao inicializar com WalletConnect",
@@ -2052,10 +2252,29 @@
       },
       "wallet_title": "Carteira"
     },
+    "support": {
+      "error_alert": {
+        "copy_email_address": "Copiar endereço de e-mail",
+        "no_thanks": "Não, obrigado",
+        "message": "Gostaria de copiar manualmente nosso endereço de email de suporte para a sua área de transferência?",
+        "title": "Erro ao abrir o cliente de e-mail",
+        "subject": "Suporte Arco-Íris"
+      },
+      "wallet_alert": {
+        "message_support": "Mensagem de Suporte",
+        "close": "Fechar",
+        "learn_more": "Saiba Mais",
+        "message": "Para ajuda, por favor contate o suporte! \nNós retornaremos em breve!",
+        "title": "Ocorreu um erro"
+      }
+    },
     "walletconnect": {
+      "wants_to_connect": "deseja conectar-se à sua carteira",
+      "wants_to_connect_to_network": "quer se conectar à rede %{network}",
       "available_networks": "Redes Disponíveis",
       "change_network": "Alterar Rede",
       "connected_apps": "Aplicativos Conectados",
+      "no_connected_apps": "No Connected apps yet 😢",
       "disconnect": "Desconectar",
       "go_back_to_your_browser": "Volte para o seu navegador",
       "paste_uri": {
@@ -2092,6 +2311,12 @@
         "error_alert_title": "A autenticação falhou",
         "error_alert_description": "Algo deu errado. Por favor, tente novamente ou entre em contato com nossa equipe de suporte."
       },
+      "menu_options": {
+        "disconnect": "Desconectar",
+        "switch_wallet": "Trocar Carteira",
+        "switch_network": "Trocar Rede",
+        "available_networks": "Redes Disponíveis"
+      },
       "errors": {
         "go_back": "voltar",
         "generic_title": "Falha na conexão",
@@ -2099,9 +2324,87 @@
         "pairing_timeout": "Esta sessão expirou antes que uma conexão pudesse ser estabelecida. Isso geralmente ocorre devido a um erro de rede. Por favor, tente novamente.",
         "pairing_unsupported_methods": "O Dapp solicitou métodos RPC de carteira que não são suportados pelo Rainbow.",
         "pairing_unsupported_networks": "O dapp solicitou redes que não são suportadas pelo Rainbow.",
+        "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
+        "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
         "request_invalid": "A solicitação continha parâmetros inválidos. Por favor, tente novamente ou entre em contato com as equipes de suporte do Rainbow e/ou do Dapp.",
+        "eth_sign": "Rainbow does not support legacy eth_sign due to security concerns.  \n Please contact Rainbow and/or dapp support teams if you have any questions.",
         "request_unsupported_network": "A rede especificada nesta solicitação não é suportada pelo Rainbow.",
         "request_unsupported_methods": "O método RPC especificado nesta solicitação não é suportado pelo Rainbow."
+      },
+      "dapp_warnings": {
+        "info_alert": {
+          "title": "This app is likely malicious",
+          "description": "Signing messages or transactions from this app could result in losing your assets"
+        }
+      },
+      "simulation": {
+        "titles": {
+          "message_request": "Message Request",
+          "transaction_request": "Solicitação de transação"
+        },
+        "simulation_card": {
+          "titles": {
+            "not_enough_native_balance": "Not Enough %{symbol}",
+            "likely_to_fail": "Likely to Fail",
+            "simulation_unavailable": "Simulation Unavailable",
+            "simulation_result": "Simulated Result",
+            "simulating": "Simulating"
+          },
+          "messages": {
+            "no_changes": "No Changes Detected",
+            "need_more_native": "You’ll need more %{symbol} on %{network} to pay for this transaction. Get some %{symbol} below to continue with this request.",
+            "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
+            "unavailable_zora_network": "Simulation on Zora is not yet supported",
+            "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
+          },
+          "event_row": {
+            "unlimited": "Unlimited",
+            "types": {
+              "send": "Enviar",
+              "receive": "Receber",
+              "approve": "Approve",
+              "revoke": "Revoke"
+            }
+          }
+        },
+        "details_card": {
+          "title": "Details",
+          "types": {
+            "chain": "Rede",
+            "contract": "Contract",
+            "contract_created": "Contract Created",
+            "to": "Para",
+            "function": "Function",
+            "source_code": "Source Code",
+            "nonce": "Nonce"
+          },
+          "unknown": "Desconhecido"
+        },
+        "message_card": {
+          "title": "Mensagem",
+          "copy": "Copiar"
+        },
+        "profile_section": {
+          "signing_with": "Signing with",
+          "free_to_sign": "Free to sign",
+          "no_native_balance": "No %{symbol}",
+          "on_network": "on %{network}"
+        },
+        "buttons": {
+          "cancel": "Cancelar",
+          "confirm": "􀎽 Confirm",
+          "get_native_token": "Get %{symbol}",
+          "buy_native_token": "Buy %{symbol}"
+        },
+        "formatted_dates": {
+          "today": "Hoje",
+          "day_ago": "day ago",
+          "days_ago": "days ago",
+          "week_ago": "week ago",
+          "weeks_ago": "weeks ago",
+          "month_ago": "month ago",
+          "months_ago": "months ago"
+        }
       }
     },
     "warning": {
