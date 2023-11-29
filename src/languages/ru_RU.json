@@ -1536,7 +1536,7 @@
       "ended_text": "Оставайтесь на связи, чтобы узнать, что мы для вас приготовили в следующий раз!",
       "info": {
         "title": "Earn OP for swapping and bridging",
-        "description": "Get cash back by swapping on or bridging to Optimism. Rewards distributed monthly."
+        "description": "Получайте обратно наличные, обмениваясь на Optimism или делая bridge. Награды выдаются ежемесячно."
       },
       "op": {
         "airdrop_timing": {
@@ -1750,7 +1750,7 @@
         "failed": "Неудачно",
         "purchased": "Купленные",
         "purchasing": "Покупка",
-        "minting": "Minting",
+        "minting": "Эмиссия",
         "minted": "Монетизированные",
         "received": "Получено",
         "receiving": "Получение",
@@ -2274,7 +2274,7 @@
       "available_networks": "Доступные сети",
       "change_network": "Изменить сеть",
       "connected_apps": "Подключенные приложения",
-      "no_connected_apps": "No Connected apps yet 😢",
+      "no_connected_apps": "У вас пока нет подключенных приложений 😢",
       "disconnect": "Отключить",
       "go_back_to_your_browser": "Вернуться в браузер",
       "paste_uri": {
@@ -2324,8 +2324,8 @@
         "pairing_timeout": "Сессия закончилась до установления соединения. Обычно это происходит из-за ошибки сети. Пожалуйста, попробуйте еще раз.",
         "pairing_unsupported_methods": "Dapp запросил не поддерживаемые Rainbow методы RPC для кошелька.",
         "pairing_unsupported_networks": "Программа-приложение запросила сеть(и), которые не поддерживаются Rainbow.",
-        "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
-        "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
+        "read_only_wallet_on_signing_method": "Похоже, что вы используете только для чтения кошелек, который не может использоваться для этого запроса.",
+        "namespaces_invalid": "Произошла ошибка с запрошенными пространствами имен dapp. Попробуйте еще раз или обратитесь в службы поддержки Rainbow и/или dapp.",
         "request_invalid": "В запросе содержатся некорректные параметры. Пожалуйста, попробуйте снова или свяжитесь с командами поддержки Rainbow и/или dapp.",
         "eth_sign": "Rainbow не поддерживает устаревший eth_sign из-за проблем безопасности.  \n Пожалуйста, свяжитесь с командами поддержки Rainbow и/или dapp, если у вас есть вопросы.",
         "request_unsupported_network": "Сеть, указанная в этом запросе, не поддерживается Rainbow.",
@@ -2333,48 +2333,48 @@
       },
       "dapp_warnings": {
         "info_alert": {
-          "title": "This app is likely malicious",
-          "description": "Signing messages or transactions from this app could result in losing your assets"
+          "title": "Это приложение, скорее всего, вредоносное",
+          "description": "Подписание сообщений или транзакций с этого приложения может привести к потере ваших активов"
         }
       },
       "simulation": {
         "titles": {
-          "message_request": "Message Request",
+          "message_request": "Запрос сообщения",
           "transaction_request": "Запрос транзакции"
         },
         "simulation_card": {
           "titles": {
             "not_enough_native_balance": "Недостаточно %{symbol}",
-            "likely_to_fail": "Likely to Fail",
-            "simulation_unavailable": "Simulation Unavailable",
-            "simulation_result": "Simulated Result",
-            "simulating": "Simulating"
+            "likely_to_fail": "С большой вероятностью не выполнится",
+            "simulation_unavailable": "Симуляция недоступна",
+            "simulation_result": "Симулированный результат",
+            "simulating": "Идет симуляция"
           },
           "messages": {
-            "no_changes": "No Changes Detected",
+            "no_changes": "Изменений не обнаружено",
             "need_more_native": "Вам потребуется больше %{symbol} на %{network} чтобы оплатить эту транзакцию. Получите некоторые %{symbol} ниже, чтобы продолжить этот запрос.",
-            "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
-            "unavailable_zora_network": "Simulation on Zora is not yet supported",
-            "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
+            "unavailable_personal_sign": "Симуляция персонального подписи пока не поддерживается",
+            "unavailable_zora_network": "Симуляция в сети Zora пока не поддерживается",
+            "failed_to_simulate": "Симуляция не удалась, что говорит о том, что ваша транзакция скорее всего не выполнится. Возможно, проблема с использованным вами приложением."
           },
           "event_row": {
-            "unlimited": "Unlimited",
+            "unlimited": "Неограниченно",
             "types": {
               "send": "Отправить",
               "receive": "Получить",
-              "approve": "Approve",
-              "revoke": "Revoke"
+              "approve": "Подтвердить",
+              "revoke": "Отзыв"
             }
           }
         },
         "details_card": {
-          "title": "Details",
+          "title": "Подробности",
           "types": {
             "chain": "Сеть",
             "contract": "Contract",
-            "contract_created": "Contract Created",
+            "contract_created": "Создан контракт",
             "to": "Кому",
-            "function": "Function",
+            "function": "Функция",
             "source_code": "Source Code",
             "nonce": "Nonce"
           },
