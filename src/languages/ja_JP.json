@@ -22,7 +22,7 @@
       "tab_investments": "プール",
       "tab_savings": "貯蓄",
       "tab_showcase": "ショーケース",
-      "tab_points": "Points",
+      "tab_points": "ポイント",
       "tab_positions": "ポジション",
       "tab_transactions": "取引",
       "tab_transactions_tooltip": "取引とトークンの送金",
@@ -628,7 +628,7 @@
         }
       },
       "swap_details": {
-        "reward": "Reward",
+        "reward": "報酬",
         "exchange_rate": "為替レート",
         "rainbow_fee": "含まれるレインボーフィー",
         "refuel": "追加のネットワークトークン",
@@ -1154,28 +1154,28 @@
       "withdrawal_input_label": "ゲット"
     },
     "minting": {
-      "hold_to_mint": "Hold To Mint",
+      "hold_to_mint": "保留してミント",
       "minting": "鋳造中...",
       "minted": "発行済み",
-      "mint_unavailable": "Mint Unavailable",
-      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "mint_unavailable": "ミント不可",
+      "mint_on_mintdotfun": "􀮶 ミントはmint.funで",
       "error_minting": "鋳造エラー",
-      "mint_price": "Mint Price",
+      "mint_price": "ミント価格",
       "free": "無料",
       "by": "By",
-      "unknown": "unknown",
+      "unknown": "未知",
       "max": "最大",
       "nft_count": "%{number} NFTs",
       "description": "Description",
-      "total_minted": "Total Minted",
-      "first_event": "First Event",
-      "last_event": "Last Event",
-      "max_supply": "Max Supply",
-      "contract": "Contract",
+      "total_minted": "ミントされた総数",
+      "first_event": "最初のイベント",
+      "last_event": "最後のイベント",
+      "max_supply": "最大供給量",
+      "contract": "契約",
       "network": "Network",
-      "could_not_find_collection": "Could not find collection",
-      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
-      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+      "could_not_find_collection": "コレクションが見つかりませんでした",
+      "unable_to_find_check_again": "このコレクションが見つかりませんでした。アドレスとネットワークを再確認するか、後でもう一度試してください",
+      "mintdotfun_unsupported_network": "Mint.funはこのネットワークをサポートしていません"
     },
     "nfts": {
       "selling": "販売"
@@ -1239,7 +1239,7 @@
       }
     },
     "points": {
-      "coming_soon_title": "Coming Soon",
+      "coming_soon_title": "近日公開予定",
       "coming_soon_description": "ポイントはすぐそこまで来ています。\n今日から獲得し始めましょう。"
     },
     "pools": {
@@ -1464,21 +1464,21 @@
     },
     "nft_offers_launch": {
       "primary_button": {
-        "has_offers": "View Offers",
+        "has_offers": "オファーを表示",
         "not_has_offers": "閉じる"
       },
-      "secondary_button": "Maybe Later",
+      "secondary_button": "後で",
       "info_row_1": {
-        "title": "All your offers in one place",
-        "description": "View your offers across all NFT marketplaces."
+        "title": "すべてのオファーを1つの場所で確認できます",
+        "description": "すべてのNFTマーケットプレイスでオファーを確認できます"
       },
       "info_row_2": {
-        "title": "Accept from Rainbow",
-        "description": "Accept offers in a single tap and swap to the token of your choosing."
+        "title": "Rainbowから承諾",
+        "description": "タップひとつでオファーを受け入れ、選んだトークンにスワップできます"
       },
       "info_row_3": {
-        "title": "Smart sort modes",
-        "description": "Compare to floor prices, or view your highest or most recent offers."
+        "title": "スマートなソートモード",
+        "description": "フロア価格と比較したり、最高のオファーまたは最新のオファーを表示したりできます"
       },
       "header": "オファー",
       "subheader": "紹介"
@@ -1535,8 +1535,8 @@
       "ended_title": "プログラムが終了しました",
       "ended_text": "次回ご利用いただくためにお楽しみに！",
       "info": {
-        "title": "Earn OP for swapping and bridging",
-        "description": "Get cash back by swapping on or bridging to Optimism. Rewards distributed monthly."
+        "title": "スワップとブリッジングでOPを獲得",
+        "description": "Optimismにスワップするか、Optimismにブリッジすることでキャッシュバックを受け取れます。報酬は毎月配布されます。"
       },
       "op": {
         "airdrop_timing": {
@@ -1750,7 +1750,7 @@
         "failed": "失敗",
         "purchased": "購入済み",
         "purchasing": "購入",
-        "minting": "Minting",
+        "minting": "ミント",
         "minted": "発行済み",
         "received": "受信済み",
         "receiving": "受け取り",
@@ -2274,7 +2274,7 @@
       "available_networks": "利用可能なネットワーク",
       "change_network": "ネットワークを変更する",
       "connected_apps": "接続されたアプリ",
-      "no_connected_apps": "No Connected apps yet 😢",
+      "no_connected_apps": "まだ接続されたアプリはありません 😢",
       "disconnect": "切断する",
       "go_back_to_your_browser": "ブラウザに戻る",
       "paste_uri": {
@@ -2324,8 +2324,8 @@
         "pairing_timeout": "接続が確立する前にセッションがタイムアウトしました。通常、ネットワークエラーのためです。もう一度試してください",
         "pairing_unsupported_methods": "DappがRainbowでサポートされていないウォレットRPCメソッドを要求しました",
         "pairing_unsupported_networks": "DappがRainbowでサポートされていないネットワークを要求しました。",
-        "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
-        "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
+        "read_only_wallet_on_signing_method": "読み取り専用のウォレットを使用しているようですが、このリクエストには許可されていません。",
+        "namespaces_invalid": "DAppがリクエストした名前空間に問題がありました。もう一度試してみるか、Rainbowと/またはDAppサポートチームに連絡してください。",
         "request_invalid": "リクエストに無効なパラメータが含まれています。もう一度試すか、Rainbowおよび/またはDappのサポートチームに連絡してください",
         "eth_sign": "Rainbowは、セキュリティ上の懸念から旧式のeth_signをサポートしていません。  \n ご不明な点がありましたら、Rainbowおよび/またはdappのサポートチームにお問い合わせください。",
         "request_unsupported_network": "このリクエストで指定されたネットワークは、Rainbowでサポートされていません。",
@@ -2333,49 +2333,49 @@
       },
       "dapp_warnings": {
         "info_alert": {
-          "title": "This app is likely malicious",
-          "description": "Signing messages or transactions from this app could result in losing your assets"
+          "title": "このアプリはおそらく悪意のあるものです",
+          "description": "このアプリからのメッセージまたはトランザクションの署名は、資産の損失を引き起こす可能性があります"
         }
       },
       "simulation": {
         "titles": {
-          "message_request": "Message Request",
+          "message_request": "メッセージリクエスト",
           "transaction_request": "トランザクションリクエスト"
         },
         "simulation_card": {
           "titles": {
             "not_enough_native_balance": "不足しています %{symbol}",
-            "likely_to_fail": "Likely to Fail",
-            "simulation_unavailable": "Simulation Unavailable",
-            "simulation_result": "Simulated Result",
-            "simulating": "Simulating"
+            "likely_to_fail": "失敗する可能性が高い",
+            "simulation_unavailable": "シミュレーションが利用できません",
+            "simulation_result": "シミュレーション結果",
+            "simulating": "シミュレーション中"
           },
           "messages": {
-            "no_changes": "No Changes Detected",
+            "no_changes": "変更が検出されませんでした",
             "need_more_native": "このトランザクションの支払いには、 %{network} 上でさらに %{symbol} が必要です。下記から %{symbol} を取得して、このリクエストを続行してください。",
-            "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
-            "unavailable_zora_network": "Simulation on Zora is not yet supported",
-            "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
+            "unavailable_personal_sign": "パーソナルサインのシミュレーションはまだサポートされていません",
+            "unavailable_zora_network": "Zoraでのシミュレーションはまだサポートされていません",
+            "failed_to_simulate": "シミュレーションに失敗しました。これは使用しているアプリに問題がある可能性があります。"
           },
           "event_row": {
-            "unlimited": "Unlimited",
+            "unlimited": "無制限",
             "types": {
               "send": "送信する",
               "receive": "受け取る",
-              "approve": "Approve",
-              "revoke": "Revoke"
+              "approve": "承認",
+              "revoke": "取り消す"
             }
           }
         },
         "details_card": {
-          "title": "Details",
+          "title": "詳細",
           "types": {
             "chain": "Network",
-            "contract": "Contract",
-            "contract_created": "Contract Created",
+            "contract": "契約",
+            "contract_created": "契約が作成されました",
             "to": "宛先",
-            "function": "Function",
-            "source_code": "Source Code",
+            "function": "関数",
+            "source_code": "ソースコード",
             "nonce": "Nonce"
           },
           "unknown": "不明"
@@ -2385,25 +2385,25 @@
           "copy": "Copy"
         },
         "profile_section": {
-          "signing_with": "Signing with",
-          "free_to_sign": "Free to sign",
+          "signing_with": "署名付きで",
+          "free_to_sign": "自由に署名",
           "no_native_balance": "なし %{symbol}",
           "on_network": "on %{network}"
         },
         "buttons": {
           "cancel": "キャンセル",
-          "confirm": "􀎽 Confirm",
+          "confirm": "􀎽 トランザクションを送信する",
           "get_native_token": "取得します %{symbol}",
           "buy_native_token": "購入します %{symbol}"
         },
         "formatted_dates": {
           "today": "今日",
-          "day_ago": "day ago",
-          "days_ago": "days ago",
-          "week_ago": "week ago",
-          "weeks_ago": "weeks ago",
-          "month_ago": "month ago",
-          "months_ago": "months ago"
+          "day_ago": "1日前",
+          "days_ago": "%s日前",
+          "week_ago": "1週間前",
+          "weeks_ago": "%s週間前",
+          "month_ago": "1ヵ月前",
+          "months_ago": "%sヵ月前"
         }
       }
     },
