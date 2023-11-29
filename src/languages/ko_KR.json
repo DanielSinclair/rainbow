@@ -2375,7 +2375,7 @@
             "contract_created": "Contract Created",
             "to": "에게",
             "function": "Function",
-            "source_code": "Source Code",
+            "source_code": "원본 코드",
             "nonce": "Nonce"
           },
           "unknown": "미지"
@@ -2385,25 +2385,25 @@
           "copy": "복사"
         },
         "profile_section": {
-          "signing_with": "Signing with",
-          "free_to_sign": "Free to sign",
+          "signing_with": "서명 내용",
+          "free_to_sign": "자유롭게 서명",
           "no_native_balance": "No %{symbol}",
           "on_network": "on %{network}"
         },
         "buttons": {
           "cancel": "취소",
-          "confirm": "􀎽 Confirm",
+          "confirm": "􀎽 거래 보내기",
           "get_native_token": "Get %{symbol}",
           "buy_native_token": "구매 %{symbol}"
         },
         "formatted_dates": {
           "today": "오늘",
-          "day_ago": "day ago",
-          "days_ago": "days ago",
-          "week_ago": "week ago",
-          "weeks_ago": "weeks ago",
-          "month_ago": "month ago",
-          "months_ago": "months ago"
+          "day_ago": "하루 전",
+          "days_ago": "일 전",
+          "week_ago": "일주일 전",
+          "weeks_ago": "주 전",
+          "month_ago": "한 달 전",
+          "months_ago": "개월 전"
         }
       }
     },
