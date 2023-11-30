@@ -22,7 +22,7 @@
       "tab_investments": "المجمعات",
       "tab_savings": "التوفير",
       "tab_showcase": "عرض",
-      "tab_points": "Points",
+      "tab_points": "النقاط",
       "tab_positions": "المواقف",
       "tab_transactions": "المعاملات",
       "tab_transactions_tooltip": "المعاملات وتحويلات الرموز",
@@ -628,7 +628,7 @@
         }
       },
       "swap_details": {
-        "reward": "Reward",
+        "reward": "مكافأة",
         "exchange_rate": "سعر الصرف",
         "rainbow_fee": "رسم Rainbow المدرج",
         "refuel": "رموز الشبكة الإضافية",
@@ -1154,28 +1154,28 @@
       "withdrawal_input_label": "احصل"
     },
     "minting": {
-      "hold_to_mint": "Hold To Mint",
+      "hold_to_mint": "احتجاز للصك",
       "minting": "ضرب...",
       "minted": "تم الإصدار",
-      "mint_unavailable": "Mint Unavailable",
-      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "mint_unavailable": "عملة غير متاحة",
+      "mint_on_mintdotfun": "􀮶 صك في mint.fun",
       "error_minting": "خطأ في الضرب",
-      "mint_price": "Mint Price",
+      "mint_price": "سعر الصك",
       "free": "مجانا",
-      "by": "By",
-      "unknown": "unknown",
+      "by": "بواسطة",
+      "unknown": "غير معروف",
       "max": "الحد الأقصى",
       "nft_count": "%{number} NFTs",
       "description": "الوصف",
-      "total_minted": "Total Minted",
-      "first_event": "First Event",
-      "last_event": "Last Event",
-      "max_supply": "Max Supply",
-      "contract": "Contract",
+      "total_minted": "المجموع الصادر",
+      "first_event": "أول حدث",
+      "last_event": "آخر حدث",
+      "max_supply": "الحد الأقصى للتوريد",
+      "contract": "عقد",
       "network": "الشبكة",
-      "could_not_find_collection": "Could not find collection",
-      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
-      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+      "could_not_find_collection": "لم يتم العثور على المجموعة",
+      "unable_to_find_check_again": "نحن غير قادرون على العثور على هذه المجموعة ، قم بالتحقق من العنوان والشبكة أو حاول مرة أخرى لاحقًا",
+      "mintdotfun_unsupported_network": "Mint.fun لا يدعم هذه الشبكة"
     },
     "nfts": {
       "selling": "بيع"
@@ -1239,7 +1239,7 @@
       }
     },
     "points": {
-      "coming_soon_title": "Coming Soon",
+      "coming_soon_title": "قريبا",
       "coming_soon_description": "النقاط قريبة جدًا.\nابدأ في الربح اليوم."
     },
     "pools": {
@@ -1464,21 +1464,21 @@
     },
     "nft_offers_launch": {
       "primary_button": {
-        "has_offers": "View Offers",
+        "has_offers": "عرض العروض",
         "not_has_offers": "إغلاق"
       },
-      "secondary_button": "Maybe Later",
+      "secondary_button": "ربما لاحقا",
       "info_row_1": {
-        "title": "All your offers in one place",
-        "description": "View your offers across all NFT marketplaces."
+        "title": "كل عروضك في مكان واحد",
+        "description": "عرض عروضك عبر جميع أسواق NFT."
       },
       "info_row_2": {
-        "title": "Accept from Rainbow",
-        "description": "Accept offers in a single tap and swap to the token of your choosing."
+        "title": "قبول من Rainbow",
+        "description": "قبول العروض بنقرة واحدة والتبديل إلى الرمز الذي تختاره."
       },
       "info_row_3": {
-        "title": "Smart sort modes",
-        "description": "Compare to floor prices, or view your highest or most recent offers."
+        "title": "وضع فرز ذكي",
+        "description": "قارن بأسعار الأرضية ، أو عرض أعلى عروضك أو أحدثها"
       },
       "header": "عروض",
       "subheader": "مقدمة"
@@ -1535,8 +1535,8 @@
       "ended_title": "انتهى البرنامج",
       "ended_text": "ابق على اطلاع على ما لدينا في المستقبل!",
       "info": {
-        "title": "Earn OP for swapping and bridging",
-        "description": "Get cash back by swapping on or bridging to Optimism. Rewards distributed monthly."
+        "title": "اكسب OP عند التبديل والتوصيل",
+        "description": "احصل على نقود معاودة عن طريق التبديل إلى الأمل أو الربط به. يتم توزيع المكافآت شهريًا."
       },
       "op": {
         "airdrop_timing": {
@@ -1750,7 +1750,7 @@
         "failed": "فشل",
         "purchased": "تم الشراء",
         "purchasing": "شراء",
-        "minting": "Minting",
+        "minting": "التحميص",
         "minted": "تم الإصدار",
         "received": "تم الاستلام",
         "receiving": "تلقي",
@@ -2274,7 +2274,7 @@
       "available_networks": "الشبكات المتاحة",
       "change_network": "تغيير الشبكة",
       "connected_apps": "التطبيقات المتصلة",
-      "no_connected_apps": "No Connected apps yet 😢",
+      "no_connected_apps": "لا توجد تطبيقات متصلة حتى الآن 😢",
       "disconnect": "قطع الاتصال",
       "go_back_to_your_browser": "الرجوع إلى المتصفح الخاص بك",
       "paste_uri": {
@@ -2324,8 +2324,8 @@
         "pairing_timeout": "هذه الجلسة انتهت الوقت قبل أن يتم إقامة اتصال. عادة ما يكون هذا بسبب خطأ في الشبكة. يرجى المحاولة مرة أخرى.",
         "pairing_unsupported_methods": "طلبت الداب طرق RPC المحفظة التي لا يدعمها Rainbow.",
         "pairing_unsupported_networks": "طلبت الداب شبكات غير مدعومة من قبل رينبو.",
-        "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
-        "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
+        "read_only_wallet_on_signing_method": "يبدو أنك تستخدم محفظة للقراءة فقط ، والتي لا يُسمح باستخدامها لهذا الطلب.",
+        "namespaces_invalid": "كان هناك مشكلة في الأسماء السمات التي طلبها التطبيق المتعدد المسترجعة . الرجاء المحاولة مرة أخرى أو الاتصال بأفرقة القوس الطيفي و / أو فرق الدعم المستخدمة.",
         "request_invalid": "احتوت الطلب على معايير غير صالحة. يرجى المحاولة مرة أخرى أو الاتصال بفرق الدعم في Rainbow و/أو dapp.",
         "eth_sign": "لا يدعم Rainbow الإصدار القديم من eth_sign بسبب القلق من الأمان.  \n يرجى الاتصال بفرق الدعم في Rainbow و/أو دعم التطبيقات اللامركزية إذا كان لديك أي أسئلة.",
         "request_unsupported_network": "الشبكة المحددة في هذا الطلب غير مدعومة بواسطة رينبو.",
@@ -2333,50 +2333,50 @@
       },
       "dapp_warnings": {
         "info_alert": {
-          "title": "This app is likely malicious",
-          "description": "Signing messages or transactions from this app could result in losing your assets"
+          "title": "هذا التطبيق مشبوه بشكل غالب",
+          "description": "توقيع الرسائل أو المعاملات من خلال هذا التطبيق قد يؤدي إلى فقدان أصولك"
         }
       },
       "simulation": {
         "titles": {
-          "message_request": "Message Request",
+          "message_request": "طلب الرسالة",
           "transaction_request": "طلب العملية"
         },
         "simulation_card": {
           "titles": {
             "not_enough_native_balance": "غير كافي %{symbol}",
-            "likely_to_fail": "Likely to Fail",
-            "simulation_unavailable": "Simulation Unavailable",
-            "simulation_result": "Simulated Result",
-            "simulating": "Simulating"
+            "likely_to_fail": "محتمل فشله",
+            "simulation_unavailable": "المحاكاة غير متاحة",
+            "simulation_result": "نتيجة المحاكاة",
+            "simulating": "يتم المحاكاة"
           },
           "messages": {
-            "no_changes": "No Changes Detected",
+            "no_changes": "لم يتم اكتشاف أي تغييرات",
             "need_more_native": "ستحتاج إلى المزيد %{symbol} على %{network} لدفع هذه المعاملة. احصل على بعض %{symbol} أدناه للمتابعة مع هذا الطلب.",
-            "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
-            "unavailable_zora_network": "Simulation on Zora is not yet supported",
-            "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
+            "unavailable_personal_sign": "محاكاة للاشارات الشخصية غير مدعومة بعد",
+            "unavailable_zora_network": "محاكاة على زورة غير مدعومة بعد",
+            "failed_to_simulate": "فشل التحاكي , وهذا يشير إلى أن المعاملة الخاصة بك على الارجح سوف تفشل. قد يكون هذا مشكلة في التطبيق الذي تستخدمه."
           },
           "event_row": {
-            "unlimited": "Unlimited",
+            "unlimited": "غير محدود",
             "types": {
               "send": "ارسال",
               "receive": "استلم",
-              "approve": "Approve",
-              "revoke": "Revoke"
+              "approve": "الموافقة على",
+              "revoke": "إلغاء السماح"
             }
           }
         },
         "details_card": {
-          "title": "Details",
+          "title": "تفاصيل",
           "types": {
             "chain": "الشبكة",
-            "contract": "Contract",
-            "contract_created": "Contract Created",
+            "contract": "عقد",
+            "contract_created": "إنشاء عقد",
             "to": "إلى",
-            "function": "Function",
-            "source_code": "Source Code",
-            "nonce": "Nonce"
+            "function": "وظيفة",
+            "source_code": "الشيفرة المصدرية",
+            "nonce": "العدّاد"
           },
           "unknown": "غير معروف"
         },
@@ -2385,25 +2385,25 @@
           "copy": "نسخ"
         },
         "profile_section": {
-          "signing_with": "Signing with",
-          "free_to_sign": "Free to sign",
+          "signing_with": "التوقيع مع",
+          "free_to_sign": "حرية التوقيع",
           "no_native_balance": "لا %{symbol}",
           "on_network": "على %{network}"
         },
         "buttons": {
           "cancel": "إلغاء",
-          "confirm": "􀎽 Confirm",
+          "confirm": "􀎽 أرسل المعاملة",
           "get_native_token": "احصل على %{symbol}",
           "buy_native_token": "اشتري %{symbol}"
         },
         "formatted_dates": {
           "today": "اليوم",
-          "day_ago": "day ago",
-          "days_ago": "days ago",
-          "week_ago": "week ago",
-          "weeks_ago": "weeks ago",
-          "month_ago": "month ago",
-          "months_ago": "months ago"
+          "day_ago": "منذ يوم واحد",
+          "days_ago": "منذ أيام",
+          "week_ago": "منذ أسبوع",
+          "weeks_ago": "منذ أسابيع",
+          "month_ago": "منذ شهر",
+          "months_ago": "منذ أشهر"
         }
       }
     },
