@@ -22,7 +22,7 @@
       "tab_investments": "Kolam",
       "tab_savings": "Tabungan",
       "tab_showcase": "Pameran",
-      "tab_points": "Points",
+      "tab_points": "Poin",
       "tab_positions": "Posisi",
       "tab_transactions": "Transaksi",
       "tab_transactions_tooltip": "Transaksi dan Transfer Token",
@@ -628,7 +628,7 @@
         }
       },
       "swap_details": {
-        "reward": "Reward",
+        "reward": "Hadiah",
         "exchange_rate": "Nilai tukar",
         "rainbow_fee": "Biaya Rainbow yang sudah termasuk",
         "refuel": "Token jaringan extra",
@@ -1154,28 +1154,28 @@
       "withdrawal_input_label": "Dapatkan"
     },
     "minting": {
-      "hold_to_mint": "Hold To Mint",
+      "hold_to_mint": "Tahan Menghasilkan",
       "minting": "Minting...",
       "minted": "Dicetak",
-      "mint_unavailable": "Mint Unavailable",
-      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "mint_unavailable": "Pemintahan Tidak Tersedia",
+      "mint_on_mintdotfun": "􀮶 Pemintahan di mint.fun",
       "error_minting": "Kesalahan Mencetak",
-      "mint_price": "Mint Price",
+      "mint_price": "Harga Pemintahan",
       "free": "Gratis",
-      "by": "By",
-      "unknown": "unknown",
+      "by": "Oleh",
+      "unknown": "tidak diketahui",
       "max": "Maks",
       "nft_count": "%{number} NFT",
       "description": "Deskripsi",
-      "total_minted": "Total Minted",
-      "first_event": "First Event",
-      "last_event": "Last Event",
-      "max_supply": "Max Supply",
-      "contract": "Contract",
+      "total_minted": "Total Terpintakan",
+      "first_event": "Acara Pertama",
+      "last_event": "Acara Terakhir",
+      "max_supply": "Persediaan Maks",
+      "contract": "Kontrak",
       "network": "Jaringan",
-      "could_not_find_collection": "Could not find collection",
-      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
-      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+      "could_not_find_collection": "Tidak dapat menemukan koleksi",
+      "unable_to_find_check_again": "Kami tidak dapat menemukan koleksi ini, periksa kembali alamat dan jaringan atau coba lagi nanti",
+      "mintdotfun_unsupported_network": "Mint.fun tidak mendukung jaringan ini"
     },
     "nfts": {
       "selling": "Menjual"
@@ -1239,7 +1239,7 @@
       }
     },
     "points": {
-      "coming_soon_title": "Coming Soon",
+      "coming_soon_title": "Segera Hadir",
       "coming_soon_description": "Poin ada di tikungan.\nMulai menghasilkan hari ini."
     },
     "pools": {
@@ -1464,21 +1464,21 @@
     },
     "nft_offers_launch": {
       "primary_button": {
-        "has_offers": "View Offers",
+        "has_offers": "Lihat Penawaran",
         "not_has_offers": "Tutup"
       },
-      "secondary_button": "Maybe Later",
+      "secondary_button": "Mungkin Nanti",
       "info_row_1": {
-        "title": "All your offers in one place",
-        "description": "View your offers across all NFT marketplaces."
+        "title": "Semua penawaran Anda dalam satu tempat",
+        "description": "Lihat penawaran Anda di semua marketplace NFT."
       },
       "info_row_2": {
-        "title": "Accept from Rainbow",
-        "description": "Accept offers in a single tap and swap to the token of your choosing."
+        "title": "Terima dari Pelangi",
+        "description": "Terima penawaran dengan sekali tekan dan tukar ke token pilihan Anda."
       },
       "info_row_3": {
-        "title": "Smart sort modes",
-        "description": "Compare to floor prices, or view your highest or most recent offers."
+        "title": "Mode penyortiran cerdas",
+        "description": "Bandingkan dengan harga lantai, atau lihat penawaran tertinggi atau terbaru Anda."
       },
       "header": "Penawaran",
       "subheader": "MEMPERKENALKAN"
@@ -1535,7 +1535,7 @@
       "ended_title": "Program berakhir",
       "ended_text": "Tetap sintonik untuk apa yang kami siapkan untuk Anda selanjutnya!",
       "info": {
-        "title": "Earn OP for swapping and bridging",
+        "title": "Dapatkan OP untuk pertukaran dan penghubung",
         "description": "Get cash back by swapping on or bridging to Optimism. Rewards distributed monthly."
       },
       "op": {
@@ -2371,7 +2371,7 @@
           "title": "Details",
           "types": {
             "chain": "Jaringan",
-            "contract": "Contract",
+            "contract": "Kontrak",
             "contract_created": "Contract Created",
             "to": "Ke",
             "function": "Function",
