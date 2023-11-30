@@ -22,7 +22,7 @@
       "tab_investments": "สระน้ำ",
       "tab_savings": "เงินออม",
       "tab_showcase": "โชว์เคส",
-      "tab_points": "Points",
+      "tab_points": "แต้ม",
       "tab_positions": "ตำแหน่ง",
       "tab_transactions": "การทำธุรกรรม",
       "tab_transactions_tooltip": "การทำธุรกรรมและการโอนโทเค็น",
@@ -628,7 +628,7 @@
         }
       },
       "swap_details": {
-        "reward": "Reward",
+        "reward": "รางวัล",
         "exchange_rate": "อัตราแลกเปลี่ยน",
         "rainbow_fee": "ค่าธรรมเนียม Rainbow ที่รวมแล้ว",
         "refuel": "โทเค็นเครือข่ายเพิ่มเติม",
@@ -1154,28 +1154,28 @@
       "withdrawal_input_label": "รับ"
     },
     "minting": {
-      "hold_to_mint": "Hold To Mint",
+      "hold_to_mint": "กดถือเพื่อเริ่มการสร้างเหรียญ",
       "minting": "กำลังสร้างเหรียญ...",
       "minted": "สร้าง",
-      "mint_unavailable": "Mint Unavailable",
-      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "mint_unavailable": "ไม่สามารถสร้างเหรียญได้",
+      "mint_on_mintdotfun": "􀮶 สร้างเหรียญบน mint.fun",
       "error_minting": "ผิดพลาดในการสร้างเหรียญ",
-      "mint_price": "Mint Price",
+      "mint_price": "ราคาการสร้างเหรียญ",
       "free": "ฟรี",
-      "by": "By",
-      "unknown": "unknown",
+      "by": "โดย",
+      "unknown": "ไม่ทราบ",
       "max": "สูงสุด",
       "nft_count": "%{number} NFTs",
       "description": "คำอธิบาย",
-      "total_minted": "Total Minted",
-      "first_event": "First Event",
-      "last_event": "Last Event",
-      "max_supply": "Max Supply",
-      "contract": "Contract",
+      "total_minted": "ผลิตทั้งหมด",
+      "first_event": "เหตุการณ์แรก",
+      "last_event": "เหตุการณ์ล่าสุด",
+      "max_supply": "ปริมาณสูงสุด",
+      "contract": "สัญญา",
       "network": "เครือข่าย",
-      "could_not_find_collection": "Could not find collection",
-      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
-      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+      "could_not_find_collection": "ไม่พบคอลเลกชัน",
+      "unable_to_find_check_again": "เราไม่สามารถค้นหาคอลเลกชันนี้ได้ โปรดตรวจสอบที่อยู่และเครือข่ายสองครั้งหรือลองอีกครั้งในภายหลัง",
+      "mintdotfun_unsupported_network": "Mint.fun ไม่สนับสนุนเครือข่ายนี้"
     },
     "nfts": {
       "selling": "ขาย"
@@ -1239,7 +1239,7 @@
       }
     },
     "points": {
-      "coming_soon_title": "Coming Soon",
+      "coming_soon_title": "เร็ว ๆ นี้",
       "coming_soon_description": "คะแนนอยู่ใกล้แล้ว\nเริ่มสะสมวันนี้"
     },
     "pools": {
@@ -1464,21 +1464,21 @@
     },
     "nft_offers_launch": {
       "primary_button": {
-        "has_offers": "View Offers",
+        "has_offers": "ดูข้อเสนอ",
         "not_has_offers": "ปิด"
       },
-      "secondary_button": "Maybe Later",
+      "secondary_button": "อาจหลัง",
       "info_row_1": {
-        "title": "All your offers in one place",
-        "description": "View your offers across all NFT marketplaces."
+        "title": "ข้อเสนอทั้งหมดของคุณที่ได้อยู่ที่เดียว",
+        "description": "ดูข้อเสนอของคุณในตลาด NFT ทั้งหมด"
       },
       "info_row_2": {
-        "title": "Accept from Rainbow",
-        "description": "Accept offers in a single tap and swap to the token of your choosing."
+        "title": "ยอมรับจาก Rainbow",
+        "description": "ยอมรับข้อเสนอในแต่ละแต้มและสลับไปยังโทเค็นที่คุณเลือก"
       },
       "info_row_3": {
-        "title": "Smart sort modes",
-        "description": "Compare to floor prices, or view your highest or most recent offers."
+        "title": "โหมดเรียงลำดับอัจฉริยะ",
+        "description": "เปรียบเทียบราคาพื้นหลังหรือดูข้อเสนอที่คุณเสนอสูงสุดหรือล่าสุดของคุณ"
       },
       "header": "ข้อเสนอ",
       "subheader": "เราขอแนะนำ"
@@ -1535,7 +1535,7 @@
       "ended_title": "โปรแกรมสิ้นสุด",
       "ended_text": "เตรียมตัวเพื่อสิ่งที่เรามีให้คุณครั้งถัดไป!",
       "info": {
-        "title": "Earn OP for swapping and bridging",
+        "title": "รับคะแนน OP โดยการสลับและสะสม",
         "description": "รับเงินคืนโดยสลับหรือเชื่อมต่อกับ Optimism รางวัลจะแจกจ่ายรายเดือน"
       },
       "op": {
@@ -2371,7 +2371,7 @@
           "title": "รายละเอียด",
           "types": {
             "chain": "เครือข่าย",
-            "contract": "Contract",
+            "contract": "สัญญา",
             "contract_created": "สร้างสัญญา",
             "to": "ถึง",
             "function": "ฟังก์ชั่น",
