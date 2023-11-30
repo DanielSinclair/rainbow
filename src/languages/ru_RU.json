@@ -2375,7 +2375,7 @@
             "contract_created": "Создан контракт",
             "to": "Кому",
             "function": "Функция",
-            "source_code": "Source Code",
+            "source_code": "Исходный код",
             "nonce": "Nonce"
           },
           "unknown": "Неизвестно"
@@ -2385,25 +2385,25 @@
           "copy": "Копировать"
         },
         "profile_section": {
-          "signing_with": "Signing with",
-          "free_to_sign": "Free to sign",
+          "signing_with": "Подпись с использованием",
+          "free_to_sign": "Свободная подпись",
           "no_native_balance": "Нет %{symbol}",
           "on_network": "на %{network}"
         },
         "buttons": {
           "cancel": "Отменить",
-          "confirm": "􀎽 Confirm",
+          "confirm": "􀎽 Подтвердить",
           "get_native_token": "Получить %{symbol}",
           "buy_native_token": "Купить %{symbol}"
         },
         "formatted_dates": {
           "today": "Сегодня",
-          "day_ago": "day ago",
-          "days_ago": "days ago",
-          "week_ago": "week ago",
-          "weeks_ago": "weeks ago",
-          "month_ago": "month ago",
-          "months_ago": "months ago"
+          "day_ago": "день назад",
+          "days_ago": "дней назад",
+          "week_ago": "неделю назад",
+          "weeks_ago": "недели назад",
+          "month_ago": "месяц назад",
+          "months_ago": "месяцев назад"
         }
       }
     },
