@@ -1536,7 +1536,7 @@
       "ended_text": "다음으로 우리가 준비한 것을 기대해주세요!",
       "info": {
         "title": "Earn OP for swapping and bridging",
-        "description": "Get cash back by swapping on or bridging to Optimism. Rewards distributed monthly."
+        "description": "옵티미즘에 스왑하거나 연결해 현금을 돌려받으세요. 보상은 매월 분배됩니다."
       },
       "op": {
         "airdrop_timing": {
@@ -1750,7 +1750,7 @@
         "failed": "실패",
         "purchased": "구매한",
         "purchasing": "구매 중",
-        "minting": "Minting",
+        "minting": "민팅",
         "minted": "생성한",
         "received": "받음",
         "receiving": "수신 중",
@@ -2274,7 +2274,7 @@
       "available_networks": "사용 가능한 네트워크",
       "change_network": "네트워크 변경",
       "connected_apps": "연결된 앱",
-      "no_connected_apps": "No Connected apps yet 😢",
+      "no_connected_apps": "아직 연결된 앱이 없습니다 😢",
       "disconnect": "연결 해제",
       "go_back_to_your_browser": "브라우저로 돌아가세요",
       "paste_uri": {
@@ -2324,8 +2324,8 @@
         "pairing_timeout": "연결이 확립되기 전에 이 세션이 시간 초과되었습니다. 이는 일반적으로 네트워크 오류로 인한 것입니다. 다시 시도해주세요.",
         "pairing_unsupported_methods": "Dapp이 Rainbow에서 지원하지 않는 지갑 RPC 방법을 요청했습니다.",
         "pairing_unsupported_networks": "해당 dapp은 Rainbow에서 지원하지 않는 네트워크를 요청했습니다.",
-        "read_only_wallet_on_signing_method": "It looks like you're using a read-only wallet, which is not allowed for this request.",
-        "namespaces_invalid": "There was an issue with the namespaces requested by the dapp. Please try again or contact Rainbow and/or dapp support teams.",
+        "read_only_wallet_on_signing_method": "읽기 전용 지갑을 사용중인 것 같습니다. 이 요청에 대해서는 허용되지 않습니다.",
+        "namespaces_invalid": "DApp에서 요청한 네임스페이스에 문제가 있습니다. 다시 시도하거나 Rainbow 및 DApp 지원 팀에 문의하십시오.",
         "request_invalid": "요청에 잘못된 매개변수가 포함되어 있습니다. 다시 시도하거나 Rainbow 및/또는 dapp 지원 팀에 문의하십시오.",
         "eth_sign": "보안 문제로 인해 Rainbow는 이전 버전의 eth_sign을 지원하지 않습니다.  \n 궁금한 점이 있으면 Rainbow 및/또는 dapp 지원 팀에 문의하십시오.",
         "request_unsupported_network": "이 요청에서 지정한 네트워크는 Rainbow에서 지원하지 않습니다.",
@@ -2333,48 +2333,48 @@
       },
       "dapp_warnings": {
         "info_alert": {
-          "title": "This app is likely malicious",
-          "description": "Signing messages or transactions from this app could result in losing your assets"
+          "title": "이 앱은 가능성이 있습니다.",
+          "description": "이 앱에서 메시지나 트랜잭션을 서명하면 자산을 분실할 수 있습니다."
         }
       },
       "simulation": {
         "titles": {
-          "message_request": "Message Request",
+          "message_request": "메시지 요청",
           "transaction_request": "거래 요청"
         },
         "simulation_card": {
           "titles": {
             "not_enough_native_balance": "충분하지 않음 %{symbol}",
-            "likely_to_fail": "Likely to Fail",
-            "simulation_unavailable": "Simulation Unavailable",
-            "simulation_result": "Simulated Result",
-            "simulating": "Simulating"
+            "likely_to_fail": "실패할 가능성이 높습니다.",
+            "simulation_unavailable": "시뮬레이션을 사용할 수 없습니다.",
+            "simulation_result": "시뮬레이션 결과",
+            "simulating": "시뮬레이션 중입니다."
           },
           "messages": {
-            "no_changes": "No Changes Detected",
+            "no_changes": "변경 사항이 감지되지 않았습니다.",
             "need_more_native": "이 거래를 위해 %{symbol} on %{network} 에 더 많은 것이 필요합니다. 이 요청을 계속하려면 아래에서 %{symbol} 를 받으십시오.",
-            "unavailable_personal_sign": "Simulation for personal signs is not yet supported",
-            "unavailable_zora_network": "Simulation on Zora is not yet supported",
-            "failed_to_simulate": "The simulation failed, which suggests your transaction is likely to fail. This may be an issue with the app you’re using."
+            "unavailable_personal_sign": "개인 서명의 시뮬레이션은 아직 지원되지 않습니다.",
+            "unavailable_zora_network": "Zora의 시뮬레이션은 아직 지원되지 않습니다.",
+            "failed_to_simulate": "시뮬레이션에 실패하여 거래가 실패할 가능성이 높습니다. 이는 사용중인 앱의 문제일 수 있습니다."
           },
           "event_row": {
-            "unlimited": "Unlimited",
+            "unlimited": "무제한",
             "types": {
               "send": "보내기",
               "receive": "받기",
-              "approve": "Approve",
-              "revoke": "Revoke"
+              "approve": "승인하기",
+              "revoke": "취소하기"
             }
           }
         },
         "details_card": {
-          "title": "Details",
+          "title": "세부정보",
           "types": {
             "chain": "네트워크",
             "contract": "Contract",
-            "contract_created": "Contract Created",
+            "contract_created": "계약서 생성함",
             "to": "에게",
-            "function": "Function",
+            "function": "함수",
             "source_code": "원본 코드",
             "nonce": "Nonce"
           },
