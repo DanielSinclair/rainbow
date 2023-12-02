@@ -2375,7 +2375,7 @@
             "contract_created": "สร้างสัญญา",
             "to": "ถึง",
             "function": "ฟังก์ชั่น",
-            "source_code": "Source Code",
+            "source_code": "รหัสต้นฉบับ",
             "nonce": "Nonce"
           },
           "unknown": "ไม่ทราบ"
@@ -2385,25 +2385,25 @@
           "copy": "คัดลอก"
         },
         "profile_section": {
-          "signing_with": "Signing with",
-          "free_to_sign": "Free to sign",
+          "signing_with": "เทียบลายเซ็นด้วย",
+          "free_to_sign": "เล่นฟรี",
           "no_native_balance": "ไม่มี %{symbol}",
           "on_network": "บน %{network}"
         },
         "buttons": {
           "cancel": "ยกเลิก",
-          "confirm": "􀎽 Confirm",
+          "confirm": "􀎽 ส่งธุรกรรม",
           "get_native_token": "รับ %{symbol}",
           "buy_native_token": "ซื้อ %{symbol}"
         },
         "formatted_dates": {
           "today": "วันนี้",
-          "day_ago": "day ago",
-          "days_ago": "days ago",
-          "week_ago": "week ago",
-          "weeks_ago": "weeks ago",
-          "month_ago": "month ago",
-          "months_ago": "months ago"
+          "day_ago": "เมื่อวันก่อน",
+          "days_ago": "เมื่อวันก่อน",
+          "week_ago": "เมื่อสัปดาห์ก่อน",
+          "weeks_ago": "เมื่อสัปดาห์ก่อน",
+          "month_ago": "เมื่อเดือนก่อน",
+          "months_ago": "เมื่อเดือนก่อน"
         }
       }
     },
