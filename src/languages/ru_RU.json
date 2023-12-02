@@ -22,7 +22,7 @@
       "tab_investments": "Пулы",
       "tab_savings": "Сбережения",
       "tab_showcase": "Витрина",
-      "tab_points": "Points",
+      "tab_points": "Очки",
       "tab_positions": "Позиции",
       "tab_transactions": "Транзакции",
       "tab_transactions_tooltip": "Транзакции и передачи токенов",
@@ -628,7 +628,7 @@
         }
       },
       "swap_details": {
-        "reward": "Reward",
+        "reward": "Награда",
         "exchange_rate": "Обменный курс",
         "rainbow_fee": "Оплаченная плата за Rainbow",
         "refuel": "Дополнительные сетевые токены",
@@ -1154,28 +1154,28 @@
       "withdrawal_input_label": "Получить"
     },
     "minting": {
-      "hold_to_mint": "Hold To Mint",
+      "hold_to_mint": "Удерживайте для создания",
       "minting": "Запуск...",
       "minted": "Монетизированные",
-      "mint_unavailable": "Mint Unavailable",
-      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "mint_unavailable": "Недоступное создание",
+      "mint_on_mintdotfun": "􀮶",
       "error_minting": "Ошибка при запуске",
-      "mint_price": "Mint Price",
+      "mint_price": "Стоимость создания",
       "free": "Бесплатно",
-      "by": "By",
-      "unknown": "unknown",
+      "by": "От",
+      "unknown": "неизвестный",
       "max": "Макс.",
       "nft_count": "%{number} NFT",
       "description": "Описание",
-      "total_minted": "Total Minted",
-      "first_event": "First Event",
-      "last_event": "Last Event",
-      "max_supply": "Max Supply",
-      "contract": "Contract",
+      "total_minted": "Всего создано",
+      "first_event": "Первое событие",
+      "last_event": "Последнее событие",
+      "max_supply": "Максимальное предложение",
+      "contract": "Контракт",
       "network": "Сеть",
-      "could_not_find_collection": "Could not find collection",
-      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
-      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+      "could_not_find_collection": "Не удалось найти коллекцию",
+      "unable_to_find_check_again": "Мы не можем найти эту коллекцию, дважды проверьте адрес и сеть или попробуйте позже",
+      "mintdotfun_unsupported_network": "Mint.fun не поддерживает эту сеть"
     },
     "nfts": {
       "selling": "Продажа"
@@ -1239,7 +1239,7 @@
       }
     },
     "points": {
-      "coming_soon_title": "Coming Soon",
+      "coming_soon_title": "Скоро",
       "coming_soon_description": "Баллы уже близко.\nНачните зарабатывать сегодня."
     },
     "pools": {
@@ -1464,21 +1464,21 @@
     },
     "nft_offers_launch": {
       "primary_button": {
-        "has_offers": "View Offers",
+        "has_offers": "Просмотр предложений",
         "not_has_offers": "Закрыть"
       },
-      "secondary_button": "Maybe Later",
+      "secondary_button": "Возможно позже",
       "info_row_1": {
-        "title": "All your offers in one place",
-        "description": "View your offers across all NFT marketplaces."
+        "title": "Все ваши предложения в одном месте",
+        "description": "Просмотрите ваши предложения на всех рынках NFT."
       },
       "info_row_2": {
-        "title": "Accept from Rainbow",
-        "description": "Accept offers in a single tap and swap to the token of your choosing."
+        "title": "Примите из Rainbow",
+        "description": "Принимайте предложения одним касанием и переходите к выбранному токену."
       },
       "info_row_3": {
-        "title": "Smart sort modes",
-        "description": "Compare to floor prices, or view your highest or most recent offers."
+        "title": "Умные режимы сортировки",
+        "description": "Сравните с ценами на полу, или просмотрите ваши самые высокие или самые недавние предложения."
       },
       "header": "Предложения",
       "subheader": "ПРЕДСТАВЛЯЕМ"
@@ -1535,7 +1535,7 @@
       "ended_title": "Программа завершена",
       "ended_text": "Оставайтесь на связи, чтобы узнать, что мы для вас приготовили в следующий раз!",
       "info": {
-        "title": "Earn OP for swapping and bridging",
+        "title": "Заработайте OP за обмен и перемостку",
         "description": "Получайте обратно наличные, обмениваясь на Optimism или делая bridge. Награды выдаются ежемесячно."
       },
       "op": {
@@ -2371,7 +2371,7 @@
           "title": "Подробности",
           "types": {
             "chain": "Сеть",
-            "contract": "Contract",
+            "contract": "Контракт",
             "contract_created": "Создан контракт",
             "to": "Кому",
             "function": "Функция",
