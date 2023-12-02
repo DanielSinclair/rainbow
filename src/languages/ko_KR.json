@@ -22,7 +22,7 @@
       "tab_investments": "풀",
       "tab_savings": "저축",
       "tab_showcase": "쇼케이스",
-      "tab_points": "Points",
+      "tab_points": "포인트",
       "tab_positions": "포지션",
       "tab_transactions": "거래",
       "tab_transactions_tooltip": "거래 및 토큰 이전",
@@ -628,7 +628,7 @@
         }
       },
       "swap_details": {
-        "reward": "Reward",
+        "reward": "보상",
         "exchange_rate": "환율",
         "rainbow_fee": "포함된 Rainbow 수수료",
         "refuel": "추가 네트워크 토큰",
@@ -1154,28 +1154,28 @@
       "withdrawal_input_label": "얻다"
     },
     "minting": {
-      "hold_to_mint": "Hold To Mint",
+      "hold_to_mint": "길게 누르면 민트가 됩니다",
       "minting": "출하 중...",
       "minted": "생성한",
-      "mint_unavailable": "Mint Unavailable",
-      "mint_on_mintdotfun": "􀮶 Mint on mint.fun",
+      "mint_unavailable": "민트 사용 불가능",
+      "mint_on_mintdotfun": "􀮶 민트 온 mint.fun",
       "error_minting": "출하 오류",
-      "mint_price": "Mint Price",
+      "mint_price": "민트 가격",
       "free": "무료",
-      "by": "By",
-      "unknown": "unknown",
+      "by": "로",
+      "unknown": "알 수 없음",
       "max": "최대",
       "nft_count": "%{number} NFTs",
       "description": "설명",
-      "total_minted": "Total Minted",
-      "first_event": "First Event",
-      "last_event": "Last Event",
-      "max_supply": "Max Supply",
-      "contract": "Contract",
+      "total_minted": "발행 총량",
+      "first_event": "첫 번째 이벤트",
+      "last_event": "마지막 이벤트",
+      "max_supply": "최대 공급량",
+      "contract": "계약 이름",
       "network": "네트워크",
-      "could_not_find_collection": "Could not find collection",
-      "unable_to_find_check_again": "We are unable to find this collection, double check the address and network or try again later",
-      "mintdotfun_unsupported_network": "Mint.fun does not support this network"
+      "could_not_find_collection": "컬렉션을 찾을 수 없습니다",
+      "unable_to_find_check_again": "이 컬렉션을 찾을 수 없습니다. 주소와 네트워크를 다시 확인하거나 나중에 다시 시도하세요",
+      "mintdotfun_unsupported_network": "Mint.fun은는이 네트워크를 지원하지 않습니다"
     },
     "nfts": {
       "selling": "판매"
@@ -1239,7 +1239,7 @@
       }
     },
     "points": {
-      "coming_soon_title": "Coming Soon",
+      "coming_soon_title": "곧 출시됩니다",
       "coming_soon_description": "포인트는 바로 앞입니다.\n오늘부터 적립하세요."
     },
     "pools": {
@@ -1464,21 +1464,21 @@
     },
     "nft_offers_launch": {
       "primary_button": {
-        "has_offers": "View Offers",
+        "has_offers": "보기 제안",
         "not_has_offers": "닫기"
       },
-      "secondary_button": "Maybe Later",
+      "secondary_button": "나중에 하기",
       "info_row_1": {
-        "title": "All your offers in one place",
-        "description": "View your offers across all NFT marketplaces."
+        "title": "모든 제안을 한 곳에서",
+        "description": "모든 NFT 마켓 플레이스에서 제공되는 상품을 확인하세요."
       },
       "info_row_2": {
-        "title": "Accept from Rainbow",
-        "description": "Accept offers in a single tap and swap to the token of your choosing."
+        "title": "Rainbow의 제안을 수락하세요",
+        "description": "1탭으로 제안을 수락하고 선택한 토큰으로 교환하세요."
       },
       "info_row_3": {
-        "title": "Smart sort modes",
-        "description": "Compare to floor prices, or view your highest or most recent offers."
+        "title": "스마트 소트 모드",
+        "description": "바닥 가격과 비교하거나 가장 높은 가격 또는 최신 제안을 확인하세요."
       },
       "header": "제안",
       "subheader": "소개합니다"
@@ -1535,7 +1535,7 @@
       "ended_title": "프로그램이 종료되었습니다",
       "ended_text": "다음으로 우리가 준비한 것을 기대해주세요!",
       "info": {
-        "title": "Earn OP for swapping and bridging",
+        "title": "스왑 및 브리징으로 OP를 획득하세요",
         "description": "옵티미즘에 스왑하거나 연결해 현금을 돌려받으세요. 보상은 매월 분배됩니다."
       },
       "op": {
@@ -2371,7 +2371,7 @@
           "title": "세부정보",
           "types": {
             "chain": "네트워크",
-            "contract": "Contract",
+            "contract": "계약 이름",
             "contract_created": "계약서 생성함",
             "to": "에게",
             "function": "함수",
