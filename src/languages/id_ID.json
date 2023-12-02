@@ -2375,7 +2375,7 @@
             "contract_created": "Contract Created",
             "to": "Ke",
             "function": "Function",
-            "source_code": "Source Code",
+            "source_code": "Kode Sumber",
             "nonce": "Nonce"
           },
           "unknown": "Tidak Diketahui"
@@ -2385,25 +2385,25 @@
           "copy": "Salin"
         },
         "profile_section": {
-          "signing_with": "Signing with",
-          "free_to_sign": "Free to sign",
+          "signing_with": "Tanda tangan dengan",
+          "free_to_sign": "Bebas untuk menandatangani",
           "no_native_balance": "Tidak ada %{symbol}",
           "on_network": "pada %{network}"
         },
         "buttons": {
           "cancel": "Batal",
-          "confirm": "􀎽 Confirm",
+          "confirm": "􀎽 Kirim Transaksi",
           "get_native_token": "Dapatkan %{symbol}",
           "buy_native_token": "Beli %{symbol}"
         },
         "formatted_dates": {
           "today": "Hari Ini",
-          "day_ago": "day ago",
-          "days_ago": "days ago",
-          "week_ago": "week ago",
-          "weeks_ago": "weeks ago",
-          "month_ago": "month ago",
-          "months_ago": "months ago"
+          "day_ago": "hari yang lalu",
+          "days_ago": "hari yang lalu",
+          "week_ago": "seminggu yang lalu",
+          "weeks_ago": "minggu yang lalu",
+          "month_ago": "sebulan yang lalu",
+          "months_ago": "bulan yang lalu"
         }
       }
     },
