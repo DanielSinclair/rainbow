@@ -1240,30 +1240,30 @@
     },
     "points": {
       "placeholder": {
-        "coming_soon_title": "Coming Soon",
-        "coming_soon_description": "Points are just around the corner.\nStart earning today."
+        "coming_soon_title": "Bientôt disponible",
+        "coming_soon_description": "Les points sont tout proches.\nCommencez à en gagner dès aujourd'hui."
       },
       "claim": {
-        "title": "Claim your points",
-        "subtitle": "Points are here. Find out how many you've been awarded.",
-        "get_started": "Get Started",
+        "title": "Réclamez vos points",
+        "subtitle": "Les points sont là. Découvrez combien vous en avez reçu.",
+        "get_started": "Commencer",
         "use_referral_code": "Use Referral Code"
       },
       "referral": {
-        "title": "Enter your referral code",
+        "title": "Entrez votre code de parrainage",
         "subtitle": "Enter a referral code below to claim your bonus reward.",
         "back": "Back",
         "error": "Something went wrong. Please restart the app and try again.",
-        "get_started": "Get Started",
-        "invalid_code": "Invalid Code"
+        "get_started": "Commencer",
+        "invalid_code": "Code Invalide"
       },
       "points": {
         "referral_code": "Referral Code",
-        "share_link": "Share Link",
-        "next_drop": "Next Drop",
+        "share_link": "Partager le lien",
+        "next_drop": "Prochaine Distribution",
         "your_rank": "Your Rank",
         "out_of_x": "Out of %{totalUsers}",
-        "referrals": "Referrals",
+        "referrals": "Parrainages",
         "streak": "Streak",
         "longest_yet": "Longest yet",
         "day": "jour",
