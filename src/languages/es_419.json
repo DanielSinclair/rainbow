@@ -1239,8 +1239,85 @@
       }
     },
     "points": {
-      "coming_soon_title": "Próximamente",
-      "coming_soon_description": "Los puntos están a la vuelta de la esquina.\nEmpiece a ganar hoy."
+      "placeholder": {
+        "coming_soon_title": "Coming Soon",
+        "coming_soon_description": "Points are just around the corner.\nStart earning today."
+      },
+      "claim": {
+        "title": "Claim your points",
+        "subtitle": "Points are here. Find out how many you've been awarded.",
+        "get_started": "Get Started",
+        "use_referral_code": "Use Referral Code"
+      },
+      "referral": {
+        "title": "Enter your referral code",
+        "subtitle": "Enter a referral code below to claim your bonus reward.",
+        "back": "Back",
+        "error": "Something went wrong. Please restart the app and try again.",
+        "get_started": "Get Started",
+        "invalid_code": "Invalid Code"
+      },
+      "points": {
+        "referral_code": "Referral Code",
+        "share_link": "Share Link",
+        "next_drop": "Next Drop",
+        "your_rank": "Your Rank",
+        "out_of_x": "Out of %{totalUsers}",
+        "referrals": "Referrals",
+        "streak": "Streak",
+        "longest_yet": "Longest yet",
+        "day": "día",
+        "days": "días",
+        "leaderboard": "Tabla de Posiciones",
+        "sunday": "Sun",
+        "monday": "Mon",
+        "tuesday": "Tue",
+        "wednesday": "Wed",
+        "thursday": "Thu",
+        "friday": "Fri",
+        "saturday": "Sat",
+        "error": "Oops!\nPlease pull to refresh.",
+        "points": "points",
+        "referral_code_copied": "Referral code copied",
+        "earn_points_for_referring": "Earn points when your referrals swap $100 through Rainbow, plus earn 10% of the points your referrals earn",
+        "already_claimed_points": "Sorry! You have already claimed your points.",
+        "now": "Ahora"
+      },
+      "console": {
+        "claim_bonus_paragraph": "You'll receive an additional 100 points once you swap at least $100 through Rainbow",
+        "welcome_bonus": "Welcome Bonus",
+        "true_believer": "True Believer",
+        "registration_complete": "Registration complete",
+        "account": "Account",
+        "points_earned": "Points Earned",
+        "share_bonus": "Share Bonus",
+        "share_bonus_paragraph_one": "You're all set!",
+        "share_bonus_paragraph_two": "Keep earning points by swapping, bridging, minting, referring friends, and more",
+        "share_bonus_paragraph_three": "The more you use Rainbow, the more you'll be rewarded",
+        "calculation_complete": "Calculation complete",
+        "metamask_swaps": "MetaMask Swaps",
+        "wallet_balance": "Wallet Balance",
+        "rainbow_nfts_owned": "Rainbow NFTs Owned",
+        "rainbow_swaps": "Rainbow Swaps",
+        "calculating_points": "Calculating points",
+        "access_granted": "Access granted",
+        "sign_in_with_wallet": "Sign in with your wallet",
+        "auth_required": "Authorization required",
+        "proceed_to_share": "Continuar",
+        "skip_referral": "Omitir",
+        "sign_in": "Iniciar Sesión",
+        "try_a_swap": "Try a Swap",
+        "get_some_eth": "Get Some ETH",
+        "generic_alert": "Something went wrong, please try again.",
+        "existing_user_alert": "Points already claimed. Please restart the app to refresh.",
+        "invalid_referral_code_alert": "Invalid referral code. Please double check your code and try again.",
+        "referral_link_is_ready": "Your referral link is ready",
+        "referral_link_bonus_text": "Tweet your referral link and get an extra 250 points",
+        "referral_link_bonus_text_extended": "Plus you'll earn 10% of the points earned by anyone you refer",
+        "complete_onboarding": "Listo",
+        "share_to_x": "Share to X",
+        "hardware_wallet_alert": "Hardware wallet support is coming soon!"
+      }
     },
     "pools": {
       "deposit": "Depósito",
@@ -2348,14 +2425,18 @@
             "likely_to_fail": "Probable que Falle",
             "simulation_unavailable": "Simulación no Disponible",
             "simulation_result": "Resultado Simulado",
-            "simulating": "Simulando"
+            "simulating": "Simulando",
+            "proceed_carefully": "Proceed Carefully",
+            "suspicious_transaction": "Suspicious Transaction"
           },
           "messages": {
             "no_changes": "No se Detectaron Cambios",
             "need_more_native": "Necesitará más %{symbol} en %{network} para pagar esta transacción. Obtenga algo de %{symbol} a continuación para continuar con esta solicitud.",
             "unavailable_personal_sign": "La simulación para firmas personales aún no está soportada",
             "unavailable_zora_network": "La simulación en Zora aún no está soportada",
-            "failed_to_simulate": "La simulación falló, lo cual sugiere que su transacción probablemente fallará. Esto puede ser un problema con la aplicación que está utilizando."
+            "failed_to_simulate": "La simulación falló, lo cual sugiere que su transacción probablemente fallará. Esto puede ser un problema con la aplicación que está utilizando.",
+            "warning": "No known malicious behavior was detected, but this transaction has characteristics that may pose a risk to your wallet.",
+            "malicious": "Signing this transaction could result in losing access to everything in your wallet."
           },
           "event_row": {
             "unlimited": "Ilimitado",
