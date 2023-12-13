@@ -1240,30 +1240,30 @@
     },
     "points": {
       "placeholder": {
-        "coming_soon_title": "Coming Soon",
-        "coming_soon_description": "Points are just around the corner.\nStart earning today."
+        "coming_soon_title": "近日公開",
+        "coming_soon_description": "ポイントがもうすぐそこに。\n今日から獲得を始めましょう。"
       },
       "claim": {
-        "title": "Claim your points",
-        "subtitle": "Points are here. Find out how many you've been awarded.",
-        "get_started": "Get Started",
+        "title": "ポイントを請求する",
+        "subtitle": "ポイントがここに。あなたがいくつ獲得したかを確認してください。",
+        "get_started": "始める",
         "use_referral_code": "Use Referral Code"
       },
       "referral": {
-        "title": "Enter your referral code",
+        "title": "あなたの紹介コードを入力してください",
         "subtitle": "Enter a referral code below to claim your bonus reward.",
         "back": "Back",
         "error": "Something went wrong. Please restart the app and try again.",
-        "get_started": "Get Started",
-        "invalid_code": "Invalid Code"
+        "get_started": "始める",
+        "invalid_code": "無効なコード"
       },
       "points": {
         "referral_code": "Referral Code",
-        "share_link": "Share Link",
-        "next_drop": "Next Drop",
+        "share_link": "リンクを共有する",
+        "next_drop": "次のドロップ",
         "your_rank": "Your Rank",
         "out_of_x": "Out of %{totalUsers}",
-        "referrals": "Referrals",
+        "referrals": "紹介",
         "streak": "Streak",
         "longest_yet": "Longest yet",
         "day": "日",
