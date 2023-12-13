@@ -1240,30 +1240,30 @@
     },
     "points": {
       "placeholder": {
-        "coming_soon_title": "Coming Soon",
-        "coming_soon_description": "Points are just around the corner.\nStart earning today."
+        "coming_soon_title": "Скоро будет",
+        "coming_soon_description": "Баллы уже не за горами.\nНачните зарабатывать сегодня."
       },
       "claim": {
-        "title": "Claim your points",
-        "subtitle": "Points are here. Find out how many you've been awarded.",
-        "get_started": "Get Started",
+        "title": "Заберите свои баллы",
+        "subtitle": "Баллы у вас. Узнайте, сколько вам начислено.",
+        "get_started": "Начать",
         "use_referral_code": "Use Referral Code"
       },
       "referral": {
-        "title": "Enter your referral code",
+        "title": "Введите ваш реферальный код",
         "subtitle": "Enter a referral code below to claim your bonus reward.",
         "back": "Back",
         "error": "Something went wrong. Please restart the app and try again.",
-        "get_started": "Get Started",
-        "invalid_code": "Invalid Code"
+        "get_started": "Начать",
+        "invalid_code": "Недействительный код"
       },
       "points": {
         "referral_code": "Referral Code",
-        "share_link": "Share Link",
-        "next_drop": "Next Drop",
+        "share_link": "Поделиться ссылкой",
+        "next_drop": "Следующее начисление",
         "your_rank": "Your Rank",
         "out_of_x": "Out of %{totalUsers}",
-        "referrals": "Referrals",
+        "referrals": "Рефералы",
         "streak": "Streak",
         "longest_yet": "Longest yet",
         "day": "день",
