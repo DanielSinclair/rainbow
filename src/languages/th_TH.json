@@ -1240,30 +1240,30 @@
     },
     "points": {
       "placeholder": {
-        "coming_soon_title": "Coming Soon",
-        "coming_soon_description": "Points are just around the corner.\nStart earning today."
+        "coming_soon_title": "เร็วๆ นี้",
+        "coming_soon_description": "คะแนนกำลังจะมาทางนี้\nเริ่มได้รับคะแนนวันนี้"
       },
       "claim": {
-        "title": "Claim your points",
-        "subtitle": "Points are here. Find out how many you've been awarded.",
-        "get_started": "Get Started",
+        "title": "เรียกร้องคะแนนของคุณ",
+        "subtitle": "คะแนนของคุณมาแล้ว หากดูว่าคุณได้รับกี่คะแนน",
+        "get_started": "เริ่มทำงาน",
         "use_referral_code": "Use Referral Code"
       },
       "referral": {
-        "title": "Enter your referral code",
+        "title": "กรอกรหัสอ้างอิงของคุณ",
         "subtitle": "Enter a referral code below to claim your bonus reward.",
         "back": "Back",
         "error": "Something went wrong. Please restart the app and try again.",
-        "get_started": "Get Started",
-        "invalid_code": "Invalid Code"
+        "get_started": "เริ่มทำงาน",
+        "invalid_code": "รหัสไม่ถูกต้อง"
       },
       "points": {
         "referral_code": "Referral Code",
-        "share_link": "Share Link",
-        "next_drop": "Next Drop",
+        "share_link": "แชร์ลิงค์",
+        "next_drop": "รางวัลถัดไป",
         "your_rank": "Your Rank",
         "out_of_x": "Out of %{totalUsers}",
-        "referrals": "Referrals",
+        "referrals": "การอ้างอิง",
         "streak": "Streak",
         "longest_yet": "Longest yet",
         "day": "วัน",
