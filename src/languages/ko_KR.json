@@ -1240,30 +1240,30 @@
     },
     "points": {
       "placeholder": {
-        "coming_soon_title": "Coming Soon",
-        "coming_soon_description": "Points are just around the corner.\nStart earning today."
+        "coming_soon_title": "곧 출시됩니다",
+        "coming_soon_description": "포인트가 곧 제공됩니다.\n오늘부터 적립하세요."
       },
       "claim": {
-        "title": "Claim your points",
-        "subtitle": "Points are here. Find out how many you've been awarded.",
-        "get_started": "Get Started",
+        "title": "포인트를 청구하세요",
+        "subtitle": "포인트가 도착했습니다. 얼마나 많은 포인트를 받았는지 확인하세요.",
+        "get_started": "시작하기",
         "use_referral_code": "Use Referral Code"
       },
       "referral": {
-        "title": "Enter your referral code",
+        "title": "추천 코드를 입력하세요",
         "subtitle": "Enter a referral code below to claim your bonus reward.",
         "back": "Back",
         "error": "Something went wrong. Please restart the app and try again.",
-        "get_started": "Get Started",
-        "invalid_code": "Invalid Code"
+        "get_started": "시작하기",
+        "invalid_code": "잘못된 코드"
       },
       "points": {
         "referral_code": "Referral Code",
-        "share_link": "Share Link",
-        "next_drop": "Next Drop",
+        "share_link": "링크 공유하기",
+        "next_drop": "다음 드롭",
         "your_rank": "Your Rank",
         "out_of_x": "Out of %{totalUsers}",
-        "referrals": "Referrals",
+        "referrals": "추천인",
         "streak": "Streak",
         "longest_yet": "Longest yet",
         "day": "일",
