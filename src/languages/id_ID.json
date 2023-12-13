@@ -1240,30 +1240,30 @@
     },
     "points": {
       "placeholder": {
-        "coming_soon_title": "Coming Soon",
-        "coming_soon_description": "Points are just around the corner.\nStart earning today."
+        "coming_soon_title": "Segera Hadir",
+        "coming_soon_description": "Poin akan segera hadir.\nMulai mendapatkan hari ini."
       },
       "claim": {
-        "title": "Claim your points",
-        "subtitle": "Points are here. Find out how many you've been awarded.",
-        "get_started": "Get Started",
+        "title": "Klaim poin Anda",
+        "subtitle": "Poin telah ada. Cari tahu berapa banyak yang telah Anda dapatkan.",
+        "get_started": "Mulai",
         "use_referral_code": "Use Referral Code"
       },
       "referral": {
-        "title": "Enter your referral code",
+        "title": "Masukkan kode rujukan Anda",
         "subtitle": "Enter a referral code below to claim your bonus reward.",
         "back": "Back",
         "error": "Something went wrong. Please restart the app and try again.",
-        "get_started": "Get Started",
-        "invalid_code": "Invalid Code"
+        "get_started": "Mulai",
+        "invalid_code": "Kode tidak valid"
       },
       "points": {
         "referral_code": "Referral Code",
-        "share_link": "Share Link",
-        "next_drop": "Next Drop",
+        "share_link": "Bagikan Tautan",
+        "next_drop": "Pengeluaran Berikutnya",
         "your_rank": "Your Rank",
         "out_of_x": "Out of %{totalUsers}",
-        "referrals": "Referrals",
+        "referrals": "Referal",
         "streak": "Streak",
         "longest_yet": "Longest yet",
         "day": "hari",
