@@ -1178,7 +1178,12 @@
       "mintdotfun_unsupported_network": "Mint.fun no admite esta red"
     },
     "nfts": {
-      "selling": "Vendiendo"
+      "selling": "Vendiendo",
+      "sort": {
+        "abc": "Abc",
+        "most_recent": "Most Recent",
+        "floor_price": "Precio Base"
+      }
     },
     "nft_offers": {
       "card": {
@@ -1262,7 +1267,7 @@
         "share_link": "Compartir enlace",
         "next_drop": "Próxima entrega",
         "your_rank": "Your Rank",
-        "out_of_x": "Out of %{totalUsers}",
+        "of_x": "Of %{totalUsers}",
         "referrals": "Referidos",
         "streak": "Streak",
         "longest_yet": "Longest yet",
@@ -1276,6 +1281,7 @@
         "thursday": "Thu",
         "friday": "Fri",
         "saturday": "Sat",
+        "today": "Hoy",
         "error": "Oops!\nPlease pull to refresh.",
         "points": "points",
         "referral_code_copied": "Referral code copied",
@@ -1311,6 +1317,7 @@
         "generic_alert": "Something went wrong, please try again.",
         "existing_user_alert": "Points already claimed. Please restart the app to refresh.",
         "invalid_referral_code_alert": "Invalid referral code. Please double check your code and try again.",
+        "no_balance_alert": "To enroll in Points, you must have a non-zero wallet balance.",
         "referral_link_is_ready": "Your referral link is ready",
         "referral_link_bonus_text": "Tweet your referral link and get an extra 250 points",
         "referral_link_bonus_text_extended": "Plus you'll earn 10% of the points earned by anyone you refer",
