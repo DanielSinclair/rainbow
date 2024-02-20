@@ -1258,7 +1258,7 @@
         "invalid_code": "无效代码"
       },
       "notifications": {
-        "enable": "Enable Points Notifications",
+        "enable": "启用积分通知",
         "disable": "禁用积分通知"
       },
       "points": {
@@ -1287,8 +1287,8 @@
         "earn_points_for_referring": "当您的推荐人通过Rainbow换取100美元时，您可以获得积分，此外您还可以获得推荐人所赚积分的10%",
         "already_claimed_points": "抱歉！您已经领取了您的积分。",
         "now": "现在",
-        "unranked": "Unranked",
-        "points_to_rank": "750 points to rank"
+        "unranked": "未排名",
+        "points_to_rank": "距离排名还需750积分"
       },
       "console": {
         "claim_bonus_paragraph": "一旦您通过Rainbow兑换至少$100，您将额外获得100积分",
@@ -1296,7 +1296,7 @@
         "true_believer": "真正的信徒",
         "registration_complete": "注册完成",
         "account": "账户",
-        "points_you_have": "You Have",
+        "points_you_have": "你有",
         "points_earned": "获得积分",
         "share_bonus_paragraph_one": "您已全部设置就绪！",
         "share_bonus_paragraph_two": "继续通过兑换、桥接、铸造、推荐朋友等方式赚取积分",
@@ -1325,19 +1325,19 @@
         "complete_onboarding": "完成",
         "share_to_x": "分享至X",
         "hardware_wallet_alert": "硬件钱包支持即将推出！",
-        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
-        "view_weekly_earnings_title": "Counting earned points",
-        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_week_of": "周 %{startOfWeek} - %{endOfWeek}",
+        "view_weekly_earnings_title": "正在计算赚取的积分",
+        "view_weekly_earnings_counted": "已计算的周收益",
         "view_weekly_earnings_close_button": "关闭",
         "view_weekly_earnings_retroactive_points": "追溯积分",
-        "view_weekly_earnings_activity": "Your Activity",
-        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_activity": "你的活动",
+        "view_weekly_earnings_referral_activity": "推荐活动",
         "view_weekly_earnings_total_earnings": "总计",
-        "view_weekly_earnings_new_referrals": "New Referrals",
-        "wallet_balance_required": "Wallet balance required",
-        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
-        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
-        "fund_my_wallet": "Fund My Wallet",
+        "view_weekly_earnings_new_referrals": "新的推荐",
+        "wallet_balance_required": "需要钱包余额",
+        "require_balance_paragraph_one": "继续操作前，请确保您在以下网络之一上有ETH余额：",
+        "require_balance_paragraph_two": "或者，在Polygon上有MATIC余额，或在BSC上有BNB余额",
+        "fund_my_wallet": "为我的钱包充值",
         "points": "积分"
       }
     },
@@ -2382,7 +2382,7 @@
         "message": "将 WalletConnect URI 粘贴在下方",
         "title": "新的 WalletConnect 会话"
       },
-      "none": "None",
+      "none": "无",
       "switch_network": "切换网络",
       "switch_wallet": "切换钱包",
       "titles": {
@@ -2431,7 +2431,7 @@
         "eth_sign": "由于安全考虑，Rainbow不支持旧版eth_sign。  \n 如果你有任何问题，请联系Rainbow和/或dapp支持团队。",
         "request_unsupported_network": "该请求中指定的网络不受Rainbow支持。",
         "request_unsupported_methods": "请求中指定的RPC方法不受Rainbow支持。",
-        "no_accounts_found": "No accounts found in approved namespaces."
+        "no_accounts_found": "在批准的命名空间中未找到账户。"
       },
       "dapp_warnings": {
         "info_alert": {
