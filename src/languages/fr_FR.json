@@ -1258,7 +1258,7 @@
         "invalid_code": "Code Invalide"
       },
       "notifications": {
-        "enable": "Enable Points Notifications",
+        "enable": "Activer les notifications de points",
         "disable": "Désactiver les notifications de points"
       },
       "points": {
@@ -1287,8 +1287,8 @@
         "earn_points_for_referring": "Gagnez des points lorsque vos filleuls échangent 100 $ à travers Rainbow, plus gagnez 10 % des points que vos filleuls gagnent",
         "already_claimed_points": "Désolé ! Vous avez déjà réclamé vos points.",
         "now": "Maintenant",
-        "unranked": "Unranked",
-        "points_to_rank": "750 points to rank"
+        "unranked": "Non classé",
+        "points_to_rank": "750 points pour être classé"
       },
       "console": {
         "claim_bonus_paragraph": "Vous recevrez 100 points supplémentaires une fois que vous aurez échangé au moins 100 $ via Rainbow",
@@ -1296,7 +1296,7 @@
         "true_believer": "Vrai Croyant",
         "registration_complete": "Inscription complète",
         "account": "Compte",
-        "points_you_have": "You Have",
+        "points_you_have": "Vous avez",
         "points_earned": "Points Gagnés",
         "share_bonus_paragraph_one": "Tout est prêt !",
         "share_bonus_paragraph_two": "Continuez à gagner des points en échangeant, en créant des ponts, en frappant monnaie, en référant des amis, et plus encore",
@@ -1325,19 +1325,19 @@
         "complete_onboarding": "Terminé",
         "share_to_x": "Partager sur X",
         "hardware_wallet_alert": "Le support des portefeuilles matériels arrive bientôt !",
-        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
-        "view_weekly_earnings_title": "Counting earned points",
-        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_week_of": "Semaine du %{startOfWeek} - %{endOfWeek}",
+        "view_weekly_earnings_title": "Comptage des points gagnés",
+        "view_weekly_earnings_counted": "Gains hebdomadaires comptés",
         "view_weekly_earnings_close_button": "Fermer",
         "view_weekly_earnings_retroactive_points": "Points rétroactifs",
-        "view_weekly_earnings_activity": "Your Activity",
-        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_activity": "Votre activité",
+        "view_weekly_earnings_referral_activity": "Activité de parrainage",
         "view_weekly_earnings_total_earnings": "Total",
-        "view_weekly_earnings_new_referrals": "New Referrals",
-        "wallet_balance_required": "Wallet balance required",
-        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
-        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
-        "fund_my_wallet": "Fund My Wallet",
+        "view_weekly_earnings_new_referrals": "Nouveaux parrainages",
+        "wallet_balance_required": "Solde du portefeuille requis",
+        "require_balance_paragraph_one": "Pour continuer, assurez-vous d'avoir un solde en ETH sur l'un des réseaux suivants :",
+        "require_balance_paragraph_two": "Ou alternativement, un solde en MATIC sur Polygon ou un solde en BNB sur BSC",
+        "fund_my_wallet": "Financer mon portefeuille",
         "points": "Points"
       }
     },
@@ -2382,7 +2382,7 @@
         "message": "Collez l'URI WalletConnect ci-dessous",
         "title": "Nouvelle session WalletConnect"
       },
-      "none": "None",
+      "none": "Aucun",
       "switch_network": "Changer de réseau",
       "switch_wallet": "Changer de portefeuille",
       "titles": {
@@ -2431,7 +2431,7 @@
         "eth_sign": "Rainbow ne prend pas en charge eth_sign traditionnel en raison de préoccupations de sécurité.  \n Veuillez contacter les équipes de support de Rainbow et/ou de l'application si vous avez des questions.",
         "request_unsupported_network": "Le réseau spécifié dans cette demande n'est pas pris en charge par Rainbow.",
         "request_unsupported_methods": "La méthode(s) RPC spécifiée dans cette demande n'est pas prise en charge par Rainbow.",
-        "no_accounts_found": "No accounts found in approved namespaces."
+        "no_accounts_found": "Aucun compte trouvé dans les espaces de noms approuvés."
       },
       "dapp_warnings": {
         "info_alert": {
