@@ -1258,7 +1258,7 @@
         "invalid_code": "Código inválido"
       },
       "notifications": {
-        "enable": "Enable Points Notifications",
+        "enable": "Ativar Notificações de Pontos",
         "disable": "Desativar Notificações de Pontos"
       },
       "points": {
@@ -1287,8 +1287,8 @@
         "earn_points_for_referring": "Ganhe pontos quando seus indicados trocarem $100 através da Rainbow, além de ganhar 10% dos pontos que seus indicados acumularem",
         "already_claimed_points": "Desculpe! Você já resgatou seus pontos.",
         "now": "Agora",
-        "unranked": "Unranked",
-        "points_to_rank": "750 points to rank"
+        "unranked": "Sem Classificação",
+        "points_to_rank": "750 pontos para classificar"
       },
       "console": {
         "claim_bonus_paragraph": "Você receberá 100 pontos adicionais uma vez que trocar pelo menos $100 através do Rainbow",
@@ -1296,7 +1296,7 @@
         "true_believer": "Verdadeiro Crente",
         "registration_complete": "Registro completo",
         "account": "Conta",
-        "points_you_have": "You Have",
+        "points_you_have": "Você Tem",
         "points_earned": "Pontos Ganhos",
         "share_bonus_paragraph_one": "Tudo pronto!",
         "share_bonus_paragraph_two": "Continue acumulando pontos ao trocar, utilizar a ponte, cunhar, indicar amigos e mais",
@@ -1325,19 +1325,19 @@
         "complete_onboarding": "Concluído",
         "share_to_x": "Compartilhe no X",
         "hardware_wallet_alert": "Suporte para carteira de hardware estará disponível em breve!",
-        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
-        "view_weekly_earnings_title": "Counting earned points",
-        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_week_of": "Semana de %{startOfWeek} - %{endOfWeek}",
+        "view_weekly_earnings_title": "Contagem de pontos ganhos",
+        "view_weekly_earnings_counted": "Ganhos semanais contabilizados",
         "view_weekly_earnings_close_button": "Fechar",
         "view_weekly_earnings_retroactive_points": "Pontos Retroativos",
-        "view_weekly_earnings_activity": "Your Activity",
-        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_activity": "Sua Atividade",
+        "view_weekly_earnings_referral_activity": "Atividade de Indicação",
         "view_weekly_earnings_total_earnings": "Total",
-        "view_weekly_earnings_new_referrals": "New Referrals",
-        "wallet_balance_required": "Wallet balance required",
-        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
-        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
-        "fund_my_wallet": "Fund My Wallet",
+        "view_weekly_earnings_new_referrals": "Novas Indicações",
+        "wallet_balance_required": "Saldo da carteira necessário",
+        "require_balance_paragraph_one": "Para continuar, certifique-se de ter um saldo em ETH em uma das seguintes redes:",
+        "require_balance_paragraph_two": "Ou alternativamente, um saldo em MATIC na Polygon ou um saldo em BNB na BSC",
+        "fund_my_wallet": "Financiar Minha Carteira",
         "points": "Pontos"
       }
     },
@@ -2382,7 +2382,7 @@
         "message": "Cole abaixo o URI do WalletConnect",
         "title": "Nova Sessão do WalletConnect"
       },
-      "none": "None",
+      "none": "Nenhum",
       "switch_network": "Trocar Rede",
       "switch_wallet": "Trocar Carteira",
       "titles": {
@@ -2431,7 +2431,7 @@
         "eth_sign": "Rainbow não suporta eth_sign legado devido a preocupações de segurança.  \n Entre em contato com as equipes de suporte do Rainbow e/ou dapp se tiver alguma dúvida.",
         "request_unsupported_network": "A rede especificada nesta solicitação não é suportada pelo Rainbow.",
         "request_unsupported_methods": "O método RPC especificado nesta solicitação não é suportado pelo Rainbow.",
-        "no_accounts_found": "No accounts found in approved namespaces."
+        "no_accounts_found": "Nenhuma conta encontrada nos namespaces aprovados."
       },
       "dapp_warnings": {
         "info_alert": {
