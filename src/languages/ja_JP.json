@@ -1258,7 +1258,7 @@
         "invalid_code": "無効なコード"
       },
       "notifications": {
-        "enable": "Enable Points Notifications",
+        "enable": "ポイント通知を有効にする",
         "disable": "ポイント通知を無効にする"
       },
       "points": {
@@ -1287,8 +1287,8 @@
         "earn_points_for_referring": "あなたの紹介者がRainbowを通じて$100を交換するとポイントが獲得でき、さらに紹介者が獲得するポイントの10%を獲得できます",
         "already_claimed_points": "申し訳ありません！ ポイントは既に請求済みです。",
         "now": "今",
-        "unranked": "Unranked",
-        "points_to_rank": "750 points to rank"
+        "unranked": "ランク外",
+        "points_to_rank": "ランクには750ポイントが必要です"
       },
       "console": {
         "claim_bonus_paragraph": "Rainbowで少なくとも$100をスワップすると、追加で100ポイントがもらえます",
@@ -1296,7 +1296,7 @@
         "true_believer": "真の信者",
         "registration_complete": "登録完了",
         "account": "アカウント",
-        "points_you_have": "You Have",
+        "points_you_have": "あなたの持ち点",
         "points_earned": "獲得ポイント",
         "share_bonus_paragraph_one": "準備は整いました！",
         "share_bonus_paragraph_two": "スワッピング、ブリッジング、ミンティング、友達の紹介などでポイントを獲得し続けてください",
@@ -1325,19 +1325,19 @@
         "complete_onboarding": "完了",
         "share_to_x": "Xにシェアする",
         "hardware_wallet_alert": "ハードウェアウォレットのサポートはもうすぐです！",
-        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
-        "view_weekly_earnings_title": "Counting earned points",
-        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_week_of": "%{startOfWeek} 週目 - %{endOfWeek}",
+        "view_weekly_earnings_title": "獲得ポイントの集計",
+        "view_weekly_earnings_counted": "週間収益が集計されました",
         "view_weekly_earnings_close_button": "閉じる",
         "view_weekly_earnings_retroactive_points": "遡及ポイント",
-        "view_weekly_earnings_activity": "Your Activity",
-        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_activity": "あなたのアクティビティ",
+        "view_weekly_earnings_referral_activity": "紹介アクティビティ",
         "view_weekly_earnings_total_earnings": "合計",
-        "view_weekly_earnings_new_referrals": "New Referrals",
-        "wallet_balance_required": "Wallet balance required",
-        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
-        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
-        "fund_my_wallet": "Fund My Wallet",
+        "view_weekly_earnings_new_referrals": "新規紹介",
+        "wallet_balance_required": "ウォレットの残高が必要です",
+        "require_balance_paragraph_one": "続行するには、以下のネットワークのいずれかにETH残高があることを確認してください：",
+        "require_balance_paragraph_two": "または、Polygon上のMATIC残高、またはBSC上のBNB残高があること",
+        "fund_my_wallet": "マイウォレットに資金を追加",
         "points": "ポイント"
       }
     },
@@ -2382,7 +2382,7 @@
         "message": "以下にWalletConnect URIを貼り付ける",
         "title": "新しいWalletConnectセッション"
       },
-      "none": "None",
+      "none": "なし",
       "switch_network": "ネットワークを切り替える",
       "switch_wallet": "ウォレットを切り替える",
       "titles": {
@@ -2431,7 +2431,7 @@
         "eth_sign": "Rainbowは、セキュリティ上の懸念から旧式のeth_signをサポートしていません。  \n ご不明な点がありましたら、Rainbowおよび/またはdappのサポートチームにお問い合わせください。",
         "request_unsupported_network": "このリクエストで指定されたネットワークは、Rainbowでサポートされていません。",
         "request_unsupported_methods": "このリクエストで指定されたRPCメソッドはRainbowでサポートされていません",
-        "no_accounts_found": "No accounts found in approved namespaces."
+        "no_accounts_found": "承認された名前空間にアカウントが見つかりませんでした。"
       },
       "dapp_warnings": {
         "info_alert": {
