@@ -1258,7 +1258,7 @@
         "invalid_code": "uygun olduğunuzu kabul edersiniz"
       },
       "notifications": {
-        "enable": "Enable Points Notifications",
+        "enable": "Puan Bildirimlerini Etkinleştir",
         "disable": "Puan Bildirimlerini Devre Dışı Bırak"
       },
       "points": {
@@ -1287,8 +1287,8 @@
         "earn_points_for_referring": "Rainbow üzerinden takas yapan tavsiyeleriniz için puan kazanın, ayrıca tavsiyelerinizin kazandığı puanların %10'unu kazanın",
         "already_claimed_points": "Üzgünüz! Puanlarınızı zaten talep ettiniz.",
         "now": "Şimdi",
-        "unranked": "Unranked",
-        "points_to_rank": "750 points to rank"
+        "unranked": "Sıralamasız",
+        "points_to_rank": "Rütbeye ulaşmak için 750 puan"
       },
       "console": {
         "claim_bonus_paragraph": "Rainbow üzerinden en az 100 dolarlık takas yapmanız durumunda ekstra 100 puan alacaksınız",
@@ -1296,7 +1296,7 @@
         "true_believer": "Gerçek İnanan",
         "registration_complete": "Kayıt Tamamlandı",
         "account": "Hesap",
-        "points_you_have": "You Have",
+        "points_you_have": "Sahip Olduğunuz",
         "points_earned": "Kazanılan Puanlar",
         "share_bonus_paragraph_one": "Her şey hazır!",
         "share_bonus_paragraph_two": "Takas yaparak, köprü oluşturarak, madeni para basarak, arkadaşlarını davet ederek ve daha fazlasını yaparak puan kazanmaya devam ediniz",
@@ -1325,19 +1325,19 @@
         "complete_onboarding": "Tamamlandı",
         "share_to_x": "X'e paylaş",
         "hardware_wallet_alert": "Donanım cüzdanı desteği yakında geliyor!",
-        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
-        "view_weekly_earnings_title": "Counting earned points",
-        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_week_of": "Hafta %{startOfWeek} - %{endOfWeek}",
+        "view_weekly_earnings_title": "Kazanılan puanlar hesaplanıyor",
+        "view_weekly_earnings_counted": "Haftalık kazanç hesaplandı",
         "view_weekly_earnings_close_button": "Kapat",
         "view_weekly_earnings_retroactive_points": "Geriye Dönük Puanlar",
-        "view_weekly_earnings_activity": "Your Activity",
-        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_activity": "Aktiviteniz",
+        "view_weekly_earnings_referral_activity": "Yönlendirme Aktivitesi",
         "view_weekly_earnings_total_earnings": "Toplam",
-        "view_weekly_earnings_new_referrals": "New Referrals",
-        "wallet_balance_required": "Wallet balance required",
-        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
-        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
-        "fund_my_wallet": "Fund My Wallet",
+        "view_weekly_earnings_new_referrals": "Yeni Yönlendirmeler",
+        "wallet_balance_required": "Cüzdan bakiyesi gereklidir",
+        "require_balance_paragraph_one": "Devam etmek için aşağıdaki ağlardan birinde ETH bakiyeniz olduğundan emin olun:",
+        "require_balance_paragraph_two": "Veya alternatif olarak, Polygon'da MATIC bakiyeniz veya BSC'de BNB bakiyeniz olmalı",
+        "fund_my_wallet": "Cüzdanımı Fonla",
         "points": "Noktalar"
       }
     },
@@ -2382,7 +2382,7 @@
         "message": "WalletConnect URI'yi aşağıya yapıştırın",
         "title": "Yeni WalletConnect Oturumu"
       },
-      "none": "None",
+      "none": "Hiçbiri",
       "switch_network": "Ağı Değiştir",
       "switch_wallet": "Cüzdanı Değiştir",
       "titles": {
@@ -2431,7 +2431,7 @@
         "eth_sign": "Güvenlik endişeleri nedeniyle Rainbow, eski eth_sign'ı desteklememektedir.  \n Herhangi bir sorunuz varsa lütfen Rainbow ve/veya dapp destek ekipleriyle iletişime geçin.",
         "request_unsupported_network": "Bu istekte belirtilen ağ, Rainbow tarafından desteklenmiyor.",
         "request_unsupported_methods": "Bu istekte belirtilen RPC yöntemi(ler) Rainbow tarafından desteklenmiyor.",
-        "no_accounts_found": "No accounts found in approved namespaces."
+        "no_accounts_found": "Onaylanmış ad alanlarında hiç hesap bulunamadı."
       },
       "dapp_warnings": {
         "info_alert": {
