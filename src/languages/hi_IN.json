@@ -1258,8 +1258,8 @@
         "invalid_code": "अमान्य कोड"
       },
       "notifications": {
-        "enable": "Enable Points Notifications",
-        "disable": "Disable Points Notifications"
+        "enable": "अंक सूचनाएँ सक्षम करें",
+        "disable": "पॉइंट्स सूचनाएँ निष्क्रिय करें"
       },
       "points": {
         "referral_code": "रेफरल कोड",
@@ -1287,8 +1287,8 @@
         "earn_points_for_referring": "जब आपके रेफरल Rainbow के माध्यम से $100 का आदान-प्रदान करते हैं तो अंक अर्जित करें, साथ ही अपने रेफरल्स द्वारा अर्जित अंकों का 10% भी कमाएं",
         "already_claimed_points": "क्षमा करें! आप पहले ही अपने अंक दावा कर चुके हैं।",
         "now": "अब",
-        "unranked": "Unranked",
-        "points_to_rank": "750 points to rank"
+        "unranked": "अश्रेणीकृत",
+        "points_to_rank": "रैंक हेतु 750 अंक आवश्यक"
       },
       "console": {
         "claim_bonus_paragraph": "आपको Rainbow के माध्यम से कम से कम $100 बदलने पर अतिरिक्त 100 अंक मिलेंगे",
@@ -1296,7 +1296,7 @@
         "true_believer": "सच्चा विश्वासी",
         "registration_complete": "पंजीकरण पूरा हुआ",
         "account": "खाता",
-        "points_you_have": "You Have",
+        "points_you_have": "आपके पास है",
         "points_earned": "अर्जित अंक",
         "share_bonus_paragraph_one": "आपकी सभी व्यवस्था हो चुकी है!",
         "share_bonus_paragraph_two": "अदला-बदली करके, पुल बनाके, मुद्रांकन करके, मित्रों को संदर्भित करके, और और तरीकों से अंकों को अर्जित करते रहिए",
@@ -1325,19 +1325,19 @@
         "complete_onboarding": "हो गया",
         "share_to_x": "X को शेयर करें",
         "hardware_wallet_alert": "हार्डवेयर वॉलेट सपोर्ट जल्द ही आ रहा है!",
-        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
-        "view_weekly_earnings_title": "Counting earned points",
-        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_week_of": "सप्ताह %{startOfWeek} - %{endOfWeek}",
+        "view_weekly_earnings_title": "अर्जित अंकों की गणना",
+        "view_weekly_earnings_counted": "साप्ताहिक कमाई की गणना की गई",
         "view_weekly_earnings_close_button": "बंद करें",
-        "view_weekly_earnings_retroactive_points": "Retroactive points",
-        "view_weekly_earnings_activity": "Your Activity",
-        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_retroactive_points": "पूर्वव्यापी पॉइंट्स",
+        "view_weekly_earnings_activity": "आपकी गतिविधि",
+        "view_weekly_earnings_referral_activity": "रेफरल गतिविधि",
         "view_weekly_earnings_total_earnings": "कुल",
-        "view_weekly_earnings_new_referrals": "New Referrals",
-        "wallet_balance_required": "Wallet balance required",
-        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
-        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
-        "fund_my_wallet": "Fund My Wallet",
+        "view_weekly_earnings_new_referrals": "नए रेफरल",
+        "wallet_balance_required": "वॉलेट बैलेंस की आवश्यकता",
+        "require_balance_paragraph_one": "जारी रखने के लिए, सुनिश्चित करें कि निम्नलिखित नेटवर्क्स में से एक पर आपके पास ETH बैलेंस है:",
+        "require_balance_paragraph_two": "या वैकल्पिक रूप से, पॉलिगॉन पर MATIC बैलेंस या BSC पर BNB बैलेंस",
+        "fund_my_wallet": "मेरा वॉलेट फंड करें",
         "points": "अंक"
       }
     },
@@ -2382,7 +2382,7 @@
         "message": "नीचे WalletConnect URI पेस्ट करें",
         "title": "नया WalletConnect सत्र"
       },
-      "none": "None",
+      "none": "कोई नहीं",
       "switch_network": "नेटवर्क स्विच करें",
       "switch_wallet": "वॉलेट स्विच करें",
       "titles": {
@@ -2431,7 +2431,7 @@
         "eth_sign": "सुरक्षा चिंता के कारण रेनबो लीगेसी eth_sign का समर्थन नहीं करता है।  \n कृप्या किसी भी प्रश्न होने पर रेनबो और/या डैप समर्थन टीम से संपर्क करें।",
         "request_unsupported_network": "इस अनुरोध में निर्दिष्ट नेटवर्क को रेनबो द्वारा समर्थित नहीं किया जाता है।",
         "request_unsupported_methods": "इस अनुरोध में उल्लिखित RPC विधि(एँ) रेनबो द्वारा समर्थित नहीं हैं।",
-        "no_accounts_found": "No accounts found in approved namespaces."
+        "no_accounts_found": "स्वीकृत नेमस्पेस में कोई खाते नहीं मिले।"
       },
       "dapp_warnings": {
         "info_alert": {
