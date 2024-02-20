@@ -13,11 +13,14 @@ import { Initialize } from './content/console/initialize';
 import { Calculate } from './content/console/calculate';
 import { Share } from './content/console/share';
 import { Review } from './content/console/review';
+import { ViewWeeklyEarnings } from './content/console/view-weekly-earnings';
+import { RequireWalletBalance } from './content/console/require-wallet-balance';
 
 type ConsoleSheetParams = {
   ConsoleSheet: {
     referralCode: string | undefined;
     deeplinked: boolean;
+    viewWeeklyEarnings: boolean;
   };
 };
 
@@ -25,46 +28,43 @@ export const ConsoleSheet = () => {
   const { params } = useRoute<RouteProp<ConsoleSheetParams, 'ConsoleSheet'>>();
   const referralCode = params?.referralCode;
   const deeplinked = params?.deeplinked;
+  const viewWeeklyEarnings = params?.viewWeeklyEarnings;
 
-  const {
-    animationKey,
-    setReferralCode,
-    setProfile,
-    setAnimationKey,
-    setStep,
-    setShareBonusPoints,
-    setIntent,
-    setDeeplinked,
-  } = usePointsProfileContext();
+  const { animationKey, setReferralCode, setProfile, setAnimationKey, setStep, setIntent, setDeeplinked } = usePointsProfileContext();
 
   useEffect(() => {
+    if (viewWeeklyEarnings) return;
+
     setReferralCode(referralCode);
     setDeeplinked(deeplinked);
-  }, [setReferralCode, referralCode, setDeeplinked, deeplinked]);
+  }, [setReferralCode, referralCode, setDeeplinked, deeplinked, viewWeeklyEarnings]);
 
   useEffect(() => {
+    if (viewWeeklyEarnings) {
+      setStep(RainbowPointsFlowSteps.ViewWeeklyEarnings);
+      return;
+    }
+
     setProfile(undefined);
     setAnimationKey(0);
     setStep(RainbowPointsFlowSteps.Initialize);
-    setShareBonusPoints(0);
     setIntent(undefined);
-  }, []);
+  }, [viewWeeklyEarnings, setProfile, setAnimationKey, setStep, setIntent]);
 
   useFocusEffect(
     useCallback(() => {
+      if (viewWeeklyEarnings) {
+        analyticsV2.track(analyticsV2.event.pointsViewedWeeklyEarnings);
+        return;
+      }
+
       analyticsV2.track(analyticsV2.event.pointsViewedOnboardingSheet);
-    }, [])
+    }, [viewWeeklyEarnings])
   );
 
   return (
     <Inset bottom={{ custom: SCREEN_BOTTOM_INSET }}>
-      <Box
-        height="full"
-        justifyContent="flex-end"
-        paddingHorizontal="16px"
-        style={{ gap: 24 }}
-        width="full"
-      >
+      <Box height="full" justifyContent="flex-end" paddingHorizontal="16px" style={{ gap: 24 }} width="full">
         <Animated.View style={styles.sheet}>
           <Box
             borderRadius={5}
@@ -98,6 +98,10 @@ const ClaimFlow = () => {
       return <Share />;
     case RainbowPointsFlowSteps.Review:
       return <Review />;
+    case RainbowPointsFlowSteps.ViewWeeklyEarnings:
+      return <ViewWeeklyEarnings />;
+    case RainbowPointsFlowSteps.RequireWalletBalance:
+      return <RequireWalletBalance />;
   }
 };
 
@@ -108,7 +112,7 @@ const styles = StyleSheet.create({
     borderCurve: 'continuous',
     borderRadius: 28,
     borderWidth: 1.5,
-    height: 504,
+    height: 525,
     gap: 45,
     paddingHorizontal: 30,
     paddingTop: 45,

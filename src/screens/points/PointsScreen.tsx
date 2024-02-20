@@ -5,8 +5,7 @@ import Routes from '@/navigation/routesNames';
 import { useNavigation } from '@/navigation';
 import { Box } from '@/design-system';
 import { useAccountProfile } from '@/hooks';
-import { POINTS, useExperimentalFlag } from '@/config';
-import config from '@/model/config';
+import { POINTS, POINTS_NOTIFICATIONS_TOGGLE, useExperimentalFlag } from '@/config';
 import { ContactAvatar } from '@/components/contacts';
 import ImageAvatar from '@/components/contacts/ImageAvatar';
 import { ButtonPressAnimation } from '@/components/animations';
@@ -21,6 +20,9 @@ import ReferralContent from './content/ReferralContent';
 import { PointsErrorType } from '@/graphql/__generated__/metadataPOST';
 import { delay } from '@/utils/delay';
 import { WrappedAlert as Alert } from '@/helpers/alert';
+import { useRemoteConfig } from '@/model/remoteConfig';
+import { IS_TEST } from '@/env';
+import { NotificationToggleContextMenu } from './components/NotificationToggleContextMenu';
 
 export const POINTS_ROUTES = {
   CLAIM_CONTENT: 'ClaimContent',
@@ -30,28 +32,20 @@ export const POINTS_ROUTES = {
 const Swipe = createMaterialTopTabNavigator();
 
 export default function PointsScreen() {
-  const {
-    accountAddress,
-    accountImage,
-    accountColor,
-    accountSymbol,
-  } = useAccountProfile();
-  const pointsFullyEnabled =
-    useExperimentalFlag(POINTS) || config.points_fully_enabled;
+  const { accountAddress, accountImage, accountColor, accountSymbol } = useAccountProfile();
+  const { points_enabled, points_notifications_toggle } = useRemoteConfig();
+  const pointsEnabled = useExperimentalFlag(POINTS) || points_enabled || IS_TEST;
+  const pointsNotificationsToggleEnabled = useExperimentalFlag(POINTS_NOTIFICATIONS_TOGGLE) || points_notifications_toggle;
   const { navigate } = useNavigation();
   const { data } = usePoints({
     walletAddress: accountAddress,
   });
-  const {
-    data: referralCode,
-    refetch: resetReferralCode,
-  } = usePointsReferralCode();
+  const { data: referralCode, refetch: resetReferralCode } = usePointsReferralCode();
 
-  const isOnboarded =
-    data?.points?.error?.type !== PointsErrorType.NonExistingUser;
+  const isOnboarded = data?.points?.error?.type !== PointsErrorType.NonExistingUser;
 
   useEffect(() => {
-    if (referralCode && pointsFullyEnabled) {
+    if (referralCode && pointsEnabled) {
       navigate(Routes.POINTS_SCREEN);
       delay(700)
         .then(() => {
@@ -63,47 +57,28 @@ export default function PointsScreen() {
         })
         .then(() => resetReferralCode());
     }
-  }, [
-    data,
-    isOnboarded,
-    navigate,
-    pointsFullyEnabled,
-    referralCode,
-    resetReferralCode,
-  ]);
+  }, [data, isOnboarded, navigate, pointsEnabled, referralCode, resetReferralCode]);
 
   return (
     <Box as={Page} flex={1} height="full" testID="points-screen" width="full">
       <Navbar
         hasStatusBarInset
         leftComponent={
-          pointsFullyEnabled && (
-            <ButtonPressAnimation
-              onPress={() => navigate(Routes.CHANGE_WALLET_SHEET)}
-              scaleTo={0.8}
-              overflowMargin={50}
-            >
+          pointsEnabled && (
+            <ButtonPressAnimation onPress={() => navigate(Routes.CHANGE_WALLET_SHEET)} scaleTo={0.8} overflowMargin={50}>
               {accountImage ? (
-                <ImageAvatar
-                  image={accountImage}
-                  marginRight={10}
-                  size="header"
-                />
+                <ImageAvatar image={accountImage} marginRight={10} size="header" />
               ) : (
-                <ContactAvatar
-                  color={accountColor}
-                  marginRight={10}
-                  size="small"
-                  value={accountSymbol}
-                />
+                <ContactAvatar color={accountColor} marginRight={10} size="small" value={accountSymbol} />
               )}
             </ButtonPressAnimation>
           )
         }
+        rightComponent={pointsNotificationsToggleEnabled ? <NotificationToggleContextMenu /> : undefined}
         title={i18n.t(i18n.l.account.tab_points)}
       />
       {/* eslint-disable-next-line no-nested-ternary */}
-      {pointsFullyEnabled ? (
+      {pointsEnabled ? (
         isOnboarded ? (
           <PointsContent />
         ) : (
@@ -115,14 +90,8 @@ export default function PointsScreen() {
             tabBarPosition="bottom"
             tabBar={() => null}
           >
-            <Swipe.Screen
-              component={ClaimContent}
-              name={POINTS_ROUTES.CLAIM_CONTENT}
-            />
-            <Swipe.Screen
-              component={ReferralContent}
-              name={POINTS_ROUTES.REFERRAL_CONTENT}
-            />
+            <Swipe.Screen component={ClaimContent} name={POINTS_ROUTES.CLAIM_CONTENT} />
+            <Swipe.Screen component={ReferralContent} name={POINTS_ROUTES.REFERRAL_CONTENT} />
           </Swipe.Navigator>
         )
       ) : (

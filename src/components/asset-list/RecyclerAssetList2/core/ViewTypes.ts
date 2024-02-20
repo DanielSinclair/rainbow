@@ -36,11 +36,10 @@ export enum CellType {
   EMPTY_WALLET_SPACER = 'EMPTY_WALLET_SPACER',
   BIG_EMPTY_WALLET_SPACER = 'BIG_EMPTY_WALLET_SPACER',
   EMPTY_ROW = 'EMPTY_ROW',
+
+  REMOTE_CARD_CAROUSEL = 'REMOTE_CARD_CAROUSEL',
 }
-export type RecyclerListViewRef = RecyclerListView<
-  RecyclerListViewProps,
-  RecyclerListViewState
->;
+export type RecyclerListViewRef = RecyclerListView<RecyclerListViewProps, RecyclerListViewState>;
 
 export type BaseCellType = { type: CellType; uid: string; hidden?: boolean };
 

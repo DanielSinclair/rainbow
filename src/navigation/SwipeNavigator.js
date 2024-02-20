@@ -1,29 +1,17 @@
 import { BlurView } from '@react-native-community/blur';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import React, { useLayoutEffect, useState } from 'react';
-import Animated, {
-  useAnimatedStyle,
-  useSharedValue,
-  interpolate,
-  Extrapolate,
-} from 'react-native-reanimated';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
+import Animated, { useAnimatedStyle, useSharedValue, interpolate, Extrapolate } from 'react-native-reanimated';
 import { TabBarIcon } from '@/components/icons/TabBarIcon';
 import { FlexItem } from '@/components/layout';
 import { TestnetToast } from '@/components/toasts';
 import { web3Provider } from '@/handlers/web3';
-import DiscoverScreen, {
-  discoverScrollToTopFnRef,
-} from '../screens/discover/DiscoverScreen';
+import DiscoverScreen, { discoverScrollToTopFnRef } from '../screens/discover/DiscoverScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import { deviceUtils } from '../utils';
 import { ScrollPositionContext } from './ScrollPositionContext';
 import Routes from './routesNames';
-import {
-  useAccountAccentColor,
-  useAccountSettings,
-  useCoinListEdited,
-  useDimensions,
-} from '@/hooks';
+import { useAccountAccentColor, useAccountSettings, useCoinListEdited, useDimensions } from '@/hooks';
 import { Box, Columns, Stack } from '@/design-system';
 import { ButtonPressAnimation } from '@/components/animations';
 import PointsScreen from '@/screens/points/PointsScreen';
@@ -33,12 +21,11 @@ import RecyclerListViewScrollToTopProvider, {
 } from '@/navigation/RecyclerListViewScrollToTopContext';
 import { discoverOpenSearchFnRef } from '@/screens/discover/components/DiscoverSearchContainer';
 import { InteractionManager, View } from 'react-native';
-import { IS_ANDROID, IS_DEV, IS_IOS, IS_TEST } from '@/env';
-import config from '@/model/config';
-import SectionListScrollToTopProvider, {
-  useSectionListScrollToTopContext,
-} from './SectionListScrollToTopContext';
+import { IS_ANDROID, IS_IOS, IS_TEST } from '@/env';
+import SectionListScrollToTopProvider, { useSectionListScrollToTopContext } from './SectionListScrollToTopContext';
 import { isUsingButtonNavigation } from '@/helpers/statusBarHelper';
+import { useRemoteConfig } from '@/model/remoteConfig';
+import { useExperimentalFlag, POINTS } from '@/config';
 
 const HORIZONTAL_TAB_BAR_INSET = 6;
 
@@ -68,23 +55,16 @@ export const getHeaderHeight = () => {
   return 48;
 };
 
-const TabBar = ({
-  state,
-  descriptors,
-  navigation,
-  position,
-  jumpTo,
-  lastPress,
-  setLastPress,
-}) => {
+const TabBar = ({ state, descriptors, navigation, position, jumpTo, lastPress, setLastPress }) => {
   const { width: deviceWidth } = useDimensions();
   const { colors, isDarkMode } = useTheme();
 
-  const showPointsTab = IS_DEV || IS_TEST || config.points_enabled;
-  const NUMBER_OF_TABS = showPointsTab ? 4 : 3;
+  const { points_enabled } = useRemoteConfig();
 
-  const tabWidth =
-    (deviceWidth - HORIZONTAL_TAB_BAR_INSET * 2) / NUMBER_OF_TABS;
+  const showPointsTab = useExperimentalFlag(POINTS) || points_enabled || IS_TEST;
+
+  const NUMBER_OF_TABS = showPointsTab ? 4 : 3;
+  const tabWidth = (deviceWidth - HORIZONTAL_TAB_BAR_INSET * 2) / NUMBER_OF_TABS;
   const tabPillStartPosition = (tabWidth - 72) / 2 + HORIZONTAL_TAB_BAR_INSET;
 
   const { accentColor } = useAccountAccentColor();
@@ -92,16 +72,23 @@ const TabBar = ({
   const sectionList = useSectionListScrollToTopContext();
 
   const reanimatedPosition = useSharedValue(0);
+  const pos1 = useSharedValue(tabPillStartPosition);
+  const pos2 = useSharedValue(tabPillStartPosition + tabWidth);
+  const pos3 = useSharedValue(tabPillStartPosition + tabWidth * 2);
+  const pos4 = useSharedValue(tabPillStartPosition + tabWidth * 3);
+
+  useEffect(() => {
+    pos1.value = tabPillStartPosition;
+    pos2.value = tabPillStartPosition + tabWidth;
+    pos3.value = tabPillStartPosition + tabWidth * 2;
+    pos4.value = tabPillStartPosition + tabWidth * 3;
+  }, [pos1, pos2, pos3, pos4, tabPillStartPosition, tabWidth]);
 
   const tabStyle = useAnimatedStyle(() => {
-    const pos1 = tabPillStartPosition;
-    const pos2 = tabPillStartPosition + tabWidth;
-    const pos3 = tabPillStartPosition + tabWidth * 2;
-    const pos4 = tabPillStartPosition + tabWidth * 3;
     const translateX = interpolate(
       reanimatedPosition.value,
       [0, 1, 2, 3],
-      [pos1, pos2, pos3, pos4],
+      [pos1.value, pos2.value, pos3.value, pos4.value],
       Extrapolate.EXTEND
     );
     return {
@@ -187,9 +174,7 @@ const TabBar = ({
             height="full"
             position="absolute"
             style={{
-              backgroundColor: isDarkMode
-                ? colors.alpha('#191A1C', IS_IOS ? 0.7 : 1)
-                : colors.alpha(colors.white, IS_IOS ? 0.7 : 1),
+              backgroundColor: isDarkMode ? colors.alpha('#191A1C', IS_IOS ? 0.7 : 1) : colors.alpha(colors.white, IS_IOS ? 0.7 : 1),
             }}
             width="full"
           />
@@ -199,10 +184,7 @@ const TabBar = ({
             style={[
               tabStyle,
               {
-                backgroundColor: colors.alpha(
-                  accentColor,
-                  isDarkMode ? 0.25 : 0.1
-                ),
+                backgroundColor: colors.alpha(accentColor, isDarkMode ? 0.25 : 0.1),
                 top: 6,
               },
             ]}
@@ -216,9 +198,7 @@ const TabBar = ({
             height="1px"
             position="absolute"
             style={{
-              backgroundColor: isDarkMode
-                ? colors.alpha('#ffffff', 0.4)
-                : colors.alpha(colors.white, 0.5),
+              backgroundColor: isDarkMode ? colors.alpha('#ffffff', 0.4) : colors.alpha(colors.white, 0.5),
               top: 0,
             }}
             width="full"
@@ -249,10 +229,7 @@ const TabBar = ({
                     setTimeout(() => {
                       setCanSwitch(true);
                     }, 10);
-                  } else if (
-                    isFocused &&
-                    options.tabBarIcon === 'tabDiscover'
-                  ) {
+                  } else if (isFocused && options.tabBarIcon === 'tabDiscover') {
                     if (delta < DOUBLE_PRESS_DELAY) {
                       discoverOpenSearchFnRef?.();
                       return;
@@ -264,10 +241,7 @@ const TabBar = ({
                     }
                   } else if (isFocused && options.tabBarIcon === 'tabHome') {
                     recyclerList.scrollToTop?.();
-                  } else if (
-                    isFocused &&
-                    options.tabBarIcon === 'tabActivity'
-                  ) {
+                  } else if (isFocused && options.tabBarIcon === 'tabActivity') {
                     sectionList.scrollToTop?.();
                   }
 
@@ -301,19 +275,9 @@ const TabBar = ({
                       paddingTop="6px"
                       testID={`tab-bar-icon-${route.name}`}
                     >
-                      <ButtonPressAnimation
-                        onPress={onPress}
-                        onLongPress={onLongPress}
-                        disallowInterruption
-                        scaleTo={0.75}
-                      >
+                      <ButtonPressAnimation onPress={onPress} onLongPress={onLongPress} disallowInterruption scaleTo={0.75}>
                         <Stack alignVertical="center" alignHorizontal="center">
-                          <Box
-                            alignItems="center"
-                            justifyContent="center"
-                            height="36px"
-                            borderRadius={20}
-                          >
+                          <Box alignItems="center" justifyContent="center" height="36px" borderRadius={20}>
                             <TabBarIcon
                               accentColor={accentColor}
                               icon={options.tabBarIcon}
@@ -343,7 +307,9 @@ export function SwipeNavigator() {
 
   const [lastPress, setLastPress] = useState();
 
-  const showPointsTab = IS_DEV || IS_TEST || config.points_enabled;
+  const { points_enabled } = useRemoteConfig();
+
+  const showPointsTab = useExperimentalFlag(POINTS) || points_enabled || IS_TEST;
 
   // ////////////////////////////////////////////////////
   // Animations
@@ -360,13 +326,7 @@ export function SwipeNavigator() {
                 animationEnabled: false,
               }}
               swipeEnabled={!isCoinListEdited || IS_TEST}
-              tabBar={props => (
-                <TabBar
-                  {...props}
-                  lastPress={lastPress}
-                  setLastPress={setLastPress}
-                />
-              )}
+              tabBar={props => <TabBar {...props} lastPress={lastPress} setLastPress={setLastPress} />}
               tabBarPosition="bottom"
             >
               {/* <Swipe.Screen
@@ -387,23 +347,9 @@ export function SwipeNavigator() {
                   },
                 }}
               />
-              <Swipe.Screen
-                component={DiscoverScreen}
-                name={Routes.DISCOVER_SCREEN}
-                options={{ tabBarIcon: 'tabDiscover' }}
-              />
-              <Swipe.Screen
-                component={ProfileScreen}
-                name={Routes.PROFILE_SCREEN}
-                options={{ tabBarIcon: 'tabActivity' }}
-              />
-              {showPointsTab && (
-                <Swipe.Screen
-                  component={PointsScreen}
-                  name={Routes.POINTS_SCREEN}
-                  options={{ tabBarIcon: 'tabPoints' }}
-                />
-              )}
+              <Swipe.Screen component={DiscoverScreen} name={Routes.DISCOVER_SCREEN} options={{ tabBarIcon: 'tabDiscover' }} />
+              <Swipe.Screen component={ProfileScreen} name={Routes.PROFILE_SCREEN} options={{ tabBarIcon: 'tabActivity' }} />
+              {showPointsTab && <Swipe.Screen component={PointsScreen} name={Routes.POINTS_SCREEN} options={{ tabBarIcon: 'tabPoints' }} />}
             </Swipe.Navigator>
           </ScrollPositionContext.Provider>
         </RecyclerListViewScrollToTopProvider>

@@ -1,7 +1,6 @@
 import { CardType } from '@/components/cards/GenericCard';
 import { LearnCategory } from '@/components/cards/utils/types';
 import { FiatProviderName } from '@/entities/f2c';
-import { Network } from '@/networks/types';
 
 /**
  * All events, used by `analytics.track()`
@@ -19,17 +18,13 @@ export const event = {
   // notification promo sheet was shown
   notificationsPromoShown: 'notifications_promo.shown',
   // only for iOS — initial prompt is not allowed — Android is enabled by default
-  notificationsPromoPermissionsBlocked:
-    'notifications_promo.permissions_blocked',
+  notificationsPromoPermissionsBlocked: 'notifications_promo.permissions_blocked',
   // only for iOS, Android is enabled by default
-  notificationsPromoPermissionsGranted:
-    'notifications_promo.permissions_granted',
+  notificationsPromoPermissionsGranted: 'notifications_promo.permissions_granted',
   // if initially blocked, user must go to system settings and manually turn on notys
-  notificationsPromoSystemSettingsOpened:
-    'notifications_promo.system_settings_opened',
+  notificationsPromoSystemSettingsOpened: 'notifications_promo.system_settings_opened',
   // user enabled settings, and we sent them to our in-app settings
-  notificationsPromoNotificationSettingsOpened:
-    'notifications_promo.notification_settings_opened',
+  notificationsPromoNotificationSettingsOpened: 'notifications_promo.notification_settings_opened',
   // user either swiped the sheet away, or clicked "Not Now"
   notificationsPromoDismissed: 'notifications_promo.dismissed',
   cardPressed: 'card.pressed',
@@ -99,30 +94,26 @@ export const event = {
   mintsMintingNFT: 'Minting NFT',
   mintsMintedNFT: 'Minted NFT',
   mintsErrorMintingNFT: 'Error Minting NFT',
+  pointsViewedWeeklyEarnings: 'Viewed weekly earnings',
   pointsViewedClaimScreen: 'Viewed claim your points screen',
   pointsViewedReferralScreen: 'Viewed points referral code screen',
   pointsViewedPointsScreen: 'Viewed main points screen',
   pointsViewedOnboardingSheet: 'Viewed points onboarding screen',
   pointsReferralScreenValidatedReferralCode: 'Validated referral code',
-  pointsOnboardingScreenPressedSignInButton:
-    'Pressed sign in button on points onboarding screen',
-  pointsOnboardingScreenSuccessfullySignedIn:
-    'Successfully signed in on points onboarding screen',
-  pointsOnboardingScreenFailedToSignIn:
-    'Failed to sign in on points onboarding screen',
-  pointsOnboardingScreenPressedShareToXButton:
-    'Pressed share to X on points onboarding screen',
-  pointsOnboardingScreenPressedSkipShareToXButton:
-    'Pressed skip button on onboarding screen',
-  pointsOnboardingScreenPressedContinueButton:
-    'Pressed continue button on onboarding screen',
-  pointsOnboardingScreenPressedDoneButton:
-    'Pressed done button on onboarding screen',
+  pointsOnboardingScreenPressedSignInButton: 'Pressed sign in button on points onboarding screen',
+  pointsOnboardingScreenSuccessfullySignedIn: 'Successfully signed in on points onboarding screen',
+  pointsOnboardingScreenFailedToSignIn: 'Failed to sign in on points onboarding screen',
+  pointsOnboardingScreenPressedShareToXButton: 'Pressed share to X on points onboarding screen',
+  pointsOnboardingScreenPressedSkipShareToXButton: 'Pressed skip button on onboarding screen',
+  pointsOnboardingScreenPressedContinueButton: 'Pressed continue button on onboarding screen',
+  pointsOnboardingScreenPressedDoneButton: 'Pressed done button on onboarding screen',
+  pointsViewedWeeklyEarningsScreenPressedCloseButton: 'Pressed close button on weekly earnings screen',
   pointsReferralCodeDeeplinkOpened: 'Opened points referral code deeplink',
-  pointsPointsScreenPressedCopyReferralCodeButton:
-    'Pressed copy referral code button on points screen',
-  pointsPointsScreenPressedShareReferralLinkButton:
-    'Pressed share referral link button on points screen',
+  pointsPointsScreenPressedCopyReferralCodeButton: 'Pressed copy referral code button on points screen',
+  pointsPointsScreenPressedShareReferralLinkButton: 'Pressed share referral link button on points screen',
+
+  remoteCardPrimaryButtonPressed: 'remote_card.primary_button_pressed',
+  remoteCardDismissed: 'remote_card.dismissed',
 } as const;
 
 /**
@@ -406,6 +397,7 @@ export type EventProperties = {
   [event.pointsViewedReferralScreen]: undefined;
   [event.pointsViewedPointsScreen]: undefined;
   [event.pointsViewedOnboardingSheet]: undefined;
+  [event.pointsViewedWeeklyEarnings]: undefined;
   [event.pointsReferralScreenValidatedReferralCode]: {
     deeplinked: boolean;
   };
@@ -423,12 +415,24 @@ export type EventProperties = {
     deeplinked: boolean;
     referralCode: boolean;
     hardwareWallet: boolean;
+    errorType: string | undefined;
   };
   [event.pointsOnboardingScreenPressedShareToXButton]: undefined;
   [event.pointsOnboardingScreenPressedSkipShareToXButton]: undefined;
   [event.pointsOnboardingScreenPressedContinueButton]: undefined;
   [event.pointsOnboardingScreenPressedDoneButton]: undefined;
+  [event.pointsViewedWeeklyEarningsScreenPressedCloseButton]: undefined;
   [event.pointsReferralCodeDeeplinkOpened]: undefined;
   [event.pointsPointsScreenPressedCopyReferralCodeButton]: undefined;
   [event.pointsPointsScreenPressedShareReferralLinkButton]: undefined;
+
+  [event.remoteCardPrimaryButtonPressed]: {
+    cardKey: string;
+    action: string;
+    props: string;
+  };
+
+  [event.remoteCardDismissed]: {
+    cardKey: string;
+  };
 };

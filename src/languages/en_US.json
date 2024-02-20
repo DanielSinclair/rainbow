@@ -286,11 +286,6 @@
       "hidden": "Hidden"
     },
     "cards": {
-      "dpi": {
-        "title": "DeFi Pulse Index",
-        "body": "All the top decentralized finance tokens in one. Track the industry.",
-        "view": "View"
-      },
       "ens_create_profile": {
         "title": "Create your ENS profile",
         "body": "Replace your wallet address with a profile owned entirely by you."
@@ -545,7 +540,7 @@
         "read_more_button": "Read more",
         "available_networks": "Available on %{availableNetworks} networks",
         "available_network": "Available on the %{availableNetwork} network",
-        "available_networkv2": "Also available on %{availableNetwork}",
+        "available_networkv2": "Only available on %{availableNetwork}",
         "l2_disclaimer": "This %{symbol} is on the %{network} network",
         "l2_disclaimer_send": "Sending on the %{network} network",
         "l2_disclaimer_dapp": "This app on the %{network} network",
@@ -1253,6 +1248,10 @@
         "get_started": "Get Started",
         "invalid_code": "Invalid Code"
       },
+      "notifications": {
+        "enable": "Enable Points Notifications",
+        "disable": "Disable Points Notifications"
+      },
       "points": {
         "referral_code": "Referral Code",
         "share_link": "Share Link",
@@ -1288,8 +1287,8 @@
         "true_believer": "True Believer",
         "registration_complete": "Registration complete",
         "account": "Account",
+        "points_you_have": "You Have",
         "points_earned": "Points Earned",
-        "share_bonus": "Share Bonus",
         "share_bonus_paragraph_one": "You're all set!",
         "share_bonus_paragraph_two": "Keep earning points by swapping, bridging, minting, referring friends, and more",
         "share_bonus_paragraph_three": "The more you use Rainbow, the more you'll be rewarded",
@@ -1316,7 +1315,21 @@
         "referral_link_bonus_text_extended": "Plus you'll earn 10% of the points earned by anyone you refer",
         "complete_onboarding": "Done",
         "share_to_x": "Share to X",
-        "hardware_wallet_alert": "Hardware wallet support is coming soon!"
+        "hardware_wallet_alert": "Hardware wallet support is coming soon!",
+        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
+        "view_weekly_earnings_title": "Counting earned points",
+        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_close_button": "Close",
+        "view_weekly_earnings_retroactive_points": "Retroactive points",
+        "view_weekly_earnings_activity": "Your Activity",
+        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_total_earnings": "Total",
+        "view_weekly_earnings_new_referrals": "New Referrals",
+        "wallet_balance_required": "Wallet balance required",
+        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
+        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
+        "fund_my_wallet": "Fund My Wallet",
+        "points": "Points"
       }
     },
     "pools": {
@@ -1701,6 +1714,7 @@
       "notifications": "Notifications",
       "notifications_section": {
         "my_wallets": "My Wallets",
+        "points": "Points",
         "watched_wallets": "Watched Wallets",
         "allow_notifications": "Allow Notifications",
         "sent": "Sent",
@@ -2253,13 +2267,13 @@
         "please_enable_title": "Rainbow would like to send you push notifications"
       },
       "qr": {
-        "camera_access_needed": "Camera access needed to scan!",
+        "camera_access_needed": "Enabling this allows you to scan QR codes so you can connect to dApps and discover wallets.",
         "enable_camera_access": "Enable camera access",
         "error_mounting_camera": "Error mounting camera",
         "find_a_code": "Find a code to scan",
         "qr_1_app_connected": "1 Connected App",
         "qr_multiple_apps_connected": "%{appsConnectedCount} Connected Apps",
-        "scan_to_pay_or_connect": "Scan to pay or connect",
+        "scan_to_pay_or_connect": "Camera access needed",
         "simulator_mode": "Simulator Mode",
         "sorry_could_not_be_recognized": "Sorry, this QR code could not be recognized.",
         "unrecognized_qr_code_title": "Unrecognized QR Code"
@@ -2359,6 +2373,7 @@
         "message": "Paste WalletConnect URI below",
         "title": "New WalletConnect Session"
       },
+      "none": "None",
       "switch_network": "Switch Network",
       "switch_wallet": "Switch Wallet",
       "titles": {
@@ -2406,7 +2421,8 @@
         "request_invalid": "The request contained invalid parameters. Please try again or contact Rainbow and/or dapp support teams.",
         "eth_sign": "Rainbow does not support legacy eth_sign due to security concerns.  \n Please contact Rainbow and/or dapp support teams if you have any questions.",
         "request_unsupported_network": "The network specified in this request is not supported by Rainbow.",
-        "request_unsupported_methods": "The RPC method(s) specified in this request are not supported by Rainbow."
+        "request_unsupported_methods": "The RPC method(s) specified in this request are not supported by Rainbow.",
+        "no_accounts_found": "No accounts found in approved namespaces."
       },
       "dapp_warnings": {
         "info_alert": {
