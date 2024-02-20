@@ -1258,7 +1258,7 @@
         "invalid_code": "Kode tidak valid"
       },
       "notifications": {
-        "enable": "Enable Points Notifications",
+        "enable": "Aktifkan Notifikasi Poin",
         "disable": "Nonaktifkan Notifikasi Poin"
       },
       "points": {
@@ -1287,8 +1287,8 @@
         "earn_points_for_referring": "Dapatkan poin ketika rujukanmu menukar $100 melalui Rainbow, plus dapatkan 10% dari poin yang diperoleh rujukanmu",
         "already_claimed_points": "Maaf! Kamu sudah mengklaim poinmu.",
         "now": "Sekarang",
-        "unranked": "Unranked",
-        "points_to_rank": "750 points to rank"
+        "unranked": "Tidak Terperingkat",
+        "points_to_rank": "750 poin untuk naik peringkat"
       },
       "console": {
         "claim_bonus_paragraph": "Anda akan mendapatkan tambahan 100 poin setelah Anda menukar minimal $100 melalui Rainbow",
@@ -1296,7 +1296,7 @@
         "true_believer": "Pengikut Setia",
         "registration_complete": "Pendaftaran selesai",
         "account": "Akun",
-        "points_you_have": "You Have",
+        "points_you_have": "Anda Memiliki",
         "points_earned": "Poin yang Didapat",
         "share_bonus_paragraph_one": "Semua sudah siap!",
         "share_bonus_paragraph_two": "Terus dapatkan poin dengan menukar, jembatan, mencetak, merujuk teman, dan lainnya",
@@ -1325,19 +1325,19 @@
         "complete_onboarding": "Selesai",
         "share_to_x": "Bagikan ke X",
         "hardware_wallet_alert": "Dukungan dompet perangkat keras akan segera hadir!",
-        "view_weekly_earnings_week_of": "Week of %{startOfWeek} - %{endOfWeek}",
-        "view_weekly_earnings_title": "Counting earned points",
-        "view_weekly_earnings_counted": "Weekly earnings counted",
+        "view_weekly_earnings_week_of": "Minggu dari %{startOfWeek} - %{endOfWeek}",
+        "view_weekly_earnings_title": "Menghitung poin yang didapat",
+        "view_weekly_earnings_counted": "Pendapatan mingguan terhitung",
         "view_weekly_earnings_close_button": "Tutup",
         "view_weekly_earnings_retroactive_points": "Poin Retroaktif",
-        "view_weekly_earnings_activity": "Your Activity",
-        "view_weekly_earnings_referral_activity": "Referral Activity",
+        "view_weekly_earnings_activity": "Aktivitas Anda",
+        "view_weekly_earnings_referral_activity": "Aktivitas Referal",
         "view_weekly_earnings_total_earnings": "Total",
-        "view_weekly_earnings_new_referrals": "New Referrals",
-        "wallet_balance_required": "Wallet balance required",
-        "require_balance_paragraph_one": "To continue, ensure you have an ETH balance on one of the following networks:",
-        "require_balance_paragraph_two": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
-        "fund_my_wallet": "Fund My Wallet",
+        "view_weekly_earnings_new_referrals": "Referal Baru",
+        "wallet_balance_required": "Saldo dompet diperlukan",
+        "require_balance_paragraph_one": "Untuk melanjutkan, pastikan Anda memiliki saldo ETH di salah satu jaringan berikut:",
+        "require_balance_paragraph_two": "Atau sebagai alternatif, saldo MATIC di Polygon atau saldo BNB di BSC",
+        "fund_my_wallet": "Isi Saldo Dompet Saya",
         "points": "Poin"
       }
     },
@@ -2382,7 +2382,7 @@
         "message": "Tempelkan URI WalletConnect di bawah ini",
         "title": "Sesi WalletConnect Baru"
       },
-      "none": "None",
+      "none": "Tidak ada",
       "switch_network": "Ganti Jaringan",
       "switch_wallet": "Ganti Dompet",
       "titles": {
@@ -2431,7 +2431,7 @@
         "eth_sign": "Rainbow tidak mendukung eth_sign lama karena pertimbangan keamanan.  \n Silakan Hubungi tim dukungan Rainbow dan/atau dapp jika Anda memiliki pertanyaan.",
         "request_unsupported_network": "Jaringan yang ditentukan dalam permintaan ini tidak didukung oleh Rainbow.",
         "request_unsupported_methods": "Metode RPC yang ditentukan dalam permintaan ini tidak didukung oleh Rainbow.",
-        "no_accounts_found": "No accounts found in approved namespaces."
+        "no_accounts_found": "Tidak ada akun yang ditemukan di ruang nama yang disetujui."
       },
       "dapp_warnings": {
         "info_alert": {
