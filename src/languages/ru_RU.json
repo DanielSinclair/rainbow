@@ -92,9 +92,9 @@
         "cant_get_encrypted_data": "Мы не можем получить доступ к вашей резервной копии на данный момент. Пожалуйста, попробуйте снова позже.",
         "missing_pin": "Что-то пошло не так при обработке вашего PIN-кода. Пожалуйста, попробуйте снова позже.",
         "generic": "Ошибка при попытке создать резервную копию. Код ошибки: %{errorCodes}",
-        "no_keys_found": "No keys found. Please try again.",
-        "backup_not_found": "Backup not found. Please try again.",
-        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
+        "no_keys_found": "Ключи не найдены. Пожалуйста, попробуйте снова.",
+        "backup_not_found": "Резервная копия не найдена. Пожалуйста, попробуйте снова.",
+        "no_account_found": "Не удалось получить файлы резервной копии. Убедитесь, что вы вошли в систему."
       },
       "wrong_pin": "Вы ввели неверный ПИН-код, и мы не можем сделать резервную копию. Пожалуйста, попробуйте снова с правильным кодом.",
       "already_backed_up": {
@@ -104,56 +104,56 @@
         "imported": "Импортировано",
         "imported_message": "Ваш кошелек был импортирован"
       },
-      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
-      "wallet_group_title_singular": "Wallet Group",
-      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "wallet_group_title_plural": "Группа кошельков %{walletGroupNumber}",
+      "wallet_group_title_singular": "Группа кошельков",
+      "private_key_plural": "Закрытый ключ %{privateKeyNumber}",
       "private_key_singluar": "Приватный ключ",
       "backup_deleted_successfully": "Резервные копии успешно удалены",
       "cloud": {
         "no_backups": "Резервные копии не найдены",
-        "failed_to_fetch_backups": "Failed to fetch backups",
-        "retry": "Retry",
-        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
+        "failed_to_fetch_backups": "Не удалось получить резервные копии",
+        "retry": "Повтор",
+        "fetching_backups": "Получение резервных копий с %{cloudPlatformName}",
         "back_up_to_platform": "Создайте резервную копию %{cloudPlatformName}",
         "restore_from_platform": "Восстановить из %{cloudPlatformName}",
-        "restoration_in_progress": "Restoration in progress",
-        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
-        "manage_platform_backups": "View %{cloudPlatformName} Backups",
-        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
-        "cloud_backup": "Cloud Backup",
-        "backing_up": "Backing up...",
-        "backup_success": "Back up Successful",
-        "backup_failed": "Backup Failed",
-        "manual_backup": "Manual backup",
-        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
-        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
-        "enable_cloud_backups": "Enable Cloud Backups",
+        "restoration_in_progress": "Процесс восстановления продолжается",
+        "how_would_you_like_to_backup": "Как вы хотите создать резервную копию вашего кошелька?",
+        "manage_platform_backups": "Просмотреть резервные копии %{cloudPlatformName}",
+        "cloud_platform_backup_settings": "Настройки резервного копирования %{cloudPlatformName}",
+        "cloud_backup": "Облачная резервная копия",
+        "backing_up": "Создание резервной копии...",
+        "backup_success": "Резервное копирование успешно",
+        "backup_failed": "Ошибка резервного копирования",
+        "manual_backup": "Ручное резервное копирование",
+        "back_to_cloud_platform_now": "Создать резервную копию в %{cloudPlatform} сейчас",
+        "add_wallet_to_cloud_backups": "Добавить этот кошелек в вашу облачную резервную копию?",
+        "enable_cloud_backups": "Включить облачную резервную копию",
         "mayber_later": "Возможно позже",
-        "recommended_for_beginners": "Recommended for beginners.",
-        "choose_backup": "Choose the backup you’d like to restore",
-        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
-        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
-        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
-        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
-        "latest_backup": "Last Backup: %{date}",
-        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
-        "most_recent_backup": "Most Recent Backup",
-        "out_of_date": "Out of Date",
-        "up_to_date": "Up to Date",
-        "older_backups": "Older Backups",
-        "no_older_backups": "No Older Backups",
-        "older_backups_title": "%{date} at %{time}",
+        "recommended_for_beginners": "Рекомендуется для начинающих.",
+        "choose_backup": "Выберите резервную копию, которую вы хотите восстановить",
+        "backup_to_cloud_now": "Создать резервную копию в %{cloudPlatformName} сейчас",
+        "choose_backup_cloud_description": "Защитите ваш кошелек резервной копией в %{cloudPlatform}, чтобы вы могли восстановить его в случае потери устройства или приобретения нового.",
+        "choose_backup_manual_description": "Создайте резервную копию вашего кошелька вручную, сохранив секретную фразу в безопасном месте.",
+        "enable_cloud_backups_description": "Если вы предпочитаете создавать резервные копии ваших кошельков вручную, вы можете сделать это ниже.",
+        "latest_backup": "Последняя резервная копия: %{date}",
+        "back_up_all_wallets_to_cloud": "Создать резервные копии всех кошельков в %{cloudPlatformName}",
+        "most_recent_backup": "Самая недавняя резервная копия",
+        "out_of_date": "Просрочено",
+        "up_to_date": "Актуально",
+        "older_backups": "Старые резервные копии",
+        "no_older_backups": "Нет старых резервных копий",
+        "older_backups_title": "%{date} в %{time}",
         "password": {
-          "a_password_youll_remember_part_one": "This password is",
-          "not": "not",
-          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "a_password_youll_remember_part_one": "Этот пароль",
+          "not": "не",
+          "a_password_youll_remember_part_two": "восстанавливается. Убедитесь, что вы выбрали пароль, который запомните.",
           "backup_password": "Пароль",
-          "choose_a_password": "Create a password to secure your backup",
+          "choose_a_password": "Создайте пароль для защиты вашей резервной копии",
           "confirm_backup": "Подтвердите резервную копию",
-          "enter_backup_password": "Enter your backup password",
-          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
+          "enter_backup_password": "Введите пароль резервной копии",
+          "to_restore_from_backup": "Чтобы восстановить из этой резервной копии, введите пароль, который вы создали во время резервного копирования",
           "confirm_password": "Подтвердите пароль",
-          "confirm_placeholder": "Reenter Password",
+          "confirm_placeholder": "Повторите пароль",
           "it_cant_be_recovered": "Он не может быть восстановлен!",
           "minimum_characters": "Минимум %{minimumLength} символов",
           "passwords_dont_match": "Пароли не совпадают",
@@ -175,31 +175,31 @@
       },
       "explainers": {
         "backup": "Не забудьте этот пароль! Он отличается от вашего пароля %{cloudPlatformName} , и вы должны сохранить его в надежном месте.\n\nВам понадобится его, чтобы восстановить ваш кошелек из резервной копии в будущем.",
-        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
+        "add_to_backups": "У вас есть несколько кошельков, которые нуждаются в резервном копировании. По соображениям безопасности, в настоящее время мы можем делать резервную копию только одного кошелька за раз.",
         "if_lose_cloud": "Если вы потеряете это устройство, вы можете восстановить зашифрованную резервную копию вашего кошелька из %{cloudPlatformName}.",
         "if_lose_imported": "Если вы потеряете это устройство, вы сможете восстановить свой кошелек с использованием ключа, который вы импортировали изначально.",
         "if_lose_manual": "Если вы потеряете это устройство, вы сможете восстановить свой кошелек с использованием секретной фразы, которую вы сохранили."
       },
       "manual": {
-        "backup_manually": "Back Up Manually",
-        "label": "Save your %{typeName}",
-        "with_your_label": "Your %{typeName}",
-        "backup_manually_now": "Would you like to back up this wallet?",
-        "back_up_now": "Back Up Now",
-        "already_backed_up": "Already backed up",
+        "backup_manually": "Сделать резервную копию вручную",
+        "label": "Сохраните ваш %{typeName}",
+        "with_your_label": "Ваш %{typeName}",
+        "backup_manually_now": "Хотите ли вы сделать резервную копию этого кошелька?",
+        "back_up_now": "Создать резервную копию сейчас",
+        "already_backed_up": "Уже сохранено в резервной копии",
         "pkey": {
-          "confirm_save": "􀆅 I've saved my key",
+          "confirm_save": "􀆅 Я сохранил ключ",
           "save_them": "Скопируйте его и сохраните в менеджере паролей или в другом безопасном месте.",
           "these_keys": "Это ключ от вашего кошелька!",
-          "description": "Anyone who has this key can access your wallet! You should never share it."
+          "description": "Любой, у кого есть этот ключ, может получить доступ ко всему вашему кошельку! Никогда не делитесь им."
         },
         "seed": {
-          "confirm_save": "􀆅 I've saved these words",
+          "confirm_save": "􀆅 Я сохранил эти слова",
           "save_them": "Запишите их или сохраните в менеджере паролей.",
           "these_keys": "Эти слова являются ключами к вашему кошельку!",
-          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+          "description": "Кто угодно, у кого есть эти слова, может получить доступ ко всему вашему кошельку! Никогда не делитесь ими."
         },
-        "create_new_secret_phrase": "Create a New Secret Phrase"
+        "create_new_secret_phrase": "Создать новую фразу восстановления"
       },
       "needs_backup": {
         "back_up_your_wallet": "Сделайте резервную копию своего кошелька",
@@ -220,7 +220,7 @@
         "anyone_who_has_these": "Кто угодно, у кого есть эти слова, может получить доступ ко всему вашему кошельку!",
         "biometrically_secured": "Ваш аккаунт был защищен биометрическими данными, такими как отпечаток пальца или распознавание лица. Чтобы увидеть вашу фразу для восстановления, включите биометрию в настройках вашего телефона.",
         "no_seed_phrase": "Мы не смогли получить вашу фразу для восстановления. Пожалуйста, убедитесь, что вы правильно прошли аутентификацию с использованием биометрических данных, таких как отпечаток пальца или распознавание лица, или правильно ввели ваш PIN код.",
-        "copy_to_clipboard": "Copy to Clipboard",
+        "copy_to_clipboard": "Скопировать в буфер обмена",
         "for_your_eyes_only": "Только для вас",
         "private_key_title": "Приватный ключ",
         "secret_phrase_title": "Секретная фраза",
@@ -230,13 +230,13 @@
         "you_need_to_authenticate": "Чтобы получить доступ к вашей фразе для восстановления %{typeName}, вам необходимо аутентифицироваться"
       },
       "warning": {
-        "before_you_proceed": "Before you proceed",
-        "title": "View your %{typeName}",
-        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
-        "access": "Anyone who has your %{typeName} can access your entire wallet.",
-        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
-        "support": "Rainbow Support will never ask you for your %{typeName}.",
-        "button": "􀎽 Show %{typeName}"
+        "before_you_proceed": "Перед тем, как продолжить",
+        "title": "Посмотреть на %{typeName}",
+        "never_share": "Никогда не делитесь вашим %{typeName} и не вводите его в какие-либо приложения или сайты.",
+        "access": "Любой, у кого есть ваш %{typeName}, может получить доступ ко всему вашему кошельку.",
+        "hide": "Убедитесь, что никто не может видеть ваш экран при просмотре вашего %{typeName}.",
+        "support": "Служба поддержки Rainbow никогда не попросит ваш %{typeName}.",
+        "button": "􀎽 Показать %{typeName}"
       }
     },
     "bluetooth": {
@@ -543,9 +543,9 @@
         "view_on": "Посмотреть на %{blockExplorerName}",
         "view_on_etherscan": "Посмотреть на Etherscan"
       },
-      "all_networks": "All Networks",
-      "filter_by_network": "Filter by Network",
-      "my_tokens": "My Tokens",
+      "all_networks": "Все сети",
+      "filter_by_network": "Фильтр по сети",
+      "my_tokens": "Мои токены",
       "flip": "Перевернуть",
       "max": "Макс.",
       "movers": {
@@ -567,29 +567,29 @@
       "quote_errors": {
         "501": "Нет доступной цитаты",
         "no_quote_available": "Нет доступной цитаты",
-        "502": "Insufficient liquidity",
-        "insufficient_liquidity": "Insufficient liquidity",
+        "502": "Недостаточная ликвидность",
+        "insufficient_liquidity": "Недостаточная ликвидность",
         "503": "Плата за перевод токена",
         "fee_on_transfer": "Плата за перевод токена",
-        "504": "No route found",
-        "no_route_found": "No route found"
+        "504": "Маршрут не найден",
+        "no_route_found": "Маршрут не найден"
       },
       "price_impact": {
         "long_wait": {
-          "title": "Long wait",
-          "description": "Approx. %{time}"
+          "title": "Длительное ожидание",
+          "description": "Примерно %{time}"
         },
         "unknown_price": {
-          "title": "Market Value Unknown",
-          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+          "title": "Рыночная стоимость неизвестна",
+          "description": "Если вы решите продолжить, убедитесь, что вас устраивает указанное количество."
         },
         "losing_prefix": "Убыток",
         "small_market": "Маленький рынок",
-        "small_market_try_smaller_amount": "Small market — try a smaller amount",
-        "you_are_losing": "You're losing %{priceImpact}",
-        "no_data": "Market Value Unknown",
+        "small_market_try_smaller_amount": "Небольшой рынок — попробуйте меньшую сумму",
+        "you_are_losing": "Вы теряете %{priceImpact}",
+        "no_data": "Рыночная стоимость неизвестна",
         "label": "Возможная потеря",
-        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
+        "no_data_subtitle": "Если вы решите продолжить, убедитесь, что вас устраивает указанное количество"
       },
       "source": {
         "rainbow": "Авто",
@@ -762,14 +762,14 @@
         "registrant": "Регистрант",
         "resolver": "Разрешающий",
         "save_to_photos": "Сохранить в Фото",
-        "sell_for_x": "Sell for %{price}",
+        "sell_for_x": "Продать за %{price}",
         "set_primary_name": "Установить в качестве моего имени ENS",
         "share_token_info": "Поделиться информацией %{uniqueTokenName}",
         "showcase": "Витрина",
         "toast_added_to_showcase": "Добавлено в витрину",
         "toast_removed_from_showcase": "Удалено из витрины",
-        "refreshing": "Refreshing metadata...",
-        "reported": "Reported as spam",
+        "refreshing": "Обновление метаданных...",
+        "reported": "Пожаловано как спам",
         "twitter": "Twitter",
         "view_all_with_property": "Просмотреть все свойства",
         "view_collection": "Просмотреть коллекцию",
@@ -779,35 +779,35 @@
         "view_on_platform": "Просмотреть на %{platform}",
         "view_on_web": "Просмотр в Интернете",
         "refresh": "Обновить метаданные",
-        "report": "Report as Spam",
+        "report": "Сообщить о спаме",
         "hide": "Скрыть",
         "unhide": "Показать"
       }
     },
     "app_icon_unlock_sheet": {
-      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
-      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
-      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
-      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
-      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
-      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
-      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
-      "finiliar_title": "You've unlocked a\nRainbow Fini",
-      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
-      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
-      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
-      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
-      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
-      "pooly_title": "You've unlocked a\nRainbow Pooly",
-      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
-      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
-      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
-      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
-      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
-      "adworld_title": "Welcome to Rainbow World!",
-      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
-      "farcaster_title": "You've unlocked\nRainbowcast",
-      "button": "Snag the icon"
+      "smol_description": "Вы нашли сокровище! Благодаря тому, что вы владеете Smolverse NFT, вы разблокировали специальную иконку!",
+      "smol_title": "Вы разблокировали\nRainbow 􀆄 SMOL",
+      "optimism_description": "В честь NFT на Optimism, Rainbow и Optimism объединились, чтобы выпустить ограниченную серию иконок для таких исследователей Optimism, как вы!",
+      "optimism_title": "Вы разблокировали\nRainbow 􀆄 Optimism",
+      "zora_description": "Специальная версия иконки Rainbow Zorb, созданная для магических размышлений.",
+      "zora_title": "Вы разблокировали\nRainbow 􀆄 Zora",
+      "finiliar_description": "Специальная версия иконки Rainbow Fini, которая поможет вам следить за стоимостью газа при любой погоде.",
+      "finiliar_title": "Вы разблокировали\nRainbow Fini",
+      "golddoge_description": "Специальная золотая иконка Rainbow в честь 17-го дня рождения Кабосу.",
+      "golddoge_title": "Вы разблокировали\nRainbow 􀆄 DOGE",
+      "raindoge_description": "Ограниченная версия иконки Rainbow в честь 17-го дня рождения Кабосу.",
+      "raindoge_title": "Вы разблокировали\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "Специальная иконка Rainbow Pooly для сторонников свободы.",
+      "pooly_title": "Вы разблокировали\nRainbow Pooly",
+      "zorb_description": "Специальная версия Rainbow Zorb:\n100% из того, что вы любите, быстрее и эффективнее.",
+      "zorb_title": "Вы разблокировали\nRainbow Zorb Energy!",
+      "poolboy_description": "Специальная версия иконки Rainbow x Poolsuite для он-чейн лета.",
+      "poolboy_title": "Вы разблокировали\nRainbow Poolboy!",
+      "adworld_description": "Как гражданин мира Rainbow, вы можете разблокировать специальную иконку\nAdWorld x Rainbow.",
+      "adworld_title": "Добро пожаловать в мир Rainbow!",
+      "farcaster_description": "Наш самый скучный иконка приложения, вдохновленная минимализмом Warpcast.",
+      "farcaster_title": "Вы разблокировали\nRainbowcast",
+      "button": "Разблокировать значок"
     },
     "explain": {
       "output_disabled": {
@@ -828,7 +828,7 @@
         "title": "Что такое Arbitrum?"
       },
       "add_to_backups": {
-        "title": "Backing up %{walletName}"
+        "title": "Резервное копирование %{walletName}"
       },
       "backup": {
         "title": "Важно"
@@ -879,19 +879,19 @@
       },
       "base": {
         "text": "База - это сеть уровня 2, которая работает поверх Ethereum, обеспечивая более дешевые и быстрые транзакции, при этом сохраняя преимущества базовой безопасности Ethereum.\n\nОн собирает много транзакций вместе и",
-        "title": "What's Base?"
+        "title": "Что такое Base?"
       },
       "avalanche": {
-        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
-        "title": "What's Avalanche"
+        "text": "Avalanche - это сайдчейн, отдельная сеть, которая работает параллельно с Ethereum и совместима с ним.\n\nОна позволяет проводить более дешёвые и быстрые транзакции, но в отличие от сетей второго уровня, у Avalanche есть свои собственные механизмы безопасности и консенсуса, отличающиеся от Ethereum.",
+        "title": "Что такое Avalanche?"
       },
       "degen": {
-        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
-        "title": "What's Degen Chain?"
+        "text": "Degen Chain - это сеть Layer 3, работающая поверх Arbitrum и Ethereum, обеспечивая невероятно быстрые и дешёвые транзакции, деноминированные в токене сообщества Farcaster $degen.",
+        "title": "Что такое Degen Chain?"
       },
       "blast": {
-        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
-        "title": "What's Blast?"
+        "text": "Blast - это сеть второго уровня, работающая поверх Ethereum, что позволяет проводить более дешёвые и быстрые транзакции, при этом пользуясь преимуществами безопасности Ethereum.\n\nОна объединяет множество транзакций в одно \"свертывание\", прежде чем отправить их для постоянного хранения на Ethereum.",
+        "title": "Что такое Blast?"
       },
       "zora": {
         "text": "Zora - это сеть уровня 2, которая работает поверх Ethereum, обеспечивая более дешевые и быстрые транзакции, при этом сохраняя преимущества базовой безопасности Ethereum.\n\nОн собирает много транзакций вместе и",
@@ -1016,7 +1016,7 @@
       }
     },
     "gas": {
-      "gas_settings": "Gas Settings",
+      "gas_settings": "Настройки газа",
       "card": {
         "falling": "Падающий",
         "rising": "Восходящий",
@@ -1202,7 +1202,7 @@
             "manual": "Сделайте резервную копию вручную"
           },
           "description": "Не потеряйте свой кошелек! Сохраните зашифрованную копию в %{cloudPlatformName}",
-          "title": "How would you like to back up your wallet?"
+          "title": "Как вы хотите создать резервную копию вашего кошелька?"
         },
         "existing": {
           "button": {
@@ -1441,8 +1441,8 @@
         "view_weekly_earnings_title": "Подсчет заработанных баллов",
         "view_weekly_earnings_counted": "Еженедельный заработок подсчитан",
         "view_weekly_earnings_close_button": "Закрыть",
-        "view_weekly_earnings_retroactive_points": "Retroactive Points",
-        "view_weekly_earnings_bonus_points": "Bonus Points",
+        "view_weekly_earnings_retroactive_points": "Ретроактивные баллы",
+        "view_weekly_earnings_bonus_points": "Бонусные баллы",
         "view_weekly_earnings_activity": "Ваша активность",
         "view_weekly_earnings_referral_activity": "Активность по рефералам",
         "view_weekly_earnings_total_earnings": "Всего",
@@ -1813,11 +1813,11 @@
       "no_thanks": "Нет, спасибо"
     },
     "settings": {
-      "backup": "Wallets & Backup",
-      "delete_backups": "Delete All %{cloudPlatform} Backups",
-      "confirm_delete_backups": "Confirm and Delete Backups",
-      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
-      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
+      "backup": "Кошельки и резервное копирование",
+      "delete_backups": "Удалить все резервные копии %{cloudPlatform}",
+      "confirm_delete_backups": "Подтвердить и удалить резервные копии",
+      "manage_backups": "Управлять резервными копиями %{cloudPlatformOrEmail}",
+      "confirm_delete_backups_description": "Вы уверены, что хотите удалить резервные копии вашего кошелька %{cloudPlatform}?",
       "google_account_used": "Используется учетная запись Google для резервного копирования",
       "backup_switch_google_account": "Переключить учетную запись Google",
       "backup_sign_out": "Выйти",
@@ -1825,21 +1825,21 @@
       "backup_loading": "Загрузка...",
       "backup_google_account": "Учетная запись Google",
       "currency": {
-        "title": "Currency",
+        "title": "Валюта",
         "ETH": "Эфириум",
-        "USD": "United States Dollar",
-        "EUR": "Euro",
-        "GBP": "British Pound",
-        "AUD": "Australian Dollar",
-        "CNY": "Chinese Yuan",
-        "KRW": "South Korean Won",
-        "JPY": "Japanese Yen",
-        "RUB": "Russian Ruble",
-        "INR": "Indian Rupee",
-        "TRY": "Turkish Lira",
-        "CAD": "Canadian Dollar",
-        "NZD": "New Zealand Dollar",
-        "ZAR": "South African Rand"
+        "USD": "Доллар США",
+        "EUR": "Евро",
+        "GBP": "Фунт стерлингов",
+        "AUD": "Австралийский доллар",
+        "CNY": "Китайский юань",
+        "KRW": "Южнокорейская вона",
+        "JPY": "Японская иена",
+        "RUB": "Российский рубль",
+        "INR": "Индийская рупия",
+        "TRY": "Турецкая лира",
+        "CAD": "Канадский доллар",
+        "NZD": "Новозеландский доллар",
+        "ZAR": "Южноафриканский рэнд"
       },
       "app_icon": "Иконка приложения",
       "developer": "Настройки разработчика",
@@ -1920,17 +1920,17 @@
         "rainbow": "Rainbow"
       },
       "tokens_input": {
-        "tokens": "Tokens",
-        "sort": "Sort",
-        "available": "available",
-        "token_balance": "Token Balance",
+        "tokens": "Токены",
+        "sort": "Сортировать",
+        "available": "доступны",
+        "token_balance": "Баланс токенов",
         "networks": "Сети",
-        "filter_by_network": "Filter by Network",
-        "switch_networks": "Switch Networks",
+        "filter_by_network": "Фильтр по сети",
+        "switch_networks": "Сменить сеть",
         "nothing_found": "Ничего не найдено",
-        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
-        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
-        "output_quotes_disabled": "Output quotes disabled"
+        "nothing_found_description": "У некоторых токенов недостаточно ликвидности для успешного %{action}.",
+        "nothing_found_description_l2": "У некоторых токенов недостаточно ликвидности на уровне 2 для успешного %{action}.",
+        "output_quotes_disabled": "Отключена выдача котировок"
       },
       "choose_token": "Выбрать токен",
       "gas": {
@@ -1953,7 +1953,7 @@
         "withdraw": "Вывести",
         "withdraw_symbol": "Вывести %{symbol}"
       },
-      "unknown": "Unknown",
+      "unknown": "Неизвестно",
       "warning": {
         "cost": {
           "are_you_sure_title": "Вы уверены?",
@@ -1978,9 +1978,9 @@
       "section_header": {
         "favorites": "Избранное",
         "bridge": "Мост",
-        "verified": "Verified",
-        "unverified": "Unverified",
-        "on_other_networks": "On other networks"
+        "verified": "Проверенные",
+        "unverified": "Непроверенные",
+        "on_other_networks": "На других сетях"
       }
     },
     "transactions": {
@@ -1996,26 +1996,26 @@
       "dropped_title": "Сброшен",
       "type": {
         "savings": "Сбережения",
-        "cancelled": "Transaction Cancelled",
+        "cancelled": "Транзакция отменена",
         "burn": {
-          "pending": "Burning",
-          "confirmed": "Burned",
-          "failed": "Burn Failed"
+          "pending": "Сжигание",
+          "confirmed": "Сожжено",
+          "failed": "Не удалось сжечь"
         },
         "cancel": {
-          "pending": "Cancelling",
-          "confirmed": "Cancelled",
-          "failed": "Cancel Failed"
+          "pending": "Отмена",
+          "confirmed": "Отменено",
+          "failed": "Не удалось отменить"
         },
         "speed_up": {
-          "pending": "Speeding Up",
-          "confirmed": "Sped Up",
-          "failed": "Speed Up Failed"
+          "pending": "Ускорить",
+          "confirmed": "Ускорено",
+          "failed": "Ускорение не удалось"
         },
         "send": {
           "pending": "Отправка",
           "confirmed": "Отправлено",
-          "failed": "Send Failed"
+          "failed": "Не удалось отправить"
         },
         "receive": {
           "pending": "",
@@ -2023,111 +2023,111 @@
           "failed": ""
         },
         "withdraw": {
-          "pending": "Withdrawing",
-          "confirmed": "Withdrew",
-          "failed": "Withdraw Failed"
+          "pending": "Снятие",
+          "confirmed": "Снято",
+          "failed": "Снятие не удалось"
         },
         "deposit": {
-          "pending": "Depositing",
-          "confirmed": "Deposited",
-          "failed": "Deposit Failed"
+          "pending": "Пополнение",
+          "confirmed": "Пополнено",
+          "failed": "Пополнение не удалось"
         },
         "mint": {
-          "pending": "Minting",
+          "pending": "Создание",
           "confirmed": "Монетизированные",
-          "failed": "Mint Failed"
+          "failed": "Создание не удалось"
         },
         "approve": {
-          "pending": "Approving",
+          "pending": "Утверждение",
           "confirmed": "Подтвержденные",
-          "failed": "Approve Failed"
+          "failed": "Утверждение не удалось"
         },
         "contract_interaction": {
-          "pending": "Interaction Pending",
-          "confirmed": "Interacted",
-          "failed": "Interaction Failed"
+          "pending": "Взаимодействие в ожидании",
+          "confirmed": "Взаимодействие состоялось",
+          "failed": "Взаимодействие не удалось"
         },
         "swap": {
-          "pending": "Swapping",
+          "pending": "Смена",
           "confirmed": "Обменянные",
-          "failed": "Swap Failed"
+          "failed": "Замена не удалась"
         },
         "borrow": {
-          "pending": "Borrowing",
-          "confirmed": "Borrowed",
-          "failed": "Borrow Failed"
+          "pending": "Заимствование",
+          "confirmed": "Заимствовано",
+          "failed": "Заимствование не удалось"
         },
         "claim": {
-          "pending": "Claiming",
-          "confirmed": "Claimed",
-          "failed": "Claim Failed"
+          "pending": "Получение",
+          "confirmed": "Получено",
+          "failed": "Получение не удалось"
         },
         "deployment": {
-          "pending": "Deploying",
-          "confirmed": "Deployed",
-          "failed": "Deploy Failed"
+          "pending": "Внедрение",
+          "confirmed": "Внедрено",
+          "failed": "Внедрение не удалось"
         },
         "repay": {
-          "pending": "Repaying",
-          "confirmed": "Repayed",
-          "failed": "Repay Failed"
+          "pending": "Возврат",
+          "confirmed": "Возвращено",
+          "failed": "Возврат не удался"
         },
         "stake": {
-          "pending": "Staking",
-          "confirmed": "Staked",
-          "failed": "Stake Failed"
+          "pending": "Ставка",
+          "confirmed": "Ставка сделана",
+          "failed": "Ставка не удалась"
         },
         "unstake": {
-          "pending": "Unstaking",
-          "confirmed": "Unstaked",
-          "failed": "Unstake Failed"
+          "pending": "Отмена ставки",
+          "confirmed": "Ставка отменена",
+          "failed": "Отмена ставки не удалась"
         },
         "purchase": {
-          "pending": "Purchasing",
+          "pending": "Покупка",
           "confirmed": "Купленные",
           "failed": "Покупка не удалась"
         },
         "revoke": {
-          "pending": "Revoking",
-          "confirmed": "Revoked",
-          "failed": "Revoke Failed"
+          "pending": "Отзыв",
+          "confirmed": "Отозвано",
+          "failed": "Отзыв не удался"
         },
         "sale": {
           "pending": "Продажа",
           "confirmed": "Проданные",
-          "failed": "Sale Failed"
+          "failed": "Продажа не удалась"
         },
         "bridge": {
-          "pending": "Bridging",
+          "pending": "Перевод",
           "confirmed": "Переведенные",
-          "failed": "Bridge Failed"
+          "failed": "Перевод не удался"
         },
         "airdrop": {
           "pending": "",
-          "confirmed": "Airdropped",
+          "confirmed": "Аирдроп",
           "failed": ""
         },
         "wrap": {
-          "pending": "Wrapping",
-          "confirmed": "Wrapped",
-          "failed": "Wrap Failed"
+          "pending": "Обёртывание",
+          "confirmed": "Обёрнуто",
+          "failed": "Не удалось обернуть"
         },
         "unwrap": {
-          "pending": "Unwrapping",
-          "confirmed": "Unwrapped",
-          "failed": "Unwrap Failed"
+          "pending": "Распаковка",
+          "confirmed": "Развернуто",
+          "failed": "Распаковка не удалась"
         },
         "bid": {
-          "pending": "Bidding",
-          "confirmed": "Bid",
-          "failed": "Bid Failed"
+          "pending": "Ставка",
+          "confirmed": "Ставка",
+          "failed": "Ставка не удалась"
         }
       },
       "approvals": {
-        "no_allowance": "No Allowance",
+        "no_allowance": "Без Разрешения",
         "unlimited": "Неограниченно"
       },
-      "no_value": "No value",
+      "no_value": "Нет значения",
       "savings": "Сбережения",
       "signed": "Подписано",
       "contract_interaction": "Взаимодействие с контрактом",
@@ -2139,7 +2139,7 @@
       "to": "Кому",
       "value": "Цена",
       "hash": "Хэш транзакции",
-      "you": "You",
+      "you": "Вы",
       "network_fee": "Сетевая комиссия",
       "hash_copied": "􀁣 Скопирован хэш транзакции",
       "address_copied": "􀁣 Скопирован адрес",
@@ -2281,8 +2281,8 @@
         "delete_confirm": "Вы уверены, что хотите удалить этот кошелек?",
         "edit": "Редактировать кошелек",
         "hide": "Скрыть",
-        "create_wallet_group": "Create Group",
-        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
+        "create_wallet_group": "Создать кошелек",
+        "create_wallet_group_placeholder": "Группа кошельков %{numWalletGroups}",
         "import_wallet": "Добавить кошелек",
         "input": "Ввод транзакции",
         "notifications": {
@@ -2380,31 +2380,31 @@
         "please_seed_phrase": "Пожалуйста, аутентифицируйтесь, чтобы посмотреть приватный ключ"
       },
       "back_ups": {
-        "wallet_count": "%{numAccounts} wallet",
-        "wallet_count_gt_one": "%{numAccounts} wallets",
+        "wallet_count": "%{numAccounts} кошелек",
+        "wallet_count_gt_one": "%{numAccounts} кошельков",
         "and_more_wallets": "И еще %{moreWalletCount} кошельков",
-        "create_new_wallet": "Create a New Wallet",
-        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
+        "create_new_wallet": "Создать новый кошелек",
+        "create_new_wallet_description": "Создайте новый кошелек, используя эту секретную фразу",
         "backed_up": "Резервная копия создана",
         "backed_up_manually": "Резервная копия создана вручную",
         "imported": "Импортировано",
-        "cloud_backup_title": "Cloud Backup",
+        "cloud_backup_title": "Облачная резервная копия",
         "not_backed_up": "Не сделано резервное копирование",
-        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
-        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
-        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
-        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
-        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
-        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
-        "cloud_backup_link": "Learn more…",
-        "view_secret_phrase": "View Secret Phrase",
-        "view_private_key": "View Private Key",
-        "copy_wallet_address": "Copy wallet address"
+        "not_backed_up_to_cloud_message": "Этот %{backupType} не включен в ваш последний бэкап. Создайте резервную копию на %{cloudPlatform} сейчас, чтобы вы могли его восстановить, если потеряете устройство или получите новое.",
+        "not_backed_up_message": "Этот %{backupType} не зарезервирован. Сделайте резервное копирование сейчас, чтобы вы могли его восстановить, если потеряете устройство или получите новое.",
+        "backed_up_message": "Вы выбрали сохранить этот %{backupType} самостоятельно. Убедитесь, что оно сохранено в безопасном месте.",
+        "backed_up_to_cloud_message": "Все ваши кошельки зарезервированы на %{cloudPlatform}. Если вы потеряете устройство или получите новое, вы сможете восстановить отображенные ниже кошельки.",
+        "cloud_backup_out_of_date_description": "Некоторые из ваших кошельков не включены в ваш последний бэкап. Создайте резервную копию на %{cloudPlatform} сейчас, чтобы вы могли их восстановить, если потеряете устройство или получите новое.",
+        "cloud_backup_description": "Сделайте надежное резервное копирование ваших кошельков на %{cloudPlatform}, чтобы вы могли их восстановить, если потеряете устройство или получите новое.",
+        "cloud_backup_link": "Узнать больше…",
+        "view_secret_phrase": "Просмотреть Секретную фразу",
+        "view_private_key": "Просмотреть Приватный Ключ",
+        "copy_wallet_address": "Скопировать адрес кошелька"
       },
       "balance_title": "Баланс",
       "buy": "Купить",
       "change_wallet": {
-        "no_balance": "No Balance",
+        "no_balance": "Нет Баланса",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Наблюдение",
         "ledger": "Ledger"
@@ -2481,8 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
-              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
+              "description_restore_sheet": "Если вы ранее делали резервное копирование на %{cloudPlatform}, нажмите здесь, чтобы восстановить его.",
+              "description_with_latest_backup_date": "Последняя резервная копия %{fromNow} в %{time}",
               "title": "Восстановить из %{platform}",
               "no_backups": "Резервные копии не найдены",
               "no_google_backups": "Мы не смогли найти резервную копию в Google Drive. Убедитесь, что вы вошли в правильный аккаунт."
@@ -2496,12 +2496,12 @@
               "title": "Подключите ваш аппаратный кошелек"
             },
             "seed": {
-              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
-              "title": "Import a Secret Phrase or Private Key"
+              "description": "Используйте вашу Секретную фразу из Rainbow, MetaMask или другого кошелька",
+              "title": "Импортировать Секретную фразу или Приватный ключ"
             },
             "watch": {
-              "description": "Watch an ENS name or a public address",
-              "title": "Watch a wallet"
+              "description": "Следить за именем ENS или публичным адресом",
+              "title": "Следить за кошельком"
             }
           },
           "first_wallet": {
@@ -2614,7 +2614,7 @@
           "insufficient_funds": "О нет! Цена газа изменилась и у вас больше нет достаточных средств для этой транзакции. Пожалуйста, попробуйте сначала с меньшим количеством.",
           "generic": "О нет! Возникла проблема при отправке транзакции. Пожалуйста, попробуйте снова."
         },
-        "complete_check": "Complete check",
+        "complete_check": "Завершить проверку",
         "ens_configuration_options": "Параметры настройки ENS",
         "confirm": "Подтвердить транзакцию",
         "max": "Макс.",
@@ -2652,7 +2652,7 @@
       }
     },
     "walletconnect": {
-      "requests": "Requests",
+      "requests": "Запросы",
       "wants_to_connect": "хочет получить доступ к вашему кошельку",
       "wants_to_connect_to_network": "хочет подключиться к сети %{network}",
       "available_networks": "Доступные сети",
@@ -2804,16 +2804,16 @@
     },
     "dapp_browser": {
       "address_bar": {
-        "input_placeholder": "Search or enter website"
+        "input_placeholder": "Поиск или введите адрес сайта"
       },
       "control_panel": {
-        "connected": "Connected",
-        "not_connected": "Not Connected",
+        "connected": "Подключено",
+        "not_connected": "Не подключено",
         "switch_wallet": "Переключить кошелек",
         "switch_network": "Переключить сеть",
         "disconnect": "Отключить",
-        "favorite": "Favorite",
-        "undo_favorite": "Undo",
+        "favorite": "Избранное",
+        "undo_favorite": "Отменить",
         "connect": "Подключиться",
         "swap": "Обменять",
         "bridge": "Мост",
@@ -2821,32 +2821,32 @@
       },
       "error": {
         "title": "Что-то пошло не так",
-        "default_msg": "There was an error loading the page. Please try again."
+        "default_msg": "Произошла ошибка при загрузке страницы. Пожалуйста, попробуйте еще раз."
       },
       "no_wc_needed": {
         "title": "Упс!",
-        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "description": "Похоже, вы пытаетесь подключиться к этому децентрализованному приложению через WalletConnect. Это больше не нужно в браузере Rainbow. Вернитесь назад и выберите \"MetaMask\", и все должно работать нормально.",
         "cta": "Понятно"
       },
       "provider_error": {
-        "unsupported_chain": "Unsupported Chain",
-        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+        "unsupported_chain": "Неподдерживаемая сеть",
+        "no_active_session": "Вам нужно подключиться к децентрализованному приложению, прежде чем пытаться переключить сети"
       },
       "homepage": {
-        "trending": "Trending",
-        "recents": "Recents",
+        "trending": "Популярное",
+        "recents": "Недавние",
         "favorites": "Избранное"
       },
       "search": {
-        "find_apps_and_more": "Find apps and more",
-        "more_results": "More Results",
+        "find_apps_and_more": "Искать приложения и многое другое",
+        "more_results": "Больше результатов",
         "search": "Поиск"
       },
       "menus": {
-        "favorite": "Favorite",
-        "undo_favorite": "Undo Favorite",
+        "favorite": "Избранное",
+        "undo_favorite": "Отменить избранное",
         "remove": "Удалить",
-        "forward": "Forward",
+        "forward": "Вперед",
         "back": "Назад"
       }
     }
