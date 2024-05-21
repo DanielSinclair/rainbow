@@ -91,7 +91,10 @@
         "no_backups_found": "เราไม่พบการสำรองข้อมูลก่อนหน้าของคุณ!",
         "cant_get_encrypted_data": "เราไม่สามารถเข้าถึงการสำรองข้อมูลของคุณในเวลานี้ โปรดลองอีกครั้งในภายหลัง.",
         "missing_pin": "มีบางอย่างผิดพลาดในระหว่างการประมวลผลรหัส PIN ของคุณ โปรดลองอีกครั้งในภายหลัง.",
-        "generic": "ข้อผิดพลาดในการพยายามสำรองข้อมูล รหัสข้อผิดพลาด: %{errorCodes}"
+        "generic": "ข้อผิดพลาดในการพยายามสำรองข้อมูล รหัสข้อผิดพลาด: %{errorCodes}",
+        "no_keys_found": "No keys found. Please try again.",
+        "backup_not_found": "Backup not found. Please try again.",
+        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
       },
       "wrong_pin": "รหัส PIN ที่คุณป้อนไม่ถูกต้องและเราไม่สามารถสำรองข้อมูลได้ โปรดลองใหม่ด้วยรหัสที่ถูกต้อง",
       "already_backed_up": {
@@ -101,17 +104,56 @@
         "imported": "นำเข้าแล้ว",
         "imported_message": "กระเป๋าเงินของคุณถูกนำเข้า"
       },
+      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
+      "wallet_group_title_singular": "Wallet Group",
+      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "private_key_singluar": "กุญแจส่วนตัว",
       "backup_deleted_successfully": "ลบการสำรองข้อมูลเรียบร้อยแล้ว",
       "cloud": {
+        "no_backups": "ไม่พบการสำรองข้อมูล",
+        "failed_to_fetch_backups": "Failed to fetch backups",
+        "retry": "Retry",
+        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
         "back_up_to_platform": "สำรองข้อมูลไปยัง %{cloudPlatformName}",
-        "manage_platform_backups": "จัดการ %{cloudPlatformName} การสำรองข้อมูล",
+        "restore_from_platform": "กู้คืนจาก %{cloudPlatformName}",
+        "restoration_in_progress": "Restoration in progress",
+        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
+        "manage_platform_backups": "View %{cloudPlatformName} Backups",
+        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
+        "cloud_backup": "Cloud Backup",
+        "backing_up": "Backing up...",
+        "backup_success": "Back up Successful",
+        "backup_failed": "Backup Failed",
+        "manual_backup": "Manual backup",
+        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
+        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
+        "enable_cloud_backups": "Enable Cloud Backups",
+        "mayber_later": "อาจหลัง",
+        "recommended_for_beginners": "Recommended for beginners.",
+        "choose_backup": "Choose the backup you’d like to restore",
+        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
+        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
+        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
+        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
+        "latest_backup": "Last Backup: %{date}",
+        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
+        "most_recent_backup": "Most Recent Backup",
+        "out_of_date": "Out of Date",
+        "up_to_date": "Up to Date",
+        "older_backups": "Older Backups",
+        "no_older_backups": "No Older Backups",
+        "older_backups_title": "%{date} at %{time}",
         "password": {
-          "a_password_youll_remember": "โปรดใช้รหัสผ่านที่คุณจะจำได้",
-          "backup_password": "รหัสผ่านสำรองข้อมูล",
-          "choose_a_password": "เลือกรหัสผ่าน",
+          "a_password_youll_remember_part_one": "This password is",
+          "not": "not",
+          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "backup_password": "รหัสผ่าน",
+          "choose_a_password": "Create a password to secure your backup",
           "confirm_backup": "ยืนยันการสำรองข้อมูล",
+          "enter_backup_password": "Enter your backup password",
+          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
           "confirm_password": "ยืนยันรหัสผ่าน",
-          "confirm_placeholder": "ยืนยันรหัสผ่าน",
+          "confirm_placeholder": "Reenter Password",
           "it_cant_be_recovered": "ไม่สามารถกู้คืนได้!",
           "minimum_characters": "ต่ำกว่า %{minimumLength} ตัวอักษร",
           "passwords_dont_match": "รหัสผ่านไม่ตรงกัน",
@@ -133,22 +175,31 @@
       },
       "explainers": {
         "backup": "อย่าลืมรหัสผ่านนี้! มันแตกต่างจากรหัสผ่าน %{cloudPlatformName} ของคุณ และคุณควรบันทึกไว้ในสถานที่ที่ปลอดภัย\n\nคุณจะต้องใช้มันในการกู้คืนกระเป๋าสตางค์ของคุณจากการสำรองข้อมูลในอนาคต",
+        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
         "if_lose_cloud": "หากคุณทำอุปกรณ์นี้หาย คุณสามารถกู้คืนกระเป๋าสตางค์ที่ถูกเข้ารหัสจากการสำรองข้อมูลใน %{cloudPlatformName}",
         "if_lose_imported": "หากคุณทำอุปกรณ์นี้หาย คุณสามารถกู้คืนกระเป๋าสตางค์ด้วยคีย์ที่คุณนำเข้าเดิม",
         "if_lose_manual": "หากคุณทำอุปกรณ์นี้หาย คุณสามารถกู้คืนกระเป๋าสตางค์ด้วยวลีลับที่คุณบันทึกไว้"
       },
       "manual": {
-        "label": "วลีลับของคุณ",
+        "backup_manually": "Back Up Manually",
+        "label": "Save your %{typeName}",
+        "with_your_label": "Your %{typeName}",
+        "backup_manually_now": "Would you like to back up this wallet?",
+        "back_up_now": "Back Up Now",
+        "already_backed_up": "Already backed up",
         "pkey": {
-          "confirm_save": "ฉันได้บันทึกคีย์ของฉันแล้ว",
+          "confirm_save": "􀆅 I've saved my key",
           "save_them": "คัดลอกมันและบันทึกไว้ในตัวจัดการรหัสผ่านของคุณหรือในที่เก็บที่ปลอดภัยอื่น",
-          "these_keys": "นี่คือคีย์สำหรับกระเป๋าสตางค์ของคุณ!"
+          "these_keys": "นี่คือคีย์สำหรับกระเป๋าสตางค์ของคุณ!",
+          "description": "Anyone who has this key can access your wallet! You should never share it."
         },
         "seed": {
-          "confirm_save": "ฉันได้บันทึกคำเหล่านี้แล้ว",
+          "confirm_save": "􀆅 I've saved these words",
           "save_them": "เขียนลงในบันทึกหรือบันทึกไว้ในโปรแกรมจัดการรหัสผ่านของคุณ",
-          "these_keys": "คำเหล่านี้คือกุญแจสำหรับกระเป๋าเงินของคุณ!"
-        }
+          "these_keys": "คำเหล่านี้คือกุญแจสำหรับกระเป๋าเงินของคุณ!",
+          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+        },
+        "create_new_secret_phrase": "Create a New Secret Phrase"
       },
       "needs_backup": {
         "back_up_your_wallet": "สำรองข้อมูลกระเป๋าเงินของคุณ",
@@ -169,7 +220,7 @@
         "anyone_who_has_these": "ใครที่มีคำเหล่านี้สามารถเข้าถึงกระเป๋าเงินของคุณทั้งหมด!",
         "biometrically_secured": "บัญชีของคุณได้รับการปกป้องด้วยข้อมูลชีวมิตร เช่น ลายนิ้วมือหรือการระบุตัวตนด้วยใบหน้า หากต้องการดูข้อความสำหรับการกู้คืน ให้เปิดใช้งาน biometrics ในการตั้งค่าโทรศัพท์ของคุณ",
         "no_seed_phrase": "เราไม่สามารถดึงข้อความต้นฉบับของคุณได้ โปรดตรวจสอบว่าคุณได้รับการรับรองความถูกต้องโดยใช้ข้อมูลชีวมิตร เช่น ลายนิ้วมือหรือการระบุตัวตนด้วยใบหน้า หรือใส่รหัส PIN ของคุณอย่างถูกต้อง",
-        "copy_to_clipboard": "คัดลอกไปยังคลิปบอร์ด",
+        "copy_to_clipboard": "Copy to Clipboard",
         "for_your_eyes_only": "สำหรับสายตาคุณเท่านั้น",
         "private_key_title": "กุญแจส่วนตัว",
         "secret_phrase_title": "ข้อความลับ",
@@ -177,6 +228,15 @@
         "view_private_key": "ดูกุญแจส่วนตัว",
         "view_secret_phrase": "ดูข้อความลับ",
         "you_need_to_authenticate": "คุณต้องรับรองความถูกต้องเพื่อเข้าถึงการกู้คืน %{typeName}ของคุณ"
+      },
+      "warning": {
+        "before_you_proceed": "Before you proceed",
+        "title": "View your %{typeName}",
+        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
+        "access": "Anyone who has your %{typeName} can access your entire wallet.",
+        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
+        "support": "Rainbow Support will never ask you for your %{typeName}.",
+        "button": "􀎽 Show %{typeName}"
       }
     },
     "bluetooth": {
@@ -483,6 +543,9 @@
         "view_on": "ดูบน %{blockExplorerName}",
         "view_on_etherscan": "ดูบน Etherscan"
       },
+      "all_networks": "All Networks",
+      "filter_by_network": "Filter by Network",
+      "my_tokens": "My Tokens",
       "flip": "พลิก",
       "max": "สูงสุด",
       "movers": {
@@ -501,10 +564,32 @@
         "nothing_here": "ไม่มีอะไรที่นี่!",
         "nothing_to_send": "ไม่มีอะไรให้ส่ง"
       },
+      "quote_errors": {
+        "501": "ไม่มีใบเสนอราคา",
+        "no_quote_available": "ไม่มีใบเสนอราคา",
+        "502": "Insufficient liquidity",
+        "insufficient_liquidity": "Insufficient liquidity",
+        "503": "ค่าธรรมเนียมเมื่อโอนโทเคน",
+        "fee_on_transfer": "ค่าธรรมเนียมเมื่อโอนโทเคน",
+        "504": "No route found",
+        "no_route_found": "No route found"
+      },
       "price_impact": {
+        "long_wait": {
+          "title": "Long wait",
+          "description": "Approx. %{time}"
+        },
+        "unknown_price": {
+          "title": "Market Value Unknown",
+          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+        },
         "losing_prefix": "กำลังสูญเสีย",
         "small_market": "ตลาดเล็ก",
-        "label": "เสี่ยงที่จะสูญเสีย"
+        "small_market_try_smaller_amount": "Small market — try a smaller amount",
+        "you_are_losing": "You're losing %{priceImpact}",
+        "no_data": "Market Value Unknown",
+        "label": "เสี่ยงที่จะสูญเสีย",
+        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
       },
       "source": {
         "rainbow": "อัตโนมัติ",
@@ -677,11 +762,14 @@
         "registrant": "ผู้จดทะเบียน",
         "resolver": "ตัวแก้ไข",
         "save_to_photos": "บันทึกไปยังรูปภาพ",
+        "sell_for_x": "Sell for %{price}",
         "set_primary_name": "ตั้งเป็นชื่อ ENS ของฉัน",
         "share_token_info": "แบ่งปัน %{uniqueTokenName} ข้อมูล",
         "showcase": "โชว์เคส",
         "toast_added_to_showcase": "เพิ่มเข้าโชว์เคส",
         "toast_removed_from_showcase": "ลบออกจากโชว์เคส",
+        "refreshing": "Refreshing metadata...",
+        "reported": "Reported as spam",
         "twitter": "Twitter",
         "view_all_with_property": "ดูทั้งหมดด้วยคุณสมบัติ",
         "view_collection": "ดูคอลเลกชัน",
@@ -691,30 +779,37 @@
         "view_on_platform": "ดูบน %{platform}",
         "view_on_web": "ดูบนเว็บ",
         "refresh": "รีเฟรช Metadata",
+        "report": "Report as Spam",
         "hide": "ซ่อน",
         "unhide": "เปิดซ่อน"
       }
     },
+    "app_icon_unlock_sheet": {
+      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
+      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
+      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
+      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
+      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
+      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
+      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
+      "finiliar_title": "You've unlocked a\nRainbow Fini",
+      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
+      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
+      "pooly_title": "You've unlocked a\nRainbow Pooly",
+      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
+      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
+      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
+      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
+      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
+      "adworld_title": "Welcome to Rainbow World!",
+      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
+      "farcaster_title": "You've unlocked\nRainbowcast",
+      "button": "Snag the icon"
+    },
     "explain": {
-      "icon_unlock": {
-        "smol_text": "คุณพบ Treasure! เนื่องจากคุณถือ Smolverse NFT, คุณได้ปลดล็อก Custom Icon!",
-        "optimism_text": "เพื่อฉลอง NFTs บน Optimism, Rainbow และ Optimism ทำงานร่วมกันเพื่อปล่อย App Icon รุ่นพิเศษสำหรับ Optimistic Explorers อย่างคุณ!",
-        "zora_text": "รุ่นพิเศษของ Rainbow Zorb icon ที่สร้างสำหรับการคิดค้นที่มีมนตราศาสตร์.",
-        "finiliar_text": "รุ่นพิเศษของ Rainbow Fini icon ที่ช่วยให้คุณยังไงล่าสุดของน้ำมันก๊าซ ไม่ว่าฝนจะตกหรือไม่.",
-        "finiliar_title": "คุณได้ปลดล็อก\nRainbow Fini",
-        "golddoge_text": "รุ่นพิเศษในอัปเดตพิเศษของอุปกรณ์ Rainbow ในการฉลองวันเกิดที่ 17 ของ Kabosu.",
-        "raindoge_text": "รุ่นพิเศษในอัปเดตพิเศษของอุปกรณ์ Rainbow ในการฉลองวันเกิดที่ 17 ของ Kabosu.",
-        "pooly_text": "ไอคอน Rainbow Pooly ฉบับพิเศษสำหรับผู้สนับสนุนเสรีภาพ",
-        "pooly_title": "คุณได้ปลดล็อก\nRainbow Pooly",
-        "zorb_text": "ฉบับพิเศษ Rainbow Zorb:\n100% ของสิ่งที่คุณรัก, เร็วและมีประสิทธิภาพมากขึ้น.",
-        "zorb_title": "คุณได้ปลดล็อก\nRainbow Zorb Energy!",
-        "poolboy_text": "ไอคอน Rainbow x Poolsuite ฉบับพิเศษสำหรับฤดูร้อนบนเชน",
-        "poolboy_title": "คุณได้ปลดล็อค\nRainbow Poolboy!",
-        "adworld_text": "ในฐานะพลเมืองของ Rainbow World, คุณสามารถปลดล็อคไอคอนแอพพิเศษ\nAdWorld x Rainbow ได้แล้ว.",
-        "adworld_title": "ยินดีต้อนรับสู่ Rainbow World!",
-        "title": "คุณได้ปลดล็อค\nRainbow 􀆄 %{partner}",
-        "button": "รับไอคอน"
-      },
       "output_disabled": {
         "text": "สำหรับ %{fromNetwork}, Rainbow ไม่สามารถเตรียมการสลับตามจำนวน %{outputToken} ที่คุณต้องการรับ \n\n ลองป้อนปริมาณ %{inputToken} ที่คุณต้องการสลับแทน",
         "title": "ป้อน %{inputToken} แทน",
@@ -731,6 +826,9 @@
       "arbitrum": {
         "text": "Arbitrum เป็นเครือข่ายชั้นที่ 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกลงและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยที่รองรับ Ethereum\n\nมันผนึกธุรกรรมหลายๆ รายการเข้าด้วยกันในรูปแบบ \"roll up\" ก่อนจะส่งให้อยู่ถาวรบน Ethereum",
         "title": "Arbitrum คืออะไร?"
+      },
+      "add_to_backups": {
+        "title": "Backing up %{walletName}"
       },
       "backup": {
         "title": "สำคัญ"
@@ -781,7 +879,19 @@
       },
       "base": {
         "text": "Base เป็นเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยสำคัญของ Ethereum\n\nมันรวมการทำธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งลงไปอยู่ถาวรบน Ethereum.",
-        "title": "Base คืออะไร"
+        "title": "What's Base?"
+      },
+      "avalanche": {
+        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
+        "title": "What's Avalanche"
+      },
+      "degen": {
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
+        "title": "What's Degen Chain?"
+      },
+      "blast": {
+        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "title": "What's Blast?"
       },
       "zora": {
         "text": "Zora คือเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยสำคัญของ Ethereum\n\nมันรวมการทำธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งลงไปอยู่ถาวรบน Ethereum.",
@@ -906,6 +1016,7 @@
       }
     },
     "gas": {
+      "gas_settings": "Gas Settings",
       "card": {
         "falling": "ลดลง",
         "rising": "เพิ่มขึ้น",
@@ -1091,7 +1202,7 @@
             "manual": "สำรองข้อมูลด้วยตนเอง"
           },
           "description": "อย่าทำหายกระเป๋าเงินของคุณ! บันทึกสำเนาที่ถูกเข้ารหัสลับไปยัง %{cloudPlatformName}",
-          "title": "สำรองข้อมูลกระเป๋าของคุณ"
+          "title": "How would you like to back up your wallet?"
         },
         "existing": {
           "button": {
@@ -1214,6 +1325,7 @@
         "offer_expired": "ข้อเสนอหมดอายุ",
         "expired": "หมดอายุ",
         "hold_to_sell": "ถือเพื่อขาย",
+        "selling": "ขาย",
         "error": {
           "title": "ข้อผิดพลาดในการขาย NFT",
           "message": "กรุณาติดต่อฝ่ายสนับสนุน Rainbow เพื่อขอความช่วยเหลือ."
@@ -1329,7 +1441,8 @@
         "view_weekly_earnings_title": "การนับคะแนนที่ได้รับ",
         "view_weekly_earnings_counted": "การนับรายได้รายสัปดาห์",
         "view_weekly_earnings_close_button": "ปิด",
-        "view_weekly_earnings_retroactive_points": "คะแนนย้อนหลัง",
+        "view_weekly_earnings_retroactive_points": "Retroactive Points",
+        "view_weekly_earnings_bonus_points": "Bonus Points",
         "view_weekly_earnings_activity": "กิจกรรมของคุณ",
         "view_weekly_earnings_referral_activity": "กิจกรรมการอ้างอิง",
         "view_weekly_earnings_total_earnings": "ทั้งหมด",
@@ -1700,16 +1813,35 @@
       "no_thanks": "ไม่ ขอบคุณ"
     },
     "settings": {
-      "backup": "สำรอง",
+      "backup": "Wallets & Backup",
+      "delete_backups": "Delete All %{cloudPlatform} Backups",
+      "confirm_delete_backups": "Confirm and Delete Backups",
+      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
+      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
       "google_account_used": "บัญชี Google ที่ใช้สำหรับการสำรองข้อมูล",
       "backup_switch_google_account": "สลับบัญชี Google",
       "backup_sign_out": "ลงชื่อออก",
       "backup_sign_in": "ลงชื่อเข้าใช้",
       "backup_loading": "กำลังโหลด...",
       "backup_google_account": "บัญชี Google",
-      "currency": "สกุลเงิน",
+      "currency": {
+        "title": "Currency",
+        "ETH": "อีเธอเรียม",
+        "USD": "United States Dollar",
+        "EUR": "Euro",
+        "GBP": "British Pound",
+        "AUD": "Australian Dollar",
+        "CNY": "Chinese Yuan",
+        "KRW": "South Korean Won",
+        "JPY": "Japanese Yen",
+        "RUB": "Russian Ruble",
+        "INR": "Indian Rupee",
+        "TRY": "Turkish Lira",
+        "CAD": "Canadian Dollar",
+        "NZD": "New Zealand Dollar",
+        "ZAR": "South African Rand"
+      },
       "app_icon": "ไอคอนแอป",
-      "dev": "ผู้พัฒนา",
       "developer": "การตั้งค่าของผู้พัฒนา",
       "done": "เสร็จสิ้น",
       "feedback_and_reports": "ข้อเสนอแนะและรายงานข้อผิดพลาด",
@@ -1784,6 +1916,22 @@
       "too_many_signup_request": "คำขอสมัครเยอะเกินไป, โปรดลองอีกครั้งในภายหลัง"
     },
     "swap": {
+      "aggregators": {
+        "rainbow": "Rainbow"
+      },
+      "tokens_input": {
+        "tokens": "Tokens",
+        "sort": "Sort",
+        "available": "available",
+        "token_balance": "Token Balance",
+        "networks": "เครือข่าย",
+        "filter_by_network": "Filter by Network",
+        "switch_networks": "Switch Networks",
+        "nothing_found": "ไม่พบอะไร",
+        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
+        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
+        "output_quotes_disabled": "Output quotes disabled"
+      },
       "choose_token": "เลือก Token",
       "gas": {
         "custom": "กำหนดเอง",
@@ -1805,6 +1953,7 @@
         "withdraw": "ถอน",
         "withdraw_symbol": "ถอน %{symbol}"
       },
+      "unknown": "Unknown",
       "warning": {
         "cost": {
           "are_you_sure_title": "คุณแน่ใจหรือไม่?",
@@ -1825,6 +1974,15 @@
         }
       }
     },
+    "token_search": {
+      "section_header": {
+        "favorites": "รายการโปรด",
+        "bridge": "สะพาน",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "on_other_networks": "On other networks"
+      }
+    },
     "transactions": {
       "actions": {
         "addToContacts": "เพิ่มเป็นผู้ติดต่อ",
@@ -1837,35 +1995,139 @@
       "pending_title": "รอดำเนินการ",
       "dropped_title": "ถูกยกเลิก",
       "type": {
-        "approved": "ได้รับการอนุมัติ",
-        "approving": "การอนุมัติ",
-        "bridging": "การเชื่อมต่อ",
-        "bridged": "สะพาน",
-        "cancelled": "ถูกยกเลิก",
-        "cancelling": "กำลังยกเลิก",
-        "contract interaction": "การทำงานร่วมกับสัญญา",
-        "deposited": "ฝากแล้ว",
-        "depositing": "กำลังฝาก",
-        "dropped": "ถูกยกเลิก",
-        "failed": "ล้มเหลว",
-        "purchased": "ซื้อแล้ว",
-        "purchasing": "กำลังซื้อ",
-        "minting": "การสร้างจำลอง",
-        "minted": "สร้าง",
-        "received": "ได้รับ",
-        "receiving": "กำลังรับ",
-        "self": "ตัวเอง",
-        "sending": "การส่ง",
-        "sent": "ส่ง",
-        "speeding up": "เร่งความเร็ว",
-        "selling": "ขาย",
-        "sold": "ขายแล้ว",
-        "swapped": "แลกเปลี่ยน",
-        "swapping": "กำลังแลกเปลี่ยน",
-        "unknown": "ไม่ทราบ",
-        "withdrawing": "กำลังถอน",
-        "withdrew": "ถอนแล้ว"
+        "savings": "เงินออม",
+        "cancelled": "Transaction Cancelled",
+        "burn": {
+          "pending": "Burning",
+          "confirmed": "Burned",
+          "failed": "Burn Failed"
+        },
+        "cancel": {
+          "pending": "Cancelling",
+          "confirmed": "Cancelled",
+          "failed": "Cancel Failed"
+        },
+        "speed_up": {
+          "pending": "Speeding Up",
+          "confirmed": "Sped Up",
+          "failed": "Speed Up Failed"
+        },
+        "send": {
+          "pending": "การส่ง",
+          "confirmed": "ส่ง",
+          "failed": "Send Failed"
+        },
+        "receive": {
+          "pending": "",
+          "confirmed": "ได้รับ",
+          "failed": ""
+        },
+        "withdraw": {
+          "pending": "Withdrawing",
+          "confirmed": "Withdrew",
+          "failed": "Withdraw Failed"
+        },
+        "deposit": {
+          "pending": "Depositing",
+          "confirmed": "Deposited",
+          "failed": "Deposit Failed"
+        },
+        "mint": {
+          "pending": "Minting",
+          "confirmed": "สร้าง",
+          "failed": "Mint Failed"
+        },
+        "approve": {
+          "pending": "Approving",
+          "confirmed": "ได้รับการอนุมัติ",
+          "failed": "Approve Failed"
+        },
+        "contract_interaction": {
+          "pending": "Interaction Pending",
+          "confirmed": "Interacted",
+          "failed": "Interaction Failed"
+        },
+        "swap": {
+          "pending": "Swapping",
+          "confirmed": "แลกเปลี่ยน",
+          "failed": "Swap Failed"
+        },
+        "borrow": {
+          "pending": "Borrowing",
+          "confirmed": "Borrowed",
+          "failed": "Borrow Failed"
+        },
+        "claim": {
+          "pending": "Claiming",
+          "confirmed": "Claimed",
+          "failed": "Claim Failed"
+        },
+        "deployment": {
+          "pending": "Deploying",
+          "confirmed": "Deployed",
+          "failed": "Deploy Failed"
+        },
+        "repay": {
+          "pending": "Repaying",
+          "confirmed": "Repayed",
+          "failed": "Repay Failed"
+        },
+        "stake": {
+          "pending": "Staking",
+          "confirmed": "Staked",
+          "failed": "Stake Failed"
+        },
+        "unstake": {
+          "pending": "Unstaking",
+          "confirmed": "Unstaked",
+          "failed": "Unstake Failed"
+        },
+        "purchase": {
+          "pending": "Purchasing",
+          "confirmed": "ซื้อแล้ว",
+          "failed": "การซื้อไม่สำเร็จ"
+        },
+        "revoke": {
+          "pending": "Revoking",
+          "confirmed": "Revoked",
+          "failed": "Revoke Failed"
+        },
+        "sale": {
+          "pending": "ขาย",
+          "confirmed": "ขายแล้ว",
+          "failed": "Sale Failed"
+        },
+        "bridge": {
+          "pending": "Bridging",
+          "confirmed": "สะพาน",
+          "failed": "Bridge Failed"
+        },
+        "airdrop": {
+          "pending": "",
+          "confirmed": "Airdropped",
+          "failed": ""
+        },
+        "wrap": {
+          "pending": "Wrapping",
+          "confirmed": "Wrapped",
+          "failed": "Wrap Failed"
+        },
+        "unwrap": {
+          "pending": "Unwrapping",
+          "confirmed": "Unwrapped",
+          "failed": "Unwrap Failed"
+        },
+        "bid": {
+          "pending": "Bidding",
+          "confirmed": "Bid",
+          "failed": "Bid Failed"
+        }
       },
+      "approvals": {
+        "no_allowance": "No Allowance",
+        "unlimited": "ไม่ จำกัด"
+      },
+      "no_value": "No value",
       "savings": "เงินออม",
       "signed": "ลงนามแล้ว",
       "contract_interaction": "การทำงานร่วมกับสัญญา",
@@ -1877,6 +2139,7 @@
       "to": "ถึง",
       "value": "มูลค่า",
       "hash": "Tx Hash",
+      "you": "You",
       "network_fee": "ค่าธรรมเนียมเครือข่าย",
       "hash_copied": "􀁣 คัดลอกฮาชธุรกรรมแล้ว",
       "address_copied": "􀁣 คัดลอกที่อยู่แล้ว",
@@ -1960,6 +2223,9 @@
       "copied": "คัดลอก \"%{copiedText}\"",
       "invalid_paste": "คุณไม่สามารถวางอย่างนี้ที่นี่"
     },
+    "tokens_tab": {
+      "unknown_token": "โทเคนที่ไม่รู้จัก"
+    },
     "hardware_wallets": {
       "pair_your_nano": "จับคู่ Nano X ของคุณ",
       "connect_your_ledger": "เชื่อมต่อ Ledger Nano X ของคุณกับ Rainbow ผ่าน Bluetooth หากนี่เป็นครั้งแรกของคุณ Rainbow จะขออนุญาตใช้ Bluetooth",
@@ -2015,6 +2281,8 @@
         "delete_confirm": "คุณแน่ใจหรือว่าต้องการลบกระเป๋าเงินนี้?",
         "edit": "แก้ไขกระเป๋าเงิน",
         "hide": "ซ่อน",
+        "create_wallet_group": "Create Group",
+        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
         "import_wallet": "เพิ่มกระเป๋าเงิน",
         "input": "รายการที่ทำธุรกรรม",
         "notifications": {
@@ -2112,15 +2380,31 @@
         "please_seed_phrase": "กรุณาตรวจสอบสิทธิ์เพื่อดูคีย์ส่วนตัว"
       },
       "back_ups": {
-        "and_1_more_wallet": "และวอลเล็ตอีก 1 ตัว",
+        "wallet_count": "%{numAccounts} wallet",
+        "wallet_count_gt_one": "%{numAccounts} wallets",
         "and_more_wallets": "และ %{moreWalletCount} วอลเล็ตอื่น ๆ",
+        "create_new_wallet": "Create a New Wallet",
+        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
         "backed_up": "สำรองข้อมูลแล้ว",
         "backed_up_manually": "สำรองข้อมูลด้วยตนเอง",
-        "imported": "นำเข้า"
+        "imported": "นำเข้า",
+        "cloud_backup_title": "Cloud Backup",
+        "not_backed_up": "ยังไม่ได้สำรองข้อมูล",
+        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
+        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
+        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
+        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
+        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_link": "Learn more…",
+        "view_secret_phrase": "View Secret Phrase",
+        "view_private_key": "View Private Key",
+        "copy_wallet_address": "Copy wallet address"
       },
       "balance_title": "ยอดคงเหลือ",
       "buy": "ซื้อ",
       "change_wallet": {
+        "no_balance": "No Balance",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "กำลังรับชม",
         "ledger": "เลเจอร์"
@@ -2197,9 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_android": "หากคุณได้สำรองกระเป๋าสตางค์ของคุณบน Google Drive ในอดีต แตะที่นี่เพื่อคืนค่ามัน",
-              "description_ios_one_wallet": "คุณมีกระเป๋าสตางค์ที่ถูกสำรองไว้ 1 กระเป๋าสตางค์",
-              "description_ios_multiple_wallets": "คุณมี %{walletCount} กระเป๋าสตางค์ที่ถูกสำรองไว้",
+              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
+              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
               "title": "คืนค่าจาก %{platform}",
               "no_backups": "ไม่พบการสำรองข้อมูล",
               "no_google_backups": "เราไม่พบการสำรองข้อมูลใดๆ บน Google Drive ตรวจสอบว่าคุณได้เข้าสู่ระบบด้วยบัญชีที่ถูกต้อง"
@@ -2213,12 +2496,12 @@
               "title": "เชื่อมต่อกระเป๋าเงินฮาร์ดแวร์ของคุณ"
             },
             "seed": {
-              "description": "ใช้วลีการกู้คืนของคุณจากระเป๋าเงิน Rainbow หรือกระเป๋าเงิน crypto อื่น ๆ",
-              "title": "กู้คืนด้วยวลีการกู้คืนหรือคีย์ส่วนตัว"
+              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
+              "title": "Import a Secret Phrase or Private Key"
             },
             "watch": {
-              "description": "ดูที่อยู่สาธารณะหรือชื่อ ENS",
-              "title": "ดูที่อยู่ Ethereum"
+              "description": "Watch an ENS name or a public address",
+              "title": "Watch a wallet"
             }
           },
           "first_wallet": {
@@ -2331,7 +2614,7 @@
           "insufficient_funds": "โอโห! ราคาแก๊สเปลี่ยนและคุณไม่มีเงินเพียงพอสำหรับการทำธุรกรรมนี้แล้ว โปรดลองอีกครั้งด้วยจำนวนที่ต่ำกว่า",
           "generic": "โอโห! มีปัญหาในการส่งการทำธุรกรรม โปรดลองอีกครั้ง"
         },
-        "complete_checks": "ตรวจสอบความสมบูรณ์",
+        "complete_check": "Complete check",
         "ens_configuration_options": "ตัวเลือกการกำหนดค่า ENS",
         "confirm": "ยืนยันธุรกรรม",
         "max": "สูงสุด",
@@ -2369,6 +2652,7 @@
       }
     },
     "walletconnect": {
+      "requests": "Requests",
       "wants_to_connect": "ต้องการเชื่อมต่อกับกระเป๋าสตางค์ของคุณ",
       "wants_to_connect_to_network": "ต้องการเชื่อมต่อกับเครือข่าย %{network}",
       "available_networks": "เครือข่ายที่ใช้ได้",
@@ -2414,6 +2698,7 @@
       },
       "menu_options": {
         "disconnect": "ยกเลิกการเชื่อมต่อ",
+        "connect": "เชื่อมต่อ",
         "switch_wallet": "เปลี่ยน Wallet",
         "switch_network": "เปลี่ยนเครือข่าย",
         "available_networks": "เครือข่ายที่ใช้ได้"
@@ -2516,6 +2801,54 @@
     "warning": {
       "user_is_offline": "การเชื่อมต่อออฟไลน์ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ",
       "user_is_online": "เชื่อมต่อแล้ว! คุณกลับไปออนไลน์อีกครั้ง"
+    },
+    "dapp_browser": {
+      "address_bar": {
+        "input_placeholder": "Search or enter website"
+      },
+      "control_panel": {
+        "connected": "Connected",
+        "not_connected": "Not Connected",
+        "switch_wallet": "สลับกระเป๋าสตางค์",
+        "switch_network": "สลับเครือข่าย",
+        "disconnect": "ยกเลิกการเชื่อมต่อ",
+        "favorite": "Favorite",
+        "undo_favorite": "Undo",
+        "connect": "เชื่อมต่อ",
+        "swap": "สลับ",
+        "bridge": "สะพาน",
+        "more": "เพิ่มเติม"
+      },
+      "error": {
+        "title": "มีบางอย่างผิดพลาด",
+        "default_msg": "There was an error loading the page. Please try again."
+      },
+      "no_wc_needed": {
+        "title": "อุ๊ย!",
+        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "cta": "รับทราบ"
+      },
+      "provider_error": {
+        "unsupported_chain": "Unsupported Chain",
+        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+      },
+      "homepage": {
+        "trending": "Trending",
+        "recents": "Recents",
+        "favorites": "รายการโปรด"
+      },
+      "search": {
+        "find_apps_and_more": "Find apps and more",
+        "more_results": "More Results",
+        "search": "ค้นหา"
+      },
+      "menus": {
+        "favorite": "Favorite",
+        "undo_favorite": "Undo Favorite",
+        "remove": "ลบ",
+        "forward": "Forward",
+        "back": "ย้อนกลับ"
+      }
     }
   }
 }
