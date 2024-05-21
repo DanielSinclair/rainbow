@@ -91,7 +91,10 @@
         "no_backups_found": "前回のバックアップが見つかりませんでした！",
         "cant_get_encrypted_data": "現在、バックアップにアクセスできません。後でもう一度お試しください。",
         "missing_pin": "PINコードの処理中に何か問題が発生しました。後でもう一度お試しください。",
-        "generic": "バックアップを試みる際にエラーが発生しました。エラーコード： %{errorCodes}"
+        "generic": "バックアップを試みる際にエラーが発生しました。エラーコード： %{errorCodes}",
+        "no_keys_found": "No keys found. Please try again.",
+        "backup_not_found": "Backup not found. Please try again.",
+        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
       },
       "wrong_pin": "入力したPINコードが正しくないため、バックアップを作成できません。正しいコードで再試行してください。",
       "already_backed_up": {
@@ -101,17 +104,56 @@
         "imported": "インポート済み",
         "imported_message": "ウォレットはインポートされました"
       },
+      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
+      "wallet_group_title_singular": "Wallet Group",
+      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "private_key_singluar": "プライベートキー",
       "backup_deleted_successfully": "バックアップは正常に削除されました",
       "cloud": {
+        "no_backups": "バックアップが見つかりません",
+        "failed_to_fetch_backups": "Failed to fetch backups",
+        "retry": "Retry",
+        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
         "back_up_to_platform": "%{cloudPlatformName}にバックアップ",
-        "manage_platform_backups": "%{cloudPlatformName} のバックアップを管理",
+        "restore_from_platform": "%{cloudPlatformName}から復元する",
+        "restoration_in_progress": "Restoration in progress",
+        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
+        "manage_platform_backups": "View %{cloudPlatformName} Backups",
+        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
+        "cloud_backup": "Cloud Backup",
+        "backing_up": "Backing up...",
+        "backup_success": "Back up Successful",
+        "backup_failed": "Backup Failed",
+        "manual_backup": "Manual backup",
+        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
+        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
+        "enable_cloud_backups": "Enable Cloud Backups",
+        "mayber_later": "後で",
+        "recommended_for_beginners": "Recommended for beginners.",
+        "choose_backup": "Choose the backup you’d like to restore",
+        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
+        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
+        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
+        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
+        "latest_backup": "Last Backup: %{date}",
+        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
+        "most_recent_backup": "Most Recent Backup",
+        "out_of_date": "Out of Date",
+        "up_to_date": "Up to Date",
+        "older_backups": "Older Backups",
+        "no_older_backups": "No Older Backups",
+        "older_backups_title": "%{date} at %{time}",
         "password": {
-          "a_password_youll_remember": "覚えやすいパスワードを使用してください",
-          "backup_password": "バックアップパスワード",
-          "choose_a_password": "パスワードを選択してください",
+          "a_password_youll_remember_part_one": "This password is",
+          "not": "not",
+          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "backup_password": "パスワード",
+          "choose_a_password": "Create a password to secure your backup",
           "confirm_backup": "バックアップの確認",
+          "enter_backup_password": "Enter your backup password",
+          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
           "confirm_password": "パスワードの確認",
-          "confirm_placeholder": "パスワードの確認",
+          "confirm_placeholder": "Reenter Password",
           "it_cant_be_recovered": "回復することはできません！",
           "minimum_characters": "最小 %{minimumLength} 文字",
           "passwords_dont_match": "パスワードが一致しません",
@@ -133,22 +175,31 @@
       },
       "explainers": {
         "backup": "このパスワードを忘れないでください！あなたの %{cloudPlatformName} パスワードとは別で、安全な場所に保管してください。\n\nこれは将来、バックアップからウォレットを復元するために必要です。",
+        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
         "if_lose_cloud": "このデバイスを紛失した場合、暗号化されたウォレットのバックアップを %{cloudPlatformName}から回復することができます。",
         "if_lose_imported": "このデバイスを紛失した場合、元々インポートしたキーでウォレットを復元することができます。",
         "if_lose_manual": "このデバイスを紛失した場合、保存した秘密フレーズでウォレットを復元することができます。"
       },
       "manual": {
-        "label": "秘密フレーズ",
+        "backup_manually": "Back Up Manually",
+        "label": "Save your %{typeName}",
+        "with_your_label": "Your %{typeName}",
+        "backup_manually_now": "Would you like to back up this wallet?",
+        "back_up_now": "Back Up Now",
+        "already_backed_up": "Already backed up",
         "pkey": {
-          "confirm_save": "キーを保存しました",
+          "confirm_save": "􀆅 I've saved my key",
           "save_them": "コピーしてパスワードマネージャーまたは別の安全な場所に保存してください。",
-          "these_keys": "これがウォレットのキーです！"
+          "these_keys": "これがウォレットのキーです！",
+          "description": "Anyone who has this key can access your wallet! You should never share it."
         },
         "seed": {
-          "confirm_save": "これらの単語を保存しました",
+          "confirm_save": "􀆅 I've saved these words",
           "save_them": "書き留めるかパスワードマネージャーに保存してください。",
-          "these_keys": "これらの単語はウォレットのキーです！"
-        }
+          "these_keys": "これらの単語はウォレットのキーです！",
+          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+        },
+        "create_new_secret_phrase": "Create a New Secret Phrase"
       },
       "needs_backup": {
         "back_up_your_wallet": "ウォレットのバックアップ",
@@ -169,7 +220,7 @@
         "anyone_who_has_these": "これらの単語を持っている人は、あなたのウォレット全体にアクセスできます！",
         "biometrically_secured": "バイオメトリクス（指紋や顔認識など）であなたのアカウントが保護されています。リカバリーフレーズを表示するには、携帯電話の設定でバイオメトリクスをオンにしてください。",
         "no_seed_phrase": "シードフレーズを取得できませんでした。指紋や顔認識などのバイオメトリクスデータを正しく認証したか、PINコードを正しく入力したか確認してください。",
-        "copy_to_clipboard": "クリップボードにコピー",
+        "copy_to_clipboard": "Copy to Clipboard",
         "for_your_eyes_only": "あなたの目だけに",
         "private_key_title": "プライベートキー",
         "secret_phrase_title": "シークレットフレーズ",
@@ -177,6 +228,15 @@
         "view_private_key": "プライベートキーを表示する",
         "view_secret_phrase": "シークレットフレーズを表示する",
         "you_need_to_authenticate": "リカバリー %{typeName}にアクセスするために認証が必要です"
+      },
+      "warning": {
+        "before_you_proceed": "Before you proceed",
+        "title": "View your %{typeName}",
+        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
+        "access": "Anyone who has your %{typeName} can access your entire wallet.",
+        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
+        "support": "Rainbow Support will never ask you for your %{typeName}.",
+        "button": "􀎽 Show %{typeName}"
       }
     },
     "bluetooth": {
@@ -483,6 +543,9 @@
         "view_on": "%{blockExplorerName}で表示する",
         "view_on_etherscan": "Etherscanで見る"
       },
+      "all_networks": "All Networks",
+      "filter_by_network": "Filter by Network",
+      "my_tokens": "My Tokens",
       "flip": "フリップ",
       "max": "最大",
       "movers": {
@@ -501,10 +564,32 @@
         "nothing_here": "ここには何もありません！",
         "nothing_to_send": "送るものがありません"
       },
+      "quote_errors": {
+        "501": "見積もりは利用できません",
+        "no_quote_available": "見積もりは利用できません",
+        "502": "Insufficient liquidity",
+        "insufficient_liquidity": "Insufficient liquidity",
+        "503": "トランスファートークンの手数料",
+        "fee_on_transfer": "トランスファートークンの手数料",
+        "504": "No route found",
+        "no_route_found": "No route found"
+      },
       "price_impact": {
+        "long_wait": {
+          "title": "Long wait",
+          "description": "Approx. %{time}"
+        },
+        "unknown_price": {
+          "title": "Market Value Unknown",
+          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+        },
         "losing_prefix": "損失中",
         "small_market": "小さな市場",
-        "label": "可能な損失"
+        "small_market_try_smaller_amount": "Small market — try a smaller amount",
+        "you_are_losing": "You're losing %{priceImpact}",
+        "no_data": "Market Value Unknown",
+        "label": "可能な損失",
+        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
       },
       "source": {
         "rainbow": "自動",
@@ -677,11 +762,14 @@
         "registrant": "登録者",
         "resolver": "リゾルバ",
         "save_to_photos": "写真に保存",
+        "sell_for_x": "Sell for %{price}",
         "set_primary_name": "私のENS名として設定",
         "share_token_info": "情報共有 %{uniqueTokenName}",
         "showcase": "ショーケース",
         "toast_added_to_showcase": "ショーケースに追加されました",
         "toast_removed_from_showcase": "ショーケースから削除されました",
+        "refreshing": "Refreshing metadata...",
+        "reported": "Reported as spam",
         "twitter": "Twitter",
         "view_all_with_property": "プロパティですべて表示",
         "view_collection": "コレクションを表示",
@@ -691,30 +779,37 @@
         "view_on_platform": "%{platform}で表示",
         "view_on_web": "ウェブで表示する",
         "refresh": "メタデータを更新する",
+        "report": "Report as Spam",
         "hide": "非表示",
         "unhide": "表示する"
       }
     },
+    "app_icon_unlock_sheet": {
+      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
+      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
+      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
+      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
+      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
+      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
+      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
+      "finiliar_title": "You've unlocked a\nRainbow Fini",
+      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
+      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
+      "pooly_title": "You've unlocked a\nRainbow Pooly",
+      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
+      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
+      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
+      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
+      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
+      "adworld_title": "Welcome to Rainbow World!",
+      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
+      "farcaster_title": "You've unlocked\nRainbowcast",
+      "button": "Snag the icon"
+    },
     "explain": {
-      "icon_unlock": {
-        "smol_text": "宝物を見つけました！ Smolverse NFTを所有しているので、カスタムアイコンがロック解除されました！",
-        "optimism_text": "Optimism上のNTFsを祝して、RainbowとOptimismが協力して、限定版のAppアイコンをリリースしました。あなたのような楽観的な冒険家のために！",
-        "zora_text": "魔法の考えに向けられた特別なRainbow Zorbのアイコンです。",
-        "finiliar_text": "ガソリンの価格をいつでも最新の状態に保つ特別なRainbow Finiアイコンです。",
-        "finiliar_title": "\nRainbow Finiがロック解除されました",
-        "golddoge_text": "カボスの17歳の誕生日を祝って、限定版のゴールデンRainbowアプリアイコンです。",
-        "raindoge_text": "カボスの17歳の誕生日を祝って、限定版のRainbowアプリアイコンです。",
-        "pooly_text": "自由の支持者のための特別なRainbow Poolyアイコンです。",
-        "pooly_title": "\nRainbow Poolyがロック解除されました",
-        "zorb_text": "\n双方が速くて効率的な特別なRainbow Zorbです。",
-        "zorb_title": "\nRainbow Zorbエネルギーがロック解除されました！",
-        "poolboy_text": "オンチェーンの夏のための特別なエディション、レインボーxプールスイートアイコンです。",
-        "poolboy_title": "\nレインボー Poolboyをアンロックしました！",
-        "adworld_text": "あなたは雨虹世界市民として、特別版の\nAdWorld x Rainbowアプリアイコンを解除できるようになりました。",
-        "adworld_title": "Rainbow Worldへようこそ！",
-        "title": "\nレインボー 􀆄 %{partner}をアンロックしました！",
-        "button": "アイコンをゲット"
-      },
       "output_disabled": {
         "text": "%{fromNetwork}のために、レインボーは %{outputToken} の量に基づいてスワップを準備することはできません。 \n\n の代わりにスワップしたい %{inputToken} の量を入力してみてください。",
         "title": "代わりに %{inputToken} を入力してください",
@@ -731,6 +826,9 @@
       "arbitrum": {
         "text": "Arbitrum は Ethereum の上で動作するレイヤー 2 ネットワークであり、より安価で高速なトランザクションを可能にします。それでいて Ethereum の基盤となるセキュリティの恩恵も受けられます。\n\nは、トランザクションを Ethereum に送る前にそれらを「ロールアップ」して束ね、永久的に生き残らせます。",
         "title": "Arbitrum とは何ですか？"
+      },
+      "add_to_backups": {
+        "title": "Backing up %{walletName}"
       },
       "backup": {
         "title": "重要"
@@ -781,7 +879,19 @@
       },
       "base": {
         "text": "ベースはEthereumの上で動作するLayer 2ネットワークであり、より安価で高速なトランザクションを実現しながら、Ethereumの基礎的なセキュリティの恩恵も受けます。\n\nロールアップでトランザクションをまとめてから、それらを永久的にEthereum上に送信します。",
-        "title": "ベースとは"
+        "title": "What's Base?"
+      },
+      "avalanche": {
+        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
+        "title": "What's Avalanche"
+      },
+      "degen": {
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
+        "title": "What's Degen Chain?"
+      },
+      "blast": {
+        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "title": "What's Blast?"
       },
       "zora": {
         "text": "ZoraはEthereumの上で動作するLayer 2ネットワークであり、より安価で高速なトランザクションを実現しながら、Ethereumの基礎的なセキュリティの恩恵も受けます。\n\nロールアップでトランザクションをまとめてから、それらを永久的にEthereum上に送信します。",
@@ -906,6 +1016,7 @@
       }
     },
     "gas": {
+      "gas_settings": "Gas Settings",
       "card": {
         "falling": "下降中",
         "rising": "上昇",
@@ -1091,7 +1202,7 @@
             "manual": "手動でバックアップする"
           },
           "description": "財布を失わないでください！暗号化されたコピーを %{cloudPlatformName}に保存してください",
-          "title": "ウォレットのバックアップ"
+          "title": "How would you like to back up your wallet?"
         },
         "existing": {
           "button": {
@@ -1214,6 +1325,7 @@
         "offer_expired": "オファーの有効期限切れ",
         "expired": "期限切れ",
         "hold_to_sell": "売却するために保持する",
+        "selling": "販売",
         "error": {
           "title": "NFTの売却中にエラーが発生しました",
           "message": "サポートにご連絡ください。"
@@ -1329,7 +1441,8 @@
         "view_weekly_earnings_title": "獲得ポイントの集計",
         "view_weekly_earnings_counted": "週間収益が集計されました",
         "view_weekly_earnings_close_button": "閉じる",
-        "view_weekly_earnings_retroactive_points": "遡及ポイント",
+        "view_weekly_earnings_retroactive_points": "Retroactive Points",
+        "view_weekly_earnings_bonus_points": "Bonus Points",
         "view_weekly_earnings_activity": "あなたのアクティビティ",
         "view_weekly_earnings_referral_activity": "紹介アクティビティ",
         "view_weekly_earnings_total_earnings": "合計",
@@ -1700,16 +1813,35 @@
       "no_thanks": "いいえ、結構です"
     },
     "settings": {
-      "backup": "Backup",
+      "backup": "Wallets & Backup",
+      "delete_backups": "Delete All %{cloudPlatform} Backups",
+      "confirm_delete_backups": "Confirm and Delete Backups",
+      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
+      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
       "google_account_used": "Google account used for backups",
       "backup_switch_google_account": "Switch Google Account",
       "backup_sign_out": "Sign out",
       "backup_sign_in": "Sign in",
       "backup_loading": "読み込み中...",
       "backup_google_account": "Google Account",
-      "currency": "Currency",
+      "currency": {
+        "title": "Currency",
+        "ETH": "イーサリアム",
+        "USD": "United States Dollar",
+        "EUR": "Euro",
+        "GBP": "British Pound",
+        "AUD": "Australian Dollar",
+        "CNY": "Chinese Yuan",
+        "KRW": "South Korean Won",
+        "JPY": "Japanese Yen",
+        "RUB": "Russian Ruble",
+        "INR": "Indian Rupee",
+        "TRY": "Turkish Lira",
+        "CAD": "Canadian Dollar",
+        "NZD": "New Zealand Dollar",
+        "ZAR": "South African Rand"
+      },
       "app_icon": "App Icon",
-      "dev": "Dev",
       "developer": "Developer Settings",
       "done": "完了",
       "feedback_and_reports": "Feedback & Bug Reports",
@@ -1784,6 +1916,22 @@
       "too_many_signup_request": "登録リクエストが多すぎるため、後でもう一度お試しください"
     },
     "swap": {
+      "aggregators": {
+        "rainbow": "Rainbow"
+      },
+      "tokens_input": {
+        "tokens": "Tokens",
+        "sort": "Sort",
+        "available": "available",
+        "token_balance": "Token Balance",
+        "networks": "ネットワーク",
+        "filter_by_network": "Filter by Network",
+        "switch_networks": "Switch Networks",
+        "nothing_found": "何も見つかりません",
+        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
+        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
+        "output_quotes_disabled": "Output quotes disabled"
+      },
       "choose_token": "トークンを選択してください",
       "gas": {
         "custom": "カスタム",
@@ -1805,6 +1953,7 @@
         "withdraw": "引き出す",
         "withdraw_symbol": "%{symbol}を引き出す"
       },
+      "unknown": "Unknown",
       "warning": {
         "cost": {
           "are_you_sure_title": "確認しますか？",
@@ -1825,6 +1974,15 @@
         }
       }
     },
+    "token_search": {
+      "section_header": {
+        "favorites": "お気に入り",
+        "bridge": "ブリッジ",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "on_other_networks": "On other networks"
+      }
+    },
     "transactions": {
       "actions": {
         "addToContacts": "連絡先に追加",
@@ -1837,35 +1995,139 @@
       "pending_title": "保留中",
       "dropped_title": "落ちた",
       "type": {
-        "approved": "承認済み",
-        "approving": "承認中",
-        "bridging": "ブリッジング",
-        "bridged": "ブリッジ済み",
-        "cancelled": "キャンセル済み",
-        "cancelling": "キャンセル中",
-        "contract interaction": "契約の対話",
-        "deposited": "預けた",
-        "depositing": "預ける",
-        "dropped": "落ちた",
-        "failed": "失敗",
-        "purchased": "購入済み",
-        "purchasing": "購入",
-        "minting": "ミント",
-        "minted": "発行済み",
-        "received": "受信済み",
-        "receiving": "受け取り",
-        "self": "自分自身",
-        "sending": "送信中",
-        "sent": "送信済み",
-        "speeding up": "スピードアップ",
-        "selling": "販売",
-        "sold": "売却済み",
-        "swapped": "スワップ済み",
-        "swapping": "交換",
-        "unknown": "不明",
-        "withdrawing": "撤退",
-        "withdrew": "撤退した"
+        "savings": "貯蓄",
+        "cancelled": "Transaction Cancelled",
+        "burn": {
+          "pending": "Burning",
+          "confirmed": "Burned",
+          "failed": "Burn Failed"
+        },
+        "cancel": {
+          "pending": "Cancelling",
+          "confirmed": "Cancelled",
+          "failed": "Cancel Failed"
+        },
+        "speed_up": {
+          "pending": "Speeding Up",
+          "confirmed": "Sped Up",
+          "failed": "Speed Up Failed"
+        },
+        "send": {
+          "pending": "送信中",
+          "confirmed": "送信済み",
+          "failed": "Send Failed"
+        },
+        "receive": {
+          "pending": "",
+          "confirmed": "受信済み",
+          "failed": ""
+        },
+        "withdraw": {
+          "pending": "Withdrawing",
+          "confirmed": "Withdrew",
+          "failed": "Withdraw Failed"
+        },
+        "deposit": {
+          "pending": "Depositing",
+          "confirmed": "Deposited",
+          "failed": "Deposit Failed"
+        },
+        "mint": {
+          "pending": "Minting",
+          "confirmed": "発行済み",
+          "failed": "Mint Failed"
+        },
+        "approve": {
+          "pending": "Approving",
+          "confirmed": "承認済み",
+          "failed": "Approve Failed"
+        },
+        "contract_interaction": {
+          "pending": "Interaction Pending",
+          "confirmed": "Interacted",
+          "failed": "Interaction Failed"
+        },
+        "swap": {
+          "pending": "Swapping",
+          "confirmed": "スワップ済み",
+          "failed": "Swap Failed"
+        },
+        "borrow": {
+          "pending": "Borrowing",
+          "confirmed": "Borrowed",
+          "failed": "Borrow Failed"
+        },
+        "claim": {
+          "pending": "Claiming",
+          "confirmed": "Claimed",
+          "failed": "Claim Failed"
+        },
+        "deployment": {
+          "pending": "Deploying",
+          "confirmed": "Deployed",
+          "failed": "Deploy Failed"
+        },
+        "repay": {
+          "pending": "Repaying",
+          "confirmed": "Repayed",
+          "failed": "Repay Failed"
+        },
+        "stake": {
+          "pending": "Staking",
+          "confirmed": "Staked",
+          "failed": "Stake Failed"
+        },
+        "unstake": {
+          "pending": "Unstaking",
+          "confirmed": "Unstaked",
+          "failed": "Unstake Failed"
+        },
+        "purchase": {
+          "pending": "Purchasing",
+          "confirmed": "購入済み",
+          "failed": "購入に失敗しました"
+        },
+        "revoke": {
+          "pending": "Revoking",
+          "confirmed": "Revoked",
+          "failed": "Revoke Failed"
+        },
+        "sale": {
+          "pending": "販売",
+          "confirmed": "売却済み",
+          "failed": "Sale Failed"
+        },
+        "bridge": {
+          "pending": "Bridging",
+          "confirmed": "ブリッジ済み",
+          "failed": "Bridge Failed"
+        },
+        "airdrop": {
+          "pending": "",
+          "confirmed": "Airdropped",
+          "failed": ""
+        },
+        "wrap": {
+          "pending": "Wrapping",
+          "confirmed": "Wrapped",
+          "failed": "Wrap Failed"
+        },
+        "unwrap": {
+          "pending": "Unwrapping",
+          "confirmed": "Unwrapped",
+          "failed": "Unwrap Failed"
+        },
+        "bid": {
+          "pending": "Bidding",
+          "confirmed": "Bid",
+          "failed": "Bid Failed"
+        }
       },
+      "approvals": {
+        "no_allowance": "No Allowance",
+        "unlimited": "無制限"
+      },
+      "no_value": "No value",
       "savings": "貯蓄",
       "signed": "署名済み",
       "contract_interaction": "契約相互作用",
@@ -1877,6 +2139,7 @@
       "to": "宛先",
       "value": "価値",
       "hash": "トランザクションハッシュ",
+      "you": "You",
       "network_fee": "ネットワーク手数料",
       "hash_copied": "􀁣 トランザクションハッシュがコピーされました",
       "address_copied": "􀁣 アドレスがコピーされました",
@@ -1960,6 +2223,9 @@
       "copied": "「%{copiedText}」をコピーしました",
       "invalid_paste": "ここには貼り付けできません"
     },
+    "tokens_tab": {
+      "unknown_token": "不明なトークン"
+    },
     "hardware_wallets": {
       "pair_your_nano": "Nano Xをペアリングしてください",
       "connect_your_ledger": "Bluetooth経由でLedger Nano XをRainbowに接続します。初めての場合、RainbowはBluetoothへのアクセスを要求します。",
@@ -2015,6 +2281,8 @@
         "delete_confirm": "このウォレットを削除してもよろしいですか？",
         "edit": "ウォレットを編集する",
         "hide": "非表示",
+        "create_wallet_group": "Create Group",
+        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
         "import_wallet": "ウォレットを追加する",
         "input": "トランザクションの入力",
         "notifications": {
@@ -2112,15 +2380,31 @@
         "please_seed_phrase": "プライベートキーを表示するには、認証してください"
       },
       "back_ups": {
-        "and_1_more_wallet": "さらに1つのウォレット",
+        "wallet_count": "%{numAccounts} wallet",
+        "wallet_count_gt_one": "%{numAccounts} wallets",
         "and_more_wallets": "そして %{moreWalletCount} 以上のウォレット",
+        "create_new_wallet": "Create a New Wallet",
+        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
         "backed_up": "バックアップ済み",
         "backed_up_manually": "手動でバックアップ済み",
-        "imported": "インポート済み"
+        "imported": "インポート済み",
+        "cloud_backup_title": "Cloud Backup",
+        "not_backed_up": "バックアップされていません",
+        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
+        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
+        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
+        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
+        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_link": "Learn more…",
+        "view_secret_phrase": "View Secret Phrase",
+        "view_private_key": "View Private Key",
+        "copy_wallet_address": "Copy wallet address"
       },
       "balance_title": "残高",
       "buy": "購入",
       "change_wallet": {
+        "no_balance": "No Balance",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "ウォッチ中",
         "ledger": "Ledger"
@@ -2197,9 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_android": "以前にウォレットをGoogle Driveにバックアップした場合、ここをタップして復元してください",
-              "description_ios_one_wallet": "バックアップされたウォレットが1つあります",
-              "description_ios_multiple_wallets": "バックアップされたウォレットが %{walletCount} 個あります",
+              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
+              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
               "title": "%{platform}から復元する",
               "no_backups": "バックアップが見つかりません",
               "no_google_backups": "Google Driveにバックアップが見つかりません。正しいアカウントでログインしていることを確認してください"
@@ -2213,12 +2496,12 @@
               "title": "ハードウェアウォレットを接続する"
             },
             "seed": {
-              "description": "Rainbowや他の暗号通貨ウォレットからの回復フレーズを使用する",
-              "title": "回復フレーズまたはプライベートキーで復元する"
+              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
+              "title": "Import a Secret Phrase or Private Key"
             },
             "watch": {
-              "description": "公開アドレスまたはENS名を監視する",
-              "title": "Ethereumアドレスを監視する"
+              "description": "Watch an ENS name or a public address",
+              "title": "Watch a wallet"
             }
           },
           "first_wallet": {
@@ -2331,7 +2614,7 @@
           "insufficient_funds": "おっと！ ガス価格が変動し、この取引に必要な資金が不足しています。より低い額で再試行してください。",
           "generic": "おっと！ 取引の提出中に問題が発生しました。もう一度お試しください。"
         },
-        "complete_checks": "チェックを完了する",
+        "complete_check": "Complete check",
         "ens_configuration_options": "ENSの設定オプション",
         "confirm": "取引を確認する",
         "max": "最大",
@@ -2369,6 +2652,7 @@
       }
     },
     "walletconnect": {
+      "requests": "Requests",
       "wants_to_connect": "あなたのウォレットに接続を許可します",
       "wants_to_connect_to_network": "%{network} ネットワークに接続を許可します",
       "available_networks": "利用可能なネットワーク",
@@ -2414,6 +2698,7 @@
       },
       "menu_options": {
         "disconnect": "切断する",
+        "connect": "接続",
         "switch_wallet": "ウォレットを切り替える",
         "switch_network": "ネットワークを切り替える",
         "available_networks": "利用可能なネットワーク"
@@ -2516,6 +2801,54 @@
     "warning": {
       "user_is_offline": "接続がオフラインです。インターネット接続を確認してください",
       "user_is_online": "接続が確立されました！オンラインに戻りました"
+    },
+    "dapp_browser": {
+      "address_bar": {
+        "input_placeholder": "Search or enter website"
+      },
+      "control_panel": {
+        "connected": "Connected",
+        "not_connected": "Not Connected",
+        "switch_wallet": "ウォレットを切り替える",
+        "switch_network": "ネットワークを切り替える",
+        "disconnect": "切断する",
+        "favorite": "Favorite",
+        "undo_favorite": "Undo",
+        "connect": "接続",
+        "swap": "交換する",
+        "bridge": "ブリッジ",
+        "more": "もっと"
+      },
+      "error": {
+        "title": "何か問題が発生しました",
+        "default_msg": "There was an error loading the page. Please try again."
+      },
+      "no_wc_needed": {
+        "title": "おっと！",
+        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "cta": "理解しました"
+      },
+      "provider_error": {
+        "unsupported_chain": "Unsupported Chain",
+        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+      },
+      "homepage": {
+        "trending": "Trending",
+        "recents": "Recents",
+        "favorites": "お気に入り"
+      },
+      "search": {
+        "find_apps_and_more": "Find apps and more",
+        "more_results": "More Results",
+        "search": "検索する"
+      },
+      "menus": {
+        "favorite": "Favorite",
+        "undo_favorite": "Undo Favorite",
+        "remove": "削除",
+        "forward": "Forward",
+        "back": "戻る"
+      }
     }
   }
 }
