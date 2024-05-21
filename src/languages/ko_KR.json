@@ -91,7 +91,10 @@
         "no_backups_found": "이전 백업을 찾을 수 없습니다!",
         "cant_get_encrypted_data": "현재 백업에 접근할 수 없습니다. 나중에 다시 시도해 주세요.",
         "missing_pin": "PIN 코드 처리 중 문제가 발생했습니다. 나중에 다시 시도해 주세요.",
-        "generic": "백업을 시도하던 중에 오류가 발생했습니다. 오류 코드: %{errorCodes}"
+        "generic": "백업을 시도하던 중에 오류가 발생했습니다. 오류 코드: %{errorCodes}",
+        "no_keys_found": "No keys found. Please try again.",
+        "backup_not_found": "Backup not found. Please try again.",
+        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
       },
       "wrong_pin": "입력하신 PIN 코드가 잘못되어 백업을 만들 수 없습니다. 정확한 코드로 다시 시도해 주세요.",
       "already_backed_up": {
@@ -101,17 +104,56 @@
         "imported": "가져옴",
         "imported_message": "지갑이 가져와졌습니다"
       },
+      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
+      "wallet_group_title_singular": "Wallet Group",
+      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "private_key_singluar": "개인 키",
       "backup_deleted_successfully": "백업이 성공적으로 삭제됨",
       "cloud": {
+        "no_backups": "백업을 찾을 수 없습니다",
+        "failed_to_fetch_backups": "Failed to fetch backups",
+        "retry": "Retry",
+        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
         "back_up_to_platform": "%{cloudPlatformName}으로 백업",
-        "manage_platform_backups": "%{cloudPlatformName} 백업 관리",
+        "restore_from_platform": "%{cloudPlatformName}에서 복원하기",
+        "restoration_in_progress": "Restoration in progress",
+        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
+        "manage_platform_backups": "View %{cloudPlatformName} Backups",
+        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
+        "cloud_backup": "Cloud Backup",
+        "backing_up": "Backing up...",
+        "backup_success": "Back up Successful",
+        "backup_failed": "Backup Failed",
+        "manual_backup": "Manual backup",
+        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
+        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
+        "enable_cloud_backups": "Enable Cloud Backups",
+        "mayber_later": "나중에 하기",
+        "recommended_for_beginners": "Recommended for beginners.",
+        "choose_backup": "Choose the backup you’d like to restore",
+        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
+        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
+        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
+        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
+        "latest_backup": "Last Backup: %{date}",
+        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
+        "most_recent_backup": "Most Recent Backup",
+        "out_of_date": "Out of Date",
+        "up_to_date": "Up to Date",
+        "older_backups": "Older Backups",
+        "no_older_backups": "No Older Backups",
+        "older_backups_title": "%{date} at %{time}",
         "password": {
-          "a_password_youll_remember": "기억하실 수 있는 비밀번호를 사용해 주세요.",
-          "backup_password": "백업 비밀번호",
-          "choose_a_password": "비밀번호를 선택하세요",
+          "a_password_youll_remember_part_one": "This password is",
+          "not": "not",
+          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "backup_password": "비밀번호",
+          "choose_a_password": "Create a password to secure your backup",
           "confirm_backup": "백업 확인",
+          "enter_backup_password": "Enter your backup password",
+          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
           "confirm_password": "비밀번호 확인",
-          "confirm_placeholder": "비밀번호 확인",
+          "confirm_placeholder": "Reenter Password",
           "it_cant_be_recovered": "복구할 수 없습니다!",
           "minimum_characters": "최소 %{minimumLength} 문자",
           "passwords_dont_match": "비밀번호가 일치하지 않습니다",
@@ -133,22 +175,31 @@
       },
       "explainers": {
         "backup": "이 비밀번호를 잊지 마세요! 이것은 귀하의 %{cloudPlatformName} 비밀번호와 다르며, 안전한 위치에 저장해야 합니다.\n\n미래에 백업에서 지갑을 복원하기 위해 필요합니다.",
+        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
         "if_lose_cloud": "이 기기를 잃어버린 경우, 암호화된 지갑 백업을 %{cloudPlatformName}에서 복구할 수 있습니다.",
         "if_lose_imported": "이 기기를 잃어버린 경우, 원래 가져온 키로 지갑을 복원할 수 있습니다.",
         "if_lose_manual": "이 기기를 잃어버린 경우, 저장한 비밀 문구로 지갑을 복원할 수 있습니다."
       },
       "manual": {
-        "label": "귀하의 비밀 문구",
+        "backup_manually": "Back Up Manually",
+        "label": "Save your %{typeName}",
+        "with_your_label": "Your %{typeName}",
+        "backup_manually_now": "Would you like to back up this wallet?",
+        "back_up_now": "Back Up Now",
+        "already_backed_up": "Already backed up",
         "pkey": {
-          "confirm_save": "내 키를 저장했습니다",
+          "confirm_save": "􀆅 I've saved my key",
           "save_them": "복사하여 패스워드 관리자나 다른 안전한 곳에 저장하십시오.",
-          "these_keys": "이것이 지갑의 열쇠입니다!"
+          "these_keys": "이것이 지갑의 열쇠입니다!",
+          "description": "Anyone who has this key can access your wallet! You should never share it."
         },
         "seed": {
-          "confirm_save": "이 단어들을 저장했습니다",
+          "confirm_save": "􀆅 I've saved these words",
           "save_them": "그것들을 적어두거나 패스워드 관리자에 저장하십시오.",
-          "these_keys": "이 단어들은 당신의 지갑에 대한 키입니다!"
-        }
+          "these_keys": "이 단어들은 당신의 지갑에 대한 키입니다!",
+          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+        },
+        "create_new_secret_phrase": "Create a New Secret Phrase"
       },
       "needs_backup": {
         "back_up_your_wallet": "당신의 지갑을 백업하십시오",
@@ -169,7 +220,7 @@
         "anyone_who_has_these": "이 단어를 가진 사람은 당신의 전체 지갑에 액세스할 수 있습니다!",
         "biometrically_secured": "귀하의 계정은 지문이나 얼굴 인식과 같은 생체정보로 보호되어 있습니다. 복구 구문을 확인하려면 휴대폰의 설정에서 생체 인식을 켜세요.",
         "no_seed_phrase": "시드 구문을 검색할 수 없습니다. 지문이나 얼굴 인식과 같은 생체 데이터를 사용하여 올바르게 인증했는지, 또는 PIN 코드를 정확하게 입력했는지 확인해주세요.",
-        "copy_to_clipboard": "클립보드에 복사",
+        "copy_to_clipboard": "Copy to Clipboard",
         "for_your_eyes_only": "당신의 눈에만 보입니다",
         "private_key_title": "개인 키",
         "secret_phrase_title": "비밀 구문",
@@ -177,6 +228,15 @@
         "view_private_key": "개인 키 보기",
         "view_secret_phrase": "비밀 구문 보기",
         "you_need_to_authenticate": "귀하의 복구 %{typeName}에 접근하기 위해 인증이 필요합니다."
+      },
+      "warning": {
+        "before_you_proceed": "Before you proceed",
+        "title": "View your %{typeName}",
+        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
+        "access": "Anyone who has your %{typeName} can access your entire wallet.",
+        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
+        "support": "Rainbow Support will never ask you for your %{typeName}.",
+        "button": "􀎽 Show %{typeName}"
       }
     },
     "bluetooth": {
@@ -483,6 +543,9 @@
         "view_on": "%{blockExplorerName}에서 보기",
         "view_on_etherscan": "Etherscan에서 보기"
       },
+      "all_networks": "All Networks",
+      "filter_by_network": "Filter by Network",
+      "my_tokens": "My Tokens",
       "flip": "뒤집기",
       "max": "최대",
       "movers": {
@@ -501,10 +564,32 @@
         "nothing_here": "여기 아무것도 없음!",
         "nothing_to_send": "보낼 것이 없음"
       },
+      "quote_errors": {
+        "501": "견적이 없음",
+        "no_quote_available": "견적이 없음",
+        "502": "Insufficient liquidity",
+        "insufficient_liquidity": "Insufficient liquidity",
+        "503": "전송 수수료 토큰",
+        "fee_on_transfer": "전송 수수료 토큰",
+        "504": "No route found",
+        "no_route_found": "No route found"
+      },
       "price_impact": {
+        "long_wait": {
+          "title": "Long wait",
+          "description": "Approx. %{time}"
+        },
+        "unknown_price": {
+          "title": "Market Value Unknown",
+          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+        },
         "losing_prefix": "손실",
         "small_market": "소형 시장",
-        "label": "가능한 손실"
+        "small_market_try_smaller_amount": "Small market — try a smaller amount",
+        "you_are_losing": "You're losing %{priceImpact}",
+        "no_data": "Market Value Unknown",
+        "label": "가능한 손실",
+        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
       },
       "source": {
         "rainbow": "자동",
@@ -677,11 +762,14 @@
         "registrant": "등록자",
         "resolver": "해결자",
         "save_to_photos": "사진에 저장",
+        "sell_for_x": "Sell for %{price}",
         "set_primary_name": "내 ENS 이름으로 설정",
         "share_token_info": "공유 %{uniqueTokenName} 정보",
         "showcase": "쇼케이스",
         "toast_added_to_showcase": "쇼케이스에 추가됨",
         "toast_removed_from_showcase": "쇼케이스에서 제거됨",
+        "refreshing": "Refreshing metadata...",
+        "reported": "Reported as spam",
         "twitter": "트위터",
         "view_all_with_property": "속성을 가진 모든 것 보기",
         "view_collection": "컬렉션 보기",
@@ -691,30 +779,37 @@
         "view_on_platform": "조회 %{platform}에서",
         "view_on_web": "웹에서 보기",
         "refresh": "메타데이터 새로 고침",
+        "report": "Report as Spam",
         "hide": "숨기다",
         "unhide": "숨김 해제"
       }
     },
+    "app_icon_unlock_sheet": {
+      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
+      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
+      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
+      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
+      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
+      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
+      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
+      "finiliar_title": "You've unlocked a\nRainbow Fini",
+      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
+      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
+      "pooly_title": "You've unlocked a\nRainbow Pooly",
+      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
+      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
+      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
+      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
+      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
+      "adworld_title": "Welcome to Rainbow World!",
+      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
+      "farcaster_title": "You've unlocked\nRainbowcast",
+      "button": "Snag the icon"
+    },
     "explain": {
-      "icon_unlock": {
-        "smol_text": "보물을 찾았습니다! 당신은 Smolverse NFT를 보유하고 있기 때문에 사용자 정의 아이콘을 해제했습니다!",
-        "optimism_text": "Optimism에서 NFT를 축하하기 위해 Rainbow와 Optimism은 당신처럼 낙관적으로 탐험할 수 있는 제한된 판매량의 앱 아이콘을 떨어뜨렸습니다!",
-        "zora_text": "매법적인 묵상을 위해 만들어진 특별한 에디션 Rainbow Zorb 아이콘.",
-        "finiliar_text": "가스 가격에 관계없이 당신을 최신 상태로 유지하는 특별한 에디션 Rainbow Fini 아이콘.",
-        "finiliar_title": "당신은\n무지개 Fini를 해제했습니다",
-        "golddoge_text": "Kabosu의 17번째 생일을 축하하는 한정판 금색 Rainbow 앱 아이콘.",
-        "raindoge_text": "Kabosu의 17번째 생일을 축하하는 한정판 Rainbow 앱 아이콘.",
-        "pooly_text": "자유 지지자들을 위한 특별판 레인보우 Pooly 아이콘.",
-        "pooly_title": "\n레인보우 Pooly를 해제하였습니다",
-        "zorb_text": "사랑하는 모든 것의 100%를 더 빠르고 효율적으로 가진 특별판 레인보우 Zorb:\n",
-        "zorb_title": "\n레인보우 Zorb 에너지를 해제했습니다!",
-        "poolboy_text": "온체인 서머를 위한 특별판 레인보우 x Poolsuite 아이콘.",
-        "poolboy_title": "\n무지개 수영장 소년을 해제하셨습니다!",
-        "adworld_text": "레인보우 월드 시민으로서, 이제 특별 에디션\nAdWorld x Rainbow 앱 아이콘을 잠금 해제할 수 있습니다.",
-        "adworld_title": "레인보우 월드에 오신 것을 환영합니다!",
-        "title": "\n무지개 􀆄 %{partner}을 해제하셨습니다!",
-        "button": "아이콘 획득하기"
-      },
       "output_disabled": {
         "text": "Rainbow는 %{fromNetwork}에 대해 수신하려는 %{outputToken} 의 금액을 기반으로 스왑을 준비할 수 없습니다. \n\n 대신 스왑하려는 %{inputToken} 의 금액을 입력해 보세요.",
         "title": "대신 %{inputToken} 을 입력하세요",
@@ -731,6 +826,9 @@
       "arbitrum": {
         "text": "Arbitrum은 Ethereum 위에서 작동하는 계층 2 네트워크로, 더 저렴하고 빠른 거래를 가능하게 하면서도 Ethereum의 기본 보안에서 혜택을 받습니다.\n\n이는 많은 거래를 \"롤업\"에 묶어 Ethereum에 영구적으로 보내기 전에 함께 보냅니다.",
         "title": "Arbitrum이 무엇인가요?"
+      },
+      "add_to_backups": {
+        "title": "Backing up %{walletName}"
       },
       "backup": {
         "title": "중요"
@@ -781,7 +879,19 @@
       },
       "base": {
         "text": "베이스는 이더리움 위에서 실행되는 레이어 2 네트워크로, 거래 비용을 낮추고 속도를 높이면서도 이더리움의 기본 보안에서 여전히 혜택을 받습니다.\n\n그것은 많은 거래를 한꺼번에 \"롤업\"에 묶어 이더리움에 영구적으로 보내서 보관합니다.",
-        "title": "베이스란 무엇인가?"
+        "title": "What's Base?"
+      },
+      "avalanche": {
+        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
+        "title": "What's Avalanche"
+      },
+      "degen": {
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
+        "title": "What's Degen Chain?"
+      },
+      "blast": {
+        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "title": "What's Blast?"
       },
       "zora": {
         "text": "조라는 이더리움 위에서 실행되는 레이어 2 네트워크로, 거래 비용을 낮추고 속도를 높이면서도 이더리움의 기본 보안에서 여전히 혜택을 받습니다.\n\n그것은 많은 거래를 한꺼번에 \"롤업\"에 묶어 이더리움에 영구적으로 보내서 보관합니다.",
@@ -906,6 +1016,7 @@
       }
     },
     "gas": {
+      "gas_settings": "Gas Settings",
       "card": {
         "falling": "하락",
         "rising": "상승",
@@ -1091,7 +1202,7 @@
             "manual": "수동으로 백업"
           },
           "description": "지갑을 잃지 마세요! 암호화된 복사본을 %{cloudPlatformName}에 저장하세요",
-          "title": "당신의 지갑을 백업하십시오"
+          "title": "How would you like to back up your wallet?"
         },
         "existing": {
           "button": {
@@ -1214,6 +1325,7 @@
         "offer_expired": "제안 만료됨",
         "expired": "만료됨",
         "hold_to_sell": "판매하기 위해 보류",
+        "selling": "판매",
         "error": {
           "title": "NFT 판매 중 오류",
           "message": "도움이 필요하면 Rainbow 지원팀에 문의하십시오."
@@ -1329,7 +1441,8 @@
         "view_weekly_earnings_title": "획득 포인트 집계 중",
         "view_weekly_earnings_counted": "주간 수익 집계됨",
         "view_weekly_earnings_close_button": "닫기",
-        "view_weekly_earnings_retroactive_points": "소급 포인트",
+        "view_weekly_earnings_retroactive_points": "Retroactive Points",
+        "view_weekly_earnings_bonus_points": "Bonus Points",
         "view_weekly_earnings_activity": "당신의 활동",
         "view_weekly_earnings_referral_activity": "추천인 활동",
         "view_weekly_earnings_total_earnings": "총액",
@@ -1700,16 +1813,35 @@
       "no_thanks": "아니요, 괜찮습니다"
     },
     "settings": {
-      "backup": "백업",
+      "backup": "Wallets & Backup",
+      "delete_backups": "Delete All %{cloudPlatform} Backups",
+      "confirm_delete_backups": "Confirm and Delete Backups",
+      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
+      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
       "google_account_used": "백업에 사용된 Google 계정",
       "backup_switch_google_account": "Google 계정 전환",
       "backup_sign_out": "로그아웃",
       "backup_sign_in": "로그인",
       "backup_loading": "로딩 중...",
       "backup_google_account": "Google 계정",
-      "currency": "통화",
+      "currency": {
+        "title": "Currency",
+        "ETH": "이더리움",
+        "USD": "United States Dollar",
+        "EUR": "Euro",
+        "GBP": "British Pound",
+        "AUD": "Australian Dollar",
+        "CNY": "Chinese Yuan",
+        "KRW": "South Korean Won",
+        "JPY": "Japanese Yen",
+        "RUB": "Russian Ruble",
+        "INR": "Indian Rupee",
+        "TRY": "Turkish Lira",
+        "CAD": "Canadian Dollar",
+        "NZD": "New Zealand Dollar",
+        "ZAR": "South African Rand"
+      },
       "app_icon": "앱 아이콘",
-      "dev": "개발",
       "developer": "개발자 설정",
       "done": "완료",
       "feedback_and_reports": "피드백 및 버그 보고",
@@ -1784,6 +1916,22 @@
       "too_many_signup_request": "가입 요청이 너무 많습니다, 나중에 다시 시도해주세요"
     },
     "swap": {
+      "aggregators": {
+        "rainbow": "Rainbow"
+      },
+      "tokens_input": {
+        "tokens": "Tokens",
+        "sort": "Sort",
+        "available": "available",
+        "token_balance": "Token Balance",
+        "networks": "네트워크",
+        "filter_by_network": "Filter by Network",
+        "switch_networks": "Switch Networks",
+        "nothing_found": "아무것도 찾을 수 없음",
+        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
+        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
+        "output_quotes_disabled": "Output quotes disabled"
+      },
       "choose_token": "토큰 선택",
       "gas": {
         "custom": "사용자 정의",
@@ -1805,6 +1953,7 @@
         "withdraw": "인출",
         "withdraw_symbol": "%{symbol}출금"
       },
+      "unknown": "Unknown",
       "warning": {
         "cost": {
           "are_you_sure_title": "확실한가요?",
@@ -1825,6 +1974,15 @@
         }
       }
     },
+    "token_search": {
+      "section_header": {
+        "favorites": "즐겨찾기",
+        "bridge": "브릿지",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "on_other_networks": "On other networks"
+      }
+    },
     "transactions": {
       "actions": {
         "addToContacts": "연락처에 추가",
@@ -1837,35 +1995,139 @@
       "pending_title": "보류 중",
       "dropped_title": "드롭",
       "type": {
-        "approved": "승인된",
-        "approving": "승인",
-        "bridging": "브리징",
-        "bridged": "브리지됨",
-        "cancelled": "취소됨",
-        "cancelling": "취소 중",
-        "contract interaction": "계약 상호작용",
-        "deposited": "입금됨",
-        "depositing": "입금 중",
-        "dropped": "드롭",
-        "failed": "실패",
-        "purchased": "구매한",
-        "purchasing": "구매 중",
-        "minting": "민팅",
-        "minted": "생성한",
-        "received": "받음",
-        "receiving": "수신 중",
-        "self": "Self",
-        "sending": "전송 중",
-        "sent": "보냄",
-        "speeding up": "속도 향상",
-        "selling": "판매",
-        "sold": "판매한",
-        "swapped": "교환됨",
-        "swapping": "스왑 중",
-        "unknown": "미지",
-        "withdrawing": "인출 중",
-        "withdrew": "인출됨"
+        "savings": "저축",
+        "cancelled": "Transaction Cancelled",
+        "burn": {
+          "pending": "Burning",
+          "confirmed": "Burned",
+          "failed": "Burn Failed"
+        },
+        "cancel": {
+          "pending": "Cancelling",
+          "confirmed": "Cancelled",
+          "failed": "Cancel Failed"
+        },
+        "speed_up": {
+          "pending": "Speeding Up",
+          "confirmed": "Sped Up",
+          "failed": "Speed Up Failed"
+        },
+        "send": {
+          "pending": "전송중",
+          "confirmed": "보냄",
+          "failed": "Send Failed"
+        },
+        "receive": {
+          "pending": "",
+          "confirmed": "받음",
+          "failed": ""
+        },
+        "withdraw": {
+          "pending": "Withdrawing",
+          "confirmed": "Withdrew",
+          "failed": "Withdraw Failed"
+        },
+        "deposit": {
+          "pending": "Depositing",
+          "confirmed": "Deposited",
+          "failed": "Deposit Failed"
+        },
+        "mint": {
+          "pending": "Minting",
+          "confirmed": "생성한",
+          "failed": "Mint Failed"
+        },
+        "approve": {
+          "pending": "Approving",
+          "confirmed": "승인된",
+          "failed": "Approve Failed"
+        },
+        "contract_interaction": {
+          "pending": "Interaction Pending",
+          "confirmed": "Interacted",
+          "failed": "Interaction Failed"
+        },
+        "swap": {
+          "pending": "Swapping",
+          "confirmed": "교환됨",
+          "failed": "Swap Failed"
+        },
+        "borrow": {
+          "pending": "Borrowing",
+          "confirmed": "Borrowed",
+          "failed": "Borrow Failed"
+        },
+        "claim": {
+          "pending": "Claiming",
+          "confirmed": "Claimed",
+          "failed": "Claim Failed"
+        },
+        "deployment": {
+          "pending": "Deploying",
+          "confirmed": "Deployed",
+          "failed": "Deploy Failed"
+        },
+        "repay": {
+          "pending": "Repaying",
+          "confirmed": "Repayed",
+          "failed": "Repay Failed"
+        },
+        "stake": {
+          "pending": "Staking",
+          "confirmed": "Staked",
+          "failed": "Stake Failed"
+        },
+        "unstake": {
+          "pending": "Unstaking",
+          "confirmed": "Unstaked",
+          "failed": "Unstake Failed"
+        },
+        "purchase": {
+          "pending": "Purchasing",
+          "confirmed": "구매한",
+          "failed": "구매 실패"
+        },
+        "revoke": {
+          "pending": "Revoking",
+          "confirmed": "Revoked",
+          "failed": "Revoke Failed"
+        },
+        "sale": {
+          "pending": "판매",
+          "confirmed": "판매한",
+          "failed": "Sale Failed"
+        },
+        "bridge": {
+          "pending": "Bridging",
+          "confirmed": "브리지됨",
+          "failed": "Bridge Failed"
+        },
+        "airdrop": {
+          "pending": "",
+          "confirmed": "Airdropped",
+          "failed": ""
+        },
+        "wrap": {
+          "pending": "Wrapping",
+          "confirmed": "Wrapped",
+          "failed": "Wrap Failed"
+        },
+        "unwrap": {
+          "pending": "Unwrapping",
+          "confirmed": "Unwrapped",
+          "failed": "Unwrap Failed"
+        },
+        "bid": {
+          "pending": "Bidding",
+          "confirmed": "Bid",
+          "failed": "Bid Failed"
+        }
       },
+      "approvals": {
+        "no_allowance": "No Allowance",
+        "unlimited": "무제한"
+      },
+      "no_value": "No value",
       "savings": "저축",
       "signed": "서명됨",
       "contract_interaction": "계약 상호작용",
@@ -1877,6 +2139,7 @@
       "to": "에게",
       "value": "가치",
       "hash": "Tx 해시",
+      "you": "You",
       "network_fee": "네트워크 수수료",
       "hash_copied": "􀁣 거래 해시 복사됨",
       "address_copied": "􀁣 주소 복사됨",
@@ -1960,6 +2223,9 @@
       "copied": "\"%{copiedText}\" 복사됨",
       "invalid_paste": "여기에 붙여넣을 수 없습니다"
     },
+    "tokens_tab": {
+      "unknown_token": "알 수 없는 토큰"
+    },
     "hardware_wallets": {
       "pair_your_nano": "나노 X를 페어링하세요",
       "connect_your_ledger": "당신의 레저 나노 X를 블루투스를 통해 Rainbow에 연결하세요. 이것이 첫번째 시도라면, Rainbow은 블루투스 접근을 요청할 것입니다.",
@@ -2015,6 +2281,8 @@
         "delete_confirm": "이 지갑을 삭제하시겠습니까?",
         "edit": "지갑 편집",
         "hide": "숨기다",
+        "create_wallet_group": "Create Group",
+        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
         "import_wallet": "지갑 추가",
         "input": "거래 입력",
         "notifications": {
@@ -2112,15 +2380,31 @@
         "please_seed_phrase": "비공개 키를 보려면 인증해 주세요"
       },
       "back_ups": {
-        "and_1_more_wallet": "그리고 1개 더 있는 지갑",
+        "wallet_count": "%{numAccounts} wallet",
+        "wallet_count_gt_one": "%{numAccounts} wallets",
         "and_more_wallets": "그리고 %{moreWalletCount} 개 더 있는 지갑",
+        "create_new_wallet": "Create a New Wallet",
+        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
         "backed_up": "백업 완료",
         "backed_up_manually": "수동으로 백업 완료",
-        "imported": "가져옴"
+        "imported": "가져옴",
+        "cloud_backup_title": "Cloud Backup",
+        "not_backed_up": "백업되지 않음",
+        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
+        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
+        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
+        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
+        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_link": "Learn more…",
+        "view_secret_phrase": "View Secret Phrase",
+        "view_private_key": "View Private Key",
+        "copy_wallet_address": "Copy wallet address"
       },
       "balance_title": "균형",
       "buy": "구매",
       "change_wallet": {
+        "no_balance": "No Balance",
         "balance_eth": "%{balanceEth} 이더리움",
         "watching": "시청 중",
         "ledger": "렛저"
@@ -2197,9 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_android": "이전에 Google 드라이브에 지갑을 백업했다면, 여기를 눌러 복원하세요.",
-              "description_ios_one_wallet": "백업된 1개의 지갑이 있습니다",
-              "description_ios_multiple_wallets": "백업된 %{walletCount} 개의 지갑이 있습니다",
+              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
+              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
               "title": "%{platform}에서 복원",
               "no_backups": "백업을 찾을 수 없습니다",
               "no_google_backups": "Google 드라이브에서 백업을 찾을 수 없습니다. 올바른 계정으로 로그인되어 있는지 확인하세요."
@@ -2213,12 +2496,12 @@
               "title": "하드웨어 지갑 연결"
             },
             "seed": {
-              "description": "Rainbow 또는 다른 암호화 지갑의 복구 구문 사용",
-              "title": "복구 구문이나 개인 키로 복구"
+              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
+              "title": "Import a Secret Phrase or Private Key"
             },
             "watch": {
-              "description": "공개 주소나 ENS 이름을 보기",
-              "title": "이더리움 주소를 보기"
+              "description": "Watch an ENS name or a public address",
+              "title": "Watch a wallet"
             }
           },
           "first_wallet": {
@@ -2331,7 +2614,7 @@
           "insufficient_funds": "오 아니! 가스 가격이 변하고 이 거래를 위한 충분한 자금이 더 이상 없습니다. 더 낮은 금액으로 다시 시도해 주세요.",
           "generic": "오 아니! 거래를 제출하는 데 문제가 있었습니다. 다시 시도해 주세요."
         },
-        "complete_checks": "체크 완료",
+        "complete_check": "Complete check",
         "ens_configuration_options": "ENS 구성 옵션",
         "confirm": "거래 확인",
         "max": "최대",
@@ -2369,6 +2652,7 @@
       }
     },
     "walletconnect": {
+      "requests": "Requests",
       "wants_to_connect": "당신의 지갑에 연결하려 합니다",
       "wants_to_connect_to_network": "%{network} 네트워크에 연결하려 합니다",
       "available_networks": "사용 가능한 네트워크",
@@ -2414,6 +2698,7 @@
       },
       "menu_options": {
         "disconnect": "연결 해제",
+        "connect": "연결",
         "switch_wallet": "지갑 전환",
         "switch_network": "네트워크 전환",
         "available_networks": "사용 가능한 네트워크"
@@ -2516,6 +2801,54 @@
     "warning": {
       "user_is_offline": "연결이 오프라인입니다, 인터넷 연결을 확인해 주세요",
       "user_is_online": "연결되었습니다! 다시 온라인 상태입니다"
+    },
+    "dapp_browser": {
+      "address_bar": {
+        "input_placeholder": "Search or enter website"
+      },
+      "control_panel": {
+        "connected": "Connected",
+        "not_connected": "Not Connected",
+        "switch_wallet": "지갑 전환",
+        "switch_network": "네트워크 전환",
+        "disconnect": "연결 해제",
+        "favorite": "Favorite",
+        "undo_favorite": "Undo",
+        "connect": "연결",
+        "swap": "교환",
+        "bridge": "브릿지",
+        "more": "더 보기"
+      },
+      "error": {
+        "title": "문제가 발생했습니다",
+        "default_msg": "There was an error loading the page. Please try again."
+      },
+      "no_wc_needed": {
+        "title": "어머나!",
+        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "cta": "알겠습니다"
+      },
+      "provider_error": {
+        "unsupported_chain": "Unsupported Chain",
+        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+      },
+      "homepage": {
+        "trending": "Trending",
+        "recents": "Recents",
+        "favorites": "즐겨찾기"
+      },
+      "search": {
+        "find_apps_and_more": "Find apps and more",
+        "more_results": "More Results",
+        "search": "검색"
+      },
+      "menus": {
+        "favorite": "Favorite",
+        "undo_favorite": "Undo Favorite",
+        "remove": "제거",
+        "forward": "Forward",
+        "back": "뒤로"
+      }
     }
   }
 }
