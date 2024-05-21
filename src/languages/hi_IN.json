@@ -91,7 +91,10 @@
         "no_backups_found": "हमें आपका पिछला बैकअप नहीं मिला!",
         "cant_get_encrypted_data": "हमें इस समय आपके बैकअप तक पहुंचने में असमर्थ थे। कृपया बाद में पुनः प्रयास करें.",
         "missing_pin": "आपके पिन कोड को प्रसंस्करण करते समय कुछ गलत हुआ। कृपया बाद में पुनः प्रयास करें.",
-        "generic": "बैकअप करने की कोशिश करते समय त्रुटि। त्रुटि कोड: %{errorCodes}"
+        "generic": "बैकअप करने की कोशिश करते समय त्रुटि। त्रुटि कोड: %{errorCodes}",
+        "no_keys_found": "No keys found. Please try again.",
+        "backup_not_found": "Backup not found. Please try again.",
+        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
       },
       "wrong_pin": "आपके द्वारा दर्ज किया गया पिन कोड गलत था और हम बैकअप नहीं बना सकते। कृपया सही कोड के साथ पुनः प्रयास करें।",
       "already_backed_up": {
@@ -101,17 +104,56 @@
         "imported": "आयात किया गया",
         "imported_message": "आपका वॉलेट आयात किया गया था"
       },
+      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
+      "wallet_group_title_singular": "Wallet Group",
+      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "private_key_singluar": "निजी कुंजी",
       "backup_deleted_successfully": "बैकअप सफलतापूर्वक हटा दिए गए",
       "cloud": {
+        "no_backups": "कोई बैकअप नहीं मिला",
+        "failed_to_fetch_backups": "Failed to fetch backups",
+        "retry": "Retry",
+        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
         "back_up_to_platform": "कृपया %{cloudPlatformName}पर बैकअप करें",
-        "manage_platform_backups": "%{cloudPlatformName} बैकअप प्रबंधित करें",
+        "restore_from_platform": "%{cloudPlatformName}से वापस पाएं",
+        "restoration_in_progress": "Restoration in progress",
+        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
+        "manage_platform_backups": "View %{cloudPlatformName} Backups",
+        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
+        "cloud_backup": "Cloud Backup",
+        "backing_up": "Backing up...",
+        "backup_success": "Back up Successful",
+        "backup_failed": "Backup Failed",
+        "manual_backup": "Manual backup",
+        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
+        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
+        "enable_cloud_backups": "Enable Cloud Backups",
+        "mayber_later": "शायद बाद में",
+        "recommended_for_beginners": "Recommended for beginners.",
+        "choose_backup": "Choose the backup you’d like to restore",
+        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
+        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
+        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
+        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
+        "latest_backup": "Last Backup: %{date}",
+        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
+        "most_recent_backup": "Most Recent Backup",
+        "out_of_date": "Out of Date",
+        "up_to_date": "Up to Date",
+        "older_backups": "Older Backups",
+        "no_older_backups": "No Older Backups",
+        "older_backups_title": "%{date} at %{time}",
         "password": {
-          "a_password_youll_remember": "कृपया एक पासवर्ड का उपयोग करें जिसे आप याद रखेंगे।",
-          "backup_password": "बैकअप पासवर्ड",
-          "choose_a_password": "एक पासवर्ड चुनें",
+          "a_password_youll_remember_part_one": "This password is",
+          "not": "not",
+          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "backup_password": "पासवर्ड",
+          "choose_a_password": "Create a password to secure your backup",
           "confirm_backup": "बैकअप की पुष्टि करें",
+          "enter_backup_password": "Enter your backup password",
+          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
           "confirm_password": "पासवर्ड की पुष्टि करें",
-          "confirm_placeholder": "पासवर्ड की पुष्टि करें",
+          "confirm_placeholder": "Reenter Password",
           "it_cant_be_recovered": "यह पुनः प्राप्त नहीं किया जा सकता!",
           "minimum_characters": "न्यूनतम %{minimumLength} वर्ण",
           "passwords_dont_match": "पासवर्ड मेल नहीं खाते",
@@ -133,22 +175,31 @@
       },
       "explainers": {
         "backup": "इस पासवर्ड को मत भूलिए! यह आपके %{cloudPlatformName} पासवर्ड से अलग है, और आपको इसे सुरक्षित स्थान पर सहेजना चाहिए।\n\nआपको भविष्य में बैकअप से अपना वॉलेट पुनर्स्थापित करने के लिए इसकी जरूरत पड़ेगी।",
+        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
         "if_lose_cloud": "यदि आप इस उपकरण को खो देते हैं, तो आप %{cloudPlatformName}से अपना एन्क्रिप्टेड वॉलेट बैकअप पुनर्प्राप्त कर सकते हैं।",
         "if_lose_imported": "यदि आप इस उपकरण को खो देते हैं, तो आप अपने वॉलेट को मूल रूप से आयात की गई कुंजी के साथ पुनर्स्थापित कर सकते हैं।",
         "if_lose_manual": "यदि आप इस उपकरण को खो देते हैं, तो आप अपने वॉलेट को आपके द्वारा सहेजे गए गुप्त वाक्यांश के साथ पुनर्स्थापित कर सकते हैं।"
       },
       "manual": {
-        "label": "आपका गुप्त वाक्यांश",
+        "backup_manually": "Back Up Manually",
+        "label": "Save your %{typeName}",
+        "with_your_label": "Your %{typeName}",
+        "backup_manually_now": "Would you like to back up this wallet?",
+        "back_up_now": "Back Up Now",
+        "already_backed_up": "Already backed up",
         "pkey": {
-          "confirm_save": "मैंने अपनी कुंजी सहेज ली है",
+          "confirm_save": "􀆅 I've saved my key",
           "save_them": "इसे कॉपी करें और इसे अपने पासवर्ड मैनेजर में, या किसी अन्य सुरक्षित स्थान पर सहेजें।",
-          "these_keys": "यह आपके वॉलेट की कुंजी है!"
+          "these_keys": "यह आपके वॉलेट की कुंजी है!",
+          "description": "Anyone who has this key can access your wallet! You should never share it."
         },
         "seed": {
-          "confirm_save": "मैंने इन शब्दों को सहेजा है",
+          "confirm_save": "􀆅 I've saved these words",
           "save_them": "उन्हें लिखें या अपने पासवर्ड प्रबंधक में सेव करें।",
-          "these_keys": "ये शब्द आपके वॉलेट की कुंजी हैं!"
-        }
+          "these_keys": "ये शब्द आपके वॉलेट की कुंजी हैं!",
+          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+        },
+        "create_new_secret_phrase": "Create a New Secret Phrase"
       },
       "needs_backup": {
         "back_up_your_wallet": "अपने वॉलेट का बैकअप लें",
@@ -169,7 +220,7 @@
         "anyone_who_has_these": "जिसके पास भी ये शब्द हैं, वो आपके पूरे वॉलेट की पहुंच प्राप्त कर सकता है!",
         "biometrically_secured": "आपका खाता बायोमेट्रिक डाटा, जैसे कि अंगुली का निशान या चेहरा पहचान, के साथ सुरक्षित किया गया है। अपनी वसूली वाक्यांश को देखने के लिए, अपने फोन की सेटिंग्स में बायोमेट्रिक्स को चालू करें।",
         "no_seed_phrase": "हम आपका बीज वाक्यांश पुनः प्राप्त नहीं कर सके। कृपया सुनिश्चित करें कि आपने बायोमेट्रिक डाटा, जैसे कि आपका अंगुली का निशान या चेहरा पहचान, का उपयोग करके या अपना पिन कोड सही ढंग से दर्ज करके सही तरीके से प्रमाणित किया है।",
-        "copy_to_clipboard": "क्लिपबोर्ड पर कॉपी करें",
+        "copy_to_clipboard": "Copy to Clipboard",
         "for_your_eyes_only": "केवल आपकी आँखों के लिए",
         "private_key_title": "निजी कुंजी",
         "secret_phrase_title": "गुप्त वाक्यांश",
@@ -177,6 +228,15 @@
         "view_private_key": "निजी कुंजी देखें",
         "view_secret_phrase": "गुप्त वाक्यांश देखें",
         "you_need_to_authenticate": "आपको अपनी वसूली %{typeName}तक पहुंचने के लिए प्रमाणित करने की आवश्यकता है"
+      },
+      "warning": {
+        "before_you_proceed": "Before you proceed",
+        "title": "View your %{typeName}",
+        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
+        "access": "Anyone who has your %{typeName} can access your entire wallet.",
+        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
+        "support": "Rainbow Support will never ask you for your %{typeName}.",
+        "button": "􀎽 Show %{typeName}"
       }
     },
     "bluetooth": {
@@ -483,6 +543,9 @@
         "view_on": "देखें %{blockExplorerName}पर",
         "view_on_etherscan": "Etherscan पर देखें"
       },
+      "all_networks": "All Networks",
+      "filter_by_network": "Filter by Network",
+      "my_tokens": "My Tokens",
       "flip": "पलटें",
       "max": "अधिकतम",
       "movers": {
@@ -501,10 +564,32 @@
         "nothing_here": "यहां कुछ नहीं है!",
         "nothing_to_send": "भेजने के लिए कुछ नहीं"
       },
+      "quote_errors": {
+        "501": "कोई भाव उपलब्ध नहीं है",
+        "no_quote_available": "कोई भाव उपलब्ध नहीं है",
+        "502": "Insufficient liquidity",
+        "insufficient_liquidity": "Insufficient liquidity",
+        "503": "हस्तांतरण टोकन पर शुल्क",
+        "fee_on_transfer": "हस्तांतरण टोकन पर शुल्क",
+        "504": "No route found",
+        "no_route_found": "No route found"
+      },
       "price_impact": {
+        "long_wait": {
+          "title": "Long wait",
+          "description": "Approx. %{time}"
+        },
+        "unknown_price": {
+          "title": "Market Value Unknown",
+          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+        },
         "losing_prefix": "हानि हो रही है",
         "small_market": "लघु बाजार",
-        "label": "संभावित हानि"
+        "small_market_try_smaller_amount": "Small market — try a smaller amount",
+        "you_are_losing": "You're losing %{priceImpact}",
+        "no_data": "Market Value Unknown",
+        "label": "संभावित हानि",
+        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
       },
       "source": {
         "rainbow": "ऑटो",
@@ -677,11 +762,14 @@
         "registrant": "पंजीकृत",
         "resolver": "रिज़ॉल्वर",
         "save_to_photos": "फ़ोटो में सहेजें",
+        "sell_for_x": "Sell for %{price}",
         "set_primary_name": "मेरा ENS नाम के रूप में सेट करें",
         "share_token_info": "शेयर करें %{uniqueTokenName} जानकारी",
         "showcase": "शोकेस",
         "toast_added_to_showcase": "शोकेस में जोड़ा गया",
         "toast_removed_from_showcase": "शोकेस से निकाला गया",
+        "refreshing": "Refreshing metadata...",
+        "reported": "Reported as spam",
         "twitter": "ट्विटर",
         "view_all_with_property": "संपत्ति के साथ सभी देखें",
         "view_collection": "संग्रह देखें",
@@ -691,30 +779,37 @@
         "view_on_platform": "%{platform}पर देखें",
         "view_on_web": "वेब पर देखें",
         "refresh": "मेटाडाटा ताज़ा करें",
+        "report": "Report as Spam",
         "hide": "छुपाएं",
         "unhide": "अदृश्यता रद्द करें"
       }
     },
+    "app_icon_unlock_sheet": {
+      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
+      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
+      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
+      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
+      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
+      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
+      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
+      "finiliar_title": "You've unlocked a\nRainbow Fini",
+      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
+      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
+      "pooly_title": "You've unlocked a\nRainbow Pooly",
+      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
+      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
+      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
+      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
+      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
+      "adworld_title": "Welcome to Rainbow World!",
+      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
+      "farcaster_title": "You've unlocked\nRainbowcast",
+      "button": "Snag the icon"
+    },
     "explain": {
-      "icon_unlock": {
-        "smol_text": "आपने खजाना पाया! क्योंकि आपके पास स्मॉलवर्स एनएफटी है, आपने एक कस्टम आइकन अनलॉक किया है!",
-        "optimism_text": "आदिमोन्मुखता पर एनएफटी की खुशी मनाने के लिए, रेनबो और आदिमोन्मुखता ने आदिमोन्मुख खोजने वालों जैसे आपके लिए एक सीमित संस्करण ऐप आइकन ड्रॉप किया है!",
-        "zora_text": "एक विशेष संस्करण रेनबो Zorb आइकन जो मैजिकल सोच के लिए बनाया गया है।",
-        "finiliar_text": "एक विशेष संस्करण रेनबो Fini आइकन जो गैस के दाम के ऊपर आपको वर्षा हो या चमक के बावजूद अप्डेट रखता है।",
-        "finiliar_title": "आपने अनलॉक किया है\nरेनबो Fini",
-        "golddoge_text": "Kabosu के 17वें जन्मदिन की खुशी में एक सीमित संस्करण स्वर्ण रेनबो ऐप आइकन।",
-        "raindoge_text": "Kabosu के 17वें जन्मदिन की खुशी में एक सीमित संस्करण रेनबो ऐप आइकन।",
-        "pooly_text": "स्वतंत्रता के समर्थकों के लिए एक विशेष संस्करण रेनबो पूली आइकन।",
-        "pooly_title": "आपने\nइंद्रधनुष पूली को अनलॉक किया है",
-        "zorb_text": "एक विशेष संस्करण इंद्रधनुष ज़ोर्ब:\nआपके पसंदीदा चीज़ों का 100%, तेज़ी से और अधिक कुशल।",
-        "zorb_title": "आपने\nइंद्रधनुष Zorb उर्जा को अनलॉक किया है!",
-        "poolboy_text": "एक विशेष संस्करण रेनबो x पूलसुट चिह्न ऑनचैन समर के लिए।",
-        "poolboy_title": "आपने\nइंद्रधनुष पूलबॉय अनलॉक कर दिया है!",
-        "adworld_text": "एक रेनबो वर्ल्ड नागरिक के रूप में, अब आप विशेष संस्करण\nAdWorld x Rainbow App आइकन को अनलॉक कर सकते हैं।",
-        "adworld_title": "रेनबो वर्ल्ड में आपका स्वागत है!",
-        "title": "आपने\nइंद्रधनुष 􀆄 %{partner}अनलॉक कर दिया है",
-        "button": "आइकन पकड़ें"
-      },
       "output_disabled": {
         "text": "%{fromNetwork}के लिए, इंद्रधनुष वह राशि तैयार नहीं कर सकता %{outputToken} आपको प्राप्त करने के लिए आधारित स्वैप। \n\n आपको स्वैप करने के लिए %{inputToken} राशि दर्ज करने की कोशिश करें.",
         "title": "%{inputToken} बजाय दर्ज करें",
@@ -731,6 +826,9 @@
       "arbitrum": {
         "text": "Arbitrum एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, इससे सस्ते और तेज लेनदेन संभव होते हैं जबकि Ethereum की आधारभूत सुरक्षा का लाभ भी मिलता है।\n\nयह बहुत सारे लेनदेनों को एक \"roll up\" में बंधलन करता है इसके पहले कि वे Ethereum पर स्थायी रूप से रहने के लिए भेजे जाएँ।",
         "title": "Arbitrum क्या है?"
+      },
+      "add_to_backups": {
+        "title": "Backing up %{walletName}"
       },
       "backup": {
         "title": "महत्वपूर्ण"
@@ -781,7 +879,19 @@
       },
       "base": {
         "text": "Base एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
-        "title": "Base क्या है"
+        "title": "What's Base?"
+      },
+      "avalanche": {
+        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
+        "title": "What's Avalanche"
+      },
+      "degen": {
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
+        "title": "What's Degen Chain?"
+      },
+      "blast": {
+        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "title": "What's Blast?"
       },
       "zora": {
         "text": "Zora एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
@@ -906,6 +1016,7 @@
       }
     },
     "gas": {
+      "gas_settings": "Gas Settings",
       "card": {
         "falling": "गिर रहा है",
         "rising": "उठता हुआ",
@@ -1091,7 +1202,7 @@
             "manual": "मैन्युअल रूप से बैकअप"
           },
           "description": "अपना वॉलेट ना खोएं! %{cloudPlatformName}पर एक एन्क्रिप्टेड कॉपी सेव करें।",
-          "title": "अपने वॉलेट का बैकअप लें"
+          "title": "How would you like to back up your wallet?"
         },
         "existing": {
           "button": {
@@ -1214,6 +1325,7 @@
         "offer_expired": "प्रस्ताव समाप्त हो चुका है",
         "expired": "समाप्त हो चुका",
         "hold_to_sell": "बेचने के लिए रखें",
+        "selling": "बिक्री",
         "error": {
           "title": "NFT बेचने में त्रुटि",
           "message": "सहायता के लिए कृपया रेनबो सपोर्ट से संपर्क करें।"
@@ -1329,7 +1441,8 @@
         "view_weekly_earnings_title": "अर्जित अंकों की गणना",
         "view_weekly_earnings_counted": "साप्ताहिक कमाई की गणना की गई",
         "view_weekly_earnings_close_button": "बंद करें",
-        "view_weekly_earnings_retroactive_points": "पूर्वव्यापी पॉइंट्स",
+        "view_weekly_earnings_retroactive_points": "Retroactive Points",
+        "view_weekly_earnings_bonus_points": "Bonus Points",
         "view_weekly_earnings_activity": "आपकी गतिविधि",
         "view_weekly_earnings_referral_activity": "रेफरल गतिविधि",
         "view_weekly_earnings_total_earnings": "कुल",
@@ -1700,16 +1813,35 @@
       "no_thanks": "नहीं, धन्यवाद"
     },
     "settings": {
-      "backup": "बैकअप",
+      "backup": "Wallets & Backup",
+      "delete_backups": "Delete All %{cloudPlatform} Backups",
+      "confirm_delete_backups": "Confirm and Delete Backups",
+      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
+      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
       "google_account_used": "बैकअप के लिए उपयोग किया गया गूगल खाता",
       "backup_switch_google_account": "गूगल खाता स्विच करें",
       "backup_sign_out": "साइन आउट",
       "backup_sign_in": "साइन इन",
       "backup_loading": "लोड हो रहा है...",
       "backup_google_account": "Google खाता",
-      "currency": "मुद्रा",
+      "currency": {
+        "title": "Currency",
+        "ETH": "ईथेरियम",
+        "USD": "United States Dollar",
+        "EUR": "Euro",
+        "GBP": "British Pound",
+        "AUD": "Australian Dollar",
+        "CNY": "Chinese Yuan",
+        "KRW": "South Korean Won",
+        "JPY": "Japanese Yen",
+        "RUB": "Russian Ruble",
+        "INR": "Indian Rupee",
+        "TRY": "Turkish Lira",
+        "CAD": "Canadian Dollar",
+        "NZD": "New Zealand Dollar",
+        "ZAR": "South African Rand"
+      },
       "app_icon": "ऐप आइकन",
-      "dev": "डेव",
       "developer": "डेवलपर सेटिंग्स",
       "done": "हो गया",
       "feedback_and_reports": "प्रतिक्रिया और बग रिपोर्ट्स",
@@ -1784,6 +1916,22 @@
       "too_many_signup_request": "बहुत सारे साइनअप अनुरोध, कृपया बाद में पुनः प्रयास करें"
     },
     "swap": {
+      "aggregators": {
+        "rainbow": "Rainbow"
+      },
+      "tokens_input": {
+        "tokens": "Tokens",
+        "sort": "Sort",
+        "available": "available",
+        "token_balance": "Token Balance",
+        "networks": "नेटवर्क",
+        "filter_by_network": "Filter by Network",
+        "switch_networks": "Switch Networks",
+        "nothing_found": "कुछ नहीं मिला",
+        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
+        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
+        "output_quotes_disabled": "Output quotes disabled"
+      },
       "choose_token": "टोकन चुनें",
       "gas": {
         "custom": "कस्टम",
@@ -1805,6 +1953,7 @@
         "withdraw": "निकासी",
         "withdraw_symbol": "निकासी %{symbol}"
       },
+      "unknown": "Unknown",
       "warning": {
         "cost": {
           "are_you_sure_title": "क्या आप सुनिश्चित हैं?",
@@ -1825,6 +1974,15 @@
         }
       }
     },
+    "token_search": {
+      "section_header": {
+        "favorites": "पसंदीदा",
+        "bridge": "ब्रिज",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "on_other_networks": "On other networks"
+      }
+    },
     "transactions": {
       "actions": {
         "addToContacts": "संपर्कों में जोड़ें",
@@ -1837,35 +1995,139 @@
       "pending_title": "लंबित",
       "dropped_title": "छोड़ दिया",
       "type": {
-        "approved": "मंजूरी दी",
-        "approving": "मंजूरी",
-        "bridging": "सेतु निर्माण",
-        "bridged": "ब्रिज्ड",
-        "cancelled": "रद्द किया गया",
-        "cancelling": "रद्द कर रहा है",
-        "contract interaction": "अनुबंध अन्तर्क्रिया",
-        "deposited": "जमा किया गया",
-        "depositing": "निकासी देना",
-        "dropped": "छोड़ दिया",
-        "failed": "विफल",
-        "purchased": "खरीदा",
-        "purchasing": "खरीद",
-        "minting": "मिंटिंग",
-        "minted": "मिंट किया",
-        "received": "प्राप्त किया",
-        "receiving": "प्राप्त करना",
-        "self": "स्वयं",
-        "sending": "भेज रहा है",
-        "sent": "भेजा",
-        "speeding up": "तेज़ी से",
-        "selling": "बिक्री",
-        "sold": "बेच दिया",
-        "swapped": "स्वैप",
-        "swapping": "अदला बदली",
-        "unknown": "अज्ञात",
-        "withdrawing": "निकासी",
-        "withdrew": "निकाला"
+        "savings": "बचत",
+        "cancelled": "Transaction Cancelled",
+        "burn": {
+          "pending": "Burning",
+          "confirmed": "Burned",
+          "failed": "Burn Failed"
+        },
+        "cancel": {
+          "pending": "Cancelling",
+          "confirmed": "Cancelled",
+          "failed": "Cancel Failed"
+        },
+        "speed_up": {
+          "pending": "Speeding Up",
+          "confirmed": "Sped Up",
+          "failed": "Speed Up Failed"
+        },
+        "send": {
+          "pending": "भेज रहा है",
+          "confirmed": "भेजा",
+          "failed": "Send Failed"
+        },
+        "receive": {
+          "pending": "",
+          "confirmed": "प्राप्त किया",
+          "failed": ""
+        },
+        "withdraw": {
+          "pending": "Withdrawing",
+          "confirmed": "Withdrew",
+          "failed": "Withdraw Failed"
+        },
+        "deposit": {
+          "pending": "Depositing",
+          "confirmed": "Deposited",
+          "failed": "Deposit Failed"
+        },
+        "mint": {
+          "pending": "Minting",
+          "confirmed": "मिंट किया",
+          "failed": "Mint Failed"
+        },
+        "approve": {
+          "pending": "Approving",
+          "confirmed": "मंजूरी दी",
+          "failed": "Approve Failed"
+        },
+        "contract_interaction": {
+          "pending": "Interaction Pending",
+          "confirmed": "Interacted",
+          "failed": "Interaction Failed"
+        },
+        "swap": {
+          "pending": "Swapping",
+          "confirmed": "स्वैप",
+          "failed": "Swap Failed"
+        },
+        "borrow": {
+          "pending": "Borrowing",
+          "confirmed": "Borrowed",
+          "failed": "Borrow Failed"
+        },
+        "claim": {
+          "pending": "Claiming",
+          "confirmed": "Claimed",
+          "failed": "Claim Failed"
+        },
+        "deployment": {
+          "pending": "Deploying",
+          "confirmed": "Deployed",
+          "failed": "Deploy Failed"
+        },
+        "repay": {
+          "pending": "Repaying",
+          "confirmed": "Repayed",
+          "failed": "Repay Failed"
+        },
+        "stake": {
+          "pending": "Staking",
+          "confirmed": "Staked",
+          "failed": "Stake Failed"
+        },
+        "unstake": {
+          "pending": "Unstaking",
+          "confirmed": "Unstaked",
+          "failed": "Unstake Failed"
+        },
+        "purchase": {
+          "pending": "Purchasing",
+          "confirmed": "खरीदा",
+          "failed": "खरीदारी विफल"
+        },
+        "revoke": {
+          "pending": "Revoking",
+          "confirmed": "Revoked",
+          "failed": "Revoke Failed"
+        },
+        "sale": {
+          "pending": "बिक्री",
+          "confirmed": "बेच दिया",
+          "failed": "Sale Failed"
+        },
+        "bridge": {
+          "pending": "Bridging",
+          "confirmed": "ब्रिज्ड",
+          "failed": "Bridge Failed"
+        },
+        "airdrop": {
+          "pending": "",
+          "confirmed": "Airdropped",
+          "failed": ""
+        },
+        "wrap": {
+          "pending": "Wrapping",
+          "confirmed": "Wrapped",
+          "failed": "Wrap Failed"
+        },
+        "unwrap": {
+          "pending": "Unwrapping",
+          "confirmed": "Unwrapped",
+          "failed": "Unwrap Failed"
+        },
+        "bid": {
+          "pending": "Bidding",
+          "confirmed": "Bid",
+          "failed": "Bid Failed"
+        }
       },
+      "approvals": {
+        "no_allowance": "No Allowance",
+        "unlimited": "असीमित"
+      },
+      "no_value": "No value",
       "savings": "बचत",
       "signed": "हस्ताक्षरित",
       "contract_interaction": "अनुबंध संवाद",
@@ -1877,6 +2139,7 @@
       "to": "करने के लिए",
       "value": "मूल्य",
       "hash": "Tx हैश",
+      "you": "You",
       "network_fee": "नेटवर्क शुल्क",
       "hash_copied": "􀁣 लेनदेन हैश कॉपी किया गया",
       "address_copied": "􀁣 पता कॉपी किया गया",
@@ -1960,6 +2223,9 @@
       "copied": "\"%{copiedText}\" कॉपी कर दिया गया",
       "invalid_paste": "आप यहां पेस्ट नहीं कर सकते"
     },
+    "tokens_tab": {
+      "unknown_token": "अज्ञात टोकन"
+    },
     "hardware_wallets": {
       "pair_your_nano": "अपने नैनो X को जोड़ें",
       "connect_your_ledger": "अपने लेजर नैनो X को रेनबो के साथ ब्लूटूथ के माध्यम से जोड़ें। यदि यह आपकी पहली बार है, तो रेनबो ब्लूटूथ एक्सेस के लिए पूछेगा।",
@@ -2015,6 +2281,8 @@
         "delete_confirm": "क्या आप वाकई इस वॉलेट को हटाना चाहते हैं?",
         "edit": "वॉलेट संपादित करें",
         "hide": "छुपाएं",
+        "create_wallet_group": "Create Group",
+        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
         "import_wallet": "वॉलेट जोड़ें",
         "input": "लेन-देन इनपुट",
         "notifications": {
@@ -2112,15 +2380,31 @@
         "please_seed_phrase": "निजी कुंजी देखने के लिए कृपया प्रमाणित करें"
       },
       "back_ups": {
-        "and_1_more_wallet": "और 1 और वॉलेट",
+        "wallet_count": "%{numAccounts} wallet",
+        "wallet_count_gt_one": "%{numAccounts} wallets",
         "and_more_wallets": "और %{moreWalletCount} और वॉलेट्स",
+        "create_new_wallet": "Create a New Wallet",
+        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
         "backed_up": "बैकअप हो गया",
         "backed_up_manually": "मैन्युअली बैकअप हो गया",
-        "imported": "आयात किया गया"
+        "imported": "आयात किया गया",
+        "cloud_backup_title": "Cloud Backup",
+        "not_backed_up": "बैकअप नहीं लिया गया",
+        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
+        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
+        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
+        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
+        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_link": "Learn more…",
+        "view_secret_phrase": "View Secret Phrase",
+        "view_private_key": "View Private Key",
+        "copy_wallet_address": "Copy wallet address"
       },
       "balance_title": "बैलेंस",
       "buy": "खरीदें",
       "change_wallet": {
+        "no_balance": "No Balance",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "देख रहा है",
         "ledger": "लेजर"
@@ -2197,9 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_android": "यदि आपने पहले अपने वॉलेट का बैकअप Google ड्राइव पर किया था, तो उसे पुनर्स्थापित करने के लिए यहाँ टैप करें।",
-              "description_ios_one_wallet": "आपके पास 1 वॉलेट बैकअप है",
-              "description_ios_multiple_wallets": "आपके पास %{walletCount} वॉलेट बैकअप है",
+              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
+              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
               "title": "%{platform}से पुनर्स्थापित करें",
               "no_backups": "कोई बैकअप नहीं मिला",
               "no_google_backups": "हमें गूगल ड्राइव पर कोई बैकअप नहीं मिला। सुनिश्चित करें कि आप सही खाते में लॉग इन हैं।"
@@ -2213,12 +2496,12 @@
               "title": "अपना हार्डवेयर वॉलेट कनेक्ट करें"
             },
             "seed": {
-              "description": "अपना रिकवरी वाक्य का उपयोग करें, चाहे वह रेनबो से हो या किसी अन्य क्रिप्टो वॉलेट से",
-              "title": "एक रिकवरी फ़्रेज़ या निजी कुंजी के साथ पुनर्स्थापित करें"
+              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
+              "title": "Import a Secret Phrase or Private Key"
             },
             "watch": {
-              "description": "एक सार्वजनिक पता या ENS नाम देखें",
-              "title": "एक ईथेरियम पता देखें"
+              "description": "Watch an ENS name or a public address",
+              "title": "Watch a wallet"
             }
           },
           "first_wallet": {
@@ -2331,7 +2614,7 @@
           "insufficient_funds": "अरे नहीं! गैस मूल्य बदल गया है और आपके पास इस लेन-देन के लिए पर्याप्त धन नहीं है। कृपया कम राशि के साथ फिर से प्रयास करें।",
           "generic": "अरे नहीं! लेन-देन को सबमिट करने में एक समस्या थी। कृपया फिर से प्रयास करें।"
         },
-        "complete_checks": "पूरा जांच",
+        "complete_check": "Complete check",
         "ens_configuration_options": "ENS विन्यास विकल्प",
         "confirm": "लेन-देन की पुष्टि करें",
         "max": "अधिकतम",
@@ -2369,6 +2652,7 @@
       }
     },
     "walletconnect": {
+      "requests": "Requests",
       "wants_to_connect": "आपके वॉलेट के साथ कनेक्ट करना चाहता है",
       "wants_to_connect_to_network": "नेटवर्क %{network} के साथ कनेक्ट करना चाहता है",
       "available_networks": "उपलब्ध नेटवर्क",
@@ -2414,6 +2698,7 @@
       },
       "menu_options": {
         "disconnect": "डिसकनेक्ट",
+        "connect": "कनेक्ट करें",
         "switch_wallet": "वॉलेट स्विच करें",
         "switch_network": "नेटवर्क स्विच करें",
         "available_networks": "उपलब्ध नेटवर्क"
@@ -2516,6 +2801,54 @@
     "warning": {
       "user_is_offline": "कनेक्शन ऑफलाइन है, कृपया अपना इंटरनेट कनेक्शन जांचें",
       "user_is_online": "कनेक्ट हो गया! आप वापस ऑनलाइन हैं"
+    },
+    "dapp_browser": {
+      "address_bar": {
+        "input_placeholder": "Search or enter website"
+      },
+      "control_panel": {
+        "connected": "Connected",
+        "not_connected": "Not Connected",
+        "switch_wallet": "वॉलेट स्विच करें",
+        "switch_network": "नेटवर्क स्विच करें",
+        "disconnect": "डिसकनेक्ट",
+        "favorite": "Favorite",
+        "undo_favorite": "Undo",
+        "connect": "कनेक्ट करें",
+        "swap": "अदला-बदली करें",
+        "bridge": "ब्रिज",
+        "more": "अधिक"
+      },
+      "error": {
+        "title": "कुछ गलत हुआ",
+        "default_msg": "There was an error loading the page. Please try again."
+      },
+      "no_wc_needed": {
+        "title": "ओह!",
+        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "cta": "समझ गया"
+      },
+      "provider_error": {
+        "unsupported_chain": "Unsupported Chain",
+        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+      },
+      "homepage": {
+        "trending": "Trending",
+        "recents": "Recents",
+        "favorites": "पसंदीदा"
+      },
+      "search": {
+        "find_apps_and_more": "Find apps and more",
+        "more_results": "More Results",
+        "search": "खोज"
+      },
+      "menus": {
+        "favorite": "Favorite",
+        "undo_favorite": "Undo Favorite",
+        "remove": "हटाएं",
+        "forward": "Forward",
+        "back": "वापस"
+      }
     }
   }
 }
