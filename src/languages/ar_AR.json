@@ -91,7 +91,10 @@
         "no_backups_found": "لم نتمكن من العثور على نسختك الاحتياطية السابقة!",
         "cant_get_encrypted_data": "لم نتمكن من الوصول إلى النسخة الاحتياطية الخاصة بك في هذا الوقت. يرجى المحاولة مرة أخرى لاحقاً.",
         "missing_pin": "حدث خطأ أثناء معالجة رمز PIN الخاص بك. يرجى المحاولة مرة أخرى في وقت لاحق.",
-        "generic": "خطأ أثناء محاولة النسخ الاحتياطي. رمز الخطأ: %{errorCodes}"
+        "generic": "خطأ أثناء محاولة النسخ الاحتياطي. رمز الخطأ: %{errorCodes}",
+        "no_keys_found": "No keys found. Please try again.",
+        "backup_not_found": "Backup not found. Please try again.",
+        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
       },
       "wrong_pin": "رمز PIN الذي أدخلته غير صحيح ولا يمكننا إجراء نسخ احتياطي. الرجاء المحاولة مرة أخرى بكود صحيح.",
       "already_backed_up": {
@@ -101,17 +104,56 @@
         "imported": "تم الاستيراد",
         "imported_message": "تم استيراد محفظتك"
       },
+      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
+      "wallet_group_title_singular": "Wallet Group",
+      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "private_key_singluar": "المفتاح الخاص",
       "backup_deleted_successfully": "تم حذف النسخ الاحتياطية بنجاح",
       "cloud": {
+        "no_backups": "لم يتم العثور على نسخ احتياطية",
+        "failed_to_fetch_backups": "Failed to fetch backups",
+        "retry": "Retry",
+        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
         "back_up_to_platform": "النسخ الاحتياطي إلى %{cloudPlatformName}",
-        "manage_platform_backups": "إدارة النسخ الاحتياطية لـ %{cloudPlatformName}",
+        "restore_from_platform": "استعد من %{cloudPlatformName}",
+        "restoration_in_progress": "Restoration in progress",
+        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
+        "manage_platform_backups": "View %{cloudPlatformName} Backups",
+        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
+        "cloud_backup": "Cloud Backup",
+        "backing_up": "Backing up...",
+        "backup_success": "Back up Successful",
+        "backup_failed": "Backup Failed",
+        "manual_backup": "Manual backup",
+        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
+        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
+        "enable_cloud_backups": "Enable Cloud Backups",
+        "mayber_later": "ربما لاحقا",
+        "recommended_for_beginners": "Recommended for beginners.",
+        "choose_backup": "Choose the backup you’d like to restore",
+        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
+        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
+        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
+        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
+        "latest_backup": "Last Backup: %{date}",
+        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
+        "most_recent_backup": "Most Recent Backup",
+        "out_of_date": "Out of Date",
+        "up_to_date": "Up to Date",
+        "older_backups": "Older Backups",
+        "no_older_backups": "No Older Backups",
+        "older_backups_title": "%{date} at %{time}",
         "password": {
-          "a_password_youll_remember": "الرجاء استخدام كلمة مرور ستتذكرها.",
-          "backup_password": "كلمة مرور النسخ الاحتياطي",
-          "choose_a_password": "اختر كلمة مرور",
+          "a_password_youll_remember_part_one": "This password is",
+          "not": "not",
+          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "backup_password": "كلمة السر",
+          "choose_a_password": "Create a password to secure your backup",
           "confirm_backup": "تأكيد النسخ الاحتياطي",
+          "enter_backup_password": "Enter your backup password",
+          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
           "confirm_password": "تأكيد كلمة المرور",
-          "confirm_placeholder": "تأكيد كلمة المرور",
+          "confirm_placeholder": "Reenter Password",
           "it_cant_be_recovered": "لا يمكن استعادتها!",
           "minimum_characters": "الحد الأدنى %{minimumLength} أحرف",
           "passwords_dont_match": "كلمات السر غير متطابقة",
@@ -133,22 +175,31 @@
       },
       "explainers": {
         "backup": "لا تنس هذه الكلمة السرية! إنها مختلفة عن كلمة السر %{cloudPlatformName} الخاصة بك، ويجب أن تحفظها في مكان آمن.\n\nستحتاج إليها من أجل استعادة محفظتك من النسخة الاحتياطية في المستقبل.",
+        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
         "if_lose_cloud": "إذا فقدت هذا الجهاز، يمكنك استعادة نسخة محفظتك المشفرة من %{cloudPlatformName}.",
         "if_lose_imported": "إذا فقدت هذا الجهاز، يمكنك استعادة محفظتك باستخدام المفتاح الذي قمت بإدخاله أصلا.",
         "if_lose_manual": "إذا فقدت هذا الجهاز، يمكنك استعادة محفظتك بالعبارة السرية التي حفظتها."
       },
       "manual": {
-        "label": "عبارتك السرية",
+        "backup_manually": "Back Up Manually",
+        "label": "Save your %{typeName}",
+        "with_your_label": "Your %{typeName}",
+        "backup_manually_now": "Would you like to back up this wallet?",
+        "back_up_now": "Back Up Now",
+        "already_backed_up": "Already backed up",
         "pkey": {
-          "confirm_save": "لقد حفظت مفتاحي",
+          "confirm_save": "􀆅 I've saved my key",
           "save_them": "انسخه واحفظه في مدير كلمات السر الخاص بك، أو في مكان آمن آخر.",
-          "these_keys": "هذا هو مفتاح محفظتك!"
+          "these_keys": "هذا هو مفتاح محفظتك!",
+          "description": "Anyone who has this key can access your wallet! You should never share it."
         },
         "seed": {
-          "confirm_save": "لقد حفظت هذه الكلمات",
+          "confirm_save": "􀆅 I've saved these words",
           "save_them": "اكتبها أو احفظها في مدير كلمات المرور الخاص بك.",
-          "these_keys": "هذه الكلمات هي مفاتيح محفظتك!"
-        }
+          "these_keys": "هذه الكلمات هي مفاتيح محفظتك!",
+          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+        },
+        "create_new_secret_phrase": "Create a New Secret Phrase"
       },
       "needs_backup": {
         "back_up_your_wallet": "احتفظ بنسخة احتياطية من محفظتك",
@@ -169,7 +220,7 @@
         "anyone_who_has_these": "أي شخص يملك هذه الكلمات يمكنه الوصول إلى محفظتك بالكامل!",
         "biometrically_secured": "تم تأمين حسابك بالبيانات الحيوية، مثل بصمة الإصبع أو التعرف على الوجه. لرؤية عبارة الاستعادة، قم بتشغيل البيومتريات في إعدادات هاتفك.",
         "no_seed_phrase": "لم نتمكن من استرجاع عبارة البذرة الخاصة بك. يرجى التأكد من أنك قمت بالتوثيق بشكل صحيح باستخدام البيانات الحيوية، مثل بصمة الإصبع أو التعرف على الوجه، أو أدخلت رمز PIN بشكل صحيح.",
-        "copy_to_clipboard": "نسخ إلى الحافظة",
+        "copy_to_clipboard": "Copy to Clipboard",
         "for_your_eyes_only": "لعيونك فقط",
         "private_key_title": "المفتاح الخاص",
         "secret_phrase_title": "العبارة السرية",
@@ -177,6 +228,15 @@
         "view_private_key": "عرض المفتاح الخاص",
         "view_secret_phrase": "عرض العبارة السرية",
         "you_need_to_authenticate": "تحتاج إلى التوثيق من أجل الوصول إلى استعادة %{typeName}"
+      },
+      "warning": {
+        "before_you_proceed": "Before you proceed",
+        "title": "View your %{typeName}",
+        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
+        "access": "Anyone who has your %{typeName} can access your entire wallet.",
+        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
+        "support": "Rainbow Support will never ask you for your %{typeName}.",
+        "button": "􀎽 Show %{typeName}"
       }
     },
     "bluetooth": {
@@ -483,6 +543,9 @@
         "view_on": "اعرض على %{blockExplorerName}",
         "view_on_etherscan": "عرض على Etherscan"
       },
+      "all_networks": "All Networks",
+      "filter_by_network": "Filter by Network",
+      "my_tokens": "My Tokens",
       "flip": "اقلب",
       "max": "الحد الأقصى",
       "movers": {
@@ -501,10 +564,32 @@
         "nothing_here": "لا شيء هنا!",
         "nothing_to_send": "لا شيء للإرسال"
       },
+      "quote_errors": {
+        "501": "لا يوجد اقتباس متاح",
+        "no_quote_available": "لا يوجد اقتباس متاح",
+        "502": "Insufficient liquidity",
+        "insufficient_liquidity": "Insufficient liquidity",
+        "503": "رسوم على النقل",
+        "fee_on_transfer": "رسوم على النقل",
+        "504": "No route found",
+        "no_route_found": "No route found"
+      },
       "price_impact": {
+        "long_wait": {
+          "title": "Long wait",
+          "description": "Approx. %{time}"
+        },
+        "unknown_price": {
+          "title": "Market Value Unknown",
+          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+        },
         "losing_prefix": "خاسر",
         "small_market": "سوق صغير",
-        "label": "خسارة محتملة"
+        "small_market_try_smaller_amount": "Small market — try a smaller amount",
+        "you_are_losing": "You're losing %{priceImpact}",
+        "no_data": "Market Value Unknown",
+        "label": "خسارة محتملة",
+        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
       },
       "source": {
         "rainbow": "أوتو",
@@ -677,11 +762,14 @@
         "registrant": "المسجل",
         "resolver": "المحلل",
         "save_to_photos": "حفظ في الصور",
+        "sell_for_x": "Sell for %{price}",
         "set_primary_name": "تعيين كاسم ENS الخاص بي",
         "share_token_info": "مشاركة %{uniqueTokenName} معلومات",
         "showcase": "عرض",
         "toast_added_to_showcase": "تمت الإضافة إلى العرض",
         "toast_removed_from_showcase": "تم الإزالة من العرض",
+        "refreshing": "Refreshing metadata...",
+        "reported": "Reported as spam",
         "twitter": "تويتر",
         "view_all_with_property": "عرض الكل بالخاصية",
         "view_collection": "عرض المجموعة",
@@ -691,30 +779,37 @@
         "view_on_platform": "عرض على %{platform}",
         "view_on_web": "عرض على الويب",
         "refresh": "تحديث البيانات الوصفية",
+        "report": "Report as Spam",
         "hide": "إخفاء",
         "unhide": "الغاء الاخفاء"
       }
     },
+    "app_icon_unlock_sheet": {
+      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
+      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
+      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
+      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
+      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
+      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
+      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
+      "finiliar_title": "You've unlocked a\nRainbow Fini",
+      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
+      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
+      "pooly_title": "You've unlocked a\nRainbow Pooly",
+      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
+      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
+      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
+      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
+      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
+      "adworld_title": "Welcome to Rainbow World!",
+      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
+      "farcaster_title": "You've unlocked\nRainbowcast",
+      "button": "Snag the icon"
+    },
     "explain": {
-      "icon_unlock": {
-        "smol_text": "لقد وجدت كنز! لأنك تمتلك NFT من Smolverse، لقد فتحت أيقونة مخصصة!",
-        "optimism_text": "للاحتفال بالـ NFTs على Optimism، اتحدت Rainbow و Optimism لإطلاق رمز تطبيق محدود الإصدار للمستكشفين المتفائلين مثلك!",
-        "zora_text": "أيقونة Rainbow Zorb الخاصة التي تم إعدادها للتأمل السحري.",
-        "finiliar_text": "أيقونة Rainbow Fini الخاصة التي تبقيك على تواصل بأسعار الغاز، مطراً أو شمساً.",
-        "finiliar_title": "لقد فتحت\nRainbow Fini",
-        "golddoge_text": "أيقونة تطبيق Rainbow الذهبية المحدودة الإصدار احتفالاً بعيد ميلاد Kabosu السابع عشر.",
-        "raindoge_text": "أيقونة تطبيق Rainbow المحدودة الإصدار احتفالاً بعيد ميلاد Kabosu السابع عشر.",
-        "pooly_text": "رمز لـ Pooly المطبوع بقوس قزح خاص لمؤيدي الحرية.",
-        "pooly_title": "لقد فتحت\nبركة قوس قزح Pooly",
-        "zorb_text": "طبعة خاصة من Zorb قوس قزح:\n100% مما تحب، أسرع وأكثر كفاءة.",
-        "zorb_title": "لقد فتحت\nطاقة Zorb قوس قزح!",
-        "poolboy_text": "رمز خاص من قوس قزح x Poolsuite لصيف المنظومة.",
-        "poolboy_title": "لقد فتحت\nRainbow Poolboy!",
-        "adworld_text": "كمواطن في عالم Rainbow، يمكنك الآن فتح نسخة خاصة من\nAdWorld x Rainbow App Icon.",
-        "adworld_title": "مرحبا بك في عالم Rainbow!",
-        "title": "لقد فتحت\nRainbow 􀆄 %{partner}",
-        "button": "الحصول على الرمز"
-      },
       "output_disabled": {
         "text": "لل %{fromNetwork}, لا يمكن لل Rainbow تحضير الصفقات استنادًا إلى مقدار %{outputToken} الذي ترغب في تلقيه. \n\n حاول بدلاً من ذلك إدخال مقدار %{inputToken} الذي تود تبديله.",
         "title": "أدخل %{inputToken} بدلاً من ذلك",
@@ -731,6 +826,9 @@
       "arbitrum": {
         "text": "Arbitrum هو شبكة الطبقة 2 التي تعمل فوق Ethereum ، حيث تتيح المعاملات أرخص وأسرع بينما ما زالت تستفيد من الأمان الأساسي لـ Ethereum.\n\nيقوم بتجميع الكثير من المعاملات معًا في \"roll up\" قبل إرسالها للعيش بشكل دائم على Ethereum.",
         "title": "ما هو Arbitrum؟"
+      },
+      "add_to_backups": {
+        "title": "Backing up %{walletName}"
       },
       "backup": {
         "title": "مهم"
@@ -781,7 +879,19 @@
       },
       "base": {
         "text": "القاعدة هي شبكة من الطبقة 2 تعمل فوق Ethereum ، مما يتيح المعاملات الأرخص والأسرع مع الاستفادة من الأمان الكامن في Ethereum.\n\nإنه يربط العديد من المعاملات معًا في \"التجميع\" قبل إرسالها للعيش بشكل دائم على Ethereum.",
-        "title": "ما هي القاعدة"
+        "title": "What's Base?"
+      },
+      "avalanche": {
+        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
+        "title": "What's Avalanche"
+      },
+      "degen": {
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
+        "title": "What's Degen Chain?"
+      },
+      "blast": {
+        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "title": "What's Blast?"
       },
       "zora": {
         "text": "زورا هو شبكة من الطبقة 2 تعمل فوق Ethereum ، مما يتيح المعاملات الأرخص والأسرع مع الاستفادة من الأمان الكامن في Ethereum.\n\nإنه يربط العديد من المعاملات معًا في \"التجميع\" قبل إرسالها للعيش بشكل دائم على Ethereum.",
@@ -906,6 +1016,7 @@
       }
     },
     "gas": {
+      "gas_settings": "Gas Settings",
       "card": {
         "falling": "تناقص",
         "rising": "صعود",
@@ -1091,7 +1202,7 @@
             "manual": "النسخ الاحتياطي يدويا"
           },
           "description": "لا تفقد محفظتك! احفظ نسخة مشفرة في %{cloudPlatformName}",
-          "title": "احتفظ بنسخة احتياطية من محفظتك"
+          "title": "How would you like to back up your wallet?"
         },
         "existing": {
           "button": {
@@ -1214,6 +1325,7 @@
         "offer_expired": "انتهت صلاحية العرض",
         "expired": "منتهي",
         "hold_to_sell": "احتفظ للبيع",
+        "selling": "بيع",
         "error": {
           "title": "خطأ في بيع NFT",
           "message": "يرجى الاتصال بدعم Rainbow للحصول على المساعدة."
@@ -1329,7 +1441,8 @@
         "view_weekly_earnings_title": "احتساب النقاط المكتسبة",
         "view_weekly_earnings_counted": "تم احتساب الأرباح الأسبوعية",
         "view_weekly_earnings_close_button": "إغلاق",
-        "view_weekly_earnings_retroactive_points": "النقاط بأثر رجعي",
+        "view_weekly_earnings_retroactive_points": "Retroactive Points",
+        "view_weekly_earnings_bonus_points": "Bonus Points",
         "view_weekly_earnings_activity": "نشاطك",
         "view_weekly_earnings_referral_activity": "نشاط الإحالة",
         "view_weekly_earnings_total_earnings": "المجموع",
@@ -1700,16 +1813,35 @@
       "no_thanks": "لا شكرا"
     },
     "settings": {
-      "backup": "النسخ الاحتياطي",
+      "backup": "Wallets & Backup",
+      "delete_backups": "Delete All %{cloudPlatform} Backups",
+      "confirm_delete_backups": "Confirm and Delete Backups",
+      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
+      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
       "google_account_used": "الحساب الجوجل المستخدم للنسخ الاحتياطي",
       "backup_switch_google_account": "تغيير حساب جوجل",
       "backup_sign_out": "تسجيل الخروج",
       "backup_sign_in": "تسجيل الدخول",
       "backup_loading": "جار التحميل...",
       "backup_google_account": "حساب جوجل",
-      "currency": "العملة",
+      "currency": {
+        "title": "Currency",
+        "ETH": "إيثيريوم",
+        "USD": "United States Dollar",
+        "EUR": "Euro",
+        "GBP": "British Pound",
+        "AUD": "Australian Dollar",
+        "CNY": "Chinese Yuan",
+        "KRW": "South Korean Won",
+        "JPY": "Japanese Yen",
+        "RUB": "Russian Ruble",
+        "INR": "Indian Rupee",
+        "TRY": "Turkish Lira",
+        "CAD": "Canadian Dollar",
+        "NZD": "New Zealand Dollar",
+        "ZAR": "South African Rand"
+      },
       "app_icon": "أيقونة التطبيق",
-      "dev": "مطور",
       "developer": "إعدادات المطور",
       "done": "تم",
       "feedback_and_reports": "الملاحظات وتقارير الأخطاء",
@@ -1784,6 +1916,22 @@
       "too_many_signup_request": "طلبات التسجيل كثيرة جدا، يرجى المحاولة مرة أخرى لاحقا"
     },
     "swap": {
+      "aggregators": {
+        "rainbow": "Rainbow"
+      },
+      "tokens_input": {
+        "tokens": "Tokens",
+        "sort": "Sort",
+        "available": "available",
+        "token_balance": "Token Balance",
+        "networks": "الشبكات",
+        "filter_by_network": "Filter by Network",
+        "switch_networks": "Switch Networks",
+        "nothing_found": "لم يتم العثور على شيء",
+        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
+        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
+        "output_quotes_disabled": "Output quotes disabled"
+      },
       "choose_token": "اختر الرمز",
       "gas": {
         "custom": "مخصص",
@@ -1805,6 +1953,7 @@
         "withdraw": "سحب",
         "withdraw_symbol": "سحب %{symbol}"
       },
+      "unknown": "Unknown",
       "warning": {
         "cost": {
           "are_you_sure_title": "هل أنت متأكد؟",
@@ -1825,6 +1974,15 @@
         }
       }
     },
+    "token_search": {
+      "section_header": {
+        "favorites": "المفضلة",
+        "bridge": "جسر",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "on_other_networks": "On other networks"
+      }
+    },
     "transactions": {
       "actions": {
         "addToContacts": "أضف إلى الجهات",
@@ -1837,35 +1995,139 @@
       "pending_title": "معلق",
       "dropped_title": "تم الإسقاط",
       "type": {
-        "approved": "تم الموافقة",
-        "approving": "موافقة",
-        "bridging": "الجسر",
-        "bridged": "تم الربط",
-        "cancelled": "ألغيت",
-        "cancelling": "الغاء",
-        "contract interaction": "تفاعل العقد",
-        "deposited": "أودعت",
-        "depositing": "إيداع",
-        "dropped": "تم الإسقاط",
-        "failed": "فشل",
-        "purchased": "تم الشراء",
-        "purchasing": "شراء",
-        "minting": "التحميص",
-        "minted": "تم الإصدار",
-        "received": "تم الاستلام",
-        "receiving": "تلقي",
-        "self": "نفسه",
-        "sending": "إرسال",
-        "sent": "تم الإرسال",
-        "speeding up": "تسريع",
-        "selling": "بيع",
-        "sold": "تم البيع",
-        "swapped": "تم التبديل",
-        "swapping": "تبديل",
-        "unknown": "غير معروف",
-        "withdrawing": "انسحاب",
-        "withdrew": "انسحب"
+        "savings": "التوفير",
+        "cancelled": "Transaction Cancelled",
+        "burn": {
+          "pending": "Burning",
+          "confirmed": "Burned",
+          "failed": "Burn Failed"
+        },
+        "cancel": {
+          "pending": "Cancelling",
+          "confirmed": "Cancelled",
+          "failed": "Cancel Failed"
+        },
+        "speed_up": {
+          "pending": "Speeding Up",
+          "confirmed": "Sped Up",
+          "failed": "Speed Up Failed"
+        },
+        "send": {
+          "pending": "إرسال",
+          "confirmed": "تم الإرسال",
+          "failed": "Send Failed"
+        },
+        "receive": {
+          "pending": "",
+          "confirmed": "تم الاستلام",
+          "failed": ""
+        },
+        "withdraw": {
+          "pending": "Withdrawing",
+          "confirmed": "Withdrew",
+          "failed": "Withdraw Failed"
+        },
+        "deposit": {
+          "pending": "Depositing",
+          "confirmed": "Deposited",
+          "failed": "Deposit Failed"
+        },
+        "mint": {
+          "pending": "Minting",
+          "confirmed": "تم الإصدار",
+          "failed": "Mint Failed"
+        },
+        "approve": {
+          "pending": "Approving",
+          "confirmed": "تم الموافقة",
+          "failed": "Approve Failed"
+        },
+        "contract_interaction": {
+          "pending": "Interaction Pending",
+          "confirmed": "Interacted",
+          "failed": "Interaction Failed"
+        },
+        "swap": {
+          "pending": "Swapping",
+          "confirmed": "تم التبديل",
+          "failed": "Swap Failed"
+        },
+        "borrow": {
+          "pending": "Borrowing",
+          "confirmed": "Borrowed",
+          "failed": "Borrow Failed"
+        },
+        "claim": {
+          "pending": "Claiming",
+          "confirmed": "Claimed",
+          "failed": "Claim Failed"
+        },
+        "deployment": {
+          "pending": "Deploying",
+          "confirmed": "Deployed",
+          "failed": "Deploy Failed"
+        },
+        "repay": {
+          "pending": "Repaying",
+          "confirmed": "Repayed",
+          "failed": "Repay Failed"
+        },
+        "stake": {
+          "pending": "Staking",
+          "confirmed": "Staked",
+          "failed": "Stake Failed"
+        },
+        "unstake": {
+          "pending": "Unstaking",
+          "confirmed": "Unstaked",
+          "failed": "Unstake Failed"
+        },
+        "purchase": {
+          "pending": "Purchasing",
+          "confirmed": "تم الشراء",
+          "failed": "فشل الشراء"
+        },
+        "revoke": {
+          "pending": "Revoking",
+          "confirmed": "Revoked",
+          "failed": "Revoke Failed"
+        },
+        "sale": {
+          "pending": "بيع",
+          "confirmed": "تم البيع",
+          "failed": "Sale Failed"
+        },
+        "bridge": {
+          "pending": "Bridging",
+          "confirmed": "تم الربط",
+          "failed": "Bridge Failed"
+        },
+        "airdrop": {
+          "pending": "",
+          "confirmed": "Airdropped",
+          "failed": ""
+        },
+        "wrap": {
+          "pending": "Wrapping",
+          "confirmed": "Wrapped",
+          "failed": "Wrap Failed"
+        },
+        "unwrap": {
+          "pending": "Unwrapping",
+          "confirmed": "Unwrapped",
+          "failed": "Unwrap Failed"
+        },
+        "bid": {
+          "pending": "Bidding",
+          "confirmed": "Bid",
+          "failed": "Bid Failed"
+        }
       },
+      "approvals": {
+        "no_allowance": "No Allowance",
+        "unlimited": "غير محدود"
+      },
+      "no_value": "No value",
       "savings": "التوفير",
       "signed": "موقع",
       "contract_interaction": "تفاعل العقد",
@@ -1877,6 +2139,7 @@
       "to": "إلى",
       "value": "القيمة",
       "hash": "تكس هاش",
+      "you": "You",
       "network_fee": "رسوم الشبكة",
       "hash_copied": "􀁣 تم نسخ هاش الحوالة",
       "address_copied": "􀁣 تم نسخ العنوان",
@@ -1960,6 +2223,9 @@
       "copied": "تم النسخ \"%{copiedText}\"",
       "invalid_paste": "لا يمكنك لصق ذلك هنا"
     },
+    "tokens_tab": {
+      "unknown_token": "رمز غير معروف"
+    },
     "hardware_wallets": {
       "pair_your_nano": "ربط جهاز Nano X الخاص بك",
       "connect_your_ledger": "قم بتوصيل Ledger Nano X الخاص بك بـ Rainbow عبر البلوتوث. إذا كانت هذه أول مرة، سوف يطلب Rainbow الوصول إلى البلوتوث.",
@@ -2015,6 +2281,8 @@
         "delete_confirm": "هل أنت متأكد أنك تريد حذف هذه المحفظة؟",
         "edit": "تعديل المحفظة",
         "hide": "إخفاء",
+        "create_wallet_group": "Create Group",
+        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
         "import_wallet": "أضف محفظة",
         "input": "إدخال العملية",
         "notifications": {
@@ -2112,15 +2380,31 @@
         "please_seed_phrase": "يرجى المصادقة لعرض المفتاح الخاص"
       },
       "back_ups": {
-        "and_1_more_wallet": "ومحفظة أخرى",
+        "wallet_count": "%{numAccounts} wallet",
+        "wallet_count_gt_one": "%{numAccounts} wallets",
         "and_more_wallets": "و %{moreWalletCount} محافظ أخرى",
+        "create_new_wallet": "Create a New Wallet",
+        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
         "backed_up": "تم النسخ الاحتياطي",
         "backed_up_manually": "تم النسخ الاحتياطي يدويا",
-        "imported": "تم الاستيراد"
+        "imported": "تم الاستيراد",
+        "cloud_backup_title": "Cloud Backup",
+        "not_backed_up": "لم يتم النسخ الاحتياطي",
+        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
+        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
+        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
+        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
+        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_link": "Learn more…",
+        "view_secret_phrase": "View Secret Phrase",
+        "view_private_key": "View Private Key",
+        "copy_wallet_address": "Copy wallet address"
       },
       "balance_title": "رصيد",
       "buy": "شراء",
       "change_wallet": {
+        "no_balance": "No Balance",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "مشاهدة",
         "ledger": "ليدجر"
@@ -2197,9 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_android": "إذا كنت قد قمت بالفعل بنسخة احتياطية لمحفظتك على Google Drive، انقر هنا لإستعادتها.",
-              "description_ios_one_wallet": "لديك 1 محفظة تم نسخها احتياطيًا",
-              "description_ios_multiple_wallets": "لديك %{walletCount} محافظ تم نسخها احتياطيًا",
+              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
+              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
               "title": "استعادة من %{platform}",
               "no_backups": "لم يتم العثور على نسخ احتياطية",
               "no_google_backups": "لم يتم العثور على أي نسخة احتياطية على Google Drive. تأكد من أنك مسجل الدخول بالحساب الصحيح."
@@ -2213,12 +2496,12 @@
               "title": "قم بتوصيل محفظتك الخارجية"
             },
             "seed": {
-              "description": "استخدم العبارة الاستردادية الخاصة بك من Rainbow أو محفظة العملات الرقمية الأخرى",
-              "title": "استعادة بواسطة العبارة الاستردادية أو المفتاح الخاص"
+              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
+              "title": "Import a Secret Phrase or Private Key"
             },
             "watch": {
-              "description": "راقب عنوانا عاما أو اسم ENS",
-              "title": "راقب عنوان Ethereum"
+              "description": "Watch an ENS name or a public address",
+              "title": "Watch a wallet"
             }
           },
           "first_wallet": {
@@ -2331,7 +2614,7 @@
           "insufficient_funds": "يا للأسف! تغير سعر الغاز ولم يعد لديك أموال كافية لهذه المعاملة. الرجاء المحاولة مرة أخرى بكمية أقل.",
           "generic": "يا للأسف! حدثت مشكلة أثناء تقديم العملية. الرجاء المحاولة مرة أخرى."
         },
-        "complete_checks": "التحققات الكاملة",
+        "complete_check": "Complete check",
         "ens_configuration_options": "خيارات تكوين ENS",
         "confirm": "تأكيد العملية",
         "max": "أقصى",
@@ -2369,6 +2652,7 @@
       }
     },
     "walletconnect": {
+      "requests": "Requests",
       "wants_to_connect": "يرغب في الاتصال بمحفظتك",
       "wants_to_connect_to_network": "يرغب في الاتصال بالشبكة %{network}",
       "available_networks": "الشبكات المتاحة",
@@ -2414,6 +2698,7 @@
       },
       "menu_options": {
         "disconnect": "قطع الاتصال",
+        "connect": "اتصل",
         "switch_wallet": "تبديل المحفظة",
         "switch_network": "تبديل الشبكة",
         "available_networks": "الشبكات المتاحة"
@@ -2516,6 +2801,54 @@
     "warning": {
       "user_is_offline": "الاتصال غير متوفر، يرجى التحقق من اتصالك بالإنترنت",
       "user_is_online": "متصل! أنت عادت إلى الاتصال بالشبكة"
+    },
+    "dapp_browser": {
+      "address_bar": {
+        "input_placeholder": "Search or enter website"
+      },
+      "control_panel": {
+        "connected": "Connected",
+        "not_connected": "Not Connected",
+        "switch_wallet": "تبديل المحفظة",
+        "switch_network": "تبديل الشبكة",
+        "disconnect": "قطع الاتصال",
+        "favorite": "Favorite",
+        "undo_favorite": "Undo",
+        "connect": "اتصل",
+        "swap": "تبديل",
+        "bridge": "جسر",
+        "more": "أكثر"
+      },
+      "error": {
+        "title": "حدث خطأ ما",
+        "default_msg": "There was an error loading the page. Please try again."
+      },
+      "no_wc_needed": {
+        "title": "أووبس!",
+        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "cta": "فهمت"
+      },
+      "provider_error": {
+        "unsupported_chain": "Unsupported Chain",
+        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+      },
+      "homepage": {
+        "trending": "Trending",
+        "recents": "Recents",
+        "favorites": "المفضلة"
+      },
+      "search": {
+        "find_apps_and_more": "Find apps and more",
+        "more_results": "More Results",
+        "search": "بحث"
+      },
+      "menus": {
+        "favorite": "Favorite",
+        "undo_favorite": "Undo Favorite",
+        "remove": "إزالة",
+        "forward": "Forward",
+        "back": "رجوع"
+      }
     }
   }
 }
