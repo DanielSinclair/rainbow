@@ -92,9 +92,9 @@
         "cant_get_encrypted_data": "我们现在无法访问您的备份。请稍后再试。",
         "missing_pin": "在处理您的PIN码时出错了。请稍后再试。",
         "generic": "尝试备份时出错。错误代码： %{errorCodes}",
-        "no_keys_found": "No keys found. Please try again.",
-        "backup_not_found": "Backup not found. Please try again.",
-        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
+        "no_keys_found": "未找到密钥。请再试一次。",
+        "backup_not_found": "未找到备份。请再试一次。",
+        "no_account_found": "无法检索备份文件。请确保您已登录。"
       },
       "wrong_pin": "您输入的PIN码有误，我们无法进行备份。请使用正确的PIN码再试一次。",
       "already_backed_up": {
@@ -104,56 +104,56 @@
         "imported": "已导入",
         "imported_message": "您的钱包已导入"
       },
-      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
-      "wallet_group_title_singular": "Wallet Group",
-      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "wallet_group_title_plural": "钱包组 %{walletGroupNumber}",
+      "wallet_group_title_singular": "钱包组",
+      "private_key_plural": "私钥 %{privateKeyNumber}",
       "private_key_singluar": "私钥",
       "backup_deleted_successfully": "备份已成功删除",
       "cloud": {
         "no_backups": "未找到备份",
-        "failed_to_fetch_backups": "Failed to fetch backups",
-        "retry": "Retry",
-        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
+        "failed_to_fetch_backups": "获取备份失败",
+        "retry": "重试",
+        "fetching_backups": "正在从 %{cloudPlatformName} 检索备份",
         "back_up_to_platform": "备份到 %{cloudPlatformName}",
         "restore_from_platform": "从 %{cloudPlatformName} 恢复",
-        "restoration_in_progress": "Restoration in progress",
-        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
-        "manage_platform_backups": "View %{cloudPlatformName} Backups",
-        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
-        "cloud_backup": "Cloud Backup",
-        "backing_up": "Backing up...",
-        "backup_success": "Back up Successful",
-        "backup_failed": "Backup Failed",
-        "manual_backup": "Manual backup",
-        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
-        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
-        "enable_cloud_backups": "Enable Cloud Backups",
+        "restoration_in_progress": "恢复进行中",
+        "how_would_you_like_to_backup": "你想如何备份你的钱包？",
+        "manage_platform_backups": "查看 %{cloudPlatformName} 备份",
+        "cloud_platform_backup_settings": "%{cloudPlatformName} 备份设置",
+        "cloud_backup": "云备份",
+        "backing_up": "正在备份...",
+        "backup_success": "备份成功",
+        "backup_failed": "备份失败",
+        "manual_backup": "手动备份",
+        "back_to_cloud_platform_now": "立即备份到 %{cloudPlatform}",
+        "add_wallet_to_cloud_backups": "将此钱包添加到您的云备份中？",
+        "enable_cloud_backups": "启用云备份",
         "mayber_later": "稍后再说",
-        "recommended_for_beginners": "Recommended for beginners.",
-        "choose_backup": "Choose the backup you’d like to restore",
-        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
-        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
-        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
-        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
-        "latest_backup": "Last Backup: %{date}",
-        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
-        "most_recent_backup": "Most Recent Backup",
-        "out_of_date": "Out of Date",
-        "up_to_date": "Up to Date",
-        "older_backups": "Older Backups",
-        "no_older_backups": "No Older Backups",
-        "older_backups_title": "%{date} at %{time}",
+        "recommended_for_beginners": "推荐给初学者。",
+        "choose_backup": "选择您要恢复的备份",
+        "backup_to_cloud_now": "立即备份到 %{cloudPlatformName}",
+        "choose_backup_cloud_description": "安全地将您的钱包备份到 %{cloudPlatform}，以便在丢失设备或更换新设备时可以恢复。",
+        "choose_backup_manual_description": "通过将您的秘密短语保存在安全位置手动备份您的钱包。",
+        "enable_cloud_backups_description": "如果你更喜欢手动备份钱包，你可以在下面进行。",
+        "latest_backup": "上次备份：%{date}",
+        "back_up_all_wallets_to_cloud": "将所有钱包备份到 %{cloudPlatformName}",
+        "most_recent_backup": "最新备份",
+        "out_of_date": "过期",
+        "up_to_date": "最新",
+        "older_backups": "旧备份",
+        "no_older_backups": "没有旧备份",
+        "older_backups_title": "%{date} 在 %{time}",
         "password": {
-          "a_password_youll_remember_part_one": "This password is",
-          "not": "not",
-          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "a_password_youll_remember_part_one": "这个密码是",
+          "not": "不可恢复的。请确保您选择一个您会记住的密码。",
+          "a_password_youll_remember_part_two": "确保您选择一个您会记住的密码。",
           "backup_password": "密码",
-          "choose_a_password": "Create a password to secure your backup",
+          "choose_a_password": "创建一个密码来保护您的备份",
           "confirm_backup": "确认备份",
-          "enter_backup_password": "Enter your backup password",
-          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
+          "enter_backup_password": "输入您的备份密码",
+          "to_restore_from_backup": "要从此备份恢复，请输入您备份时创建的密码",
           "confirm_password": "确认密码",
-          "confirm_placeholder": "Reenter Password",
+          "confirm_placeholder": "重新输入密码",
           "it_cant_be_recovered": "无法恢复！",
           "minimum_characters": "最少 %{minimumLength} 个字符",
           "passwords_dont_match": "密码不匹配",
@@ -175,31 +175,31 @@
       },
       "explainers": {
         "backup": "不要忘记此密码！它与您的 %{cloudPlatformName} 密码是分开的，您应该将其保存在一个安全的地方。\n\n将来您需要它来从备份中恢复您的钱包。",
-        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
+        "add_to_backups": "您有多个钱包需要备份。出于安全原因，我们目前只能一次备份一个钱包。",
         "if_lose_cloud": "如果您丢失此设备，您可以从 %{cloudPlatformName} 恢复加密的钱包备份。",
         "if_lose_imported": "如果您丢失此设备，您可以使用最初导入的密钥来恢复您的钱包。",
         "if_lose_manual": "如果您丢失此设备，您可以使用您保存的秘密短语来恢复您的钱包。"
       },
       "manual": {
-        "backup_manually": "Back Up Manually",
-        "label": "Save your %{typeName}",
-        "with_your_label": "Your %{typeName}",
-        "backup_manually_now": "Would you like to back up this wallet?",
-        "back_up_now": "Back Up Now",
-        "already_backed_up": "Already backed up",
+        "backup_manually": "手动备份",
+        "label": "保存您的 %{typeName}",
+        "with_your_label": "您的 %{typeName}",
+        "backup_manually_now": "您想要备份此钱包吗？",
+        "back_up_now": "立即备份",
+        "already_backed_up": "已备份",
         "pkey": {
-          "confirm_save": "􀆅 I've saved my key",
+          "confirm_save": "􀆅 我已保存此密钥",
           "save_them": "复制并将其保存在密码管理器或其他安全位置。",
           "these_keys": "这是您钱包的密钥！",
-          "description": "Anyone who has this key can access your wallet! You should never share it."
+          "description": "任何拥有此密钥的人都可以访问您的整个钱包！永远不要分享它。"
         },
         "seed": {
-          "confirm_save": "􀆅 I've saved these words",
+          "confirm_save": "􀆅 我已保存这些单词",
           "save_them": "将它们写下来或保存在密码管理器中。",
           "these_keys": "这些单词是您钱包的密钥！",
-          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+          "description": "任何拥有这些单词的人都可以访问您的整个钱包！您永远不应该分享它们。"
         },
-        "create_new_secret_phrase": "Create a New Secret Phrase"
+        "create_new_secret_phrase": "创建新的恢复短语"
       },
       "needs_backup": {
         "back_up_your_wallet": "备份您的钱包",
@@ -220,7 +220,7 @@
         "anyone_who_has_these": "任何拥有这些词语的人都可以访问您的整个钱包！",
         "biometrically_secured": "您的帐户已通过生物识别数据（如指纹或面部识别）保护。要查看您的恢复短语，请在手机设置中打开生物识别功能。",
         "no_seed_phrase": "无法检索到您的助记词。请确保您已经正确使用生物识别数据（如指纹或面部识别）进行身份验证，或正确输入了您的PIN码。",
-        "copy_to_clipboard": "Copy to Clipboard",
+        "copy_to_clipboard": "复制到剪贴板",
         "for_your_eyes_only": "仅供您亲自使用",
         "private_key_title": "私钥",
         "secret_phrase_title": "秘密短语",
@@ -230,13 +230,13 @@
         "you_need_to_authenticate": "您需要进行身份验证才能访问您的恢复 %{typeName}"
       },
       "warning": {
-        "before_you_proceed": "Before you proceed",
-        "title": "View your %{typeName}",
-        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
-        "access": "Anyone who has your %{typeName} can access your entire wallet.",
-        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
-        "support": "Rainbow Support will never ask you for your %{typeName}.",
-        "button": "􀎽 Show %{typeName}"
+        "before_you_proceed": "在您继续之前",
+        "title": "查看您的%{typeName}",
+        "never_share": "永远不要分享您的%{typeName}或将其输入应用程序或网站。",
+        "access": "任何拥有您的%{typeName}的人都可以访问您的整个钱包。",
+        "hide": "确保在查看您的%{typeName}时没有人能够查看您的屏幕。",
+        "support": "Rainbow Support永远不会要求您提供%{typeName}。",
+        "button": "􀎽 显示%{typeName}"
       }
     },
     "bluetooth": {
@@ -543,9 +543,9 @@
         "view_on": "在 %{blockExplorerName}查看",
         "view_on_etherscan": "在 Etherscan 上查看"
       },
-      "all_networks": "All Networks",
-      "filter_by_network": "Filter by Network",
-      "my_tokens": "My Tokens",
+      "all_networks": "所有网络",
+      "filter_by_network": "按网络筛选",
+      "my_tokens": "我的代币",
       "flip": "翻转",
       "max": "最大",
       "movers": {
@@ -567,29 +567,29 @@
       "quote_errors": {
         "501": "没有报价可用",
         "no_quote_available": "没有报价可用",
-        "502": "Insufficient liquidity",
-        "insufficient_liquidity": "Insufficient liquidity",
+        "502": "流动性不足",
+        "insufficient_liquidity": "流动性不足",
         "503": "转账代币的费用",
         "fee_on_transfer": "转账代币的费用",
-        "504": "No route found",
-        "no_route_found": "No route found"
+        "504": "找不到路由",
+        "no_route_found": "找不到路由"
       },
       "price_impact": {
         "long_wait": {
-          "title": "Long wait",
-          "description": "Approx. %{time}"
+          "title": "等待时间较长",
+          "description": "大约%{time}"
         },
         "unknown_price": {
-          "title": "Market Value Unknown",
-          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+          "title": "市场价值未知",
+          "description": "如果您决定继续，请确保您对所引用的金额感到满意。"
         },
         "losing_prefix": "正在损失",
         "small_market": "小市场",
-        "small_market_try_smaller_amount": "Small market — try a smaller amount",
-        "you_are_losing": "You're losing %{priceImpact}",
-        "no_data": "Market Value Unknown",
+        "small_market_try_smaller_amount": "市场较小—尝试较小的金额",
+        "you_are_losing": "您失去了%{priceImpact}",
+        "no_data": "市场价值未知",
         "label": "可能的损失",
-        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
+        "no_data_subtitle": "如果您决定继续，请确保您对所引用的金额感到满意"
       },
       "source": {
         "rainbow": "自动",
@@ -762,14 +762,14 @@
         "registrant": "注册人",
         "resolver": "解析器",
         "save_to_photos": "保存到相册",
-        "sell_for_x": "Sell for %{price}",
+        "sell_for_x": "卖出%{price}",
         "set_primary_name": "设为我的ENS名称",
         "share_token_info": "分享 %{uniqueTokenName} 信息",
         "showcase": "展示",
         "toast_added_to_showcase": "添加到展示",
         "toast_removed_from_showcase": "从展示架中移除",
-        "refreshing": "Refreshing metadata...",
-        "reported": "Reported as spam",
+        "refreshing": "正在刷新元数据...",
+        "reported": "报告为垃圾邮件",
         "twitter": "Twitter",
         "view_all_with_property": "查看所有带有属性的",
         "view_collection": "查看集合",
@@ -779,35 +779,35 @@
         "view_on_platform": "在 %{platform}平台上查看",
         "view_on_web": "在网页上查看",
         "refresh": "刷新元数据",
-        "report": "Report as Spam",
+        "report": "报告为垃圾邮件",
         "hide": "隐藏",
         "unhide": "取消隐藏"
       }
     },
     "app_icon_unlock_sheet": {
-      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
-      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
-      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
-      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
-      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
-      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
-      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
-      "finiliar_title": "You've unlocked a\nRainbow Fini",
-      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
-      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
-      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
-      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
-      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
-      "pooly_title": "You've unlocked a\nRainbow Pooly",
-      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
-      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
-      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
-      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
-      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
-      "adworld_title": "Welcome to Rainbow World!",
-      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
-      "farcaster_title": "You've unlocked\nRainbowcast",
-      "button": "Snag the icon"
+      "smol_description": "你发现了宝藏！因为您拥有Smolverse NFT，您解锁了一个自定义图标！",
+      "smol_title": "您已解锁\nRainbow 􀆄 SMOL",
+      "optimism_description": "为了庆祝Optimism上的NFT，Rainbow和Optimism合作为像你这样的乐观探险者推出了限量版应用图标！",
+      "optimism_title": "您已解锁\nRainbow 􀆄 Optimism",
+      "zora_description": "特别版Rainbow Zorb图标，让您沉思其妙。",
+      "zora_title": "您已解锁\nRainbow 􀆄 Zora",
+      "finiliar_description": "特别版Rainbow Fini图标，让您随时掌握燃气费的最新情况，无论晴雨。",
+      "finiliar_title": "您已解锁\nRainbow Fini",
+      "golddoge_description": "限量版金色Rainbow应用图标，庆祝Kabosu 17岁生日。",
+      "golddoge_title": "您已解锁\nRainbow 􀆄 DOGE",
+      "raindoge_description": "限量版Rainbow应用图标，庆祝Kabosu 17岁生日。",
+      "raindoge_title": "您已解锁\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "特别版Rainbow Pooly图标，为自由支持者准备。",
+      "pooly_title": "你已解锁\nRainbow Pooly",
+      "zorb_description": "特别版Rainbow Zorb：\n100%你所爱的，更快更高效。",
+      "zorb_title": "你已解锁\nRainbow Zorb Energy!",
+      "poolboy_description": "特别版Rainbow x Poolsuite图标，为链上夏天准备。",
+      "poolboy_title": "你已解锁\nRainbow Poolboy!",
+      "adworld_description": "作为Rainbow世界公民，您现在可以解锁特别版\nAdWorld x Rainbow应用图标。",
+      "adworld_title": "欢迎来到Rainbow世界！",
+      "farcaster_description": "我们最无聊的应用图标，灵感来自Warpcast的极简风。",
+      "farcaster_title": "你已解锁\nRainbowcast",
+      "button": "解锁图标"
     },
     "explain": {
       "output_disabled": {
@@ -828,7 +828,7 @@
         "title": "什么是Arbitrum？"
       },
       "add_to_backups": {
-        "title": "Backing up %{walletName}"
+        "title": "正在备份 %{walletName}"
       },
       "backup": {
         "title": "重要"
@@ -879,19 +879,19 @@
       },
       "base": {
         "text": "Base是在以太坊之上运行的2层网络，使得交易更便宜更快速，同时仍然受益于以太坊的底层安全性。\n\n在将交易永久地发送到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
-        "title": "What's Base?"
+        "title": "什么是Base?"
       },
       "avalanche": {
-        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
-        "title": "What's Avalanche"
+        "text": "Avalanche 是一个侧链，它是一个与以太坊并行运行的独立网络，并且兼容以太坊。\n\n它支持更便宜和更快速的交易，但与Layer 2网络不同，Avalanche具有自己的安全性和共识机制，与以太坊不同。",
+        "title": "什么是Avalanche"
       },
       "degen": {
-        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
-        "title": "What's Degen Chain?"
+        "text": "Degen Chain 是一个运行在 Arbitrum 和以太坊之上的第 3 层网络，提供异常快速且便宜的交易，这些交易以 Farcaster 社区代币 $degen 计价。",
+        "title": "什么是Degen Chain?"
       },
       "blast": {
-        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
-        "title": "What's Blast?"
+        "text": "Blast 是一个运行在以太坊之上的第二层网络，可以实现更便宜和更快的交易，同时仍能从以太坊的底层安全性中受益。\n\n它将许多交易捆绑在一个“roll up”中，然后将其永久发送到以太坊。",
+        "title": "什么是Blast?"
       },
       "zora": {
         "text": "Zora是一个运行在以太坊之上的2层网络，它使得交易更加便宜且更快，同时仍然从以太坊的底层安全中受益。\n\n在将他们永久地发到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
@@ -1016,7 +1016,7 @@
       }
     },
     "gas": {
-      "gas_settings": "Gas Settings",
+      "gas_settings": "费用设置",
       "card": {
         "falling": "下降",
         "rising": "上升",
@@ -1202,7 +1202,7 @@
             "manual": "手动备份"
           },
           "description": "别丢了您的钱包！保存一个加密副本到 %{cloudPlatformName}",
-          "title": "How would you like to back up your wallet?"
+          "title": "你想如何备份你的钱包？"
         },
         "existing": {
           "button": {
@@ -1441,8 +1441,8 @@
         "view_weekly_earnings_title": "正在计算赚取的积分",
         "view_weekly_earnings_counted": "已计算的周收益",
         "view_weekly_earnings_close_button": "关闭",
-        "view_weekly_earnings_retroactive_points": "Retroactive Points",
-        "view_weekly_earnings_bonus_points": "Bonus Points",
+        "view_weekly_earnings_retroactive_points": "追溯积分",
+        "view_weekly_earnings_bonus_points": "额外积分",
         "view_weekly_earnings_activity": "你的活动",
         "view_weekly_earnings_referral_activity": "推荐活动",
         "view_weekly_earnings_total_earnings": "总计",
@@ -1813,11 +1813,11 @@
       "no_thanks": "不，谢谢"
     },
     "settings": {
-      "backup": "Wallets & Backup",
-      "delete_backups": "Delete All %{cloudPlatform} Backups",
-      "confirm_delete_backups": "Confirm and Delete Backups",
-      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
-      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
+      "backup": "钱包和备份",
+      "delete_backups": "删除所有%{cloudPlatform}备份",
+      "confirm_delete_backups": "确认并删除备份",
+      "manage_backups": "管理%{cloudPlatformOrEmail}备份",
+      "confirm_delete_backups_description": "您确定要删除您的%{cloudPlatform}钱包备份吗？",
       "google_account_used": "用于备份的Google账户",
       "backup_switch_google_account": "切换Google账户",
       "backup_sign_out": "登出",
@@ -1825,21 +1825,21 @@
       "backup_loading": "载入中...",
       "backup_google_account": "Google账户",
       "currency": {
-        "title": "Currency",
+        "title": "货币",
         "ETH": "以太坊",
-        "USD": "United States Dollar",
-        "EUR": "Euro",
-        "GBP": "British Pound",
-        "AUD": "Australian Dollar",
-        "CNY": "Chinese Yuan",
-        "KRW": "South Korean Won",
-        "JPY": "Japanese Yen",
-        "RUB": "Russian Ruble",
-        "INR": "Indian Rupee",
-        "TRY": "Turkish Lira",
-        "CAD": "Canadian Dollar",
-        "NZD": "New Zealand Dollar",
-        "ZAR": "South African Rand"
+        "USD": "美元",
+        "EUR": "欧元",
+        "GBP": "英镑",
+        "AUD": "澳大利亚元",
+        "CNY": "人民币",
+        "KRW": "韩元",
+        "JPY": "日元",
+        "RUB": "卢布",
+        "INR": "印度卢比",
+        "TRY": "土耳其里拉",
+        "CAD": "加拿大元",
+        "NZD": "新西兰元",
+        "ZAR": "南非兰特"
       },
       "app_icon": "应用图标",
       "developer": "开发者设置",
@@ -1920,17 +1920,17 @@
         "rainbow": "Rainbow"
       },
       "tokens_input": {
-        "tokens": "Tokens",
-        "sort": "Sort",
-        "available": "available",
-        "token_balance": "Token Balance",
+        "tokens": "代币",
+        "sort": "排序",
+        "available": "可用",
+        "token_balance": "代币余额",
         "networks": "网络",
-        "filter_by_network": "Filter by Network",
-        "switch_networks": "Switch Networks",
+        "filter_by_network": "按网络筛选",
+        "switch_networks": "切换网络",
         "nothing_found": "没找到什么",
-        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
-        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
-        "output_quotes_disabled": "Output quotes disabled"
+        "nothing_found_description": "一些代币没有足够的流动性来执行成功的 %{action}。",
+        "nothing_found_description_l2": "一些代币没有足够的第二层流动性来执行成功的 %{action}。",
+        "output_quotes_disabled": "禁用输出报价"
       },
       "choose_token": "选择代币",
       "gas": {
@@ -1953,7 +1953,7 @@
         "withdraw": "提款",
         "withdraw_symbol": "取款 %{symbol}"
       },
-      "unknown": "Unknown",
+      "unknown": "未知",
       "warning": {
         "cost": {
           "are_you_sure_title": "你确定吗？",
@@ -1978,9 +1978,9 @@
       "section_header": {
         "favorites": "收藏夹",
         "bridge": "桥接",
-        "verified": "Verified",
-        "unverified": "Unverified",
-        "on_other_networks": "On other networks"
+        "verified": "已验证",
+        "unverified": "未验证",
+        "on_other_networks": "其他网络上"
       }
     },
     "transactions": {
@@ -1996,26 +1996,26 @@
       "dropped_title": "已掉落",
       "type": {
         "savings": "储蓄",
-        "cancelled": "Transaction Cancelled",
+        "cancelled": "交易已取消",
         "burn": {
-          "pending": "Burning",
-          "confirmed": "Burned",
-          "failed": "Burn Failed"
+          "pending": "正在销毁",
+          "confirmed": "已销毁",
+          "failed": "销毁失败"
         },
         "cancel": {
-          "pending": "Cancelling",
-          "confirmed": "Cancelled",
-          "failed": "Cancel Failed"
+          "pending": "正在取消",
+          "confirmed": "已取消",
+          "failed": "取消失败"
         },
         "speed_up": {
-          "pending": "Speeding Up",
-          "confirmed": "Sped Up",
-          "failed": "Speed Up Failed"
+          "pending": "加快中",
+          "confirmed": "已加快",
+          "failed": "加快失败"
         },
         "send": {
           "pending": "发送中",
           "confirmed": "已发送",
-          "failed": "Send Failed"
+          "failed": "发送失败"
         },
         "receive": {
           "pending": "",
@@ -2023,111 +2023,111 @@
           "failed": ""
         },
         "withdraw": {
-          "pending": "Withdrawing",
-          "confirmed": "Withdrew",
-          "failed": "Withdraw Failed"
+          "pending": "正在提现",
+          "confirmed": "已提现",
+          "failed": "提现失败"
         },
         "deposit": {
-          "pending": "Depositing",
-          "confirmed": "Deposited",
-          "failed": "Deposit Failed"
+          "pending": "正在存款",
+          "confirmed": "已存款",
+          "failed": "存款失败"
         },
         "mint": {
-          "pending": "Minting",
+          "pending": "正在铸币",
           "confirmed": "已铸造",
-          "failed": "Mint Failed"
+          "failed": "铸币失败"
         },
         "approve": {
-          "pending": "Approving",
+          "pending": "正在授权",
           "confirmed": "已批准",
-          "failed": "Approve Failed"
+          "failed": "授权失败"
         },
         "contract_interaction": {
-          "pending": "Interaction Pending",
-          "confirmed": "Interacted",
-          "failed": "Interaction Failed"
+          "pending": "交互待定",
+          "confirmed": "已交互",
+          "failed": "交互失败"
         },
         "swap": {
-          "pending": "Swapping",
+          "pending": "交换中",
           "confirmed": "已交换",
-          "failed": "Swap Failed"
+          "failed": "交换失败"
         },
         "borrow": {
-          "pending": "Borrowing",
-          "confirmed": "Borrowed",
-          "failed": "Borrow Failed"
+          "pending": "借款中",
+          "confirmed": "已借款",
+          "failed": "借款失败"
         },
         "claim": {
-          "pending": "Claiming",
-          "confirmed": "Claimed",
-          "failed": "Claim Failed"
+          "pending": "认领中",
+          "confirmed": "已认领",
+          "failed": "认领失败"
         },
         "deployment": {
-          "pending": "Deploying",
-          "confirmed": "Deployed",
-          "failed": "Deploy Failed"
+          "pending": "部署中",
+          "confirmed": "已部署",
+          "failed": "部署失败"
         },
         "repay": {
-          "pending": "Repaying",
-          "confirmed": "Repayed",
-          "failed": "Repay Failed"
+          "pending": "偿还中",
+          "confirmed": "已偿还",
+          "failed": "偿还失败"
         },
         "stake": {
-          "pending": "Staking",
-          "confirmed": "Staked",
-          "failed": "Stake Failed"
+          "pending": "质押中",
+          "confirmed": "已质押",
+          "failed": "质押失败"
         },
         "unstake": {
-          "pending": "Unstaking",
-          "confirmed": "Unstaked",
-          "failed": "Unstake Failed"
+          "pending": "撤销质押中",
+          "confirmed": "已撤销质押",
+          "failed": "撤销质押失败"
         },
         "purchase": {
-          "pending": "Purchasing",
+          "pending": "购买中",
           "confirmed": "已购买",
           "failed": "购买失败"
         },
         "revoke": {
-          "pending": "Revoking",
-          "confirmed": "Revoked",
-          "failed": "Revoke Failed"
+          "pending": "撤销中",
+          "confirmed": "已撤销",
+          "failed": "撤销失败"
         },
         "sale": {
           "pending": "出售",
           "confirmed": "已出售",
-          "failed": "Sale Failed"
+          "failed": "销售失败"
         },
         "bridge": {
-          "pending": "Bridging",
+          "pending": "桥接中",
           "confirmed": "已建立桥接",
-          "failed": "Bridge Failed"
+          "failed": "桥接失败"
         },
         "airdrop": {
           "pending": "",
-          "confirmed": "Airdropped",
+          "confirmed": "已空投",
           "failed": ""
         },
         "wrap": {
-          "pending": "Wrapping",
-          "confirmed": "Wrapped",
-          "failed": "Wrap Failed"
+          "pending": "包装中",
+          "confirmed": "已包装",
+          "failed": "包装失败"
         },
         "unwrap": {
-          "pending": "Unwrapping",
-          "confirmed": "Unwrapped",
-          "failed": "Unwrap Failed"
+          "pending": "解包中",
+          "confirmed": "已解包",
+          "failed": "取消包装失败"
         },
         "bid": {
-          "pending": "Bidding",
-          "confirmed": "Bid",
-          "failed": "Bid Failed"
+          "pending": "出价中",
+          "confirmed": "出价",
+          "failed": "出价失败"
         }
       },
       "approvals": {
-        "no_allowance": "No Allowance",
+        "no_allowance": "无额度权限",
         "unlimited": "无限"
       },
-      "no_value": "No value",
+      "no_value": "无价值",
       "savings": "储蓄",
       "signed": "已签署",
       "contract_interaction": "合同互动",
@@ -2139,7 +2139,7 @@
       "to": "至",
       "value": "价值",
       "hash": "交易哈希",
-      "you": "You",
+      "you": "你",
       "network_fee": "网络费用",
       "hash_copied": "􀁣 已复制交易哈希",
       "address_copied": "􀁣 已复制地址",
@@ -2281,8 +2281,8 @@
         "delete_confirm": "您确定要删除这个钱包吗？",
         "edit": "编辑钱包",
         "hide": "隐藏",
-        "create_wallet_group": "Create Group",
-        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
+        "create_wallet_group": "创建钱包组",
+        "create_wallet_group_placeholder": "钱包组 %{numWalletGroups}",
         "import_wallet": "添加钱包",
         "input": "交易输入",
         "notifications": {
@@ -2380,31 +2380,31 @@
         "please_seed_phrase": "请进行身份验证以查看私钥"
       },
       "back_ups": {
-        "wallet_count": "%{numAccounts} wallet",
-        "wallet_count_gt_one": "%{numAccounts} wallets",
+        "wallet_count": "%{numAccounts} 钱包",
+        "wallet_count_gt_one": "%{numAccounts} 个钱包",
         "and_more_wallets": "还有 %{moreWalletCount} 个更多的钱包",
-        "create_new_wallet": "Create a New Wallet",
-        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
+        "create_new_wallet": "创建新钱包",
+        "create_new_wallet_description": "使用此秘密短语创建一个新钱包",
         "backed_up": "已备份",
         "backed_up_manually": "已手动备份",
         "imported": "已导入",
-        "cloud_backup_title": "Cloud Backup",
+        "cloud_backup_title": "云备份",
         "not_backed_up": "未备份",
-        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
-        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
-        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
-        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
-        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
-        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
-        "cloud_backup_link": "Learn more…",
-        "view_secret_phrase": "View Secret Phrase",
-        "view_private_key": "View Private Key",
-        "copy_wallet_address": "Copy wallet address"
+        "not_backed_up_to_cloud_message": "此 %{backupType} 没有在您的上次备份中。立即备份到 %{cloudPlatform} ，这样当您丢失设备或获得新设备时就可以恢复它。",
+        "not_backed_up_message": "此 %{backupType} 尚未备份。现在备份，以便在您丢失设备或获得新设备时进行恢复。",
+        "backed_up_message": "您选择自己保存此 %{backupType} 。请确保将其存放在安全的地方。",
+        "backed_up_to_cloud_message": "您的所有钱包已备份到 %{cloudPlatform} 。如果您丢失设备或获得新设备，您将能够恢复下面显示的钱包。",
+        "cloud_backup_out_of_date_description": "您的某些钱包没有在您的上次备份中。立即备份到 %{cloudPlatform} ，这样当您丢失设备或获得新设备时就可以恢复它们。",
+        "cloud_backup_description": "将您的钱包安全备份到 %{cloudPlatform} ，这样当您丢失设备或获得新设备时可以恢复它们。",
+        "cloud_backup_link": "了解更多…",
+        "view_secret_phrase": "查看秘密短语",
+        "view_private_key": "查看私钥",
+        "copy_wallet_address": "复制钱包地址"
       },
       "balance_title": "余额",
       "buy": "购买",
       "change_wallet": {
-        "no_balance": "No Balance",
+        "no_balance": "无余额",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "正在关注",
         "ledger": "分类账"
@@ -2481,8 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
-              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
+              "description_restore_sheet": "如果您以前备份到 %{cloudPlatform}，请点击这里进行恢复。",
+              "description_with_latest_backup_date": "最新备份 %{fromNow} 于 %{time}",
               "title": "从 %{platform}中恢复",
               "no_backups": "未找到备份",
               "no_google_backups": "我们在Google云盘上找不到任何备份。请确保您使用的是正确的帐户进行登录的。"
@@ -2496,12 +2496,12 @@
               "title": "连接您的硬件钱包"
             },
             "seed": {
-              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
-              "title": "Import a Secret Phrase or Private Key"
+              "description": "使用 Rainbow、MetaMask 或其他钱包的秘密短语",
+              "title": "导入秘密短语或私钥"
             },
             "watch": {
-              "description": "Watch an ENS name or a public address",
-              "title": "Watch a wallet"
+              "description": "观察 ENS 名称或公共地址",
+              "title": "观察钱包"
             }
           },
           "first_wallet": {
@@ -2614,7 +2614,7 @@
           "insufficient_funds": "哦不！燃气价格改变，您的资金不再足够进行此交易。请尝试使用较低的金额再试一次。",
           "generic": "哦不！提交交易时出现问题。请再试一次。"
         },
-        "complete_check": "Complete check",
+        "complete_check": "完成检查",
         "ens_configuration_options": "ENS配置选项",
         "confirm": "确认交易",
         "max": "最大",
@@ -2652,7 +2652,7 @@
       }
     },
     "walletconnect": {
-      "requests": "Requests",
+      "requests": "请求",
       "wants_to_connect": "愿意连接到您的钱包",
       "wants_to_connect_to_network": "想要连接到 %{network} 网络",
       "available_networks": "可用网络",
@@ -2804,16 +2804,16 @@
     },
     "dapp_browser": {
       "address_bar": {
-        "input_placeholder": "Search or enter website"
+        "input_placeholder": "搜索或输入网站"
       },
       "control_panel": {
-        "connected": "Connected",
-        "not_connected": "Not Connected",
+        "connected": "已连接",
+        "not_connected": "未连接",
         "switch_wallet": "切换钱包",
         "switch_network": "切换网络",
         "disconnect": "断开连接",
-        "favorite": "Favorite",
-        "undo_favorite": "Undo",
+        "favorite": "收藏",
+        "undo_favorite": "撤消",
         "connect": "连接",
         "swap": "交换",
         "bridge": "桥接",
@@ -2821,32 +2821,32 @@
       },
       "error": {
         "title": "出了些问题",
-        "default_msg": "There was an error loading the page. Please try again."
+        "default_msg": "加载页面时出错。请重试。"
       },
       "no_wc_needed": {
         "title": "哎呀!",
-        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "description": "您似乎正在通过WalletConnect连接到这个dapp。使用Rainbow的应用内浏览器不再需要这样做。返回并选择\"MetaMask\"，一切都会正常工作。",
         "cta": "我知道了"
       },
       "provider_error": {
-        "unsupported_chain": "Unsupported Chain",
-        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+        "unsupported_chain": "不支持的链",
+        "no_active_session": "在尝试切换链之前，您需要先连接到dapp。"
       },
       "homepage": {
-        "trending": "Trending",
-        "recents": "Recents",
+        "trending": "趋势",
+        "recents": "最近",
         "favorites": "收藏夹"
       },
       "search": {
-        "find_apps_and_more": "Find apps and more",
-        "more_results": "More Results",
+        "find_apps_and_more": "查找应用程序等",
+        "more_results": "更多结果",
         "search": "搜索"
       },
       "menus": {
-        "favorite": "Favorite",
-        "undo_favorite": "Undo Favorite",
+        "favorite": "收藏",
+        "undo_favorite": "撤消收藏",
         "remove": "删除",
-        "forward": "Forward",
+        "forward": "前进",
         "back": "返回"
       }
     }
