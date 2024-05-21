@@ -91,7 +91,10 @@
         "no_backups_found": "Kami tidak dapat menemukan backup Anda sebelumnya!",
         "cant_get_encrypted_data": "Kami tidak dapat mengakses backup Anda pada saat ini. Silakan coba lagi nanti.",
         "missing_pin": "Terjadi kesalahan saat memproses kode PIN Anda. Silakan coba lagi nanti.",
-        "generic": "Kesalahan saat mencoba untuk cadangan. kode kesalahan: %{errorCodes}"
+        "generic": "Kesalahan saat mencoba untuk cadangan. kode kesalahan: %{errorCodes}",
+        "no_keys_found": "No keys found. Please try again.",
+        "backup_not_found": "Backup not found. Please try again.",
+        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
       },
       "wrong_pin": "Kode PIN yang anda masukkan salah dan kami tidak bisa membuat cadangan. Silahkan coba lagi dengan kode yang benar.",
       "already_backed_up": {
@@ -101,17 +104,56 @@
         "imported": "Diimport",
         "imported_message": "Dompet anda telah diimport"
       },
+      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
+      "wallet_group_title_singular": "Wallet Group",
+      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "private_key_singluar": "Kunci Pribadi",
       "backup_deleted_successfully": "Backup Dihapus dengan Sukses",
       "cloud": {
+        "no_backups": "Tidak ada cadangan yang ditemukan",
+        "failed_to_fetch_backups": "Failed to fetch backups",
+        "retry": "Retry",
+        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
         "back_up_to_platform": "Backup ke %{cloudPlatformName}",
-        "manage_platform_backups": "Kelola %{cloudPlatformName} Backup",
+        "restore_from_platform": "Pulihkan dari %{cloudPlatformName}",
+        "restoration_in_progress": "Restoration in progress",
+        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
+        "manage_platform_backups": "View %{cloudPlatformName} Backups",
+        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
+        "cloud_backup": "Cloud Backup",
+        "backing_up": "Backing up...",
+        "backup_success": "Back up Successful",
+        "backup_failed": "Backup Failed",
+        "manual_backup": "Manual backup",
+        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
+        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
+        "enable_cloud_backups": "Enable Cloud Backups",
+        "mayber_later": "Mungkin Nanti",
+        "recommended_for_beginners": "Recommended for beginners.",
+        "choose_backup": "Choose the backup you’d like to restore",
+        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
+        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
+        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
+        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
+        "latest_backup": "Last Backup: %{date}",
+        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
+        "most_recent_backup": "Most Recent Backup",
+        "out_of_date": "Out of Date",
+        "up_to_date": "Up to Date",
+        "older_backups": "Older Backups",
+        "no_older_backups": "No Older Backups",
+        "older_backups_title": "%{date} at %{time}",
         "password": {
-          "a_password_youll_remember": "Silahkan gunakan kata sandi yang akan anda ingat.",
-          "backup_password": "Kata Sandi Backup",
-          "choose_a_password": "Pilih sebuah password",
+          "a_password_youll_remember_part_one": "This password is",
+          "not": "not",
+          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "backup_password": "Kata Sandi",
+          "choose_a_password": "Create a password to secure your backup",
           "confirm_backup": "Konfirmasi Backup",
+          "enter_backup_password": "Enter your backup password",
+          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
           "confirm_password": "Konfirmasi password",
-          "confirm_placeholder": "Konfirmasi Password",
+          "confirm_placeholder": "Reenter Password",
           "it_cant_be_recovered": "Ini tidak bisa dipulihkan!",
           "minimum_characters": "Minimum %{minimumLength} karakter",
           "passwords_dont_match": "Password tidak cocok",
@@ -133,22 +175,31 @@
       },
       "explainers": {
         "backup": "Jangan lupa kata sandi ini! Ini berbeda dari kata sandi %{cloudPlatformName} Anda, dan Anda harus menyimpannya di lokasi yang aman.\n\nAnda akan membutuhkannya untuk memulihkan dompet Anda dari cadangan di masa depan.",
+        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
         "if_lose_cloud": "Jika Anda kehilangan perangkat ini, Anda dapat memulihkan cadangan dompet terenkripsi Anda dari %{cloudPlatformName}.",
         "if_lose_imported": "Jika Anda kehilangan perangkat ini, Anda dapat memulihkan dompet Anda dengan kunci yang Anda impor sebelumnya.",
         "if_lose_manual": "Jika Anda kehilangan perangkat ini, Anda dapat memulihkan dompet Anda dengan frase rahasia yang Anda simpan."
       },
       "manual": {
-        "label": "Frase rahasia Anda",
+        "backup_manually": "Back Up Manually",
+        "label": "Save your %{typeName}",
+        "with_your_label": "Your %{typeName}",
+        "backup_manually_now": "Would you like to back up this wallet?",
+        "back_up_now": "Back Up Now",
+        "already_backed_up": "Already backed up",
         "pkey": {
-          "confirm_save": "Saya telah menyimpan kunci saya",
+          "confirm_save": "􀆅 I've saved my key",
           "save_them": "Salin dan simpan di manajer kata sandi Anda, atau di tempat lain yang aman.",
-          "these_keys": "Ini adalah kunci untuk dompet Anda!"
+          "these_keys": "Ini adalah kunci untuk dompet Anda!",
+          "description": "Anyone who has this key can access your wallet! You should never share it."
         },
         "seed": {
-          "confirm_save": "Saya telah menyimpan kata-kata ini",
+          "confirm_save": "􀆅 I've saved these words",
           "save_them": "Tuliskan atau simpan di manajer sandi Anda.",
-          "these_keys": "Kata-kata ini adalah kunci dompet Anda!"
-        }
+          "these_keys": "Kata-kata ini adalah kunci dompet Anda!",
+          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+        },
+        "create_new_secret_phrase": "Create a New Secret Phrase"
       },
       "needs_backup": {
         "back_up_your_wallet": "Cadangkan dompet Anda",
@@ -169,7 +220,7 @@
         "anyone_who_has_these": "Siapa pun yang memiliki kata-kata ini dapat mengakses seluruh dompet Anda!",
         "biometrically_secured": "Akun Anda telah diamankan dengan data biometrik, seperti sidik jari atau identifikasi wajah. Untuk melihat frase pemulihan Anda, hidupkan biometrik di pengaturan ponsel Anda.",
         "no_seed_phrase": "Kami tidak bisa mengambil frase seed Anda. Pastikan Anda telah diautentikasi dengan benar menggunakan data biometrik, seperti sidik jari Anda atau identifikasi wajah, atau memasukkan kode PIN Anda dengan benar.",
-        "copy_to_clipboard": "Salin ke papan klip",
+        "copy_to_clipboard": "Copy to Clipboard",
         "for_your_eyes_only": "Hanya untuk mata Anda saja",
         "private_key_title": "Kunci Pribadi",
         "secret_phrase_title": "Frase Rahasia",
@@ -177,6 +228,15 @@
         "view_private_key": "Lihat kunci pribadi",
         "view_secret_phrase": "Lihat frase rahasia",
         "you_need_to_authenticate": "Anda perlu otentikasi untuk mengakses pemulihan Anda %{typeName}"
+      },
+      "warning": {
+        "before_you_proceed": "Before you proceed",
+        "title": "View your %{typeName}",
+        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
+        "access": "Anyone who has your %{typeName} can access your entire wallet.",
+        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
+        "support": "Rainbow Support will never ask you for your %{typeName}.",
+        "button": "􀎽 Show %{typeName}"
       }
     },
     "bluetooth": {
@@ -483,6 +543,9 @@
         "view_on": "Tampilkan di %{blockExplorerName}",
         "view_on_etherscan": "Tampilkan di Etherscan"
       },
+      "all_networks": "All Networks",
+      "filter_by_network": "Filter by Network",
+      "my_tokens": "My Tokens",
       "flip": "Balik",
       "max": "Maks",
       "movers": {
@@ -501,10 +564,32 @@
         "nothing_here": "Tidak ada di sini!",
         "nothing_to_send": "Tidak ada yang dikirim"
       },
+      "quote_errors": {
+        "501": "Tidak ada penawaran yang tersedia",
+        "no_quote_available": "Tidak ada penawaran yang tersedia",
+        "502": "Insufficient liquidity",
+        "insufficient_liquidity": "Insufficient liquidity",
+        "503": "Biaya pada Token Transfer",
+        "fee_on_transfer": "Biaya pada Token Transfer",
+        "504": "No route found",
+        "no_route_found": "No route found"
+      },
       "price_impact": {
+        "long_wait": {
+          "title": "Long wait",
+          "description": "Approx. %{time}"
+        },
+        "unknown_price": {
+          "title": "Market Value Unknown",
+          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+        },
         "losing_prefix": "Kalah",
         "small_market": "Pasar Kecil",
-        "label": "Kemungkinan kerugian"
+        "small_market_try_smaller_amount": "Small market — try a smaller amount",
+        "you_are_losing": "You're losing %{priceImpact}",
+        "no_data": "Market Value Unknown",
+        "label": "Kemungkinan kerugian",
+        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
       },
       "source": {
         "rainbow": "Otomatis",
@@ -677,11 +762,14 @@
         "registrant": "Pendaftar",
         "resolver": "Resolver",
         "save_to_photos": "Simpan ke Foto",
+        "sell_for_x": "Sell for %{price}",
         "set_primary_name": "Atur sebagai nama ENS saya",
         "share_token_info": "Bagikan %{uniqueTokenName} Info",
         "showcase": "Pameran",
         "toast_added_to_showcase": "Ditambahkan ke pameran",
         "toast_removed_from_showcase": "Dihapus dari pameran",
+        "refreshing": "Refreshing metadata...",
+        "reported": "Reported as spam",
         "twitter": "Twitter",
         "view_all_with_property": "Lihat Semua dengan Properti",
         "view_collection": "Lihat Koleksi",
@@ -691,30 +779,37 @@
         "view_on_platform": "Lihat di %{platform}",
         "view_on_web": "Lihat di Web",
         "refresh": "Segarkan Metadata",
+        "report": "Report as Spam",
         "hide": "Sembunyikan",
         "unhide": "Batal Sembunyikan"
       }
     },
+    "app_icon_unlock_sheet": {
+      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
+      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
+      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
+      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
+      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
+      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
+      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
+      "finiliar_title": "You've unlocked a\nRainbow Fini",
+      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
+      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
+      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
+      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
+      "pooly_title": "You've unlocked a\nRainbow Pooly",
+      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
+      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
+      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
+      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
+      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
+      "adworld_title": "Welcome to Rainbow World!",
+      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
+      "farcaster_title": "You've unlocked\nRainbowcast",
+      "button": "Snag the icon"
+    },
     "explain": {
-      "icon_unlock": {
-        "smol_text": "Anda menemukan Harta Karun! Karena Anda memiliki NFT Smolverse, Anda telah membuka Ikoni Khusus!",
-        "optimism_text": "Untuk merayakan NFT di Optimism, Rainbow dan Optimism bekerja sama untuk meluncurkan Ikon Aplikasi edisi terbatas untuk Para penjelajah optimis seperti Anda!",
-        "zora_text": "Edisi khusus ikon Rainbow Zorb yang dibuat untuk merenung ajaib.",
-        "finiliar_text": "Edisi khusus ikon Rainbow Fini yang menjaga Anda tetap up to date tentang harga gas, hujan atau terang.",
-        "finiliar_title": "Anda telah membuka\nRainbow Fini",
-        "golddoge_text": "Edisi terbatas ikon aplikasi Rainbow emas dalam perayaan ulang tahun Kabosu ke-17.",
-        "raindoge_text": "Edisi terbatas ikon aplikasi Rainbow dalam perayaan ulang tahun Kabosu ke-17.",
-        "pooly_text": "Sebuah edisi khusus ikon Rainbow Pooly untuk pendukung kebebasan.",
-        "pooly_title": "Anda telah membuka\nRainbow Pooly",
-        "zorb_text": "Edisi khusus Rainbow Zorb:\n100% dari apa yang Anda cintai, lebih cepat dan lebih efisien.",
-        "zorb_title": "Anda telah membuka\nEnergi Rainbow Zorb!",
-        "poolboy_text": "Edisi khusus Rainbow x Poolsuite Icon untuk summer onchain.",
-        "poolboy_title": "Anda telah membuka\nRainbow Poolboy!",
-        "adworld_text": "Sebagai Warga Dunia Rainbow, Anda sekarang bisa membuka edisi khusus\nAdWorld x Rainbow Icon Aplikasi.",
-        "adworld_title": "Selamat datang di Dunia Rainbow!",
-        "title": "Anda telah membuka\nRainbow 􀆄 %{partner}",
-        "button": "Dapatkan ikon"
-      },
       "output_disabled": {
         "text": "Untuk %{fromNetwork}, Rainbow tidak bisa menyiapkan tukaran berdasarkan jumlah %{outputToken} yang ingin Anda terima. \n\n Coba masukkan jumlah %{inputToken} yang ingin Anda tukar.",
         "title": "Masukkan %{inputToken} Sebagai Gantinya",
@@ -731,6 +826,9 @@
       "arbitrum": {
         "text": "Arbitrum adalah jaringan Layer 2 yang berjalan di atas Ethereum, memungkinkan transaksi yang lebih murah dan lebih cepat sambil tetap mendapatkan keuntungan dari keamanan dasar Ethereum.\n\nIni mengelompokkan banyak transaksi bersama dalam suatu \"roll up\" sebelum mengirimkannya ke bawah untuk tinggal secara permanen di Ethereum.",
         "title": "Apa itu Arbitrum?"
+      },
+      "add_to_backups": {
+        "title": "Backing up %{walletName}"
       },
       "backup": {
         "title": "Penting"
@@ -781,7 +879,19 @@
       },
       "base": {
         "text": "Base adalah Jaringan Layer 2 yang berjalan di atas Ethereum, memungkinkan transaksi yang lebih murah dan cepat sambil tetap mendapatkan keuntungan dari keamanan bawah Ethereum.\n\nIt mengemas banyak transaksi bersama dalam \"roll up\" sebelum mengirimkan mereka turun untuk hidup secara permanen di Ethereum.",
-        "title": "Apa itu Base"
+        "title": "What's Base?"
+      },
+      "avalanche": {
+        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
+        "title": "What's Avalanche"
+      },
+      "degen": {
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
+        "title": "What's Degen Chain?"
+      },
+      "blast": {
+        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
+        "title": "What's Blast?"
       },
       "zora": {
         "text": "Zora adalah Jaringan Layer 2 yang berjalan di atas Ethereum, memungkinkan transaksi yang lebih murah dan cepat sambil tetap mendapatkan keuntungan dari keamanan bawah Ethereum.\n\nIt mengemas banyak transaksi bersama dalam \"roll up\" sebelum mengirimkan mereka turun untuk hidup secara permanen di Ethereum.",
@@ -906,6 +1016,7 @@
       }
     },
     "gas": {
+      "gas_settings": "Gas Settings",
       "card": {
         "falling": "Menurun",
         "rising": "Meningkat",
@@ -1091,7 +1202,7 @@
             "manual": "Cadangkan secara manual"
           },
           "description": "Jangan hilangkan dompet Anda! Simpan salinan terenkripsi ke %{cloudPlatformName}",
-          "title": "Cadangkan dompet Anda"
+          "title": "How would you like to back up your wallet?"
         },
         "existing": {
           "button": {
@@ -1214,6 +1325,7 @@
         "offer_expired": "Penawaran Kedaluwarsa",
         "expired": "Kadaluarsa",
         "hold_to_sell": "Tahan untuk Menjual",
+        "selling": "Menjual",
         "error": {
           "title": "Kesalahan menjual NFT",
           "message": "Silakan hubungi dukungan Rainbow untuk bantuan."
@@ -1329,7 +1441,8 @@
         "view_weekly_earnings_title": "Menghitung poin yang didapat",
         "view_weekly_earnings_counted": "Pendapatan mingguan terhitung",
         "view_weekly_earnings_close_button": "Tutup",
-        "view_weekly_earnings_retroactive_points": "Poin Retroaktif",
+        "view_weekly_earnings_retroactive_points": "Retroactive Points",
+        "view_weekly_earnings_bonus_points": "Bonus Points",
         "view_weekly_earnings_activity": "Aktivitas Anda",
         "view_weekly_earnings_referral_activity": "Aktivitas Referal",
         "view_weekly_earnings_total_earnings": "Total",
@@ -1700,16 +1813,35 @@
       "no_thanks": "Tidak, terima kasih"
     },
     "settings": {
-      "backup": "Cadangan",
+      "backup": "Wallets & Backup",
+      "delete_backups": "Delete All %{cloudPlatform} Backups",
+      "confirm_delete_backups": "Confirm and Delete Backups",
+      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
+      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
       "google_account_used": "Akun Google yang digunakan untuk cadangan",
       "backup_switch_google_account": "Ganti Akun Google",
       "backup_sign_out": "Keluar",
       "backup_sign_in": "Masuk",
       "backup_loading": "Memuat...",
       "backup_google_account": "Akun Google",
-      "currency": "Mata Uang",
+      "currency": {
+        "title": "Currency",
+        "ETH": "Ethereum",
+        "USD": "United States Dollar",
+        "EUR": "Euro",
+        "GBP": "British Pound",
+        "AUD": "Australian Dollar",
+        "CNY": "Chinese Yuan",
+        "KRW": "South Korean Won",
+        "JPY": "Japanese Yen",
+        "RUB": "Russian Ruble",
+        "INR": "Indian Rupee",
+        "TRY": "Turkish Lira",
+        "CAD": "Canadian Dollar",
+        "NZD": "New Zealand Dollar",
+        "ZAR": "South African Rand"
+      },
       "app_icon": "Ikon Aplikasi",
-      "dev": "Pengembang",
       "developer": "Pengaturan Pengembang",
       "done": "Selesai",
       "feedback_and_reports": "Umpan Balik & Laporan Bug",
@@ -1784,6 +1916,22 @@
       "too_many_signup_request": "Terlalu banyak permintaan pendaftaran, silakan coba lagi nanti"
     },
     "swap": {
+      "aggregators": {
+        "rainbow": "Rainbow"
+      },
+      "tokens_input": {
+        "tokens": "Tokens",
+        "sort": "Sort",
+        "available": "available",
+        "token_balance": "Token Balance",
+        "networks": "Jaringan",
+        "filter_by_network": "Filter by Network",
+        "switch_networks": "Switch Networks",
+        "nothing_found": "Tidak ada yang ditemukan",
+        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
+        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
+        "output_quotes_disabled": "Output quotes disabled"
+      },
       "choose_token": "Pilih Token",
       "gas": {
         "custom": "Kustom",
@@ -1805,6 +1953,7 @@
         "withdraw": "Tarik",
         "withdraw_symbol": "Tarik %{symbol}"
       },
+      "unknown": "Unknown",
       "warning": {
         "cost": {
           "are_you_sure_title": "Apakah Anda yakin?",
@@ -1825,6 +1974,15 @@
         }
       }
     },
+    "token_search": {
+      "section_header": {
+        "favorites": "Favorit",
+        "bridge": "Jembatan",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "on_other_networks": "On other networks"
+      }
+    },
     "transactions": {
       "actions": {
         "addToContacts": "Tambahkan ke Kontak",
@@ -1837,35 +1995,139 @@
       "pending_title": "Tertunda",
       "dropped_title": "Dibatalkan",
       "type": {
-        "approved": "Disetujui",
-        "approving": "Menyetujui",
-        "bridging": "Membangun Jembatan",
-        "bridged": "Dijembatani",
-        "cancelled": "Dibatalkan",
-        "cancelling": "Membatalkan",
-        "contract interaction": "Interaksi Kontrak",
-        "deposited": "Ditabungkan",
-        "depositing": "Menabung",
-        "dropped": "Dibatalkan",
-        "failed": "Gagal",
-        "purchased": "Dibeli",
-        "purchasing": "Membeli",
-        "minting": "Pencetakan",
-        "minted": "Dicetak",
-        "received": "Diterima",
-        "receiving": "Menerima",
-        "self": "Sendiri",
-        "sending": "Mengirim",
-        "sent": "Dikirim",
-        "speeding up": "Mempercepat",
-        "selling": "Menjual",
-        "sold": "Dijual",
-        "swapped": "Ditukar",
-        "swapping": "Menukar",
-        "unknown": "Tidak Diketahui",
-        "withdrawing": "Mengambil",
-        "withdrew": "Mengambil"
+        "savings": "Tabungan",
+        "cancelled": "Transaction Cancelled",
+        "burn": {
+          "pending": "Burning",
+          "confirmed": "Burned",
+          "failed": "Burn Failed"
+        },
+        "cancel": {
+          "pending": "Cancelling",
+          "confirmed": "Cancelled",
+          "failed": "Cancel Failed"
+        },
+        "speed_up": {
+          "pending": "Speeding Up",
+          "confirmed": "Sped Up",
+          "failed": "Speed Up Failed"
+        },
+        "send": {
+          "pending": "Mengirim",
+          "confirmed": "Dikirim",
+          "failed": "Send Failed"
+        },
+        "receive": {
+          "pending": "",
+          "confirmed": "Diterima",
+          "failed": ""
+        },
+        "withdraw": {
+          "pending": "Withdrawing",
+          "confirmed": "Withdrew",
+          "failed": "Withdraw Failed"
+        },
+        "deposit": {
+          "pending": "Depositing",
+          "confirmed": "Deposited",
+          "failed": "Deposit Failed"
+        },
+        "mint": {
+          "pending": "Minting",
+          "confirmed": "Dicetak",
+          "failed": "Mint Failed"
+        },
+        "approve": {
+          "pending": "Approving",
+          "confirmed": "Disetujui",
+          "failed": "Approve Failed"
+        },
+        "contract_interaction": {
+          "pending": "Interaction Pending",
+          "confirmed": "Interacted",
+          "failed": "Interaction Failed"
+        },
+        "swap": {
+          "pending": "Swapping",
+          "confirmed": "Ditukar",
+          "failed": "Swap Failed"
+        },
+        "borrow": {
+          "pending": "Borrowing",
+          "confirmed": "Borrowed",
+          "failed": "Borrow Failed"
+        },
+        "claim": {
+          "pending": "Claiming",
+          "confirmed": "Claimed",
+          "failed": "Claim Failed"
+        },
+        "deployment": {
+          "pending": "Deploying",
+          "confirmed": "Deployed",
+          "failed": "Deploy Failed"
+        },
+        "repay": {
+          "pending": "Repaying",
+          "confirmed": "Repayed",
+          "failed": "Repay Failed"
+        },
+        "stake": {
+          "pending": "Staking",
+          "confirmed": "Staked",
+          "failed": "Stake Failed"
+        },
+        "unstake": {
+          "pending": "Unstaking",
+          "confirmed": "Unstaked",
+          "failed": "Unstake Failed"
+        },
+        "purchase": {
+          "pending": "Purchasing",
+          "confirmed": "Dibeli",
+          "failed": "Pembelian Gagal"
+        },
+        "revoke": {
+          "pending": "Revoking",
+          "confirmed": "Revoked",
+          "failed": "Revoke Failed"
+        },
+        "sale": {
+          "pending": "Menjual",
+          "confirmed": "Dijual",
+          "failed": "Sale Failed"
+        },
+        "bridge": {
+          "pending": "Bridging",
+          "confirmed": "Dijembatani",
+          "failed": "Bridge Failed"
+        },
+        "airdrop": {
+          "pending": "",
+          "confirmed": "Airdropped",
+          "failed": ""
+        },
+        "wrap": {
+          "pending": "Wrapping",
+          "confirmed": "Wrapped",
+          "failed": "Wrap Failed"
+        },
+        "unwrap": {
+          "pending": "Unwrapping",
+          "confirmed": "Unwrapped",
+          "failed": "Unwrap Failed"
+        },
+        "bid": {
+          "pending": "Bidding",
+          "confirmed": "Bid",
+          "failed": "Bid Failed"
+        }
       },
+      "approvals": {
+        "no_allowance": "No Allowance",
+        "unlimited": "Tidak terbatas"
+      },
+      "no_value": "No value",
       "savings": "Tabungan",
       "signed": "Ditandatangani",
       "contract_interaction": "Interaksi Kontrak",
@@ -1877,6 +2139,7 @@
       "to": "Ke",
       "value": "Nilai",
       "hash": "Tx Hash",
+      "you": "You",
       "network_fee": "Biaya Jaringan",
       "hash_copied": "􀁣 Hash transaksi disalin",
       "address_copied": "􀁣 Alamat disalin",
@@ -1960,6 +2223,9 @@
       "copied": "Salin \"%{copiedText}\"",
       "invalid_paste": "Anda tidak bisa menempelkan itu di sini"
     },
+    "tokens_tab": {
+      "unknown_token": "Token Tidak Dikenal"
+    },
     "hardware_wallets": {
       "pair_your_nano": "Pasangkan Nano X Anda",
       "connect_your_ledger": "Hubungkan Ledger Nano X Anda ke Rainbow melalui Bluetooth. Jika ini adalah kali pertama Anda, Rainbow akan meminta akses Bluetooth.",
@@ -2015,6 +2281,8 @@
         "delete_confirm": "Anda yakin ingin menghapus dompet ini?",
         "edit": "Edit Dompet",
         "hide": "Sembunyikan",
+        "create_wallet_group": "Create Group",
+        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
         "import_wallet": "Tambah Dompet",
         "input": "Input Transaksi",
         "notifications": {
@@ -2112,15 +2380,31 @@
         "please_seed_phrase": "Harap otentikasi untuk melihat kunci privat"
       },
       "back_ups": {
-        "and_1_more_wallet": "Dan 1 dompet lagi",
+        "wallet_count": "%{numAccounts} wallet",
+        "wallet_count_gt_one": "%{numAccounts} wallets",
         "and_more_wallets": "Dan %{moreWalletCount} dompet lagi",
+        "create_new_wallet": "Create a New Wallet",
+        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
         "backed_up": "Dibackup",
         "backed_up_manually": "Dibackup secara manual",
-        "imported": "Diimport"
+        "imported": "Diimport",
+        "cloud_backup_title": "Cloud Backup",
+        "not_backed_up": "Belum dicadangkan",
+        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
+        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
+        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
+        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
+        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
+        "cloud_backup_link": "Learn more…",
+        "view_secret_phrase": "View Secret Phrase",
+        "view_private_key": "View Private Key",
+        "copy_wallet_address": "Copy wallet address"
       },
       "balance_title": "Saldo",
       "buy": "Beli",
       "change_wallet": {
+        "no_balance": "No Balance",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Menonton",
         "ledger": "Ledger"
@@ -2197,9 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_android": "Jika Anda sebelumnya telah mencadangkan dompet Anda di Google Drive, ketuk di sini untuk memulihkannya.",
-              "description_ios_one_wallet": "Anda memiliki 1 cadangan dompet",
-              "description_ios_multiple_wallets": "Anda memiliki %{walletCount} cadangan dompet",
+              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
+              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
               "title": "Pulihkan dari %{platform}",
               "no_backups": "Tidak ada cadangan yang ditemukan",
               "no_google_backups": "Kami tidak dapat menemukan cadangan apa pun di Google Drive. Pastikan Anda masuk dengan akun yang benar."
@@ -2213,12 +2496,12 @@
               "title": "Hubungkan dompet hardware Anda"
             },
             "seed": {
-              "description": "Gunakan frasa pemulihan Anda dari Rainbow atau dompet kripto lainnya",
-              "title": "Pulihkan dengan frasa pemulihan atau kunci pribadi"
+              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
+              "title": "Import a Secret Phrase or Private Key"
             },
             "watch": {
-              "description": "Pantau alamat publik atau nama ENS",
-              "title": "Pantau alamat Ethereum"
+              "description": "Watch an ENS name or a public address",
+              "title": "Watch a wallet"
             }
           },
           "first_wallet": {
@@ -2331,7 +2614,7 @@
           "insufficient_funds": "Oh tidak! Harga gas berubah dan Anda tidak lagi memiliki dana cukup untuk transaksi ini. Silakan coba lagi dengan jumlah yang lebih rendah.",
           "generic": "Oh tidak! Ada masalah saat mengirimkan transaksi. Silakan coba lagi."
         },
-        "complete_checks": "Pemeriksaan lengkap",
+        "complete_check": "Complete check",
         "ens_configuration_options": "Pilihan konfigurasi ENS",
         "confirm": "Konfirmasi transaksi",
         "max": "Maks",
@@ -2369,6 +2652,7 @@
       }
     },
     "walletconnect": {
+      "requests": "Requests",
       "wants_to_connect": "ingin terhubung ke dompet Anda",
       "wants_to_connect_to_network": "ingin terhubung ke jaringan %{network}",
       "available_networks": "Jaringan yang Tersedia",
@@ -2414,6 +2698,7 @@
       },
       "menu_options": {
         "disconnect": "Putuskan Sambungan",
+        "connect": "Hubungkan",
         "switch_wallet": "Ganti Dompet",
         "switch_network": "Ganti Jaringan",
         "available_networks": "Jaringan yang Tersedia"
@@ -2516,6 +2801,54 @@
     "warning": {
       "user_is_offline": "Koneksi offline, silakan periksa koneksi internet Anda",
       "user_is_online": "Terkoneksi! Anda sudah kembali online"
+    },
+    "dapp_browser": {
+      "address_bar": {
+        "input_placeholder": "Search or enter website"
+      },
+      "control_panel": {
+        "connected": "Connected",
+        "not_connected": "Not Connected",
+        "switch_wallet": "Ganti Dompet",
+        "switch_network": "Ganti Jaringan",
+        "disconnect": "Putuskan Sambungan",
+        "favorite": "Favorite",
+        "undo_favorite": "Undo",
+        "connect": "Hubungkan",
+        "swap": "Tukar",
+        "bridge": "Jembatan",
+        "more": "Lebih"
+      },
+      "error": {
+        "title": "Ada yang salah",
+        "default_msg": "There was an error loading the page. Please try again."
+      },
+      "no_wc_needed": {
+        "title": "Ups!",
+        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "cta": "Mengerti"
+      },
+      "provider_error": {
+        "unsupported_chain": "Unsupported Chain",
+        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+      },
+      "homepage": {
+        "trending": "Trending",
+        "recents": "Recents",
+        "favorites": "Favorit"
+      },
+      "search": {
+        "find_apps_and_more": "Find apps and more",
+        "more_results": "More Results",
+        "search": "Cari"
+      },
+      "menus": {
+        "favorite": "Favorite",
+        "undo_favorite": "Undo Favorite",
+        "remove": "Hapus",
+        "forward": "Forward",
+        "back": "Kembali"
+      }
     }
   }
 }
