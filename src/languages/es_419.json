@@ -92,9 +92,9 @@
         "cant_get_encrypted_data": "No pudimos acceder a su respaldo en este momento. Por favor, inténtelo de nuevo más tarde.",
         "missing_pin": "Algo salió mal mientras procesábamos su código PIN. Por favor, inténtelo de nuevo más tarde.",
         "generic": "Error al intentar respaldar. Código de error: %{errorCodes}",
-        "no_keys_found": "No keys found. Please try again.",
-        "backup_not_found": "Backup not found. Please try again.",
-        "no_account_found": "Unable to retrieve backup files. Make sure you're logged in."
+        "no_keys_found": "No se encontraron claves. Por favor intenta de nuevo.",
+        "backup_not_found": "Respaldo no encontrado. Por favor intenta de nuevo.",
+        "no_account_found": "No se pueden recuperar los archivos de respaldo. Asegúrate de haber iniciado sesión."
       },
       "wrong_pin": "El código PIN que ingresaste es incorrecto y no podemos hacer una copia de seguridad. Por favor, intenta de nuevo con el código correcto.",
       "already_backed_up": {
@@ -104,56 +104,56 @@
         "imported": "Importado",
         "imported_message": "Tu billetera fue importada"
       },
-      "wallet_group_title_plural": "Wallet Group %{walletGroupNumber}",
-      "wallet_group_title_singular": "Wallet Group",
-      "private_key_plural": "Private Key %{privateKeyNumber}",
+      "wallet_group_title_plural": "Grupo de Billetera %{walletGroupNumber}",
+      "wallet_group_title_singular": "Grupo de Billetera",
+      "private_key_plural": "Llave Privada %{privateKeyNumber}",
       "private_key_singluar": "Clave Privada",
       "backup_deleted_successfully": "Resguardos Eliminados Exitosamente",
       "cloud": {
         "no_backups": "No se encontraron copias de seguridad",
-        "failed_to_fetch_backups": "Failed to fetch backups",
-        "retry": "Retry",
-        "fetching_backups": "Retrieving backups from %{cloudPlatformName}",
+        "failed_to_fetch_backups": "No se pudo obtener los respaldos",
+        "retry": "Reintentar",
+        "fetching_backups": "Recuperando respaldos desde %{cloudPlatformName}",
         "back_up_to_platform": "Resguardar en %{cloudPlatformName}",
         "restore_from_platform": "Restaurar desde %{cloudPlatformName}",
-        "restoration_in_progress": "Restoration in progress",
-        "how_would_you_like_to_backup": "How would you like to back up your wallet?",
-        "manage_platform_backups": "View %{cloudPlatformName} Backups",
-        "cloud_platform_backup_settings": "%{cloudPlatformName} Backup Settings",
-        "cloud_backup": "Cloud Backup",
-        "backing_up": "Backing up...",
-        "backup_success": "Back up Successful",
-        "backup_failed": "Backup Failed",
-        "manual_backup": "Manual backup",
-        "back_to_cloud_platform_now": "Back Up to %{cloudPlatform} Now",
-        "add_wallet_to_cloud_backups": "Add this wallet to your cloud backup?",
-        "enable_cloud_backups": "Enable Cloud Backups",
+        "restoration_in_progress": "Restauración en progreso",
+        "how_would_you_like_to_backup": "¿Cómo te gustaría respaldar tu billetera?",
+        "manage_platform_backups": "Ver respaldos de %{cloudPlatformName}",
+        "cloud_platform_backup_settings": "Configuración de respaldo en %{cloudPlatformName}",
+        "cloud_backup": "Respaldo en la nube",
+        "backing_up": "Resguardando...",
+        "backup_success": "Respaldo exitoso",
+        "backup_failed": "Respaldo fallido",
+        "manual_backup": "Respaldo manual",
+        "back_to_cloud_platform_now": "Resguardar en %{cloudPlatform} ahora",
+        "add_wallet_to_cloud_backups": "¿Agregar esta billetera a tu copia de seguridad en la nube?",
+        "enable_cloud_backups": "Habilitar respaldos en la nube",
         "mayber_later": "Quizás Más Tarde",
-        "recommended_for_beginners": "Recommended for beginners.",
-        "choose_backup": "Choose the backup you’d like to restore",
-        "backup_to_cloud_now": "Back Up to %{cloudPlatformName} Now",
-        "choose_backup_cloud_description": "Securely back up your wallet to %{cloudPlatform} so you can restore it if you lose your device or get a new one.",
-        "choose_backup_manual_description": "Back up your wallet manually by saving your secret phrase in a secure location.",
-        "enable_cloud_backups_description": "If you prefer to back up your wallets manually, you can do so below.",
-        "latest_backup": "Last Backup: %{date}",
-        "back_up_all_wallets_to_cloud": "Back Up All Wallets to %{cloudPlatformName}",
-        "most_recent_backup": "Most Recent Backup",
-        "out_of_date": "Out of Date",
-        "up_to_date": "Up to Date",
-        "older_backups": "Older Backups",
-        "no_older_backups": "No Older Backups",
-        "older_backups_title": "%{date} at %{time}",
+        "recommended_for_beginners": "Recomendado para principiantes.",
+        "choose_backup": "Elige el respaldo que deseas restaurar",
+        "backup_to_cloud_now": "Resguardar en %{cloudPlatformName} ahora",
+        "choose_backup_cloud_description": "Respalda de forma segura tu billetera en %{cloudPlatform} para que puedas restaurarla si pierdes tu dispositivo o compras uno nuevo.",
+        "choose_backup_manual_description": "Respalda manualmente tu billetera guardando tu frase secreta en un lugar seguro.",
+        "enable_cloud_backups_description": "Si prefieres respaldar tus billeteras manualmente, puedes hacerlo a continuación.",
+        "latest_backup": "Último Respaldo: %{date}",
+        "back_up_all_wallets_to_cloud": "Resguardar todas las billeteras en %{cloudPlatformName}",
+        "most_recent_backup": "Respaldo más reciente",
+        "out_of_date": "Desactualizado",
+        "up_to_date": "Actualizado",
+        "older_backups": "Respaldos Antiguos",
+        "no_older_backups": "No hay respaldos antiguos",
+        "older_backups_title": "%{date} a las %{time}",
         "password": {
-          "a_password_youll_remember_part_one": "This password is",
-          "not": "not",
-          "a_password_youll_remember_part_two": "recoverable. Make sure you choose a password you'll remember.",
+          "a_password_youll_remember_part_one": "Esta contraseña es",
+          "not": "no",
+          "a_password_youll_remember_part_two": "recuperable. Asegúrate de elegir una contraseña que recordarás.",
           "backup_password": "Contraseña",
-          "choose_a_password": "Create a password to secure your backup",
+          "choose_a_password": "Crea una contraseña para asegurar tu respaldo",
           "confirm_backup": "Confirmar copia de seguridad",
-          "enter_backup_password": "Enter your backup password",
-          "to_restore_from_backup": "To restore from this backup, enter the password you created when you backed up",
+          "enter_backup_password": "Ingrese la contraseña de respaldo",
+          "to_restore_from_backup": "Para restaurar desde este respaldo, ingrese la contraseña que creó cuando realizó el respaldo",
           "confirm_password": "Confirmar contraseña",
-          "confirm_placeholder": "Reenter Password",
+          "confirm_placeholder": "Reingresar Contraseña",
           "it_cant_be_recovered": "¡No se puede recuperar!",
           "minimum_characters": "Mínimo %{minimumLength} caracteres",
           "passwords_dont_match": "Las contraseñas no coinciden",
@@ -175,31 +175,31 @@
       },
       "explainers": {
         "backup": "¡No olvides esta contraseña! Es diferente de tu contraseña %{cloudPlatformName} y deberías guardarla en un lugar seguro.\n\nLa necesitarás para restaurar tu monedero a partir de la copia de seguridad en el futuro.",
-        "add_to_backups": "You have more than one wallet that needs backed up. Due to security reasons, we are currently only able to back up one wallet at a time.",
+        "add_to_backups": "Tienes más de una billetera que necesita ser respaldada. Por razones de seguridad, actualmente solo podemos respaldar una billetera a la vez.",
         "if_lose_cloud": "Si pierdes este dispositivo, puedes recuperar la copia de seguridad encriptada de tu monedero desde %{cloudPlatformName}.",
         "if_lose_imported": "Si pierdes este dispositivo, puedes restaurar tu monedero con la clave que importaste originalmente.",
         "if_lose_manual": "Si pierdes este dispositivo, puedes restaurar tu monedero con la frase secreta que guardaste."
       },
       "manual": {
-        "backup_manually": "Back Up Manually",
-        "label": "Save your %{typeName}",
-        "with_your_label": "Your %{typeName}",
-        "backup_manually_now": "Would you like to back up this wallet?",
-        "back_up_now": "Back Up Now",
-        "already_backed_up": "Already backed up",
+        "backup_manually": "Resguardar manualmente",
+        "label": "Guardar tu %{typeName}",
+        "with_your_label": "Tu %{typeName}",
+        "backup_manually_now": "¿Te gustaría respaldar esta billetera?",
+        "back_up_now": "Respaldar ahora",
+        "already_backed_up": "Ya respaldado",
         "pkey": {
-          "confirm_save": "􀆅 I've saved my key",
+          "confirm_save": "􀆅 He guardado mi llave",
           "save_them": "Cópiala y guárdala en tu gestor de contraseñas o en otro lugar seguro.",
           "these_keys": "¡Esta es la clave de tu monedero!",
-          "description": "Anyone who has this key can access your wallet! You should never share it."
+          "description": "¡Cualquiera que tenga esta clave puede acceder a toda tu billetera! No debes compartirla nunca."
         },
         "seed": {
-          "confirm_save": "􀆅 I've saved these words",
+          "confirm_save": "􀆅 He guardado estas palabras",
           "save_them": "Apúntalas o guárdalas en tu gestor de contraseñas.",
           "these_keys": "¡Estas palabras son las claves de tu monedero!",
-          "description": "These words are the keys to your wallet. Make sure you save them in a secure location."
+          "description": "Estas palabras son las llaves de tu billetera. Asegúrate de guardarlas en un lugar seguro."
         },
-        "create_new_secret_phrase": "Create a New Secret Phrase"
+        "create_new_secret_phrase": "Crear una Nueva Frase Secreta"
       },
       "needs_backup": {
         "back_up_your_wallet": "Haz una copia de seguridad de tu monedero",
@@ -220,7 +220,7 @@
         "anyone_who_has_these": "¡Cualquier persona que tenga estas palabras puede acceder a toda tu billetera!",
         "biometrically_secured": "Tu cuenta ha sido segura con datos biométricos, como huella digital o identificación facial. Para ver tu frase de recuperación, activa la biometría en la configuración de tu teléfono.",
         "no_seed_phrase": "No pudimos recuperar tu frase semilla. Por favor, asegúrate de haber autenticado correctamente usando datos biométricos, como tu huella digital o identificación facial, o ingresa correctamente tu código PIN.",
-        "copy_to_clipboard": "Copy to Clipboard",
+        "copy_to_clipboard": "Copiar al portapapeles",
         "for_your_eyes_only": "Solo para tus ojos",
         "private_key_title": "Clave Privada",
         "secret_phrase_title": "Frase Secreta",
@@ -230,13 +230,13 @@
         "you_need_to_authenticate": "Necesitas autenticarte para acceder a tu recuperación %{typeName}"
       },
       "warning": {
-        "before_you_proceed": "Before you proceed",
-        "title": "View your %{typeName}",
-        "never_share": "Never share your %{typeName} or enter it into apps or websites.",
-        "access": "Anyone who has your %{typeName} can access your entire wallet.",
-        "hide": "Make sure nobody can see your screen when viewing your %{typeName}.",
-        "support": "Rainbow Support will never ask you for your %{typeName}.",
-        "button": "􀎽 Show %{typeName}"
+        "before_you_proceed": "Antes de continuar",
+        "title": "Ver tu %{typeName}",
+        "never_share": "Nunca compartas tu %{typeName} ni lo ingreses en aplicaciones o sitios web.",
+        "access": "Cualquier persona con tu %{typeName} puede acceder a toda tu billetera.",
+        "hide": "Asegúrate de que nadie pueda ver tu pantalla al ver tu %{typeName}.",
+        "support": "Rainbow Support nunca te pedirá tu %{typeName}.",
+        "button": "􀎽 Mostrar %{typeName}"
       }
     },
     "bluetooth": {
@@ -543,9 +543,9 @@
         "view_on": "Ver en %{blockExplorerName}",
         "view_on_etherscan": "Ver en Etherscan"
       },
-      "all_networks": "All Networks",
-      "filter_by_network": "Filter by Network",
-      "my_tokens": "My Tokens",
+      "all_networks": "Todas las Redes",
+      "filter_by_network": "Filtrar por red",
+      "my_tokens": "Mis tokens",
       "flip": "Voltear",
       "max": "Máx.",
       "movers": {
@@ -567,29 +567,29 @@
       "quote_errors": {
         "501": "Cotización no disponible",
         "no_quote_available": "Cotización no disponible",
-        "502": "Insufficient liquidity",
-        "insufficient_liquidity": "Insufficient liquidity",
+        "502": "Liquidez insuficiente",
+        "insufficient_liquidity": "Liquidez insuficiente",
         "503": "Cargo en Token de Transferencia",
         "fee_on_transfer": "Cargo en Token de Transferencia",
-        "504": "No route found",
-        "no_route_found": "No route found"
+        "504": "No se encontró ruta",
+        "no_route_found": "No se encontró ruta"
       },
       "price_impact": {
         "long_wait": {
-          "title": "Long wait",
-          "description": "Approx. %{time}"
+          "title": "Larga espera",
+          "description": "Aprox. %{time}"
         },
         "unknown_price": {
-          "title": "Market Value Unknown",
-          "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
+          "title": "Valor de Mercado Desconocido",
+          "description": "Si decides continuar, asegúrate de estar satisfecho con la cantidad indicada."
         },
         "losing_prefix": "Perdiendo",
         "small_market": "Mercado pequeño",
-        "small_market_try_smaller_amount": "Small market — try a smaller amount",
-        "you_are_losing": "You're losing %{priceImpact}",
-        "no_data": "Market Value Unknown",
+        "small_market_try_smaller_amount": "Mercado pequeño — prueba con una cantidad menor",
+        "you_are_losing": "Estás perdiendo %{priceImpact}",
+        "no_data": "Valor de Mercado Desconocido",
         "label": "Posible pérdida",
-        "no_data_subtitle": "If you decide to continue, be sure that you are satisfied with the quoted amount"
+        "no_data_subtitle": "Si decides continuar, asegúrate de estar satisfecho con la cantidad indicada."
       },
       "source": {
         "rainbow": "Automático",
@@ -762,14 +762,14 @@
         "registrant": "Registrante",
         "resolver": "Resolver",
         "save_to_photos": "Guardar en Fotos",
-        "sell_for_x": "Sell for %{price}",
+        "sell_for_x": "Vender por %{price}",
         "set_primary_name": "Establecer como mi nombre de ENS",
         "share_token_info": "Compartir %{uniqueTokenName} información",
         "showcase": "Escaparate",
         "toast_added_to_showcase": "Añadido al escaparate",
         "toast_removed_from_showcase": "Eliminado del escaparate",
-        "refreshing": "Refreshing metadata...",
-        "reported": "Reported as spam",
+        "refreshing": "Actualizando metadatos...",
+        "reported": "Reportado como spam",
         "twitter": "Twitter",
         "view_all_with_property": "Ver todo con propiedad",
         "view_collection": "Ver colección",
@@ -779,35 +779,35 @@
         "view_on_platform": "Ver en %{platform}",
         "view_on_web": "Ver en la web",
         "refresh": "Actualizar metadatos",
-        "report": "Report as Spam",
+        "report": "Reportar como Spam",
         "hide": "Ocultar",
         "unhide": "Mostrar"
       }
     },
     "app_icon_unlock_sheet": {
-      "smol_description": "You found Treasure! Because you hold a Smolverse NFT, you've unlocked a Custom Icon!",
-      "smol_title": "You've unlocked\nRainbow 􀆄 SMOL",
-      "optimism_description": "To celebrate NFTs on Optimism, Rainbow and Optimism teamed up to drop a limited edition App Icon for the Optimistic Explorers like you!",
-      "optimism_title": "You've unlocked\nRainbow 􀆄 Optimism",
-      "zora_description": "A special edition Rainbow Zorb icon that's made for magical pondering.",
-      "zora_title": "You've unlocked\nRainbow 􀆄 Zora",
-      "finiliar_description": "A special edition Rainbow Fini icon that keeps you up to date on the price of gas, rain or shine.",
-      "finiliar_title": "You've unlocked a\nRainbow Fini",
-      "golddoge_description": "A limited edition golden Rainbow app icon in celebration of Kabosu's 17th birthday.",
-      "golddoge_title": "You've unlocked\nRainbow 􀆄 DOGE",
-      "raindoge_description": "A limited edition Rainbow app icon in celebration of Kabosu's 17th birthday.",
-      "raindoge_title": "You've unlocked\nRainbow 􀆄 The Doge NFT",
-      "pooly_description": "A special edition Rainbow Pooly icon for supporters of freedom.",
-      "pooly_title": "You've unlocked a\nRainbow Pooly",
-      "zorb_description": "A special edition Rainbow Zorb:\n100% of what you love, faster and more efficient.",
-      "zorb_title": "You've unlocked\nRainbow Zorb Energy!",
-      "poolboy_description": "A special edition Rainbow x Poolsuite Icon for onchain summer.",
-      "poolboy_title": "You've unlocked the\nRainbow Poolboy!",
-      "adworld_description": "As a Rainbow World Citizen, you can now unlock a special edition\nAdWorld x Rainbow App Icon.",
-      "adworld_title": "Welcome to Rainbow World!",
-      "farcaster_description": "Our most boring app icon ever, inspired by Warpcast's bland minimalism.",
-      "farcaster_title": "You've unlocked\nRainbowcast",
-      "button": "Snag the icon"
+      "smol_description": "¡Encontraste un Tesoro! Porque tienes un NFT de Smolverse, has desbloqueado un Icono Personalizado.",
+      "smol_title": "Has desbloqueado\nRainbow 􀆄 SMOL",
+      "optimism_description": "Para celebrar los NFTs en Optimism, Rainbow y Optimism se unieron para lanzar un ícono de aplicación de edición limitada para los Exploradores Optimistas como tú.",
+      "optimism_title": "Has desbloqueado\nRainbow 􀆄 Optimism",
+      "zora_description": "Un ícono especial de edición Rainbow Zorb hecho para reflexionar mágicamente.",
+      "zora_title": "Has desbloqueado\nRainbow 􀆄 Zora",
+      "finiliar_description": "Un ícono especial de edición Rainbow Fini que te mantiene al día con el precio del gas, llueva o truene.",
+      "finiliar_title": "Has desbloqueado un\nRainbow Fini",
+      "golddoge_description": "Un ícono de edición limitada de la aplicación Rainbow dorado en celebración del 17º cumpleaños de Kabosu.",
+      "golddoge_title": "Has desbloqueado\nRainbow 􀆄 DOGE",
+      "raindoge_description": "Un ícono de edición limitada de la aplicación Rainbow en celebración del 17º cumpleaños de Kabosu.",
+      "raindoge_title": "Has desbloqueado\nRainbow 􀆄 El Doge NFT",
+      "pooly_description": "Un ícono especial de edición Rainbow Pooly para los defensores de la libertad.",
+      "pooly_title": "Has desbloqueado un\nRainbow Pooly",
+      "zorb_description": "Un ícono especial de edición Rainbow Zorb:\n100% de lo que amas, más rápido y eficiente.",
+      "zorb_title": "¡Has desbloqueado\nRainbow Zorb Energy!",
+      "poolboy_description": "Un ícono especial de edición Rainbow x Poolsuite para el verano en la cadena.",
+      "poolboy_title": "¡Has desbloqueado el\nRainbow Poolboy!",
+      "adworld_description": "Como Ciudadano del Mundo Rainbow, ahora puedes desbloquear un ícono especial de la aplicación AdWorld x Rainbow.",
+      "adworld_title": "¡Bienvenido al Mundo Rainbow!",
+      "farcaster_description": "Nuestro ícono de aplicación más aburrido de todos los tiempos, inspirado en el minimalismo insípido de Warpcast.",
+      "farcaster_title": "Has desbloqueado\nRainbowcast",
+      "button": "Consigue el ícono"
     },
     "explain": {
       "output_disabled": {
@@ -828,7 +828,7 @@
         "title": "¿Qué es Arbitrum?"
       },
       "add_to_backups": {
-        "title": "Backing up %{walletName}"
+        "title": "Haciendo copia de seguridad de %{walletName}"
       },
       "backup": {
         "title": "Importante"
@@ -879,19 +879,19 @@
       },
       "base": {
         "text": "Base es una red de capa 2 que se ejecuta sobre Ethereum, lo que permite transacciones más baratas y rápidas y aún así beneficia de la seguridad subyacente de Ethereum.\n\nAgrupa muchas transacciones juntas en un \"roll up\" antes de enviarlas permanentemente a Ethereum.",
-        "title": "What's Base?"
+        "title": "¿Qué es Base?"
       },
       "avalanche": {
-        "text": "Avalanche is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.\n\nIt allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum.",
-        "title": "What's Avalanche"
+        "text": "Avalanche es una sidechain, una red distinta que funciona junto a Ethereum y es compatible con ella.\n\nPermite transacciones más baratas y rápidas, pero a diferencia de las redes de Layer 2, Avalanche tiene sus propios mecanismos de seguridad y consenso que difieren de Ethereum.",
+        "title": "¿Qué es Avalanche?"
       },
       "degen": {
-        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum, offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen.",
-        "title": "What's Degen Chain?"
+        "text": "Degen Chain es una red de Layer 3 que se ejecuta sobre Arbitrum y Ethereum, ofreciendo transacciones increíblemente rápidas y económicas denominadas en el token de la comunidad Farcaster, $degen.",
+        "title": "¿Qué es Degen Chain?"
       },
       "blast": {
-        "text": "Blast is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.\n\nIt bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum.",
-        "title": "What's Blast?"
+        "text": "Blast es una red de Layer 2 que se ejecuta sobre Ethereum, permitiendo transacciones más baratas y rápidas mientras se beneficia de la seguridad subyacente de Ethereum.\n\nAgrupa muchas transacciones en un \"roll up\" antes de enviarlas a vivir permanentemente en Ethereum.",
+        "title": "¿Qué es Blast?"
       },
       "zora": {
         "text": "Zora es una red de capa 2 que se ejecuta sobre Ethereum, lo que permite transacciones más baratas y rápidas y aún así beneficia de la seguridad subyacente de Ethereum.\n\nAgrupa muchas transacciones juntas en un \"roll up\" antes de enviarlas permanentemente a Ethereum.",
@@ -1016,7 +1016,7 @@
       }
     },
     "gas": {
-      "gas_settings": "Gas Settings",
+      "gas_settings": "Configuración de Gas",
       "card": {
         "falling": "Cayendo",
         "rising": "En aumento",
@@ -1202,7 +1202,7 @@
             "manual": "Copia de seguridad manual"
           },
           "description": "¡No pierdas tu billetera! Guarda una copia encriptada en %{cloudPlatformName}",
-          "title": "How would you like to back up your wallet?"
+          "title": "¿Cómo te gustaría respaldar tu billetera?"
         },
         "existing": {
           "button": {
@@ -1441,8 +1441,8 @@
         "view_weekly_earnings_title": "Contando puntos ganados",
         "view_weekly_earnings_counted": "Ganancias semanales contadas",
         "view_weekly_earnings_close_button": "Cerrar",
-        "view_weekly_earnings_retroactive_points": "Retroactive Points",
-        "view_weekly_earnings_bonus_points": "Bonus Points",
+        "view_weekly_earnings_retroactive_points": "Puntos Retroactivos",
+        "view_weekly_earnings_bonus_points": "Puntos de bonificación",
         "view_weekly_earnings_activity": "Tu Actividad",
         "view_weekly_earnings_referral_activity": "Actividad de Referidos",
         "view_weekly_earnings_total_earnings": "Total",
@@ -1813,11 +1813,11 @@
       "no_thanks": "No, gracias"
     },
     "settings": {
-      "backup": "Wallets & Backup",
-      "delete_backups": "Delete All %{cloudPlatform} Backups",
-      "confirm_delete_backups": "Confirm and Delete Backups",
-      "manage_backups": "Manage %{cloudPlatformOrEmail} Backups",
-      "confirm_delete_backups_description": "Are you sure you want to delete your %{cloudPlatform} wallet backups?",
+      "backup": "Carteras y Respaldo",
+      "delete_backups": "Eliminar todas las copias de seguridad de %{cloudPlatform}",
+      "confirm_delete_backups": "Confirmar y eliminar las copias de seguridad",
+      "manage_backups": "Gestionar copias de seguridad de %{cloudPlatformOrEmail}",
+      "confirm_delete_backups_description": "¿Estás seguro de que quieres eliminar las copias de seguridad de tu billetera %{cloudPlatform}?",
       "google_account_used": "Cuenta de Google utilizada para las copias de seguridad",
       "backup_switch_google_account": "Cambiar cuenta de Google",
       "backup_sign_out": "Cerrar sesión",
@@ -1825,21 +1825,21 @@
       "backup_loading": "Cargando...",
       "backup_google_account": "Cuenta de Google",
       "currency": {
-        "title": "Currency",
+        "title": "Moneda",
         "ETH": "Ethereum",
-        "USD": "United States Dollar",
+        "USD": "Dólar Estadounidense",
         "EUR": "Euro",
-        "GBP": "British Pound",
-        "AUD": "Australian Dollar",
-        "CNY": "Chinese Yuan",
-        "KRW": "South Korean Won",
-        "JPY": "Japanese Yen",
-        "RUB": "Russian Ruble",
-        "INR": "Indian Rupee",
-        "TRY": "Turkish Lira",
-        "CAD": "Canadian Dollar",
-        "NZD": "New Zealand Dollar",
-        "ZAR": "South African Rand"
+        "GBP": "Libra Esterlina",
+        "AUD": "Dólar Australiano",
+        "CNY": "Yuan Chino",
+        "KRW": "Won Surcoreano",
+        "JPY": "Yen Japonés",
+        "RUB": "Rublo Ruso",
+        "INR": "Rupia India",
+        "TRY": "Lira Turca",
+        "CAD": "Dólar Canadiense",
+        "NZD": "Dólar Neozelandés",
+        "ZAR": "Rand Sudafricano"
       },
       "app_icon": "Icono de la aplicación",
       "developer": "Configuración de desarrollador",
@@ -1921,16 +1921,16 @@
       },
       "tokens_input": {
         "tokens": "Tokens",
-        "sort": "Sort",
-        "available": "available",
-        "token_balance": "Token Balance",
+        "sort": "Ordenar",
+        "available": "disponible",
+        "token_balance": "Saldo del token",
         "networks": "Redes",
-        "filter_by_network": "Filter by Network",
-        "switch_networks": "Switch Networks",
+        "filter_by_network": "Filtrar por red",
+        "switch_networks": "Cambiar de red",
         "nothing_found": "Nada encontrado",
-        "nothing_found_description": "Some tokens don't have enough liquidity to perform a successful %{action}.",
-        "nothing_found_description_l2": "Some tokens don't have enough layer 2 liquidity to perform a successful %{action}.",
-        "output_quotes_disabled": "Output quotes disabled"
+        "nothing_found_description": "Algunos tokens no tienen suficiente liquidez para realizar un éxito %{action}.",
+        "nothing_found_description_l2": "Algunos tokens no tienen suficiente liquidez en capa 2 para realizar un éxito %{action}.",
+        "output_quotes_disabled": "Citas de salida desactivadas"
       },
       "choose_token": "Elegir Token",
       "gas": {
@@ -1953,7 +1953,7 @@
         "withdraw": "Retirar",
         "withdraw_symbol": "Retirar %{symbol}"
       },
-      "unknown": "Unknown",
+      "unknown": "Desconocido",
       "warning": {
         "cost": {
           "are_you_sure_title": "¿Estás seguro?",
@@ -1978,9 +1978,9 @@
       "section_header": {
         "favorites": "Favoritos",
         "bridge": "Puente",
-        "verified": "Verified",
-        "unverified": "Unverified",
-        "on_other_networks": "On other networks"
+        "verified": "Verificado",
+        "unverified": "No verificado",
+        "on_other_networks": "En otras redes"
       }
     },
     "transactions": {
@@ -1996,26 +1996,26 @@
       "dropped_title": "Descartado",
       "type": {
         "savings": "Ahorros",
-        "cancelled": "Transaction Cancelled",
+        "cancelled": "Transacción cancelada",
         "burn": {
-          "pending": "Burning",
-          "confirmed": "Burned",
-          "failed": "Burn Failed"
+          "pending": "Quemando",
+          "confirmed": "Quemado",
+          "failed": "Quema fallida"
         },
         "cancel": {
-          "pending": "Cancelling",
-          "confirmed": "Cancelled",
-          "failed": "Cancel Failed"
+          "pending": "Cancelando",
+          "confirmed": "Cancelado",
+          "failed": "Cancelación fallida"
         },
         "speed_up": {
-          "pending": "Speeding Up",
-          "confirmed": "Sped Up",
-          "failed": "Speed Up Failed"
+          "pending": "Acelerando",
+          "confirmed": "Acelerado",
+          "failed": "Aceleración fallida"
         },
         "send": {
           "pending": "Enviando",
           "confirmed": "Enviado",
-          "failed": "Send Failed"
+          "failed": "Envío fallido"
         },
         "receive": {
           "pending": "",
@@ -2023,111 +2023,111 @@
           "failed": ""
         },
         "withdraw": {
-          "pending": "Withdrawing",
-          "confirmed": "Withdrew",
-          "failed": "Withdraw Failed"
+          "pending": "Retirando",
+          "confirmed": "Retirado",
+          "failed": "Retiro fallido"
         },
         "deposit": {
-          "pending": "Depositing",
-          "confirmed": "Deposited",
-          "failed": "Deposit Failed"
+          "pending": "Depositando",
+          "confirmed": "Depositado",
+          "failed": "Depósito fallido"
         },
         "mint": {
-          "pending": "Minting",
+          "pending": "Acuñando",
           "confirmed": "Acuñado",
-          "failed": "Mint Failed"
+          "failed": "Acuñación fallida"
         },
         "approve": {
-          "pending": "Approving",
+          "pending": "Aprobando",
           "confirmed": "Aprobado",
-          "failed": "Approve Failed"
+          "failed": "Aprobación fallida"
         },
         "contract_interaction": {
-          "pending": "Interaction Pending",
-          "confirmed": "Interacted",
-          "failed": "Interaction Failed"
+          "pending": "Interacción pendiente",
+          "confirmed": "Interactuado",
+          "failed": "Interacción fallida"
         },
         "swap": {
-          "pending": "Swapping",
+          "pending": "Intercambiando",
           "confirmed": "Intercambiado",
-          "failed": "Swap Failed"
+          "failed": "Intercambio fallido"
         },
         "borrow": {
-          "pending": "Borrowing",
-          "confirmed": "Borrowed",
-          "failed": "Borrow Failed"
+          "pending": "Pidiendo prestado",
+          "confirmed": "Prestado",
+          "failed": "Préstamo fallido"
         },
         "claim": {
-          "pending": "Claiming",
-          "confirmed": "Claimed",
-          "failed": "Claim Failed"
+          "pending": "Reclamando",
+          "confirmed": "Reclamado",
+          "failed": "Reclamo fallido"
         },
         "deployment": {
-          "pending": "Deploying",
-          "confirmed": "Deployed",
-          "failed": "Deploy Failed"
+          "pending": "Desplegando",
+          "confirmed": "Desplegado",
+          "failed": "Despliegue fallido"
         },
         "repay": {
-          "pending": "Repaying",
-          "confirmed": "Repayed",
-          "failed": "Repay Failed"
+          "pending": "Reembolsando",
+          "confirmed": "Reembolsado",
+          "failed": "Reembolso fallido"
         },
         "stake": {
-          "pending": "Staking",
-          "confirmed": "Staked",
-          "failed": "Stake Failed"
+          "pending": "Aplicando stake",
+          "confirmed": "Stake aplicado",
+          "failed": "Stake fallido"
         },
         "unstake": {
-          "pending": "Unstaking",
-          "confirmed": "Unstaked",
-          "failed": "Unstake Failed"
+          "pending": "Removiendo stake",
+          "confirmed": "Stake removido",
+          "failed": "Remoción de stake fallida"
         },
         "purchase": {
-          "pending": "Purchasing",
+          "pending": "Comprando",
           "confirmed": "Comprado",
           "failed": "Error de compra"
         },
         "revoke": {
-          "pending": "Revoking",
-          "confirmed": "Revoked",
-          "failed": "Revoke Failed"
+          "pending": "Revocando",
+          "confirmed": "Revocado",
+          "failed": "Revocación Fallida"
         },
         "sale": {
           "pending": "Vendiendo",
           "confirmed": "Vendido",
-          "failed": "Sale Failed"
+          "failed": "Venta Fallida"
         },
         "bridge": {
-          "pending": "Bridging",
+          "pending": "Puentificando",
           "confirmed": "Bridging",
-          "failed": "Bridge Failed"
+          "failed": "Puente Fallido"
         },
         "airdrop": {
           "pending": "",
-          "confirmed": "Airdropped",
+          "confirmed": "Puentificado",
           "failed": ""
         },
         "wrap": {
-          "pending": "Wrapping",
-          "confirmed": "Wrapped",
-          "failed": "Wrap Failed"
+          "pending": "Envoltura en Proceso",
+          "confirmed": "Envuelto",
+          "failed": "Envoltura Fallida"
         },
         "unwrap": {
-          "pending": "Unwrapping",
-          "confirmed": "Unwrapped",
-          "failed": "Unwrap Failed"
+          "pending": "Desenvolviendo",
+          "confirmed": "Desenvuelto",
+          "failed": "Desenvolver Falló"
         },
         "bid": {
-          "pending": "Bidding",
-          "confirmed": "Bid",
-          "failed": "Bid Failed"
+          "pending": "Haciendo una Oferta",
+          "confirmed": "Oferta",
+          "failed": "Oferta Fallida"
         }
       },
       "approvals": {
-        "no_allowance": "No Allowance",
+        "no_allowance": "Sin Permiso",
         "unlimited": "Ilimitado"
       },
-      "no_value": "No value",
+      "no_value": "Sin valor",
       "savings": "Ahorros",
       "signed": "Firmado",
       "contract_interaction": "Interacción de contrato",
@@ -2139,7 +2139,7 @@
       "to": "A",
       "value": "Valor",
       "hash": "Hash de Tx",
-      "you": "You",
+      "you": "Tú",
       "network_fee": "Tarifa de Red",
       "hash_copied": "􀁣 Hash de transacción copiado",
       "address_copied": "􀁣 Dirección copiada",
@@ -2281,8 +2281,8 @@
         "delete_confirm": "¿Estás seguro de que quieres eliminar esta billetera?",
         "edit": "Editar billetera",
         "hide": "Ocultar",
-        "create_wallet_group": "Create Group",
-        "create_wallet_group_placeholder": "Wallet Group %{numWalletGroups}",
+        "create_wallet_group": "Crear billetera",
+        "create_wallet_group_placeholder": "Grupo de Billetera %{numWalletGroups}",
         "import_wallet": "Agregar billetera",
         "input": "Entrada de la transacción",
         "notifications": {
@@ -2380,31 +2380,31 @@
         "please_seed_phrase": "Por favor autentíquese para ver la clave privada"
       },
       "back_ups": {
-        "wallet_count": "%{numAccounts} wallet",
-        "wallet_count_gt_one": "%{numAccounts} wallets",
+        "wallet_count": "%{numAccounts} billetera",
+        "wallet_count_gt_one": "%{numAccounts} billeteras",
         "and_more_wallets": "Y %{moreWalletCount} billeteras más",
-        "create_new_wallet": "Create a New Wallet",
-        "create_new_wallet_description": "Create a new wallet using this Secret Phrase",
+        "create_new_wallet": "Crear una nueva billetera",
+        "create_new_wallet_description": "Crear una nueva billetera usando esta Frase Secreta",
         "backed_up": "Resguardado",
         "backed_up_manually": "Resguardado manualmente",
         "imported": "Importado",
-        "cloud_backup_title": "Cloud Backup",
+        "cloud_backup_title": "Respaldo en la nube",
         "not_backed_up": "No respaldado",
-        "not_backed_up_to_cloud_message": "This %{backupType} isn't in your last backup. Back up to %{cloudPlatform} now so you can restore it if you lose your device or get a new one.",
-        "not_backed_up_message": "This %{backupType} isn't backed up. Back up now so you can restore it if you lose your device or get a new one.",
-        "backed_up_message": "You opted to save this %{backupType} yourself. Make sure you have it stored in a secure location.",
-        "backed_up_to_cloud_message": "All your wallets are backed up to %{cloudPlatform}. If you lose your device or get a new one, you'll be able to recover the wallets displayed below.",
-        "cloud_backup_out_of_date_description": "Some of your wallets aren't in your last backup. Back up to %{cloudPlatform} now so you can restore them if you lose your device or get a new one.",
-        "cloud_backup_description": "Securely back up your wallets to %{cloudPlatform} so you can restore them if you lose your device or get a new one.",
-        "cloud_backup_link": "Learn more…",
-        "view_secret_phrase": "View Secret Phrase",
-        "view_private_key": "View Private Key",
-        "copy_wallet_address": "Copy wallet address"
+        "not_backed_up_to_cloud_message": "Este %{backupType} no está en tu última copia de seguridad. Haz una copia de seguridad en %{cloudPlatform} ahora para que puedas restaurarla si pierdes tu dispositivo o tienes uno nuevo.",
+        "not_backed_up_message": "Este %{backupType} no está respaldado. Realiza una copia de seguridad ahora para que puedas restaurarla si pierdes tu dispositivo o tienes uno nuevo.",
+        "backed_up_message": "Optaste por guardar este %{backupType} tú mismo. Asegúrate de tenerlo almacenado en un lugar seguro.",
+        "backed_up_to_cloud_message": "Todos tus billeteras están respaldadas en %{cloudPlatform}. Si pierdes tu dispositivo o tienes uno nuevo, podrás recuperar las billeteras que se muestran a continuación.",
+        "cloud_backup_out_of_date_description": "Algunas de tus billeteras no están en tu última copia de seguridad. Haz una copia de seguridad en %{cloudPlatform} ahora para que puedas restaurarlas si pierdes tu dispositivo o tienes uno nuevo.",
+        "cloud_backup_description": "Haz una copia de seguridad de tus billeteras de manera segura en %{cloudPlatform} para que puedas restaurarlas si pierdes tu dispositivo o tienes uno nuevo.",
+        "cloud_backup_link": "Obtener más información…",
+        "view_secret_phrase": "Ver frase secreta",
+        "view_private_key": "Ver clave privada",
+        "copy_wallet_address": "Copiar dirección de billetera"
       },
       "balance_title": "Saldo",
       "buy": "Comprar",
       "change_wallet": {
-        "no_balance": "No Balance",
+        "no_balance": "Sin Balance",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Observando",
         "ledger": "Ledger"
@@ -2481,8 +2481,8 @@
         "add_wallet_sheet": {
           "options": {
             "cloud": {
-              "description_restore_sheet": "If you previously backed up to %{cloudPlatform}, tap here to restore it.",
-              "description_with_latest_backup_date": "Latest back up %{fromNow} at %{time}",
+              "description_restore_sheet": "Si anteriormente realizaste una copia de seguridad en %{cloudPlatform}, toca aquí para restaurarla.",
+              "description_with_latest_backup_date": "Última copia de seguridad %{fromNow} a las %{time}",
               "title": "Restaurar desde %{platform}",
               "no_backups": "No se encontraron copias de seguridad",
               "no_google_backups": "No pudimos encontrar ninguna copia de seguridad en Google Drive. Asegúrese de haber iniciado sesión con la cuenta correcta."
@@ -2496,12 +2496,12 @@
               "title": "Conecta tu billetera de hardware"
             },
             "seed": {
-              "description": "Use your Secret Phrase from Rainbow, MetaMask, or another wallet",
-              "title": "Import a Secret Phrase or Private Key"
+              "description": "Usa tu Frase Secreta de Rainbow, MetaMask u otra billetera",
+              "title": "Importar una Frase Secreta o Clave Privada"
             },
             "watch": {
-              "description": "Watch an ENS name or a public address",
-              "title": "Watch a wallet"
+              "description": "Observar un nombre ENS o una dirección pública",
+              "title": "Observar una billetera"
             }
           },
           "first_wallet": {
@@ -2614,7 +2614,7 @@
           "insufficient_funds": "¡Oh no! El precio del gas cambió y ya no tienes fondos suficientes para esta transacción. Por favor, intenta nuevamente con una cantidad menor.",
           "generic": "¡Oh no! Hubo un problema al enviar la transacción. Por favor, inténtalo de nuevo."
         },
-        "complete_check": "Complete check",
+        "complete_check": "Completar revisión",
         "ens_configuration_options": "Opciones de configuración de ENS",
         "confirm": "Confirmar transacción",
         "max": "Máx.",
@@ -2652,7 +2652,7 @@
       }
     },
     "walletconnect": {
-      "requests": "Requests",
+      "requests": "Solicitudes",
       "wants_to_connect": "quiere conectarse a tu billetera",
       "wants_to_connect_to_network": "quiere conectarse a la red %{network}",
       "available_networks": "Redes Disponibles",
@@ -2804,16 +2804,16 @@
     },
     "dapp_browser": {
       "address_bar": {
-        "input_placeholder": "Search or enter website"
+        "input_placeholder": "Buscar o ingresar sitio web"
       },
       "control_panel": {
-        "connected": "Connected",
-        "not_connected": "Not Connected",
+        "connected": "Conectado",
+        "not_connected": "No Conectado",
         "switch_wallet": "Cambiar Billetera",
         "switch_network": "Cambiar Red",
         "disconnect": "Desconectar",
-        "favorite": "Favorite",
-        "undo_favorite": "Undo",
+        "favorite": "Favorito",
+        "undo_favorite": "Deshacer",
         "connect": "Conectar",
         "swap": "Intercambiar",
         "bridge": "Puente",
@@ -2821,32 +2821,32 @@
       },
       "error": {
         "title": "Algo salió mal",
-        "default_msg": "There was an error loading the page. Please try again."
+        "default_msg": "Hubo un error al cargar la página. Por favor, inténtalo de nuevo."
       },
       "no_wc_needed": {
         "title": "¡Ups!",
-        "description": "Seems like you're trying to connect to this dapp via WalletConnect. This is no longer necessary with Rainbow's in-app browser. Go back and choose \"MetaMask\" and everything should work just fine.",
+        "description": "Parece que estás intentando conectarte a esta dapp a través de WalletConnect. Esto ya no es necesario con el navegador en la aplicación de Rainbow. Vuelve atrás y elige \"MetaMask\" y todo debería funcionar bien.",
         "cta": "Entendido"
       },
       "provider_error": {
-        "unsupported_chain": "Unsupported Chain",
-        "no_active_session": "You need to connect to the dapp before attempting to switch chains"
+        "unsupported_chain": "Cadena no compatible",
+        "no_active_session": "Necesitas conectarte a la dapp antes de intentar cambiar de cadena"
       },
       "homepage": {
-        "trending": "Trending",
-        "recents": "Recents",
+        "trending": "Tendencia",
+        "recents": "Recientes",
         "favorites": "Favoritos"
       },
       "search": {
-        "find_apps_and_more": "Find apps and more",
-        "more_results": "More Results",
+        "find_apps_and_more": "Encuentra apps y más",
+        "more_results": "Más resultados",
         "search": "Buscar"
       },
       "menus": {
-        "favorite": "Favorite",
-        "undo_favorite": "Undo Favorite",
+        "favorite": "Favorito",
+        "undo_favorite": "Deshacer Favorito",
         "remove": "Eliminar",
-        "forward": "Forward",
+        "forward": "Adelante",
         "back": "Atrás"
       }
     }
