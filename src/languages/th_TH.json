@@ -24,6 +24,7 @@
       "tab_showcase": "โชว์เคส",
       "tab_points": "แต้ม",
       "tab_positions": "ตำแหน่ง",
+      "tab_rewards": "รางวัล",
       "tab_transactions": "การทำธุรกรรม",
       "tab_transactions_tooltip": "การทำธุรกรรมและการโอนโทเค็น",
       "tab_uniquetokens": "โทเค็นที่ไม่ซ้ำกัน",
@@ -431,6 +432,23 @@
         "description": "คุณยังสามารถกดค้างที่อยู่\nข้างต้นเพื่อคัดลอก"
       }
     },
+    "check_identifier": {
+      "title": "Authentication Needed",
+      "description": "It looks like you may have switched devices or reinstalled Rainbow. Please authenticate so that we can validate your keychain data is still in a healthy state.",
+      "action": "Authenticate",
+      "dismiss": "ยกเลิก",
+      "error_alert": {
+        "title": "Error Validating Keychain",
+        "message": "We encountered an error while validating your keychain data. Please try again. If the issue persists, please contact support.",
+        "contact_support": "Contact Support",
+        "cancel": "ยกเลิก"
+      },
+      "failure_alert": {
+        "title": "Invalid Keychain Data",
+        "message": "We were unable to verify the integrity of your keychain data. Please restore your wallet and try again. If the issue persists, please contact support.",
+        "action": "ดำเนินการต่อ"
+      }
+    },
     "cloud": {
       "backup_success": "กระเป๋าเงินของคุณได้รับการสำรองข้อมูลเรียบร้อยแล้ว!"
     },
@@ -541,7 +559,8 @@
         "from_divider": "จาก",
         "to_divider": "ไปยัง",
         "view_on": "ดูบน %{blockExplorerName}",
-        "view_on_etherscan": "ดูบน Etherscan"
+        "view_on_etherscan": "ดูบน Etherscan",
+        "copy_contract_address": "คัดลอกที่อยู่สัญญา"
       },
       "all_networks": "ทุกเครือข่าย",
       "filter_by_network": "กรองตามเครือข่าย",
@@ -577,7 +596,8 @@
       "price_impact": {
         "long_wait": {
           "title": "รอนาน",
-          "description": "ประมาณ %{time}"
+          "description": "ประมาณ %{time}",
+          "description_prefix": "Approx."
         },
         "unknown_price": {
           "title": "ไม่ทราบมูลค่าตลาด",
@@ -587,6 +607,7 @@
         "small_market": "ตลาดเล็ก",
         "small_market_try_smaller_amount": "ตลาดเล็ก - ลองปริมาณที่น้อยกว่า",
         "you_are_losing": "คุณสูญเสีย %{priceImpact}",
+        "you_are_losing_prefix": "You're losing",
         "no_data": "ไม่ทราบมูลค่าตลาด",
         "label": "เสี่ยงที่จะสูญเสีย",
         "no_data_subtitle": "หากคุณตัดสินใจดำเนินการต่อ โปรดแน่ใจว่าคุณพอใจกับจำนวนที่ได้รับการเสนอราคา"
@@ -687,6 +708,7 @@
         "flashbots_protect": "Flashbots ป้องกัน",
         "losing": "ขาดทุน",
         "on": "เปิด",
+        "off": "ปิด",
         "price_impact": "ผลกระทบของราคา",
         "price_row_per_token": "ต่อ",
         "slippage_message": "นี้เป็นตลาดขนาดเล็ก, ดังนั้นคุณกำลังได้รับราคาที่ไม่ดี ลองเทรดขนาดเล็กลงดู!",
@@ -723,6 +745,11 @@
         "number_of_steps": "%{number} ขั้นตอน",
         "input_exchange_rate": "1 %{inputSymbol} สำหรับ %{executionRate} %{outputSymbol}",
         "output_exchange_rate": "1 %{outputSymbol} สำหรับ %{executionRate} %{inputSymbol}"
+      },
+      "swap_details_v2": {
+        "rainbow_fee": "Included Rainbow Fee",
+        "maximum_sold": "Maximum Sold",
+        "minimum_received": "Minimum Received"
       },
       "token_index": {
         "get_token": "รับ %{assetSymbol}",
@@ -1030,14 +1057,17 @@
         "urgent": "ด่วน",
         "custom": "กำหนดเอง"
       },
-      "network_fee": "ค่าธรรมเนียมเครือข่ายโดยประมาณ",
+      "unable_to_determine_selected_gas": "Unable to determine selected gas",
+      "network_fee": "Est. Network Fee",
       "current_base_fee": "ค่าฐานปัจจุบัน",
       "max_base_fee": "ค่าฐานสูงสุด",
       "miner_tip": "ค่าเทิปของนักขุด",
+      "gas_price": "Gas price",
       "max_transaction_fee": "ค่าธรรมเนียมการทำธุรกรรมสูงสุด",
       "warning_separator": "·",
       "lower_than_suggested": "ต่ำ · อาจติดขัด",
       "higher_than_suggested": "สูง · จ่ายเกิน",
+      "likely_to_fail": "ต่ำ · มีโอกาสล้มเหลว",
       "max_base_fee_too_low_error": "ต่ำ · มีโอกาสล้มเหลว",
       "tip_too_low_error": "ต่ำ · มีโอกาสล้มเหลว",
       "alert_message_higher_miner_tip_needed": "แนะนำให้ตั้งค่าค่าธรรมเนียมทิปคนขุดที่สูงขึ้นเพื่อหลีกเลี่ยงปัญหา",
@@ -1357,13 +1387,16 @@
       },
       "claim": {
         "title": "เรียกร้องคะแนนของคุณ",
+        "title_rewards_line_1": "Welcome to",
+        "title_rewards_line_2": "Rainbow Rewards",
         "subtitle": "คะแนนของคุณมาแล้ว หากดูว่าคุณได้รับกี่คะแนน",
+        "subtitle_rewards": "Get rewarded for using Rainbow. Do stuff onchain, get points, earn ETH.",
         "get_started": "เริ่มทำงาน",
         "use_referral_code": "ใช้รหัสอ้างอิง"
       },
       "referral": {
         "title": "กรอกรหัสอ้างอิงของคุณ",
-        "subtitle": "กรอกรหัสอ้างอิงด้านล่างเพื่อเรียกร้องรางวัลโบนัสของคุณ",
+        "subtitle": "Enter a referral code below to claim your points bonus.",
         "back": "ย้อนกลับ",
         "error": "เกิดข้อผิดพลาดบางอย่าง กรุณาเริ่มต้นแอปใหม่และลองใหม่อีกครั้ง",
         "get_started": "เริ่มทำงาน",
@@ -1378,6 +1411,7 @@
         "share_link": "แชร์ลิงค์",
         "next_drop": "รางวัลถัดไป",
         "your_rank": "อันดับของคุณ",
+        "no_change": "No Change",
         "of_x": "จาก %{totalUsers}",
         "referrals": "การอ้างอิง",
         "streak": "แนวโน้ม",
@@ -1395,12 +1429,40 @@
         "today": "วันนี้",
         "error": "อุ๊ปส์!\nกรุณาดึงเพื่อรีเฟรช.",
         "points": "คะแนน",
+        "points_capitalized": "แต้ม",
         "referral_code_copied": "คัดลอกโค้ดการอ้างอิงเรียบร้อย",
         "earn_points_for_referring": "รับคะแนนเมื่อผู้ที่คุณอ้างอิงแลกเปลี่ยนเงินผ่าน Rainbow มูลค่า $100 และรับ 10% ของคะแนนที่ผู้ที่คุณอ้างอิงได้รับ",
         "already_claimed_points": "ขออภัย! คุณได้รับคะแนนนี้แล้ว.",
         "now": "ตอนนี้",
         "unranked": "ไม่มีอันดับ",
-        "points_to_rank": "ต้องการคะแนนอีก 750 คะแนนเพื่อจัดอันดับ"
+        "points_to_rank": "ต้องการคะแนนอีก 750 คะแนนเพื่อจัดอันดับ",
+        "ranking": "Placed #%{rank}",
+        "available_to_claim": "Available to Claim",
+        "claim": "Claim %{value}",
+        "choose_claim_network": "Choose Claim Network",
+        "claim_on_network": "Claim on %{network}",
+        "claimed_on_network": "Claimed on %{network}",
+        "claiming_on_network": "Claiming on %{network}",
+        "error_claiming": "การเรียกร้องล้มเหลว",
+        "free_to_claim": "Free to Claim",
+        "has_bridge_fee": "Has Bridge Fee",
+        "claim_rewards": "Claim Rewards",
+        "earned_last_week": "Earned Last Week",
+        "top_10_earner": "Top 10 Earner",
+        "zero_points": "0 Points",
+        "no_weekly_rank": "No Weekly Rank",
+        "none": "ไม่มี",
+        "my_earnings": "My Earnings",
+        "claimed_earnings": "Claimed Earnings",
+        "current_value": "มูลค่าปัจจุบัน",
+        "rainbow_users_have_earned": "Rainbow users have earned",
+        "earn_eth_rewards": "Earn ETH Rewards",
+        "rewards_explainer": "Every week, the top weekly points earners will receive a portion of Rainbow’s onchain revenue. Collect points by swapping or transacting in Rainbow, using dapps, or referring friends.",
+        "my_points": "My Points",
+        "refer_friends": "Refer Friends",
+        "try_again": "Try Again",
+        "bridge_error": "Partial Success",
+        "bridge_error_explainer": "Your rewards were successfully claimed on Optimism, but the transfer to %{network} failed. If you'd like, you can bridge your rewards manually using the Swap feature."
       },
       "console": {
         "claim_bonus_paragraph": "คุณจะได้รับแต้มเพิ่มอีก 100 แต้ม เมื่อคุณทำการแลกเปลี่ยนเงินอย่างน้อย $100 ผ่าน Rainbow",
@@ -1916,9 +1978,32 @@
       "too_many_signup_request": "คำขอสมัครเยอะเกินไป, โปรดลองอีกครั้งในภายหลัง"
     },
     "swap": {
+      "actions": {
+        "tap_to_swap": "Tap to Swap",
+        "save": "บันทึก",
+        "enter_amount": "Enter Amount",
+        "review": "รีวิว",
+        "fetching_prices": "Fetching",
+        "swapping": "กำลังแลกเปลี่ยน",
+        "select_token": "Select Token",
+        "insufficient_funds": "เงินทุนไม่เพียงพอ",
+        "insufficient": "Insufficient",
+        "quote_error": "Quote Error"
+      },
       "aggregators": {
         "rainbow": "Rainbow"
       },
+      "bridging": "กำลังสร้างสะพาน",
+      "swapping": "กำลังแลกเปลี่ยน",
+      "max": "สูงสุด",
+      "select": "Select",
+      "token_to_get": "Token to Get",
+      "token_to_swap": "Token to Swap",
+      "no_balance": "ไม่มีคงเหลือ",
+      "find_a_token_to_buy": "Find a token to buy",
+      "search_your_tokens": "Search your tokens",
+      "error_executing_swap": "Error executing swap",
+      "flashbots_protection": "Flashbots Protection",
       "tokens_input": {
         "tokens": "โทเคน",
         "sort": "เรียงลำดับ",
@@ -1945,6 +2030,7 @@
       },
       "loading": "กำลังโหลด...",
       "modal_types": {
+        "bridge": "สะพาน",
         "confirm": "ยืนยัน",
         "deposit": "ฝาก",
         "receive": "รับ",
@@ -1980,7 +2066,7 @@
         "bridge": "สะพาน",
         "verified": "ได้รับการตรวจสอบ",
         "unverified": "ยังไม่ได้รับการตรวจสอบ",
-        "on_other_networks": "ในเครือข่ายอื่น ๆ"
+        "on_other_networks": "On Other Networks"
       }
     },
     "transactions": {
@@ -2849,6 +2935,8 @@
         "forward": "ส่งต่อ",
         "back": "ย้อนกลับ"
       }
-    }
+    },
+    "copy": "คัดลอก",
+    "paste": "วาง"
   }
 }
