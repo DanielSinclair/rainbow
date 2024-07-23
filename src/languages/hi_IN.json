@@ -24,6 +24,7 @@
       "tab_showcase": "शोकेस",
       "tab_points": "अंक",
       "tab_positions": "पोजीशन्स",
+      "tab_rewards": "इनाम",
       "tab_transactions": "लेन-देन",
       "tab_transactions_tooltip": "लेन-देन और टोकन स्थानांतरण",
       "tab_uniquetokens": "अद्वितीय टोकन्स",
@@ -431,6 +432,23 @@
         "description": "आप यह भी कर सकते हैं เพื่อ किसी अपने\nपते को कॉपी करने के लिए दबाएं।"
       }
     },
+    "check_identifier": {
+      "title": "Authentication Needed",
+      "description": "It looks like you may have switched devices or reinstalled Rainbow. Please authenticate so that we can validate your keychain data is still in a healthy state.",
+      "action": "Authenticate",
+      "dismiss": "खारिज करें",
+      "error_alert": {
+        "title": "Error Validating Keychain",
+        "message": "We encountered an error while validating your keychain data. Please try again. If the issue persists, please contact support.",
+        "contact_support": "Contact Support",
+        "cancel": "रद्द करें"
+      },
+      "failure_alert": {
+        "title": "Invalid Keychain Data",
+        "message": "We were unable to verify the integrity of your keychain data. Please restore your wallet and try again. If the issue persists, please contact support.",
+        "action": "जारी रखें"
+      }
+    },
     "cloud": {
       "backup_success": "आपका वॉलेट सफलतापूर्वक बैकअप कर दिया गया है!"
     },
@@ -541,7 +559,8 @@
         "from_divider": "से",
         "to_divider": "करने के लिए",
         "view_on": "देखें %{blockExplorerName}पर",
-        "view_on_etherscan": "Etherscan पर देखें"
+        "view_on_etherscan": "Etherscan पर देखें",
+        "copy_contract_address": "कॉंट्रैक्ट एड्रेस कॉपी करें"
       },
       "all_networks": "सभी नेटवर्क",
       "filter_by_network": "नेटवर्क के आधार पर फ़िल्टर करें",
@@ -577,7 +596,8 @@
       "price_impact": {
         "long_wait": {
           "title": "लंबा इंतजार",
-          "description": "अनुमानित %{time}"
+          "description": "अनुमानित %{time}",
+          "description_prefix": "Approx."
         },
         "unknown_price": {
           "title": "बाजार मूल्य अज्ञात",
@@ -587,6 +607,7 @@
         "small_market": "लघु बाजार",
         "small_market_try_smaller_amount": "छोटा बाजार — एक छोटी राशि आज़माएँ",
         "you_are_losing": "आप %{priceImpact} खो रहे हैं",
+        "you_are_losing_prefix": "You're losing",
         "no_data": "बाजार मूल्य अज्ञात",
         "label": "संभावित हानि",
         "no_data_subtitle": "यदि आप जारी रखने का निर्णय लेते हैं, तो सुनिश्चित करें कि आप उद्धृत राशि से संतुष्ट हैं"
@@ -687,6 +708,7 @@
         "flashbots_protect": "फ्लैशबॉट्स सुरक्षित",
         "losing": "हानि हो रही है",
         "on": "पर",
+        "off": "बंद",
         "price_impact": "मूल्य प्रभाव",
         "price_row_per_token": "प्रति",
         "slippage_message": "यह एक छोटा बाजार है, इसलिए आपको खराब मूल्य मिल रहा है। एक छोटा काम करके देखें!",
@@ -723,6 +745,11 @@
         "number_of_steps": "%{number} कदम",
         "input_exchange_rate": "1 %{inputSymbol} के लिए %{executionRate} %{outputSymbol}",
         "output_exchange_rate": "1 %{outputSymbol} के लिए %{executionRate} %{inputSymbol}"
+      },
+      "swap_details_v2": {
+        "rainbow_fee": "Included Rainbow Fee",
+        "maximum_sold": "Maximum Sold",
+        "minimum_received": "Minimum Received"
       },
       "token_index": {
         "get_token": "प्राप्त करें %{assetSymbol}",
@@ -1030,14 +1057,17 @@
         "urgent": "अत्यावश्यक",
         "custom": "कस्टम"
       },
-      "network_fee": "अनुमानित नेटवर्क शुल्क",
+      "unable_to_determine_selected_gas": "Unable to determine selected gas",
+      "network_fee": "Est. Network Fee",
       "current_base_fee": "वर्तमान बेस फीस",
       "max_base_fee": "अधिकतम मूल शुल्क",
       "miner_tip": "खनकर्मी का टिप",
+      "gas_price": "Gas price",
       "max_transaction_fee": "अधिकतम लेन-देन शुल्क",
       "warning_separator": "·",
       "lower_than_suggested": "कम · अटक सकता है",
       "higher_than_suggested": "अधिक · अधिक भुगतान कर रहे हैं",
+      "likely_to_fail": "कम · असफल होने की संभावना",
       "max_base_fee_too_low_error": "कम · असफल होने की संभावना",
       "tip_too_low_error": "कम · असफल होने की संभावना",
       "alert_message_higher_miner_tip_needed": "समस्याओं से बचने के लिए अधिक माइनर टिप की सेटिंग करने की सिफारिश की जाती है।",
@@ -1357,13 +1387,16 @@
       },
       "claim": {
         "title": "अपने अंक दावा करें",
+        "title_rewards_line_1": "Welcome to",
+        "title_rewards_line_2": "Rainbow Rewards",
         "subtitle": "अंक यहाँ हैं। जानिए आपको कितने अंक मिले हैं।",
+        "subtitle_rewards": "Get rewarded for using Rainbow. Do stuff onchain, get points, earn ETH.",
         "get_started": "शुरुआत करें",
         "use_referral_code": "रेफरल कोड का प्रयोग करें"
       },
       "referral": {
         "title": "अपना रेफरल कोड दर्ज करें",
-        "subtitle": "अपने बोनस रिवार्ड का दावा करने के लिए नीचे एक रेफरल कोड दर्ज करें।",
+        "subtitle": "Enter a referral code below to claim your points bonus.",
         "back": "वापस",
         "error": "कुछ गलत हो गया। कृपया ऐप को पुनः आरंभ करें और फिर से प्रयास करें।",
         "get_started": "शुरुआत करें",
@@ -1378,6 +1411,7 @@
         "share_link": "लिंक साझा करें",
         "next_drop": "अगला ड्रॉप",
         "your_rank": "आपका रैंक",
+        "no_change": "No Change",
         "of_x": "का %{totalUsers}",
         "referrals": "रेफरल्स",
         "streak": "स्ट्रीक",
@@ -1395,12 +1429,40 @@
         "today": "आज",
         "error": "उफ़!\nकृपया ताज़ा करने के लिए खींचें।",
         "points": "अंक",
+        "points_capitalized": "अंक",
         "referral_code_copied": "रेफरल कोड कॉपी किया गया",
         "earn_points_for_referring": "जब आपके रेफरल Rainbow के माध्यम से $100 का आदान-प्रदान करते हैं तो अंक अर्जित करें, साथ ही अपने रेफरल्स द्वारा अर्जित अंकों का 10% भी कमाएं",
         "already_claimed_points": "क्षमा करें! आप पहले ही अपने अंक दावा कर चुके हैं।",
         "now": "अब",
         "unranked": "अश्रेणीकृत",
-        "points_to_rank": "रैंक हेतु 750 अंक आवश्यक"
+        "points_to_rank": "रैंक हेतु 750 अंक आवश्यक",
+        "ranking": "Placed #%{rank}",
+        "available_to_claim": "Available to Claim",
+        "claim": "Claim %{value}",
+        "choose_claim_network": "Choose Claim Network",
+        "claim_on_network": "Claim on %{network}",
+        "claimed_on_network": "Claimed on %{network}",
+        "claiming_on_network": "Claiming on %{network}",
+        "error_claiming": "दावा विफल",
+        "free_to_claim": "Free to Claim",
+        "has_bridge_fee": "Has Bridge Fee",
+        "claim_rewards": "Claim Rewards",
+        "earned_last_week": "Earned Last Week",
+        "top_10_earner": "Top 10 Earner",
+        "zero_points": "0 Points",
+        "no_weekly_rank": "No Weekly Rank",
+        "none": "कोई नहीं",
+        "my_earnings": "My Earnings",
+        "claimed_earnings": "Claimed Earnings",
+        "current_value": "वर्तमान मूल्य",
+        "rainbow_users_have_earned": "Rainbow users have earned",
+        "earn_eth_rewards": "Earn ETH Rewards",
+        "rewards_explainer": "Every week, the top weekly points earners will receive a portion of Rainbow’s onchain revenue. Collect points by swapping or transacting in Rainbow, using dapps, or referring friends.",
+        "my_points": "My Points",
+        "refer_friends": "Refer Friends",
+        "try_again": "Try Again",
+        "bridge_error": "Partial Success",
+        "bridge_error_explainer": "Your rewards were successfully claimed on Optimism, but the transfer to %{network} failed. If you'd like, you can bridge your rewards manually using the Swap feature."
       },
       "console": {
         "claim_bonus_paragraph": "आपको Rainbow के माध्यम से कम से कम $100 बदलने पर अतिरिक्त 100 अंक मिलेंगे",
@@ -1916,9 +1978,32 @@
       "too_many_signup_request": "बहुत सारे साइनअप अनुरोध, कृपया बाद में पुनः प्रयास करें"
     },
     "swap": {
+      "actions": {
+        "tap_to_swap": "Tap to Swap",
+        "save": "सहेजें",
+        "enter_amount": "Enter Amount",
+        "review": "समीक्षा करें",
+        "fetching_prices": "Fetching",
+        "swapping": "स्वापिंग",
+        "select_token": "Select Token",
+        "insufficient_funds": "अपर्याप्त धन",
+        "insufficient": "Insufficient",
+        "quote_error": "Quote Error"
+      },
       "aggregators": {
         "rainbow": "रेनबो"
       },
+      "bridging": "ब्रिजिंग",
+      "swapping": "स्वापिंग",
+      "max": "अधिकतम",
+      "select": "Select",
+      "token_to_get": "Token to Get",
+      "token_to_swap": "Token to Swap",
+      "no_balance": "कोई बैलेंस नहीं",
+      "find_a_token_to_buy": "Find a token to buy",
+      "search_your_tokens": "Search your tokens",
+      "error_executing_swap": "Error executing swap",
+      "flashbots_protection": "Flashbots Protection",
       "tokens_input": {
         "tokens": "Tokens",
         "sort": "Sort",
@@ -1945,6 +2030,7 @@
       },
       "loading": "लोड हो रहा है...",
       "modal_types": {
+        "bridge": "ब्रिज",
         "confirm": "पुष्टि करें",
         "deposit": "जमा",
         "receive": "प्राप्त करें",
@@ -1980,7 +2066,7 @@
         "bridge": "ब्रिज",
         "verified": "सत्यापित",
         "unverified": "असत्यापित",
-        "on_other_networks": "अन्य नेटवर्क पर"
+        "on_other_networks": "On Other Networks"
       }
     },
     "transactions": {
@@ -2849,6 +2935,8 @@
         "forward": "आगे",
         "back": "वापस"
       }
-    }
+    },
+    "copy": "कॉपी",
+    "paste": "चिपकाएं"
   }
 }
