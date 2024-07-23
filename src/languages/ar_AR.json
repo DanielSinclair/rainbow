@@ -24,6 +24,7 @@
       "tab_showcase": "عرض",
       "tab_points": "النقاط",
       "tab_positions": "المواقف",
+      "tab_rewards": "المكافآت",
       "tab_transactions": "المعاملات",
       "tab_transactions_tooltip": "المعاملات وتحويلات الرموز",
       "tab_uniquetokens": "الرموز المميزة",
@@ -431,6 +432,23 @@
         "description": "يمكنك أيضًا الضغط بطول على عنوان\nالموجود أعلاه لنسخه."
       }
     },
+    "check_identifier": {
+      "title": "Authentication Needed",
+      "description": "It looks like you may have switched devices or reinstalled Rainbow. Please authenticate so that we can validate your keychain data is still in a healthy state.",
+      "action": "Authenticate",
+      "dismiss": "رفض",
+      "error_alert": {
+        "title": "Error Validating Keychain",
+        "message": "We encountered an error while validating your keychain data. Please try again. If the issue persists, please contact support.",
+        "contact_support": "Contact Support",
+        "cancel": "إلغاء"
+      },
+      "failure_alert": {
+        "title": "Invalid Keychain Data",
+        "message": "We were unable to verify the integrity of your keychain data. Please restore your wallet and try again. If the issue persists, please contact support.",
+        "action": "استمر"
+      }
+    },
     "cloud": {
       "backup_success": "تم نسخ محفظتك بنجاح!"
     },
@@ -541,7 +559,8 @@
         "from_divider": "من",
         "to_divider": "إلى",
         "view_on": "اعرض على %{blockExplorerName}",
-        "view_on_etherscan": "عرض على Etherscan"
+        "view_on_etherscan": "عرض على Etherscan",
+        "copy_contract_address": "نسخ عنوان العقد"
       },
       "all_networks": "جميع الشبكات",
       "filter_by_network": "الفلترة حسب الشبكة",
@@ -577,7 +596,8 @@
       "price_impact": {
         "long_wait": {
           "title": "انتظار طويل",
-          "description": "تقريبًا %{time}"
+          "description": "تقريبًا %{time}",
+          "description_prefix": "Approx."
         },
         "unknown_price": {
           "title": "القيمة السوقية غير معروفة",
@@ -587,6 +607,7 @@
         "small_market": "سوق صغير",
         "small_market_try_smaller_amount": "سوق صغير - حاول مبلغ أصغر",
         "you_are_losing": "أنت تخسر %{priceImpact}",
+        "you_are_losing_prefix": "You're losing",
         "no_data": "القيمة السوقية غير معروفة",
         "label": "خسارة محتملة",
         "no_data_subtitle": "إذا قررت المتابعة، تأكد من أنك راض بالمبلغ المعروض"
@@ -687,6 +708,7 @@
         "flashbots_protect": "حماية فلاشبوتس",
         "losing": "خاسر",
         "on": "على",
+        "off": "إيقاف",
         "price_impact": "تأثير السعر",
         "price_row_per_token": "لكل",
         "slippage_message": "هذا سوق صغير، لذا أنت تحصل على سعر سيء. حاول التداول بكمية أقل!",
@@ -723,6 +745,11 @@
         "number_of_steps": "%{number} خطوات",
         "input_exchange_rate": "1 %{inputSymbol} لـ %{executionRate} %{outputSymbol}",
         "output_exchange_rate": "1 %{outputSymbol} لـ %{executionRate} %{inputSymbol}"
+      },
+      "swap_details_v2": {
+        "rainbow_fee": "Included Rainbow Fee",
+        "maximum_sold": "Maximum Sold",
+        "minimum_received": "Minimum Received"
       },
       "token_index": {
         "get_token": "احصل على %{assetSymbol}",
@@ -1030,14 +1057,17 @@
         "urgent": "عاجل",
         "custom": "مخصص"
       },
-      "network_fee": "رسوم الشبكة المقدرة",
+      "unable_to_determine_selected_gas": "Unable to determine selected gas",
+      "network_fee": "Est. Network Fee",
       "current_base_fee": "الرسوم الأساسية الحالية",
       "max_base_fee": "أقصى رسوم أساسية",
       "miner_tip": "تلميح المعدن",
+      "gas_price": "Gas price",
       "max_transaction_fee": "الحد الأقصى لرسوم المعاملة",
       "warning_separator": "·",
       "lower_than_suggested": "منخفض · قد يتعثر",
       "higher_than_suggested": "مرتفع · دفع زائد",
+      "likely_to_fail": "منخفض · من المحتمل أن يفشل",
       "max_base_fee_too_low_error": "منخفض · من المحتمل أن يفشل",
       "tip_too_low_error": "منخفض · من المحتمل أن يفشل",
       "alert_message_higher_miner_tip_needed": "يُنصَح بتعيين بدل أعلى للمعدن لتجنب المشكلات.",
@@ -1357,13 +1387,16 @@
       },
       "claim": {
         "title": "احصل على نقاطك",
+        "title_rewards_line_1": "Welcome to",
+        "title_rewards_line_2": "Rainbow Rewards",
         "subtitle": "النقاط متوفرة الآن. اكتشف كم نقطة حصلت عليها.",
+        "subtitle_rewards": "Get rewarded for using Rainbow. Do stuff onchain, get points, earn ETH.",
         "get_started": "ابدأ الآن",
         "use_referral_code": "استخدم كود الإحالة"
       },
       "referral": {
         "title": "أدخل رمز الإحالة الخاص بك",
-        "subtitle": "أدخل كود الإحالة أدناه لتطالب بمكافأتك الإضافية.",
+        "subtitle": "Enter a referral code below to claim your points bonus.",
         "back": "رجوع",
         "error": "حدث خطأ ما. الرجاء إعادة تشغيل التطبيق والمحاولة مرة أخرى.",
         "get_started": "ابدأ الآن",
@@ -1378,6 +1411,7 @@
         "share_link": "شارك الرابط",
         "next_drop": "الإسقاط التالي",
         "your_rank": "رتبتك",
+        "no_change": "No Change",
         "of_x": "من %{totalUsers}",
         "referrals": "الإحالات",
         "streak": "سلسلة النجاح",
@@ -1395,12 +1429,40 @@
         "today": "اليوم",
         "error": "عذرًا!\nالرجاء السحب للتحديث.",
         "points": "النقاط",
+        "points_capitalized": "النقاط",
         "referral_code_copied": "تم نسخ رمز الإحالة",
         "earn_points_for_referring": "اربح نقاط عندما يقوم من تحيلهم بتبديل 100 دولار من خلال Rainbow، بالإضافة إلى كسب 10٪ من النقاط التي يكسبها من تحيلهم",
         "already_claimed_points": "عذرًا! لقد قمت بالفعل بالمطالبة بنقاطك.",
         "now": "الآن",
         "unranked": "غير مصنف",
-        "points_to_rank": "750 نقطة للتصنيف"
+        "points_to_rank": "750 نقطة للتصنيف",
+        "ranking": "Placed #%{rank}",
+        "available_to_claim": "Available to Claim",
+        "claim": "Claim %{value}",
+        "choose_claim_network": "Choose Claim Network",
+        "claim_on_network": "Claim on %{network}",
+        "claimed_on_network": "Claimed on %{network}",
+        "claiming_on_network": "Claiming on %{network}",
+        "error_claiming": "فشل المطالبة",
+        "free_to_claim": "Free to Claim",
+        "has_bridge_fee": "Has Bridge Fee",
+        "claim_rewards": "Claim Rewards",
+        "earned_last_week": "Earned Last Week",
+        "top_10_earner": "Top 10 Earner",
+        "zero_points": "0 Points",
+        "no_weekly_rank": "No Weekly Rank",
+        "none": "لا شيء",
+        "my_earnings": "My Earnings",
+        "claimed_earnings": "Claimed Earnings",
+        "current_value": "القيمة الحالية",
+        "rainbow_users_have_earned": "Rainbow users have earned",
+        "earn_eth_rewards": "Earn ETH Rewards",
+        "rewards_explainer": "Every week, the top weekly points earners will receive a portion of Rainbow’s onchain revenue. Collect points by swapping or transacting in Rainbow, using dapps, or referring friends.",
+        "my_points": "My Points",
+        "refer_friends": "Refer Friends",
+        "try_again": "Try Again",
+        "bridge_error": "Partial Success",
+        "bridge_error_explainer": "Your rewards were successfully claimed on Optimism, but the transfer to %{network} failed. If you'd like, you can bridge your rewards manually using the Swap feature."
       },
       "console": {
         "claim_bonus_paragraph": "سوف تحصل على 100 نقطة إضافية بمجرد استبدال ما قيمته 100 دولار على الأقل من خلال Rainbow",
@@ -1916,9 +1978,32 @@
       "too_many_signup_request": "طلبات التسجيل كثيرة جدا، يرجى المحاولة مرة أخرى لاحقا"
     },
     "swap": {
+      "actions": {
+        "tap_to_swap": "Tap to Swap",
+        "save": "حفظ",
+        "enter_amount": "Enter Amount",
+        "review": "مراجعة",
+        "fetching_prices": "Fetching",
+        "swapping": "تبديل",
+        "select_token": "Select Token",
+        "insufficient_funds": "أموال غير كافية",
+        "insufficient": "Insufficient",
+        "quote_error": "Quote Error"
+      },
       "aggregators": {
         "rainbow": "رينبو"
       },
+      "bridging": "جسر",
+      "swapping": "تبديل",
+      "max": "الحد الأقصى",
+      "select": "Select",
+      "token_to_get": "Token to Get",
+      "token_to_swap": "Token to Swap",
+      "no_balance": "لا يوجد رصيد",
+      "find_a_token_to_buy": "Find a token to buy",
+      "search_your_tokens": "Search your tokens",
+      "error_executing_swap": "Error executing swap",
+      "flashbots_protection": "Flashbots Protection",
       "tokens_input": {
         "tokens": "رموز",
         "sort": "الترتيب",
@@ -1945,6 +2030,7 @@
       },
       "loading": "جار التحميل...",
       "modal_types": {
+        "bridge": "جسر",
         "confirm": "تأكيد",
         "deposit": "إيداع",
         "receive": "استلم",
@@ -1980,7 +2066,7 @@
         "bridge": "جسر",
         "verified": "تم التحقق منه",
         "unverified": "غير متحقق منه",
-        "on_other_networks": "على شبكات أخرى"
+        "on_other_networks": "On Other Networks"
       }
     },
     "transactions": {
@@ -2849,6 +2935,8 @@
         "forward": "إلى الأمام",
         "back": "رجوع"
       }
-    }
+    },
+    "copy": "نسخ",
+    "paste": "لصق"
   }
 }
