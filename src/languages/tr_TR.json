@@ -24,6 +24,7 @@
       "tab_showcase": "Vitrin",
       "tab_points": "Noktalar",
       "tab_positions": "Pozisyonlar",
+      "tab_rewards": "Ödüller",
       "tab_transactions": "İşlemler",
       "tab_transactions_tooltip": "İşlemler ve Token Transferleri",
       "tab_uniquetokens": "Eşsiz Tokenler",
@@ -431,6 +432,23 @@
         "description": "Ayrıca yukarıdaki\nadresinizi kopyalamak için uzun basabilirsiniz."
       }
     },
+    "check_identifier": {
+      "title": "Authentication Needed",
+      "description": "It looks like you may have switched devices or reinstalled Rainbow. Please authenticate so that we can validate your keychain data is still in a healthy state.",
+      "action": "Authenticate",
+      "dismiss": "İptal Et",
+      "error_alert": {
+        "title": "Error Validating Keychain",
+        "message": "We encountered an error while validating your keychain data. Please try again. If the issue persists, please contact support.",
+        "contact_support": "Contact Support",
+        "cancel": "İptal"
+      },
+      "failure_alert": {
+        "title": "Invalid Keychain Data",
+        "message": "We were unable to verify the integrity of your keychain data. Please restore your wallet and try again. If the issue persists, please contact support.",
+        "action": "Devam Et"
+      }
+    },
     "cloud": {
       "backup_success": "Cüzdanınız başarıyla yedeklendi!"
     },
@@ -541,7 +559,8 @@
         "from_divider": "gönderen",
         "to_divider": "kime",
         "view_on": "%{blockExplorerName}'da Görüntüle",
-        "view_on_etherscan": "Etherscan'da Görüntüle"
+        "view_on_etherscan": "Etherscan'da Görüntüle",
+        "copy_contract_address": "Kontrat Adresini Kopyala"
       },
       "all_networks": "Tüm Ağlar",
       "filter_by_network": "Ağa Göre Filtrele",
@@ -577,7 +596,8 @@
       "price_impact": {
         "long_wait": {
           "title": "Uzun bekleme",
-          "description": "Yaklaşık %{time}"
+          "description": "Yaklaşık %{time}",
+          "description_prefix": "Approx."
         },
         "unknown_price": {
           "title": "Piyasa Değeri Bilinmiyor",
@@ -587,6 +607,7 @@
         "small_market": "Küçük Pazar",
         "small_market_try_smaller_amount": "Küçük piyasa — daha küçük bir miktar deneyin",
         "you_are_losing": "%{priceImpact} kaybediyorsun",
+        "you_are_losing_prefix": "You're losing",
         "no_data": "Piyasa Değeri Bilinmiyor",
         "label": "Olası kayıp",
         "no_data_subtitle": "Devam etmeye karar verirseniz, belirtilen miktardan memnun olduğunuzdan emin olun"
@@ -687,6 +708,7 @@
         "flashbots_protect": "Flashbots Koruma",
         "losing": "Kaybediyorum",
         "on": "Açık",
+        "off": "Kapalı",
         "price_impact": "Fiyat etkisi",
         "price_row_per_token": "her",
         "slippage_message": "Bu küçük bir piyasa, bu yüzden kötü bir fiyat alıyorsunuz. Daha küçük bir işlem deneyin!",
@@ -723,6 +745,11 @@
         "number_of_steps": "%{number} Adımlar",
         "input_exchange_rate": "1 %{inputSymbol} için %{executionRate} %{outputSymbol}",
         "output_exchange_rate": "1 %{outputSymbol} için %{executionRate} %{inputSymbol}"
+      },
+      "swap_details_v2": {
+        "rainbow_fee": "Included Rainbow Fee",
+        "maximum_sold": "Maximum Sold",
+        "minimum_received": "Minimum Received"
       },
       "token_index": {
         "get_token": "Al %{assetSymbol}",
@@ -1030,14 +1057,17 @@
         "urgent": "Acil",
         "custom": "Özel"
       },
-      "network_fee": "Tahmini ağ ücreti",
+      "unable_to_determine_selected_gas": "Unable to determine selected gas",
+      "network_fee": "Est. Network Fee",
       "current_base_fee": "Geçerli temel ücret",
       "max_base_fee": "Mak. taban ücreti",
       "miner_tip": "Madenci bahşişi",
+      "gas_price": "Gas price",
       "max_transaction_fee": "Maksimum işlem ücreti",
       "warning_separator": "·",
       "lower_than_suggested": "Düşük · takılabilir",
       "higher_than_suggested": "Yüksek · fazla ödeme",
+      "likely_to_fail": "Düşük · başarısız olması muhtemel",
       "max_base_fee_too_low_error": "Düşük · başarısız olması muhtemel",
       "tip_too_low_error": "Düşük · başarısız olması muhtemel",
       "alert_message_higher_miner_tip_needed": "Sorunları önlemek için daha yüksek bir madenci bahşişi ayarlamak önerilir.",
@@ -1357,13 +1387,16 @@
       },
       "claim": {
         "title": "Puanlarınızı Talep Edin",
+        "title_rewards_line_1": "Welcome to",
+        "title_rewards_line_2": "Rainbow Rewards",
         "subtitle": "Puanların burada. Ne kadar puan kazandığınızı öğrenin.",
+        "subtitle_rewards": "Get rewarded for using Rainbow. Do stuff onchain, get points, earn ETH.",
         "get_started": "Başlayın",
         "use_referral_code": "Yönlendirme Kodu Kullan"
       },
       "referral": {
         "title": "Referans kodunuzu girin",
-        "subtitle": "Bonus ödülünüzü talep etmek için aşağıya bir yönlendirme kodu giriniz.",
+        "subtitle": "Enter a referral code below to claim your points bonus.",
         "back": "Geri",
         "error": "Bir şeyler ters gitti. Lütfen uygulamayı yeniden başlatın ve tekrar deneyin.",
         "get_started": "Başlayın",
@@ -1378,6 +1411,7 @@
         "share_link": "Linki Paylaş",
         "next_drop": "Sonraki Dağıtım",
         "your_rank": "Sıralamanız",
+        "no_change": "No Change",
         "of_x": "%{totalUsers}adet",
         "referrals": "Referanslar",
         "streak": "Serilik",
@@ -1395,12 +1429,40 @@
         "today": "Bugün",
         "error": "Hata!\nYenilemek için aşağı çekin.",
         "points": "puanlar",
+        "points_capitalized": "Noktalar",
         "referral_code_copied": "Referans kodu kopyalandı",
         "earn_points_for_referring": "Rainbow üzerinden takas yapan tavsiyeleriniz için puan kazanın, ayrıca tavsiyelerinizin kazandığı puanların %10'unu kazanın",
         "already_claimed_points": "Üzgünüz! Puanlarınızı zaten talep ettiniz.",
         "now": "Şimdi",
         "unranked": "Sıralamasız",
-        "points_to_rank": "Rütbeye ulaşmak için 750 puan"
+        "points_to_rank": "Rütbeye ulaşmak için 750 puan",
+        "ranking": "Placed #%{rank}",
+        "available_to_claim": "Available to Claim",
+        "claim": "Claim %{value}",
+        "choose_claim_network": "Choose Claim Network",
+        "claim_on_network": "Claim on %{network}",
+        "claimed_on_network": "Claimed on %{network}",
+        "claiming_on_network": "Claiming on %{network}",
+        "error_claiming": "Talep Başarısız",
+        "free_to_claim": "Free to Claim",
+        "has_bridge_fee": "Has Bridge Fee",
+        "claim_rewards": "Claim Rewards",
+        "earned_last_week": "Earned Last Week",
+        "top_10_earner": "Top 10 Earner",
+        "zero_points": "0 Points",
+        "no_weekly_rank": "No Weekly Rank",
+        "none": "Hiçbiri",
+        "my_earnings": "My Earnings",
+        "claimed_earnings": "Claimed Earnings",
+        "current_value": "Güncel Değer",
+        "rainbow_users_have_earned": "Rainbow users have earned",
+        "earn_eth_rewards": "Earn ETH Rewards",
+        "rewards_explainer": "Every week, the top weekly points earners will receive a portion of Rainbow’s onchain revenue. Collect points by swapping or transacting in Rainbow, using dapps, or referring friends.",
+        "my_points": "My Points",
+        "refer_friends": "Refer Friends",
+        "try_again": "Try Again",
+        "bridge_error": "Partial Success",
+        "bridge_error_explainer": "Your rewards were successfully claimed on Optimism, but the transfer to %{network} failed. If you'd like, you can bridge your rewards manually using the Swap feature."
       },
       "console": {
         "claim_bonus_paragraph": "Rainbow üzerinden en az 100 dolarlık takas yapmanız durumunda ekstra 100 puan alacaksınız",
@@ -1916,9 +1978,32 @@
       "too_many_signup_request": "Çok fazla kayıt talebi oldu, lütfen daha sonra tekrar deneyin"
     },
     "swap": {
+      "actions": {
+        "tap_to_swap": "Tap to Swap",
+        "save": "Kaydet",
+        "enter_amount": "Enter Amount",
+        "review": "İncele",
+        "fetching_prices": "Fetching",
+        "swapping": "Takas Yapılıyor",
+        "select_token": "Select Token",
+        "insufficient_funds": "Yetersiz Bakiye",
+        "insufficient": "Insufficient",
+        "quote_error": "Quote Error"
+      },
       "aggregators": {
         "rainbow": "Rainbow"
       },
+      "bridging": "Köprüleme",
+      "swapping": "Takas Yapılıyor",
+      "max": "Maks",
+      "select": "Select",
+      "token_to_get": "Token to Get",
+      "token_to_swap": "Token to Swap",
+      "no_balance": "Bakiye Yok",
+      "find_a_token_to_buy": "Find a token to buy",
+      "search_your_tokens": "Search your tokens",
+      "error_executing_swap": "Error executing swap",
+      "flashbots_protection": "Flashbots Protection",
       "tokens_input": {
         "tokens": "Tokenler",
         "sort": "Sırala",
@@ -1945,6 +2030,7 @@
       },
       "loading": "Yükleniyor...",
       "modal_types": {
+        "bridge": "Köprü",
         "confirm": "Onayla",
         "deposit": "Mevduat",
         "receive": "Al",
@@ -1980,7 +2066,7 @@
         "bridge": "Köprü",
         "verified": "Doğrulanmış",
         "unverified": "Doğrulanmamış",
-        "on_other_networks": "Diğer ağlarda"
+        "on_other_networks": "On Other Networks"
       }
     },
     "transactions": {
@@ -2849,6 +2935,8 @@
         "forward": "İleri",
         "back": "Geri"
       }
-    }
+    },
+    "copy": "Kopyala",
+    "paste": "Yapıştır"
   }
 }
