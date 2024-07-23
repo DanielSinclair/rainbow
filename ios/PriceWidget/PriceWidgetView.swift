@@ -1,10 +1,3 @@
-//
-//  PriceWidgetView.swift
-//  Rainbow
-//
-//  Created by Ben Goldberg on 10/27/21.
-//
-
 import Foundation
 import SwiftUI
 import UIKit
@@ -94,7 +87,7 @@ struct PriceWidgetView: View {
       ZStack {
           Rectangle()
             .fill(bgColor)
-            .offset(x: 0, y: 0)
+            .edgesIgnoringSafeArea(.all)
         
           Rectangle()
             .fill(
@@ -209,7 +202,7 @@ struct PriceWidgetView: View {
                   .foregroundColor(fgColor)
               }
             }
-          }.padding(16)
+          }.padding(0)
         } else {
           VStack(alignment: .leading) {
             Text("Couldn't retrieve token data \u{1F9D0}")
