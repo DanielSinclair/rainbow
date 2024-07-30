@@ -433,19 +433,19 @@
       }
     },
     "check_identifier": {
-      "title": "Authentication Needed",
-      "description": "It looks like you may have switched devices or reinstalled Rainbow. Please authenticate so that we can validate your keychain data is still in a healthy state.",
-      "action": "Authenticate",
+      "title": "Требуется аутентификация",
+      "description": "Похоже, вы сменили устройство или переустановили Rainbow. Пожалуйста, аутентифицируйтесь, чтобы мы могли убедиться, что ваши данные в связке ключей находятся в хорошем состоянии.",
+      "action": "Аутентифицироваться",
       "dismiss": "Отклонить",
       "error_alert": {
-        "title": "Error Validating Keychain",
-        "message": "We encountered an error while validating your keychain data. Please try again. If the issue persists, please contact support.",
-        "contact_support": "Contact Support",
+        "title": "Ошибка при проверке связки ключей",
+        "message": "Во время проверки данных вашей связки ключей произошла ошибка. Пожалуйста, попробуйте снова. Если ошибка повторяется, обратитесь в службу поддержки.",
+        "contact_support": "Обратитесь в службу поддержки",
         "cancel": "Отменить"
       },
       "failure_alert": {
-        "title": "Invalid Keychain Data",
-        "message": "We were unable to verify the integrity of your keychain data. Please restore your wallet and try again. If the issue persists, please contact support.",
+        "title": "Неверные данные связки ключей",
+        "message": "Мы не смогли проверить целостность данных вашей связки ключей. Пожалуйста, восстановите свой кошелек и попробуйте снова. Если ошибка повторяется, обратитесь в службу поддержки.",
         "action": "Продолжить"
       }
     },
@@ -597,7 +597,7 @@
         "long_wait": {
           "title": "Длительное ожидание",
           "description": "Примерно %{time}",
-          "description_prefix": "Approx."
+          "description_prefix": "Примерно"
         },
         "unknown_price": {
           "title": "Рыночная стоимость неизвестна",
@@ -607,7 +607,7 @@
         "small_market": "Маленький рынок",
         "small_market_try_smaller_amount": "Небольшой рынок — попробуйте меньшую сумму",
         "you_are_losing": "Вы теряете %{priceImpact}",
-        "you_are_losing_prefix": "You're losing",
+        "you_are_losing_prefix": "Вы теряете",
         "no_data": "Рыночная стоимость неизвестна",
         "label": "Возможная потеря",
         "no_data_subtitle": "Если вы решите продолжить, убедитесь, что вас устраивает указанное количество"
@@ -748,12 +748,12 @@
       },
       "swap_details_v2": {
         "automatic": "Авто",
-        "degen_mode": "Degen Mode",
-        "degen_mode_description": "Skip the review sheet to swap faster",
-        "maximum_sold": "Maximum Sold",
-        "minimum_received": "Minimum Received",
-        "preferred_network": "Preferred Network",
-        "rainbow_fee": "Included Rainbow Fee",
+        "degen_mode": "Режим Degen",
+        "degen_mode_description": "Пропустите лист проверки для ускорения обмена",
+        "maximum_sold": "Максимум продано",
+        "minimum_received": "Минимальная получаемая",
+        "preferred_network": "Предпочитаемая сеть",
+        "rainbow_fee": "Включена комиссия Rainbow",
         "settings": "Настройки"
       },
       "token_index": {
@@ -1062,12 +1062,12 @@
         "urgent": "Срочный",
         "custom": "Пользовательский"
       },
-      "unable_to_determine_selected_gas": "Unable to determine selected gas",
-      "network_fee": "Est. Network Fee",
+      "unable_to_determine_selected_gas": "Не удалось определить выбранный газ",
+      "network_fee": "Оценочная сетевая комиссия",
       "current_base_fee": "Текущая базовая комиссия",
       "max_base_fee": "Максимальная базовая комиссия",
       "miner_tip": "Чаевые для майнера",
-      "gas_price": "Gas price",
+      "gas_price": "Цена газа",
       "max_transaction_fee": "Максимальная комиссия за транзакцию",
       "warning_separator": "·",
       "lower_than_suggested": "Низкая · может застрять",
@@ -1392,16 +1392,16 @@
       },
       "claim": {
         "title": "Заберите свои баллы",
-        "title_rewards_line_1": "Welcome to",
+        "title_rewards_line_1": "Добро пожаловать",
         "title_rewards_line_2": "Rainbow Rewards",
         "subtitle": "Баллы у вас. Узнайте, сколько вам начислено.",
-        "subtitle_rewards": "Get rewarded for using Rainbow. Do stuff onchain, get points, earn ETH.",
+        "subtitle_rewards": "Получите награды за использование Rainbow. Выполняйте действия onchain, получайте баллы, зарабатывайте ETH.",
         "get_started": "Начать",
         "use_referral_code": "Используйте реферальный код"
       },
       "referral": {
         "title": "Введите ваш реферальный код",
-        "subtitle": "Enter a referral code below to claim your points bonus.",
+        "subtitle": "Введите реферальный код ниже, чтобы получить бонусные баллы.",
         "back": "Назад",
         "error": "Что-то пошло не так. Пожалуйста, перезапустите приложение и попробуйте снова.",
         "get_started": "Начать",
@@ -1416,7 +1416,7 @@
         "share_link": "Поделиться ссылкой",
         "next_drop": "Следующее начисление",
         "your_rank": "Ваш ранг",
-        "no_change": "No Change",
+        "no_change": "Без изменений",
         "of_x": "Из %{totalUsers}",
         "referrals": "Рефералы",
         "streak": "Серия",
@@ -1441,33 +1441,33 @@
         "now": "Сейчас",
         "unranked": "Без ранга",
         "points_to_rank": "750 баллов до ранга",
-        "ranking": "Placed #%{rank}",
-        "available_to_claim": "Available to Claim",
-        "claim": "Claim %{value}",
-        "choose_claim_network": "Choose Claim Network",
-        "claim_on_network": "Claim on %{network}",
-        "claimed_on_network": "Claimed on %{network}",
-        "claiming_on_network": "Claiming on %{network}",
+        "ranking": "Место #%{rank}",
+        "available_to_claim": "Доступно для получения",
+        "claim": "Получить %{value}",
+        "choose_claim_network": "Выбрать сеть для получения",
+        "claim_on_network": "Получить в сети %{network}",
+        "claimed_on_network": "Получено в сети %{network}",
+        "claiming_on_network": "Получение в сети %{network}",
         "error_claiming": "Получение не удалось",
-        "free_to_claim": "Free to Claim",
-        "has_bridge_fee": "Has Bridge Fee",
-        "claim_rewards": "Claim Rewards",
-        "earned_last_week": "Earned Last Week",
-        "top_10_earner": "Top 10 Earner",
-        "zero_points": "0 Points",
-        "no_weekly_rank": "No Weekly Rank",
+        "free_to_claim": "Бесплатно для получения",
+        "has_bridge_fee": "Имеется комиссия за мост",
+        "claim_rewards": "Получение наград",
+        "earned_last_week": "Заработано на прошлой неделе",
+        "top_10_earner": "Топ 10 заработавших",
+        "zero_points": "0 баллов",
+        "no_weekly_rank": "Нет недельного рейтинга",
         "none": "Нет",
-        "my_earnings": "My Earnings",
-        "claimed_earnings": "Claimed Earnings",
+        "my_earnings": "Мои заработки",
+        "claimed_earnings": "Полученные заработки",
         "current_value": "Текущая стоимость",
-        "rainbow_users_have_earned": "Rainbow users have earned",
-        "earn_eth_rewards": "Earn ETH Rewards",
-        "rewards_explainer": "Every week, the top weekly points earners will receive a portion of Rainbow’s onchain revenue. Collect points by swapping or transacting in Rainbow, using dapps, or referring friends.",
-        "my_points": "My Points",
-        "refer_friends": "Refer Friends",
-        "try_again": "Try Again",
-        "bridge_error": "Partial Success",
-        "bridge_error_explainer": "Your rewards were successfully claimed on Optimism, but the transfer to %{network} failed. If you'd like, you can bridge your rewards manually using the Swap feature."
+        "rainbow_users_have_earned": "Пользователи Rainbow заработали",
+        "earn_eth_rewards": "Зарабатывайте ETH награды",
+        "rewards_explainer": "Каждую неделю лучшие зарабатыватели баллов получат часть дохода Rainbow в сети. Собирайте баллы, обменяя или проводя транзакции в Rainbow, используя dapps или приглашая друзей.",
+        "my_points": "Мои баллы",
+        "refer_friends": "Пригласить друзей",
+        "try_again": "Попробуйте снова",
+        "bridge_error": "Частичный успех",
+        "bridge_error_explainer": "Ваши награды были успешно получены на Optimism, но перевод на %{network} не удался. Если хотите, вы можете вручную перевести ваши награды, используя функцию обмена."
       },
       "console": {
         "claim_bonus_paragraph": "Вы получите дополнительные 100 баллов, когда обменяете хотя бы $100 через Rainbow",
@@ -1986,14 +1986,14 @@
       "actions": {
         "hold_to_swap": "Удерживайте для обмена",
         "save": "Сохранить",
-        "enter_amount": "Enter Amount",
+        "enter_amount": "Введите сумму",
         "review": "Просмотр",
-        "fetching_prices": "Fetching",
+        "fetching_prices": "Получение данных",
         "swapping": "Смена",
-        "select_token": "Select Token",
+        "select_token": "Выберите токен",
         "insufficient_funds": "Недостаточно средств",
-        "insufficient": "Insufficient",
-        "quote_error": "Quote Error"
+        "insufficient": "Недостаточно",
+        "quote_error": "Ошибка котировки"
       },
       "aggregators": {
         "rainbow": "Rainbow"
@@ -2001,14 +2001,14 @@
       "bridging": "Перевод",
       "swapping": "Смена",
       "max": "Макс.",
-      "select": "Select",
-      "token_to_get": "Token to Get",
-      "token_to_swap": "Token to Swap",
+      "select": "Выбрать",
+      "token_to_get": "Токен для получения",
+      "token_to_swap": "Токен для обмена",
       "no_balance": "Нет Баланса",
-      "find_a_token_to_buy": "Find a token to buy",
-      "search_your_tokens": "Search your tokens",
-      "error_executing_swap": "Error executing swap",
-      "flashbots_protection": "Flashbots Protection",
+      "find_a_token_to_buy": "Найдите токен для покупки",
+      "search_your_tokens": "Поиск ваших токенов",
+      "error_executing_swap": "Ошибка при выполнении обмена",
+      "flashbots_protection": "Защита Flashbots",
       "tokens_input": {
         "tokens": "Токены",
         "sort": "Сортировать",
@@ -2071,7 +2071,7 @@
         "bridge": "Мост",
         "verified": "Проверенные",
         "unverified": "Непроверенные",
-        "on_other_networks": "On Other Networks"
+        "on_other_networks": "На других сетях"
       }
     },
     "transactions": {
