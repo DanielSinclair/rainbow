@@ -433,19 +433,19 @@
       }
     },
     "check_identifier": {
-      "title": "Authentication Needed",
-      "description": "It looks like you may have switched devices or reinstalled Rainbow. Please authenticate so that we can validate your keychain data is still in a healthy state.",
-      "action": "Authenticate",
+      "title": "Otentikasi Diperlukan",
+      "description": "Sepertinya Anda mungkin telah mengganti perangkat atau menginstal ulang Rainbow. Harap otentikasi sehingga kami dapat memvalidasi data keychain Anda masih dalam kondisi sehat.",
+      "action": "Otentikasi",
       "dismiss": "Tutup",
       "error_alert": {
-        "title": "Error Validating Keychain",
-        "message": "We encountered an error while validating your keychain data. Please try again. If the issue persists, please contact support.",
-        "contact_support": "Contact Support",
+        "title": "Kesalahan Memvalidasi Keychain",
+        "message": "Kami mengalami kesalahan saat memvalidasi data keychain Anda. Harap coba lagi. Jika masalah berlanjut, harap hubungi dukungan.",
+        "contact_support": "Hubungi Dukungan",
         "cancel": "Batal"
       },
       "failure_alert": {
-        "title": "Invalid Keychain Data",
-        "message": "We were unable to verify the integrity of your keychain data. Please restore your wallet and try again. If the issue persists, please contact support.",
+        "title": "Data Keychain Tidak Valid",
+        "message": "Kami tidak dapat memverifikasi integritas data keychain Anda. Harap pulihkan dompet Anda dan coba lagi. Jika masalah berlanjut, harap hubungi dukungan.",
         "action": "Lanjutkan"
       }
     },
@@ -597,7 +597,7 @@
         "long_wait": {
           "title": "Menunggu lama",
           "description": "Perkiraan %{time}",
-          "description_prefix": "Approx."
+          "description_prefix": "Kira-kira."
         },
         "unknown_price": {
           "title": "Nilai Pasar Tidak Diketahui",
@@ -607,7 +607,7 @@
         "small_market": "Pasar Kecil",
         "small_market_try_smaller_amount": "Pasar kecil — coba jumlah yang lebih kecil",
         "you_are_losing": "Anda kehilangan %{priceImpact}",
-        "you_are_losing_prefix": "You're losing",
+        "you_are_losing_prefix": "Anda kehilangan",
         "no_data": "Nilai Pasar Tidak Diketahui",
         "label": "Kemungkinan kerugian",
         "no_data_subtitle": "Jika Anda memutuskan untuk melanjutkan, pastikan Anda puas dengan jumlah yang dikutip"
@@ -748,12 +748,12 @@
       },
       "swap_details_v2": {
         "automatic": "Otomatis",
-        "degen_mode": "Degen Mode",
-        "degen_mode_description": "Skip the review sheet to swap faster",
-        "maximum_sold": "Maximum Sold",
-        "minimum_received": "Minimum Received",
-        "preferred_network": "Preferred Network",
-        "rainbow_fee": "Included Rainbow Fee",
+        "degen_mode": "Mode Degen",
+        "degen_mode_description": "Lewati lembar tinjauan untuk swap lebih cepat",
+        "maximum_sold": "Maksimum Dijual",
+        "minimum_received": "Minimum yang diterima",
+        "preferred_network": "Jaringan yang Disukai",
+        "rainbow_fee": "Termasuk biaya Rainbow",
         "settings": "Pengaturan"
       },
       "token_index": {
@@ -1062,12 +1062,12 @@
         "urgent": "Mendesak",
         "custom": "Kustom"
       },
-      "unable_to_determine_selected_gas": "Unable to determine selected gas",
-      "network_fee": "Est. Network Fee",
+      "unable_to_determine_selected_gas": "Tidak dapat menentukan gas yang dipilih",
+      "network_fee": "Perk. Biaya Jaringan",
       "current_base_fee": "Biaya dasar saat ini",
       "max_base_fee": "Biaya dasar maksimum",
       "miner_tip": "Tip penambang",
-      "gas_price": "Gas price",
+      "gas_price": "Harga Gas",
       "max_transaction_fee": "Biaya transaksi maksimum",
       "warning_separator": "·",
       "lower_than_suggested": "Rendah · mungkin terjebak",
@@ -1392,16 +1392,16 @@
       },
       "claim": {
         "title": "Klaim poin Anda",
-        "title_rewards_line_1": "Welcome to",
+        "title_rewards_line_1": "Selamat datang di",
         "title_rewards_line_2": "Rainbow Rewards",
         "subtitle": "Poin telah ada. Cari tahu berapa banyak yang telah Anda dapatkan.",
-        "subtitle_rewards": "Get rewarded for using Rainbow. Do stuff onchain, get points, earn ETH.",
+        "subtitle_rewards": "Dapatkan hadiah karena menggunakan Rainbow. Lakukan aktivitas onchain, dapatkan poin, dan dapatkan ETH.",
         "get_started": "Mulai",
         "use_referral_code": "Gunakan Kode Referral"
       },
       "referral": {
         "title": "Masukkan kode rujukan Anda",
-        "subtitle": "Enter a referral code below to claim your points bonus.",
+        "subtitle": "Masukkan kode referensi di bawah untuk mengklaim bonus poin Anda.",
         "back": "Kembali",
         "error": "Terjadi kesalahan. Silakan memulai ulang aplikasi dan coba lagi.",
         "get_started": "Mulai",
@@ -1416,7 +1416,7 @@
         "share_link": "Bagikan Tautan",
         "next_drop": "Pengeluaran Berikutnya",
         "your_rank": "Peringkat Anda",
-        "no_change": "No Change",
+        "no_change": "Tidak Ada Perubahan",
         "of_x": "Dari %{totalUsers}",
         "referrals": "Referal",
         "streak": "Streak",
@@ -1441,33 +1441,33 @@
         "now": "Sekarang",
         "unranked": "Tidak Terperingkat",
         "points_to_rank": "750 poin untuk naik peringkat",
-        "ranking": "Placed #%{rank}",
-        "available_to_claim": "Available to Claim",
-        "claim": "Claim %{value}",
-        "choose_claim_network": "Choose Claim Network",
-        "claim_on_network": "Claim on %{network}",
-        "claimed_on_network": "Claimed on %{network}",
-        "claiming_on_network": "Claiming on %{network}",
+        "ranking": "Ditempatkan #%{rank}",
+        "available_to_claim": "Tersedia untuk Diklaim",
+        "claim": "Klaim %{value}",
+        "choose_claim_network": "Pilih Jaringan Klaim",
+        "claim_on_network": "Klaim di %{network}",
+        "claimed_on_network": "Sudah Diklaim di %{network}",
+        "claiming_on_network": "Mengklaim di %{network}",
         "error_claiming": "Klaim Gagal",
-        "free_to_claim": "Free to Claim",
-        "has_bridge_fee": "Has Bridge Fee",
-        "claim_rewards": "Claim Rewards",
-        "earned_last_week": "Earned Last Week",
-        "top_10_earner": "Top 10 Earner",
-        "zero_points": "0 Points",
-        "no_weekly_rank": "No Weekly Rank",
+        "free_to_claim": "Gratis untuk Diklaim",
+        "has_bridge_fee": "Ada Biaya Jembatan",
+        "claim_rewards": "Klaim Hadiah",
+        "earned_last_week": "Diperoleh Minggu Lalu",
+        "top_10_earner": "Top 10 Pendapatan",
+        "zero_points": "0 Poin",
+        "no_weekly_rank": "Tidak Ada Peringkat Mingguan",
         "none": "Tidak ada",
-        "my_earnings": "My Earnings",
-        "claimed_earnings": "Claimed Earnings",
+        "my_earnings": "Pendapatan Saya",
+        "claimed_earnings": "Pendapatan yang Diklaim",
         "current_value": "Nilai Saat Ini",
-        "rainbow_users_have_earned": "Rainbow users have earned",
-        "earn_eth_rewards": "Earn ETH Rewards",
-        "rewards_explainer": "Every week, the top weekly points earners will receive a portion of Rainbow’s onchain revenue. Collect points by swapping or transacting in Rainbow, using dapps, or referring friends.",
-        "my_points": "My Points",
-        "refer_friends": "Refer Friends",
-        "try_again": "Try Again",
-        "bridge_error": "Partial Success",
-        "bridge_error_explainer": "Your rewards were successfully claimed on Optimism, but the transfer to %{network} failed. If you'd like, you can bridge your rewards manually using the Swap feature."
+        "rainbow_users_have_earned": "Pengguna Rainbow telah mendapatkan",
+        "earn_eth_rewards": "Dapatkan Hadiah ETH",
+        "rewards_explainer": "Setiap minggu, penghasil poin mingguan tertinggi akan menerima sebagian dari pendapatan onchain Rainbow. Kumpulkan poin dengan menukar atau bertransaksi di Rainbow, menggunakan dapps, atau merujuk teman.",
+        "my_points": "Poin Saya",
+        "refer_friends": "Rujukkan Teman",
+        "try_again": "Coba Lagi",
+        "bridge_error": "Keberhasilan Sebagian",
+        "bridge_error_explainer": "Hadiah Anda berhasil diklaim di Optimism, tetapi transfer ke %{network} gagal. Jika Anda mau, Anda bisa menjembatani hadiah Anda secara manual menggunakan fitur Swap."
       },
       "console": {
         "claim_bonus_paragraph": "Anda akan mendapatkan tambahan 100 poin setelah Anda menukar minimal $100 melalui Rainbow",
@@ -1986,14 +1986,14 @@
       "actions": {
         "hold_to_swap": "Tahan untuk Tukar",
         "save": "Simpan",
-        "enter_amount": "Enter Amount",
+        "enter_amount": "Masukkan Jumlah",
         "review": "Tinjau",
-        "fetching_prices": "Fetching",
+        "fetching_prices": "Mengambil Data",
         "swapping": "Menukar",
-        "select_token": "Select Token",
+        "select_token": "Pilih Token",
         "insufficient_funds": "Dana Tidak Cukup",
-        "insufficient": "Insufficient",
-        "quote_error": "Quote Error"
+        "insufficient": "Kurangnya",
+        "quote_error": "Kesalahan Kutipan"
       },
       "aggregators": {
         "rainbow": "Rainbow"
@@ -2001,14 +2001,14 @@
       "bridging": "Membuat Jembatan",
       "swapping": "Menukar",
       "max": "Maks",
-      "select": "Select",
-      "token_to_get": "Token to Get",
-      "token_to_swap": "Token to Swap",
+      "select": "Pilih",
+      "token_to_get": "Token untuk Dapatkan",
+      "token_to_swap": "Token untuk Tukar",
       "no_balance": "Tidak Ada Saldo",
-      "find_a_token_to_buy": "Find a token to buy",
-      "search_your_tokens": "Search your tokens",
-      "error_executing_swap": "Error executing swap",
-      "flashbots_protection": "Flashbots Protection",
+      "find_a_token_to_buy": "Cari token untuk beli",
+      "search_your_tokens": "Cari token Anda",
+      "error_executing_swap": "Kesalahan saat melakukan swap",
+      "flashbots_protection": "Perlindungan Flashbots",
       "tokens_input": {
         "tokens": "Token",
         "sort": "Urutkan",
@@ -2071,7 +2071,7 @@
         "bridge": "Jembatan",
         "verified": "Terverifikasi",
         "unverified": "Tidak Terverifikasi",
-        "on_other_networks": "On Other Networks"
+        "on_other_networks": "Di jaringan lain"
       }
     },
     "transactions": {
