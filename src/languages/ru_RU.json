@@ -2067,6 +2067,7 @@
     },
     "token_search": {
       "section_header": {
+        "recent": "Последние",
         "favorites": "Избранное",
         "bridge": "Мост",
         "verified": "Проверенные",
