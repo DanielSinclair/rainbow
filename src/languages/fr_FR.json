@@ -2067,6 +2067,7 @@
     },
     "token_search": {
       "section_header": {
+        "recent": "Récent",
         "favorites": "Favoris",
         "bridge": "Pont",
         "verified": "Vérifié",
