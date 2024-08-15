@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "อัตโนมัติ",
         "degen_mode": "โหมดดีเจ็น",
-        "degen_mode_description": "ข้ามหน้าตรวจสอบเพื่อแลกเปลี่ยนเร็วขึ้น",
+        "degen_mode_description": "Skip the review step to swap faster",
         "maximum_sold": "ขายสูงสุด",
         "minimum_received": "รับต่ำสุด",
         "preferred_network": "เครือข่ายที่คุณต้องการ",
@@ -2068,6 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "ล่าสุด",
+        "popular": "Popular in Rainbow",
         "favorites": "รายการโปรด",
         "bridge": "สะพาน",
         "verified": "ได้รับการตรวจสอบ",
@@ -2496,7 +2497,7 @@
       "balance_title": "ยอดคงเหลือ",
       "buy": "ซื้อ",
       "change_wallet": {
-        "no_balance": "ไม่มีคงเหลือ",
+        "loading_balance": "Loading Balance...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "กำลังรับชม",
         "ledger": "เลเจอร์"
