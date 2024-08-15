@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "Oto",
         "degen_mode": "Degen Modu",
-        "degen_mode_description": "Hızlı Takas İçin İnceleme Sayfasını Atlayın",
+        "degen_mode_description": "Skip the review step to swap faster",
         "maximum_sold": "Azami Satılan",
         "minimum_received": "Asgari Alınan",
         "preferred_network": "Tercih Edilen Ağ",
@@ -2068,6 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "Son",
+        "popular": "Popular in Rainbow",
         "favorites": "Favoriler",
         "bridge": "Köprü",
         "verified": "Doğrulanmış",
@@ -2496,7 +2497,7 @@
       "balance_title": "Bakiye",
       "buy": "Satın Al",
       "change_wallet": {
-        "no_balance": "Bakiye Yok",
+        "loading_balance": "Loading Balance...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "İzliyor",
         "ledger": "Ledger"
