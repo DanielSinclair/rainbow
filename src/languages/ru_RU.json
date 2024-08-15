@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "Авто",
         "degen_mode": "Режим Degen",
-        "degen_mode_description": "Пропустите лист проверки для ускорения обмена",
+        "degen_mode_description": "Skip the review step to swap faster",
         "maximum_sold": "Максимум продано",
         "minimum_received": "Минимальная получаемая",
         "preferred_network": "Предпочитаемая сеть",
@@ -2068,6 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "Последние",
+        "popular": "Popular in Rainbow",
         "favorites": "Избранное",
         "bridge": "Мост",
         "verified": "Проверенные",
@@ -2496,7 +2497,7 @@
       "balance_title": "Баланс",
       "buy": "Купить",
       "change_wallet": {
-        "no_balance": "Нет Баланса",
+        "loading_balance": "Loading Balance...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Наблюдение",
         "ledger": "Ledger"
