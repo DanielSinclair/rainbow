@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "ऑटो",
         "degen_mode": "डिजन मोड",
-        "degen_mode_description": "तेज स्वैप करने के लिए समीक्षा शीट को छोड़ें",
+        "degen_mode_description": "Skip the review step to swap faster",
         "maximum_sold": "अधिकतम बेचा गया",
         "minimum_received": "न्यूनतम प्राप्त",
         "preferred_network": "पसंदीदा नेटवर्क",
@@ -2068,6 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "हाल का",
+        "popular": "Popular in Rainbow",
         "favorites": "पसंदीदा",
         "bridge": "ब्रिज",
         "verified": "सत्यापित",
@@ -2496,7 +2497,7 @@
       "balance_title": "बैलेंस",
       "buy": "खरीदें",
       "change_wallet": {
-        "no_balance": "कोई बैलेंस नहीं",
+        "loading_balance": "Loading Balance...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "देख रहा है",
         "ledger": "लेजर"
