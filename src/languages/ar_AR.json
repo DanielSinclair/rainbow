@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "أوتو",
         "degen_mode": "وضع ديجين",
-        "degen_mode_description": "Skip the review step to swap faster",
+        "degen_mode_description": "تخطي خطوة المراجعة للتبديل بشكل أسرع",
         "maximum_sold": "الحد الأقصى المباع",
         "minimum_received": "الحد الأدنى المستلم",
         "preferred_network": "الشبكة المفضلة",
@@ -2068,7 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "الأخير",
-        "popular": "Popular in Rainbow",
+        "popular": "شائع في Rainbow",
         "favorites": "المفضلة",
         "bridge": "جسر",
         "verified": "تم التحقق منه",
@@ -2497,7 +2497,7 @@
       "balance_title": "رصيد",
       "buy": "شراء",
       "change_wallet": {
-        "loading_balance": "Loading Balance...",
+        "loading_balance": "جاري تحميل الرصيد...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "مشاهدة",
         "ledger": "ليدجر"
