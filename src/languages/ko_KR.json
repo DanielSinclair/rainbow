@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "자동",
         "degen_mode": "디겐 모드",
-        "degen_mode_description": "Skip the review step to swap faster",
+        "degen_mode_description": "리뷰 단계를 건너뛰어 더 빠르게 교환",
         "maximum_sold": "최대 판매",
         "minimum_received": "최소 수령량",
         "preferred_network": "선호 네트워크",
@@ -2068,7 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "최근",
-        "popular": "Popular in Rainbow",
+        "popular": "레인보우에서 인기",
         "favorites": "즐겨찾기",
         "bridge": "브릿지",
         "verified": "인증됨",
@@ -2497,7 +2497,7 @@
       "balance_title": "균형",
       "buy": "구매",
       "change_wallet": {
-        "loading_balance": "Loading Balance...",
+        "loading_balance": "잔액 로딩 중...",
         "balance_eth": "%{balanceEth} 이더리움",
         "watching": "시청 중",
         "ledger": "렛저"
