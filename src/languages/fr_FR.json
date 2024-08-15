@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "Auto",
         "degen_mode": "Mode Degen",
-        "degen_mode_description": "Skip the review step to swap faster",
+        "degen_mode_description": "Passer l'étape de l'examen pour échanger plus rapidement",
         "maximum_sold": "Vendu au maximum",
         "minimum_received": "Montant minimum reçu",
         "preferred_network": "Réseau Préféré",
@@ -2068,7 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "Récent",
-        "popular": "Popular in Rainbow",
+        "popular": "Populaire sur Rainbow",
         "favorites": "Favoris",
         "bridge": "Pont",
         "verified": "Vérifié",
@@ -2497,7 +2497,7 @@
       "balance_title": "Solde",
       "buy": "Acheter",
       "change_wallet": {
-        "loading_balance": "Loading Balance...",
+        "loading_balance": "Chargement du solde...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Regarder",
         "ledger": "Ledger"
