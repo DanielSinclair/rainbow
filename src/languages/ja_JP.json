@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "自動",
         "degen_mode": "デゲンモード",
-        "degen_mode_description": "Skip the review step to swap faster",
+        "degen_mode_description": "レビューステップをスキップしてより早くスワップ",
         "maximum_sold": "最大売却数量",
         "minimum_received": "受け取る最小額",
         "preferred_network": "優先ネットワーク",
@@ -2068,7 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "最近の",
-        "popular": "Popular in Rainbow",
+        "popular": "Rainbowの人気",
         "favorites": "お気に入り",
         "bridge": "ブリッジ",
         "verified": "確認済み",
@@ -2497,7 +2497,7 @@
       "balance_title": "残高",
       "buy": "購入",
       "change_wallet": {
-        "loading_balance": "Loading Balance...",
+        "loading_balance": "残高を読み込み中...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "ウォッチ中",
         "ledger": "Ledger"
