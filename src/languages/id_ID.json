@@ -749,7 +749,7 @@
       "swap_details_v2": {
         "automatic": "Otomatis",
         "degen_mode": "Mode Degen",
-        "degen_mode_description": "Skip the review step to swap faster",
+        "degen_mode_description": "Lewati langkah ulasan untuk bertukar lebih cepat",
         "maximum_sold": "Maksimum Dijual",
         "minimum_received": "Minimum yang diterima",
         "preferred_network": "Jaringan yang Disukai",
@@ -2068,7 +2068,7 @@
     "token_search": {
       "section_header": {
         "recent": "Baru-baru ini",
-        "popular": "Popular in Rainbow",
+        "popular": "Populer di Rainbow",
         "favorites": "Favorit",
         "bridge": "Jembatan",
         "verified": "Terverifikasi",
@@ -2497,7 +2497,7 @@
       "balance_title": "Saldo",
       "buy": "Beli",
       "change_wallet": {
-        "loading_balance": "Loading Balance...",
+        "loading_balance": "Memuat Saldo...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Menonton",
         "ledger": "Ledger"
