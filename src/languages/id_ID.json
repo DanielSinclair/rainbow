@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "Menjual",
       "sort": {
+        "ABC": "Abjad",
         "abc": "Abjad",
+        "MOST_RECENT": "Baru-baru ini",
         "most_recent": "Terbaru",
+        "FLOOR_PRICE": "Harga Dasar",
         "floor_price": "Harga Dasar"
-      }
+      },
+      "empty": "Koleksi",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
