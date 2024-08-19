@@ -748,7 +748,7 @@
       },
       "swap_details_v2": {
         "automatic": "自動",
-        "degen_mode": "デゲンモード",
+        "degen_mode": "Degenモード",
         "degen_mode_description": "レビューステップをスキップしてより早くスワップ",
         "maximum_sold": "最大売却数量",
         "minimum_received": "受け取る最小額",
@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "販売",
       "sort": {
+        "ABC": "Abc",
         "abc": "Abc",
+        "MOST_RECENT": "最近の",
         "most_recent": "最新順",
+        "FLOOR_PRICE": "フロア価格",
         "floor_price": "フロア価格"
-      }
+      },
+      "empty": "コレクタブル",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
