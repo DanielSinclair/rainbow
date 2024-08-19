@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "Vendendo",
       "sort": {
+        "ABC": "Abc",
         "abc": "Abc",
+        "MOST_RECENT": "Recente",
         "most_recent": "Mais Recente",
+        "FLOOR_PRICE": "Preço do Piso",
         "floor_price": "Preço do Piso"
-      }
+      },
+      "empty": "Colecionáveis",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
