@@ -748,7 +748,7 @@
       },
       "swap_details_v2": {
         "automatic": "자동",
-        "degen_mode": "디겐 모드",
+        "degen_mode": "Degen모드",
         "degen_mode_description": "리뷰 단계를 건너뛰어 더 빠르게 교환",
         "maximum_sold": "최대 판매",
         "minimum_received": "최소 수령량",
@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "판매",
       "sort": {
+        "ABC": "가나다",
         "abc": "가나다",
+        "MOST_RECENT": "최근",
         "most_recent": "최신순",
+        "FLOOR_PRICE": "최저 가격",
         "floor_price": "최저 가격"
-      }
+      },
+      "empty": "수집품",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
