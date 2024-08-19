@@ -748,7 +748,7 @@
       },
       "swap_details_v2": {
         "automatic": "ऑटो",
-        "degen_mode": "डिजन मोड",
+        "degen_mode": "Degen मोड",
         "degen_mode_description": "फ़ास्ट स्वैप के लिए समीक्षा चरण को छोड़ें",
         "maximum_sold": "अधिकतम बेचा गया",
         "minimum_received": "न्यूनतम प्राप्त",
@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "बिक्री",
       "sort": {
+        "ABC": "एबीसी",
         "abc": "एबीसी",
+        "MOST_RECENT": "हाल का",
         "most_recent": "सबसे हालिया",
+        "FLOOR_PRICE": "मंजिल मूल्य",
         "floor_price": "मंजिल मूल्य"
-      }
+      },
+      "empty": "संग्रह",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
