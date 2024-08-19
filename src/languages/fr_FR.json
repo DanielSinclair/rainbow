@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "Vente",
       "sort": {
+        "ABC": "Abc",
         "abc": "Abc",
+        "MOST_RECENT": "Récent",
         "most_recent": "Le plus récent",
+        "FLOOR_PRICE": "Prix Plancher",
         "floor_price": "Prix Plancher"
-      }
+      },
+      "empty": "Objets de collection",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
