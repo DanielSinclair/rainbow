@@ -748,7 +748,7 @@
       },
       "swap_details_v2": {
         "automatic": "أوتو",
-        "degen_mode": "وضع ديجين",
+        "degen_mode": "وضع Degen",
         "degen_mode_description": "تخطي خطوة المراجعة للتبديل بشكل أسرع",
         "maximum_sold": "الحد الأقصى المباع",
         "minimum_received": "الحد الأدنى المستلم",
@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "بيع",
       "sort": {
+        "ABC": "أبج",
         "abc": "أبج",
+        "MOST_RECENT": "الأخير",
         "most_recent": "الأحدث",
+        "FLOOR_PRICE": "سعر الأرضية",
         "floor_price": "سعر الأرضية"
-      }
+      },
+      "empty": "القطع التذكارية",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
