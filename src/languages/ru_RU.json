@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "Продажа",
       "sort": {
+        "ABC": "АБВ",
         "abc": "АБВ",
+        "MOST_RECENT": "Последние",
         "most_recent": "Самые последние",
+        "FLOOR_PRICE": "Начальная цена",
         "floor_price": "Начальная цена"
-      }
+      },
+      "empty": "Коллекционные предметы",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
