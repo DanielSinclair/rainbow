@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "Satış",
       "sort": {
+        "ABC": "Abc",
         "abc": "Abc",
+        "MOST_RECENT": "Son",
         "most_recent": "En Yeni",
+        "FLOOR_PRICE": "Taban Fiyatı",
         "floor_price": "Taban Fiyatı"
-      }
+      },
+      "empty": "Koleksiyonlar",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
