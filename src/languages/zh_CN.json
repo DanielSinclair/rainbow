@@ -1321,10 +1321,16 @@
     "nfts": {
       "selling": "出售",
       "sort": {
+        "ABC": "字母顺序",
         "abc": "字母顺序",
+        "MOST_RECENT": "最近",
         "most_recent": "最新的",
+        "FLOOR_PRICE": "底价",
         "floor_price": "底价"
-      }
+      },
+      "empty": "收藏品",
+      "collect_now": "Collect Now",
+      "will_appear_here": "Your Collectibles Will Appear Here"
     },
     "nft_offers": {
       "card": {
