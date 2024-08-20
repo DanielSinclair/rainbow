@@ -1329,8 +1329,8 @@
         "floor_price": "최저 가격"
       },
       "empty": "수집품",
-      "collect_now": "Collect Now",
-      "will_appear_here": "Your Collectibles Will Appear Here"
+      "collect_now": "지금 수집",
+      "will_appear_here": "여기에 수집품이 나타납니다"
     },
     "nft_offers": {
       "card": {
