@@ -16,6 +16,7 @@
       "tab_balances": "Bakiyeler",
       "tab_balances_empty_state": "Bakiye",
       "tab_balances_tooltip": "Ethereum ve Token Bakiyeleri",
+      "tab_claimables": "Claimables",
       "tab_collectibles": "Koleksiyonlar",
       "tab_interactions": "Etkileşimler",
       "tab_interactions_tooltip": "Akıllı Sözleşme Etkileşimleri",
@@ -449,6 +450,22 @@
         "action": "Devam Et"
       }
     },
+    "claimables": {
+      "panel": {
+        "calculating_gas_fee": "Calculating gas fee...",
+        "amount_to_claim_on_network": "%{amount} to claim on %{network}",
+        "claim": "Claim",
+        "claiming": "Talep Etme",
+        "claim_in_progress": "Claim in Progress...",
+        "claimed": "Claimed!",
+        "claiming_failed": "Talep Başarısız",
+        "insufficient_funds": "Yetersiz Bakiye",
+        "claim_amount": "Claim %{amount}",
+        "done": "Tamamlandı",
+        "try_again": "Tekrar Deneyin",
+        "tokens_on_the_way": "Tokens on the way!"
+      }
+    },
     "cloud": {
       "backup_success": "Cüzdanınız başarıyla yedeklendi!"
     },
@@ -487,6 +504,7 @@
       "clear_local_storage": "Yerel depolamayı temizle",
       "clear_mmkv_storage": "MMKV depolamasını temizle",
       "connect_to_hardhat": "Hardhat'a bağlan",
+      "disconnect_to_hardhat": "Disconnect from hardhat",
       "crash_app_render_error": "Uygulamayı çökert (render hatası)",
       "enable_testnets": "Testnetleri Etkinleştir",
       "installing_update": "Güncelleme Yükleniyor",
@@ -915,15 +933,19 @@
       },
       "avalanche": {
         "text": "Avalanche, Ethereum ile uyumlu olan ve yanında çalışan ayrı bir ağ olan bir sidechain'dir.\n\nDaha ucuz ve daha hızlı işlemlere izin verir, ancak Layer 2 ağlarının aksine, Avalanche kendi güvenlik ve uzlaşma mekanizmalarına sahiptir ve bunlar Ethereum'dan farklıdır.",
-        "title": "Avalanche Nedir?"
+        "title": "What's Avalanche?"
       },
       "degen": {
-        "text": "Degen Chain, Arbitrum ve Ethereum'un üzerinde çalışan ve inanılmaz hızlı ve ucuz işlemler sunan, Farcaster topluluk tokeni $degen ile işlem yapılan bir Layer 3 ağıdır.",
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
         "title": "Degen Chain Nedir?"
       },
       "blast": {
         "text": "Blast, Ethereum üzerinde çalışan bir Layer 2 ağıdır ve daha ucuz ve hızlı işlemleri mümkün kılar ve aynı zamanda Ethereum'un temel güvenliğinden faydalanır.\n\nBirçok işlemi \"roll up\" içinde toplayarak kalıcı olarak Ethereum üzerinde yaşamalarına izin verir.",
         "title": "Blast Nedir?"
+      },
+      "apechain": {
+        "text": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.\n\nIt significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE.",
+        "title": "What's ApeChain?"
       },
       "zora": {
         "text": "Zora, Ethereum'un üzerinde çalışan Layer 2 bir ağdır, daha ucuz ve daha hızlı işlemleri mümkün kılar ve hala Ethereum'un temel güvenliğinden faydalanır.\n\nBu, bir \"roll up\" içerisinde birçok işlemi birleştirir ve bu işlemleri kalıcı olarak Ethereum'da yaşamak üzere gönderir.",
@@ -1326,7 +1348,11 @@
         "MOST_RECENT": "Son",
         "most_recent": "En Yeni",
         "FLOOR_PRICE": "Taban Fiyatı",
-        "floor_price": "Taban Fiyatı"
+        "floor_price": "Taban Fiyatı",
+        "order": {
+          "asc": "Ascending order",
+          "desc": "Descending order"
+        }
       },
       "empty": "Koleksiyonlar",
       "collect_now": "Şimdi Koleksiyon Yap",
@@ -1991,6 +2017,7 @@
     "swap": {
       "actions": {
         "hold_to_swap": "Değiştirmek için Tut",
+        "hold_to_bridge": "Köprülemek İçin Tut",
         "save": "Kaydet",
         "enter_amount": "Miktar Girin",
         "review": "İncele",
@@ -2117,9 +2144,9 @@
           "failed": "Gönderme Başarısız"
         },
         "receive": {
-          "pending": "",
+          "pending": "Receiving",
           "confirmed": "Alınan",
-          "failed": ""
+          "failed": "Receive Failed"
         },
         "withdraw": {
           "pending": "Çekiliyor",
@@ -2751,6 +2778,8 @@
       }
     },
     "walletconnect": {
+      "connecting": "Connecting",
+      "loading": "Yükleniyor",
       "requests": "İstekler",
       "wants_to_connect": "Cüzdanınıza bağlanmak istiyor",
       "wants_to_connect_to_network": "%{network} ağına bağlanmak istiyor",
@@ -2844,6 +2873,7 @@
             "unavailable_personal_sign": "Kişisel imzaların simülasyonu henüz desteklenmiyor",
             "unavailable_zora_network": "Zora üzerinde simülasyon henüz desteklenmiyor",
             "failed_to_simulate": "Simülasyon başarısız oldu, bu da işleminizin başarısız olma ihtimalinin yüksek olduğunu gösteriyor. Bu, kullandığınız uygulama ile ilgili bir sorun olabilir.",
+            "tx_api_error": "We are unable to determine whether or not your transaction will succeed or fail. Proceed with caution.",
             "warning": "Herhangi bir kötü niyetli davranış tespit edilmemiş olsa da, bu işlemin cüzdanınıza risk oluşturabilecek özellikleri bulunmaktadır.",
             "malicious": "Bu işlemi imzalamak, cüzdanınızdaki her şeye erişimi kaybetmenize neden olabilir."
           },
