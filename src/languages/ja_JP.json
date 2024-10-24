@@ -16,6 +16,7 @@
       "tab_balances": "残高",
       "tab_balances_empty_state": "残高",
       "tab_balances_tooltip": "イーサリアムとトークンの残高",
+      "tab_claimables": "Claimables",
       "tab_collectibles": "コレクタブル",
       "tab_interactions": "インタラクション",
       "tab_interactions_tooltip": "スマートコントラクトのインタラクション",
@@ -449,6 +450,22 @@
         "action": "続ける"
       }
     },
+    "claimables": {
+      "panel": {
+        "calculating_gas_fee": "Calculating gas fee...",
+        "amount_to_claim_on_network": "%{amount} to claim on %{network}",
+        "claim": "Claim",
+        "claiming": "主張",
+        "claim_in_progress": "Claim in Progress...",
+        "claimed": "Claimed!",
+        "claiming_failed": "主張失敗",
+        "insufficient_funds": "資金が不足しています",
+        "claim_amount": "Claim %{amount}",
+        "done": "完了",
+        "try_again": "再試行",
+        "tokens_on_the_way": "Tokens on the way!"
+      }
+    },
     "cloud": {
       "backup_success": "ウォレットは正常にバックアップされました！"
     },
@@ -487,6 +504,7 @@
       "clear_local_storage": "ローカルストレージをクリア",
       "clear_mmkv_storage": "MMKVストレージをクリア",
       "connect_to_hardhat": "Hardhatに接続する",
+      "disconnect_to_hardhat": "Disconnect from hardhat",
       "crash_app_render_error": "アプリをクラッシュさせる（レンダーエラー）",
       "enable_testnets": "テストネットを有効にする",
       "installing_update": "アップデートをインストール中",
@@ -915,15 +933,19 @@
       },
       "avalanche": {
         "text": "AvalancheはEthereumと共に動作する別個のネットワークであるサイドチェーンです。\n\nより安価かつ高速なトランザクションが可能ですが、Layer 2ネットワークとは異なり、Avalancheには独自のセキュリティとコンセンサスメカニズムがあります。",
-        "title": "Avalancheとは？"
+        "title": "What's Avalanche?"
       },
       "degen": {
-        "text": "Degen Chainは、ArbitrumおよびEthereumの上で動作するLayer 3ネットワークであり、Farcasterコミュニティトークン$degenで非常に高速かつ安価なトランザクションを提供します。",
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
         "title": "Degen Chainとは？"
       },
       "blast": {
         "text": "BlastはEthereum上で動作するLayer 2ネットワークであり、Ethereumの基盤のセキュリティを活用しながら、より安価かつ高速なトランザクションを可能にします。\n\n多くのトランザクションを「ロールアップ」としてまとめた後、それをEthereumに永続転送します。",
         "title": "Blastとは？"
+      },
+      "apechain": {
+        "text": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.\n\nIt significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE.",
+        "title": "What's ApeChain?"
       },
       "zora": {
         "text": "ZoraはEthereumの上で動作するLayer 2ネットワークであり、より安価で高速なトランザクションを実現しながら、Ethereumの基礎的なセキュリティの恩恵も受けます。\n\nロールアップでトランザクションをまとめてから、それらを永久的にEthereum上に送信します。",
@@ -1326,7 +1348,11 @@
         "MOST_RECENT": "最近の",
         "most_recent": "最新順",
         "FLOOR_PRICE": "フロア価格",
-        "floor_price": "フロア価格"
+        "floor_price": "フロア価格",
+        "order": {
+          "asc": "Ascending order",
+          "desc": "Descending order"
+        }
       },
       "empty": "コレクタブル",
       "collect_now": "今すぐコレクト",
@@ -1991,6 +2017,7 @@
     "swap": {
       "actions": {
         "hold_to_swap": "スワップを保持",
+        "hold_to_bridge": "ブリッジを保持",
         "save": "保存する",
         "enter_amount": "金額を入力してください",
         "review": "レビュー",
@@ -2117,9 +2144,9 @@
           "failed": "送信に失敗しました"
         },
         "receive": {
-          "pending": "",
+          "pending": "Receiving",
           "confirmed": "受信済み",
-          "failed": ""
+          "failed": "Receive Failed"
         },
         "withdraw": {
           "pending": "引き出し中",
@@ -2751,6 +2778,8 @@
       }
     },
     "walletconnect": {
+      "connecting": "Connecting",
+      "loading": "読み込み中",
       "requests": "リクエスト",
       "wants_to_connect": "あなたのウォレットに接続を許可します",
       "wants_to_connect_to_network": "%{network} ネットワークに接続を許可します",
@@ -2844,6 +2873,7 @@
             "unavailable_personal_sign": "パーソナルサインのシミュレーションはまだサポートされていません",
             "unavailable_zora_network": "Zoraでのシミュレーションはまだサポートされていません",
             "failed_to_simulate": "シミュレーションに失敗しました。これは使用しているアプリに問題がある可能性があります。",
+            "tx_api_error": "We are unable to determine whether or not your transaction will succeed or fail. Proceed with caution.",
             "warning": "悪意のある行動は検出されませんでしたが、このトランザクションには財布にリスクを及ぼす可能性のある特徴があります。",
             "malicious": "このトランザクションに署名すると、財布の中のすべてにアクセスできなくなる可能性があります。"
           },
