@@ -16,6 +16,7 @@
       "tab_balances": "余额",
       "tab_balances_empty_state": "余额",
       "tab_balances_tooltip": "以太坊和代币余额",
+      "tab_claimables": "Claimables",
       "tab_collectibles": "收藏品",
       "tab_interactions": "交互",
       "tab_interactions_tooltip": "智能合约交互",
@@ -449,6 +450,22 @@
         "action": "继续"
       }
     },
+    "claimables": {
+      "panel": {
+        "calculating_gas_fee": "Calculating gas fee...",
+        "amount_to_claim_on_network": "%{amount} to claim on %{network}",
+        "claim": "Claim",
+        "claiming": "认领中",
+        "claim_in_progress": "Claim in Progress...",
+        "claimed": "Claimed!",
+        "claiming_failed": "认领失败",
+        "insufficient_funds": "资金不足",
+        "claim_amount": "Claim %{amount}",
+        "done": "完成",
+        "try_again": "再试一次",
+        "tokens_on_the_way": "Tokens on the way!"
+      }
+    },
     "cloud": {
       "backup_success": "您的钱包已成功备份！"
     },
@@ -487,6 +504,7 @@
       "clear_local_storage": "清除本地存储",
       "clear_mmkv_storage": "清除MMKV存储",
       "connect_to_hardhat": "连接到hardhat",
+      "disconnect_to_hardhat": "Disconnect from hardhat",
       "crash_app_render_error": "崩溃应用程序（渲染错误）",
       "enable_testnets": "启用Testnets",
       "installing_update": "正在安装更新",
@@ -915,15 +933,19 @@
       },
       "avalanche": {
         "text": "Avalanche 是一个侧链，它是一个与以太坊并行运行的独立网络，并且兼容以太坊。\n\n它支持更便宜和更快速的交易，但与Layer 2网络不同，Avalanche具有自己的安全性和共识机制，与以太坊不同。",
-        "title": "什么是Avalanche"
+        "title": "What's Avalanche?"
       },
       "degen": {
-        "text": "Degen Chain 是一个运行在 Arbitrum 和以太坊之上的第 3 层网络，提供异常快速且便宜的交易，这些交易以 Farcaster 社区代币 $degen 计价。",
+        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
         "title": "什么是Degen Chain?"
       },
       "blast": {
         "text": "Blast 是一个运行在以太坊之上的第二层网络，可以实现更便宜和更快的交易，同时仍能从以太坊的底层安全性中受益。\n\n它将许多交易捆绑在一个“roll up”中，然后将其永久发送到以太坊。",
         "title": "什么是Blast?"
+      },
+      "apechain": {
+        "text": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.\n\nIt significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE.",
+        "title": "What's ApeChain?"
       },
       "zora": {
         "text": "Zora是一个运行在以太坊之上的2层网络，它使得交易更加便宜且更快，同时仍然从以太坊的底层安全中受益。\n\n在将他们永久地发到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
@@ -1326,7 +1348,11 @@
         "MOST_RECENT": "最近",
         "most_recent": "最新的",
         "FLOOR_PRICE": "底价",
-        "floor_price": "底价"
+        "floor_price": "底价",
+        "order": {
+          "asc": "Ascending order",
+          "desc": "Descending order"
+        }
       },
       "empty": "收藏品",
       "collect_now": "立即收藏",
@@ -1991,6 +2017,7 @@
     "swap": {
       "actions": {
         "hold_to_swap": "按住以交换",
+        "hold_to_bridge": "按住以桥接",
         "save": "保存",
         "enter_amount": "输入金额",
         "review": "审阅",
@@ -2117,9 +2144,9 @@
           "failed": "发送失败"
         },
         "receive": {
-          "pending": "",
+          "pending": "Receiving",
           "confirmed": "已收到",
-          "failed": ""
+          "failed": "Receive Failed"
         },
         "withdraw": {
           "pending": "正在提现",
@@ -2751,6 +2778,8 @@
       }
     },
     "walletconnect": {
+      "connecting": "Connecting",
+      "loading": "加载中",
       "requests": "请求",
       "wants_to_connect": "愿意连接到您的钱包",
       "wants_to_connect_to_network": "想要连接到 %{network} 网络",
@@ -2844,6 +2873,7 @@
             "unavailable_personal_sign": "尚不支持个人签名的模拟",
             "unavailable_zora_network": "尚不支持Zora的模拟",
             "failed_to_simulate": "模拟失败，您的交易可能会失败。这可能与您正在使用的应用有关。",
+            "tx_api_error": "We are unable to determine whether or not your transaction will succeed or fail. Proceed with caution.",
             "warning": "没有检测到已知的恶意行为，但此交易具有可能对您的钱包构成风险的特点。",
             "malicious": "签署此交易可能会导致您失去钱包中的所有内容。"
           },
