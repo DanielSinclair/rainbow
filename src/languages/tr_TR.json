@@ -873,6 +873,10 @@
         "title_plural": "%{length} Ağlarda Mevcut",
         "title_singular": "%{network} Ağı Üzerinde Mevcut"
       },
+      "default_network_explainer": {
+        "text": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "title": "What's %{chainName}?"
+      },
       "arbitrum": {
         "text": "Arbitrum, Ethereum'in üzerinde çalışan bir Katman 2 ağıdır, daha ucuz ve daha hızlı işlemleri mümkün kılar ve yine de Ethereum'un altındaki güvenlikten faydalanır.\n\nBirçok işlemi bir \"roll up\" şeklinde bir araya getirir ve bunları kalıcı olarak Ethereum'da yaşamak üzere gönderir.",
         "title": "Arbitrum nedir?"
