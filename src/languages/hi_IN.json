@@ -16,7 +16,7 @@
       "tab_balances": "बैलेंस",
       "tab_balances_empty_state": "बैलेंस",
       "tab_balances_tooltip": "इथेरियम और टोकन बैलेंस",
-      "tab_claimables": "Claimables",
+      "tab_claimables": "दावा करने योग्य",
       "tab_collectibles": "संग्रह",
       "tab_interactions": "इंटरैक्शंज",
       "tab_interactions_tooltip": "स्मार्ट संविदा इंटरैक्शन्स",
@@ -452,18 +452,18 @@
     },
     "claimables": {
       "panel": {
-        "calculating_gas_fee": "Calculating gas fee...",
-        "amount_to_claim_on_network": "%{amount} to claim on %{network}",
-        "claim": "Claim",
+        "calculating_gas_fee": "गैस शुल्क की गणना हो रही है...",
+        "amount_to_claim_on_network": "%{amount} को %{network} पर दावा करने के लिए",
+        "claim": "दावा करें",
         "claiming": "दावा कर रहा है",
-        "claim_in_progress": "Claim in Progress...",
-        "claimed": "Claimed!",
+        "claim_in_progress": "दावा प्रगति पर है...",
+        "claimed": "दावा किया हुआ!",
         "claiming_failed": "दावा विफल",
         "insufficient_funds": "अपर्याप्त धन",
-        "claim_amount": "Claim %{amount}",
+        "claim_amount": "दावा %{amount}",
         "done": "हो गया",
         "try_again": "फिर से प्रयास करें",
-        "tokens_on_the_way": "Tokens on the way!"
+        "tokens_on_the_way": "टोकन रास्ते में हैं!"
       }
     },
     "cloud": {
@@ -504,7 +504,7 @@
       "clear_local_storage": "लोकल स्टोरेज को साफ करें",
       "clear_mmkv_storage": "MMKV स्टोरेज को साफ करें",
       "connect_to_hardhat": "Hardhat से कनेक्ट करें",
-      "disconnect_to_hardhat": "Disconnect from hardhat",
+      "disconnect_to_hardhat": "हार्डहैट से डिस्कनेक्ट करें",
       "crash_app_render_error": "ऐप्र्प्लिकेशन क्रैश करें (रेंडर त्रुटि)",
       "enable_testnets": "टेस्टनेट्स सक्षम करें",
       "installing_update": "अद्यतन स्थापित कर रहा है",
@@ -874,8 +874,8 @@
         "title_singular": "%{network} नेटवर्क पर उपलब्ध"
       },
       "default_network_explainer": {
-        "text": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
-        "title": "What's %{chainName}?"
+        "text": "%{chainName} एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेजी से लेनदेन संभव होते हैं, जबकि अभी भी Ethereum की अंतर्निहित सुरक्षा का लाभ मिलता है।",
+        "title": "%{chainName} क्या है?"
       },
       "arbitrum": {
         "text": "Arbitrum एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, इससे सस्ते और तेज लेनदेन संभव होते हैं जबकि Ethereum की आधारभूत सुरक्षा का लाभ भी मिलता है।\n\nयह बहुत सारे लेनदेनों को एक \"roll up\" में बंधलन करता है इसके पहले कि वे Ethereum पर स्थायी रूप से रहने के लिए भेजे जाएँ।",
@@ -937,10 +937,10 @@
       },
       "avalanche": {
         "text": "Avalanche एक साइडचेन है, एक अलग नेटवर्क जो Ethereum के साथ चलता है और उसके अनुकूलित है।\n\nयह सस्ते और तेज़ ट्रांजेक्शनों की अनुमति देता है, लेकिन लेयर 2 नेटवर्क के विपरीत, Avalanche का अपना सुरक्षा और सहमति प्रणाली है जो Ethereum से भिन्न है।",
-        "title": "What's Avalanche?"
+        "title": "Avalanche क्या है?"
       },
       "degen": {
-        "text": "Degen Chain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+        "text": "Degen Chain एक लेयर <b>3</b> नेटवर्क है जो Arbitrum Orbit और Ethereum के ऊपर चलता है।",
         "title": "Degen Chain क्या है?"
       },
       "blast": {
@@ -948,8 +948,8 @@
         "title": "Blast क्या है?"
       },
       "apechain": {
-        "text": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.\n\nIt significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE.",
-        "title": "What's ApeChain?"
+        "text": "ApeChain एक लेयर <b>3</b> नेटवर्क है जो Arbitrum Orbit और Ethereum के ऊपर चलता है।\n\nयह ApeCoin की उपयोगिता को बहुत बढ़ाता है, $APE द्वारा संचालित एक मजबूत और गतिशील अर्थव्यवस्था को बढ़ावा देता है।",
+        "title": "ApeChain क्या है?"
       },
       "zora": {
         "text": "Zora एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
@@ -1354,8 +1354,8 @@
         "FLOOR_PRICE": "मंजिल मूल्य",
         "floor_price": "मंजिल मूल्य",
         "order": {
-          "asc": "Ascending order",
-          "desc": "Descending order"
+          "asc": "आरोही क्रम",
+          "desc": "अवरोही क्रम"
         }
       },
       "empty": "संग्रह",
@@ -2148,9 +2148,9 @@
           "failed": "भेजने में विफल"
         },
         "receive": {
-          "pending": "Receiving",
+          "pending": "प्राप्त",
           "confirmed": "प्राप्त किया",
-          "failed": "Receive Failed"
+          "failed": "प्राप्त विफल"
         },
         "withdraw": {
           "pending": "निकासी कर रहे हैं",
@@ -2782,7 +2782,7 @@
       }
     },
     "walletconnect": {
-      "connecting": "Connecting",
+      "connecting": "जोड़ रहा है",
       "loading": "लोड हो रहा है",
       "requests": "अनुरोध",
       "wants_to_connect": "आपके वॉलेट के साथ कनेक्ट करना चाहता है",
@@ -2877,7 +2877,7 @@
             "unavailable_personal_sign": "व्यक्तिगत हस्ताक्षरों के लिए सिमुलेशन अभी तक समर्थित नहीं है",
             "unavailable_zora_network": "ज़ोरा पर सिमुलेशन अभी तक समर्थित नहीं है",
             "failed_to_simulate": "सिमुलेशन विफल हुआ है, जिससे आपका लेन-देन संभावित रूप से विफल होने की संकेत देता है। यह आप उपयोग कर रहे एप्लिकेशन की समस्या हो सकती है।",
-            "tx_api_error": "We are unable to determine whether or not your transaction will succeed or fail. Proceed with caution.",
+            "tx_api_error": "हम यह निर्धारित करने में असमर्थ हैं कि आपका लेनदेन सफल होगा या विफल। कृपया सावधानी से आगे बढ़ें।",
             "warning": "कोई ज्ञात दुर्भावनापूर्ण व्यवहार का पता नहीं चला, लेकिन इस लेन-देन में ऐसी विशेषताएं हैं जो आपके वॉलेट के लिए जोखिम उत्पन्न कर सकती हैं।",
             "malicious": "इस लेन-देन पर हस्ताक्षर करने से आपके वॉलेट में मौजूद सब कुछ खोने का जोखिम हो सकता है।"
           },
