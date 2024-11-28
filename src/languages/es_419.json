@@ -873,6 +873,10 @@
         "title_plural": "Disponible en %{length} Redes",
         "title_singular": "Disponible en la Red %{network}"
       },
+      "default_network_explainer": {
+        "text": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "title": "What's %{chainName}?"
+      },
       "arbitrum": {
         "text": "Arbitrum es una red de Capa 2 que se ejecuta sobre Ethereum, permitiendo transacciones más baratas y rápidas mientras se beneficia de la seguridad subyacente de Ethereum.\n\nAgrupa muchas transacciones juntas en un \"roll up\" antes de enviarlas de forma permanente a Ethereum.",
         "title": "¿Qué es Arbitrum?"
