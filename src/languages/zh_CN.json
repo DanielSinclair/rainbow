@@ -873,6 +873,10 @@
         "title_plural": "可用于 %{length} 个网络",
         "title_singular": "可用于 %{network} 网络"
       },
+      "default_network_explainer": {
+        "text": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "title": "What's %{chainName}?"
+      },
       "arbitrum": {
         "text": "Arbitrum是运行在以太坊之上的第2层网络，可以实现更便宜、更快速的交易，同时享受以太坊底层安全性的好处。\n\n它会将许多交易捆绑在一起，然后将它们发送到以太坊上永久存储。",
         "title": "什么是Arbitrum？"
