@@ -873,6 +873,10 @@
         "title_plural": "%{length} नेटवर्क्स पर उपलब्ध",
         "title_singular": "%{network} नेटवर्क पर उपलब्ध"
       },
+      "default_network_explainer": {
+        "text": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "title": "What's %{chainName}?"
+      },
       "arbitrum": {
         "text": "Arbitrum एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, इससे सस्ते और तेज लेनदेन संभव होते हैं जबकि Ethereum की आधारभूत सुरक्षा का लाभ भी मिलता है।\n\nयह बहुत सारे लेनदेनों को एक \"roll up\" में बंधलन करता है इसके पहले कि वे Ethereum पर स्थायी रूप से रहने के लिए भेजे जाएँ।",
         "title": "Arbitrum क्या है?"
