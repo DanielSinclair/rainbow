@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "打开 􀮶",
       "deposits": "存款",
       "borrows": "借款",
-      "rewards": "奖励"
+      "stakes": "已质押",
+      "rewards": "奖励",
+      "pools": "池"
     },
     "savings": {
       "deposit": "存款",
