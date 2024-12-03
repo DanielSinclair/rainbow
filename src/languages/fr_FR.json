@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "Ouvrir 􀮶",
       "deposits": "Dépôts",
       "borrows": "Emprunts",
-      "rewards": "Récompenses"
+      "stakes": "Misé",
+      "rewards": "Récompenses",
+      "pools": "Piscines"
     },
     "savings": {
       "deposit": "Dépôt",
