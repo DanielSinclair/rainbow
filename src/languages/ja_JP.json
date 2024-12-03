@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "オープン 􀮶",
       "deposits": "預金",
       "borrows": "借入",
-      "rewards": "報酬"
+      "stakes": "ステイクされた",
+      "rewards": "報酬",
+      "pools": "プール"
     },
     "savings": {
       "deposit": "預金",
