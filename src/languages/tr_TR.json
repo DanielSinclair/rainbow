@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "Tam Aralık",
+        "out_of_range": "Aralık Dışında",
+        "in_range": "Aralık İçinde"
       },
       "open_dapp": "Açık 􀮶",
       "deposits": "Mevduatlar",
