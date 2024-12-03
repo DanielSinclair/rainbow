@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "Полный диапазон",
+        "out_of_range": "Вне диапазона",
+        "in_range": "В диапазоне"
       },
       "open_dapp": "Открыть",
       "deposits": "Депозиты",
