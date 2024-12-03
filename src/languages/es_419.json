@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "Rango Completo",
+        "out_of_range": "Fuera de Rango",
+        "in_range": "En Rango"
       },
       "open_dapp": "Abrir",
       "deposits": "Depósitos",
