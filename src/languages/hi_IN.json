@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "खोलें 􀮶",
       "deposits": "जमाकर रकम",
       "borrows": "उधार",
-      "rewards": "इनाम"
+      "stakes": "शेयर जमा किया है",
+      "rewards": "इनाम",
+      "pools": "पूल्स"
     },
     "savings": {
       "deposit": "जमा",
