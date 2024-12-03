@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "เปิด 􀮶",
       "deposits": "การฝาก",
       "borrows": "การยืม",
-      "rewards": "รางวัล"
+      "stakes": "วางเดิมทุนแล้ว",
+      "rewards": "รางวัล",
+      "pools": "สระน้ำ"
     },
     "savings": {
       "deposit": "ฝาก",
