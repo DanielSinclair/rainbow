@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "全范围",
+        "out_of_range": "超出范围",
+        "in_range": "在范围内"
       },
       "open_dapp": "打开 􀮶",
       "deposits": "存款",
