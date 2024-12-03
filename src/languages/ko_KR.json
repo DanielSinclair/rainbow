@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "전체 범위",
+        "out_of_range": "범위 초과",
+        "in_range": "범위 내"
       },
       "open_dapp": "오픈 􀮶",
       "deposits": "입금",
