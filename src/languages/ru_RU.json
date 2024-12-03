@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "Открыть",
       "deposits": "Депозиты",
       "borrows": "Займы",
-      "rewards": "Награды"
+      "stakes": "Ставка сделана",
+      "rewards": "Награды",
+      "pools": "Пулы"
     },
     "savings": {
       "deposit": "Депозит",
