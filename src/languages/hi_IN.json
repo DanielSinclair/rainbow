@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "पूर्ण श्रेणी",
+        "out_of_range": "श्रेणी से बाहर",
+        "in_range": "श्रेणी के अंदर"
       },
       "open_dapp": "खोलें 􀮶",
       "deposits": "जमाकर रकम",
