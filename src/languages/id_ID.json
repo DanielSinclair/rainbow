@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "Kisaran Penuh",
+        "out_of_range": "Di Luar Jangkauan",
+        "in_range": "Dalam Jangkauan"
       },
       "open_dapp": "Buka 􀮶",
       "deposits": "Deposit",
