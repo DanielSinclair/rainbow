@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "النطاق الكامل",
+        "out_of_range": "خارج النطاق",
+        "in_range": "ضمن النطاق"
       },
       "open_dapp": "فتح 􀮶",
       "deposits": "الإيداعات",
