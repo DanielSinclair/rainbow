@@ -1878,9 +1878,9 @@
     },
     "positions": {
       "lp_range_status": {
-        "full_range": "Full Range",
-        "out_of_range": "Out of Range",
-        "in_range": "In Range"
+        "full_range": "Gamme Complète",
+        "out_of_range": "Hors de Portée",
+        "in_range": "Dans la Portée"
       },
       "open_dapp": "Ouvrir 􀮶",
       "deposits": "Dépôts",
