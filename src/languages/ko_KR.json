@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "오픈 􀮶",
       "deposits": "입금",
       "borrows": "대출",
-      "rewards": "보상"
+      "stakes": "스테이킹 완료",
+      "rewards": "보상",
+      "pools": "풀"
     },
     "savings": {
       "deposit": "예금",
