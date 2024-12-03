@@ -1877,10 +1877,17 @@
       }
     },
     "positions": {
+      "lp_range_status": {
+        "full_range": "Full Range",
+        "out_of_range": "Out of Range",
+        "in_range": "In Range"
+      },
       "open_dapp": "Açık 􀮶",
       "deposits": "Mevduatlar",
       "borrows": "Borçlar",
-      "rewards": "Ödüller"
+      "stakes": "Bahis Yapıldı",
+      "rewards": "Ödüller",
+      "pools": "Havuzlar"
     },
     "savings": {
       "deposit": "Mevduat",
