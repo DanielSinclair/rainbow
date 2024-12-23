@@ -97,7 +97,7 @@
         "no_keys_found": "Anahtar bulunamadı. Lütfen tekrar deneyin.",
         "backup_not_found": "Yedek bulunamadı. Lütfen tekrar deneyin.",
         "no_account_found": "Yedek dosyaları alınamadı. Giriş yaptığınızdan emin olun.",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "Cüzdanı yedekleme başarısız. Anahtar zincir verileri eksik."
       },
       "wrong_pin": "Girdiğiniz PIN kodu yanlış ve bir yedekleme yapamıyoruz. Lütfen doğru kodla tekrar deneyin.",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "Hiçbir yedekleme bulunamadı",
         "failed_to_fetch_backups": "Yedekler alınamadı",
         "retry": "Tekrar dene",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "Yenile",
+        "syncing_cloud_store": "%{cloudPlatformName} ile senkronize ediliyor",
         "fetching_backups": "%{cloudPlatformName} yedekleri alınıyor",
         "back_up_to_platform": "%{cloudPlatformName}'ya yedekle",
         "restore_from_platform": "%{cloudPlatformName}'dan geri yükle",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "Cüzdanınızı güvenli bir şekilde %{cloudPlatform}a yedekleyin, böylece cihazınızı kaybederseniz veya yeni bir cihaz alırsanız geri yükleyebilirsiniz.",
         "choose_backup_manual_description": "Gizli cümlenizi güvenli bir yere kaydederek cüzdanınızı manuel olarak yedekleyin.",
         "enable_cloud_backups_description": "Cüzdanlarınızı manuel olarak yedeklemeyi tercih ediyorsanız, bunu aşağıdan yapabilirsiniz.",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "En Son Yedekleme: %{date}",
         "back_up_all_wallets_to_cloud": "Tüm Cüzdanları %{cloudPlatformName}a Yedekle",
         "most_recent_backup": "En Son Yedekleme",
         "out_of_date": "Güncel Değil",
@@ -149,8 +149,8 @@
         "no_older_backups": "Daha Eski Yedek Bulunamadı",
         "older_backups_title": "%{date} tarihinde, %{time} saatinde",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "Etkin Değil",
+          "syncing": "Senkronize ediliyor",
           "out_of_date": "Güncel Değil",
           "up_to_date": "Güncel"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "Gaz Ücretini Tahmin Ediyor...",
+        "gas_error": "Gaz Hatası",
         "quote_error": "Teklif Hatası",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "Rota bulunamadı",
+        "fetching_quote": "Teklif Alınıyor...",
+        "select_a_network": "Bir Ağ Seçin",
+        "select_a_token": "Bir Jeton Seçin",
         "amount_to_claim_on_network": "%{network} üzerinde talep için %{amount}",
         "claim": "Talep Et",
         "claiming": "Talep Etme",
@@ -479,11 +479,11 @@
         "done": "Tamamlandı",
         "try_again": "Tekrar Deneyin",
         "tokens_on_the_way": "Tokenlar yolda!",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "bir jeton",
+        "a_network": "bir ağ",
         "swap_failed": "Takas Başarısız",
         "receive": "Al",
-        "on": "on"
+        "on": "açık"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "Resim Metaveri Önbelleğini Temizle",
       "clear_local_storage": "Yerel depolamayı temizle",
       "clear_mmkv_storage": "MMKV depolamasını temizle",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "Anvil'e Bağlan",
+      "disconnect_to_anvil": "Anvil'den Bağlantıyı Kes",
       "crash_app_render_error": "Uygulamayı çökert (render hatası)",
       "enable_testnets": "Testnetleri Etkinleştir",
       "installing_update": "Güncelleme Yükleniyor",
@@ -875,8 +875,8 @@
       "adworld_title": "Rainbow Dünyasına Hoş Geldiniz!",
       "farcaster_description": "Farcaster'ın sade minimalizminden ilham alınarak hazırlanmış en sıkıcı uygulama simgemiz.",
       "farcaster_title": "Kazandınız\nRainbowcast",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
-      "redacted_title": "You've unlocked\n Redacted Rainbow",
+      "redacted_description": "Gerçek Gdupi meraklıları için stupi'ye özel bir Rainbow simgesi.",
+      "redacted_title": "Redacted Rainbow'un kilidini açtınız",
       "button": "Simgeyi Yakala"
     },
     "explain": {
@@ -972,20 +972,20 @@
         "title": "Degen Chain Nedir?"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "Gravity, Galxe tarafından geliştirilen yüksek performanslı bir Katman 1 blok zinciridir, saniyede bir gigagasın üzerinde işlem hacmi ve saniyenin altında kesinlik sağlar.\n\nAptosBFT konsensus motoru ve paralel EVM çalışma zamanı kullanır, yeniden stake etme teknolojisi ile Hisse Kanıtı güvenliğini korur.",
+        "title": "Gravity nedir?"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "Gnosis Zinciri, topluluk tarafından sahip olunan ve dünya çapında farklı doğrulayıcılar tarafından işletilen bir Ethereum yan zinciridir.\n\nDayanıklılık ve güvenilir tarafsızlık üzerine odaklanarak, daha ucuz ve hızlı işlemler sunar, aynı zamanda kendi güvenlik ve konsensus mekanizmalarını sürdürür.",
+        "title": "Gnosis nedir?"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Ink, OP Stack üzerinde kurulu, Ethereum'u ölçeklendirmek için tasarlanmış, hızlı blok zamanları ve düşük işlem ücretleri sunan bir Katman 2 ağıdır.\n\nKraken tarafından serbest bırakılmış ve Süper Zincirin bir parçası olarak, Ink, merkezi olmayan finans (DeFi) uygulamaları için performans ve erişilebilirliği artırmayı hedefler.",
+        "title": "Ink nedir?"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "Linea, ConsenSys tarafından geliştirilen güvenli ve düşük maliyetli, Ethereum eşdeğeri Katman 2 blok zinciridir.\n\nGüvenlik ve merkeziyetsizlikten ödün vermeden daha hızlı ve uygun maliyetli işlemler yapılmasını sağlar, bir sonraki milyar kullanıcıyı web3'e getirmeyi hedefler.",
+        "title": "Linea nedir?"
       },
       "optimism": {
         "text": "Optimizm, Ethereum'un üzerinde çalışan ve hala Ethereum'un altında yatan güvenlikten faydalanırken daha ucuz ve hızlı işlemleri mümkün kılan bir Katman 2 ağıdır.\n\nBir sürü işlemi, onları kalıcı olarak Ethereum'a göndermeden önce bir \"roll up\" içinde birleştirir.",
@@ -996,16 +996,16 @@
         "title": "Polygon nedir?"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "Scroll, Ethereum üzerine kurulu, ölçeklenebilirlik ve işlem verimliliğini artırmayı amaçlayan bir Katman 2 çözümüdür.\n\nİşlemleri demetlemek için roll-up teknolojisini kullanır ve bunlar Ethereum'a gönderilir, böylece güvenlik altyapısından yararlanılır.",
+        "title": "Scroll nedir?"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "Sanko, Arbitrum ve Ethereum üzerinde çalışan, NFT'ler ve oyunlara odaklanan bir Katman 3 ağıdır.\n\nDurum doğrulaması için AnyTrust Veri Kullanılabilirliği ve sahtekarlık kanıtları kullanır, bu da Ethereum'un güvenliğinden yararlanırken daha hızlı ve ucuz işlemlere izin verir. Sanko, DMT adlı bir yerel tokena sahiptir ve durum köklerini önermek ve zorlamak için beyaz listeli doğrulayıcılar kullanır.",
+        "title": "Sanko nedir?"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsync, gelişmiş sıfır bilgi kriptografik kanıtlar kullanarak Ethereum'u ölçeklemek için tasarlanmış bir Katman 2 protokolüdür.\n\nMerkeziyetsizliği ve güvenliği korurken Ethereum'un verimini artırır, böylece daha hızlı ve ucuz işlemleri mümkün kılar.",
+        "title": "Zksync nedir?"
       },
       "zora": {
         "text": "Zora, Ethereum'un üzerinde çalışan Layer 2 bir ağdır, daha ucuz ve daha hızlı işlemleri mümkün kılar ve hala Ethereum'un temel güvenliğinden faydalanır.\n\nBu, bir \"roll up\" içerisinde birçok işlemi birleştirir ve bu işlemleri kalıcı olarak Ethereum'da yaşamak üzere gönderir.",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "Yedekleniyor...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "Cüzdan oluşturuluyor...",
+      "importing_wallet": "İçe aktarıyor...",
+      "restoring": "Geri yüklüyor..."
     },
     "message": {
       "click_to_copy_to_clipboard": "Panoya kopyalamak için tıklayın",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "İptal",
           "confirm": "􀎽 İşlem Gönder",
-          "confirming": "Confirming",
+          "confirming": "Onaylanıyor",
           "get_native_token": "Alın %{symbol}",
           "buy_native_token": "Satın Alın %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "Favori",
-        "home": "Home",
+        "home": "Anasayfa",
         "undo_favorite": "Geri Al Favori",
         "remove": "Kaldır",
         "forward": "İleri",
         "back": "Geri",
         "share": "Paylaş",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "Tüm %{numberOfClosableTabs} Sekmeleri Kapat",
+        "close_both_tabs": "Her İki Sekmeyi Kapat",
+        "close_this_tab": "Bu Sekmeyi Kapat",
+        "close_tab": "Sekmeyi Kapat",
+        "new_tab": "Yeni Sekme"
       }
     },
     "trending_tokens": {
       "all": "Tümü",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "Sonuç bulunamadı",
+        "body": "Daha geniş bir zaman dilimi veya farklı bir ağ ya da kategori taramayı deneyin."
       },
-      "and": "and",
+      "and": "ve",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "ve %{count} diğer",
+        "other": "ve %{count} diğerleri"
       },
       "filters": {
         "categories": {
@@ -3062,36 +3062,36 @@
         "sort": {
           "RECOMMENDED": {
             "label": "Sırala",
-            "menuOption": "Default"
+            "menuOption": "Varsayılan"
           },
-          "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "VOLUME": "Hacim",
+          "MARKET_CAP": "Piyasa Değeri",
+          "TOP_GAINERS": "En Çok Kazananlar",
+          "TOP_LOSERS": "En Çok Kaybedenler"
         },
         "time": {
-          "H12": "12 Hours",
-          "H12_ABBREVIATED": "12h",
-          "H24": "24 Hours",
+          "H12": "12 Saat",
+          "H12_ABBREVIATED": "12s",
+          "H24": "24 Saat",
           "H24_ABBREVIATED": "24s",
-          "D7": "1 Week",
-          "D3": "3 Days"
+          "D7": "1 Hafta",
+          "D3": "3 Gün"
         }
       }
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "Ağları Özelleştir",
+        "tap_the": "Dokunun",
+        "button_to_set_up": "ayar için aşağıdaki düğmeye"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "Sabitlemeyi Kaldırmak İçin Buraya Bırak",
       "edit": "Düzenle",
       "networks": "Ağlar",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "Yeniden Düzenlemek İçin Sürükle",
+      "show_less": "Daha Az Göster",
       "more": "Daha fazla",
-      "show_more": "More Networks",
+      "show_more": "Daha Fazla Ağ",
       "all_networks": "Tüm Ağlar"
     },
     "done": "Tamamlandı",
