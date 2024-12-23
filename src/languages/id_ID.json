@@ -97,7 +97,7 @@
         "no_keys_found": "Tidak ada kunci ditemukan. Silakan coba lagi.",
         "backup_not_found": "Backup tidak ditemukan. Silakan coba lagi.",
         "no_account_found": "Tidak dapat mengambil file backup. Pastikan Anda sudah masuk.",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "Tidak dapat mencadangkan dompet. Data keychain hilang."
       },
       "wrong_pin": "Kode PIN yang anda masukkan salah dan kami tidak bisa membuat cadangan. Silahkan coba lagi dengan kode yang benar.",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "Tidak ada cadangan yang ditemukan",
         "failed_to_fetch_backups": "Gagal mengambil backup",
         "retry": "Coba Lagi",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "Segarkan",
+        "syncing_cloud_store": "Sinkronisasi ke %{cloudPlatformName}",
         "fetching_backups": "Mengambil cadangan dari %{cloudPlatformName}",
         "back_up_to_platform": "Backup ke %{cloudPlatformName}",
         "restore_from_platform": "Pulihkan dari %{cloudPlatformName}",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "Cadangkan dompet Anda dengan aman ke %{cloudPlatform} sehingga Anda dapat memulihkannya jika Anda kehilangan perangkat atau mendapatkan yang baru.",
         "choose_backup_manual_description": "Cadangkan dompet Anda secara manual dengan menyimpan frase rahasia Anda di tempat yang aman.",
         "enable_cloud_backups_description": "Jika Anda lebih suka mencadangkan dompet Anda secara manual, Anda dapat melakukannya di bawah.",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "Pencadangan Terakhir: %{date}",
         "back_up_all_wallets_to_cloud": "Backup Semua Dompet ke %{cloudPlatformName}",
         "most_recent_backup": "Backup Terbaru",
         "out_of_date": "Kedaluwarsa",
@@ -149,8 +149,8 @@
         "no_older_backups": "Tidak Ada Backup Lama",
         "older_backups_title": "%{date} pada %{time}",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "Tidak Diaktifkan",
+          "syncing": "Sinkronisasi",
           "out_of_date": "Kedaluwarsa",
           "up_to_date": "Terkini"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "Mengestimasi Biaya Gas...",
+        "gas_error": "Kesalahan Gas",
         "quote_error": "Kesalahan Kutipan",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "Tidak ada rute yang ditemukan",
+        "fetching_quote": "Mengambil Kutipan...",
+        "select_a_network": "Pilih Jaringan",
+        "select_a_token": "Pilih Token",
         "amount_to_claim_on_network": "%{amount} untuk diklaim di %{network}",
         "claim": "Klaim",
         "claiming": "Mengklaim",
@@ -479,11 +479,11 @@
         "done": "Selesai",
         "try_again": "Coba Lagi",
         "tokens_on_the_way": "Token dalam perjalanan!",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "sebuah token",
+        "a_network": "sebuah jaringan",
         "swap_failed": "Penukaran Gagal",
         "receive": "Terima",
-        "on": "on"
+        "on": "aktif"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "Hapus Cache Metadata Gambar",
       "clear_local_storage": "Hapus penyimpanan lokal",
       "clear_mmkv_storage": "Hapus penyimpanan MMKV",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "Hubungkan ke anvil",
+      "disconnect_to_anvil": "Putuskan sambungan dari anvil",
       "crash_app_render_error": "Aplikasi crash (kesalahan render)",
       "enable_testnets": "Aktifkan Testnets",
       "installing_update": "Menginstal pembaruan",
@@ -875,8 +875,8 @@
       "adworld_title": "Selamat datang di Dunia Rainbow!",
       "farcaster_description": "Ikon aplikasi kami yang paling membosankan, terinspirasi oleh minimalisme Warpcast yang hambar.",
       "farcaster_title": "Anda telah membuka\nRainbowcast",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
-      "redacted_title": "You've unlocked\n Redacted Rainbow",
+      "redacted_description": "Ikon Rainbow eksklusif untuk para penikmat sejati Gdupi.",
+      "redacted_title": "Anda telah membuka\n Rainbow yang Dihilangkan",
       "button": "Ambil ikon"
     },
     "explain": {
@@ -972,20 +972,20 @@
         "title": "Apa itu Degen Chain?"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "Gravity adalah blockchain Layer 1 berkinerja tinggi yang dibangun oleh Galxe, mencapai lebih dari satu gigagas per detik throughput dan finalitas sub-detik.\n\nIni memanfaatkan mesin konsensus AptosBFT yang di-pipeline dan waktu jalankan EVM paralel, menjaga keamanan Proof-of-Stake melalui teknologi restaking.",
+        "title": "Apa itu Gravity?"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "Gnosis Chain adalah sidechain Ethereum milik komunitas yang dioperasikan oleh berbagai validator global.\n\nIni berfokus pada ketahanan dan netralitas yang dapat dipercaya, menyediakan transaksi yang lebih murah dan lebih cepat sambil mempertahankan mekanisme keamanan dan konsensusnya sendiri.",
+        "title": "Apa itu Gnosis?"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Ink adalah jaringan Layer 2 yang dibangun di atas OP Stack, dirancang untuk meningkatkan skala Ethereum dengan menyediakan waktu blok sub-detik dan biaya transaksi rendah.\n\nDiluncurkan oleh Kraken, dan bagian dari Superchain, Ink bertujuan untuk meningkatkan kinerja dan aksesibilitas untuk aplikasi keuangan terdesentralisasi (DeFi).",
+        "title": "Apa itu Ink?"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "Linea adalah blockchain Layer 2 yang setara dengan Ethereum yang aman dan berbiaya rendah yang dikembangkan oleh ConsenSys.\n\nIni memungkinkan transaksi yang lebih cepat dan lebih terjangkau tanpa mengorbankan keamanan dan desentralisasi, bertujuan untuk membawa satu miliar pengguna berikutnya ke web3.",
+        "title": "Apa itu Linea?"
       },
       "optimism": {
         "text": "Optimisme adalah jaringan Layer 2 yang berjalan di atas Ethereum, memungkinkan transaksi yang lebih murah dan lebih cepat sambil masih mendapat manfaat dari keamanan dasar Ethereum.\n\nPenggabungan banyak transaksi bersama dalam \"roll up\" sebelum mengirimkannya ke Ethereum untuk ditetapkan secara permanen.",
@@ -996,16 +996,16 @@
         "title": "Apa itu Polygon?"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "Scroll adalah solusi Layer 2 yang dibangun di atas Ethereum, bertujuan untuk meningkatkan skalabilitas dan efisiensi transaksi.\n\nIni memanfaatkan teknologi roll-up untuk mengikat transaksi, yang kemudian diserahkan ke Ethereum, memanfaatkan infrastruktur keamanannya.",
+        "title": "Apa itu Scroll?"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "Sanko adalah jaringan Layer 3 yang berjalan di atas Arbitrum dan Ethereum, berfokus pada NFT dan permainan.\n\nIni menggunakan ketersediaan data AnyTrust dan bukti penipuan untuk validasi status, memungkinkan transaksi yang lebih cepat dan lebih murah sambil memanfaatkan keamanan Ethereum. Sanko menampilkan token asli bernama DMT dan menggunakan validator daftar putih untuk mengusulkan dan menantang akar status.",
+        "title": "Apa itu Sanko?"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsync adalah protokol Layer 2 yang dirancang untuk meningkatkan skala Ethereum menggunakan bukti kriptografi pengetahuan nol canggih.\n\nIni meningkatkan throughput Ethereum sambil mempertahankan desentralisasi dan keamanan, memungkinkan transaksi yang lebih cepat dan lebih murah.",
+        "title": "Apa itu Zksync?"
       },
       "zora": {
         "text": "Zora adalah Jaringan Layer 2 yang berjalan di atas Ethereum, memungkinkan transaksi yang lebih murah dan cepat sambil tetap mendapatkan keuntungan dari keamanan bawah Ethereum.\n\nIt mengemas banyak transaksi bersama dalam \"roll up\" sebelum mengirimkan mereka turun untuk hidup secara permanen di Ethereum.",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "Mencadangkan...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "Membuat dompet...",
+      "importing_wallet": "Impor...",
+      "restoring": "Memulihkan..."
     },
     "message": {
       "click_to_copy_to_clipboard": "Klik untuk menyalin ke clipboard",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "Batal",
           "confirm": "􀎽 Kirim Transaksi",
-          "confirming": "Confirming",
+          "confirming": "Konfirmasi",
           "get_native_token": "Dapatkan %{symbol}",
           "buy_native_token": "Beli %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "Favorit",
-        "home": "Home",
+        "home": "Beranda",
         "undo_favorite": "Urungkan Favorit",
         "remove": "Hapus",
         "forward": "Maju",
         "back": "Kembali",
         "share": "Bagikan",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "Tutup Semua %{numberOfClosableTabs} Tab",
+        "close_both_tabs": "Tutup Kedua Tab",
+        "close_this_tab": "Tutup Tab Ini",
+        "close_tab": "Tutup Tab",
+        "new_tab": "Tab Baru"
       }
     },
     "trending_tokens": {
       "all": "Semua",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "Tidak ada hasil",
+        "body": "Cobalah menjelajah dalam rentang waktu yang lebih besar atau jaringan atau kategori yang berbeda."
       },
-      "and": "and",
+      "and": "dan",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "dan %{count} lainnya",
+        "other": "dan %{count} lainnya"
       },
       "filters": {
         "categories": {
@@ -3062,36 +3062,36 @@
         "sort": {
           "RECOMMENDED": {
             "label": "Urutkan",
-            "menuOption": "Default"
+            "menuOption": "Standar"
           },
           "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "MARKET_CAP": "Kap Pasar",
+          "TOP_GAINERS": "Pemenang Tertinggi",
+          "TOP_LOSERS": "Pecundang Tertinggi"
         },
         "time": {
-          "H12": "12 Hours",
+          "H12": "12 Jam",
           "H12_ABBREVIATED": "12h",
-          "H24": "24 Hours",
+          "H24": "24 Jam",
           "H24_ABBREVIATED": "24h",
-          "D7": "1 Week",
-          "D3": "3 Days"
+          "D7": "1 Minggu",
+          "D3": "3 Hari"
         }
       }
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "Sesuaikan Jaringan",
+        "tap_the": "Ketuk",
+        "button_to_set_up": "tombol di bawah untuk mengatur"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "Lepaskan Di Sini untuk Melepas",
       "edit": "Edit",
       "networks": "Jaringan",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "Seret untuk Menyusun Ulang",
+      "show_less": "Tampilkan Lebih Sedikit",
       "more": "Lebih",
-      "show_more": "More Networks",
+      "show_more": "Jaringan Lebih Banyak",
       "all_networks": "Semua Jaringan"
     },
     "done": "Selesai",
