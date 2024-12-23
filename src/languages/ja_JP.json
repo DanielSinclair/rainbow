@@ -97,7 +97,7 @@
         "no_keys_found": "キーが見つかりませんでした。もう一度お試しください。",
         "backup_not_found": "バックアップが見つかりませんでした。もう一度お試しください。",
         "no_account_found": "バックアップファイルを取得できません。ログインしていることを確認してください。",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "ウォレットをバックアップできません。キーチェーンデータが欠落しています。"
       },
       "wrong_pin": "入力したPINコードが正しくないため、バックアップを作成できません。正しいコードで再試行してください。",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "バックアップが見つかりません",
         "failed_to_fetch_backups": "バックアップの取得に失敗しました",
         "retry": "再試行",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "更新",
+        "syncing_cloud_store": "%{cloudPlatformName}に同期中",
         "fetching_backups": "%{cloudPlatformName}からバックアップを取得中",
         "back_up_to_platform": "%{cloudPlatformName}にバックアップ",
         "restore_from_platform": "%{cloudPlatformName}から復元する",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "デバイスを紛失したり新しいものを購入した場合に復元できるように、%{cloudPlatform}に安全にウォレットをバックアップしましょう。",
         "choose_backup_manual_description": "秘密のフレーズを安全な場所に保存して、手動でウォレットをバックアップしてください。",
         "enable_cloud_backups_description": "ウォレットを手動でバックアップすることを好む場合、以下で行うことができます。",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "最新のバックアップ: %{date}",
         "back_up_all_wallets_to_cloud": "すべてのウォレットを%{cloudPlatformName}にバックアップ",
         "most_recent_backup": "最も最近のバックアップ",
         "out_of_date": "最新ではありません",
@@ -149,8 +149,8 @@
         "no_older_backups": "以前のバックアップがありません",
         "older_backups_title": "%{date} %{time}時",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "無効",
+          "syncing": "同期中",
           "out_of_date": "最新ではありません",
           "up_to_date": "最新です"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "ガス料金を推定中...",
+        "gas_error": "ガスエラー",
         "quote_error": "見積りエラー",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "ルートが見つかりません",
+        "fetching_quote": "見積もりを取得中...",
+        "select_a_network": "ネットワークを選択",
+        "select_a_token": "トークンを選択",
         "amount_to_claim_on_network": "%{amount}を%{network}で請求する",
         "claim": "請求",
         "claiming": "主張",
@@ -479,11 +479,11 @@
         "done": "完了",
         "try_again": "再試行",
         "tokens_on_the_way": "トークンが届きます！",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "トークン",
+        "a_network": "ネットワーク",
         "swap_failed": "交換失敗",
         "receive": "受け取る",
-        "on": "on"
+        "on": "オン"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "クリアイメージメタデータキャッシュ",
       "clear_local_storage": "ローカルストレージをクリア",
       "clear_mmkv_storage": "MMKVストレージをクリア",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "anvilに接続する",
+      "disconnect_to_anvil": "anvilから切断する",
       "crash_app_render_error": "アプリをクラッシュさせる（レンダーエラー）",
       "enable_testnets": "テストネットを有効にする",
       "installing_update": "アップデートをインストール中",
@@ -875,8 +875,8 @@
       "adworld_title": "ウェルカムトゥレインボーワールド！",
       "farcaster_description": "Warpcastのシンプルなミニマリズムに触発された、最も退屈なアプリアイコン。",
       "farcaster_title": "アンロック\nRainbowcast",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
-      "redacted_title": "You've unlocked\n Redacted Rainbow",
+      "redacted_description": "真のGdupi愛好者のための独占的なRainbowアイコン。",
+      "redacted_title": "ロック解除されました\nRedacted Rainbow",
       "button": "アイコンをキャッチ"
     },
     "explain": {
@@ -972,20 +972,20 @@
         "title": "Degen Chainとは？"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "GravityはGalxeによって構築された高性能のレイヤー1ブロックチェーンであり、1秒あたり1ギガガスを超えるスループットと秒未満の確定性を達成しています。\n\nこれはパイプライン化されたAptosBFTコンセンサスエンジンと並列EVMランタイムを利用し、再ステーキング技術を介してプルーフ・オブ・ステークのセキュリティを維持します。",
+        "title": "Gravityとは？"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "Gnosisチェーンは、世界中の多様なバリデーターによって運営されているコミュニティ所有のEthereumサイドチェーンです。\n\nそれは回復力と信頼できる中立性に焦点を当て、より安価で迅速な取引を提供しながら、自身のセキュリティとコンセンサスメカニズムを維持しています。",
+        "title": "Gnosisとは？"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Inkは、OPスタックに基づいて構築されたレイヤー2ネットワークであり、Ethereumをスケールアップするために設計されており、秒未満のブロック時間と低い取引手数料を提供します。\n\nKrakenによって解放され、Superchainの一部として、Inkは分散型金融（DeFi）アプリケーションのパフォーマンスとアクセシビリティを向上させることを目指しています。",
+        "title": "Inkとは？"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "LineaはConsenSysによって開発された安全で低コストのEthereumに相当するレイヤー2ブロックチェーンです。\n\nそれはセキュリティと分散化を犠牲にすることなく、より迅速で手頃な取引を可能にし、次の10億のWeb3ユーザーをオンボードすることを目指しています。",
+        "title": "Lineaとは？"
       },
       "optimism": {
         "text": "Optimismは、Ethereumの基盤のセキュリティを利用しつつ、より安価かつ高速なトランザクションを実現するLayer 2ネットワークです。\n\nEthereum上で永久的に生き残る前に、多くのトランザクションをまとめて\"roll up\"して送信します。",
@@ -996,16 +996,16 @@
         "title": "Polygonとは"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "ScrollはEthereumの上に構築されたレイヤー2ソリューションで、スケーラビリティとトランザクションの効率を向上させることを目的としています。\n\nそれはトランザクションをバンドルしてからEthereumに提出するロールアップ技術を利用しており、そのセキュリティインフラストラクチャの恩恵を受けています。",
+        "title": "Scrollとは？"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "SankoはArbitrumとEthereumの上で動作するレイヤー3ネットワークで、NFTおよびゲームに焦点を当てています。\n\nこれはAnyTrust Data Availabilityと不正証明を状態検証に使用し、Ethereumのセキュリティを活用しながら高速で安価なトランザクションを可能にします。Sankoは、DMTと呼ばれるネイティブトークンを特徴とし、状態ルートの提案と挑戦にホワイトリストバリデーターを雇用しています。",
+        "title": "Sankoとは？"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsyncは、高度なゼロ知識暗号化証明を使用してEthereumをスケールするために設計されたレイヤー2プロトコルです。\n\nそれは分散化とセキュリティを維持しながらEthereumのスループットを向上させ、より速く、より安価なトランザクションを可能にします。",
+        "title": "Zksyncとは？"
       },
       "zora": {
         "text": "ZoraはEthereumの上で動作するLayer 2ネットワークであり、より安価で高速なトランザクションを実現しながら、Ethereumの基礎的なセキュリティの恩恵も受けます。\n\nロールアップでトランザクションをまとめてから、それらを永久的にEthereum上に送信します。",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "バックアップ中...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "ウォレットを作成中...",
+      "importing_wallet": "インポート中...",
+      "restoring": "復元中..."
     },
     "message": {
       "click_to_copy_to_clipboard": "クリップボードにコピーするにはクリックしてください",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "キャンセル",
           "confirm": "􀎽 トランザクションを送信する",
-          "confirming": "Confirming",
+          "confirming": "確認",
           "get_native_token": "取得します %{symbol}",
           "buy_native_token": "購入します %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "お気に入り",
-        "home": "Home",
+        "home": "ホーム",
         "undo_favorite": "お気に入りを元に戻す",
         "remove": "削除",
         "forward": "進む",
         "back": "戻る",
         "share": "共有する",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "すべての%{numberOfClosableTabs}タブを閉じる",
+        "close_both_tabs": "両方のタブを閉じる",
+        "close_this_tab": "このタブを閉じる",
+        "close_tab": "タブを閉じる",
+        "new_tab": "新しいタブ"
       }
     },
     "trending_tokens": {
       "all": "全て",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "結果がありません",
+        "body": "より大きな時間枠、または異なるネットワークやカテゴリでブラウズしてみてください。"
       },
-      "and": "and",
+      "and": "と",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "と%{count}その他",
+        "other": "と%{count}その他"
       },
       "filters": {
         "categories": {
@@ -3062,36 +3062,36 @@
         "sort": {
           "RECOMMENDED": {
             "label": "ソート",
-            "menuOption": "Default"
+            "menuOption": "デフォルト"
           },
-          "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "VOLUME": "出来高",
+          "MARKET_CAP": "時価総額",
+          "TOP_GAINERS": "トップ上昇者",
+          "TOP_LOSERS": "トップ減少者"
         },
         "time": {
-          "H12": "12 Hours",
-          "H12_ABBREVIATED": "12h",
-          "H24": "24 Hours",
+          "H12": "12時間",
+          "H12_ABBREVIATED": "12時間",
+          "H24": "24時間",
           "H24_ABBREVIATED": "24時間",
-          "D7": "1 Week",
-          "D3": "3 Days"
+          "D7": "1週間",
+          "D3": "3日間"
         }
       }
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "ネットワークをカスタマイズ",
+        "tap_the": "タップする",
+        "button_to_set_up": "セットアップするために下のボタンを"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "ここにドロップして固定解除",
       "edit": "編集",
       "networks": "ネットワーク",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "ドラッグして並べ替え",
+      "show_less": "表示を減らす",
       "more": "もっと",
-      "show_more": "More Networks",
+      "show_more": "もっとネットワーク",
       "all_networks": "全てのネットワーク"
     },
     "done": "完了",
