@@ -96,7 +96,8 @@
         "generic": "Erro ao tentar fazer backup. Código de erro: %{errorCodes}",
         "no_keys_found": "Nenhuma chave encontrada. Por favor, tente novamente.",
         "backup_not_found": "Backup não encontrado. Por favor, tente novamente.",
-        "no_account_found": "Não foi possível recuperar os arquivos de backup. Certifique-se de que você está logado."
+        "no_account_found": "Não foi possível recuperar os arquivos de backup. Certifique-se de que você está logado.",
+        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
       },
       "wrong_pin": "O código PIN que você digitou está incorreto e não podemos fazer backup. Por favor, tente novamente com o código correto.",
       "already_backed_up": {
@@ -115,6 +116,8 @@
         "no_backups": "Nenhum backup encontrado",
         "failed_to_fetch_backups": "Falha ao buscar backups",
         "retry": "Tentar novamente",
+        "refresh": "Refresh",
+        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
         "fetching_backups": "Recuperando backups de %{cloudPlatformName}",
         "back_up_to_platform": "Faça backup para %{cloudPlatformName}",
         "restore_from_platform": "Restaurar de %{cloudPlatformName}",
@@ -137,7 +140,7 @@
         "choose_backup_cloud_description": "Faça backup da sua carteira de forma segura para %{cloudPlatform}, para que você possa restaurá-la se perder seu dispositivo ou adquirir um novo.",
         "choose_backup_manual_description": "Faça o backup da sua carteira manualmente, salvando sua frase secreta em um local seguro.",
         "enable_cloud_backups_description": "Se você preferir fazer o backup das suas carteiras manualmente, pode fazê-lo abaixo.",
-        "latest_backup": "Último Backup: %{date}",
+        "latest_backup": "Latest Backup: %{date}",
         "back_up_all_wallets_to_cloud": "Fazer Backup de Todas as Carteiras para %{cloudPlatformName}",
         "most_recent_backup": "Backup Mais Recente",
         "out_of_date": "Desatualizado",
@@ -145,6 +148,12 @@
         "older_backups": "Backups Antigos",
         "no_older_backups": "Sem Backups Antigos",
         "older_backups_title": "%{date} às %{time}",
+        "statuses": {
+          "not_enabled": "Not Enabled",
+          "syncing": "Syncing",
+          "out_of_date": "Desatualizado",
+          "up_to_date": "Atualizado"
+        },
         "password": {
           "a_password_youll_remember_part_one": "Esta senha é",
           "not": "não",
@@ -452,7 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "calculating_gas_fee": "Calculando a taxa de gás...",
+        "estimating_gas_fee": "Estimating Gas Fee...",
+        "gas_error": "Gas Error",
+        "quote_error": "Erro na Cotação",
+        "no_route_found": "No Route Found",
+        "fetching_quote": "Fetching Quote...",
+        "select_a_network": "Select a Network",
+        "select_a_token": "Select a Token",
         "amount_to_claim_on_network": "%{amount} para reivindicar na %{network}",
         "claim": "Reivindicar",
         "claiming": "Reivindicando",
@@ -463,7 +478,12 @@
         "claim_amount": "Reivindicar %{amount}",
         "done": "Concluído",
         "try_again": "Tente Novamente",
-        "tokens_on_the_way": "Tokens a caminho!"
+        "tokens_on_the_way": "Tokens a caminho!",
+        "a_token": "a token",
+        "a_network": "a network",
+        "swap_failed": "Troca Falhou",
+        "receive": "Receber",
+        "on": "on"
       }
     },
     "cloud": {
@@ -503,8 +523,8 @@
       "clear_image_metadata_cache": "Limpar Cache de Metadados da Imagem",
       "clear_local_storage": "Limpar Armazenamento Local",
       "clear_mmkv_storage": "Limpar Armazenamento MMKV",
-      "connect_to_hardhat": "Conectar ao Hardhat",
-      "disconnect_to_hardhat": "Desconectar do hardhat",
+      "connect_to_anvil": "Connect to anvil",
+      "disconnect_to_anvil": "Disconnect from anvil",
       "crash_app_render_error": "Crash no app (erro de renderização)",
       "enable_testnets": "Ativar Testnets",
       "installing_update": "Instalando atualização",
@@ -642,7 +662,6 @@
       "high": "Alto",
       "slippage_tolerance": "Derrapagem Máxima",
       "source_picker": "Rotas de Trocas passando por",
-      "use_flashbots": "Usar Flashbots",
       "swapping_for_prefix": "Trocar por",
       "view_details": "Ver detalhes",
       "token_sections": {
@@ -723,7 +742,6 @@
       "swap": {
         "swap": "Trocar",
         "bridge": "Ponte",
-        "flashbots_protect": "Flashbots Proteger",
         "losing": "Perdendo",
         "on": "Ligado",
         "off": "Desativado",
@@ -857,6 +875,8 @@
       "adworld_title": "Bem-vindo ao Mundo Rainbow!",
       "farcaster_description": "Nosso ícone de aplicativo mais chato, inspirado no minimalismo enfadonho do Warpcast.",
       "farcaster_title": "Você desbloqueou\nRainbowcast",
+      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
+      "redacted_title": "You've unlocked\n Redacted Rainbow",
       "button": "Desbloqueie o ícone"
     },
     "explain": {
@@ -927,41 +947,69 @@
         "text": "A gorjeta para os mineradores vai diretamente para o minerador que confirma sua transação na rede.\n\nUma gorjeta maior torna sua transação mais provável de ser confirmada rapidamente.",
         "title": "Gorjeta para o minerador"
       },
-      "optimism": {
-        "text": "O Otimismo é uma rede de camada 2 que roda em cima do Ethereum, permitindo transações mais baratas e rápidas, enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nEle agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
-        "title": "O que é o Optimism?"
-      },
-      "base": {
-        "text": "Base é uma rede de Camada 2 que roda em cima do Ethereum, permitindo transações mais baratas e rápidas enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nEle agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
-        "title": "O que é Base?"
+      "apechain": {
+        "text": "ApeChain é uma rede Layer 3 que funciona em cima do Arbitrum Orbit e Ethereum.\n\nEla melhora significativamente a utilidade do ApeCoin, promovendo uma economia robusta e dinâmica impulsionada pelo $APE.",
+        "title": "O que é ApeChain?"
       },
       "avalanche": {
         "text": "Avalanche é uma sidechain, uma rede distinta que opera junto com o Ethereum e é compatível com ela.\n\nPermite transações mais baratas e rápidas, mas, ao contrário das redes de Camada 2, o Avalanche possui seus próprios mecanismos de segurança e consenso que diferem do Ethereum.",
         "title": "O que é Avalanche?"
       },
-      "degen": {
-        "text": "Degen Chain é uma rede Layer 3 que funciona em cima do Arbitrum e Ethereum.",
-        "title": "O que é Degen Chain?"
+      "base": {
+        "text": "Base é uma rede de Camada 2 que roda em cima do Ethereum, permitindo transações mais baratas e rápidas enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nEle agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
+        "title": "O que é Base?"
       },
       "blast": {
         "text": "Blast é uma rede de Camada 2 que opera sobre o Ethereum, permitindo transações mais baratas e rápidas, enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nTambém agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
         "title": "O que é Blast?"
       },
-      "apechain": {
-        "text": "ApeChain é uma rede Layer 3 que funciona em cima do Arbitrum Orbit e Ethereum.\n\nEla melhora significativamente a utilidade do ApeCoin, promovendo uma economia robusta e dinâmica impulsionada pelo $APE.",
-        "title": "O que é ApeChain?"
+      "bsc": {
+        "text": "Binance Smart Chain (BSC) é a blockchain da plataforma de negociação Binance. \n\nO BSC permite transações mais baratas e rápidas, mas, ao contrário de uma rede de Camada 2, ele possui seus próprios mecanismos de segurança e consenso diferentes do Ethereum.",
+        "title": "O que é a Binance Smart Chain?"
       },
-      "zora": {
-        "text": "Zora é uma rede de Camada 2 que roda em cima do Ethereum, permitindo transações mais baratas e rápidas enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nEle agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
-        "title": "O que é o Zora?"
+      "degen": {
+        "text": "Degen Chain é uma rede Layer 3 que funciona em cima do Arbitrum e Ethereum.",
+        "title": "O que é Degen Chain?"
+      },
+      "gravity": {
+        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
+        "title": "What's Gravity?"
+      },
+      "gnosis": {
+        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
+        "title": "What's Gnosis?"
+      },
+      "ink": {
+        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
+        "title": "What's Ink?"
+      },
+      "linea": {
+        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
+        "title": "What's Linea?"
+      },
+      "optimism": {
+        "text": "O Otimismo é uma rede de camada 2 que roda em cima do Ethereum, permitindo transações mais baratas e rápidas, enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nEle agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
+        "title": "O que é o Optimism?"
       },
       "polygon": {
         "text": "Polygon é um sidechain, uma rede distinta que roda ao lado do Ethereum e é compatível com ele.\n\nEle permite transações mais baratas e rápidas, mas, ao contrário das redes de Camada 2, o Polygon possui seus próprios mecanismos de segurança e consenso diferentes do Ethereum.",
         "title": "O que é o Polygon?"
       },
-      "bsc": {
-        "text": "Binance Smart Chain (BSC) é a blockchain da plataforma de negociação Binance. \n\nO BSC permite transações mais baratas e rápidas, mas, ao contrário de uma rede de Camada 2, ele possui seus próprios mecanismos de segurança e consenso diferentes do Ethereum.",
-        "title": "O que é a Binance Smart Chain?"
+      "scroll": {
+        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
+        "title": "What's Scroll?"
+      },
+      "sanko": {
+        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
+        "title": "What's Sanko?"
+      },
+      "zksync": {
+        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
+        "title": "What's Zksync?"
+      },
+      "zora": {
+        "text": "Zora é uma rede de Camada 2 que roda em cima do Ethereum, permitindo transações mais baratas e rápidas enquanto ainda se beneficia da segurança subjacente do Ethereum.\n\nEle agrupa muitas transações juntas em um \"roll up\" antes de enviá-las permanentemente para o Ethereum.",
+        "title": "O que é o Zora?"
       },
       "read_more": "Leia Mais",
       "learn_more": "Saiba Mais",
@@ -1033,15 +1081,6 @@
           "fragment1": "Ainda está curioso? ",
           "fragment2": "Leia mais",
           "fragment3": " sobre o slippage e como isso afeta as trocas."
-        }
-      },
-      "flashbots": {
-        "text": "Flashbots protege suas transações de frontrunning e ataques de sanduíche que podem resultar em você obter um preço pior ou sua transação falhar.",
-        "title": "Flashbots",
-        "still_curious": {
-          "fragment1": "Ainda está curioso? ",
-          "fragment2": "Leia mais",
-          "fragment3": " sobre o Flashbots e a proteção que ele oferece."
         }
       },
       "swap_refuel": {
@@ -1189,6 +1228,12 @@
         "check_out_my_wallet": "Confira meus itens colecionáveis no 🌈 Rainbow em %{showcaseUrl}",
         "check_out_this_wallet": "Confira os itens colecionáveis desta carteira no 🌈 Rainbow em %{showcaseUrl}"
       }
+    },
+    "loading": {
+      "backing_up": "Fazendo backup...",
+      "creating_wallet": "Creating wallet...",
+      "importing_wallet": "Importing...",
+      "restoring": "Restoring..."
     },
     "message": {
       "click_to_copy_to_clipboard": "Clique para copiar para a área de transferência",
@@ -2052,7 +2097,6 @@
       "find_a_token_to_buy": "Encontrar um token para comprar",
       "search_your_tokens": "Buscar seus tokens",
       "error_executing_swap": "Erro ao executar a troca",
-      "flashbots_protection": "Proteção Flashbots",
       "tokens_input": {
         "tokens": "Tokens",
         "sort": "Ordenar",
@@ -2924,6 +2968,7 @@
         "buttons": {
           "cancel": "Cancelar",
           "confirm": "􀎽 Enviar Transação",
+          "confirming": "Confirming",
           "get_native_token": "Pegar %{symbol}",
           "buy_native_token": "Comprar %{symbol}"
         },
@@ -2984,12 +3029,72 @@
       },
       "menus": {
         "favorite": "Favorito",
+        "home": "Home",
         "undo_favorite": "Desfazer Favorito",
         "remove": "Remover",
         "forward": "Avançar",
-        "back": "Voltar"
+        "back": "Voltar",
+        "share": "Compartilhar",
+        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
+        "close_both_tabs": "Close Both Tabs",
+        "close_this_tab": "Close This Tab",
+        "close_tab": "Close Tab",
+        "new_tab": "New Tab"
       }
     },
+    "trending_tokens": {
+      "all": "Todos",
+      "no_results": {
+        "title": "No results",
+        "body": "Try browsing a larger timeframe or a different network or category."
+      },
+      "and": "and",
+      "and_others": {
+        "one": "and %{count} other",
+        "other": "and %{count} others"
+      },
+      "filters": {
+        "categories": {
+          "TRENDING": "Tendências",
+          "NEW": "Novo",
+          "FARCASTER": "Farcaster"
+        },
+        "sort": {
+          "RECOMMENDED": {
+            "label": "Ordenar",
+            "menuOption": "Default"
+          },
+          "VOLUME": "Volume",
+          "MARKET_CAP": "Market Cap",
+          "TOP_GAINERS": "Top Gainers",
+          "TOP_LOSERS": "Top Losers"
+        },
+        "time": {
+          "H12": "12 Hours",
+          "H12_ABBREVIATED": "12h",
+          "H24": "24 Hours",
+          "H24_ABBREVIATED": "24h",
+          "D7": "1 Week",
+          "D3": "3 Days"
+        }
+      }
+    },
+    "network_switcher": {
+      "customize_networks_banner": {
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
+      },
+      "drag_here_to_unpin": "Drop Here to Unpin",
+      "edit": "Editar",
+      "networks": "Redes",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
+      "more": "Mais",
+      "show_more": "More Networks",
+      "all_networks": "Todas as redes"
+    },
+    "done": "Concluído",
     "copy": "Copiar",
     "paste": "Colar"
   }
