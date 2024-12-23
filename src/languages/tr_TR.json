@@ -96,7 +96,8 @@
         "generic": "Yedekleme yapmaya çalışırken hata. Hata kodu: %{errorCodes}",
         "no_keys_found": "Anahtar bulunamadı. Lütfen tekrar deneyin.",
         "backup_not_found": "Yedek bulunamadı. Lütfen tekrar deneyin.",
-        "no_account_found": "Yedek dosyaları alınamadı. Giriş yaptığınızdan emin olun."
+        "no_account_found": "Yedek dosyaları alınamadı. Giriş yaptığınızdan emin olun.",
+        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
       },
       "wrong_pin": "Girdiğiniz PIN kodu yanlış ve bir yedekleme yapamıyoruz. Lütfen doğru kodla tekrar deneyin.",
       "already_backed_up": {
@@ -115,6 +116,8 @@
         "no_backups": "Hiçbir yedekleme bulunamadı",
         "failed_to_fetch_backups": "Yedekler alınamadı",
         "retry": "Tekrar dene",
+        "refresh": "Refresh",
+        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
         "fetching_backups": "%{cloudPlatformName} yedekleri alınıyor",
         "back_up_to_platform": "%{cloudPlatformName}'ya yedekle",
         "restore_from_platform": "%{cloudPlatformName}'dan geri yükle",
@@ -137,7 +140,7 @@
         "choose_backup_cloud_description": "Cüzdanınızı güvenli bir şekilde %{cloudPlatform}a yedekleyin, böylece cihazınızı kaybederseniz veya yeni bir cihaz alırsanız geri yükleyebilirsiniz.",
         "choose_backup_manual_description": "Gizli cümlenizi güvenli bir yere kaydederek cüzdanınızı manuel olarak yedekleyin.",
         "enable_cloud_backups_description": "Cüzdanlarınızı manuel olarak yedeklemeyi tercih ediyorsanız, bunu aşağıdan yapabilirsiniz.",
-        "latest_backup": "Son Yedekleme: %{date}",
+        "latest_backup": "Latest Backup: %{date}",
         "back_up_all_wallets_to_cloud": "Tüm Cüzdanları %{cloudPlatformName}a Yedekle",
         "most_recent_backup": "En Son Yedekleme",
         "out_of_date": "Güncel Değil",
@@ -145,6 +148,12 @@
         "older_backups": "Daha Eski Yedekler",
         "no_older_backups": "Daha Eski Yedek Bulunamadı",
         "older_backups_title": "%{date} tarihinde, %{time} saatinde",
+        "statuses": {
+          "not_enabled": "Not Enabled",
+          "syncing": "Syncing",
+          "out_of_date": "Güncel Değil",
+          "up_to_date": "Güncel"
+        },
         "password": {
           "a_password_youll_remember_part_one": "Bu şifre",
           "not": "değildir",
@@ -452,7 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "calculating_gas_fee": "Gaz ücreti hesaplanıyor...",
+        "estimating_gas_fee": "Estimating Gas Fee...",
+        "gas_error": "Gas Error",
+        "quote_error": "Teklif Hatası",
+        "no_route_found": "No Route Found",
+        "fetching_quote": "Fetching Quote...",
+        "select_a_network": "Select a Network",
+        "select_a_token": "Select a Token",
         "amount_to_claim_on_network": "%{network} üzerinde talep için %{amount}",
         "claim": "Talep Et",
         "claiming": "Talep Etme",
@@ -463,7 +478,12 @@
         "claim_amount": "%{amount} Talep Et",
         "done": "Tamamlandı",
         "try_again": "Tekrar Deneyin",
-        "tokens_on_the_way": "Tokenlar yolda!"
+        "tokens_on_the_way": "Tokenlar yolda!",
+        "a_token": "a token",
+        "a_network": "a network",
+        "swap_failed": "Takas Başarısız",
+        "receive": "Al",
+        "on": "on"
       }
     },
     "cloud": {
@@ -503,8 +523,8 @@
       "clear_image_metadata_cache": "Resim Metaveri Önbelleğini Temizle",
       "clear_local_storage": "Yerel depolamayı temizle",
       "clear_mmkv_storage": "MMKV depolamasını temizle",
-      "connect_to_hardhat": "Hardhat'a bağlan",
-      "disconnect_to_hardhat": "Hardhat'tan bağlantıyı kes",
+      "connect_to_anvil": "Connect to anvil",
+      "disconnect_to_anvil": "Disconnect from anvil",
       "crash_app_render_error": "Uygulamayı çökert (render hatası)",
       "enable_testnets": "Testnetleri Etkinleştir",
       "installing_update": "Güncelleme Yükleniyor",
@@ -642,7 +662,6 @@
       "high": "Yüksek",
       "slippage_tolerance": "Maks Kayma",
       "source_picker": "Takasları Yoluyla Yönlendir",
-      "use_flashbots": "Flashbots Kullan",
       "swapping_for_prefix": "Takas Ediliyor",
       "view_details": "Detayları Gör",
       "token_sections": {
@@ -723,7 +742,6 @@
       "swap": {
         "swap": "Değiştir",
         "bridge": "Köprü",
-        "flashbots_protect": "Flashbots Koruma",
         "losing": "Kaybediyorum",
         "on": "Açık",
         "off": "Kapalı",
@@ -857,6 +875,8 @@
       "adworld_title": "Rainbow Dünyasına Hoş Geldiniz!",
       "farcaster_description": "Farcaster'ın sade minimalizminden ilham alınarak hazırlanmış en sıkıcı uygulama simgemiz.",
       "farcaster_title": "Kazandınız\nRainbowcast",
+      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
+      "redacted_title": "You've unlocked\n Redacted Rainbow",
       "button": "Simgeyi Yakala"
     },
     "explain": {
@@ -927,41 +947,69 @@
         "text": "Madenci bahşişi, işleminizi ağda doğrulayan madenciye doğrudan gider.\n\nDaha yüksek bir bahşiş, işleminizin daha hızlı onaylanmasını daha olası kılar.",
         "title": "Madenci bahşişi"
       },
-      "optimism": {
-        "text": "Optimizm, Ethereum'un üzerinde çalışan ve hala Ethereum'un altında yatan güvenlikten faydalanırken daha ucuz ve hızlı işlemleri mümkün kılan bir Katman 2 ağıdır.\n\nBir sürü işlemi, onları kalıcı olarak Ethereum'a göndermeden önce bir \"roll up\" içinde birleştirir.",
-        "title": "Optimizm nedir?"
-      },
-      "base": {
-        "text": "Base, Ethereum'in üzerinde çalışan Layer 2 bir ağdır, daha ucuz ve daha hızlı işlemleri mümkün kılar ve hala Ethereum'un temel güvenliğinden faydalanır.\n\nBu, bir \"roll up\" içerisinde birçok işlemi birleştirir ve bu işlemleri kalıcı olarak Ethereum'da yaşamak üzere gönderir.",
-        "title": "Ne Base'dir?"
+      "apechain": {
+        "text": "ApeChain, Arbitrum Orbit ve Ethereum'un üzerinde çalışan bir Katman 3 ağıdır. Bu ağ, ApeCoin'in faydasını önemli ölçüde artırarak $APE ile yönlendirilen güçlü ve dinamik bir ekonomi oluşturmaktadır.",
+        "title": "ApeChain nedir?"
       },
       "avalanche": {
         "text": "Avalanche, Ethereum ile uyumlu olan ve yanında çalışan ayrı bir ağ olan bir sidechain'dir.\n\nDaha ucuz ve daha hızlı işlemlere izin verir, ancak Layer 2 ağlarının aksine, Avalanche kendi güvenlik ve uzlaşma mekanizmalarına sahiptir ve bunlar Ethereum'dan farklıdır.",
         "title": "Avalanche nedir?"
       },
-      "degen": {
-        "text": "Degen Chain, Arbitrum ve Ethereum'un üzerinde çalışan bir Katman 3 ağıdır.",
-        "title": "Degen Chain Nedir?"
+      "base": {
+        "text": "Base, Ethereum'in üzerinde çalışan Layer 2 bir ağdır, daha ucuz ve daha hızlı işlemleri mümkün kılar ve hala Ethereum'un temel güvenliğinden faydalanır.\n\nBu, bir \"roll up\" içerisinde birçok işlemi birleştirir ve bu işlemleri kalıcı olarak Ethereum'da yaşamak üzere gönderir.",
+        "title": "Ne Base'dir?"
       },
       "blast": {
         "text": "Blast, Ethereum üzerinde çalışan bir Layer 2 ağıdır ve daha ucuz ve hızlı işlemleri mümkün kılar ve aynı zamanda Ethereum'un temel güvenliğinden faydalanır.\n\nBirçok işlemi \"roll up\" içinde toplayarak kalıcı olarak Ethereum üzerinde yaşamalarına izin verir.",
         "title": "Blast Nedir?"
       },
-      "apechain": {
-        "text": "ApeChain, Arbitrum Orbit ve Ethereum'un üzerinde çalışan bir Katman 3 ağıdır. Bu ağ, ApeCoin'in faydasını önemli ölçüde artırarak $APE ile yönlendirilen güçlü ve dinamik bir ekonomi oluşturmaktadır.",
-        "title": "ApeChain nedir?"
+      "bsc": {
+        "text": "Binance Smart Chain (BSC), ticaret platformu Binance için blockchain'dir. \n\nBSC, daha ucuz ve daha hızlı işlemlere izin verir, ancak Layer 2 ağından farklı olarak, kendi güvenlik ve mutabakat mekanizmaları bulunmaktadır.",
+        "title": "Binance Akıllı Zincir nedir?"
       },
-      "zora": {
-        "text": "Zora, Ethereum'un üzerinde çalışan Layer 2 bir ağdır, daha ucuz ve daha hızlı işlemleri mümkün kılar ve hala Ethereum'un temel güvenliğinden faydalanır.\n\nBu, bir \"roll up\" içerisinde birçok işlemi birleştirir ve bu işlemleri kalıcı olarak Ethereum'da yaşamak üzere gönderir.",
-        "title": "Zora nedir?"
+      "degen": {
+        "text": "Degen Chain, Arbitrum ve Ethereum'un üzerinde çalışan bir Katman 3 ağıdır.",
+        "title": "Degen Chain Nedir?"
+      },
+      "gravity": {
+        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
+        "title": "What's Gravity?"
+      },
+      "gnosis": {
+        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
+        "title": "What's Gnosis?"
+      },
+      "ink": {
+        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
+        "title": "What's Ink?"
+      },
+      "linea": {
+        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
+        "title": "What's Linea?"
+      },
+      "optimism": {
+        "text": "Optimizm, Ethereum'un üzerinde çalışan ve hala Ethereum'un altında yatan güvenlikten faydalanırken daha ucuz ve hızlı işlemleri mümkün kılan bir Katman 2 ağıdır.\n\nBir sürü işlemi, onları kalıcı olarak Ethereum'a göndermeden önce bir \"roll up\" içinde birleştirir.",
+        "title": "Optimizm nedir?"
       },
       "polygon": {
         "text": "Polygon bir yan zincirdir, Ethereum ile uyumlu olan ve onun yanında çalışan ayrı bir ağdır.\n\nDaha ucuz ve hızlı işlemlere izin verir, ancak Layer 2 ağlarının aksine, Polygon'un Ethereum'dan farklı olan kendi güvenlik ve mutabakat mekanizmaları vardır.",
         "title": "Polygon nedir?"
       },
-      "bsc": {
-        "text": "Binance Smart Chain (BSC), ticaret platformu Binance için blockchain'dir. \n\nBSC, daha ucuz ve daha hızlı işlemlere izin verir, ancak Layer 2 ağından farklı olarak, kendi güvenlik ve mutabakat mekanizmaları bulunmaktadır.",
-        "title": "Binance Akıllı Zincir nedir?"
+      "scroll": {
+        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
+        "title": "What's Scroll?"
+      },
+      "sanko": {
+        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
+        "title": "What's Sanko?"
+      },
+      "zksync": {
+        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
+        "title": "What's Zksync?"
+      },
+      "zora": {
+        "text": "Zora, Ethereum'un üzerinde çalışan Layer 2 bir ağdır, daha ucuz ve daha hızlı işlemleri mümkün kılar ve hala Ethereum'un temel güvenliğinden faydalanır.\n\nBu, bir \"roll up\" içerisinde birçok işlemi birleştirir ve bu işlemleri kalıcı olarak Ethereum'da yaşamak üzere gönderir.",
+        "title": "Zora nedir?"
       },
       "read_more": "Daha Fazla Oku",
       "learn_more": "Daha Fazla Öğren",
@@ -1033,15 +1081,6 @@
           "fragment1": "Hâlâ merak mı ediyorsun? ",
           "fragment2": "Daha fazla oku",
           "fragment3": " kayma hakkında ve nasıl etkilediği swaps hakkında."
-        }
-      },
-      "flashbots": {
-        "text": "Flashbots, işlemlerinizi ön koşmayı ve sandviç saldırılarını önler, bu da daha kötü bir fiyat almanıza veya işleminizin başarısız olmasına neden olabilir.",
-        "title": "Flashbots",
-        "still_curious": {
-          "fragment1": "Hâlâ merak mı ediyorsun? ",
-          "fragment2": "Daha fazla oku",
-          "fragment3": " Flashbots hakkında ve sunduğu koruma hakkında."
         }
       },
       "swap_refuel": {
@@ -1189,6 +1228,12 @@
         "check_out_my_wallet": "🌈 Rainbow'daki koleksiyonlarımı kontrol edin %{showcaseUrl}",
         "check_out_this_wallet": "Bu cüzdanın 🌈 Rainbow'daki koleksiyonlarını kontrol edin %{showcaseUrl}"
       }
+    },
+    "loading": {
+      "backing_up": "Yedekleniyor...",
+      "creating_wallet": "Creating wallet...",
+      "importing_wallet": "Importing...",
+      "restoring": "Restoring..."
     },
     "message": {
       "click_to_copy_to_clipboard": "Panoya kopyalamak için tıklayın",
@@ -2052,7 +2097,6 @@
       "find_a_token_to_buy": "Satın Almak İçin Bir Token Bulun",
       "search_your_tokens": "Tokenlarınızı Arayın",
       "error_executing_swap": "Takas Yürütme Hatası",
-      "flashbots_protection": "Flashbots Koruması",
       "tokens_input": {
         "tokens": "Tokenler",
         "sort": "Sırala",
@@ -2924,6 +2968,7 @@
         "buttons": {
           "cancel": "İptal",
           "confirm": "􀎽 İşlem Gönder",
+          "confirming": "Confirming",
           "get_native_token": "Alın %{symbol}",
           "buy_native_token": "Satın Alın %{symbol}"
         },
@@ -2984,12 +3029,72 @@
       },
       "menus": {
         "favorite": "Favori",
+        "home": "Home",
         "undo_favorite": "Geri Al Favori",
         "remove": "Kaldır",
         "forward": "İleri",
-        "back": "Geri"
+        "back": "Geri",
+        "share": "Paylaş",
+        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
+        "close_both_tabs": "Close Both Tabs",
+        "close_this_tab": "Close This Tab",
+        "close_tab": "Close Tab",
+        "new_tab": "New Tab"
       }
     },
+    "trending_tokens": {
+      "all": "Tümü",
+      "no_results": {
+        "title": "No results",
+        "body": "Try browsing a larger timeframe or a different network or category."
+      },
+      "and": "and",
+      "and_others": {
+        "one": "and %{count} other",
+        "other": "and %{count} others"
+      },
+      "filters": {
+        "categories": {
+          "TRENDING": "Gündemde",
+          "NEW": "Yeni",
+          "FARCASTER": "Farcaster"
+        },
+        "sort": {
+          "RECOMMENDED": {
+            "label": "Sırala",
+            "menuOption": "Default"
+          },
+          "VOLUME": "Volume",
+          "MARKET_CAP": "Market Cap",
+          "TOP_GAINERS": "Top Gainers",
+          "TOP_LOSERS": "Top Losers"
+        },
+        "time": {
+          "H12": "12 Hours",
+          "H12_ABBREVIATED": "12h",
+          "H24": "24 Hours",
+          "H24_ABBREVIATED": "24s",
+          "D7": "1 Week",
+          "D3": "3 Days"
+        }
+      }
+    },
+    "network_switcher": {
+      "customize_networks_banner": {
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
+      },
+      "drag_here_to_unpin": "Drop Here to Unpin",
+      "edit": "Düzenle",
+      "networks": "Ağlar",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
+      "more": "Daha fazla",
+      "show_more": "More Networks",
+      "all_networks": "Tüm Ağlar"
+    },
+    "done": "Tamamlandı",
     "copy": "Kopyala",
     "paste": "Yapıştır"
   }
