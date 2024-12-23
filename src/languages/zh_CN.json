@@ -96,7 +96,8 @@
         "generic": "尝试备份时出错。错误代码： %{errorCodes}",
         "no_keys_found": "未找到密钥。请再试一次。",
         "backup_not_found": "未找到备份。请再试一次。",
-        "no_account_found": "无法检索备份文件。请确保您已登录。"
+        "no_account_found": "无法检索备份文件。请确保您已登录。",
+        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
       },
       "wrong_pin": "您输入的PIN码有误，我们无法进行备份。请使用正确的PIN码再试一次。",
       "already_backed_up": {
@@ -115,6 +116,8 @@
         "no_backups": "未找到备份",
         "failed_to_fetch_backups": "获取备份失败",
         "retry": "重试",
+        "refresh": "Refresh",
+        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
         "fetching_backups": "正在从 %{cloudPlatformName} 检索备份",
         "back_up_to_platform": "备份到 %{cloudPlatformName}",
         "restore_from_platform": "从 %{cloudPlatformName} 恢复",
@@ -137,7 +140,7 @@
         "choose_backup_cloud_description": "安全地将您的钱包备份到 %{cloudPlatform}，以便在丢失设备或更换新设备时可以恢复。",
         "choose_backup_manual_description": "通过将您的秘密短语保存在安全位置手动备份您的钱包。",
         "enable_cloud_backups_description": "如果你更喜欢手动备份钱包，你可以在下面进行。",
-        "latest_backup": "上次备份：%{date}",
+        "latest_backup": "Latest Backup: %{date}",
         "back_up_all_wallets_to_cloud": "将所有钱包备份到 %{cloudPlatformName}",
         "most_recent_backup": "最新备份",
         "out_of_date": "过期",
@@ -145,6 +148,12 @@
         "older_backups": "旧备份",
         "no_older_backups": "没有旧备份",
         "older_backups_title": "%{date} 在 %{time}",
+        "statuses": {
+          "not_enabled": "Not Enabled",
+          "syncing": "Syncing",
+          "out_of_date": "过期",
+          "up_to_date": "最新"
+        },
         "password": {
           "a_password_youll_remember_part_one": "这个密码是",
           "not": "不可恢复的。请确保您选择一个您会记住的密码。",
@@ -452,7 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "calculating_gas_fee": "正在计算燃气费...",
+        "estimating_gas_fee": "Estimating Gas Fee...",
+        "gas_error": "Gas Error",
+        "quote_error": "报价错误",
+        "no_route_found": "No Route Found",
+        "fetching_quote": "Fetching Quote...",
+        "select_a_network": "Select a Network",
+        "select_a_token": "Select a Token",
         "amount_to_claim_on_network": "%{amount} 可在 %{network} 领取",
         "claim": "领取",
         "claiming": "认领中",
@@ -463,7 +478,12 @@
         "claim_amount": "领取 %{amount}",
         "done": "完成",
         "try_again": "再试一次",
-        "tokens_on_the_way": "代币正在路上！"
+        "tokens_on_the_way": "代币正在路上！",
+        "a_token": "a token",
+        "a_network": "a network",
+        "swap_failed": "交换失败",
+        "receive": "接收",
+        "on": "on"
       }
     },
     "cloud": {
@@ -503,8 +523,8 @@
       "clear_image_metadata_cache": "清除图片内元数据缓存",
       "clear_local_storage": "清除本地存储",
       "clear_mmkv_storage": "清除MMKV存储",
-      "connect_to_hardhat": "连接到hardhat",
-      "disconnect_to_hardhat": "断开硬帽连接",
+      "connect_to_anvil": "Connect to anvil",
+      "disconnect_to_anvil": "Disconnect from anvil",
       "crash_app_render_error": "崩溃应用程序（渲染错误）",
       "enable_testnets": "启用Testnets",
       "installing_update": "正在安装更新",
@@ -642,7 +662,6 @@
       "high": "高",
       "slippage_tolerance": "最大滑点",
       "source_picker": "通过路线交换",
-      "use_flashbots": "使用Flashbots",
       "swapping_for_prefix": "交换用于",
       "view_details": "查看详情",
       "token_sections": {
@@ -723,7 +742,6 @@
       "swap": {
         "swap": "交换",
         "bridge": "桥接",
-        "flashbots_protect": "Flashbots保护",
         "losing": "正在损失",
         "on": "开",
         "off": "关闭",
@@ -857,6 +875,8 @@
       "adworld_title": "欢迎来到Rainbow世界！",
       "farcaster_description": "我们最无聊的应用图标，灵感来自Warpcast的极简风。",
       "farcaster_title": "你已解锁\nRainbowcast",
+      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
+      "redacted_title": "You've unlocked\n Redacted Rainbow",
       "button": "解锁图标"
     },
     "explain": {
@@ -927,41 +947,69 @@
         "text": "矿工小费直接支付给在网络上确认你的交易的矿工。\n\n较高的小费使你的交易更有可能被快速确认。",
         "title": "矿工小费"
       },
-      "optimism": {
-        "text": "Optimism是一个在以太坊之上运行的第二层网络，它能同时利用到以太坊的底层安全性，实现更便宜、更快的交易。\n\n它在发送到以太坊永久存储前将大量交易打包在一个\"滚动更新\"中。",
-        "title": "什么是Optimism？"
-      },
-      "base": {
-        "text": "Base是在以太坊之上运行的2层网络，使得交易更便宜更快速，同时仍然受益于以太坊的底层安全性。\n\n在将交易永久地发送到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
-        "title": "什么是Base?"
+      "apechain": {
+        "text": "ApeChain是一个在Arbitrum Orbit和以太坊之上运行的Layer <b>3</b>网络。<br/><br/>它显著增强了ApeCoin的实用性，促进了由$APE驱动的强大而动态的经济。",
+        "title": "什么是ApeChain？"
       },
       "avalanche": {
         "text": "Avalanche 是一个侧链，它是一个与以太坊并行运行的独立网络，并且兼容以太坊。\n\n它支持更便宜和更快速的交易，但与Layer 2网络不同，Avalanche具有自己的安全性和共识机制，与以太坊不同。",
         "title": "Avalanche是什么？"
       },
-      "degen": {
-        "text": "Degen链是一个在Arbitrum Orbit和以太坊之上运行的Layer <b>3</b>网络。",
-        "title": "什么是Degen Chain?"
+      "base": {
+        "text": "Base是在以太坊之上运行的2层网络，使得交易更便宜更快速，同时仍然受益于以太坊的底层安全性。\n\n在将交易永久地发送到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
+        "title": "什么是Base?"
       },
       "blast": {
         "text": "Blast 是一个运行在以太坊之上的第二层网络，可以实现更便宜和更快的交易，同时仍能从以太坊的底层安全性中受益。\n\n它将许多交易捆绑在一个“roll up”中，然后将其永久发送到以太坊。",
         "title": "什么是Blast?"
       },
-      "apechain": {
-        "text": "ApeChain是一个在Arbitrum Orbit和以太坊之上运行的Layer <b>3</b>网络。<br/><br/>它显著增强了ApeCoin的实用性，促进了由$APE驱动的强大而动态的经济。",
-        "title": "什么是ApeChain？"
+      "bsc": {
+        "text": "Binance Smart Chain（BSC）是交易平台Binance的区块链。 \n\nBSC提供了更便宜更快速的交易，但与2层网络不同，它有自己独特的安全和共识机制，这与以太坊不同。",
+        "title": "什么是Binance Smart Chain？"
       },
-      "zora": {
-        "text": "Zora是一个运行在以太坊之上的2层网络，它使得交易更加便宜且更快，同时仍然从以太坊的底层安全中受益。\n\n在将他们永久地发到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
-        "title": "什么是Zora？"
+      "degen": {
+        "text": "Degen链是一个在Arbitrum Orbit和以太坊之上运行的Layer <b>3</b>网络。",
+        "title": "什么是Degen Chain?"
+      },
+      "gravity": {
+        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
+        "title": "What's Gravity?"
+      },
+      "gnosis": {
+        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
+        "title": "What's Gnosis?"
+      },
+      "ink": {
+        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
+        "title": "What's Ink?"
+      },
+      "linea": {
+        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
+        "title": "What's Linea?"
+      },
+      "optimism": {
+        "text": "Optimism是一个在以太坊之上运行的第二层网络，它能同时利用到以太坊的底层安全性，实现更便宜、更快的交易。\n\n它在发送到以太坊永久存储前将大量交易打包在一个\"滚动更新\"中。",
+        "title": "什么是Optimism？"
       },
       "polygon": {
         "text": "Polygon是一个并行链，一个于以太坊并行运行且与之兼容的区别网络。\n\n它提供了更便宜更快速的交易，但和2层网络不同，Polygon有其自己的安全和共识机制，这与以太坊不同。",
         "title": "什么是Polygon?"
       },
-      "bsc": {
-        "text": "Binance Smart Chain（BSC）是交易平台Binance的区块链。 \n\nBSC提供了更便宜更快速的交易，但与2层网络不同，它有自己独特的安全和共识机制，这与以太坊不同。",
-        "title": "什么是Binance Smart Chain？"
+      "scroll": {
+        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
+        "title": "What's Scroll?"
+      },
+      "sanko": {
+        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
+        "title": "What's Sanko?"
+      },
+      "zksync": {
+        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
+        "title": "What's Zksync?"
+      },
+      "zora": {
+        "text": "Zora是一个运行在以太坊之上的2层网络，它使得交易更加便宜且更快，同时仍然从以太坊的底层安全中受益。\n\n在将他们永久地发到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
+        "title": "什么是Zora？"
       },
       "read_more": "阅读更多",
       "learn_more": "了解详情",
@@ -1033,15 +1081,6 @@
           "fragment1": "还感到好奇吗？ ",
           "fragment2": "阅读更多",
           "fragment3": " 关于滑点和它如何影响交换。"
-        }
-      },
-      "flashbots": {
-        "text": "Flashbots保护您的交易免受前运行和夹击攻击，这可能导致您得到的价格更糟糕或者您的交易失败。",
-        "title": "Flashbots",
-        "still_curious": {
-          "fragment1": "还感到好奇吗？ ",
-          "fragment2": "阅读更多",
-          "fragment3": " 关于Flashbots和它提供的保护。"
         }
       },
       "swap_refuel": {
@@ -1189,6 +1228,12 @@
         "check_out_my_wallet": "在🌈 Rainbow上看看我的收藏品 %{showcaseUrl}",
         "check_out_this_wallet": "在🌈 Rainbow上查看这个钱包的收藏品 %{showcaseUrl}"
       }
+    },
+    "loading": {
+      "backing_up": "正在备份...",
+      "creating_wallet": "Creating wallet...",
+      "importing_wallet": "Importing...",
+      "restoring": "Restoring..."
     },
     "message": {
       "click_to_copy_to_clipboard": "点击复制到剪贴板",
@@ -2052,7 +2097,6 @@
       "find_a_token_to_buy": "找一个要购买的代币",
       "search_your_tokens": "搜索你的代币",
       "error_executing_swap": "执行交换时出错",
-      "flashbots_protection": "Flashbots 保护",
       "tokens_input": {
         "tokens": "代币",
         "sort": "排序",
@@ -2924,6 +2968,7 @@
         "buttons": {
           "cancel": "取消",
           "confirm": "􀎽 发送交易",
+          "confirming": "Confirming",
           "get_native_token": "获取 %{symbol}",
           "buy_native_token": "购买 %{symbol}"
         },
@@ -2984,12 +3029,72 @@
       },
       "menus": {
         "favorite": "收藏",
+        "home": "Home",
         "undo_favorite": "撤消收藏",
         "remove": "删除",
         "forward": "前进",
-        "back": "返回"
+        "back": "返回",
+        "share": "分享",
+        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
+        "close_both_tabs": "Close Both Tabs",
+        "close_this_tab": "Close This Tab",
+        "close_tab": "Close Tab",
+        "new_tab": "New Tab"
       }
     },
+    "trending_tokens": {
+      "all": "全部",
+      "no_results": {
+        "title": "No results",
+        "body": "Try browsing a larger timeframe or a different network or category."
+      },
+      "and": "and",
+      "and_others": {
+        "one": "and %{count} other",
+        "other": "and %{count} others"
+      },
+      "filters": {
+        "categories": {
+          "TRENDING": "趋势",
+          "NEW": "新的",
+          "FARCASTER": "Farcaster"
+        },
+        "sort": {
+          "RECOMMENDED": {
+            "label": "排序",
+            "menuOption": "Default"
+          },
+          "VOLUME": "Volume",
+          "MARKET_CAP": "Market Cap",
+          "TOP_GAINERS": "Top Gainers",
+          "TOP_LOSERS": "Top Losers"
+        },
+        "time": {
+          "H12": "12 Hours",
+          "H12_ABBREVIATED": "12h",
+          "H24": "24 Hours",
+          "H24_ABBREVIATED": "24小时",
+          "D7": "1 Week",
+          "D3": "3 Days"
+        }
+      }
+    },
+    "network_switcher": {
+      "customize_networks_banner": {
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
+      },
+      "drag_here_to_unpin": "Drop Here to Unpin",
+      "edit": "编辑",
+      "networks": "网络",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
+      "more": "更多",
+      "show_more": "More Networks",
+      "all_networks": "所有网络"
+    },
+    "done": "完成",
     "copy": "复制",
     "paste": "粘贴"
   }
