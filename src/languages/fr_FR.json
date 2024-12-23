@@ -97,7 +97,7 @@
         "no_keys_found": "Aucune clé trouvée. Veuillez réessayer.",
         "backup_not_found": "Sauvegarde non trouvée. Veuillez réessayer.",
         "no_account_found": "Impossible de récupérer les fichiers de sauvegarde. Assurez-vous d'être connecté.",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "Impossible de sauvegarder le portefeuille. Données de la trousseau manquantes."
       },
       "wrong_pin": "Le code PIN que vous avez entré était incorrect et nous ne pouvons pas faire de sauvegarde. Veuillez réessayer avec le bon code.",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "Aucune sauvegarde trouvée",
         "failed_to_fetch_backups": "Échec de récupération des sauvegardes",
         "retry": "Réessayer",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "Rafraîchir",
+        "syncing_cloud_store": "Synchronisation avec %{cloudPlatformName}",
         "fetching_backups": "Récupération des sauvegardes de %{cloudPlatformName}",
         "back_up_to_platform": "Sauvegarder sur %{cloudPlatformName}",
         "restore_from_platform": "Restaurer à partir de %{cloudPlatformName}",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "Sauvegardez en toute sécurité votre portefeuille sur %{cloudPlatform} afin de pouvoir le restaurer si vous perdez votre appareil ou en obtenez un nouveau.",
         "choose_backup_manual_description": "Sauvegardez votre portefeuille manuellement en enregistrant votre phrase secrète dans un endroit sécurisé.",
         "enable_cloud_backups_description": "Si vous préférez sauvegarder vos portefeuilles manuellement, vous pouvez le faire ci-dessous.",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "Dernière sauvegarde : %{date}",
         "back_up_all_wallets_to_cloud": "Sauvegarder tous les portefeuilles sur %{cloudPlatformName}",
         "most_recent_backup": "Sauvegarde la plus récente",
         "out_of_date": "Non à jour",
@@ -149,8 +149,8 @@
         "no_older_backups": "Aucune ancienne sauvegarde",
         "older_backups_title": "%{date} à %{time}",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "Non activé",
+          "syncing": "Synchronisation",
           "out_of_date": "Non à jour",
           "up_to_date": "À jour"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "Estimation des frais de gaz...",
+        "gas_error": "Erreur de gaz",
         "quote_error": "Erreur de Devis",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "Aucun itinéraire trouvé",
+        "fetching_quote": "Récupération du devis...",
+        "select_a_network": "Sélectionnez un réseau",
+        "select_a_token": "Sélectionner un token",
         "amount_to_claim_on_network": "%{amount} à réclamer sur %{network}",
         "claim": "Réclamer",
         "claiming": "Réclamer",
@@ -479,11 +479,11 @@
         "done": "Terminé",
         "try_again": "Réessayer",
         "tokens_on_the_way": "Jetons en route!",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "un token",
+        "a_network": "un réseau",
         "swap_failed": "Échec de l'échange",
         "receive": "Recevoir",
-        "on": "on"
+        "on": "sur"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "Effacer le cache des métadonnées d'image",
       "clear_local_storage": "Effacer le stockage local",
       "clear_mmkv_storage": "Effacer le stockage MMKV",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "Se connecter à anvil",
+      "disconnect_to_anvil": "Se déconnecter de anvil",
       "crash_app_render_error": "Crash app (render error) :)",
       "enable_testnets": "Activer Testnets",
       "installing_update": "Installation de la mise à jour",
@@ -875,7 +875,7 @@
       "adworld_title": "Bienvenue dans le monde Rainbow!",
       "farcaster_description": "Notre icône d'application la plus ennuyeuse jamais créée, inspirée par le minimalisme fade de Warpcast.",
       "farcaster_title": "Vous avez débloqué\nRainbowcast",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
+      "redacted_description": "Une icône Rainbow exclusive pour les véritables amateurs de Gdupi.",
       "redacted_title": "You've unlocked\n Redacted Rainbow",
       "button": "Snag the icon :)"
     },
@@ -972,20 +972,20 @@
         "title": "Qu'est-ce que Degen Chain?"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "Gravity est une blockchain de haute performance de couche 1 construite par Galxe, atteignant un débit de plus d'un gigagas par seconde et une finalité sous-seconde.\n\nElle utilise un moteur de consensus AptosBFT en pipeline et un runtime EVM parallèle, maintenant la sécurité de la preuve d'enjeu grâce à la technologie de restaking.",
+        "title": "Qu'est-ce que Gravity ?"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "Gnosis Chain est une sidechain Ethereum appartenant à la communauté et opérée par un ensemble diversifié de validateurs à travers le monde.\n\nElle se concentre sur la résilience et la neutralité crédible, offrant des transactions moins chères et plus rapides tout en maintenant ses propres mécanismes de sécurité et de consensus.",
+        "title": "Qu'est-ce que Gnosis ?"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Ink est un réseau Layer 2 construit sur le OP Stack, conçu pour étendre Ethereum en fournissant des temps de blocs sous-seconde et des frais de transaction faibles.\n\nLancé par Kraken, et faisant partie du Superchain, Ink vise à améliorer la performance et l'accessibilité des applications de finance décentralisée (DeFi).",
+        "title": "Qu'est-ce que Ink ?"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "Linea est une blockchain sécurisée, équivalente à Ethereum, et de faible coût de couche 2 développée par ConsenSys.\n\nElle permet des transactions plus rapides et plus abordables sans compromettre la sécurité et la décentralisation, visant à intégrer le prochain milliard d'utilisateurs à Web3.",
+        "title": "Qu'est-ce que Linea ?"
       },
       "optimism": {
         "text": "L'optimisme est un réseau de couche 2 qui fonctionne sur Ethereum, permettant des transactions moins coûteuses et plus rapides tout en bénéficiant toujours de la sécurité sous-jacente d'Ethereum.\n\nIl regroupe de nombreuses transactions ensemble dans un \"roll up\" avant de les envoyer vivre de manière permanente sur Ethereum.",
@@ -996,16 +996,16 @@
         "title": "Qu'est-ce que Polygon?"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "Scroll est une solution Layer 2 construite sur Ethereum, visant à améliorer la scalabilité et l'efficacité des transactions.\n\nElle utilise la technologie roll-up pour regrouper les transactions, qui sont ensuite soumises à Ethereum, bénéficiant de son infrastructure de sécurité.",
+        "title": "Qu'est-ce que Scroll ?"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "Sanko est un réseau Layer 3 qui fonctionne sur Arbitrum et Ethereum, se concentrant sur les NFTs et le gaming.\n\nIl utilise la disponibilité de données AnyTrust et des preuves de fraude pour la validation de l'état, permettant des transactions plus rapides et moins chères tout en exploitant la sécurité d'Ethereum. Sanko dispose d'un jeton natif appelé DMT et emploie des validateurs en liste blanche pour proposer et contester les racines d'état.",
+        "title": "Qu'est-ce que Sanko ?"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsync est un protocole Layer 2 conçu pour étendre Ethereum en utilisant des preuves cryptographiques à connaissance zéro avancées.\n\nIl améliore le débit d'Ethereum tout en maintenant la décentralisation et la sécurité, permettant des transactions plus rapides et moins chères.",
+        "title": "Qu'est-ce que Zksync ?"
       },
       "zora": {
         "text": "Zora est un réseau Layer 2 qui fonctionne sur Ethereum, permettant des transactions moins chères et plus rapides tout en bénéficiant toujours de la sécurité sous-jacente d'Ethereum.\n\nIl regroupe beaucoup de transactions ensemble dans un \"roll up\" avant de les envoyer pour demeurer de manière permanente sur Ethereum.",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "Sauvegarde en cours...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "Création du portefeuille...",
+      "importing_wallet": "Importation...",
+      "restoring": "Restauration..."
     },
     "message": {
       "click_to_copy_to_clipboard": "Cliquez pour copier dans le presse-papiers",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "Annuler",
           "confirm": "􀎽 Confirmer",
-          "confirming": "Confirming",
+          "confirming": "Confirmation",
           "get_native_token": "Obtenir %{symbol}",
           "buy_native_token": "Acheter %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "Favori",
-        "home": "Home",
+        "home": "Accueil",
         "undo_favorite": "Annuler le favori",
         "remove": "Retirer",
         "forward": "Avancer",
         "back": "Retour",
         "share": "Partager",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "Fermer toutes les %{numberOfClosableTabs} onglets",
+        "close_both_tabs": "Fermer les deux onglets",
+        "close_this_tab": "Fermer cet onglet",
+        "close_tab": "Fermer l'onglet",
+        "new_tab": "Nouvel onglet"
       }
     },
     "trending_tokens": {
       "all": "Tout",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "Aucun résultat",
+        "body": "Essayez de parcourir une période plus longue ou un réseau ou une catégorie différente."
       },
-      "and": "and",
+      "and": "et",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "et %{count} autre",
+        "other": "et %{count} autres"
       },
       "filters": {
         "categories": {
@@ -3062,36 +3062,36 @@
         "sort": {
           "RECOMMENDED": {
             "label": "Trier",
-            "menuOption": "Default"
+            "menuOption": "Par défaut"
           },
           "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "MARKET_CAP": "Capitalisation boursière",
+          "TOP_GAINERS": "Principaux gagnants",
+          "TOP_LOSERS": "Principaux perdants"
         },
         "time": {
-          "H12": "12 Hours",
+          "H12": "12 heures",
           "H12_ABBREVIATED": "12h",
-          "H24": "24 Hours",
+          "H24": "24 heures",
           "H24_ABBREVIATED": "24h",
-          "D7": "1 Week",
-          "D3": "3 Days"
+          "D7": "1 semaine",
+          "D3": "3 jours"
         }
       }
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "Personnaliser les réseaux",
+        "tap_the": "Tapez sur le",
+        "button_to_set_up": "bouton ci-dessous pour configurer"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "Déposez ici pour détacher",
       "edit": "Modifier",
       "networks": "Réseaux",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "Faites glisser pour réorganiser",
+      "show_less": "Afficher moins",
       "more": "Plus",
-      "show_more": "More Networks",
+      "show_more": "Plus de réseaux",
       "all_networks": "Tous les réseaux"
     },
     "done": "Terminé",
