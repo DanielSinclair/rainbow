@@ -97,7 +97,7 @@
         "no_keys_found": "키를 찾을 수 없습니다. 다시 시도해 주세요.",
         "backup_not_found": "백업을 찾을 수 없습니다. 다시 시도해 주세요.",
         "no_account_found": "백업 파일을 가져올 수 없습니다. 로그인했는지 확인하세요.",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "지갑을 백업할 수 없습니다. 키체인 데이터가 누락되었습니다."
       },
       "wrong_pin": "입력하신 PIN 코드가 잘못되어 백업을 만들 수 없습니다. 정확한 코드로 다시 시도해 주세요.",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "백업을 찾을 수 없습니다",
         "failed_to_fetch_backups": "백업을 가져오지 못했습니다",
         "retry": "다시 시도",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "새로고침",
+        "syncing_cloud_store": "%{cloudPlatformName}에 동기화 중",
         "fetching_backups": "%{cloudPlatformName}에서 백업 가져오는 중",
         "back_up_to_platform": "%{cloudPlatformName}으로 백업",
         "restore_from_platform": "%{cloudPlatformName}에서 복원하기",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "기기를 분실하거나 새 기기를 사용할 경우 복원할 수 있도록 %{cloudPlatform}에 안전하게 지갑을 백업하세요.",
         "choose_backup_manual_description": "암호를 안전한 곳에 보관하여 지갑을 수동으로 백업하세요.",
         "enable_cloud_backups_description": "지갑을 수동으로 백업하려면 아래에서 진행할 수 있습니다.",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "최신 백업: %{date}",
         "back_up_all_wallets_to_cloud": "모든 지갑을 %{cloudPlatformName}에 백업",
         "most_recent_backup": "가장 최근 백업",
         "out_of_date": "구버전",
@@ -149,8 +149,8 @@
         "no_older_backups": "오래된 백업 없음",
         "older_backups_title": "%{date} %{time}",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "비활성화됨",
+          "syncing": "동기화 중",
           "out_of_date": "구버전",
           "up_to_date": "최신 상태"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "가스 수수료 예상 중...",
+        "gas_error": "가스 오류",
         "quote_error": "견적 오류",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "경로를 찾을 수 없음",
+        "fetching_quote": "견적 가져오는 중...",
+        "select_a_network": "네트워크 선택",
+        "select_a_token": "토큰 선택",
         "amount_to_claim_on_network": "%{amount}을(를) %{network}에서 청구",
         "claim": "청구",
         "claiming": "청구 중",
@@ -479,11 +479,11 @@
         "done": "완료",
         "try_again": "다시 시도하기",
         "tokens_on_the_way": "토큰이 도착 중입니다!",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "토큰",
+        "a_network": "네트워크",
         "swap_failed": "교환 실패",
         "receive": "받기",
-        "on": "on"
+        "on": "켜짐"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "이미지 메타데이터 캐시 지우기",
       "clear_local_storage": "로컬 저장소 지우기",
       "clear_mmkv_storage": "MMKV 저장소 지우기",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "Anvil에 연결",
+      "disconnect_to_anvil": "Anvil에서 연결 해제",
       "crash_app_render_error": "애플리케이션 종료 (렌더링 오류)",
       "enable_testnets": "테스트넷 활성화",
       "installing_update": "업데이트 설치 중",
@@ -875,8 +875,8 @@
       "adworld_title": "Rainbow World에 오신 것을 환영합니다!",
       "farcaster_description": "Warpcast의 밋밋한 미니멀리즘에서 영감을 받은 가장 지루한 앱 아이콘입니다.",
       "farcaster_title": "잠금 해제\nRainbowcast",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
-      "redacted_title": "You've unlocked\n Redacted Rainbow",
+      "redacted_description": "진정한 Gdupi 애호가를 위한 stupi 전용 Rainbow 아이콘입니다.",
+      "redacted_title": "잠금 해제 완료\nRedacted Rainbow",
       "button": "아이콘 잡기"
     },
     "explain": {
@@ -972,20 +972,20 @@
         "title": "Degen Chain이란 무엇인가요?"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "Gravity는 Galxe가 구축한 고성능 레이어 1 블록체인으로, 초당 1기가가스 이상의 처리량과 초 이내의 확정성을 달성합니다.\n\n이는 파이프라인 처리된 AptosBFT 합의 엔진과 병렬 EVM 런타임을 활용하며, 리스테이킹 기술을 통해 PoS 보안을 유지합니다.",
+        "title": "Gravity란 무엇인가요?"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "Gnosis 체인은 다양한 검증자가 전 세계적으로 운영하는 커뮤니티 소유의 Ethereum 사이드체인입니다.\n\n이는 복원력과 신뢰할 수 있는 중립성에 중점을 두고, 자체 보안 및 합의 메커니즘을 유지하면서 더 저렴하고 빠른 거래를 제공합니다.",
+        "title": "Gnosis란 무엇인가요?"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Ink는 OP 스택 위에 구축된 레이어 2 네트워크로, 초이내의 블록 시간과 낮은 거래 수수료를 제공함으로써 Ethereum의 확장성을 목표로 설계되었습니다.\n\nKraken에 의해 출시되었고 Superchain의 일부인 Ink는 DeFi 응용 프로그램의 성능과 접근성을 향상시키는 것을 목표로 합니다.",
+        "title": "Ink란 무엇인가요?"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "Linea는 ConsenSys에서 개발한 안전하고 적은 비용의 Ethereum 등가 레이어 2 블록체인입니다.\n\n이는 보안과 탈중앙화를 손상시키지 않으면서 거래를 더 빠르고 저렴하게 하고, 다음 10억 명의 사용자를 web3로 끌어들이는 것을 목표로 합니다.",
+        "title": "Linea란 무엇인가요?"
       },
       "optimism": {
         "text": "Optimism은 Ethereum 위에 실행되는 Layer 2 네트워크로, Ethereum의 기본 보안에서 여전히 혜택을 받으면서 저렴하고 빠른 거래를 가능하게 합니다.\n\n한 번에 많은 거래를 \"roll up\"하여 Ethereum에 영구적으로 보냅니다.",
@@ -996,16 +996,16 @@
         "title": "폴리곤이란 무엇인가?"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "Scroll은 Ethereum 위에 구축된 레이어 2 솔루션으로, 확장성과 거래 효율성을 향상시키는 것을 목표로 하고 있습니다.\n\n이는 롤업 기술을 사용하여 거래를 번들화한 후 Ethereum에 제출되며, 이의 보안 인프라의 이점을 얻습니다.",
+        "title": "Scroll이란 무엇인가요?"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "Sanko는 Arbitrum과 Ethereum 위에서 동작하는 레이어 3 네트워크로, NFT 및 게임에 초점을 맞추고 있습니다.\n\n이는 상태 검증을 위해 AnyTrust 데이터 가용성과 사기 증명을 사용하여 Ethereum의 보안을 활용하면서 거래를 더 빠르고 저렴하게 할 수 있습니다. Sanko는 DMT라는 네이티브 토큰을 특징으로 하며, 상태 루트를 제안하고 도전하는 화이트리스트된 검증자를 고용합니다.",
+        "title": "Sanko란 무엇인가요?"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsync는 고급 영지식 암호학적 증명을 사용하여 Ethereum을 확장하도록 설계된 레이어 2 프로토콜입니다.\n\n이는 탈중앙화와 보안을 유지하면서 Ethereum의 처리량을 증가시키며, 더 빠르고 저렴한 거래를 가능하게 합니다.",
+        "title": "Zksync란 무엇인가요?"
       },
       "zora": {
         "text": "조라는 이더리움 위에서 실행되는 레이어 2 네트워크로, 거래 비용을 낮추고 속도를 높이면서도 이더리움의 기본 보안에서 여전히 혜택을 받습니다.\n\n그것은 많은 거래를 한꺼번에 \"롤업\"에 묶어 이더리움에 영구적으로 보내서 보관합니다.",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "백업 중...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "지갑 생성 중...",
+      "importing_wallet": "가져오는 중...",
+      "restoring": "복구 중..."
     },
     "message": {
       "click_to_copy_to_clipboard": "클립보드에 복사하려면 클릭하세요",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "취소",
           "confirm": "􀎽 거래 보내기",
-          "confirming": "Confirming",
+          "confirming": "확인 중",
           "get_native_token": "Get %{symbol}",
           "buy_native_token": "구매 %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "즐겨찾기",
-        "home": "Home",
+        "home": "홈",
         "undo_favorite": "즐겨찾기 실행 취소",
         "remove": "제거",
         "forward": "앞으로",
         "back": "뒤로",
         "share": "공유",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "모든 %{numberOfClosableTabs}개의 탭 닫기",
+        "close_both_tabs": "두 탭 닫기",
+        "close_this_tab": "이 탭 닫기",
+        "close_tab": "탭 닫기",
+        "new_tab": "새 탭"
       }
     },
     "trending_tokens": {
       "all": "모두",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "결과 없음",
+        "body": "더 큰 시간 프레임, 다른 네트워크 또는 카테고리를 탐색해 보세요."
       },
-      "and": "and",
+      "and": "그리고",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "그리고 %{count} 다름",
+        "other": "그리고 %{count} 다른"
       },
       "filters": {
         "categories": {
@@ -3062,16 +3062,16 @@
         "sort": {
           "RECOMMENDED": {
             "label": "정렬",
-            "menuOption": "Default"
+            "menuOption": "기본"
           },
-          "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "VOLUME": "거래량",
+          "MARKET_CAP": "시가 총액",
+          "TOP_GAINERS": "상승률 상위",
+          "TOP_LOSERS": "하락률 상위"
         },
         "time": {
           "H12": "12 Hours",
-          "H12_ABBREVIATED": "12h",
+          "H12_ABBREVIATED": "12시간",
           "H24": "24 Hours",
           "H24_ABBREVIATED": "24시간",
           "D7": "1 Week",
@@ -3081,17 +3081,17 @@
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
+        "title": "네트워크 사용자 정의",
         "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "button_to_set_up": "설정하려면 아래 버튼을 눌러주세요"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "고정 해제하려면 여기에 드롭하세요",
       "edit": "편집",
       "networks": "네트워크",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "재배열하려면 드래그하세요",
+      "show_less": "적게 보기",
       "more": "더 보기",
-      "show_more": "More Networks",
+      "show_more": "더 많은 네트워크",
       "all_networks": "모든 네트워크"
     },
     "done": "완료",
