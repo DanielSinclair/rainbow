@@ -97,7 +97,7 @@
         "no_keys_found": "未找到密钥。请再试一次。",
         "backup_not_found": "未找到备份。请再试一次。",
         "no_account_found": "无法检索备份文件。请确保您已登录。",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "无法备份钱包。缺少钥匙链数据。"
       },
       "wrong_pin": "您输入的PIN码有误，我们无法进行备份。请使用正确的PIN码再试一次。",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "未找到备份",
         "failed_to_fetch_backups": "获取备份失败",
         "retry": "重试",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "刷新",
+        "syncing_cloud_store": "正在同步到%{cloudPlatformName}",
         "fetching_backups": "正在从 %{cloudPlatformName} 检索备份",
         "back_up_to_platform": "备份到 %{cloudPlatformName}",
         "restore_from_platform": "从 %{cloudPlatformName} 恢复",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "安全地将您的钱包备份到 %{cloudPlatform}，以便在丢失设备或更换新设备时可以恢复。",
         "choose_backup_manual_description": "通过将您的秘密短语保存在安全位置手动备份您的钱包。",
         "enable_cloud_backups_description": "如果你更喜欢手动备份钱包，你可以在下面进行。",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "最新备份：%{date}",
         "back_up_all_wallets_to_cloud": "将所有钱包备份到 %{cloudPlatformName}",
         "most_recent_backup": "最新备份",
         "out_of_date": "过期",
@@ -149,8 +149,8 @@
         "no_older_backups": "没有旧备份",
         "older_backups_title": "%{date} 在 %{time}",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "未启用",
+          "syncing": "正在同步",
           "out_of_date": "过期",
           "up_to_date": "最新"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "正在估算Gas费用...",
+        "gas_error": "燃气错误",
         "quote_error": "报价错误",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "找不到路由",
+        "fetching_quote": "正在获取报价...",
+        "select_a_network": "选择一个网络",
+        "select_a_token": "选择一个代币",
         "amount_to_claim_on_network": "%{amount} 可在 %{network} 领取",
         "claim": "领取",
         "claiming": "认领中",
@@ -479,11 +479,11 @@
         "done": "完成",
         "try_again": "再试一次",
         "tokens_on_the_way": "代币正在路上！",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "一个代币",
+        "a_network": "一个网络",
         "swap_failed": "交换失败",
         "receive": "接收",
-        "on": "on"
+        "on": "在"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "清除图片内元数据缓存",
       "clear_local_storage": "清除本地存储",
       "clear_mmkv_storage": "清除MMKV存储",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "连接到 anvil",
+      "disconnect_to_anvil": "断开与 anvil 的连接",
       "crash_app_render_error": "崩溃应用程序（渲染错误）",
       "enable_testnets": "启用Testnets",
       "installing_update": "正在安装更新",
@@ -875,8 +875,8 @@
       "adworld_title": "欢迎来到Rainbow世界！",
       "farcaster_description": "我们最无聊的应用图标，灵感来自Warpcast的极简风。",
       "farcaster_title": "你已解锁\nRainbowcast",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
-      "redacted_title": "You've unlocked\n Redacted Rainbow",
+      "redacted_description": "一个专属的 Rainbow 图标，供真正的 Gdupi 爱好者使用。",
+      "redacted_title": "您已解锁\n Redacted Rainbow",
       "button": "解锁图标"
     },
     "explain": {
@@ -972,20 +972,20 @@
         "title": "什么是Degen Chain?"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "Gravity 是一个由 Galxe 构建的高性能 Layer 1 区块链，实现了每秒超过一吉盖的吞吐量和亚秒级的确定性。\n\n它利用了管道化的 AptosBFT 共识引擎和并行 EVM 运行时，通过重置技术保持权益证明的安全性。",
+        "title": "什么是 Gravity？"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "Gnosis Chain 是一个由多个全球验证者运营的社区拥有的 Ethereum 侧链。\n\n它专注于弹性和可靠的中立性，提供更便宜和更快的交易，同时维护其自身的安全和共识机制。",
+        "title": "什么是 Gnosis？"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Ink 是一个基于 OP Stack 构建的 Layer 2 网络，旨在通过提供亚秒级的区块时间和低交易费用来扩展 Ethereum。\n\n由 Kraken 推出，并作为 Superchain 的一部分，Ink 旨在提升去中心化金融 (DeFi) 应用的性能和可访问性。",
+        "title": "什么是 Ink？"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "Linea是由ConsenSys开发的安全且低成本的等同于Ethereum的Layer 2区块链。\n\n它能实现更快且更实惠的交易，同时不影响安全性和去中心化，旨在将下一个十亿用户引入web3。",
+        "title": "什么是 Linea？"
       },
       "optimism": {
         "text": "Optimism是一个在以太坊之上运行的第二层网络，它能同时利用到以太坊的底层安全性，实现更便宜、更快的交易。\n\n它在发送到以太坊永久存储前将大量交易打包在一个\"滚动更新\"中。",
@@ -996,16 +996,16 @@
         "title": "什么是Polygon?"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "Scroll 是一个建立在 Ethereum 之上的 Layer 2 解决方案，旨在增强可扩展性和交易效率。\n\n它使用汇总技术来捆绑交易，然后将其提交给 Ethereum，从中受益于其安全基础设施。",
+        "title": "什么是 Scroll？"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "Sanko 是一个运行在 Arbitrum 和 Ethereum 之上的 Layer 3 网络，专注于 NFT 和游戏。\n\n它使用 AnyTrust 数据可用性和欺诈证明进行状态验证，允许更快和更便宜的交易，同时利用 Ethereum 的安全性。Sanko 具有一个原生代币叫 DMT，并雇用白名单验证者来提议和挑战状态根。",
+        "title": "什么是 Sanko？"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsync 是一个 Layer 2 协议，旨在通过使用高级零知识密码证明来扩展 Ethereum。\n\n它在维持去中心化和安全性的同时提高 Ethereum 的吞吐量，使交易更快更便宜。",
+        "title": "什么是 Zksync？"
       },
       "zora": {
         "text": "Zora是一个运行在以太坊之上的2层网络，它使得交易更加便宜且更快，同时仍然从以太坊的底层安全中受益。\n\n在将他们永久地发到以太坊之前，它会将许多交易一起打包成一个“上卷”。",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "正在备份...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "创建钱包...",
+      "importing_wallet": "正在导入...",
+      "restoring": "恢复中..."
     },
     "message": {
       "click_to_copy_to_clipboard": "点击复制到剪贴板",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "取消",
           "confirm": "􀎽 发送交易",
-          "confirming": "Confirming",
+          "confirming": "确认中",
           "get_native_token": "获取 %{symbol}",
           "buy_native_token": "购买 %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "收藏",
-        "home": "Home",
+        "home": "主页",
         "undo_favorite": "撤消收藏",
         "remove": "删除",
         "forward": "前进",
         "back": "返回",
         "share": "分享",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "关闭全部%{numberOfClosableTabs}个标签页",
+        "close_both_tabs": "关闭两个标签页",
+        "close_this_tab": "关闭此标签页",
+        "close_tab": "关闭标签页",
+        "new_tab": "新标签页"
       }
     },
     "trending_tokens": {
       "all": "全部",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "没有结果",
+        "body": "尝试在更大的时间范围或不同的网络或类别中浏览。"
       },
-      "and": "and",
+      "and": "和",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "和%{count}个其他",
+        "other": "和%{count}个其他"
       },
       "filters": {
         "categories": {
@@ -3062,36 +3062,36 @@
         "sort": {
           "RECOMMENDED": {
             "label": "排序",
-            "menuOption": "Default"
+            "menuOption": "默认"
           },
-          "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "VOLUME": "交易量",
+          "MARKET_CAP": "市值",
+          "TOP_GAINERS": "最高涨幅",
+          "TOP_LOSERS": "最大跌幅"
         },
         "time": {
-          "H12": "12 Hours",
-          "H12_ABBREVIATED": "12h",
-          "H24": "24 Hours",
+          "H12": "12小时",
+          "H12_ABBREVIATED": "12小时",
+          "H24": "24小时",
           "H24_ABBREVIATED": "24小时",
-          "D7": "1 Week",
-          "D3": "3 Days"
+          "D7": "1周",
+          "D3": "3天"
         }
       }
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "自定义网络",
+        "tap_the": "点击",
+        "button_to_set_up": "下方按钮进行设置"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "拖到这里取消固定",
       "edit": "编辑",
       "networks": "网络",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "拖动以重新排列",
+      "show_less": "显示更少",
       "more": "更多",
-      "show_more": "More Networks",
+      "show_more": "更多网络",
       "all_networks": "所有网络"
     },
     "done": "完成",
