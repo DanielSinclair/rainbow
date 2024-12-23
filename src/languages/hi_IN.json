@@ -97,7 +97,7 @@
         "no_keys_found": "कोई कुंजी नहीं मिली। कृपया पुनः प्रयास करें।",
         "backup_not_found": "बैकअप नहीं मिला। कृपया पुनः प्रयास करें।",
         "no_account_found": "बैकअप फाइलें प्राप्त करने में असमर्थ। सुनिश्चित करें कि आप लॉग इन हैं।",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "वॉलेट का बैकअप लेने में असमर्थ। कुंजी श्रृंखला डेटा गायब है।"
       },
       "wrong_pin": "आपके द्वारा दर्ज किया गया पिन कोड गलत था और हम बैकअप नहीं बना सकते। कृपया सही कोड के साथ पुनः प्रयास करें।",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "कोई बैकअप नहीं मिला",
         "failed_to_fetch_backups": "बैकअप लाने में विफल",
         "retry": "पुनः प्रयास करें",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "ताज़ा करें",
+        "syncing_cloud_store": "%{cloudPlatformName} पर सिंक कर रहा है",
         "fetching_backups": "%{cloudPlatformName} से बैकअप प्राप्त करना",
         "back_up_to_platform": "कृपया %{cloudPlatformName}पर बैकअप करें",
         "restore_from_platform": "%{cloudPlatformName}से वापस पाएं",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "अपने वॉलेट का सुरक्षित रूप से %{cloudPlatform} पर बैकअप करें ताकि यदि आप अपना डिवाइस खो दें या एक नया प्राप्त करें, तो आप इसे पुनर्स्थापित कर सकें।",
         "choose_backup_manual_description": "अपने गुप्त अनु वाक्यांश को एक सुरक्षित स्थान पर सहेजकर अपना वॉलेट मैन्युअली बैकअप करें।",
         "enable_cloud_backups_description": "यदि आप अपने वॉलेट्स का बैकअप मैन्युअली करना पसंद करते हैं, तो आप नीचे कर सकते हैं।",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "सबसे हालिया बैकअप: %{date}",
         "back_up_all_wallets_to_cloud": "सभी वॉलेट्स का बैकअप %{cloudPlatformName} पर करें",
         "most_recent_backup": "सबसे हालिया बैकअप",
         "out_of_date": "पुराना",
@@ -149,8 +149,8 @@
         "no_older_backups": "कोई पुराने बैकअप नहीं",
         "older_backups_title": "%{date} पर %{time}",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "सक्रिय नहीं है",
+          "syncing": "सिंक हो रहा है",
           "out_of_date": "पुराना",
           "up_to_date": "अप टू डेट"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "गैस शुल्क का अनुमान लगा रहे हैं...",
+        "gas_error": "गैस त्रुटि",
         "quote_error": "कोट त्रुटि",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "कोई मार्ग नहीं मिला",
+        "fetching_quote": "कोट प्राप्त कर रहे हैं...",
+        "select_a_network": "एक नेटवर्क चुनें",
+        "select_a_token": "एक टोकन का चयन करें",
         "amount_to_claim_on_network": "%{amount} को %{network} पर दावा करने के लिए",
         "claim": "दावा करें",
         "claiming": "दावा कर रहा है",
@@ -479,11 +479,11 @@
         "done": "हो गया",
         "try_again": "फिर से प्रयास करें",
         "tokens_on_the_way": "टोकन रास्ते में हैं!",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "एक टोकन",
+        "a_network": "एक नेटवर्क",
         "swap_failed": "आदान-प्रदान विफल",
         "receive": "प्राप्त करें",
-        "on": "on"
+        "on": "शुरू"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "छवि मेटाडाटा कैश साफ करें",
       "clear_local_storage": "लोकल स्टोरेज को साफ करें",
       "clear_mmkv_storage": "MMKV स्टोरेज को साफ करें",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "anvil से कनेक्ट करें",
+      "disconnect_to_anvil": "anvil से डिस्कनेक्ट करें",
       "crash_app_render_error": "ऐप्र्प्लिकेशन क्रैश करें (रेंडर त्रुटि)",
       "enable_testnets": "टेस्टनेट्स सक्षम करें",
       "installing_update": "अद्यतन स्थापित कर रहा है",
@@ -875,8 +875,8 @@
       "adworld_title": "रेनबो वर्ल्ड में आपका स्वागत है!",
       "farcaster_description": "हमारा सबसे बोरिंग ऐप आइकन, वार्पकास्ट के सुस्त न्यूनतमवाद से प्रेरित।",
       "farcaster_title": "आपने अनलॉक कर लिया है\nरेनबो कास्ट",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
-      "redacted_title": "You've unlocked\n Redacted Rainbow",
+      "redacted_description": "सच्चे Gdupi एनजॉयर्स के लिए एक अनन्य Rainbow आइकन।",
+      "redacted_title": "आपने\nरेडैक्टेड रेनबो को अनलॉक कर दिया",
       "button": "आइकन पकड़ें"
     },
     "explain": {
@@ -972,20 +972,20 @@
         "title": "Degen Chain क्या है?"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "ग्रेविटी एक उच्च-प्रदर्शन लेयर 1 ब्लॉकचेन है जिसे गैलेक्स द्वारा निर्मित किया गया है, जो एक गीगागास प्रति सेकंड से अधिक थ्रूपुट और उप-द्वितीय अंतिमता प्राप्त करता है।\n\nयह एक पाइपलाइनयुक्त AptosBFT सहमति इंजन और समानांतर EVM रनटाइम का उपयोग करता है, पुनःस्टेकिंग तकनीक के माध्यम से प्रूफ-ऑफ-स्टेक सुरक्षा बनाए रखते हुए।",
+        "title": "ग्रेविटी क्या है?"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "ग्नोसिस चेन एक सामुदायिक स्वामित्व वाली Ethereum साइडचेन है जो दुनिया भर में अलग-अलग वैलिडेटर्स द्वारा संचालित है।\n\nयह लचीलापन और निष्पक्ष न्यूट्रैलिटी पर ध्यान केंद्रित करती है, सस्ती और तेज़ लेन-देन की पेशकश करता है जबकि अपनी स्वयं की सुरक्षा और सहमति तंत्र को बना रहती है।",
+        "title": "ग्नोसिस क्या है?"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Ink एक लेयर 2 नेटवर्क है जो OP स्टैक पर निर्मित है, Ethereum को स्केल करने के लिए डिजाइन किया गया है ताकि सब-सेकंड ब्लॉक टाइम और कम लेन-देन शुल्क प्रदान किया जा सके।\n\nयह Kraken द्वारा अनलॉक किया गया है, और Superchain का हिस्सा है, Ink वित्तीय विकेंद्रित (DeFi) अनुप्रयोगों की प्रदर्शन और पहुंच बढ़ाने का प्रयास करता है।",
+        "title": "Ink क्या है?"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "लीनेया एक सुरक्षित, कम लागत वाली, इथेरियम-समकक्ष लेयर 2 ब्लॉकचेन है जिसे ConsenSys द्वारा विकसित किया गया है।\n\nयह तेज और अधिक किफायती लेनदेन को सक्षम करती है बिना सुरक्षा और विकेंद्रीकरण को प्रभावित किए, और अगले अरब उपयोगकर्ताओं को Web3 में शामिल करने का लक्ष्य रखती है।",
+        "title": "लीनेया क्या है?"
       },
       "optimism": {
         "text": "आशावाद एक परत 2 नेटवर्क है जो ईथेरियम के ऊपर चलता है, यह सस्ते और तेज़ लेनदेन को सक्षम करता है जबकि अभी भी ईथेरियम की आधारभूत सुरक्षा से लाभ उठाता है।\n\nयह एक \"रोल अप\" में कई लेनदेनों को एक साथ बंधेली करता है पहले उन्हें ईथेरियम पर स्थायी रूप से रहने के लिए भेजता है।",
@@ -996,16 +996,16 @@
         "title": "Polygon क्या है?"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "स्क्रॉल एक लेयर 2 समाधान है जो Ethereum के ऊपर निर्मित है, जिसका उद्देश्यता है स्केलेबिलिटी और लेन-देन कुशलता को बढ़ाना।\n\nयह रोल-अप प्रौद्योगिकी का उपयोग करता है ताकि लेन-देन को बंडल किया जा सके, जिसे फिर Ethereum को प्रस्तुत किया जाता है, इसकी सुरक्षा बुनियादी ढांचा का लाभ उठाते हुए।",
+        "title": "स्क्रॉल क्या है?"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "Sanko एक लेयर 3 नेटवर्क है जो Arbitrum और Ethereum के ऊपर चलता है, NFTs और गेमिंग पर ध्यान केंद्रित करता है।\n\nयह राज्य सत्यापन के लिए AnyTrust डेटा उपलब्धता और धोखाधड़ी प्रमाणों का उपयोग करता है, जिससे Ethereum की सुरक्षा का लाभ उठाकर तेज़ और सस्ता लेन-देन संभव हो पाती है। Sanko में एक स्थानीक टोकन कहा जाता है DMT और राज्य रूट्स के प्रस्ताव और चुनौती के लिए व्हाइटलिस्ट किए गए वैलिडेटर्स का उपयोग करता है।",
+        "title": "Sanko क्या है?"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsync एक लेयर 2 प्रोटोकॉल है जो इथेरियम को स्केल करने के लिए उन्नत शून्य-ज्ञान क्रिप्टोग्राफिक प्रमाणों का उपयोग करता है।\n\nयह इथेरियम की थ्रूपुट बढ़ाता है जबकि विकेंद्रीकरण और सुरक्षा बनाए रखते हुए, जिससे तेज और सस्ते लेन-देन सक्षम होते हैं।",
+        "title": "Zksync क्या है?"
       },
       "zora": {
         "text": "Zora एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "बैकअप हो रहा है...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "वॉलेट बना रहा है...",
+      "importing_wallet": "आयात कर रहे हैं...",
+      "restoring": "पुनर्स्थापित कर रहा है..."
     },
     "message": {
       "click_to_copy_to_clipboard": "कॉपी करने के लिए क्लिक करें",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "रद्द करें",
           "confirm": "􀎽 पुष्टि करें",
-          "confirming": "Confirming",
+          "confirming": "पुष्टि कर रहे हैं",
           "get_native_token": "प्राप्त करें %{symbol}",
           "buy_native_token": "खरीदें %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "पसंदीदा",
-        "home": "Home",
+        "home": "होम",
         "undo_favorite": "पसंदीदा पूर्ववत करें",
         "remove": "हटाएं",
         "forward": "आगे",
         "back": "वापस",
         "share": "साझा करें",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "सभी %{numberOfClosableTabs} टैब बंद करें",
+        "close_both_tabs": "दोनों टैब बंद करें",
+        "close_this_tab": "यह टैब बंद करें",
+        "close_tab": "टैब बंद करें",
+        "new_tab": "नया टैब"
       }
     },
     "trending_tokens": {
       "all": "सभी",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "कोई परिणाम नहीं",
+        "body": "एक बड़े समय सीमा या एक अलग नेटवर्क या वर्ग का ब्राउज़िंग करने का प्रयास करें।"
       },
-      "and": "and",
+      "and": "और",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "और %{count} अन्य",
+        "other": "और %{count} अन्य"
       },
       "filters": {
         "categories": {
@@ -3062,36 +3062,36 @@
         "sort": {
           "RECOMMENDED": {
             "label": "Sort",
-            "menuOption": "Default"
+            "menuOption": "डिफ़ॉल्ट"
           },
-          "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "VOLUME": "वॉल्यूम",
+          "MARKET_CAP": "मार्केट कैप",
+          "TOP_GAINERS": "शीर्ष लाभार्थी",
+          "TOP_LOSERS": "शीर्ष हारने वाले"
         },
         "time": {
-          "H12": "12 Hours",
+          "H12": "12 घंटे",
           "H12_ABBREVIATED": "12h",
-          "H24": "24 Hours",
+          "H24": "24 घंटे",
           "H24_ABBREVIATED": "24h",
-          "D7": "1 Week",
-          "D3": "3 Days"
+          "D7": "1 सप्ताह",
+          "D3": "3 दिन"
         }
       }
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "नेटवर्कस को अनुकूलित करें",
+        "tap_the": "टैप करें",
+        "button_to_set_up": "सेट अप के लिए नीचे बटन"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "अनपिन करने के लिए यहां छोड़ें",
       "edit": "संपादित करें",
       "networks": "नेटवर्क",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "पुन: व्यवस्थित करने के लिए खींचें",
+      "show_less": "कम दिखाएं",
       "more": "अधिक",
-      "show_more": "More Networks",
+      "show_more": "अधिक नेटवर्क",
       "all_networks": "सभी नेटवर्क"
     },
     "done": "हो गया",
