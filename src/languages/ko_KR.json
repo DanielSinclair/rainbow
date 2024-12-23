@@ -96,7 +96,8 @@
         "generic": "백업을 시도하던 중에 오류가 발생했습니다. 오류 코드: %{errorCodes}",
         "no_keys_found": "키를 찾을 수 없습니다. 다시 시도해 주세요.",
         "backup_not_found": "백업을 찾을 수 없습니다. 다시 시도해 주세요.",
-        "no_account_found": "백업 파일을 가져올 수 없습니다. 로그인했는지 확인하세요."
+        "no_account_found": "백업 파일을 가져올 수 없습니다. 로그인했는지 확인하세요.",
+        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
       },
       "wrong_pin": "입력하신 PIN 코드가 잘못되어 백업을 만들 수 없습니다. 정확한 코드로 다시 시도해 주세요.",
       "already_backed_up": {
@@ -115,6 +116,8 @@
         "no_backups": "백업을 찾을 수 없습니다",
         "failed_to_fetch_backups": "백업을 가져오지 못했습니다",
         "retry": "다시 시도",
+        "refresh": "Refresh",
+        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
         "fetching_backups": "%{cloudPlatformName}에서 백업 가져오는 중",
         "back_up_to_platform": "%{cloudPlatformName}으로 백업",
         "restore_from_platform": "%{cloudPlatformName}에서 복원하기",
@@ -137,7 +140,7 @@
         "choose_backup_cloud_description": "기기를 분실하거나 새 기기를 사용할 경우 복원할 수 있도록 %{cloudPlatform}에 안전하게 지갑을 백업하세요.",
         "choose_backup_manual_description": "암호를 안전한 곳에 보관하여 지갑을 수동으로 백업하세요.",
         "enable_cloud_backups_description": "지갑을 수동으로 백업하려면 아래에서 진행할 수 있습니다.",
-        "latest_backup": "마지막 백업: %{date}",
+        "latest_backup": "Latest Backup: %{date}",
         "back_up_all_wallets_to_cloud": "모든 지갑을 %{cloudPlatformName}에 백업",
         "most_recent_backup": "가장 최근 백업",
         "out_of_date": "구버전",
@@ -145,6 +148,12 @@
         "older_backups": "오래된 백업",
         "no_older_backups": "오래된 백업 없음",
         "older_backups_title": "%{date} %{time}",
+        "statuses": {
+          "not_enabled": "Not Enabled",
+          "syncing": "Syncing",
+          "out_of_date": "구버전",
+          "up_to_date": "최신 상태"
+        },
         "password": {
           "a_password_youll_remember_part_one": "이 비밀번호는",
           "not": "복구할 수 없습니다. 기억할 수 있는 비밀번호를 선택하세요.",
@@ -452,7 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "calculating_gas_fee": "가스 요금 계산 중...",
+        "estimating_gas_fee": "Estimating Gas Fee...",
+        "gas_error": "Gas Error",
+        "quote_error": "견적 오류",
+        "no_route_found": "No Route Found",
+        "fetching_quote": "Fetching Quote...",
+        "select_a_network": "Select a Network",
+        "select_a_token": "Select a Token",
         "amount_to_claim_on_network": "%{amount}을(를) %{network}에서 청구",
         "claim": "청구",
         "claiming": "청구 중",
@@ -463,7 +478,12 @@
         "claim_amount": "%{amount} 청구",
         "done": "완료",
         "try_again": "다시 시도하기",
-        "tokens_on_the_way": "토큰이 도착 중입니다!"
+        "tokens_on_the_way": "토큰이 도착 중입니다!",
+        "a_token": "a token",
+        "a_network": "a network",
+        "swap_failed": "교환 실패",
+        "receive": "받기",
+        "on": "on"
       }
     },
     "cloud": {
@@ -503,8 +523,8 @@
       "clear_image_metadata_cache": "이미지 메타데이터 캐시 지우기",
       "clear_local_storage": "로컬 저장소 지우기",
       "clear_mmkv_storage": "MMKV 저장소 지우기",
-      "connect_to_hardhat": "하드햇에 연결",
-      "disconnect_to_hardhat": "hardhat 연결 해제",
+      "connect_to_anvil": "Connect to anvil",
+      "disconnect_to_anvil": "Disconnect from anvil",
       "crash_app_render_error": "애플리케이션 종료 (렌더링 오류)",
       "enable_testnets": "테스트넷 활성화",
       "installing_update": "업데이트 설치 중",
@@ -642,7 +662,6 @@
       "high": "높은",
       "slippage_tolerance": "최대 슬리피지",
       "source_picker": "스왑 경로 via",
-      "use_flashbots": "플래시봇 사용",
       "swapping_for_prefix": "다음을 교환",
       "view_details": "상세 정보 보기",
       "token_sections": {
@@ -723,7 +742,6 @@
       "swap": {
         "swap": "교환",
         "bridge": "브릿지",
-        "flashbots_protect": "Flashbots 보호",
         "losing": "손실",
         "on": "켜기",
         "off": "끄기",
@@ -857,6 +875,8 @@
       "adworld_title": "Rainbow World에 오신 것을 환영합니다!",
       "farcaster_description": "Warpcast의 밋밋한 미니멀리즘에서 영감을 받은 가장 지루한 앱 아이콘입니다.",
       "farcaster_title": "잠금 해제\nRainbowcast",
+      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
+      "redacted_title": "You've unlocked\n Redacted Rainbow",
       "button": "아이콘 잡기"
     },
     "explain": {
@@ -927,41 +947,69 @@
         "text": "마이너 팁은 네트워크에서 귀하의 거래를 확인하는 마이너에게 직접 갑니다.\n\n더 높은 팁을 내면 거래가 더 빠르게 확정될 가능성이 높아집니다.",
         "title": "마이너 팁"
       },
-      "optimism": {
-        "text": "Optimism은 Ethereum 위에 실행되는 Layer 2 네트워크로, Ethereum의 기본 보안에서 여전히 혜택을 받으면서 저렴하고 빠른 거래를 가능하게 합니다.\n\n한 번에 많은 거래를 \"roll up\"하여 Ethereum에 영구적으로 보냅니다.",
-        "title": "Optimism이란 무엇인가요?"
-      },
-      "base": {
-        "text": "베이스는 이더리움 위에서 실행되는 레이어 2 네트워크로, 거래 비용을 낮추고 속도를 높이면서도 이더리움의 기본 보안에서 여전히 혜택을 받습니다.\n\n그것은 많은 거래를 한꺼번에 \"롤업\"에 묶어 이더리움에 영구적으로 보내서 보관합니다.",
-        "title": "Base란 무엇인가요?"
+      "apechain": {
+        "text": "ApeChain은 Arbitrum Orbit와 Ethereum 위에서 운영되는 레이어 3 네트워크입니다.\n\n이것은 ApeCoin의 유용성을 크게 향상시키며, $APE에 의해 이끌어지는 강력하고 역동적인 경제를 촉진합니다.",
+        "title": "ApeChain이란 무엇인가요?"
       },
       "avalanche": {
         "text": "Avalanche는 이더리움과 함께 실행되는 별도의 네트워크인 사이드체인입니다.\n\n더 저렴하고 빠른 거래를 가능하게 하지만, Layer 2 네트워크와 달리 Avalanche는 이더리움과 다른 자체 보안 및 합의 메커니즘을 가지고 있습니다.",
         "title": "Avalanche란 무엇인가요?"
       },
-      "degen": {
-        "text": "디젠 체인은 Arbitrum Orbit와 Ethereum 위에서 운영되는 레이어 3 네트워크입니다.",
-        "title": "Degen Chain이란 무엇인가요?"
+      "base": {
+        "text": "베이스는 이더리움 위에서 실행되는 레이어 2 네트워크로, 거래 비용을 낮추고 속도를 높이면서도 이더리움의 기본 보안에서 여전히 혜택을 받습니다.\n\n그것은 많은 거래를 한꺼번에 \"롤업\"에 묶어 이더리움에 영구적으로 보내서 보관합니다.",
+        "title": "Base란 무엇인가요?"
       },
       "blast": {
         "text": "Blast는 이더리움 위에서 실행되는 Layer 2 네트워크로, 더 저렴하고 빠른 거래를 가능하게 하면서도 이더리움의 기본적인 보안 혜택을 누릴 수 있습니다.\n\n여러 거래를 \"롤업\"하여 영구적으로 이더리움에 저장하기 전에 묶습니다.",
         "title": "Blast란 무엇인가요?"
       },
-      "apechain": {
-        "text": "ApeChain은 Arbitrum Orbit와 Ethereum 위에서 운영되는 레이어 3 네트워크입니다.\n\n이것은 ApeCoin의 유용성을 크게 향상시키며, $APE에 의해 이끌어지는 강력하고 역동적인 경제를 촉진합니다.",
-        "title": "ApeChain이란 무엇인가요?"
+      "bsc": {
+        "text": "바이낸스 스마트 체인(BSC)은 거래 플랫폼인 바이낸스를 위한 블록체인입니다. \n\nBSC는 거래 비용을 줄이고 속도를 높여주지만, 레이어 2 네트워크와 달리 자체 보안 및 합의 메커니즘이 이더리움과 다릅니다.",
+        "title": "Binance 스마트 체인이 무엇인가요?"
       },
-      "zora": {
-        "text": "조라는 이더리움 위에서 실행되는 레이어 2 네트워크로, 거래 비용을 낮추고 속도를 높이면서도 이더리움의 기본 보안에서 여전히 혜택을 받습니다.\n\n그것은 많은 거래를 한꺼번에 \"롤업\"에 묶어 이더리움에 영구적으로 보내서 보관합니다.",
-        "title": "조라란 무엇인가?"
+      "degen": {
+        "text": "디젠 체인은 Arbitrum Orbit와 Ethereum 위에서 운영되는 레이어 3 네트워크입니다.",
+        "title": "Degen Chain이란 무엇인가요?"
+      },
+      "gravity": {
+        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
+        "title": "What's Gravity?"
+      },
+      "gnosis": {
+        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
+        "title": "What's Gnosis?"
+      },
+      "ink": {
+        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
+        "title": "What's Ink?"
+      },
+      "linea": {
+        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
+        "title": "What's Linea?"
+      },
+      "optimism": {
+        "text": "Optimism은 Ethereum 위에 실행되는 Layer 2 네트워크로, Ethereum의 기본 보안에서 여전히 혜택을 받으면서 저렴하고 빠른 거래를 가능하게 합니다.\n\n한 번에 많은 거래를 \"roll up\"하여 Ethereum에 영구적으로 보냅니다.",
+        "title": "Optimism이란 무엇인가요?"
       },
       "polygon": {
         "text": "폴리곤은 사이드체인으로, 이더리움과 병행하여 실행되는 독립된 네트워크입니다.\n\n이는 거래 비용을 줄이고 속도를 높여주지만, 레이어 2 네트워크와 달리 폴리곤은 이더리움과 다른 자체 보안 및 합의 메커니즘을 가지고 있습니다.",
         "title": "폴리곤이란 무엇인가?"
       },
-      "bsc": {
-        "text": "바이낸스 스마트 체인(BSC)은 거래 플랫폼인 바이낸스를 위한 블록체인입니다. \n\nBSC는 거래 비용을 줄이고 속도를 높여주지만, 레이어 2 네트워크와 달리 자체 보안 및 합의 메커니즘이 이더리움과 다릅니다.",
-        "title": "Binance 스마트 체인이 무엇인가요?"
+      "scroll": {
+        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
+        "title": "What's Scroll?"
+      },
+      "sanko": {
+        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
+        "title": "What's Sanko?"
+      },
+      "zksync": {
+        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
+        "title": "What's Zksync?"
+      },
+      "zora": {
+        "text": "조라는 이더리움 위에서 실행되는 레이어 2 네트워크로, 거래 비용을 낮추고 속도를 높이면서도 이더리움의 기본 보안에서 여전히 혜택을 받습니다.\n\n그것은 많은 거래를 한꺼번에 \"롤업\"에 묶어 이더리움에 영구적으로 보내서 보관합니다.",
+        "title": "조라란 무엇인가?"
       },
       "read_more": "더 읽기",
       "learn_more": "더 알아보기",
@@ -1033,15 +1081,6 @@
           "fragment1": "아직 궁금한가요? ",
           "fragment2": "더 읽기",
           "fragment3": " 슬리피지에 대해 그리고 이것이 스왑에 어떻게 영향을 미치는지."
-        }
-      },
-      "flashbots": {
-        "text": "Flashbots는 프론트런닝 및 샌드위치 공격으로 인해 더 나쁜 가격을 받거나 거래가 실패할 수 있는 상황에서 거래를 보호합니다.",
-        "title": "Flashbots",
-        "still_curious": {
-          "fragment1": "아직 궁금한가요? ",
-          "fragment2": "더 읽기",
-          "fragment3": " Flashbots가 제공하는 보호에 대해."
         }
       },
       "swap_refuel": {
@@ -1189,6 +1228,12 @@
         "check_out_my_wallet": "내 수집품을 🌈 레인보우에서 확인하세요 %{showcaseUrl}",
         "check_out_this_wallet": "이 지갑의 수집품을 🌈 레인보우에서 확인하세요 %{showcaseUrl}"
       }
+    },
+    "loading": {
+      "backing_up": "백업 중...",
+      "creating_wallet": "Creating wallet...",
+      "importing_wallet": "Importing...",
+      "restoring": "Restoring..."
     },
     "message": {
       "click_to_copy_to_clipboard": "클립보드에 복사하려면 클릭하세요",
@@ -2052,7 +2097,6 @@
       "find_a_token_to_buy": "구매할 토큰 찾기",
       "search_your_tokens": "토큰 검색",
       "error_executing_swap": "스왑 실행 오류",
-      "flashbots_protection": "Flashbots 보호",
       "tokens_input": {
         "tokens": "토큰",
         "sort": "정렬",
@@ -2924,6 +2968,7 @@
         "buttons": {
           "cancel": "취소",
           "confirm": "􀎽 거래 보내기",
+          "confirming": "Confirming",
           "get_native_token": "Get %{symbol}",
           "buy_native_token": "구매 %{symbol}"
         },
@@ -2984,12 +3029,72 @@
       },
       "menus": {
         "favorite": "즐겨찾기",
+        "home": "Home",
         "undo_favorite": "즐겨찾기 실행 취소",
         "remove": "제거",
         "forward": "앞으로",
-        "back": "뒤로"
+        "back": "뒤로",
+        "share": "공유",
+        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
+        "close_both_tabs": "Close Both Tabs",
+        "close_this_tab": "Close This Tab",
+        "close_tab": "Close Tab",
+        "new_tab": "New Tab"
       }
     },
+    "trending_tokens": {
+      "all": "모두",
+      "no_results": {
+        "title": "No results",
+        "body": "Try browsing a larger timeframe or a different network or category."
+      },
+      "and": "and",
+      "and_others": {
+        "one": "and %{count} other",
+        "other": "and %{count} others"
+      },
+      "filters": {
+        "categories": {
+          "TRENDING": "트렌딩",
+          "NEW": "새로운",
+          "FARCASTER": "Farcaster"
+        },
+        "sort": {
+          "RECOMMENDED": {
+            "label": "정렬",
+            "menuOption": "Default"
+          },
+          "VOLUME": "Volume",
+          "MARKET_CAP": "Market Cap",
+          "TOP_GAINERS": "Top Gainers",
+          "TOP_LOSERS": "Top Losers"
+        },
+        "time": {
+          "H12": "12 Hours",
+          "H12_ABBREVIATED": "12h",
+          "H24": "24 Hours",
+          "H24_ABBREVIATED": "24시간",
+          "D7": "1 Week",
+          "D3": "3 Days"
+        }
+      }
+    },
+    "network_switcher": {
+      "customize_networks_banner": {
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
+      },
+      "drag_here_to_unpin": "Drop Here to Unpin",
+      "edit": "편집",
+      "networks": "네트워크",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
+      "more": "더 보기",
+      "show_more": "More Networks",
+      "all_networks": "모든 네트워크"
+    },
+    "done": "완료",
     "copy": "복사",
     "paste": "붙여넣기"
   }
