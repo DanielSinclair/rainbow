@@ -96,7 +96,8 @@
         "generic": "ข้อผิดพลาดในการพยายามสำรองข้อมูล รหัสข้อผิดพลาด: %{errorCodes}",
         "no_keys_found": "ไม่พบกุญแจ โปรดลองอีกครั้ง",
         "backup_not_found": "ไม่พบการสำรองข้อมูล โปรดลองอีกครั้ง",
-        "no_account_found": "ไม่สามารถเรียกคืนไฟล์สำรองข้อมูลได้ ตรวจสอบให้แน่ใจว่าคุณได้เข้าสู่ระบบแล้ว"
+        "no_account_found": "ไม่สามารถเรียกคืนไฟล์สำรองข้อมูลได้ ตรวจสอบให้แน่ใจว่าคุณได้เข้าสู่ระบบแล้ว",
+        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
       },
       "wrong_pin": "รหัส PIN ที่คุณป้อนไม่ถูกต้องและเราไม่สามารถสำรองข้อมูลได้ โปรดลองใหม่ด้วยรหัสที่ถูกต้อง",
       "already_backed_up": {
@@ -115,6 +116,8 @@
         "no_backups": "ไม่พบการสำรองข้อมูล",
         "failed_to_fetch_backups": "การดึงการสำรองข้อมูลล้มเหลว",
         "retry": "ลองใหม่",
+        "refresh": "Refresh",
+        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
         "fetching_backups": "กำลังดึงข้อมูลสำรองจาก %{cloudPlatformName}",
         "back_up_to_platform": "สำรองข้อมูลไปยัง %{cloudPlatformName}",
         "restore_from_platform": "กู้คืนจาก %{cloudPlatformName}",
@@ -137,7 +140,7 @@
         "choose_backup_cloud_description": "สำรองข้อมูลกระเป๋าสตางค์ของคุณไปยัง %{cloudPlatform} อย่างปลอดภัยเพื่อให้คุณสามารถคืนค่าได้หากคุณสูญเสียอุปกรณ์หรือได้อุปกรณ์ใหม่",
         "choose_backup_manual_description": "สำรองข้อมูลกระเป๋าสตางค์ของคุณด้วยตนเองโดยการบันทึกวลีลับของคุณในที่ปลอดภัย",
         "enable_cloud_backups_description": "หากคุณต้องการสำรองข้อมูลกระเป๋าสตางค์ของคุณด้วยตนเอง คุณสามารถทำได้ที่ด้านล่าง",
-        "latest_backup": "การสำรองข้อมูลครั้งล่าสุด: %{date}",
+        "latest_backup": "Latest Backup: %{date}",
         "back_up_all_wallets_to_cloud": "สำรองข้อมูลกระเป๋าสตางค์ทั้งหมดไปยัง %{cloudPlatformName}",
         "most_recent_backup": "การสำรองข้อมูลล่าสุด",
         "out_of_date": "หมดอายุ",
@@ -145,6 +148,12 @@
         "older_backups": "การสำรองข้อมูลเก่า",
         "no_older_backups": "ไม่มีการสำรองข้อมูลเก่า",
         "older_backups_title": "%{date} ที่ %{time}",
+        "statuses": {
+          "not_enabled": "Not Enabled",
+          "syncing": "Syncing",
+          "out_of_date": "หมดอายุ",
+          "up_to_date": "ทันสมัยอยู่เสมอ"
+        },
         "password": {
           "a_password_youll_remember_part_one": "รหัสผ่านนี้",
           "not": "ไม่สามารถกู้คืนได้",
@@ -452,7 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "calculating_gas_fee": "กำลังคำนวณค่าแก๊ส...",
+        "estimating_gas_fee": "Estimating Gas Fee...",
+        "gas_error": "Gas Error",
+        "quote_error": "ข้อผิดพลาดของราคาที่เสนอ",
+        "no_route_found": "No Route Found",
+        "fetching_quote": "Fetching Quote...",
+        "select_a_network": "Select a Network",
+        "select_a_token": "Select a Token",
         "amount_to_claim_on_network": "%{amount} ที่ต้องเคลมบน %{network}",
         "claim": "เคลม",
         "claiming": "กำลังเรียกร้อง",
@@ -463,7 +478,12 @@
         "claim_amount": "เคลม %{amount}",
         "done": "เสร็จสิ้น",
         "try_again": "ลองใหม่",
-        "tokens_on_the_way": "โทเคนกำลังมาถึง!"
+        "tokens_on_the_way": "โทเคนกำลังมาถึง!",
+        "a_token": "a token",
+        "a_network": "a network",
+        "swap_failed": "แลกเปลี่ยนล้มเหลว",
+        "receive": "รับ",
+        "on": "on"
       }
     },
     "cloud": {
@@ -503,8 +523,8 @@
       "clear_image_metadata_cache": "ล้างแคชข้อมูลภาพ",
       "clear_local_storage": "ล้าง local storage",
       "clear_mmkv_storage": "ล้าง MMKV storage",
-      "connect_to_hardhat": "เชื่อมต่อกับ hardhat",
-      "disconnect_to_hardhat": "ตัดการเชื่อมต่อจาก Hardhat",
+      "connect_to_anvil": "Connect to anvil",
+      "disconnect_to_anvil": "Disconnect from anvil",
       "crash_app_render_error": "คว่ำ app (render error)",
       "enable_testnets": "เปิดใช้งาน Testnets",
       "installing_update": "กำลังติดตั้งการอัปเดต",
@@ -642,7 +662,6 @@
       "high": "สูง",
       "slippage_tolerance": "สลิปเปจสูงสุด",
       "source_picker": "เส้นทางการแลกเปลี่ยนผ่านทาง",
-      "use_flashbots": "ใช้ Flashbots",
       "swapping_for_prefix": "การแลกเปลี่ยนสำหรับ",
       "view_details": "ดูรายละเอียด",
       "token_sections": {
@@ -723,7 +742,6 @@
       "swap": {
         "swap": "แลกเปลี่ยน",
         "bridge": "สะพาน",
-        "flashbots_protect": "Flashbots ป้องกัน",
         "losing": "ขาดทุน",
         "on": "เปิด",
         "off": "ปิด",
@@ -857,6 +875,8 @@
       "adworld_title": "ยินดีต้อนรับสู่ Rainbow World!",
       "farcaster_description": "ไอคอนแอปที่น่าเบื่อที่สุดของเรา แรงบันดาลใจจากความเรียบง่ายที่ไร้บทบาทของ Warpcast",
       "farcaster_title": "คุณได้ปลดล็อก\nRainbowcast",
+      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
+      "redacted_title": "You've unlocked\n Redacted Rainbow",
       "button": "ปลดล็อคไอคอน"
     },
     "explain": {
@@ -927,41 +947,69 @@
         "text": "ค่าทิปของเหมืองไปโดยตรงถึงเหมืองที่ยืนยันธุรกรรมของคุณในเครือข่าย\n\nทิปที่สูงขึ้นทำให้ธุรกรรมของคุณมีโอกาสยืนยันได้เร็วขึ้น.",
         "title": "ทิปของเหมือง"
       },
-      "optimism": {
-        "text": "Optimism เป็นเครือข่ายชั้นที่ 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกต้นและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากการรักษาความปลอดภัยทางด้านล่างของ Ethereum\n\nมันรวมการทำธุรกรรมเยอะๆเข้าด้วยกันในรูปแบบ \"roll up\" ก่อนที่จะส่งลงไปให้อยู่ใน Ethereum อย่างถาวร",
-        "title": "Optimism คืออะไร?"
-      },
-      "base": {
-        "text": "Base เป็นเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยสำคัญของ Ethereum\n\nมันรวมการทำธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งลงไปอยู่ถาวรบน Ethereum.",
-        "title": "Base คืออะไร?"
+      "apechain": {
+        "text": "ApeChain เป็นเครือข่าย Layer 3 ที่ทำงานบน Arbitrum Orbit และ Ethereum\n\nมันเสริมสร้างการใช้ ApeCoin อย่างมีนัยสำคัญ ส่งเสริมเศรษฐกิจที่แข็งแกร่งและมีพลังซึ่งขับเคลื่อนโดย $APE",
+        "title": "ApeChain คืออะไร?"
       },
       "avalanche": {
         "text": "Avalanche เป็น sidechain, เครือข่ายที่แตกต่างกันที่ทำงานข้างกับ Ethereum และสามารถเข้ากันได้\n\nช่วยให้การทำธุรกรรมถูกและเร็วขึ้น แต่ไม่เหมือนกับเครือข่าย Layer 2, Avalanche มีระบบความปลอดภัยและการสร้างความเห็นชอบที่ต่างจาก Ethereum",
         "title": "Avalanche คืออะไร?"
       },
-      "degen": {
-        "text": "Degen Chain เป็นเครือข่าย Layer 3 ที่ทำงานบน Arbitrum และ Ethereum",
-        "title": "Degen Chain คืออะไร?"
+      "base": {
+        "text": "Base เป็นเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยสำคัญของ Ethereum\n\nมันรวมการทำธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งลงไปอยู่ถาวรบน Ethereum.",
+        "title": "Base คืออะไร?"
       },
       "blast": {
         "text": "Blast คือเครือข่าย Layer 2 ที่ทำงานบน Ethereum นำเสนอธุรกรรมที่ราคาถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยหลักของ Ethereum\n\nมันรวมธุรกรรมจำนวนมากเข้าด้วยกันใน \"roll up\" ก่อนที่จะส่งลงไปที่ Ethereum อย่างถาวร",
         "title": "Blast คืออะไร?"
       },
-      "apechain": {
-        "text": "ApeChain เป็นเครือข่าย Layer 3 ที่ทำงานบน Arbitrum Orbit และ Ethereum\n\nมันเสริมสร้างการใช้ ApeCoin อย่างมีนัยสำคัญ ส่งเสริมเศรษฐกิจที่แข็งแกร่งและมีพลังซึ่งขับเคลื่อนโดย $APE",
-        "title": "ApeChain คืออะไร?"
+      "bsc": {
+        "text": "Binance Smart Chain (BSC) คือ blockchain สำหรับแพลตฟอร์มการซื้อขาย Binance \n\nBSC อนุญาตให้ทำธุรกรรมที่ถูกและเร็วขึ้น แต่ไม่เหมือนกับเครือข่าย Layer 2, มันมีระบบความปลอดภัยและกลไกความสมานฉันท์ของตัวเองที่แตกต่างจาก Ethereum.",
+        "title": "Binance Smart Chain คืออะไร?"
       },
-      "zora": {
-        "text": "Zora คือเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยสำคัญของ Ethereum\n\nมันรวมการทำธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งลงไปอยู่ถาวรบน Ethereum.",
-        "title": "Zora คืออะไร?"
+      "degen": {
+        "text": "Degen Chain เป็นเครือข่าย Layer 3 ที่ทำงานบน Arbitrum และ Ethereum",
+        "title": "Degen Chain คืออะไร?"
+      },
+      "gravity": {
+        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
+        "title": "What's Gravity?"
+      },
+      "gnosis": {
+        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
+        "title": "What's Gnosis?"
+      },
+      "ink": {
+        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
+        "title": "What's Ink?"
+      },
+      "linea": {
+        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
+        "title": "What's Linea?"
+      },
+      "optimism": {
+        "text": "Optimism เป็นเครือข่ายชั้นที่ 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกต้นและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากการรักษาความปลอดภัยทางด้านล่างของ Ethereum\n\nมันรวมการทำธุรกรรมเยอะๆเข้าด้วยกันในรูปแบบ \"roll up\" ก่อนที่จะส่งลงไปให้อยู่ใน Ethereum อย่างถาวร",
+        "title": "Optimism คืออะไร?"
       },
       "polygon": {
         "text": "Polygon คือ sidechain, เครือข่ายที่แตกต่างที่ทำงานควบคู่กับ Ethereum และเข้ากันได้กับมัน\n\nมันอนุญาตให้ทำธุรกรรมที่ถูกและเร็วขึ้น แต่ไม่เหมือนกับเครือข่าย Layer 2, Polygon มีระบบความปลอดภัยและกลไกความสมานฉันท์ของตัวเองที่แตกต่างจาก Ethereum.",
         "title": "Polygon คืออะไร?"
       },
-      "bsc": {
-        "text": "Binance Smart Chain (BSC) คือ blockchain สำหรับแพลตฟอร์มการซื้อขาย Binance \n\nBSC อนุญาตให้ทำธุรกรรมที่ถูกและเร็วขึ้น แต่ไม่เหมือนกับเครือข่าย Layer 2, มันมีระบบความปลอดภัยและกลไกความสมานฉันท์ของตัวเองที่แตกต่างจาก Ethereum.",
-        "title": "Binance Smart Chain คืออะไร?"
+      "scroll": {
+        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
+        "title": "What's Scroll?"
+      },
+      "sanko": {
+        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
+        "title": "What's Sanko?"
+      },
+      "zksync": {
+        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
+        "title": "What's Zksync?"
+      },
+      "zora": {
+        "text": "Zora คือเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยสำคัญของ Ethereum\n\nมันรวมการทำธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งลงไปอยู่ถาวรบน Ethereum.",
+        "title": "Zora คืออะไร?"
       },
       "read_more": "อ่านเพิ่มเติม",
       "learn_more": "เรียนรู้เพิ่มเติม",
@@ -1033,15 +1081,6 @@
           "fragment1": "ยังอยากรู้อีกหรือไม่? ",
           "fragment2": "อ่านเพิ่มเติม",
           "fragment3": " เกี่ยวกับการสูญเสียและวิธีที่มันมีผลต่อการสลับ."
-        }
-      },
-      "flashbots": {
-        "text": "Flashbots ป้องกันธุรกรรมของคุณจากการรีบตามและการโจมตีแซนด์วิชซึ่งอาจทำให้ราคาที่คุณได้รับแย่ลงหรือการทำธุรกรรมของคุณล้มเหลว.",
-        "title": "Flashbots",
-        "still_curious": {
-          "fragment1": "ยังอยากรู้อีกหรือไม่? ",
-          "fragment2": "อ่านเพิ่มเติม",
-          "fragment3": " เกี่ยวกับ Flashbots และการป้องกันที่มันมีให้."
         }
       },
       "swap_refuel": {
@@ -1189,6 +1228,12 @@
         "check_out_my_wallet": "ดูสะสมฉันบน 🌈 Rainbow ที่ %{showcaseUrl}",
         "check_out_this_wallet": "ดูสะสมของกระเป๋าเงินนี้บน 🌈 Rainbow ที่ %{showcaseUrl}"
       }
+    },
+    "loading": {
+      "backing_up": "กำลังสำรองข้อมูล...",
+      "creating_wallet": "Creating wallet...",
+      "importing_wallet": "Importing...",
+      "restoring": "Restoring..."
     },
     "message": {
       "click_to_copy_to_clipboard": "คลิกเพื่อคัดลอกไปยังคลิปบอร์ด",
@@ -2052,7 +2097,6 @@
       "find_a_token_to_buy": "ค้นหาโทเคนที่จะซื้อ",
       "search_your_tokens": "ค้นหาโทเค็นของคุณ",
       "error_executing_swap": "ข้อผิดพลาดในการดำเนินการแลกเปลี่ยน",
-      "flashbots_protection": "การป้องกัน Flashbots",
       "tokens_input": {
         "tokens": "โทเคน",
         "sort": "เรียงลำดับ",
@@ -2924,6 +2968,7 @@
         "buttons": {
           "cancel": "ยกเลิก",
           "confirm": "􀎽 ส่งธุรกรรม",
+          "confirming": "Confirming",
           "get_native_token": "รับ %{symbol}",
           "buy_native_token": "ซื้อ %{symbol}"
         },
@@ -2984,12 +3029,72 @@
       },
       "menus": {
         "favorite": "รายการโปรด",
+        "home": "Home",
         "undo_favorite": "เลิกทำรายการโปรด",
         "remove": "ลบ",
         "forward": "ส่งต่อ",
-        "back": "ย้อนกลับ"
+        "back": "ย้อนกลับ",
+        "share": "แบ่งปัน",
+        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
+        "close_both_tabs": "Close Both Tabs",
+        "close_this_tab": "Close This Tab",
+        "close_tab": "Close Tab",
+        "new_tab": "New Tab"
       }
     },
+    "trending_tokens": {
+      "all": "ทั้งหมด",
+      "no_results": {
+        "title": "No results",
+        "body": "Try browsing a larger timeframe or a different network or category."
+      },
+      "and": "and",
+      "and_others": {
+        "one": "and %{count} other",
+        "other": "and %{count} others"
+      },
+      "filters": {
+        "categories": {
+          "TRENDING": "เทรนด์",
+          "NEW": "ใหม่",
+          "FARCASTER": "Farcaster"
+        },
+        "sort": {
+          "RECOMMENDED": {
+            "label": "เรียงลำดับ",
+            "menuOption": "Default"
+          },
+          "VOLUME": "Volume",
+          "MARKET_CAP": "Market Cap",
+          "TOP_GAINERS": "Top Gainers",
+          "TOP_LOSERS": "Top Losers"
+        },
+        "time": {
+          "H12": "12 Hours",
+          "H12_ABBREVIATED": "12h",
+          "H24": "24 Hours",
+          "H24_ABBREVIATED": "24h",
+          "D7": "1 Week",
+          "D3": "3 Days"
+        }
+      }
+    },
+    "network_switcher": {
+      "customize_networks_banner": {
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
+      },
+      "drag_here_to_unpin": "Drop Here to Unpin",
+      "edit": "แก้ไข",
+      "networks": "เครือข่าย",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
+      "more": "เพิ่มเติม",
+      "show_more": "More Networks",
+      "all_networks": "ทุกเครือข่าย"
+    },
+    "done": "เสร็จสิ้น",
     "copy": "คัดลอก",
     "paste": "วาง"
   }
