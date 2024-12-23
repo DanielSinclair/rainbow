@@ -96,7 +96,8 @@
         "generic": "बैकअप करने की कोशिश करते समय त्रुटि। त्रुटि कोड: %{errorCodes}",
         "no_keys_found": "कोई कुंजी नहीं मिली। कृपया पुनः प्रयास करें।",
         "backup_not_found": "बैकअप नहीं मिला। कृपया पुनः प्रयास करें।",
-        "no_account_found": "बैकअप फाइलें प्राप्त करने में असमर्थ। सुनिश्चित करें कि आप लॉग इन हैं।"
+        "no_account_found": "बैकअप फाइलें प्राप्त करने में असमर्थ। सुनिश्चित करें कि आप लॉग इन हैं।",
+        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
       },
       "wrong_pin": "आपके द्वारा दर्ज किया गया पिन कोड गलत था और हम बैकअप नहीं बना सकते। कृपया सही कोड के साथ पुनः प्रयास करें।",
       "already_backed_up": {
@@ -115,6 +116,8 @@
         "no_backups": "कोई बैकअप नहीं मिला",
         "failed_to_fetch_backups": "बैकअप लाने में विफल",
         "retry": "पुनः प्रयास करें",
+        "refresh": "Refresh",
+        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
         "fetching_backups": "%{cloudPlatformName} से बैकअप प्राप्त करना",
         "back_up_to_platform": "कृपया %{cloudPlatformName}पर बैकअप करें",
         "restore_from_platform": "%{cloudPlatformName}से वापस पाएं",
@@ -137,7 +140,7 @@
         "choose_backup_cloud_description": "अपने वॉलेट का सुरक्षित रूप से %{cloudPlatform} पर बैकअप करें ताकि यदि आप अपना डिवाइस खो दें या एक नया प्राप्त करें, तो आप इसे पुनर्स्थापित कर सकें।",
         "choose_backup_manual_description": "अपने गुप्त अनु वाक्यांश को एक सुरक्षित स्थान पर सहेजकर अपना वॉलेट मैन्युअली बैकअप करें।",
         "enable_cloud_backups_description": "यदि आप अपने वॉलेट्स का बैकअप मैन्युअली करना पसंद करते हैं, तो आप नीचे कर सकते हैं।",
-        "latest_backup": "अंतिम बैकअप: %{date}",
+        "latest_backup": "Latest Backup: %{date}",
         "back_up_all_wallets_to_cloud": "सभी वॉलेट्स का बैकअप %{cloudPlatformName} पर करें",
         "most_recent_backup": "सबसे हालिया बैकअप",
         "out_of_date": "पुराना",
@@ -145,6 +148,12 @@
         "older_backups": "पुराने बैकअप",
         "no_older_backups": "कोई पुराने बैकअप नहीं",
         "older_backups_title": "%{date} पर %{time}",
+        "statuses": {
+          "not_enabled": "Not Enabled",
+          "syncing": "Syncing",
+          "out_of_date": "पुराना",
+          "up_to_date": "अप टू डेट"
+        },
         "password": {
           "a_password_youll_remember_part_one": "यह पासवर्ड",
           "not": "नहीं",
@@ -452,7 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "calculating_gas_fee": "गैस शुल्क की गणना हो रही है...",
+        "estimating_gas_fee": "Estimating Gas Fee...",
+        "gas_error": "Gas Error",
+        "quote_error": "कोट त्रुटि",
+        "no_route_found": "No Route Found",
+        "fetching_quote": "Fetching Quote...",
+        "select_a_network": "Select a Network",
+        "select_a_token": "Select a Token",
         "amount_to_claim_on_network": "%{amount} को %{network} पर दावा करने के लिए",
         "claim": "दावा करें",
         "claiming": "दावा कर रहा है",
@@ -463,7 +478,12 @@
         "claim_amount": "दावा %{amount}",
         "done": "हो गया",
         "try_again": "फिर से प्रयास करें",
-        "tokens_on_the_way": "टोकन रास्ते में हैं!"
+        "tokens_on_the_way": "टोकन रास्ते में हैं!",
+        "a_token": "a token",
+        "a_network": "a network",
+        "swap_failed": "आदान-प्रदान विफल",
+        "receive": "प्राप्त करें",
+        "on": "on"
       }
     },
     "cloud": {
@@ -503,8 +523,8 @@
       "clear_image_metadata_cache": "छवि मेटाडाटा कैश साफ करें",
       "clear_local_storage": "लोकल स्टोरेज को साफ करें",
       "clear_mmkv_storage": "MMKV स्टोरेज को साफ करें",
-      "connect_to_hardhat": "Hardhat से कनेक्ट करें",
-      "disconnect_to_hardhat": "हार्डहैट से डिस्कनेक्ट करें",
+      "connect_to_anvil": "Connect to anvil",
+      "disconnect_to_anvil": "Disconnect from anvil",
       "crash_app_render_error": "ऐप्र्प्लिकेशन क्रैश करें (रेंडर त्रुटि)",
       "enable_testnets": "टेस्टनेट्स सक्षम करें",
       "installing_update": "अद्यतन स्थापित कर रहा है",
@@ -642,7 +662,6 @@
       "high": "उच्च",
       "slippage_tolerance": "अधिकतम स्लिपेज",
       "source_picker": "स्वैप को रूट करें वाया",
-      "use_flashbots": "फ्लैशबोट्स का उपयोग करें",
       "swapping_for_prefix": "के लिए स्वैप करें",
       "view_details": "विवरण देखें",
       "token_sections": {
@@ -723,7 +742,6 @@
       "swap": {
         "swap": "अदला-बदली करें",
         "bridge": "ब्रिज",
-        "flashbots_protect": "फ्लैशबॉट्स सुरक्षित",
         "losing": "हानि हो रही है",
         "on": "पर",
         "off": "बंद",
@@ -857,6 +875,8 @@
       "adworld_title": "रेनबो वर्ल्ड में आपका स्वागत है!",
       "farcaster_description": "हमारा सबसे बोरिंग ऐप आइकन, वार्पकास्ट के सुस्त न्यूनतमवाद से प्रेरित।",
       "farcaster_title": "आपने अनलॉक कर लिया है\nरेनबो कास्ट",
+      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
+      "redacted_title": "You've unlocked\n Redacted Rainbow",
       "button": "आइकन पकड़ें"
     },
     "explain": {
@@ -927,41 +947,69 @@
         "text": "खनकर्मी का टिप सीधे नेटवर्क पर आपके ट्रांजैक्शन की पुष्टि करने वाले खनकर्मी को जाता है।\n\nएक उच्च टिप आपके लेन-देन को त्वरित रूप से पुष्टि की अधिक संभावना बनाता है।",
         "title": "खनकर्मी का टिप"
       },
-      "optimism": {
-        "text": "आशावाद एक परत 2 नेटवर्क है जो ईथेरियम के ऊपर चलता है, यह सस्ते और तेज़ लेनदेन को सक्षम करता है जबकि अभी भी ईथेरियम की आधारभूत सुरक्षा से लाभ उठाता है।\n\nयह एक \"रोल अप\" में कई लेनदेनों को एक साथ बंधेली करता है पहले उन्हें ईथेरियम पर स्थायी रूप से रहने के लिए भेजता है।",
-        "title": "आशावाद क्या है?"
-      },
-      "base": {
-        "text": "Base एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
-        "title": "बेस क्या है?"
+      "apechain": {
+        "text": "ApeChain एक लेयर <b>3</b> नेटवर्क है जो Arbitrum Orbit और Ethereum के ऊपर चलता है।\n\nयह ApeCoin की उपयोगिता को बहुत बढ़ाता है, $APE द्वारा संचालित एक मजबूत और गतिशील अर्थव्यवस्था को बढ़ावा देता है।",
+        "title": "ApeChain क्या है?"
       },
       "avalanche": {
         "text": "Avalanche एक साइडचेन है, एक अलग नेटवर्क जो Ethereum के साथ चलता है और उसके अनुकूलित है।\n\nयह सस्ते और तेज़ ट्रांजेक्शनों की अनुमति देता है, लेकिन लेयर 2 नेटवर्क के विपरीत, Avalanche का अपना सुरक्षा और सहमति प्रणाली है जो Ethereum से भिन्न है।",
         "title": "Avalanche क्या है?"
       },
-      "degen": {
-        "text": "Degen Chain एक लेयर <b>3</b> नेटवर्क है जो Arbitrum Orbit और Ethereum के ऊपर चलता है।",
-        "title": "Degen Chain क्या है?"
+      "base": {
+        "text": "Base एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
+        "title": "बेस क्या है?"
       },
       "blast": {
         "text": "Blast एक लेयर 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ ट्रांजेक्शनों को सक्षम बनाता है जबकि अभी भी Ethereum की मौलिक सुरक्षा का लाभ उठाता है।\n\nयह कई ट्रांजेक्शनों को एक \"रोल अप\" में बांधता है जब उन्हें स्थायी रूप से Ethereum पर भेजने के लिए।",
         "title": "Blast क्या है?"
       },
-      "apechain": {
-        "text": "ApeChain एक लेयर <b>3</b> नेटवर्क है जो Arbitrum Orbit और Ethereum के ऊपर चलता है।\n\nयह ApeCoin की उपयोगिता को बहुत बढ़ाता है, $APE द्वारा संचालित एक मजबूत और गतिशील अर्थव्यवस्था को बढ़ावा देता है।",
-        "title": "ApeChain क्या है?"
+      "bsc": {
+        "text": "Binance Smart Chain (BSC) व्यापार प्लेटफॉर्म Binance के लिए ब्लॉकचेन है। \n\nBSC सस्ते और तेज लेन-देन की सुविधा देता है, लेकिन Layer 2 नेटवर्क के विपरीत, इसके पास अपने स्वयं के सुरक्षा और सहमति मेकनिज़म हैं जो Ethereum से भिन्न हैं।",
+        "title": "बाइनेंस स्मार्ट चेन क्या है?"
       },
-      "zora": {
-        "text": "Zora एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
-        "title": "Zora क्या है?"
+      "degen": {
+        "text": "Degen Chain एक लेयर <b>3</b> नेटवर्क है जो Arbitrum Orbit और Ethereum के ऊपर चलता है।",
+        "title": "Degen Chain क्या है?"
+      },
+      "gravity": {
+        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
+        "title": "What's Gravity?"
+      },
+      "gnosis": {
+        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
+        "title": "What's Gnosis?"
+      },
+      "ink": {
+        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
+        "title": "What's Ink?"
+      },
+      "linea": {
+        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
+        "title": "What's Linea?"
+      },
+      "optimism": {
+        "text": "आशावाद एक परत 2 नेटवर्क है जो ईथेरियम के ऊपर चलता है, यह सस्ते और तेज़ लेनदेन को सक्षम करता है जबकि अभी भी ईथेरियम की आधारभूत सुरक्षा से लाभ उठाता है।\n\nयह एक \"रोल अप\" में कई लेनदेनों को एक साथ बंधेली करता है पहले उन्हें ईथेरियम पर स्थायी रूप से रहने के लिए भेजता है।",
+        "title": "आशावाद क्या है?"
       },
       "polygon": {
         "text": "Polygon एक साइडचेन है, एक अलग नेटवर्क जो Ethereum के साथ चलता है और इसके साथ संगत है।\n\nयह सस्ते और तेज लेन-देन की सुविधा देता है, लेकिन Layer 2 नेटवर्क के विपरीत, Polygon के पास अपने स्वयं के सुरक्षा और सहमति मेकनिज़म हैं जो Ethereum से भिन्न हैं।",
         "title": "Polygon क्या है?"
       },
-      "bsc": {
-        "text": "Binance Smart Chain (BSC) व्यापार प्लेटफॉर्म Binance के लिए ब्लॉकचेन है। \n\nBSC सस्ते और तेज लेन-देन की सुविधा देता है, लेकिन Layer 2 नेटवर्क के विपरीत, इसके पास अपने स्वयं के सुरक्षा और सहमति मेकनिज़म हैं जो Ethereum से भिन्न हैं।",
-        "title": "बाइनेंस स्मार्ट चेन क्या है?"
+      "scroll": {
+        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
+        "title": "What's Scroll?"
+      },
+      "sanko": {
+        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
+        "title": "What's Sanko?"
+      },
+      "zksync": {
+        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
+        "title": "What's Zksync?"
+      },
+      "zora": {
+        "text": "Zora एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जिससे सस्ते और तेज़ लेन-देन संभव होते हैं, फिर भी Ethereum की अधिकृत सुरक्षा से लाभ मिलता है।\n\nयह \"roll up\" में कई लेन-देनों को एक साथ जोड़ता है, फिर उन्हें Ethereum पर स्थायी रूप से रहने के लिए भेजता है।",
+        "title": "Zora क्या है?"
       },
       "read_more": "अधिक पढ़ें",
       "learn_more": "अधिक जानें",
@@ -1033,15 +1081,6 @@
           "fragment1": "अभी भी उत्सुक? ",
           "fragment2": "अधिक पढ़ें",
           "fragment3": " सर्वडा के बारे में और यह कैसे स्वैप्स को प्रभावित करता है।"
-        }
-      },
-      "flashbots": {
-        "text": "फ्लैशबोट्स आपके लेन-देन को फ्रंटरनिंग और सैंडविच हमलों से सुरक्षित करती है जो आपको खराब मूल्य प्राप्त करने में या आपके लेन-देन की विफलता में हो सकती है।",
-        "title": "फ्लैशबोट्स",
-        "still_curious": {
-          "fragment1": "अभी भी उत्सुक? ",
-          "fragment2": "अधिक पढ़ें",
-          "fragment3": " फ्लैशबोट्स के बारे में और यह किस प्रकार से सुरक्षा प्रदान करता है।"
         }
       },
       "swap_refuel": {
@@ -1189,6 +1228,12 @@
         "check_out_my_wallet": "🌈 रेनबो पर मेरे संग्रहित उत्पादों की जाँच करें %{showcaseUrl}",
         "check_out_this_wallet": "इस वॉलेट के संग्रहण को 🌈 रेनबो पर देखें %{showcaseUrl}"
       }
+    },
+    "loading": {
+      "backing_up": "बैकअप हो रहा है...",
+      "creating_wallet": "Creating wallet...",
+      "importing_wallet": "Importing...",
+      "restoring": "Restoring..."
     },
     "message": {
       "click_to_copy_to_clipboard": "कॉपी करने के लिए क्लिक करें",
@@ -2052,7 +2097,6 @@
       "find_a_token_to_buy": "खरीदने के लिए टोकन खोजें",
       "search_your_tokens": "अपने टोकन खोजें",
       "error_executing_swap": "स्वैप निष्पादित करते समय त्रुटि",
-      "flashbots_protection": "फ़्लैशबॉट्स सुरक्षा",
       "tokens_input": {
         "tokens": "Tokens",
         "sort": "Sort",
@@ -2924,6 +2968,7 @@
         "buttons": {
           "cancel": "रद्द करें",
           "confirm": "􀎽 पुष्टि करें",
+          "confirming": "Confirming",
           "get_native_token": "प्राप्त करें %{symbol}",
           "buy_native_token": "खरीदें %{symbol}"
         },
@@ -2984,12 +3029,72 @@
       },
       "menus": {
         "favorite": "पसंदीदा",
+        "home": "Home",
         "undo_favorite": "पसंदीदा पूर्ववत करें",
         "remove": "हटाएं",
         "forward": "आगे",
-        "back": "वापस"
+        "back": "वापस",
+        "share": "साझा करें",
+        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
+        "close_both_tabs": "Close Both Tabs",
+        "close_this_tab": "Close This Tab",
+        "close_tab": "Close Tab",
+        "new_tab": "New Tab"
       }
     },
+    "trending_tokens": {
+      "all": "सभी",
+      "no_results": {
+        "title": "No results",
+        "body": "Try browsing a larger timeframe or a different network or category."
+      },
+      "and": "and",
+      "and_others": {
+        "one": "and %{count} other",
+        "other": "and %{count} others"
+      },
+      "filters": {
+        "categories": {
+          "TRENDING": "ट्रेंडिंग",
+          "NEW": "नया",
+          "FARCASTER": "Farcaster"
+        },
+        "sort": {
+          "RECOMMENDED": {
+            "label": "Sort",
+            "menuOption": "Default"
+          },
+          "VOLUME": "Volume",
+          "MARKET_CAP": "Market Cap",
+          "TOP_GAINERS": "Top Gainers",
+          "TOP_LOSERS": "Top Losers"
+        },
+        "time": {
+          "H12": "12 Hours",
+          "H12_ABBREVIATED": "12h",
+          "H24": "24 Hours",
+          "H24_ABBREVIATED": "24h",
+          "D7": "1 Week",
+          "D3": "3 Days"
+        }
+      }
+    },
+    "network_switcher": {
+      "customize_networks_banner": {
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
+      },
+      "drag_here_to_unpin": "Drop Here to Unpin",
+      "edit": "संपादित करें",
+      "networks": "नेटवर्क",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
+      "more": "अधिक",
+      "show_more": "More Networks",
+      "all_networks": "सभी नेटवर्क"
+    },
+    "done": "हो गया",
     "copy": "कॉपी",
     "paste": "चिपकाएं"
   }
