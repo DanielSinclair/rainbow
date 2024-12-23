@@ -97,7 +97,7 @@
         "no_keys_found": "ไม่พบกุญแจ โปรดลองอีกครั้ง",
         "backup_not_found": "ไม่พบการสำรองข้อมูล โปรดลองอีกครั้ง",
         "no_account_found": "ไม่สามารถเรียกคืนไฟล์สำรองข้อมูลได้ ตรวจสอบให้แน่ใจว่าคุณได้เข้าสู่ระบบแล้ว",
-        "damaged_wallet": "Unable to backup wallet. Missing keychain data."
+        "damaged_wallet": "ไม่สามารถสำรองกระเป๋าเงินได้ ข้อมูลพวงกุญแจหายไป"
       },
       "wrong_pin": "รหัส PIN ที่คุณป้อนไม่ถูกต้องและเราไม่สามารถสำรองข้อมูลได้ โปรดลองใหม่ด้วยรหัสที่ถูกต้อง",
       "already_backed_up": {
@@ -116,8 +116,8 @@
         "no_backups": "ไม่พบการสำรองข้อมูล",
         "failed_to_fetch_backups": "การดึงการสำรองข้อมูลล้มเหลว",
         "retry": "ลองใหม่",
-        "refresh": "Refresh",
-        "syncing_cloud_store": "Syncing to %{cloudPlatformName}",
+        "refresh": "รีเฟรช",
+        "syncing_cloud_store": "กำลังซิงค์กับ %{cloudPlatformName}",
         "fetching_backups": "กำลังดึงข้อมูลสำรองจาก %{cloudPlatformName}",
         "back_up_to_platform": "สำรองข้อมูลไปยัง %{cloudPlatformName}",
         "restore_from_platform": "กู้คืนจาก %{cloudPlatformName}",
@@ -140,7 +140,7 @@
         "choose_backup_cloud_description": "สำรองข้อมูลกระเป๋าสตางค์ของคุณไปยัง %{cloudPlatform} อย่างปลอดภัยเพื่อให้คุณสามารถคืนค่าได้หากคุณสูญเสียอุปกรณ์หรือได้อุปกรณ์ใหม่",
         "choose_backup_manual_description": "สำรองข้อมูลกระเป๋าสตางค์ของคุณด้วยตนเองโดยการบันทึกวลีลับของคุณในที่ปลอดภัย",
         "enable_cloud_backups_description": "หากคุณต้องการสำรองข้อมูลกระเป๋าสตางค์ของคุณด้วยตนเอง คุณสามารถทำได้ที่ด้านล่าง",
-        "latest_backup": "Latest Backup: %{date}",
+        "latest_backup": "การสำรองข้อมูลล่าสุด: %{date}",
         "back_up_all_wallets_to_cloud": "สำรองข้อมูลกระเป๋าสตางค์ทั้งหมดไปยัง %{cloudPlatformName}",
         "most_recent_backup": "การสำรองข้อมูลล่าสุด",
         "out_of_date": "หมดอายุ",
@@ -149,8 +149,8 @@
         "no_older_backups": "ไม่มีการสำรองข้อมูลเก่า",
         "older_backups_title": "%{date} ที่ %{time}",
         "statuses": {
-          "not_enabled": "Not Enabled",
-          "syncing": "Syncing",
+          "not_enabled": "ไม่เปิดใช้งาน",
+          "syncing": "กำลังซิงค์",
           "out_of_date": "หมดอายุ",
           "up_to_date": "ทันสมัยอยู่เสมอ"
         },
@@ -461,13 +461,13 @@
     },
     "claimables": {
       "panel": {
-        "estimating_gas_fee": "Estimating Gas Fee...",
-        "gas_error": "Gas Error",
+        "estimating_gas_fee": "ประเมินค่าธรรมเนียมแก๊ส...",
+        "gas_error": "ข้อผิดพลาดของแก๊ส",
         "quote_error": "ข้อผิดพลาดของราคาที่เสนอ",
-        "no_route_found": "No Route Found",
-        "fetching_quote": "Fetching Quote...",
-        "select_a_network": "Select a Network",
-        "select_a_token": "Select a Token",
+        "no_route_found": "ไม่พบเส้นทาง",
+        "fetching_quote": "กำลังดึงข้อมูลราคาเสนอ...",
+        "select_a_network": "เลือกเครือข่าย",
+        "select_a_token": "เลือกโทเค็น",
         "amount_to_claim_on_network": "%{amount} ที่ต้องเคลมบน %{network}",
         "claim": "เคลม",
         "claiming": "กำลังเรียกร้อง",
@@ -479,11 +479,11 @@
         "done": "เสร็จสิ้น",
         "try_again": "ลองใหม่",
         "tokens_on_the_way": "โทเคนกำลังมาถึง!",
-        "a_token": "a token",
-        "a_network": "a network",
+        "a_token": "โทเค็นหนึ่ง",
+        "a_network": "เครือข่ายหนึ่ง",
         "swap_failed": "แลกเปลี่ยนล้มเหลว",
         "receive": "รับ",
-        "on": "on"
+        "on": "เปิด"
       }
     },
     "cloud": {
@@ -523,8 +523,8 @@
       "clear_image_metadata_cache": "ล้างแคชข้อมูลภาพ",
       "clear_local_storage": "ล้าง local storage",
       "clear_mmkv_storage": "ล้าง MMKV storage",
-      "connect_to_anvil": "Connect to anvil",
-      "disconnect_to_anvil": "Disconnect from anvil",
+      "connect_to_anvil": "เชื่อมต่อกับ anvil",
+      "disconnect_to_anvil": "ตัดการเชื่อมต่อจาก anvil",
       "crash_app_render_error": "คว่ำ app (render error)",
       "enable_testnets": "เปิดใช้งาน Testnets",
       "installing_update": "กำลังติดตั้งการอัปเดต",
@@ -875,8 +875,8 @@
       "adworld_title": "ยินดีต้อนรับสู่ Rainbow World!",
       "farcaster_description": "ไอคอนแอปที่น่าเบื่อที่สุดของเรา แรงบันดาลใจจากความเรียบง่ายที่ไร้บทบาทของ Warpcast",
       "farcaster_title": "คุณได้ปลดล็อก\nRainbowcast",
-      "redacted_description": "A stupi-exclusive Rainbow icon for the true Gdupi enjoyers.",
-      "redacted_title": "You've unlocked\n Redacted Rainbow",
+      "redacted_description": "ไอคอน Rainbow พิเศษสำหรับผู้ที่ชื่นชอบ Gdupi แท้ๆ",
+      "redacted_title": "คุณได้ปลดล็อก\nRedacted Rainbow",
       "button": "ปลดล็อคไอคอน"
     },
     "explain": {
@@ -972,20 +972,20 @@
         "title": "Degen Chain คืออะไร?"
       },
       "gravity": {
-        "text": "Gravity is a high-performance Layer 1 blockchain built by Galxe, achieving over one gigagas per second throughput and sub-second finality.\n\nIt utilizes a pipelined AptosBFT consensus engine and a parallel EVM runtime, maintaining Proof-of-Stake security through restaking technology.",
-        "title": "What's Gravity?"
+        "text": "Gravity เป็นบล็อกเชนเลเยอร์ 1 ที่มีประสิทธิภาพสูง สร้างโดย Galxe บรรลุการส่งผ่านความเร็วมากกว่า 1 กิกะแก๊สต่อวินาทีและความแน่นอนระดับเศษเสี้ยววินาที\n\nใช้เครื่องยนต์ความสอดคล้อง AptosBFT แบบสายพานและรันไทม์ EVM แบบขนาน รักษาความปลอดภัย Proof-of-Stake ด้วยเทคโนโลยีการรีสเตค",
+        "title": "Gravity คืออะไร?"
       },
       "gnosis": {
-        "text": "Gnosis Chain is a community-owned Ethereum sidechain operated by a diverse set of validators worldwide.\n\nIt focuses on resilience and credible neutrality, offering cheaper and faster transactions while maintaining its own security and consensus mechanisms.",
-        "title": "What's Gnosis?"
+        "text": "Gnosis Chain เป็นซิสต์เชนของ Ethereum ที่ชุมชนเป็นเจ้าของและดำเนินการโดยชุดวาลิเดเตอร์หลากหลายทั่วโลก\n\nมันมุ่งเน้นไปที่ความยืดหยุ่นและความเป็นกลางที่เชื่อถือได้ เสนอธุรกรรมที่ถูกกว่าและรวดเร็วกว่าขณะที่รักษาความปลอดภัยและกลไกความสอดคล้องของตัวเอง",
+        "title": "Gnosis คืออะไร?"
       },
       "ink": {
-        "text": "Ink is a Layer 2 network built on the OP Stack, designed to scale Ethereum by providing sub-second block times and low transaction fees.\n\nUnleashed by Kraken, and part of the Superchain, Ink aims to enhance performance and accessibility for decentralized finance (DeFi) applications.",
-        "title": "What's Ink?"
+        "text": "Ink เป็นเครือข่ายเลเยอร์ 2 ที่สร้างขึ้นบน OP Stack ออกแบบมาเพื่อเพิ่มขนาด Ethereum โดยให้เวลาบล็อกต่ำกว่าเศษวินาทีและค่าธรรมเนียมการทำธุรกรรมต่ำ\n\nเปิดตัวโดย Kraken และเป็นส่วนหนึ่งของ Superchain เป้าหมายของ Ink คือการเพิ่มประสิทธิภาพและการเข้าถึงสำหรับการเงินกระจายศูนย์ (DeFi)",
+        "title": "Ink คืออะไร?"
       },
       "linea": {
-        "text": "Linea is a secure, low-cost, Ethereum-equivalent Layer 2 blockchain developed by ConsenSys.\n\nIt enables faster and more affordable transactions without compromising security and decentralization, aiming to onboard the next billion users to web3.",
-        "title": "What's Linea?"
+        "text": "Linea เป็นบล็อกเชนเลเยอร์ 2 ที่ปลอดภัยและมีต้นทุนต่ำเทียบเท่า Ethereum พัฒนาโดย ConsenSys\n\nมันช่วยให้ธุรกรรมรวดเร็วและต้นทุนต่ำโดยไม่สูญเสียความปลอดภัยและการกระจายศูนย์ มีเป้าหมายที่จะดึงดูดผู้ใช้ใหม่หนึ่งพันล้านคนสู่ web3",
+        "title": "Linea คืออะไร?"
       },
       "optimism": {
         "text": "Optimism เป็นเครือข่ายชั้นที่ 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกต้นและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากการรักษาความปลอดภัยทางด้านล่างของ Ethereum\n\nมันรวมการทำธุรกรรมเยอะๆเข้าด้วยกันในรูปแบบ \"roll up\" ก่อนที่จะส่งลงไปให้อยู่ใน Ethereum อย่างถาวร",
@@ -996,16 +996,16 @@
         "title": "Polygon คืออะไร?"
       },
       "scroll": {
-        "text": "Scroll is a Layer 2 solution built atop Ethereum, aiming to enhance scalability and transaction efficiency.\n\nIt employs roll-up technology to bundle transactions, which are then submitted to Ethereum, benefiting from its security infrastructure.",
-        "title": "What's Scroll?"
+        "text": "Scroll เป็นโซลูชันเลเยอร์ 2 ที่สร้างขึ้นบน Ethereum มุ่งหวังเพื่อเพิ่มกำลังขยายและประสิทธิภาพการทำธุรกรรม\n\nมันใช้เทคโนโลยีการรวมตัวเพื่อบันเดิลธุรกรรมที่ถูกส่งไปยัง Ethereum โดยได้รับประโยชน์จากโครงสร้างความปลอดภัยของมัน",
+        "title": "Scroll คืออะไร?"
       },
       "sanko": {
-        "text": "Sanko is a Layer 3 network that runs on top of Arbitrum and Ethereum, focusing on NFTs and gaming.\n\nIt uses AnyTrust Data Availability and fraud proofs for state validation, allowing for faster and cheaper transactions while leveraging Ethereum's security. Sanko features a native token called DMT and employs whitelisted validators for proposing and challenging state roots.",
-        "title": "What's Sanko?"
+        "text": "Sanko เป็นเครือข่ายเลเยอร์ 3 ที่ทำงานบน Arbitrum และ Ethereum โดยมุ่งเน้นที่ NFTs และเกม\n\nใช้ AnyTrust Data Availability และระบบพิสูจน์การโกงเพื่อตรวจสอบสถานะ ทำให้สามารถทำธุรกรรมได้เร็วขึ้นและถูกลงในขณะที่คงความปลอดภัยของ Ethereum Sanko มีโทเค็นเนทีฟชื่อ DMT และใช้วาลิเดเตอร์ที่มีการอนุญาตในไวท์ลิสต์สำหรับการเสนอและท้าทายรากฐานสถานะ",
+        "title": "Sanko คืออะไร?"
       },
       "zksync": {
-        "text": "ZKsync is a Layer 2 protocol designed to scale Ethereum using advanced zero-knowledge cryptographic proofs.\n\nIt enhances Ethereum’s throughput while maintaining decentralization and security, enabling faster and cheaper transactions.",
-        "title": "What's Zksync?"
+        "text": "ZKsync เป็นโปรโตคอลเลเยอร์ 2 ที่ออกแบบมาเพื่อขยาย Ethereum โดยใช้การพิสูจน์การเข้ารหัสแบบศูนย์ความรู้ขั้นสูง\n\nมันช่วยเพิ่ม throughput ของ Ethereum ในขณะที่รักษาการกระจายอำนาจและความปลอดภัย ทำให้สามารถทำธุรกรรมได้เร็วขึ้นและถูกลง",
+        "title": "Zksync คืออะไร?"
       },
       "zora": {
         "text": "Zora คือเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้การทำธุรกรรมถูกและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยสำคัญของ Ethereum\n\nมันรวมการทำธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งลงไปอยู่ถาวรบน Ethereum.",
@@ -1231,9 +1231,9 @@
     },
     "loading": {
       "backing_up": "กำลังสำรองข้อมูล...",
-      "creating_wallet": "Creating wallet...",
-      "importing_wallet": "Importing...",
-      "restoring": "Restoring..."
+      "creating_wallet": "สร้างกระเป๋าเงิน...",
+      "importing_wallet": "นำเข้า...",
+      "restoring": "กำลังเรียกคืน..."
     },
     "message": {
       "click_to_copy_to_clipboard": "คลิกเพื่อคัดลอกไปยังคลิปบอร์ด",
@@ -2968,7 +2968,7 @@
         "buttons": {
           "cancel": "ยกเลิก",
           "confirm": "􀎽 ส่งธุรกรรม",
-          "confirming": "Confirming",
+          "confirming": "ยืนยัน",
           "get_native_token": "รับ %{symbol}",
           "buy_native_token": "ซื้อ %{symbol}"
         },
@@ -3029,29 +3029,29 @@
       },
       "menus": {
         "favorite": "รายการโปรด",
-        "home": "Home",
+        "home": "หน้าหลัก",
         "undo_favorite": "เลิกทำรายการโปรด",
         "remove": "ลบ",
         "forward": "ส่งต่อ",
         "back": "ย้อนกลับ",
         "share": "แบ่งปัน",
-        "close_all_tabs": "Close All %{numberOfClosableTabs} Tabs",
-        "close_both_tabs": "Close Both Tabs",
-        "close_this_tab": "Close This Tab",
-        "close_tab": "Close Tab",
-        "new_tab": "New Tab"
+        "close_all_tabs": "ปิดแท็บทั้งหมด %{numberOfClosableTabs} แท็บ",
+        "close_both_tabs": "ปิดทั้งสองแท็บ",
+        "close_this_tab": "ปิดแท็บนี้",
+        "close_tab": "ปิดแท็บ",
+        "new_tab": "แท็บใหม่"
       }
     },
     "trending_tokens": {
       "all": "ทั้งหมด",
       "no_results": {
-        "title": "No results",
-        "body": "Try browsing a larger timeframe or a different network or category."
+        "title": "ไม่มีผลลัพธ์",
+        "body": "ลองเรียกดูช่วงเวลาที่กว้างขึ้นหรือเครือข่ายหรือหมวดหมู่ที่แตกต่าง"
       },
-      "and": "and",
+      "and": "และ",
       "and_others": {
-        "one": "and %{count} other",
-        "other": "and %{count} others"
+        "one": "และ%{count} อื่น",
+        "other": "และ%{count} อื่น ๆ"
       },
       "filters": {
         "categories": {
@@ -3062,36 +3062,36 @@
         "sort": {
           "RECOMMENDED": {
             "label": "เรียงลำดับ",
-            "menuOption": "Default"
+            "menuOption": "ค่าเริ่มต้น"
           },
-          "VOLUME": "Volume",
-          "MARKET_CAP": "Market Cap",
-          "TOP_GAINERS": "Top Gainers",
-          "TOP_LOSERS": "Top Losers"
+          "VOLUME": "ปริมาณ",
+          "MARKET_CAP": "มูลค่าตามตลาด",
+          "TOP_GAINERS": "ผู้ที่ได้กำไรมากที่สุด",
+          "TOP_LOSERS": "ผู้ที่ขาดทุนมากที่สุด"
         },
         "time": {
-          "H12": "12 Hours",
-          "H12_ABBREVIATED": "12h",
-          "H24": "24 Hours",
+          "H12": "12 ชั่วโมง",
+          "H12_ABBREVIATED": "12ชม.",
+          "H24": "24 ชั่วโมง",
           "H24_ABBREVIATED": "24h",
-          "D7": "1 Week",
-          "D3": "3 Days"
+          "D7": "1 สัปดาห์",
+          "D3": "3 วัน"
         }
       }
     },
     "network_switcher": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "ปรับแต่งเครือข่าย",
+        "tap_the": "แตะที่",
+        "button_to_set_up": "ปุ่มด้านล่างเพื่อกำหนดค่า"
       },
-      "drag_here_to_unpin": "Drop Here to Unpin",
+      "drag_here_to_unpin": "ลากมาที่นี่เพื่อยกเลิกปักหมุด",
       "edit": "แก้ไข",
       "networks": "เครือข่าย",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "ลากเพื่อจัดเรียงใหม่",
+      "show_less": "แสดงน้อยลง",
       "more": "เพิ่มเติม",
-      "show_more": "More Networks",
+      "show_more": "เครือข่ายเพิ่มเติม",
       "all_networks": "ทุกเครือข่าย"
     },
     "done": "เสร็จสิ้น",
