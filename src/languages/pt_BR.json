@@ -690,13 +690,48 @@
         "social": {
           "facebook": "Facebook",
           "homepage": "Página inicial",
+          "website": "Website",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Liquidez Uniswap",
         "value": "Valor",
-        "volume_24_hours": "Volume 24h"
+        "volume_24_hours": "Volume 24h",
+        "menu": {
+          "view_on": "Visualizar em %{blockExplorerName}",
+          "share": "Compartilhar",
+          "copy_contract_address": "Copiar Endereço do Contrato",
+          "pin": "Pin",
+          "unpin": "Desafixar",
+          "hide": "Ocultar",
+          "unhide": "Mostrar"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "Fornecimento Máximo",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "Valor de Mercado",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "Comprar",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "Todo o Tempo",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "Sem dados de preço",
         "past_timespan": "Passado %{formattedTimespan}",
-        "today": "Hoje",
+        "today": "Past Day",
         "token_pool": "Piscina %{tokenName}"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "Carregando saldo...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Observando",
-        "ledger": "Ledger"
+        "ledger": "Ledger",
+        "wallets": "Carteiras",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "Toque no",
+            "action": "Editar",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "Editar Carteira",
+          "copy": "Copiar Endereço",
+          "settings": "Wallet Settings",
+          "notifications": "Configurações de Notificação",
+          "remove": "Remover Carteira"
+        }
       },
       "connected_apps": "Aplicativos conectados",
       "copy": "Copiar",
@@ -2659,6 +2712,14 @@
       "my_account_address": "Meu endereço da conta:",
       "network_title": "Rede",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "Comprar %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "Hoje",
           "day_ago": "dia atrás",
           "days_ago": "dias atrás",
@@ -3085,8 +3150,9 @@
         "tap_the": "Toque no",
         "button_to_set_up": "botão abaixo para configurar"
       },
-      "drag_here_to_unpin": "Solte Aqui para Desafixar",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "Editar",
+      "network": "Rede",
       "networks": "Redes",
       "drag_to_rearrange": "Arraste para Reorganizar",
       "show_less": "Mostrar Menos",
