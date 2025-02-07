@@ -690,13 +690,48 @@
         "social": {
           "facebook": "Facebook",
           "homepage": "ホームページ",
+          "website": "ウェブサイト",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "ユニスワップ流動性",
         "value": "価値",
-        "volume_24_hours": "24時間のボリューム"
+        "volume_24_hours": "24時間のボリューム",
+        "menu": {
+          "view_on": "%{blockExplorerName}で表示する",
+          "share": "共有する",
+          "copy_contract_address": "契約アドレスをコピー",
+          "pin": "ピン",
+          "unpin": "固定を解除する",
+          "hide": "非表示",
+          "unhide": "表示する"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "最大供給量",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "時価総額",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "購入",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "すべての時間",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "価格データがありません",
         "past_timespan": "過去 %{formattedTimespan}",
-        "today": "今日",
+        "today": "Past Day",
         "token_pool": "%{tokenName} プール"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "残高を読み込み中...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "ウォッチ中",
-        "ledger": "Ledger"
+        "ledger": "Ledger",
+        "wallets": "財布",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "タップする",
+            "action": "編集",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "ウォレットを編集する",
+          "copy": "アドレスをコピー",
+          "settings": "Wallet Settings",
+          "notifications": "通知設定",
+          "remove": "ウォレットを削除する"
+        }
       },
       "connected_apps": "接続されたアプリ",
       "copy": "Copy",
@@ -2659,6 +2712,14 @@
       "my_account_address": "私のアカウントのアドレス:",
       "network_title": "Network",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "購入します %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "今日",
           "day_ago": "1日前",
           "days_ago": "%s日前",
@@ -3085,8 +3150,9 @@
         "tap_the": "タップする",
         "button_to_set_up": "セットアップするために下のボタンを"
       },
-      "drag_here_to_unpin": "ここにドロップして固定解除",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "編集",
+      "network": "Network",
       "networks": "ネットワーク",
       "drag_to_rearrange": "ドラッグして並べ替え",
       "show_less": "表示を減らす",
