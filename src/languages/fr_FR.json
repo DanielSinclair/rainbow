@@ -690,13 +690,48 @@
         "social": {
           "facebook": "Facebook",
           "homepage": "Page d'accueil",
+          "website": "Site Internet",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Liquidité Uniswap",
         "value": "Valeur",
-        "volume_24_hours": "Volume sur 24 heures"
+        "volume_24_hours": "Volume sur 24 heures",
+        "menu": {
+          "view_on": "Voir sur %{blockExplorerName}",
+          "share": "Partager",
+          "copy_contract_address": "Copier l'adresse du contrat",
+          "pin": "Épingler",
+          "unpin": "Détacher",
+          "hide": "Cacher",
+          "unhide": "Afficher"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "Approvisionnement maximum",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "Capitalisation boursière",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "Acheter",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "Tout Temps",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "Pas de données de prix",
         "past_timespan": "Passé %{formattedTimespan}",
-        "today": "Aujourd'hui :)",
+        "today": "Past Day",
         "token_pool": "%{tokenName} Piscine"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "Chargement du solde...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Regarder",
-        "ledger": "Ledger"
+        "ledger": "Ledger",
+        "wallets": "Portefeuilles",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "Tapez sur le",
+            "action": "Modifier",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "Modifier le portefeuille",
+          "copy": "Copier l'adresse",
+          "settings": "Wallet Settings",
+          "notifications": "Paramètres de notification",
+          "remove": "Retirer le portefeuille"
+        }
       },
       "connected_apps": "Applications connectées",
       "copy": "Copier",
@@ -2659,6 +2712,14 @@
       "my_account_address": "Mon adresse de compte est :",
       "network_title": "Réseau",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "Acheter %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "Aujourd'hui :)",
           "day_ago": "il y a un jour",
           "days_ago": "il y a quelques jours",
@@ -3085,8 +3150,9 @@
         "tap_the": "Tapez sur le",
         "button_to_set_up": "bouton ci-dessous pour configurer"
       },
-      "drag_here_to_unpin": "Déposez ici pour détacher",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "Modifier",
+      "network": "Réseau",
       "networks": "Réseaux",
       "drag_to_rearrange": "Faites glisser pour réorganiser",
       "show_less": "Afficher moins",
