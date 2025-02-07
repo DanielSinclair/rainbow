@@ -690,13 +690,48 @@
         "social": {
           "facebook": "فيسبوك",
           "homepage": "الصفحة الرئيسية",
+          "website": "الموقع الإلكتروني",
           "reddit": "رديت",
           "telegram": "تيليجرام",
-          "twitter": "تويتر"
+          "twitter": "تويتر",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "سيولة يونيسواب",
         "value": "القيمة",
-        "volume_24_hours": "الحجم في 24 ساعة"
+        "volume_24_hours": "الحجم في 24 ساعة",
+        "menu": {
+          "view_on": "اعرض على %{blockExplorerName}",
+          "share": "شارك",
+          "copy_contract_address": "نسخ عنوان العقد",
+          "pin": "دبوس",
+          "unpin": "إلغاء التثبيت",
+          "hide": "إخفاء",
+          "unhide": "الغاء الاخفاء"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "الحد الأقصى للتوريد",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "القيمة السوقية",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "شراء",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "كل الأوقات",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "لا يوجد بيانات عن الأسعار",
         "past_timespan": "الماضي %{formattedTimespan}",
-        "today": "اليوم",
+        "today": "Past Day",
         "token_pool": "%{tokenName} بركة"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "جاري تحميل الرصيد...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "مشاهدة",
-        "ledger": "ليدجر"
+        "ledger": "ليدجر",
+        "wallets": "المحافظ",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "اضغط على",
+            "action": "تعديل",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "تعديل المحفظة",
+          "copy": "نسخ العنوان",
+          "settings": "Wallet Settings",
+          "notifications": "إعدادات الإشعار",
+          "remove": "إزالة المحفظة"
+        }
       },
       "connected_apps": "التطبيقات المتصلة",
       "copy": "نسخ",
@@ -2659,6 +2712,14 @@
       "my_account_address": "عنوان حسابي:",
       "network_title": "الشبكة",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "اشتري %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "اليوم",
           "day_ago": "منذ يوم واحد",
           "days_ago": "منذ أيام",
@@ -3085,8 +3150,9 @@
         "tap_the": "اضغط على",
         "button_to_set_up": "زر أدناه للإعداد"
       },
-      "drag_here_to_unpin": "إسقاط هنا لإزالة التثبيت",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "تعديل",
+      "network": "الشبكة",
       "networks": "الشبكات",
       "drag_to_rearrange": "السحب لإعادة الترتيب",
       "show_less": "عرض أقل",
