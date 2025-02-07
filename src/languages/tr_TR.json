@@ -690,13 +690,48 @@
         "social": {
           "facebook": "Facebook",
           "homepage": "Anasayfa",
+          "website": "Web sitesi",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Uniswap likiditesi",
         "value": "Değer",
-        "volume_24_hours": "24s hacim"
+        "volume_24_hours": "24s hacim",
+        "menu": {
+          "view_on": "%{blockExplorerName}'da Görüntüle",
+          "share": "Paylaş",
+          "copy_contract_address": "Kontrat Adresini Kopyala",
+          "pin": "Raptiye",
+          "unpin": "Kaldır",
+          "hide": "Gizle",
+          "unhide": "Gizlemeyi Kaldır"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "Maksimum Arz",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "Piyasa Değeri",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "Satın Al",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "Tüm Zamanlar",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "Fiyat verisi yok",
         "past_timespan": "Geçmiş %{formattedTimespan}",
-        "today": "Bugün",
+        "today": "Past Day",
         "token_pool": "%{tokenName} Havuz"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "Bakiye Yükleniyor...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "İzliyor",
-        "ledger": "Ledger"
+        "ledger": "Ledger",
+        "wallets": "Cüzdanlar",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "Dokunun",
+            "action": "Düzenle",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "Cüzdanı Düzenle",
+          "copy": "Adresi Kopyala",
+          "settings": "Wallet Settings",
+          "notifications": "Bildirim Ayarları",
+          "remove": "Cüzdanı Kaldır"
+        }
       },
       "connected_apps": "Bağlı Uygulamalar",
       "copy": "Kopyala",
@@ -2659,6 +2712,14 @@
       "my_account_address": "Hesap adresim:",
       "network_title": "Ağ",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "Satın Alın %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "Bugün",
           "day_ago": "bir gün önce",
           "days_ago": "{0} gün önce",
@@ -3085,8 +3150,9 @@
         "tap_the": "Dokunun",
         "button_to_set_up": "ayar için aşağıdaki düğmeye"
       },
-      "drag_here_to_unpin": "Sabitlemeyi Kaldırmak İçin Buraya Bırak",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "Düzenle",
+      "network": "Ağ",
       "networks": "Ağlar",
       "drag_to_rearrange": "Yeniden Düzenlemek İçin Sürükle",
       "show_less": "Daha Az Göster",
