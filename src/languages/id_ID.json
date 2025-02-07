@@ -690,13 +690,48 @@
         "social": {
           "facebook": "Facebook",
           "homepage": "Halaman Utama",
+          "website": "Situs Web",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Likuiditas Uniswap",
         "value": "Nilai",
-        "volume_24_hours": "Volume 24h"
+        "volume_24_hours": "Volume 24h",
+        "menu": {
+          "view_on": "Tampilkan di %{blockExplorerName}",
+          "share": "Bagikan",
+          "copy_contract_address": "Salin Alamat Kontrak",
+          "pin": "Pin",
+          "unpin": "Lepaskan Pin",
+          "hide": "Sembunyikan",
+          "unhide": "Batal Sembunyikan"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "Persediaan Maks",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "Kap Pasar",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "Beli",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "Sepanjang Waktu",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "Tidak ada data harga",
         "past_timespan": "Masa Lalu %{formattedTimespan}",
-        "today": "Hari Ini",
+        "today": "Past Day",
         "token_pool": "%{tokenName} Kolam"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "Memuat Saldo...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Menonton",
-        "ledger": "Ledger"
+        "ledger": "Ledger",
+        "wallets": "Dompet",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "Ketuk",
+            "action": "Edit",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "Edit Dompet",
+          "copy": "Salin Alamat",
+          "settings": "Wallet Settings",
+          "notifications": "Pengaturan Notifikasi",
+          "remove": "Hapus Dompet"
+        }
       },
       "connected_apps": "Aplikasi Terhubung",
       "copy": "Salin",
@@ -2659,6 +2712,14 @@
       "my_account_address": "Alamat akun saya:",
       "network_title": "Jaringan",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "Beli %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "Hari Ini",
           "day_ago": "hari yang lalu",
           "days_ago": "hari yang lalu",
@@ -3085,8 +3150,9 @@
         "tap_the": "Ketuk",
         "button_to_set_up": "tombol di bawah untuk mengatur"
       },
-      "drag_here_to_unpin": "Lepaskan Di Sini untuk Melepas",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "Edit",
+      "network": "Jaringan",
       "networks": "Jaringan",
       "drag_to_rearrange": "Seret untuk Menyusun Ulang",
       "show_less": "Tampilkan Lebih Sedikit",
