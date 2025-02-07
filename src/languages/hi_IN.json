@@ -690,13 +690,48 @@
         "social": {
           "facebook": "फेसबुक",
           "homepage": "होमपेज",
+          "website": "वेबसाइट",
           "reddit": "रेडिट",
           "telegram": "टेलीग्राम",
-          "twitter": "ट्विटर"
+          "twitter": "ट्विटर",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "यूनिस्वैप लिक्विडिटी",
         "value": "मूल्य",
-        "volume_24_hours": "24घंटे की मात्रा"
+        "volume_24_hours": "24घंटे की मात्रा",
+        "menu": {
+          "view_on": "देखें %{blockExplorerName}पर",
+          "share": "साझा करें",
+          "copy_contract_address": "कॉंट्रैक्ट एड्रेस कॉपी करें",
+          "pin": "पिन",
+          "unpin": "अनपिन",
+          "hide": "छुपाएं",
+          "unhide": "अदृश्यता रद्द करें"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "अधिकतम आपूर्ति",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "मार्केट कैप",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "खरीदें",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "सभी समय",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "कोई मूल्य डेटा नहीं",
         "past_timespan": "भूतकाल %{formattedTimespan}",
-        "today": "आज",
+        "today": "Past Day",
         "token_pool": "%{tokenName} पूल"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "शेष लोड हो रहा है...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "देख रहा है",
-        "ledger": "लेजर"
+        "ledger": "लेजर",
+        "wallets": "वॉलेट्स",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "टैप करें",
+            "action": "संपादित करें",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "वॉलेट संपादित करें",
+          "copy": "पता कॉपी करें",
+          "settings": "Wallet Settings",
+          "notifications": "सूचना सेटिंग्स",
+          "remove": "वॉलेट हटाएं"
+        }
       },
       "connected_apps": "जुड़े हुए एप्स",
       "copy": "कॉपी",
@@ -2659,6 +2712,14 @@
       "my_account_address": "मेरा खाता पता:",
       "network_title": "नेटवर्क",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "खरीदें %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "आज",
           "day_ago": "एक दिन पहले",
           "days_ago": "दिन पहले",
@@ -3085,8 +3150,9 @@
         "tap_the": "टैप करें",
         "button_to_set_up": "सेट अप के लिए नीचे बटन"
       },
-      "drag_here_to_unpin": "अनपिन करने के लिए यहां छोड़ें",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "संपादित करें",
+      "network": "नेटवर्क",
       "networks": "नेटवर्क",
       "drag_to_rearrange": "पुन: व्यवस्थित करने के लिए खींचें",
       "show_less": "कम दिखाएं",
