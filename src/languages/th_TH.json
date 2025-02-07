@@ -690,13 +690,48 @@
         "social": {
           "facebook": "Facebook",
           "homepage": "หน้าแรก",
+          "website": "เว็บไซต์",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "ความสภาพ Uniswap",
         "value": "ค่า",
-        "volume_24_hours": "ปริมาณภายใน 24 ชั่วโมง"
+        "volume_24_hours": "ปริมาณภายใน 24 ชั่วโมง",
+        "menu": {
+          "view_on": "ดูบน %{blockExplorerName}",
+          "share": "แบ่งปัน",
+          "copy_contract_address": "คัดลอกที่อยู่สัญญา",
+          "pin": "ปักหมุด",
+          "unpin": "ยกเลิกการยึด",
+          "hide": "ซ่อน",
+          "unhide": "เลือกไม่ซ่อน"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "ปริมาณสูงสุด",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "มูลค่าตามตลาด",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "ซื้อ",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "ตลอดเวลา",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "ไม่มีข้อมูลราคา",
         "past_timespan": "อดีต %{formattedTimespan}",
-        "today": "วันนี้",
+        "today": "Past Day",
         "token_pool": "%{tokenName} สระ"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "กำลังโหลดยอดคงเหลือ...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "กำลังรับชม",
-        "ledger": "เลเจอร์"
+        "ledger": "เลเจอร์",
+        "wallets": "กระเป๋าเงิน",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "แตะที่",
+            "action": "แก้ไข",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "แก้ไขกระเป๋าเงิน",
+          "copy": "คัดลอกที่อยู่",
+          "settings": "Wallet Settings",
+          "notifications": "การตั้งค่าการแจ้งเตือน",
+          "remove": "นำกระเป๋าเงินออก"
+        }
       },
       "connected_apps": "แอปที่เชื่อมต่อ",
       "copy": "คัดลอก",
@@ -2659,6 +2712,14 @@
       "my_account_address": "ที่อยู่บัญชีของฉัน:",
       "network_title": "เครือข่าย",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "ซื้อ %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "วันนี้",
           "day_ago": "เมื่อวันก่อน",
           "days_ago": "เมื่อวันก่อน",
@@ -3085,8 +3150,9 @@
         "tap_the": "แตะที่",
         "button_to_set_up": "ปุ่มด้านล่างเพื่อกำหนดค่า"
       },
-      "drag_here_to_unpin": "ลากมาที่นี่เพื่อยกเลิกปักหมุด",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "แก้ไข",
+      "network": "เครือข่าย",
       "networks": "เครือข่าย",
       "drag_to_rearrange": "ลากเพื่อจัดเรียงใหม่",
       "show_less": "แสดงน้อยลง",
