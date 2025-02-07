@@ -690,13 +690,48 @@
         "social": {
           "facebook": "페이스북",
           "homepage": "홈페이지",
+          "website": "웹사이트",
           "reddit": "레딧",
           "telegram": "텔레그램",
-          "twitter": "트위터"
+          "twitter": "트위터",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "유니스wap 유동성",
         "value": "가치",
-        "volume_24_hours": "24시간 거래량"
+        "volume_24_hours": "24시간 거래량",
+        "menu": {
+          "view_on": "%{blockExplorerName}에서 보기",
+          "share": "공유",
+          "copy_contract_address": "계약 주소 복사",
+          "pin": "핀",
+          "unpin": "고정 해제",
+          "hide": "숨기다",
+          "unhide": "숨김 해제"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "최대 공급량",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "시가 총액",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "구매",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "모든 시간",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "가격 정보 없음",
         "past_timespan": "과거 %{formattedTimespan}",
-        "today": "오늘",
+        "today": "Past Day",
         "token_pool": "%{tokenName} 풀(Pool)"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "잔액 로딩 중...",
         "balance_eth": "%{balanceEth} 이더리움",
         "watching": "시청 중",
-        "ledger": "렛저"
+        "ledger": "렛저",
+        "wallets": "지갑들",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "Tap the",
+            "action": "편집",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "지갑 편집",
+          "copy": "주소 복사",
+          "settings": "Wallet Settings",
+          "notifications": "알림 설정",
+          "remove": "지갑 제거"
+        }
       },
       "connected_apps": "연결된 앱",
       "copy": "복사",
@@ -2659,6 +2712,14 @@
       "my_account_address": "나의 계좌 주소:",
       "network_title": "네트워크",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "구매 %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "오늘",
           "day_ago": "하루 전",
           "days_ago": "일 전",
@@ -3085,8 +3150,9 @@
         "tap_the": "Tap the",
         "button_to_set_up": "설정하려면 아래 버튼을 눌러주세요"
       },
-      "drag_here_to_unpin": "고정 해제하려면 여기에 드롭하세요",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "편집",
+      "network": "네트워크",
       "networks": "네트워크",
       "drag_to_rearrange": "재배열하려면 드래그하세요",
       "show_less": "적게 보기",
