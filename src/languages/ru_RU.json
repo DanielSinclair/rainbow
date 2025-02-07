@@ -690,13 +690,48 @@
         "social": {
           "facebook": "Facebook",
           "homepage": "Домашняя страница",
+          "website": "Веб-сайт",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Ликвидность Uniswap",
         "value": "Цена",
-        "volume_24_hours": "Торговый объем за 24 часа"
+        "volume_24_hours": "Торговый объем за 24 часа",
+        "menu": {
+          "view_on": "Посмотреть на %{blockExplorerName}",
+          "share": "Поделиться",
+          "copy_contract_address": "Скопировать адрес контракта",
+          "pin": "ПИН-код",
+          "unpin": "Открепить",
+          "hide": "Скрыть",
+          "unhide": "Показать"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "Максимальное предложение",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "Рыночная капитализация",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "Купить",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "За все время",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "Нет данных о цене",
         "past_timespan": "Прошлое %{formattedTimespan}",
-        "today": "Сегодня",
+        "today": "Past Day",
         "token_pool": "%{tokenName} Пул"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "Загрузка баланса...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "Наблюдение",
-        "ledger": "Ledger"
+        "ledger": "Ledger",
+        "wallets": "Кошельки",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "Нажмите на",
+            "action": "Редактировать",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "Редактировать кошелек",
+          "copy": "Скопировать адрес",
+          "settings": "Wallet Settings",
+          "notifications": "Настройки уведомлений",
+          "remove": "Удалить кошелек"
+        }
       },
       "connected_apps": "Подключенные приложения",
       "copy": "Копировать",
@@ -2659,6 +2712,14 @@
       "my_account_address": "Адрес моего аккаунта:",
       "network_title": "Сеть",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "Купить %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "Сегодня",
           "day_ago": "день назад",
           "days_ago": "дней назад",
@@ -3085,8 +3150,9 @@
         "tap_the": "Нажмите на",
         "button_to_set_up": "кнопку ниже, чтобы настроить"
       },
-      "drag_here_to_unpin": "Перетащите сюда, чтобы открепить",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "Редактировать",
+      "network": "Сеть",
       "networks": "Сети",
       "drag_to_rearrange": "Перетащите для изменения порядка",
       "show_less": "Показать меньше",
