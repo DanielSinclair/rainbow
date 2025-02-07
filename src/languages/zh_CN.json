@@ -690,13 +690,48 @@
         "social": {
           "facebook": "脸书",
           "homepage": "主页",
+          "website": "网站",
           "reddit": "Reddit",
           "telegram": "Telegram",
-          "twitter": "Twitter"
+          "twitter": "Twitter",
+          "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Uniswap 流动性",
         "value": "价值",
-        "volume_24_hours": "24小时交易量"
+        "volume_24_hours": "24小时交易量",
+        "menu": {
+          "view_on": "在 %{blockExplorerName}查看",
+          "share": "分享",
+          "copy_contract_address": "复制合约地址",
+          "pin": "固定",
+          "unpin": "取消置顶",
+          "hide": "隐藏",
+          "unhide": "取消隐藏"
+        },
+        "no_data_available": "No data available"
+      },
+      "sections": {
+        "market_stats": {
+          "title": "Market Stats",
+          "circulating_supply": "Circulating Supply",
+          "max_supply": "最大供给量",
+          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "market_cap": "市值",
+          "created": "Created",
+          "volume_24_hours": "24h Volume",
+          "rank": "Rank"
+        },
+        "buy": {
+          "title": "购买",
+          "pay_with": "Pay with",
+          "available_balance": "Available Balance",
+          "open_swaps": "Open Swaps",
+          "low_balance": "Low balance"
+        },
+        "about": {
+          "title": "About",
+          "what_is": "What is %{assetName}?"
+        }
       },
       "chart": {
         "all_time": "全时间",
@@ -718,7 +753,7 @@
         },
         "no_price_data": "无价格数据",
         "past_timespan": "过去 %{formattedTimespan}",
-        "today": "今天",
+        "today": "Past Day",
         "token_pool": "%{tokenName} 池"
       },
       "contact_profile": {
@@ -2588,7 +2623,25 @@
         "loading_balance": "正在加载余额...",
         "balance_eth": "%{balanceEth} ETH",
         "watching": "正在关注",
-        "ledger": "分类账"
+        "ledger": "分类账",
+        "wallets": "钱包",
+        "all_wallets": "All Wallets",
+        "total_balance": "Total Balance",
+        "edit_hint_tooltip": {
+          "title": "Customize Your Wallets",
+          "subtitle": {
+            "prefix": "点击",
+            "action": "编辑",
+            "suffix": "button above to set up"
+          }
+        },
+        "address_menu": {
+          "edit": "编辑钱包",
+          "copy": "复制地址",
+          "settings": "Wallet Settings",
+          "notifications": "通知设置",
+          "remove": "移除钱包"
+        }
       },
       "connected_apps": "已连接的应用程序",
       "copy": "复制",
@@ -2659,6 +2712,14 @@
       "my_account_address": "我的账户地址:",
       "network_title": "网络",
       "new": {
+        "choose_wallet_group": {
+          "title": "Choose Wallet Group",
+          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+        },
+        "new_wallet_group": {
+          "title": "New Wallet Group",
+          "description": "Create a new wallet group"
+        },
         "add_wallet_sheet": {
           "options": {
             "cloud": {
@@ -2973,6 +3034,10 @@
           "buy_native_token": "购买 %{symbol}"
         },
         "formatted_dates": {
+          "minute_ago": "minute ago",
+          "minutes_ago": "minutes ago",
+          "hour_ago": "hour ago",
+          "hours_ago": "hours ago",
           "today": "今天",
           "day_ago": "day ago",
           "days_ago": "days ago",
@@ -3085,8 +3150,9 @@
         "tap_the": "点击",
         "button_to_set_up": "下方按钮进行设置"
       },
-      "drag_here_to_unpin": "拖到这里取消固定",
+      "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "编辑",
+      "network": "网络",
       "networks": "网络",
       "drag_to_rearrange": "拖动以重新排列",
       "show_less": "显示更少",
