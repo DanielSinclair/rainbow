@@ -345,6 +345,7 @@
       "receive": "받기",
       "remove": "제거",
       "save": "저장",
+      "skip": "건너뛰기",
       "send": "보내기",
       "send_another": "다른 것 보내기",
       "share": "공유",
@@ -483,7 +484,8 @@
         "a_network": "네트워크",
         "swap_failed": "교환 실패",
         "receive": "받기",
-        "on": "켜짐"
+        "on": "켜짐",
+        "reset": "Reset"
       }
     },
     "cloud": {
@@ -515,34 +517,40 @@
     },
     "developer_settings": {
       "alert": "알림",
+      "analyze_env_variables": "Analyze ENV Variables",
+      "analyze_react_query": "Analyze React Query",
       "applied": "적용됨",
-      "backups_deleted_successfully": "백업이 성공적으로 삭제되었습니다",
-      "clear_async_storage": "비동기 저장소 지우기",
+      "backups_deleted_successfully": "백업이 성공적으로 삭제됨",
+      "clear_async_storage": "Clear AsyncStorage",
       "clear_pending_txs": "보류 중인 거래 청소",
       "clear_image_cache": "이미지 캐시 지우기",
       "clear_image_metadata_cache": "이미지 메타데이터 캐시 지우기",
-      "clear_local_storage": "로컬 저장소 지우기",
-      "clear_mmkv_storage": "MMKV 저장소 지우기",
-      "connect_to_anvil": "Anvil에 연결",
-      "disconnect_to_anvil": "Anvil에서 연결 해제",
-      "crash_app_render_error": "애플리케이션 종료 (렌더링 오류)",
+      "clear_local_storage": "Clear Local Storage",
+      "clear_mmkv_storage": "Clear MMKV Storage",
+      "clear_react_query_cache": "Clear React Query Cache",
+      "connect_to_anvil": "Connect to Anvil",
+      "copy_fcm_token": "Copy FCM Token",
+      "copy_log_lines": "Copy Log Lines",
+      "copy_signing_wallet_address": "Copy Signing Wallet Address",
+      "disconnect_to_anvil": "Disconnect from Anvil",
+      "crash_app_render_error": "Crash App (Render Error)",
       "enable_testnets": "테스트넷 활성화",
-      "installing_update": "업데이트 설치 중",
-      "navigation_entry_point": "탐색 진입점",
-      "no_update": "업데이트 없음",
+      "installing_update": "Installing Update",
+      "navigation_entry_point": "Navigation Entry Point",
+      "no_update": "No Update",
       "not_applied": "적용되지 않음",
       "notifications_debug": "알림 디버그",
-      "remove_all_backups": "모든 백업 제거",
+      "remove_all_backups": "Remove All Backups",
       "keychain": {
         "menu_title": "키체인 재설정",
-        "delete_wallets": "모든 지갑 삭제",
+        "delete_wallets": "Delete All Wallets",
         "alert_title": "조심하세요!",
         "alert_body": "🚨🚨🚨 \n이렇게 하면 지갑의 모든 프라이빗 키와 데이터가 영구적으로 삭제됩니다. 진행하기 전에 모든 것이 백업되었는지 확인하십시오!! \n🚨🚨🚨"
       },
-      "restart_app": "앱 재시작",
-      "reset_experimental_config": "실험적 구성 재설정",
+      "restart_app": "Restart App",
+      "reset_experimental_config": "Reset Experimental Config",
       "status": "상태",
-      "sync_codepush": "코드푸시 동기화"
+      "sync_codepush": "Sync CodePush"
     },
     "discover": {
       "pulse": {
@@ -694,6 +702,9 @@
           "reddit": "레딧",
           "telegram": "텔레그램",
           "twitter": "트위터",
+          "warpcast": "Warpcast",
+          "farcaster": "Farcaster",
+          "other": "Other",
           "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "유니스wap 유동성",
@@ -708,7 +719,7 @@
           "hide": "숨기다",
           "unhide": "숨김 해제"
         },
-        "no_data_available": "No data available"
+        "no_data_available": "No Data Available"
       },
       "sections": {
         "market_stats": {
@@ -723,10 +734,15 @@
         },
         "buy": {
           "title": "구매",
-          "pay_with": "Pay with",
+          "pay_with": "Buy with",
           "available_balance": "Available Balance",
           "open_swaps": "Open Swaps",
-          "low_balance": "Low balance"
+          "low_balance": "Low Balance"
+        },
+        "claim": {
+          "claim_button": "Claim Airdrop",
+          "created_by": "Created by %{creator}",
+          "title": "청구"
         },
         "about": {
           "title": "About",
@@ -751,7 +767,8 @@
             "month_11": "12월"
           }
         },
-        "no_price_data": "가격 정보 없음",
+        "no_chart_data": "No Chart Data",
+        "no_price_data": "No Price Data",
         "past_timespan": "과거 %{formattedTimespan}",
         "today": "Past Day",
         "token_pool": "%{tokenName} 풀(Pool)"
@@ -1615,7 +1632,7 @@
         "invalid_referral_code_alert": "유효하지 않은 추천 코드입니다. 코드를 다시 확인하고 다시 시도해 주세요.",
         "no_balance_alert": "포인트에 등록하려면 지갑 잔액이 0이 아니어야 합니다.",
         "referral_link_is_ready": "당신의 추천 링크가 준비되었습니다",
-        "referral_link_bonus_text": "당신의 추천 링크를 트윗하여 추가적인 250 포인트를 얻으세요",
+        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
         "referral_link_bonus_text_extended": "더하여 당신이 추천한 사람들이 얻은 포인트의 10%를 벌 수 있습니다",
         "complete_onboarding": "완료",
         "share_to_x": "X에 공유하기",
@@ -2262,6 +2279,11 @@
           "pending": "상호작용 대기 중",
           "confirmed": "상호작용 완료",
           "failed": "상호작용 실패"
+        },
+        "launch": {
+          "pending": "Launching",
+          "confirmed": "Launched",
+          "failed": "Launch Failed"
         },
         "swap": {
           "pending": "교환 중",
@@ -3121,6 +3143,7 @@
       "filters": {
         "categories": {
           "TRENDING": "트렌딩",
+          "RAINBOW": "Rainbow",
           "NEW": "새로운",
           "FARCASTER": "Farcaster"
         },
@@ -3144,21 +3167,180 @@
         }
       }
     },
-    "network_switcher": {
+    "network_selector": {
       "customize_networks_banner": {
-        "title": "네트워크 사용자 정의",
+        "title": "Customize Networks",
         "tap_the": "Tap the",
-        "button_to_set_up": "설정하려면 아래 버튼을 눌러주세요"
+        "button_to_set_up": "button below to set up"
       },
       "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "편집",
       "network": "네트워크",
       "networks": "네트워크",
-      "drag_to_rearrange": "재배열하려면 드래그하세요",
-      "show_less": "적게 보기",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
       "more": "더 보기",
-      "show_more": "더 많은 네트워크",
+      "show_more": "More Networks",
       "all_networks": "모든 네트워크"
+    },
+    "token_launcher": {
+      "airdrop": {
+        "address_or_ens": "Address or ENS",
+        "suggested_users": "SUGGESTED USERS",
+        "airdrop_lists": "AIRDROP LISTS",
+        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+      },
+      "image_upload_error": {
+        "title": "Sorry, there was an error uploading your image.",
+        "subtitle": "Please try again."
+      },
+      "allocation_breakdown": {
+        "my_share": "MY SHARE",
+        "airdropping": "AIRDROPPING",
+        "start_price": "START PRICE",
+        "sections": {
+          "my_share": {
+            "title": "Creator Share",
+            "description": "Your personal stake in the project"
+          },
+          "airdropping": {
+            "title": "Airdrop Share",
+            "description": "Distributed to friends and supporters"
+          },
+          "liquidity_pool": {
+            "title": "Liquidity Pool Share",
+            "description": "Ensures smooth trading and liquidity"
+          },
+          "rainbow_share": {
+            "title": "Over the Rainbow",
+            "description": "Future Community Distributions"
+          }
+        }
+      },
+      "network_field": {
+        "balance": "Balance: %{balance}",
+        "not_enough_funds": "Not enough funds to launch a token"
+      },
+      "prebuy": {
+        "balance_after_gas_fee": "Available Balance: %{balance}",
+        "title": "Pre-buy more tokens"
+      },
+      "review": {
+        "token_allocation": "Token allocation",
+        "your_share": "Your share",
+        "airdropping": "Airdropping",
+        "about": "About",
+        "total_cost": "Total cost",
+        "initial_price": "Initial price",
+        "market_cap": "시가총액",
+        "total_supply": "Total supply",
+        "network": "네트워크"
+      },
+      "creating": {
+        "deploying": "Deploying %{symbol}..."
+      },
+      "success": {
+        "title": "%{symbol} is live!",
+        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+      },
+      "input_errors": {
+        "too_long": "Too long, friend.",
+        "invalid_input": "Invalid input",
+        "symbol_required": "Ticker is required",
+        "name_required": "Name is required",
+        "too_big": "Too big.",
+        "must_be_greater_than_0": "Must be greater than 0",
+        "amount_is_greater_than_balance": "Amount is greater than balance",
+        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_too_small": "Amount too small! Try a little more!"
+      },
+      "titles": {
+        "total_supply": "Total supply",
+        "ticker": "Ticker",
+        "name": "이름",
+        "network": "네트워크",
+        "description": "설명",
+        "airdrop": "Airdrop to friends",
+        "required_info": "REQUIRED INFO",
+        "about": "ABOUT",
+        "token_allocation": "TOKEN ALLOCATION",
+        "token_allocation_breakdown": "Token Allocation Breakdown",
+        "mcap": "MCAP"
+      },
+      "placeholders": {
+        "ticker": "$NAME",
+        "enter_coin_name": "Enter coin name",
+        "describe_your_coin": "Describe your coin"
+      },
+      "buttons": {
+        "hold_to_create": "Hold to Create",
+        "creating": "Creating...",
+        "share_link": "링크 공유하기",
+        "token_allocation_info": "More Info",
+        "got_it": "알겠습니다",
+        "cancel": "취소"
+      },
+      "header": {
+        "new_coin": "New Coin",
+        "review": "리뷰",
+        "creating": "Creating"
+      },
+      "links": {
+        "x": {
+          "name": "X/Twitter",
+          "placeholder": "Username"
+        },
+        "telegram": {
+          "name": "텔레그램",
+          "placeholder": "Channel"
+        },
+        "farcaster": {
+          "name": "Farcaster",
+          "placeholder": "Username"
+        },
+        "website": {
+          "name": "웹사이트",
+          "placeholder": "https://homepage.com"
+        },
+        "other": {
+          "name": "Other",
+          "placeholder": "https://other.com"
+        },
+        "add_more": "Add More"
+      },
+      "discard_and_exit": "Discard & Exit",
+      "airdrops_sheet": {
+        "claim_button_text": "청구",
+        "empty_state_title": "No Airdrops Yet",
+        "title": "Claim Rainbow Coins"
+      },
+      "cards": {
+        "airdrops": {
+          "subtitle_loading": "LOADING",
+          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
+          "subtitle_no_airdrops": "NO AIRDROPS YET",
+          "title": "Airdrops",
+          "title_singular": "Airdrop"
+        },
+        "launch": {
+          "line_one": "Launch\n",
+          "line_two": "your Coin"
+        }
+      },
+      "claim_airdrop_sheet": {
+        "by": "by",
+        "claiming": "청구 중",
+        "created_by": "Created by %{name}",
+        "gifted_to": "Gifted to",
+        "hold_to_claim": "Hold to Claim",
+        "hold_to_retry": "Hold to Retry",
+        "successfully_claimed": "Successfully Claimed",
+        "title": "Claim $%{symbol}",
+        "to_claim_on": "to claim on %{network}",
+        "view_coin": "View Coin",
+        "you": "당신"
+      }
     },
     "done": "완료",
     "copy": "복사",
