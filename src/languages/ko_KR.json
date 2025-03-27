@@ -485,7 +485,7 @@
         "swap_failed": "교환 실패",
         "receive": "받기",
         "on": "켜짐",
-        "reset": "Reset"
+        "reset": "리셋"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "알림",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "환경 변수 분석",
+      "analyze_react_query": "React 쿼리 분석",
       "applied": "적용됨",
       "backups_deleted_successfully": "백업이 성공적으로 삭제됨",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "AsyncStorage 지우기",
       "clear_pending_txs": "보류 중인 거래 청소",
       "clear_image_cache": "이미지 캐시 지우기",
       "clear_image_metadata_cache": "이미지 메타데이터 캐시 지우기",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "로컬 저장소 지우기",
+      "clear_mmkv_storage": "MMKV 스토리지 지우기",
+      "clear_react_query_cache": "React 쿼리 캐시 지우기",
+      "connect_to_anvil": "Anvil에 연결",
+      "copy_fcm_token": "FCM 토큰 복사",
+      "copy_log_lines": "로그 라인 복사",
+      "copy_signing_wallet_address": "서명 지갑 주소 복사",
+      "disconnect_to_anvil": "Anvil 연결 해제",
+      "crash_app_render_error": "앱 충돌(렌더링 오류)",
       "enable_testnets": "테스트넷 활성화",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "업데이트 설치 중",
+      "navigation_entry_point": "네비게이션 시작점",
+      "no_update": "업데이트 없음",
       "not_applied": "적용되지 않음",
       "notifications_debug": "알림 디버그",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "모든 백업 제거",
       "keychain": {
         "menu_title": "키체인 재설정",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "모든 지갑 삭제",
         "alert_title": "조심하세요!",
         "alert_body": "🚨🚨🚨 \n이렇게 하면 지갑의 모든 프라이빗 키와 데이터가 영구적으로 삭제됩니다. 진행하기 전에 모든 것이 백업되었는지 확인하십시오!! \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "앱 재시작",
+      "reset_experimental_config": "실험 설정 재설정",
       "status": "상태",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "CodePush 동기화"
     },
     "discover": {
       "pulse": {
@@ -702,10 +702,10 @@
           "reddit": "레딧",
           "telegram": "텔레그램",
           "twitter": "트위터",
-          "warpcast": "Warpcast",
+          "warpcast": "워프캐스트",
           "farcaster": "Farcaster",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "기타",
+          "search_on_twitter": "트위터에서 검색"
         },
         "uniswap_liquidity": "유니스wap 유동성",
         "value": "가치",
@@ -719,34 +719,34 @@
           "hide": "숨기다",
           "unhide": "숨김 해제"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "데이터 없음"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "시장 통계",
+          "circulating_supply": "유통 공급",
           "max_supply": "최대 공급량",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "완전 희석된 평가",
           "market_cap": "시가 총액",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "생성됨",
+          "volume_24_hours": "24시간 거래량",
+          "rank": "순위"
         },
         "buy": {
           "title": "구매",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "구매 방식",
+          "available_balance": "사용 가능한 잔액",
+          "open_swaps": "열린 스왑",
+          "low_balance": "잔액 부족"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "에어드랍 청구",
+          "created_by": "%{creator}에 의해 생성됨",
           "title": "청구"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "정보",
+          "what_is": "%{assetName}에 대해 알고 싶으세요?"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "12월"
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "차트 데이터 없음",
+        "no_price_data": "가격 데이터 없음",
         "past_timespan": "과거 %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "지난날",
         "token_pool": "%{tokenName} 풀(Pool)"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "유효하지 않은 추천 코드입니다. 코드를 다시 확인하고 다시 시도해 주세요.",
         "no_balance_alert": "포인트에 등록하려면 지갑 잔액이 0이 아니어야 합니다.",
         "referral_link_is_ready": "당신의 추천 링크가 준비되었습니다",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "추천 링크를 트윗하면 추천받은 분들이 얻는 포인트의 10%를 받을 수 있습니다",
         "referral_link_bonus_text_extended": "더하여 당신이 추천한 사람들이 얻은 포인트의 10%를 벌 수 있습니다",
         "complete_onboarding": "완료",
         "share_to_x": "X에 공유하기",
@@ -2281,9 +2281,9 @@
           "failed": "상호작용 실패"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "출시 중",
+          "confirmed": "출시됨",
+          "failed": "출시 실패"
         },
         "swap": {
           "pending": "교환 중",
@@ -2647,20 +2647,20 @@
         "watching": "시청 중",
         "ledger": "렛저",
         "wallets": "지갑들",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "모든 지갑",
+        "total_balance": "총 잔액",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "지갑 사용자 정의",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "탭하세요",
             "action": "편집",
-            "suffix": "button above to set up"
+            "suffix": "위의 버튼으로 설정"
           }
         },
         "address_menu": {
           "edit": "지갑 편집",
           "copy": "주소 복사",
-          "settings": "Wallet Settings",
+          "settings": "지갑 설정",
           "notifications": "알림 설정",
           "remove": "지갑 제거"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "네트워크",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "지갑 그룹 선택",
+          "description": "새 지갑을 만들 그룹을 선택하거나 새로 만드십시오."
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "새 지갑 그룹",
+          "description": "새 지갑 그룹 만들기"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "구매 %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "1분 전",
+          "minutes_ago": "분 전",
+          "hour_ago": "1시간 전",
+          "hours_ago": "시간 전",
           "today": "오늘",
           "day_ago": "하루 전",
           "days_ago": "일 전",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "네트워크 사용자 정의",
+        "tap_the": "탭하세요",
+        "button_to_set_up": "아래 버튼으로 설정"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "고정 해제를 위해 여기에 놓으세요",
       "edit": "편집",
       "network": "네트워크",
       "networks": "네트워크",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "드래그하여 재배치",
+      "show_less": "줄이기",
       "more": "더 보기",
-      "show_more": "More Networks",
+      "show_more": "더 많은 네트워크",
       "all_networks": "모든 네트워크"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "주소 또는 ENS",
+        "suggested_users": "추천 사용자",
+        "airdrop_lists": "에어드랍 목록",
+        "max_recipients_reached": "최대 %{maxRecipientCount} 수신자 도달"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "죄송합니다, 이미지 업로드 중 오류가 발생했습니다.",
+        "subtitle": "다시 시도하세요."
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "내 기부",
+        "airdropping": "에어드롭 중",
+        "start_price": "시작 가격",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "크리에이터 기부",
+            "description": "프로젝트에 대한 개인적 지분"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "에어드롭 기부",
+            "description": "친구와 지지자에게 배포됨"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "유동성 풀 기부",
+            "description": "원활한 거래와 유동성 보장"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "레인보우의 그 너머",
+            "description": "미래의 커뮤니티 배포"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "잔액: %{balance}",
+        "not_enough_funds": "토큰 시작에 충분한 자금이 없습니다"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "가스 수수료 후 이용 가능한 잔액: %{balance}",
+        "title": "추가 토큰 선구매"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "토큰 배분",
+        "your_share": "당신의 지분",
+        "airdropping": "에어드롭 중",
+        "about": "정보",
+        "total_cost": "총 비용",
+        "initial_price": "초기 가격",
         "market_cap": "시가총액",
-        "total_supply": "Total supply",
+        "total_supply": "총 공급",
         "network": "네트워크"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "%{symbol} 배포 중..."
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol}이 라이브입니다!",
+        "congrats": "축하합니다, %{name}을 세계에 출시했습니다! 그것을 공유하여 분위기를 퍼뜨리세요."
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "너무 깁니다, 친구.",
+        "invalid_input": "잘못된 입력",
+        "symbol_required": "티커가 필요합니다",
+        "name_required": "이름이 필요합니다",
+        "too_big": "너무 큽니다.",
+        "must_be_greater_than_0": "0보다 커야 합니다.",
+        "amount_is_greater_than_balance": "금액이 잔액보다 큽니다",
+        "amount_is_greater_than_max_prebuy_amount": "최대 선구매 금액 %{maxPrebuyAmount} %{chainNativeAssetSymbol} 초과",
+        "amount_is_less_than_min_prebuy_amount": "최소 선구매 금액 %{minPrebuyAmount} %{chainNativeAssetSymbol} 초과해야 합니다",
+        "amount_too_small": "금액이 너무 적습니다! 조금 더 시도하세요!"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "총 공급",
+        "ticker": "티커",
         "name": "이름",
         "network": "네트워크",
         "description": "설명",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
-        "mcap": "MCAP"
+        "airdrop": "친구에게 에어드랍",
+        "required_info": "필수 정보",
+        "about": "정보",
+        "token_allocation": "토큰 할당",
+        "token_allocation_breakdown": "토큰 할당 분해",
+        "mcap": "시가 총액"
       },
       "placeholders": {
         "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "enter_coin_name": "코인 이름 입력",
+        "describe_your_coin": "코인 설명"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "생성을 위해 유지",
+        "creating": "생성 중...",
         "share_link": "링크 공유하기",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "더 많은 정보",
         "got_it": "알겠습니다",
         "cancel": "취소"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "새 코인",
         "review": "리뷰",
-        "creating": "Creating"
+        "creating": "생성 중"
       },
       "links": {
         "x": {
-          "name": "X/Twitter",
-          "placeholder": "Username"
+          "name": "X/트위터",
+          "placeholder": "사용자 이름"
         },
         "telegram": {
           "name": "텔레그램",
-          "placeholder": "Channel"
+          "placeholder": "채널"
         },
         "farcaster": {
           "name": "Farcaster",
-          "placeholder": "Username"
+          "placeholder": "사용자 이름"
         },
         "website": {
           "name": "웹사이트",
           "placeholder": "https://homepage.com"
         },
         "other": {
-          "name": "Other",
+          "name": "기타",
           "placeholder": "https://other.com"
         },
-        "add_more": "Add More"
+        "add_more": "더 추가"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "삭제 및 종료",
       "airdrops_sheet": {
         "claim_button_text": "청구",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "아직 에어드랍 없음",
+        "title": "레인보우 코인 청구"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
-          "title": "Airdrops",
-          "title_singular": "Airdrop"
+          "subtitle_loading": "로딩 중",
+          "subtitle_has_airdrops": "청구 가능",
+          "subtitle_no_airdrops": "아직 에어드랍 없음",
+          "title": "에어드랍",
+          "title_singular": "에어드랍"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "런칭\n",
+          "line_two": "당신의 코인"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "로",
         "claiming": "청구 중",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "%{name}에 의해 생성됨",
+        "gifted_to": "선물한 사람",
+        "hold_to_claim": "청구하려면 유지",
+        "hold_to_retry": "다시 시도하려면 유지",
+        "successfully_claimed": "성공적으로 청구됨",
+        "title": "$%{symbol} 청구",
+        "to_claim_on": "%{network}에서 청구하기",
+        "view_coin": "코인 보기",
         "you": "당신"
       }
     },
