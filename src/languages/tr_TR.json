@@ -345,6 +345,7 @@
       "receive": "Al",
       "remove": "Kaldır",
       "save": "Kaydet",
+      "skip": "Atla",
       "send": "Gönder",
       "send_another": "Başka Birini Gönder",
       "share": "Paylaş",
@@ -483,7 +484,8 @@
         "a_network": "bir ağ",
         "swap_failed": "Takas Başarısız",
         "receive": "Al",
-        "on": "açık"
+        "on": "açık",
+        "reset": "Reset"
       }
     },
     "cloud": {
@@ -515,34 +517,40 @@
     },
     "developer_settings": {
       "alert": "Uyarı",
+      "analyze_env_variables": "Analyze ENV Variables",
+      "analyze_react_query": "Analyze React Query",
       "applied": "UYGULANDI",
-      "backups_deleted_successfully": "Yedekler başarılı bir şekilde silindi",
-      "clear_async_storage": "Async depolamayı temizle",
+      "backups_deleted_successfully": "Yedeklemeler Başarıyla Silindi",
+      "clear_async_storage": "Clear AsyncStorage",
       "clear_pending_txs": "Beklemedeki İşlemleri Temizle",
       "clear_image_cache": "Resim Önbelleğini Temizle",
       "clear_image_metadata_cache": "Resim Metaveri Önbelleğini Temizle",
-      "clear_local_storage": "Yerel depolamayı temizle",
-      "clear_mmkv_storage": "MMKV depolamasını temizle",
-      "connect_to_anvil": "Anvil'e Bağlan",
-      "disconnect_to_anvil": "Anvil'den Bağlantıyı Kes",
-      "crash_app_render_error": "Uygulamayı çökert (render hatası)",
+      "clear_local_storage": "Clear Local Storage",
+      "clear_mmkv_storage": "Clear MMKV Storage",
+      "clear_react_query_cache": "Clear React Query Cache",
+      "connect_to_anvil": "Connect to Anvil",
+      "copy_fcm_token": "Copy FCM Token",
+      "copy_log_lines": "Copy Log Lines",
+      "copy_signing_wallet_address": "Copy Signing Wallet Address",
+      "disconnect_to_anvil": "Disconnect from Anvil",
+      "crash_app_render_error": "Crash App (Render Error)",
       "enable_testnets": "Testnetleri Etkinleştir",
-      "installing_update": "Güncelleme Yükleniyor",
-      "navigation_entry_point": "Navigasyon Giriş Noktası",
-      "no_update": "Güncelleme Yok",
+      "installing_update": "Installing Update",
+      "navigation_entry_point": "Navigation Entry Point",
+      "no_update": "No Update",
       "not_applied": "UYGULANMADI",
       "notifications_debug": "Bildirimler Hata Ayıklama",
-      "remove_all_backups": "Tüm yedeklemeleri kaldır",
+      "remove_all_backups": "Remove All Backups",
       "keychain": {
         "menu_title": "Anahtar Zincirini Sıfırla",
-        "delete_wallets": "Tüm cüzdanları sil",
+        "delete_wallets": "Delete All Wallets",
         "alert_title": "Dikkat!",
         "alert_body": "🚨🚨🚨 \nBu, tüm cüzdan privat anahtarları ve verilerinizi kalıcı olarak silecektir, lütfen devam etmeden önce her şeyin yedeğini aldığınızdan emin olun!! \n🚨🚨🚨"
       },
-      "restart_app": "Uygulamayı yeniden başlat",
-      "reset_experimental_config": "Deneysel konfigürasyonu sıfırla",
+      "restart_app": "Restart App",
+      "reset_experimental_config": "Reset Experimental Config",
       "status": "Durum",
-      "sync_codepush": "Sync kodu itele"
+      "sync_codepush": "Sync CodePush"
     },
     "discover": {
       "pulse": {
@@ -694,6 +702,9 @@
           "reddit": "Reddit",
           "telegram": "Telegram",
           "twitter": "Twitter",
+          "warpcast": "Warpcast",
+          "farcaster": "Farcaster",
+          "other": "Other",
           "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Uniswap likiditesi",
@@ -708,7 +719,7 @@
           "hide": "Gizle",
           "unhide": "Gizlemeyi Kaldır"
         },
-        "no_data_available": "No data available"
+        "no_data_available": "No Data Available"
       },
       "sections": {
         "market_stats": {
@@ -723,10 +734,15 @@
         },
         "buy": {
           "title": "Satın Al",
-          "pay_with": "Pay with",
+          "pay_with": "Buy with",
           "available_balance": "Available Balance",
           "open_swaps": "Open Swaps",
-          "low_balance": "Low balance"
+          "low_balance": "Low Balance"
+        },
+        "claim": {
+          "claim_button": "Claim Airdrop",
+          "created_by": "Created by %{creator}",
+          "title": "Talep Et"
         },
         "about": {
           "title": "About",
@@ -751,7 +767,8 @@
             "month_11": "Ara"
           }
         },
-        "no_price_data": "Fiyat verisi yok",
+        "no_chart_data": "No Chart Data",
+        "no_price_data": "No Price Data",
         "past_timespan": "Geçmiş %{formattedTimespan}",
         "today": "Past Day",
         "token_pool": "%{tokenName} Havuz"
@@ -1615,7 +1632,7 @@
         "invalid_referral_code_alert": "Geçersiz referans kodu. Kodunuzu kontrol edip tekrar deneyin.",
         "no_balance_alert": "Puanlara katılmak için, sıfırdan farklı bir cüzdan bakiyeniz olması gerekir.",
         "referral_link_is_ready": "Referans bağlantınız hazır",
-        "referral_link_bonus_text": "Referans bağlantınızı tweetleyin ve ekstra 250 puan kazanın",
+        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
         "referral_link_bonus_text_extended": "Üstelik, referans kodu ile getirdiğiniz herkesin kazandığı puanların %10'unu da kazanacaksınız",
         "complete_onboarding": "Tamamlandı",
         "share_to_x": "X'e paylaş",
@@ -2263,6 +2280,11 @@
           "confirmed": "Etkileşimde Bulunuldu",
           "failed": "Etkileşim Başarısız"
         },
+        "launch": {
+          "pending": "Launching",
+          "confirmed": "Launched",
+          "failed": "Launch Failed"
+        },
         "swap": {
           "pending": "Takas Yapılıyor",
           "confirmed": "Takas Edildi",
@@ -2630,7 +2652,7 @@
         "edit_hint_tooltip": {
           "title": "Customize Your Wallets",
           "subtitle": {
-            "prefix": "Dokunun",
+            "prefix": "Tap the",
             "action": "Düzenle",
             "suffix": "button above to set up"
           }
@@ -3121,6 +3143,7 @@
       "filters": {
         "categories": {
           "TRENDING": "Gündemde",
+          "RAINBOW": "Rainbow",
           "NEW": "Yeni",
           "FARCASTER": "Farcaster"
         },
@@ -3144,21 +3167,180 @@
         }
       }
     },
-    "network_switcher": {
+    "network_selector": {
       "customize_networks_banner": {
-        "title": "Ağları Özelleştir",
-        "tap_the": "Dokunun",
-        "button_to_set_up": "ayar için aşağıdaki düğmeye"
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
       },
       "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "Düzenle",
       "network": "Ağ",
       "networks": "Ağlar",
-      "drag_to_rearrange": "Yeniden Düzenlemek İçin Sürükle",
-      "show_less": "Daha Az Göster",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
       "more": "Daha fazla",
-      "show_more": "Daha Fazla Ağ",
+      "show_more": "More Networks",
       "all_networks": "Tüm Ağlar"
+    },
+    "token_launcher": {
+      "airdrop": {
+        "address_or_ens": "Address or ENS",
+        "suggested_users": "SUGGESTED USERS",
+        "airdrop_lists": "AIRDROP LISTS",
+        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+      },
+      "image_upload_error": {
+        "title": "Sorry, there was an error uploading your image.",
+        "subtitle": "Please try again."
+      },
+      "allocation_breakdown": {
+        "my_share": "MY SHARE",
+        "airdropping": "AIRDROPPING",
+        "start_price": "START PRICE",
+        "sections": {
+          "my_share": {
+            "title": "Creator Share",
+            "description": "Your personal stake in the project"
+          },
+          "airdropping": {
+            "title": "Airdrop Share",
+            "description": "Distributed to friends and supporters"
+          },
+          "liquidity_pool": {
+            "title": "Liquidity Pool Share",
+            "description": "Ensures smooth trading and liquidity"
+          },
+          "rainbow_share": {
+            "title": "Over the Rainbow",
+            "description": "Future Community Distributions"
+          }
+        }
+      },
+      "network_field": {
+        "balance": "Balance: %{balance}",
+        "not_enough_funds": "Not enough funds to launch a token"
+      },
+      "prebuy": {
+        "balance_after_gas_fee": "Available Balance: %{balance}",
+        "title": "Pre-buy more tokens"
+      },
+      "review": {
+        "token_allocation": "Token allocation",
+        "your_share": "Your share",
+        "airdropping": "Airdropping",
+        "about": "About",
+        "total_cost": "Total cost",
+        "initial_price": "Initial price",
+        "market_cap": "Piyasa değeri",
+        "total_supply": "Total supply",
+        "network": "Ağ"
+      },
+      "creating": {
+        "deploying": "Deploying %{symbol}..."
+      },
+      "success": {
+        "title": "%{symbol} is live!",
+        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+      },
+      "input_errors": {
+        "too_long": "Too long, friend.",
+        "invalid_input": "Invalid input",
+        "symbol_required": "Ticker is required",
+        "name_required": "Name is required",
+        "too_big": "Too big.",
+        "must_be_greater_than_0": "Must be greater than 0",
+        "amount_is_greater_than_balance": "Amount is greater than balance",
+        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_too_small": "Amount too small! Try a little more!"
+      },
+      "titles": {
+        "total_supply": "Total supply",
+        "ticker": "Ticker",
+        "name": "İsim",
+        "network": "Ağ",
+        "description": "Açıklama",
+        "airdrop": "Airdrop to friends",
+        "required_info": "REQUIRED INFO",
+        "about": "ABOUT",
+        "token_allocation": "TOKEN ALLOCATION",
+        "token_allocation_breakdown": "Token Allocation Breakdown",
+        "mcap": "MCAP"
+      },
+      "placeholders": {
+        "ticker": "$NAME",
+        "enter_coin_name": "Enter coin name",
+        "describe_your_coin": "Describe your coin"
+      },
+      "buttons": {
+        "hold_to_create": "Hold to Create",
+        "creating": "Creating...",
+        "share_link": "Linki Paylaş",
+        "token_allocation_info": "More Info",
+        "got_it": "Anladım",
+        "cancel": "İptal"
+      },
+      "header": {
+        "new_coin": "New Coin",
+        "review": "İncele",
+        "creating": "Creating"
+      },
+      "links": {
+        "x": {
+          "name": "X/Twitter",
+          "placeholder": "Username"
+        },
+        "telegram": {
+          "name": "Telegram",
+          "placeholder": "Channel"
+        },
+        "farcaster": {
+          "name": "Farcaster",
+          "placeholder": "Username"
+        },
+        "website": {
+          "name": "Web sitesi",
+          "placeholder": "https://homepage.com"
+        },
+        "other": {
+          "name": "Other",
+          "placeholder": "https://other.com"
+        },
+        "add_more": "Add More"
+      },
+      "discard_and_exit": "Discard & Exit",
+      "airdrops_sheet": {
+        "claim_button_text": "Talep Et",
+        "empty_state_title": "No Airdrops Yet",
+        "title": "Claim Rainbow Coins"
+      },
+      "cards": {
+        "airdrops": {
+          "subtitle_loading": "LOADING",
+          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
+          "subtitle_no_airdrops": "NO AIRDROPS YET",
+          "title": "Airdrops",
+          "title_singular": "Airdrop"
+        },
+        "launch": {
+          "line_one": "Launch\n",
+          "line_two": "your Coin"
+        }
+      },
+      "claim_airdrop_sheet": {
+        "by": "by",
+        "claiming": "Talep Etme",
+        "created_by": "Created by %{name}",
+        "gifted_to": "Gifted to",
+        "hold_to_claim": "Hold to Claim",
+        "hold_to_retry": "Hold to Retry",
+        "successfully_claimed": "Successfully Claimed",
+        "title": "Claim $%{symbol}",
+        "to_claim_on": "to claim on %{network}",
+        "view_coin": "View Coin",
+        "you": "Siz"
+      }
     },
     "done": "Tamamlandı",
     "copy": "Kopyala",
