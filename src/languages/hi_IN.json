@@ -485,7 +485,7 @@
         "swap_failed": "आदान-प्रदान विफल",
         "receive": "प्राप्त करें",
         "on": "शुरू",
-        "reset": "Reset"
+        "reset": "रीसेट करें"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "अलर्ट",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "ENV वेरिएबल्स का विश्लेषण करें",
+      "analyze_react_query": "React Query का विश्लेषण करें",
       "applied": "लागू किया गया",
       "backups_deleted_successfully": "बैकअप सफलतापूर्वक हटा दिए गए",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "AsyncStorage साफ़ करें",
       "clear_pending_txs": "लंबित लेनदेन साफ़ करें",
       "clear_image_cache": "छवि कैश साफ करें",
       "clear_image_metadata_cache": "छवि मेटाडाटा कैश साफ करें",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "लोकल स्टोरेज साफ़ करें",
+      "clear_mmkv_storage": "MMKV स्टोरेज साफ़ करें",
+      "clear_react_query_cache": "React Query कैश साफ़ करें",
+      "connect_to_anvil": "Anvil से जुड़ें",
+      "copy_fcm_token": "FCM टोकन कॉपी करें",
+      "copy_log_lines": "लॉग लाइन्स कॉपी करें",
+      "copy_signing_wallet_address": "हस्ताक्षर वॉलेट पता कॉपी करें",
+      "disconnect_to_anvil": "Anvil से डिस्कनेक्ट करें",
+      "crash_app_render_error": "ऐप क्रैश करें (रेंडर त्रुटि)",
       "enable_testnets": "टेस्टनेट्स सक्षम करें",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "अपडेट इंस्टॉल कर रहा है",
+      "navigation_entry_point": "नेविगेशन एंट्री पॉइंट",
+      "no_update": "कोई अपडेट नहीं है",
       "not_applied": "लागू नहीं किया गया",
       "notifications_debug": "सूचनाएं डीबग",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "सभी बैकअप्स को हटाएं",
       "keychain": {
         "menu_title": "कीचेन रीसेट करें",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "सभी वॉलेट्स हटाएं",
         "alert_title": "सतर्क रहें!",
         "alert_body": "🚨🚨🚨 \nयह आपके सभी वॉलेट्स की प्राइवेट कुंजियाँ और डेटा को स्थायी रूप से हटा देगा, कृपया सुनिश्चित करें कि आपने प्रक्रिया की शुरुआत से पहले सभी चीजों का बैकअप बना लिया है!! \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "ऍप रीस्टार्ट करें",
+      "reset_experimental_config": "प्रायोगिक कॉन्फ़िग को रीसेट करें",
       "status": "स्थिति",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "CodePush सिंक करें"
     },
     "discover": {
       "pulse": {
@@ -702,10 +702,10 @@
           "reddit": "रेडिट",
           "telegram": "टेलीग्राम",
           "twitter": "ट्विटर",
-          "warpcast": "Warpcast",
+          "warpcast": "वार्पकास्ट",
           "farcaster": "फ़ारकास्टर",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "अन्य",
+          "search_on_twitter": "ट्विटर पर खोजें"
         },
         "uniswap_liquidity": "यूनिस्वैप लिक्विडिटी",
         "value": "मूल्य",
@@ -719,34 +719,34 @@
           "hide": "छुपाएं",
           "unhide": "अदृश्यता रद्द करें"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "कोई डेटा उपलब्ध नहीं है"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "बाजार आँकड़े",
+          "circulating_supply": "प्रचलन आपूर्ति",
           "max_supply": "अधिकतम आपूर्ति",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "पूरी तरह से विलय का मूल्यांकन",
           "market_cap": "मार्केट कैप",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "निर्मित",
+          "volume_24_hours": "24 घंटे की मात्रा",
+          "rank": "क्रम"
         },
         "buy": {
           "title": "खरीदें",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "के साथ खरीदें",
+          "available_balance": "उपलब्ध शेष राशि",
+          "open_swaps": "खुली अदला बदली",
+          "low_balance": "कम शेष राशि"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "एयरड्रॉप का दावा करें",
+          "created_by": "%{creator} द्वारा बनाई गई",
           "title": "दावा करें"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "के बारे में",
+          "what_is": "%{assetName} क्या है?"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "दिसम्बर"
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "कोई चार्ट डेटा नहीं",
+        "no_price_data": "कोई मूल्य डेटा नहीं",
         "past_timespan": "भूतकाल %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "बीता हुआ दिन",
         "token_pool": "%{tokenName} पूल"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "अमान्य रेफ़रल कोड। कृपया अपना कोड जाँचें और पुनः प्रयास करें।",
         "no_balance_alert": "पॉइंट्स में नामांकन के लिए, आपके वॉलेट बैलेंस में शून्य से अधिक होना आवश्यक है।",
         "referral_link_is_ready": "आपका रेफ़रल लिंक तैयार है",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "अपने रेफरल लिंक को ट्वीट करें और आप अपने द्वारा संदर्भित किसी भी व्यक्ति द्वारा अर्जित अंकों का 10% अर्जित करेंगे",
         "referral_link_bonus_text_extended": "प्लस आपको जो कोई आपके रेफ़र करेगा उसके अर्जित किए गए अंकों का 10% भी मिलेगा",
         "complete_onboarding": "हो गया",
         "share_to_x": "X को शेयर करें",
@@ -2281,9 +2281,9 @@
           "failed": "इंटरैक्शन विफल"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "शुरू करना",
+          "confirmed": "शुरू किया",
+          "failed": "शुरू विफल"
         },
         "swap": {
           "pending": "स्वापिंग",
@@ -2647,20 +2647,20 @@
         "watching": "देख रहा है",
         "ledger": "लेजर",
         "wallets": "वॉलेट्स",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "सभी वॉलेट",
+        "total_balance": "कुल शेष राशि",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "अपने वॉलेट को कस्टम करें",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "स्पर्श करें",
             "action": "संपादित करें",
-            "suffix": "button above to set up"
+            "suffix": "सेट अप करने के लिए ऊपर बटन"
           }
         },
         "address_menu": {
           "edit": "वॉलेट संपादित करें",
           "copy": "पता कॉपी करें",
-          "settings": "Wallet Settings",
+          "settings": "वॉलेट सेटिंग्स",
           "notifications": "सूचना सेटिंग्स",
           "remove": "वॉलेट हटाएं"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "नेटवर्क",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "वॉलेट समूह चुनें",
+          "description": "नया वॉलेट बनाएं या एक नया वॉलेट समूह चुनें जिसके अंतर्गत एक नया वॉलेट बनाना चाहते हैं।"
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "नया वॉलेट समूह",
+          "description": "नया वॉलेट समूह बनाएं"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "खरीदें %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "एक मिनट पहले",
+          "minutes_ago": "मिनट पहले",
+          "hour_ago": "एक घंटा पहले",
+          "hours_ago": "घंटे पहले",
           "today": "आज",
           "day_ago": "एक दिन पहले",
           "days_ago": "दिन पहले",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "नेटवर्क्स को कस्टम बनाएं",
+        "tap_the": "स्पर्श करें",
+        "button_to_set_up": "सेट अप करने के लिए नीचे बटन"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "अनपिन करने के लिए यहाँ ड्रॉप करें",
       "edit": "संपादित करें",
       "network": "नेटवर्क",
       "networks": "नेटवर्क",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "पुनः व्यवस्थित करने के लिए खींचें",
+      "show_less": "कम दिखाएँ",
       "more": "अधिक",
-      "show_more": "More Networks",
+      "show_more": "अधिक नेटवर्क्स",
       "all_networks": "सभी नेटवर्क"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "पता या ईएनएस",
+        "suggested_users": "सुझाए गए उपयोगकर्ता",
+        "airdrop_lists": "एयरड्रॉप सूची",
+        "max_recipients_reached": "अधिकतम %{maxRecipientCount} प्राप्तकर्ताओं तक पहुँचा"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "क्षमा करें, आपकी छवि अपलोड करने में एक त्रुटि हुई।",
+        "subtitle": "कृपया पुनः प्रयास करें।"
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "मेरा हिस्सा",
+        "airdropping": "एयरड्रॉप हो रहा है",
+        "start_price": "शुरुआती मूल्य",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "निर्माता का हिस्सा",
+            "description": "प्रोजेक्ट में आपका व्यक्तिगत स्टेक"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "एयरड्रॉप का हिस्सा",
+            "description": "मित्रों और समर्थकों को वितरित"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "तरलता पूल का हिस्सा",
+            "description": "सामान्य ट्रेडिंग और तरलता सुनिश्चित करता है"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "ओवर द रेनबो",
+            "description": "भविष्य के सामुदायिक वितरण"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "शेष राशि: %{balance}",
+        "not_enough_funds": "टोकन लॉन्च करने के लिए पर्याप्त धनराशि नहीं"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "उपलब्ध शेष राशि: %{balance}",
+        "title": "अग्रिम हेतु अधिक टोकन खरीदें"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "टोकन आवंटन",
+        "your_share": "आपका हिस्सा",
+        "airdropping": "एयरड्रॉप करना",
+        "about": "के बारे में",
+        "total_cost": "कुल लागत",
+        "initial_price": "प्रारंभिक मूल्य",
         "market_cap": "बाजार की सीमा",
-        "total_supply": "Total supply",
+        "total_supply": "कुल आपूर्ति",
         "network": "नेटवर्क"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "%{symbol} तैनात कर रहा है..."
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol} लाइव है!",
+        "congrats": "बधाई, आपने %{name} को दुनिया में लॉन्च किया! इसे साझा करके मूड फैलाएं।"
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "बहुत लंबा, मित्र।",
+        "invalid_input": "अमान्य इनपुट",
+        "symbol_required": "टिकर आवश्यक है",
+        "name_required": "नाम आवश्यक है",
+        "too_big": "बहुत बड़ा।",
+        "must_be_greater_than_0": "0 से बड़ा होना चाहिए",
+        "amount_is_greater_than_balance": "राशि बैलेंस से अधिक है",
+        "amount_is_greater_than_max_prebuy_amount": "%{maxPrebuyAmount} %{chainNativeAssetSymbol} के अधिकतम पूर्व-खरीद मात्रा से अधिक है",
+        "amount_is_less_than_min_prebuy_amount": "%{minPrebuyAmount} %{chainNativeAssetSymbol} के न्यूनतम पूर्व-खरीद मात्रा से अधिक होना चाहिए",
+        "amount_too_small": "राशि बहुत छोटी है! थोड़ा अधिक प्रयास करें!"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "कुल आपूर्ति",
+        "ticker": "टिकर",
         "name": "नाम",
         "network": "नेटवर्क",
         "description": "विवरण",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
-        "mcap": "MCAP"
+        "airdrop": "मित्रों को एयरड्रॉप करें",
+        "required_info": "आवश्यक जानकारी",
+        "about": "के बारे में",
+        "token_allocation": "टोकन आवंटन",
+        "token_allocation_breakdown": "टोकन आवंटन विभाजन",
+        "mcap": "एमसीएपी"
       },
       "placeholders": {
         "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "enter_coin_name": "सिक्के का नाम दर्ज करें",
+        "describe_your_coin": "अपने सिक्के का वर्णन करें"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "बनाने के लिए दबाए रखें",
+        "creating": "बना रहा है...",
         "share_link": "लिंक साझा करें",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "अधिक जानकारी",
         "got_it": "समझ गया",
         "cancel": "रद्द करें"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "नया सिक्का",
         "review": "समीक्षा करें",
-        "creating": "Creating"
+        "creating": "बनाना"
       },
       "links": {
         "x": {
-          "name": "X/Twitter",
-          "placeholder": "Username"
+          "name": "एक्स/ट्विटर",
+          "placeholder": "उपयोगकर्ता नाम"
         },
         "telegram": {
           "name": "टेलीग्राम",
-          "placeholder": "Channel"
+          "placeholder": "चैनल"
         },
         "farcaster": {
           "name": "फ़ारकास्टर",
-          "placeholder": "Username"
+          "placeholder": "उपयोगकर्ता नाम"
         },
         "website": {
           "name": "वेबसाइट",
           "placeholder": "https://homepage.com"
         },
         "other": {
-          "name": "Other",
+          "name": "अन्य",
           "placeholder": "https://other.com"
         },
-        "add_more": "Add More"
+        "add_more": "और जोड़ें"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "त्यागें और बाहर निकलें",
       "airdrops_sheet": {
         "claim_button_text": "दावा करें",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "अभी तक कोई एयरड्रॉप नहीं",
+        "title": "रेनबो सिक्के का दावा करें"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
-          "title": "Airdrops",
-          "title_singular": "Airdrop"
+          "subtitle_loading": "लोड हो रहा है",
+          "subtitle_has_airdrops": "दावा करने के लिए उपलब्ध",
+          "subtitle_no_airdrops": "अभी तक कोई एयरड्रॉप नहीं",
+          "title": "एयरड्रॉप्स",
+          "title_singular": "एयरड्रॉप"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "लॉन्च\n",
+          "line_two": "आपका सिक्का"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "द्वारा",
         "claiming": "दावा कर रहा है",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "%{name} द्वारा बनाया गया",
+        "gifted_to": "को उपहार दिया गया",
+        "hold_to_claim": "दावे के लिए दबाए रखें",
+        "hold_to_retry": "पुनः प्रयास के लिए दबाए रखें",
+        "successfully_claimed": "सफलतापूर्वक दावा किया गया",
+        "title": "$%{symbol} का दावा करें",
+        "to_claim_on": "%{network} पर दावा करने के लिए",
+        "view_coin": "सिक्का देखें",
         "you": "तुम"
       }
     },
