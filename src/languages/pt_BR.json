@@ -485,7 +485,7 @@
         "swap_failed": "Troca Falhou",
         "receive": "Receber",
         "on": "ligado",
-        "reset": "Reset"
+        "reset": "Redefinir"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "Alerta",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "Analisar Variáveis de Ambiente",
+      "analyze_react_query": "Analisar Consulta React",
       "applied": "APLICADO",
       "backups_deleted_successfully": "Backups excluídos com sucesso",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "Limpar AsyncStorage",
       "clear_pending_txs": "Limpar transações pendentes",
       "clear_image_cache": "Limpar cache de imagens",
       "clear_image_metadata_cache": "Limpar Cache de Metadados da Imagem",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "Limpar Armazenamento Local",
+      "clear_mmkv_storage": "Limpar Armazenamento MMKV",
+      "clear_react_query_cache": "Limpar Cache de Consulta React",
+      "connect_to_anvil": "Conectar ao Anvil",
+      "copy_fcm_token": "Copiar Token FCM",
+      "copy_log_lines": "Copiar Linhas de Log",
+      "copy_signing_wallet_address": "Copiar Endereço da Carteira de Assinatura",
+      "disconnect_to_anvil": "Desconectar do Anvil",
+      "crash_app_render_error": "App de Falha (Erro de Renderização)",
       "enable_testnets": "Ativar Testnets",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "Instalando Atualização",
+      "navigation_entry_point": "Ponto de Entrada de Navegação",
+      "no_update": "Sem Atualização",
       "not_applied": "NÃO APLICADO",
       "notifications_debug": "Depuração de Notificações",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "Remover Todos os Backups",
       "keychain": {
         "menu_title": "Redefinir Keychain",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "Excluir Todas as Carteiras",
         "alert_title": "Cuidado!",
         "alert_body": "🚨🚨🚨 \nIsso deletará permanentemente todas as chaves privadas e dados da sua carteira, por favor, certifique-se de ter feito backup de tudo antes de prosseguir!! \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "Reiniciar App",
+      "reset_experimental_config": "Redefinir Configuração Experimental",
       "status": "Status",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "Sincronizar CodePush"
     },
     "discover": {
       "pulse": {
@@ -704,8 +704,8 @@
           "twitter": "Twitter",
           "warpcast": "Warpcast",
           "farcaster": "Farcaster",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "Outro",
+          "search_on_twitter": "Procurar no Twitter"
         },
         "uniswap_liquidity": "Liquidez Uniswap",
         "value": "Valor",
@@ -719,34 +719,34 @@
           "hide": "Ocultar",
           "unhide": "Mostrar"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "Nenhum Dado Disponível"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "Estatísticas do Mercado",
+          "circulating_supply": "Oferta Circulante",
           "max_supply": "Fornecimento Máximo",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "Valorização Totalmente Diluída",
           "market_cap": "Valor de Mercado",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "Criado",
+          "volume_24_hours": "Volume 24h",
+          "rank": "Classificação"
         },
         "buy": {
           "title": "Comprar",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "Comprar com",
+          "available_balance": "Saldo Disponível",
+          "open_swaps": "Operações Abertas",
+          "low_balance": "Saldo Baixo"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "Solicitar Airdrop",
+          "created_by": "Criado por %{creator}",
           "title": "Reivindicar"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "Sobre",
+          "what_is": "O que é %{assetName}?"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "Dezembro"
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "Nenhum Dado de Gráfico",
+        "no_price_data": "Nenhum Dado de Preço",
         "past_timespan": "Passado %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "Dia Passado",
         "token_pool": "Piscina %{tokenName}"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "Código de indicação inválido. Por favor, verifique seu código e tente novamente.",
         "no_balance_alert": "Para participar do Programa de Pontos, você deve possuir saldo positivo na carteira.",
         "referral_link_is_ready": "Seu link de indicação está pronto",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "Tweet seu link de referência e ganhe 10% dos pontos ganhos por qualquer pessoa que você indicar",
         "referral_link_bonus_text_extended": "Além disso, você ganhará 10% dos pontos obtidos por qualquer pessoa que você indicar",
         "complete_onboarding": "Concluído",
         "share_to_x": "Compartilhe no X",
@@ -2281,9 +2281,9 @@
           "failed": "Interação Falhou"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "Lançando",
+          "confirmed": "Lançado",
+          "failed": "Falha ao Lançar"
         },
         "swap": {
           "pending": "Trocando",
@@ -2647,20 +2647,20 @@
         "watching": "Observando",
         "ledger": "Ledger",
         "wallets": "Carteiras",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "Todas as Carteiras",
+        "total_balance": "Saldo Total",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "Personalizar Suas Carteiras",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "Toque no",
             "action": "Editar",
-            "suffix": "button above to set up"
+            "suffix": "botão acima para configurar"
           }
         },
         "address_menu": {
           "edit": "Editar Carteira",
           "copy": "Copiar Endereço",
-          "settings": "Wallet Settings",
+          "settings": "Configurações da Carteira",
           "notifications": "Configurações de Notificação",
           "remove": "Remover Carteira"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "Rede",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "Escolha o Grupo da Carteira",
+          "description": "Escolha o grupo da carteira no qual você deseja criar uma nova carteira, ou crie um novo."
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "Novo Grupo da Carteira",
+          "description": "Crie um novo grupo de carteiras"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "Comprar %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "minuto atrás",
+          "minutes_ago": "minutos atrás",
+          "hour_ago": "hora atrás",
+          "hours_ago": "horas atrás",
           "today": "Hoje",
           "day_ago": "dia atrás",
           "days_ago": "dias atrás",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "Personalizar Redes",
+        "tap_the": "Toque no",
+        "button_to_set_up": "botão abaixo para configurar"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "Solte Aqui para Desafixar",
       "edit": "Editar",
       "network": "Rede",
       "networks": "Redes",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "Arraste para Reorganizar",
+      "show_less": "Mostrar Menos",
       "more": "Mais",
-      "show_more": "More Networks",
+      "show_more": "Mais Redes",
       "all_networks": "Todas as redes"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "Endereço ou ENS",
+        "suggested_users": "USUÁRIOS SUGERIDOS",
+        "airdrop_lists": "LISTAS DE AIRDROP",
+        "max_recipients_reached": "Máximo de %{maxRecipientCount} destinatários atingido"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "Desculpe, houve um erro ao carregar sua imagem.",
+        "subtitle": "Por favor, tente novamente."
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "MINHA PARTE",
+        "airdropping": "REALIZANDO AIRDROP",
+        "start_price": "PREÇO INICIAL",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "Parte do Criador",
+            "description": "Sua participação pessoal no projeto"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "Parte do Airdrop",
+            "description": "Distribuído para amigos e apoiadores"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "Parte do Pool de Liquidez",
+            "description": "Garante negociação suave e liquidez"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "Sobre o Arco-íris",
+            "description": "Distribuições Futuras para a Comunidade"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "Saldo: %{balance}",
+        "not_enough_funds": "Fundos insuficientes para lançar um token"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "Saldo Disponível: %{balance}",
+        "title": "Pré-compre mais tokens"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "Alocação de Token",
+        "your_share": "Sua parcela",
+        "airdropping": "Realizando Airdrop",
+        "about": "Sobre",
+        "total_cost": "Custo total",
+        "initial_price": "Preço inicial",
         "market_cap": "Capitalização de mercado",
-        "total_supply": "Total supply",
+        "total_supply": "Oferta total",
         "network": "Rede"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "Implantando %{symbol}..."
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol} está ao vivo!",
+        "congrats": "Parabéns, você acabou de lançar %{name} no mundo! Compartilhe para espalhar a vibração."
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "Muito longo, amigo.",
+        "invalid_input": "Entrada inválida",
+        "symbol_required": "Símbolo é obrigatório",
+        "name_required": "Nome é obrigatório",
+        "too_big": "Muito grande.",
+        "must_be_greater_than_0": "Deve ser maior que 0",
+        "amount_is_greater_than_balance": "Quantidade é maior que o saldo",
+        "amount_is_greater_than_max_prebuy_amount": "Excede o valor máximo de pré-compra de %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_is_less_than_min_prebuy_amount": "Deve exceder o valor mínimo de pré-compra de %{minPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_too_small": "Quantia muito pequena! Tente um pouco mais!"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "Oferta total",
+        "ticker": "Símbolo",
         "name": "Nome",
         "network": "Rede",
         "description": "Descrição",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
+        "airdrop": "Airdrop para amigos",
+        "required_info": "INFORMAÇÃO OBRIGATÓRIA",
+        "about": "SOBRE",
+        "token_allocation": "ALOCACÃO DE TOKEN",
+        "token_allocation_breakdown": "Resumo da Alocação de Token",
         "mcap": "MCAP"
       },
       "placeholders": {
         "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "enter_coin_name": "Digite o nome da moeda",
+        "describe_your_coin": "Descreva sua moeda"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "Mantenha para Criar",
+        "creating": "Criando...",
         "share_link": "Compartilhar Link",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "Mais Informações",
         "got_it": "Entendi",
         "cancel": "Cancelar"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "Nova Moeda",
         "review": "Revisão",
-        "creating": "Creating"
+        "creating": "Criando"
       },
       "links": {
         "x": {
           "name": "X/Twitter",
-          "placeholder": "Username"
+          "placeholder": "Nome de Usuário"
         },
         "telegram": {
           "name": "Telegram",
-          "placeholder": "Channel"
+          "placeholder": "Canal"
         },
         "farcaster": {
           "name": "Farcaster",
-          "placeholder": "Username"
+          "placeholder": "Nome de Usuário"
         },
         "website": {
           "name": "Website",
-          "placeholder": "https://homepage.com"
+          "placeholder": "https://pagina-inicial.com"
         },
         "other": {
-          "name": "Other",
-          "placeholder": "https://other.com"
+          "name": "Outro",
+          "placeholder": "https://outro.com"
         },
-        "add_more": "Add More"
+        "add_more": "Adicionar Mais"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "Descartar e Sair",
       "airdrops_sheet": {
         "claim_button_text": "Reivindicar",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "Ainda Sem Airdrops",
+        "title": "Solicitar Moedas do Rainbow"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
-          "title": "Airdrops",
-          "title_singular": "Airdrop"
+          "subtitle_loading": "CARREGANDO",
+          "subtitle_has_airdrops": "DISPONÍVEL PARA SOLICITAR",
+          "subtitle_no_airdrops": "AINDA SEM AIRDROPS",
+          "title": "Distribuições",
+          "title_singular": "Distribuição"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "Lançar\n",
+          "line_two": "sua Moeda"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "por",
         "claiming": "Reivindicando",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "Criado por %{name}",
+        "gifted_to": "Presenteado para",
+        "hold_to_claim": "Pressione para Solicitar",
+        "hold_to_retry": "Pressione para Tentar Novamente",
+        "successfully_claimed": "Solicitado Com Sucesso",
+        "title": "Solicitar $%{symbol}",
+        "to_claim_on": "para solicitar na %{network}",
+        "view_coin": "Ver Moeda",
         "you": "Você"
       }
     },
