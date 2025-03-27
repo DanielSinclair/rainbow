@@ -485,7 +485,7 @@
         "swap_failed": "แลกเปลี่ยนล้มเหลว",
         "receive": "รับ",
         "on": "เปิด",
-        "reset": "Reset"
+        "reset": "ตั้งค่าใหม่"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "เตือน",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "วิเคราะห์ตัวแปร ENV",
+      "analyze_react_query": "วิเคราะห์ React Query",
       "applied": "ที่ปรับใช้แล้ว",
       "backups_deleted_successfully": "ลบการสำรองข้อมูลเรียบร้อยแล้ว",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "ล้างข้อมูล AsyncStorage",
       "clear_pending_txs": "ล้างธุรกรรมที่รอดำเนินการ",
       "clear_image_cache": "ล้างแคชภาพ",
       "clear_image_metadata_cache": "ล้างแคชข้อมูลภาพ",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "ล้างพื้นที่เก็บข้อมูลท้องถิ่น",
+      "clear_mmkv_storage": "ล้างพื้นที่เก็บข้อมูล MMKV",
+      "clear_react_query_cache": "ล้างแคช React Query",
+      "connect_to_anvil": "เชื่อมต่อกับ Anvil",
+      "copy_fcm_token": "คัดลอก FCM Token",
+      "copy_log_lines": "คัดลอกบรรทัดบันทึก",
+      "copy_signing_wallet_address": "คัดลอกที่อยู่กระเป๋าเงินในการลงนาม",
+      "disconnect_to_anvil": "ยกเลิกการเชื่อมต่อจาก Anvil",
+      "crash_app_render_error": "แอปล้มเหลว (Render Error)",
       "enable_testnets": "เปิดใช้งาน Testnets",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "กำลังติดตั้งอัปเดต",
+      "navigation_entry_point": "จุดเริ่มต้นการนำทาง",
+      "no_update": "ไม่มีการอัปเดต",
       "not_applied": "ไม่ถูกนำไปใช้",
       "notifications_debug": "การดีบักการแจ้งเตือน",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "ลบข้อมูลสำรองทั้งหมด",
       "keychain": {
         "menu_title": "รีเซ็ต Keychain",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "ลบกระเป๋าสตางค์",
         "alert_title": "ระวัง!",
         "alert_body": "🚨🚨🚨 \nขั้นตอนนี้จะลบคีย์ส่วนตัวและข้อมูลของกระเป๋าเงินของคุณอย่างถาวร กรุณาตรวจสอบว่าคุณได้สำรองข้อมูลทั้งหมดก่อนที่จะดำเนินการต่อ!! \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "เริ่มแอปใหม่",
+      "reset_experimental_config": "ตั้งค่าคอนฟิกการทดลองใหม่",
       "status": "สถานะ",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "ซิงค์ CodePush"
     },
     "discover": {
       "pulse": {
@@ -704,8 +704,8 @@
           "twitter": "Twitter",
           "warpcast": "Warpcast",
           "farcaster": "ฟาร์คาสเตอร์",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "อื่น ๆ",
+          "search_on_twitter": "ค้นหาบนทวิตเตอร์"
         },
         "uniswap_liquidity": "ความสภาพ Uniswap",
         "value": "ค่า",
@@ -719,34 +719,34 @@
           "hide": "ซ่อน",
           "unhide": "เลือกไม่ซ่อน"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "ไม่มีข้อมูลที่ใช้ได้"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "สถิติตลาด",
+          "circulating_supply": "อุปทานหมุนเวียน",
           "max_supply": "ปริมาณสูงสุด",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "ประเมินค่าตลาดแบบเต็มรูปแบบ",
           "market_cap": "มูลค่าตามตลาด",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "สร้าง",
+          "volume_24_hours": "ปริมาณ 24 ชั่วโมง",
+          "rank": "อันดับ"
         },
         "buy": {
           "title": "ซื้อ",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "ซื้อด้วย",
+          "available_balance": "ยอดคงเหลือที่มี",
+          "open_swaps": "เปิดแลกเปลี่ยน",
+          "low_balance": "ยอดเงินต่ำ"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "ขอรับ Airdrop",
+          "created_by": "สร้างโดย %{creator}",
           "title": "เคลม"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "เกี่ยวกับ",
+          "what_is": "%{assetName} คืออะไร?"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "ธ.ค."
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "ไม่มีข้อมูลกราฟ",
+        "no_price_data": "ไม่มีข้อมูลราคา",
         "past_timespan": "อดีต %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "วันที่ผ่านมา",
         "token_pool": "%{tokenName} สระ"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "รหัสอ้างอิงไม่ถูกต้อง กรุณาตรวจสอบรหัสของท่านและลองอีกครั้ง",
         "no_balance_alert": "เพื่อลงทะเบียนในระบบ Points คุณต้องมียอดเงินในกระเป๋าที่ไม่เป็นศูนย์",
         "referral_link_is_ready": "ลิงก์อ้างอิงของคุณพร้อมแล้ว",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "ทวีตลิงก์การแนะนำของคุณและคุณจะได้รับ 10% จากคะแนนที่ได้รับจากใครก็ตามที่คุณแนะนำ",
         "referral_link_bonus_text_extended": "นอกจากนี้คุณจะได้รับ 10% ของคะแนนที่ได้จากการอ้างอิงผู้อื่น",
         "complete_onboarding": "เสร็จสิ้น",
         "share_to_x": "แชร์ไปที่ X",
@@ -2281,9 +2281,9 @@
           "failed": "ปฏิสัมพันธ์ไม่สำเร็จ"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "กำลังเปิดตัว",
+          "confirmed": "เปิดตัวแล้ว",
+          "failed": "การเปิดตัวล้มเหลว"
         },
         "swap": {
           "pending": "กำลังแลกเปลี่ยน",
@@ -2647,20 +2647,20 @@
         "watching": "กำลังรับชม",
         "ledger": "เลเจอร์",
         "wallets": "กระเป๋าเงิน",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "กระเป๋าเงินทั้งหมด",
+        "total_balance": "ยอดรวม",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "กำหนดกระเป๋าเงินของคุณเอง",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "แตะที่",
             "action": "แก้ไข",
-            "suffix": "button above to set up"
+            "suffix": "ปุ่มด้านบนเพื่อกำหนดค่า"
           }
         },
         "address_menu": {
           "edit": "แก้ไขกระเป๋าเงิน",
           "copy": "คัดลอกที่อยู่",
-          "settings": "Wallet Settings",
+          "settings": "การตั้งค่ากระเป๋าเงิน",
           "notifications": "การตั้งค่าการแจ้งเตือน",
           "remove": "นำกระเป๋าเงินออก"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "เครือข่าย",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "เลือกกลุ่มกระเป๋าเงิน",
+          "description": "เลือกกลุ่มกระเป๋าเงินที่คุณต้องการสร้างหรือสร้างใหม่"
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "กลุ่ม Wallet ใหม่",
+          "description": "สร้างกระเป๋าเงินใหม่"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "ซื้อ %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "นาทีที่ผ่านมา",
+          "minutes_ago": "นาทีที่แล้ว",
+          "hour_ago": "ชั่วโมงที่ผ่านมา",
+          "hours_ago": "หลายชั่วโมงที่ผ่านมา",
           "today": "วันนี้",
           "day_ago": "เมื่อวันก่อน",
           "days_ago": "เมื่อวันก่อน",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "กำหนดค่าเครือข่าย",
+        "tap_the": "แตะที่",
+        "button_to_set_up": "ปุ่มด้านล่างเพื่อตั้งค่า"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "วางที่นี่เพื่อปลดหมุด",
       "edit": "แก้ไข",
       "network": "เครือข่าย",
       "networks": "เครือข่าย",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "ลากเพื่อจัดเรียงใหม่",
+      "show_less": "แสดงน้อยลง",
       "more": "เพิ่มเติม",
-      "show_more": "More Networks",
+      "show_more": "เครือข่ายเพิ่มเติม",
       "all_networks": "ทุกเครือข่าย"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "ที่อยู่หรือ ENS",
+        "suggested_users": "ผู้ใช้ที่แนะนำ",
+        "airdrop_lists": "รายการ Airdrop",
+        "max_recipients_reached": "จำนวนผู้รับสูงสุด %{maxRecipientCount} คนถูกใช้แล้ว"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "ขออภัย เกิดข้อผิดพลาดในการอัปโหลดรูปภาพของคุณ.",
+        "subtitle": "กรุณาลองอีกครั้ง."
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "ส่วนของฉัน",
+        "airdropping": "ในกระบวนการ Airdrop",
+        "start_price": "ราคาเริ่มต้น",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "ส่วนแบ่งของผู้สร้าง",
+            "description": "ส่วนตัวของคุณในโครงการ"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "ส่วนประกอบขับเคลื่อน",
+            "description": "แจกจ่ายให้เพื่อนและผู้สนับสนุน"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "ส่วนแบ่งของพูลสภาพคล่อง",
+            "description": "สร้างการซื้อขายที่ราบรื่นและสภาพคล่อง"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "เหนือสายรุ้ง",
+            "description": "การแจกจ่ายชุมชนในอนาคต"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "ยอดคงเหลือ: %{balance}",
+        "not_enough_funds": "เงินไม่เพียงพอที่จะเปิดตัวโทเค็น"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "ยอดคงเหลือที่มีอยู่: %{balance}",
+        "title": "ซื้อโทเค็นเพิ่มล่วงหน้า"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "การจัดสรรโทเค็น",
+        "your_share": "ส่วนที่คุณถือครอง",
+        "airdropping": "การกระจายทางอากาศ",
+        "about": "เกี่ยวกับ",
+        "total_cost": "ค่าใช้จ่ายทั้งหมด",
+        "initial_price": "ราคาเริ่มต้น",
         "market_cap": "มูลค่าตามราคาตลาด",
-        "total_supply": "Total supply",
+        "total_supply": "อุปทานทั้งหมด",
         "network": "เครือข่าย"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "กำลังเรียกใช้งาน %{symbol}..."
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol} เปิดตัวแล้ว!",
+        "congrats": "ยินดีด้วย คุณเพิ่งเปิดตัว %{name} ไปทั่วโลก! แชร์เพื่อกระจายบรรยากาศดีๆ."
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "ยาวเกินไป, เพื่อน.",
+        "invalid_input": "ข้อมูลไม่ถูกต้อง",
+        "symbol_required": "ต้องระบุสัญลักษณ์",
+        "name_required": "ต้องระบุชื่อ",
+        "too_big": "ใหญ่เกินไป.",
+        "must_be_greater_than_0": "ต้องมากกว่า 0",
+        "amount_is_greater_than_balance": "จำนวนมากกว่ายอดคงเหลือ",
+        "amount_is_greater_than_max_prebuy_amount": "เกินจำนวนการซื้อสูงสุดล่วงหน้า %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_is_less_than_min_prebuy_amount": "ต้องมากกว่าจำนวนการซื้อล่วงหน้าขั้นต่ำ %{minPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_too_small": "จำนวนเงินน้อยเกินไป! ลองเพิ่มอีกเล็กน้อย!"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "อุปทานทั้งหมด",
+        "ticker": "สัญลักษณ์",
         "name": "ชื่อ",
         "network": "เครือข่าย",
         "description": "คำอธิบาย",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
-        "mcap": "MCAP"
+        "airdrop": "Airdrop ให้เพื่อน",
+        "required_info": "ข้อมูลที่จำเป็น",
+        "about": "เกี่ยวกับ",
+        "token_allocation": "การจัดสรรโทเค็น",
+        "token_allocation_breakdown": "รายละเอียดการจัดสรรโทเค็น",
+        "mcap": "มูลค่าตลาด"
       },
       "placeholders": {
         "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "enter_coin_name": "ใส่ชื่อเหรียญ",
+        "describe_your_coin": "อธิบายเหรียญของคุณ"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "กดค้างเพื่อสร้าง",
+        "creating": "กำลังสร้าง...",
         "share_link": "แชร์ลิงค์",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "ข้อมูลเพิ่มเติม",
         "got_it": "รับทราบ",
         "cancel": "ยกเลิก"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "เหรียญใหม่",
         "review": "รีวิว",
-        "creating": "Creating"
+        "creating": "กำลังสร้าง"
       },
       "links": {
         "x": {
           "name": "X/Twitter",
-          "placeholder": "Username"
+          "placeholder": "ชื่อผู้ใช้"
         },
         "telegram": {
           "name": "Telegram",
-          "placeholder": "Channel"
+          "placeholder": "ช่อง"
         },
         "farcaster": {
           "name": "ฟาร์คาสเตอร์",
-          "placeholder": "Username"
+          "placeholder": "ชื่อผู้ใช้"
         },
         "website": {
           "name": "เว็บไซต์",
           "placeholder": "https://homepage.com"
         },
         "other": {
-          "name": "Other",
+          "name": "อื่น ๆ",
           "placeholder": "https://other.com"
         },
-        "add_more": "Add More"
+        "add_more": "เพิ่มอีก"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "ยกเลิก & ออกจากการ",
       "airdrops_sheet": {
         "claim_button_text": "เคลม",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "ยังไม่มี Airdrop",
+        "title": "ขอรับเหรียญ Rainbow"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
+          "subtitle_loading": "กำลังโหลด",
+          "subtitle_has_airdrops": "พร้อมที่จะรับ",
+          "subtitle_no_airdrops": "ยังไม่มี Airdrop",
           "title": "Airdrops",
           "title_singular": "Airdrop"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "เปิดตัว\n",
+          "line_two": "เหรียญของคุณ"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "โดย",
         "claiming": "กำลังเรียกร้อง",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "สร้างโดย %{name}",
+        "gifted_to": "มอบให้แก่",
+        "hold_to_claim": "กดค้างเพื่อรับแบบอัตโนมัติ",
+        "hold_to_retry": "กดค้างเพื่อทดลองใหม่",
+        "successfully_claimed": "ได้รับแบบอัตโนมัติเรียบร้อย",
+        "title": "รับ $%{symbol}",
+        "to_claim_on": "เพียงรับบน %{network}",
+        "view_coin": "ดูเหรียญ",
         "you": "คุณ"
       }
     },
