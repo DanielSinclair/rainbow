@@ -485,7 +485,7 @@
         "swap_failed": "交换失败",
         "receive": "接收",
         "on": "在",
-        "reset": "Reset"
+        "reset": "重置"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "警报",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "分析环境变量",
+      "analyze_react_query": "分析 React Query",
       "applied": "已应用",
       "backups_deleted_successfully": "备份已成功删除",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "清除异步存储",
       "clear_pending_txs": "清除待处理的交易",
       "clear_image_cache": "清除图片缓存",
       "clear_image_metadata_cache": "清除图片内元数据缓存",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "清除本地存储",
+      "clear_mmkv_storage": "清空MMKV存储",
+      "clear_react_query_cache": "清除 React Query 缓存",
+      "connect_to_anvil": "连接到 Anvil",
+      "copy_fcm_token": "复制 FCM 令牌",
+      "copy_log_lines": "复制日志行",
+      "copy_signing_wallet_address": "复制签名钱包地址",
+      "disconnect_to_anvil": "断开与 Anvil 的连接",
+      "crash_app_render_error": "崩溃应用（渲染错误）",
       "enable_testnets": "启用Testnets",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "正在安装更新",
+      "navigation_entry_point": "导航入口点",
+      "no_update": "无更新",
       "not_applied": "未应用",
       "notifications_debug": "通知调试",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "删除所有备份",
       "keychain": {
         "menu_title": "重置密钥链",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "删除所有钱包",
         "alert_title": "小心！",
         "alert_body": "🚨🚨🚨 \n这将永久删除所有的钱包私钥&数据，请确保在继续操作前已经备份了所有数据！ \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "重新启动应用",
+      "reset_experimental_config": "重置实验配置",
       "status": "状态",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "同步 CodePush"
     },
     "discover": {
       "pulse": {
@@ -704,8 +704,8 @@
           "twitter": "Twitter",
           "warpcast": "Warpcast",
           "farcaster": "Farcaster",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "其他",
+          "search_on_twitter": "在 Twitter 上搜索"
         },
         "uniswap_liquidity": "Uniswap 流动性",
         "value": "价值",
@@ -719,34 +719,34 @@
           "hide": "隐藏",
           "unhide": "取消隐藏"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "无可用数据"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "市场统计",
+          "circulating_supply": "流通供应",
           "max_supply": "最大供给量",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "全面稀释估值",
           "market_cap": "市值",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "创建",
+          "volume_24_hours": "24小时交易量",
+          "rank": "排名"
         },
         "buy": {
           "title": "购买",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "购买方式",
+          "available_balance": "可用余额",
+          "open_swaps": "打开的互换",
+          "low_balance": "余额不足"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "领取空投",
+          "created_by": "由 %{creator} 创建",
           "title": "领取"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "关于",
+          "what_is": "%{assetName} 是什么？"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "十二月"
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "无图表数据",
+        "no_price_data": "无价格数据",
         "past_timespan": "过去 %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "过去的一天",
         "token_pool": "%{tokenName} 池"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "推荐码无效。请检查您的代码然后再试一次。",
         "no_balance_alert": "要注册消费积分，您的钱包余额必须不为零。",
         "referral_link_is_ready": "您的推荐链接已准备好",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "转发您的推荐链接，您将获得您推荐的任何人所赚取积分的 10%",
         "referral_link_bonus_text_extended": "您将赚取您推荐的每个人所获得积分的10%",
         "complete_onboarding": "完成",
         "share_to_x": "分享至X",
@@ -2281,9 +2281,9 @@
           "failed": "交互失败"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "正在启动",
+          "confirmed": "已启动",
+          "failed": "启动失败"
         },
         "swap": {
           "pending": "交换中",
@@ -2647,20 +2647,20 @@
         "watching": "正在关注",
         "ledger": "分类账",
         "wallets": "钱包",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "所有钱包",
+        "total_balance": "总余额",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "自定义您的钱包",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "点击",
             "action": "编辑",
-            "suffix": "button above to set up"
+            "suffix": "按钮以设置"
           }
         },
         "address_menu": {
           "edit": "编辑钱包",
           "copy": "复制地址",
-          "settings": "Wallet Settings",
+          "settings": "钱包设置",
           "notifications": "通知设置",
           "remove": "移除钱包"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "网络",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "选择钱包组",
+          "description": "选择您希望在其中创建新钱包的钱包组，或创建一个新的。"
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "新钱包组",
+          "description": "创建新钱包组"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "购买 %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "一分钟前",
+          "minutes_ago": "分钟前",
+          "hour_ago": "一小时前",
+          "hours_ago": "小时前",
           "today": "今天",
           "day_ago": "day ago",
           "days_ago": "days ago",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "自定义网络",
+        "tap_the": "点击",
+        "button_to_set_up": "按钮以设置"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "在此处拖动以解锁",
       "edit": "编辑",
       "network": "网络",
       "networks": "网络",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "拖动以重新排列",
+      "show_less": "显示较少",
       "more": "更多",
-      "show_more": "More Networks",
+      "show_more": "更多网络",
       "all_networks": "所有网络"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "地址或 ENS",
+        "suggested_users": "建议用户",
+        "airdrop_lists": "空投列表",
+        "max_recipients_reached": "最大 %{maxRecipientCount} 收件人已达到"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "抱歉，上传图片时出错。",
+        "subtitle": "请再试一次。"
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "我的份额",
+        "airdropping": "空投中",
+        "start_price": "起始价",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "创作者份额",
+            "description": "您在项目中的个人股份"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "空投份额",
+            "description": "分发给朋友和支持者"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "流动性池份额",
+            "description": "确保交易顺畅和流动性"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "彩虹之外",
+            "description": "未来社区分发"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "余额: %{balance}",
+        "not_enough_funds": "资金不足，无法启动代币"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "可用余额: %{balance}",
+        "title": "预购更多代币"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "代币分配",
+        "your_share": "您的份额",
+        "airdropping": "空投中",
+        "about": "关于",
+        "total_cost": "总成本",
+        "initial_price": "初始价格",
         "market_cap": "市值",
-        "total_supply": "Total supply",
+        "total_supply": "总供应量",
         "network": "网络"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "部署 %{symbol}……"
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol} 已上线！",
+        "congrats": "恭喜，您刚刚将 %{name} 发布到世界！分享以传播美好氛围。"
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "太长了，朋友。",
+        "invalid_input": "输入无效",
+        "symbol_required": "需要 Ticker",
+        "name_required": "需要名称",
+        "too_big": "太大了。",
+        "must_be_greater_than_0": "必须大于 0",
+        "amount_is_greater_than_balance": "金额超过余额",
+        "amount_is_greater_than_max_prebuy_amount": "超过 %{maxPrebuyAmount} %{chainNativeAssetSymbol} 的最大预购金额",
+        "amount_is_less_than_min_prebuy_amount": "必须超过 %{minPrebuyAmount} %{chainNativeAssetSymbol} 的最小预购金额",
+        "amount_too_small": "金额太小！尝试多一点！"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "总供应量",
+        "ticker": "代码",
         "name": "名称",
         "network": "网络",
         "description": "说明",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
-        "mcap": "MCAP"
+        "airdrop": "空投给朋友",
+        "required_info": "必填信息",
+        "about": "关于",
+        "token_allocation": "代币分配",
+        "token_allocation_breakdown": "代币分配细节",
+        "mcap": "市值"
       },
       "placeholders": {
         "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "enter_coin_name": "输入币名",
+        "describe_your_coin": "描述您的代币"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "长按创建",
+        "creating": "创建中……",
         "share_link": "分享链接",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "更多信息",
         "got_it": "我知道了",
         "cancel": "取消"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "新代币",
         "review": "审阅",
-        "creating": "Creating"
+        "creating": "创建"
       },
       "links": {
         "x": {
           "name": "X/Twitter",
-          "placeholder": "Username"
+          "placeholder": "用户名"
         },
         "telegram": {
           "name": "Telegram",
-          "placeholder": "Channel"
+          "placeholder": "频道"
         },
         "farcaster": {
           "name": "Farcaster",
-          "placeholder": "Username"
+          "placeholder": "用户名"
         },
         "website": {
           "name": "网站",
           "placeholder": "https://homepage.com"
         },
         "other": {
-          "name": "Other",
+          "name": "其他",
           "placeholder": "https://other.com"
         },
-        "add_more": "Add More"
+        "add_more": "添加更多"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "放弃并退出",
       "airdrops_sheet": {
         "claim_button_text": "领取",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "尚无空投",
+        "title": "领取彩虹币"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
-          "title": "Airdrops",
-          "title_singular": "Airdrop"
+          "subtitle_loading": "载入中",
+          "subtitle_has_airdrops": "可领取",
+          "subtitle_no_airdrops": "尚无空投",
+          "title": "空投",
+          "title_singular": "空投"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "推出\n",
+          "line_two": "您的代币"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "由",
         "claiming": "认领中",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "由 %{name} 创建",
+        "gifted_to": "赠送给",
+        "hold_to_claim": "长按领取",
+        "hold_to_retry": "长按重试",
+        "successfully_claimed": "领取成功",
+        "title": "领取 $%{symbol}",
+        "to_claim_on": "在 %{network} 上领取",
+        "view_coin": "查看代币",
         "you": "你"
       }
     },
