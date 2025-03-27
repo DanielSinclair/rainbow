@@ -485,7 +485,7 @@
         "swap_failed": "交換失敗",
         "receive": "受け取る",
         "on": "オン",
-        "reset": "Reset"
+        "reset": "リセット"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "アラート",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "環境変数を解析",
+      "analyze_react_query": "React Queryを解析",
       "applied": "適用済み",
       "backups_deleted_successfully": "バックアップは正常に削除されました",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "AsyncStorageをクリア",
       "clear_pending_txs": "保留中のトランザクションをクリア",
       "clear_image_cache": "画像キャッシュをクリア",
       "clear_image_metadata_cache": "クリアイメージメタデータキャッシュ",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "ローカルストレージをクリア",
+      "clear_mmkv_storage": "MMKVストレージをクリア",
+      "clear_react_query_cache": "React Queryキャッシュをクリア",
+      "connect_to_anvil": "Anvilに接続する",
+      "copy_fcm_token": "FCMトークンをコピー",
+      "copy_log_lines": "ログラインをコピー",
+      "copy_signing_wallet_address": "署名ウォレットアドレスをコピー",
+      "disconnect_to_anvil": "Anvilから切断",
+      "crash_app_render_error": "アプリクラッシュ（レンダーエラー）",
       "enable_testnets": "テストネットを有効にする",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "アップデートのインストール",
+      "navigation_entry_point": "ナビゲーションエントリーポイント",
+      "no_update": "アップデートなし",
       "not_applied": "適用されていません",
       "notifications_debug": "通知デバッグ",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "すべてのバックアップを削除",
       "keychain": {
         "menu_title": "キーチェーンをリセットする",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "すべてのウォレットを削除",
         "alert_title": "注意！",
         "alert_body": "🚨🚨🚨 \nこれによりすべてのウォレットの秘密鍵とデータが永久に削除されますので、続行する前にバックアップされていることを確認してください！ \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "アプリを再起動",
+      "reset_experimental_config": "実験的なコンフィグをリセット",
       "status": "ステータス",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "CodePushを同期"
     },
     "discover": {
       "pulse": {
@@ -704,8 +704,8 @@
           "twitter": "Twitter",
           "warpcast": "Warpcast",
           "farcaster": "Farcaster",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "その他",
+          "search_on_twitter": "Twitterで検索"
         },
         "uniswap_liquidity": "ユニスワップ流動性",
         "value": "価値",
@@ -719,34 +719,34 @@
           "hide": "非表示",
           "unhide": "表示する"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "利用可能なデータがありません"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "マーケット統計",
+          "circulating_supply": "流通供給量",
           "max_supply": "最大供給量",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "完全に希釈された時価総額",
           "market_cap": "時価総額",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "作成日",
+          "volume_24_hours": "24時間のボリューム",
+          "rank": "ランキング"
         },
         "buy": {
           "title": "購入",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "で購入",
+          "available_balance": "利用可能残高",
+          "open_swaps": "オープンスワップ",
+          "low_balance": "残高不足"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "エアドロップを請求する",
+          "created_by": "%{creator}によって作成",
           "title": "請求"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "概要",
+          "what_is": "%{assetName}とは何ですか？"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "12月"
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "チャートデータがありません",
+        "no_price_data": "価格データがありません",
         "past_timespan": "過去 %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "過去の日",
         "token_pool": "%{tokenName} プール"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "紹介コードが無効です。コードを再確認してもう一度お試しください。",
         "no_balance_alert": "ポイントに登録するには、ウォレット残高がゼロでない必要があります。",
         "referral_link_is_ready": "あなたの紹介リンクは準備ができました",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "紹介リンクをツイートすると、紹介した人が獲得したポイントの<b>10</b>％を獲得できます",
         "referral_link_bonus_text_extended": "さらに紹介した人が獲得したポイントの10%を獲得します",
         "complete_onboarding": "完了",
         "share_to_x": "Xにシェアする",
@@ -2281,9 +2281,9 @@
           "failed": "操作失敗"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "起動中",
+          "confirmed": "起動済み",
+          "failed": "起動失敗"
         },
         "swap": {
           "pending": "スワップ中",
@@ -2647,20 +2647,20 @@
         "watching": "ウォッチ中",
         "ledger": "Ledger",
         "wallets": "財布",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "すべてのウォレット",
+        "total_balance": "合計残高",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "ウォレットをカスタマイズする",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "をタップ",
             "action": "編集",
-            "suffix": "button above to set up"
+            "suffix": "ボタンを押して設定する"
           }
         },
         "address_menu": {
           "edit": "ウォレットを編集する",
           "copy": "アドレスをコピー",
-          "settings": "Wallet Settings",
+          "settings": "ウォレット設定",
           "notifications": "通知設定",
           "remove": "ウォレットを削除する"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "Network",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "ウォレットグループを選択",
+          "description": "新しいウォレットを作成するウォレットグループを選択するか、新しいグループを作成してください。"
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "新しいウォレットグループ",
+          "description": "新しいウォレットグループを作成する"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "購入します %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "1分前",
+          "minutes_ago": "数分前",
+          "hour_ago": "1時間前",
+          "hours_ago": "数時間前",
           "today": "今日",
           "day_ago": "1日前",
           "days_ago": "%s日前",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "ネットワークをカスタマイズする",
+        "tap_the": "をタップ",
+        "button_to_set_up": "ボタンを押して設定する"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "ここにドロップして固定を解除",
       "edit": "編集",
       "network": "Network",
       "networks": "ネットワーク",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "ドラッグして並べ替え",
+      "show_less": "表示を減らす",
       "more": "もっと",
-      "show_more": "More Networks",
+      "show_more": "もっとネットワークを見る",
       "all_networks": "全てのネットワーク"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "アドレスまたはENS",
+        "suggested_users": "おすすめユーザー",
+        "airdrop_lists": "エアドロップリスト",
+        "max_recipients_reached": "最大の%{maxRecipientCount}件の受信者に到達しました"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "画像のアップロード中にエラーが発生しました。申し訳ありません。",
+        "subtitle": "もう一度やり直してください。"
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "私のシェア",
+        "airdropping": "エアドロップ中",
+        "start_price": "開始価格",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "クリエイターシェア",
+            "description": "プロジェクトでのあなたの個人的なステーク"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "エアドロップシェア",
+            "description": "友人やサポーターに配布"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "流動性プールシェア",
+            "description": "円滑な取引と流動性を確保"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "オーバーザレインボー",
+            "description": "将来のコミュニティ配布"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "残高: %{balance}",
+        "not_enough_funds": "トークンを起動するのに十分な資金がありません"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "利用可能残高: %{balance}",
+        "title": "プリバイでトークンをさらに購入"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "トークン配分",
+        "your_share": "あなたのシェア",
+        "airdropping": "エアドロップ",
+        "about": "概要",
+        "total_cost": "総費用",
+        "initial_price": "初期価格",
         "market_cap": "時価総額",
-        "total_supply": "Total supply",
+        "total_supply": "総供給",
         "network": "Network"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "%{symbol}をデプロイ中…"
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol}が稼働中！",
+        "congrats": "おめでとう、%{name}を世界にリリースしました！シェアして雰囲気を広げましょう。"
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "あまりにも長すぎましたね。",
+        "invalid_input": "無効な入力",
+        "symbol_required": "ティッカーは必須です",
+        "name_required": "名前は必須です",
+        "too_big": "大きすぎます。",
+        "must_be_greater_than_0": "0より大きくなければなりません",
+        "amount_is_greater_than_balance": "金額が残高を超えています",
+        "amount_is_greater_than_max_prebuy_amount": "%{maxPrebuyAmount}%{chainNativeAssetSymbol}の最大プリバイ金額を超えています",
+        "amount_is_less_than_min_prebuy_amount": "%{minPrebuyAmount}%{chainNativeAssetSymbol}の最小プリバイ金額を超過する必要があります",
+        "amount_too_small": "金額が小さすぎます！もう少し試してみてください！"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "総供給",
+        "ticker": "ティッカー",
         "name": "名前",
         "network": "Network",
         "description": "Description",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
-        "mcap": "MCAP"
+        "airdrop": "友人にエアドロップ",
+        "required_info": "必要な情報",
+        "about": "事について",
+        "token_allocation": "トークン配分",
+        "token_allocation_breakdown": "トークン配分の内訳",
+        "mcap": "時価総額"
       },
       "placeholders": {
         "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "enter_coin_name": "コイン名を入力",
+        "describe_your_coin": "コインの説明を入力"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "作成するまで保持",
+        "creating": "作成中…",
         "share_link": "リンクを共有する",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "詳細情報",
         "got_it": "理解しました",
         "cancel": "キャンセル"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "新しいコイン",
         "review": "レビュー",
-        "creating": "Creating"
+        "creating": "作成中"
       },
       "links": {
         "x": {
           "name": "X/Twitter",
-          "placeholder": "Username"
+          "placeholder": "ユーザー名"
         },
         "telegram": {
           "name": "Telegram",
-          "placeholder": "Channel"
+          "placeholder": "チャンネル"
         },
         "farcaster": {
           "name": "Farcaster",
-          "placeholder": "Username"
+          "placeholder": "ユーザー名"
         },
         "website": {
           "name": "ウェブサイト",
           "placeholder": "https://homepage.com"
         },
         "other": {
-          "name": "Other",
+          "name": "その他",
           "placeholder": "https://other.com"
         },
-        "add_more": "Add More"
+        "add_more": "もっと追加"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "破棄して終了",
       "airdrops_sheet": {
         "claim_button_text": "請求",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "まだエアドロップがありません",
+        "title": "レインボーコインを主張する"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
-          "title": "Airdrops",
-          "title_singular": "Airdrop"
+          "subtitle_loading": "読み込み中",
+          "subtitle_has_airdrops": "主張可能",
+          "subtitle_no_airdrops": "まだエアドロップがありません",
+          "title": "エアドロップ",
+          "title_singular": "エアドロップ"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "ローンチ\n",
+          "line_two": "コイン"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "によって",
         "claiming": "主張",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "%{name}によって作成",
+        "gifted_to": "に贈呈",
+        "hold_to_claim": "主張するまでホールド",
+        "hold_to_retry": "再試行するまでホールド",
+        "successfully_claimed": "成功裏に主張されました",
+        "title": "$%{symbol}を請求する",
+        "to_claim_on": "%{network}で請求",
+        "view_coin": "コインを見る",
         "you": "あなた"
       }
     },
