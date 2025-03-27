@@ -485,7 +485,7 @@
         "swap_failed": "Замена не удалась",
         "receive": "Получить",
         "on": "на",
-        "reset": "Reset"
+        "reset": "Сбросить"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "Внимание",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "Анализировать переменные ENV",
+      "analyze_react_query": "Анализировать запросы React",
       "applied": "ПРИМЕНЕНО",
       "backups_deleted_successfully": "Резервные копии успешно удалены",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "Очистить AsyncStorage",
       "clear_pending_txs": "Очистить ожидающие транзакции",
       "clear_image_cache": "Очистить кэш изображений",
       "clear_image_metadata_cache": "Очистить кэш метаданных изображения",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "Очистить локальное хранилище",
+      "clear_mmkv_storage": "Очистить хранилище MMKV",
+      "clear_react_query_cache": "Очистить кэш React Query",
+      "connect_to_anvil": "Подключиться к Anvil",
+      "copy_fcm_token": "Копировать FCM-токен",
+      "copy_log_lines": "Копировать строки журнала",
+      "copy_signing_wallet_address": "Скопировать адрес подписания кошелька",
+      "disconnect_to_anvil": "Отключиться от Anvil",
+      "crash_app_render_error": "Сбой приложения (Ошибка рендеринга)",
       "enable_testnets": "Включить тестовые сети",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "Установка обновления",
+      "navigation_entry_point": "Точка входа навигации",
+      "no_update": "Нет обновлений",
       "not_applied": "НЕ ПРИМЕНЕНО",
       "notifications_debug": "Отладка уведомлений",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "Удалить все резервные копии",
       "keychain": {
         "menu_title": "Сбросить цепочку ключей",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "Удалить все кошельки",
         "alert_title": "Осторожно!",
         "alert_body": "🚨🚨🚨 \nЭто навсегда удалит все приватные ключи и данные ваших кошельков. Пожалуйста, убедитесь, что у вас есть резервная копия всей информации перед продолжением!! \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "Перезагрузить приложение",
+      "reset_experimental_config": "Сбросить экспериментальную конфигурацию",
       "status": "Статус",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "Синхронизировать CodePush"
     },
     "discover": {
       "pulse": {
@@ -704,8 +704,8 @@
           "twitter": "Twitter",
           "warpcast": "Warpcast",
           "farcaster": "Farcaster",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "Другие",
+          "search_on_twitter": "Поиск в Twitter"
         },
         "uniswap_liquidity": "Ликвидность Uniswap",
         "value": "Цена",
@@ -719,34 +719,34 @@
           "hide": "Скрыть",
           "unhide": "Показать"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "Нет доступных данных"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "Статистика рынка",
+          "circulating_supply": "Циркулирующее предложение",
           "max_supply": "Максимальное предложение",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "Оценка при полном выпуске",
           "market_cap": "Рыночная капитализация",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "Создан",
+          "volume_24_hours": "Торговый объем за 24 часа",
+          "rank": "Ранг"
         },
         "buy": {
           "title": "Купить",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "Купить с",
+          "available_balance": "Доступный баланс",
+          "open_swaps": "Открытые свапы",
+          "low_balance": "Низкий баланс"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "Получить Airdrop",
+          "created_by": "Создано %{creator}",
           "title": "Получить"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "О компании",
+          "what_is": "Что такое %{assetName}?"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "Дек"
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "Нет данных графика",
+        "no_price_data": "Нет данных о цене",
         "past_timespan": "Прошлое %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "Прошедший день",
         "token_pool": "%{tokenName} Пул"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "Неверный реферальный код. Пожалуйста, дважды проверьте код и попробуйте ещё раз.",
         "no_balance_alert": "Чтобы зарегистрироваться в Points, у вас должен быть ненулевой баланс кошелька.",
         "referral_link_is_ready": "Ваша реферальная ссылка готова",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "Твитните свою реферальную ссылку, и вы получите 10% от очков, заработанных любым привлеченным вами человеком",
         "referral_link_bonus_text_extended": "К тому же вы заработаете 10% баллов, набранных каждым приглашенным вами пользователем",
         "complete_onboarding": "Готово",
         "share_to_x": "Поделиться с X",
@@ -2281,9 +2281,9 @@
           "failed": "Взаимодействие не удалось"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "Запуск",
+          "confirmed": "Запущено",
+          "failed": "Запуск не удался"
         },
         "swap": {
           "pending": "Смена",
@@ -2647,20 +2647,20 @@
         "watching": "Наблюдение",
         "ledger": "Ledger",
         "wallets": "Кошельки",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "Все кошельки",
+        "total_balance": "Общий баланс",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "Настройте свои кошельки",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "Нажмите",
             "action": "Редактировать",
-            "suffix": "button above to set up"
+            "suffix": "кнопка выше для настройки"
           }
         },
         "address_menu": {
           "edit": "Редактировать кошелек",
           "copy": "Скопировать адрес",
-          "settings": "Wallet Settings",
+          "settings": "Настройки кошелька",
           "notifications": "Настройки уведомлений",
           "remove": "Удалить кошелек"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "Сеть",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "Выберите группу кошельков",
+          "description": "Выберите группу кошельков, внутри которой вы хотите создать новый кошелек, или создайте новую."
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "Новая группа кошельков",
+          "description": "Создать новую группу кошельков"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "Купить %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "минута назад",
+          "minutes_ago": "минут назад",
+          "hour_ago": "час назад",
+          "hours_ago": "часов назад",
           "today": "Сегодня",
           "day_ago": "день назад",
           "days_ago": "дней назад",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "Настроить сети",
+        "tap_the": "Нажмите",
+        "button_to_set_up": "кнопка ниже для настройки"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "Перетащите сюда, чтобы открепить",
       "edit": "Редактировать",
       "network": "Сеть",
       "networks": "Сети",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "Перетащите для переупорядочивания",
+      "show_less": "Показать меньше",
       "more": "Больше",
-      "show_more": "More Networks",
+      "show_more": "Больше сетей",
       "all_networks": "Все сети"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "Адрес или ENS",
+        "suggested_users": "ПРЕДЛАГАЕМЫЕ ПОЛЬЗОВАТЕЛИ",
+        "airdrop_lists": "СПИСКИ AIRDROP",
+        "max_recipients_reached": "Достигнуто максимум %{maxRecipientCount} получателей"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "Извините, произошла ошибка при загрузке вашего изображения.",
+        "subtitle": "Попробуйте снова."
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "МОЙ ДОЛЯ",
+        "airdropping": "РАСПРОСТРАНЕНИЕ AIRDROP",
+        "start_price": "СТАРТОВАЯ ЦЕНА",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "Доля создателя",
+            "description": "Ваша личная доля в проекте"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "Доля аирдропа",
+            "description": "Распределено среди друзей и сторонников"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "Доля ликвидного пула",
+            "description": "Обеспечивает плавную торговлю и ликвидность"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "Сверх радуги",
+            "description": "Будущие распределения для сообщества"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "Баланс: %{balance}",
+        "not_enough_funds": "Недостаточно средств для запуска токена"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "Доступный баланс: %{balance}",
+        "title": "Предпокупка большего количества токенов"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "Распределение токенов",
+        "your_share": "Ваша доля",
+        "airdropping": "Аирдроп",
+        "about": "О компании",
+        "total_cost": "Общая стоимость",
+        "initial_price": "Начальная цена",
         "market_cap": "Рыночная капитализация",
-        "total_supply": "Total supply",
+        "total_supply": "Общее предложение",
         "network": "Сеть"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "Развертывание %{symbol}..."
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol} в эфире!",
+        "congrats": "Поздравляю, вы только что запустили %{name} в мир! Поделитесь этим, чтобы распространить настроение."
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "Слишком длинно, друг.",
+        "invalid_input": "Недопустимый ввод",
+        "symbol_required": "Тикер обязателен",
+        "name_required": "Имя обязательно",
+        "too_big": "Слишком большое.",
+        "must_be_greater_than_0": "Должно быть больше 0",
+        "amount_is_greater_than_balance": "Сумма превышает баланс",
+        "amount_is_greater_than_max_prebuy_amount": "Превышает максимальную сумму предварительной покупки в %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_is_less_than_min_prebuy_amount": "Должно быть больше минимума предварительной покупки в %{minPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_too_small": "Слишком малая сумма! Попробуйте немного больше!"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "Общее предложение",
+        "ticker": "Тикер",
         "name": "Имя",
         "network": "Сеть",
         "description": "Описание",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
+        "airdrop": "Аирдроп друзьям",
+        "required_info": "ТРЕБУЕМАЯ ИНФОРМАЦИЯ",
+        "about": "О ПРОЕКТЕ",
+        "token_allocation": "РАСПРЕДЕЛЕНИЕ ТОКЕНОВ",
+        "token_allocation_breakdown": "Разбивка распределения токенов",
         "mcap": "MCAP"
       },
       "placeholders": {
         "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "enter_coin_name": "Введите название монеты",
+        "describe_your_coin": "Опишите свою монету"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "Удерживайте для создания",
+        "creating": "Создание...",
         "share_link": "Поделиться ссылкой",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "Больше информации",
         "got_it": "Понятно",
         "cancel": "Отменить"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "Новая монета",
         "review": "Просмотр",
-        "creating": "Creating"
+        "creating": "Создание"
       },
       "links": {
         "x": {
           "name": "X/Twitter",
-          "placeholder": "Username"
+          "placeholder": "Имя пользователя"
         },
         "telegram": {
           "name": "Telegram",
-          "placeholder": "Channel"
+          "placeholder": "Канал"
         },
         "farcaster": {
           "name": "Farcaster",
-          "placeholder": "Username"
+          "placeholder": "Имя пользователя"
         },
         "website": {
           "name": "Веб-сайт",
           "placeholder": "https://homepage.com"
         },
         "other": {
-          "name": "Other",
+          "name": "Другие",
           "placeholder": "https://other.com"
         },
-        "add_more": "Add More"
+        "add_more": "Добавить еще"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "Отменить и выйти",
       "airdrops_sheet": {
         "claim_button_text": "Получить",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "Аирдропов пока нет",
+        "title": "Получить Rainbow Coins"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
-          "title": "Airdrops",
-          "title_singular": "Airdrop"
+          "subtitle_loading": "ЗАГРУЗКА",
+          "subtitle_has_airdrops": "ДОСТУПНО ДЛЯ ПОЛУЧЕНИЯ",
+          "subtitle_no_airdrops": "АИРДРОПОВ ПОКА НЕТ",
+          "title": "Аирдропы",
+          "title_singular": "Аирдроп"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "Запустить\n",
+          "line_two": "вашу монету"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "от",
         "claiming": "Получение",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "Создано %{name}",
+        "gifted_to": "Подарено",
+        "hold_to_claim": "Удерживайте, чтобы получить",
+        "hold_to_retry": "Удерживайте, чтобы повторить",
+        "successfully_claimed": "Успешно получено",
+        "title": "Получить $%{symbol}",
+        "to_claim_on": "чтобы получить на %{network}",
+        "view_coin": "Посмотреть монету",
         "you": "Вы"
       }
     },
