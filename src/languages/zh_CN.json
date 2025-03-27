@@ -345,6 +345,7 @@
       "receive": "接收",
       "remove": "删除",
       "save": "保存",
+      "skip": "跳过",
       "send": "发送",
       "send_another": "发送另一个",
       "share": "分享",
@@ -483,7 +484,8 @@
         "a_network": "一个网络",
         "swap_failed": "交换失败",
         "receive": "接收",
-        "on": "在"
+        "on": "在",
+        "reset": "Reset"
       }
     },
     "cloud": {
@@ -515,34 +517,40 @@
     },
     "developer_settings": {
       "alert": "警报",
+      "analyze_env_variables": "Analyze ENV Variables",
+      "analyze_react_query": "Analyze React Query",
       "applied": "已应用",
-      "backups_deleted_successfully": "备份成功删除",
-      "clear_async_storage": "清除异步存储",
+      "backups_deleted_successfully": "备份已成功删除",
+      "clear_async_storage": "Clear AsyncStorage",
       "clear_pending_txs": "清除待处理的交易",
       "clear_image_cache": "清除图片缓存",
       "clear_image_metadata_cache": "清除图片内元数据缓存",
-      "clear_local_storage": "清除本地存储",
-      "clear_mmkv_storage": "清除MMKV存储",
-      "connect_to_anvil": "连接到 anvil",
-      "disconnect_to_anvil": "断开与 anvil 的连接",
-      "crash_app_render_error": "崩溃应用程序（渲染错误）",
+      "clear_local_storage": "Clear Local Storage",
+      "clear_mmkv_storage": "Clear MMKV Storage",
+      "clear_react_query_cache": "Clear React Query Cache",
+      "connect_to_anvil": "Connect to Anvil",
+      "copy_fcm_token": "Copy FCM Token",
+      "copy_log_lines": "Copy Log Lines",
+      "copy_signing_wallet_address": "Copy Signing Wallet Address",
+      "disconnect_to_anvil": "Disconnect from Anvil",
+      "crash_app_render_error": "Crash App (Render Error)",
       "enable_testnets": "启用Testnets",
-      "installing_update": "正在安装更新",
-      "navigation_entry_point": "导航入口点",
-      "no_update": "没有更新",
+      "installing_update": "Installing Update",
+      "navigation_entry_point": "Navigation Entry Point",
+      "no_update": "No Update",
       "not_applied": "未应用",
       "notifications_debug": "通知调试",
-      "remove_all_backups": "删除所有备份",
+      "remove_all_backups": "Remove All Backups",
       "keychain": {
         "menu_title": "重置密钥链",
-        "delete_wallets": "删除所有钱包",
+        "delete_wallets": "Delete All Wallets",
         "alert_title": "小心！",
         "alert_body": "🚨🚨🚨 \n这将永久删除所有的钱包私钥&数据，请确保在继续操作前已经备份了所有数据！ \n🚨🚨🚨"
       },
-      "restart_app": "重启应用",
-      "reset_experimental_config": "重置实验性配置",
+      "restart_app": "Restart App",
+      "reset_experimental_config": "Reset Experimental Config",
       "status": "状态",
-      "sync_codepush": "同步代码推送"
+      "sync_codepush": "Sync CodePush"
     },
     "discover": {
       "pulse": {
@@ -694,6 +702,9 @@
           "reddit": "Reddit",
           "telegram": "Telegram",
           "twitter": "Twitter",
+          "warpcast": "Warpcast",
+          "farcaster": "Farcaster",
+          "other": "Other",
           "search_on_twitter": "Search on Twitter"
         },
         "uniswap_liquidity": "Uniswap 流动性",
@@ -708,7 +719,7 @@
           "hide": "隐藏",
           "unhide": "取消隐藏"
         },
-        "no_data_available": "No data available"
+        "no_data_available": "No Data Available"
       },
       "sections": {
         "market_stats": {
@@ -723,10 +734,15 @@
         },
         "buy": {
           "title": "购买",
-          "pay_with": "Pay with",
+          "pay_with": "Buy with",
           "available_balance": "Available Balance",
           "open_swaps": "Open Swaps",
-          "low_balance": "Low balance"
+          "low_balance": "Low Balance"
+        },
+        "claim": {
+          "claim_button": "Claim Airdrop",
+          "created_by": "Created by %{creator}",
+          "title": "领取"
         },
         "about": {
           "title": "About",
@@ -751,7 +767,8 @@
             "month_11": "十二月"
           }
         },
-        "no_price_data": "无价格数据",
+        "no_chart_data": "No Chart Data",
+        "no_price_data": "No Price Data",
         "past_timespan": "过去 %{formattedTimespan}",
         "today": "Past Day",
         "token_pool": "%{tokenName} 池"
@@ -1615,7 +1632,7 @@
         "invalid_referral_code_alert": "推荐码无效。请检查您的代码然后再试一次。",
         "no_balance_alert": "要注册消费积分，您的钱包余额必须不为零。",
         "referral_link_is_ready": "您的推荐链接已准备好",
-        "referral_link_bonus_text": "在Twitter上分享您的推荐链接，额外获得250积分",
+        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
         "referral_link_bonus_text_extended": "您将赚取您推荐的每个人所获得积分的10%",
         "complete_onboarding": "完成",
         "share_to_x": "分享至X",
@@ -2263,6 +2280,11 @@
           "confirmed": "已交互",
           "failed": "交互失败"
         },
+        "launch": {
+          "pending": "Launching",
+          "confirmed": "Launched",
+          "failed": "Launch Failed"
+        },
         "swap": {
           "pending": "交换中",
           "confirmed": "已交换",
@@ -2630,7 +2652,7 @@
         "edit_hint_tooltip": {
           "title": "Customize Your Wallets",
           "subtitle": {
-            "prefix": "点击",
+            "prefix": "Tap the",
             "action": "编辑",
             "suffix": "button above to set up"
           }
@@ -3121,6 +3143,7 @@
       "filters": {
         "categories": {
           "TRENDING": "趋势",
+          "RAINBOW": "Rainbow",
           "NEW": "新的",
           "FARCASTER": "Farcaster"
         },
@@ -3144,21 +3167,180 @@
         }
       }
     },
-    "network_switcher": {
+    "network_selector": {
       "customize_networks_banner": {
-        "title": "自定义网络",
-        "tap_the": "点击",
-        "button_to_set_up": "下方按钮进行设置"
+        "title": "Customize Networks",
+        "tap_the": "Tap the",
+        "button_to_set_up": "button below to set up"
       },
       "drop_here_to_unpin": "Drop Here to Unpin",
       "edit": "编辑",
       "network": "网络",
       "networks": "网络",
-      "drag_to_rearrange": "拖动以重新排列",
-      "show_less": "显示更少",
+      "drag_to_rearrange": "Drag to Rearrange",
+      "show_less": "Show Less",
       "more": "更多",
-      "show_more": "更多网络",
+      "show_more": "More Networks",
       "all_networks": "所有网络"
+    },
+    "token_launcher": {
+      "airdrop": {
+        "address_or_ens": "Address or ENS",
+        "suggested_users": "SUGGESTED USERS",
+        "airdrop_lists": "AIRDROP LISTS",
+        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+      },
+      "image_upload_error": {
+        "title": "Sorry, there was an error uploading your image.",
+        "subtitle": "Please try again."
+      },
+      "allocation_breakdown": {
+        "my_share": "MY SHARE",
+        "airdropping": "AIRDROPPING",
+        "start_price": "START PRICE",
+        "sections": {
+          "my_share": {
+            "title": "Creator Share",
+            "description": "Your personal stake in the project"
+          },
+          "airdropping": {
+            "title": "Airdrop Share",
+            "description": "Distributed to friends and supporters"
+          },
+          "liquidity_pool": {
+            "title": "Liquidity Pool Share",
+            "description": "Ensures smooth trading and liquidity"
+          },
+          "rainbow_share": {
+            "title": "Over the Rainbow",
+            "description": "Future Community Distributions"
+          }
+        }
+      },
+      "network_field": {
+        "balance": "Balance: %{balance}",
+        "not_enough_funds": "Not enough funds to launch a token"
+      },
+      "prebuy": {
+        "balance_after_gas_fee": "Available Balance: %{balance}",
+        "title": "Pre-buy more tokens"
+      },
+      "review": {
+        "token_allocation": "Token allocation",
+        "your_share": "Your share",
+        "airdropping": "Airdropping",
+        "about": "About",
+        "total_cost": "Total cost",
+        "initial_price": "Initial price",
+        "market_cap": "市值",
+        "total_supply": "Total supply",
+        "network": "网络"
+      },
+      "creating": {
+        "deploying": "Deploying %{symbol}..."
+      },
+      "success": {
+        "title": "%{symbol} is live!",
+        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+      },
+      "input_errors": {
+        "too_long": "Too long, friend.",
+        "invalid_input": "Invalid input",
+        "symbol_required": "Ticker is required",
+        "name_required": "Name is required",
+        "too_big": "Too big.",
+        "must_be_greater_than_0": "Must be greater than 0",
+        "amount_is_greater_than_balance": "Amount is greater than balance",
+        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_too_small": "Amount too small! Try a little more!"
+      },
+      "titles": {
+        "total_supply": "Total supply",
+        "ticker": "Ticker",
+        "name": "名称",
+        "network": "网络",
+        "description": "说明",
+        "airdrop": "Airdrop to friends",
+        "required_info": "REQUIRED INFO",
+        "about": "ABOUT",
+        "token_allocation": "TOKEN ALLOCATION",
+        "token_allocation_breakdown": "Token Allocation Breakdown",
+        "mcap": "MCAP"
+      },
+      "placeholders": {
+        "ticker": "$NAME",
+        "enter_coin_name": "Enter coin name",
+        "describe_your_coin": "Describe your coin"
+      },
+      "buttons": {
+        "hold_to_create": "Hold to Create",
+        "creating": "Creating...",
+        "share_link": "分享链接",
+        "token_allocation_info": "More Info",
+        "got_it": "我知道了",
+        "cancel": "取消"
+      },
+      "header": {
+        "new_coin": "New Coin",
+        "review": "审阅",
+        "creating": "Creating"
+      },
+      "links": {
+        "x": {
+          "name": "X/Twitter",
+          "placeholder": "Username"
+        },
+        "telegram": {
+          "name": "Telegram",
+          "placeholder": "Channel"
+        },
+        "farcaster": {
+          "name": "Farcaster",
+          "placeholder": "Username"
+        },
+        "website": {
+          "name": "网站",
+          "placeholder": "https://homepage.com"
+        },
+        "other": {
+          "name": "Other",
+          "placeholder": "https://other.com"
+        },
+        "add_more": "Add More"
+      },
+      "discard_and_exit": "Discard & Exit",
+      "airdrops_sheet": {
+        "claim_button_text": "领取",
+        "empty_state_title": "No Airdrops Yet",
+        "title": "Claim Rainbow Coins"
+      },
+      "cards": {
+        "airdrops": {
+          "subtitle_loading": "LOADING",
+          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
+          "subtitle_no_airdrops": "NO AIRDROPS YET",
+          "title": "Airdrops",
+          "title_singular": "Airdrop"
+        },
+        "launch": {
+          "line_one": "Launch\n",
+          "line_two": "your Coin"
+        }
+      },
+      "claim_airdrop_sheet": {
+        "by": "by",
+        "claiming": "认领中",
+        "created_by": "Created by %{name}",
+        "gifted_to": "Gifted to",
+        "hold_to_claim": "Hold to Claim",
+        "hold_to_retry": "Hold to Retry",
+        "successfully_claimed": "Successfully Claimed",
+        "title": "Claim $%{symbol}",
+        "to_claim_on": "to claim on %{network}",
+        "view_coin": "View Coin",
+        "you": "你"
+      }
     },
     "done": "完成",
     "copy": "复制",
