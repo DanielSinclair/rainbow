@@ -485,7 +485,7 @@
         "swap_failed": "فشلت العملية",
         "receive": "استلم",
         "on": "تشغيل",
-        "reset": "Reset"
+        "reset": "إعادة تعيين"
       }
     },
     "cloud": {
@@ -517,40 +517,40 @@
     },
     "developer_settings": {
       "alert": "تنبيه",
-      "analyze_env_variables": "Analyze ENV Variables",
-      "analyze_react_query": "Analyze React Query",
+      "analyze_env_variables": "تحليل متغيرات البيئة",
+      "analyze_react_query": "تحليل استعلام React",
       "applied": "تم التطبيق",
       "backups_deleted_successfully": "تم حذف النسخ الاحتياطية بنجاح",
-      "clear_async_storage": "Clear AsyncStorage",
+      "clear_async_storage": "مسح التخزين غير المتزامن",
       "clear_pending_txs": "مسح المعاملات المعلقة",
       "clear_image_cache": "مسح ذاكرة التخزين المؤقت للصور",
       "clear_image_metadata_cache": "مسح ذاكرة التخزين المؤقت لبيانات الصور",
-      "clear_local_storage": "Clear Local Storage",
-      "clear_mmkv_storage": "Clear MMKV Storage",
-      "clear_react_query_cache": "Clear React Query Cache",
-      "connect_to_anvil": "Connect to Anvil",
-      "copy_fcm_token": "Copy FCM Token",
-      "copy_log_lines": "Copy Log Lines",
-      "copy_signing_wallet_address": "Copy Signing Wallet Address",
-      "disconnect_to_anvil": "Disconnect from Anvil",
-      "crash_app_render_error": "Crash App (Render Error)",
+      "clear_local_storage": "مسح التخزين المحلي",
+      "clear_mmkv_storage": "مسح تخزين MMKV",
+      "clear_react_query_cache": "مسح ذاكرة استعلام React",
+      "connect_to_anvil": "الاتصال ب Anvil",
+      "copy_fcm_token": "نسخ رمز FCM",
+      "copy_log_lines": "نسخ أسطر السجل",
+      "copy_signing_wallet_address": "نسخ عنوان توقيع المحفظة",
+      "disconnect_to_anvil": "انفصال عن Anvil",
+      "crash_app_render_error": "تعطل التطبيق (خطأ في العرض)",
       "enable_testnets": "تمكين شبكات الاختبار",
-      "installing_update": "Installing Update",
-      "navigation_entry_point": "Navigation Entry Point",
-      "no_update": "No Update",
+      "installing_update": "جارٍ تثبيت التحديث",
+      "navigation_entry_point": "نقطة دخول التنقل",
+      "no_update": "لا يوجد تحديث",
       "not_applied": "لم يتم التطبيق",
       "notifications_debug": "تصحيح الأخطاء في الإشعارات",
-      "remove_all_backups": "Remove All Backups",
+      "remove_all_backups": "إزالة كافة النسخ الاحتياطية",
       "keychain": {
         "menu_title": "إعادة تعيين سلسلة المفاتيح",
-        "delete_wallets": "Delete All Wallets",
+        "delete_wallets": "حذف كل المحافظ",
         "alert_title": "كن حذرا!",
         "alert_body": "🚨🚨🚨 \nهذا سيؤدي إلى حذف كل مفاتيح وبيانات محافظك الخاصة نهائيا، يرجى التأكد من أنك قمت بالنسخ الاحتياطي لكل شيء قبل المتابعة!! \n🚨🚨🚨"
       },
-      "restart_app": "Restart App",
-      "reset_experimental_config": "Reset Experimental Config",
+      "restart_app": "إعادة تشغيل التطبيق",
+      "reset_experimental_config": "إعادة تعيين التكوين التجريبي",
       "status": "الحالة",
-      "sync_codepush": "Sync CodePush"
+      "sync_codepush": "مز synchrony CodePush"
     },
     "discover": {
       "pulse": {
@@ -702,10 +702,10 @@
           "reddit": "رديت",
           "telegram": "تيليجرام",
           "twitter": "تويتر",
-          "warpcast": "Warpcast",
+          "warpcast": "ووربكاست",
           "farcaster": "فاركاستر",
-          "other": "Other",
-          "search_on_twitter": "Search on Twitter"
+          "other": "آخر",
+          "search_on_twitter": "بحث على تويتر"
         },
         "uniswap_liquidity": "سيولة يونيسواب",
         "value": "القيمة",
@@ -719,34 +719,34 @@
           "hide": "إخفاء",
           "unhide": "الغاء الاخفاء"
         },
-        "no_data_available": "No Data Available"
+        "no_data_available": "لا توجد بيانات متاحة"
       },
       "sections": {
         "market_stats": {
-          "title": "Market Stats",
-          "circulating_supply": "Circulating Supply",
+          "title": "إحصائيات السوق",
+          "circulating_supply": "الإمداد الجاري",
           "max_supply": "الحد الأقصى للتوريد",
-          "fully_diluted_valuation": "Fully Diluted Valuation",
+          "fully_diluted_valuation": "تقييم التشبع الكامل",
           "market_cap": "القيمة السوقية",
-          "created": "Created",
-          "volume_24_hours": "24h Volume",
-          "rank": "Rank"
+          "created": "تم الإنشاء",
+          "volume_24_hours": "الحجم في 24 ساعة",
+          "rank": "الرتبة"
         },
         "buy": {
           "title": "شراء",
-          "pay_with": "Buy with",
-          "available_balance": "Available Balance",
-          "open_swaps": "Open Swaps",
-          "low_balance": "Low Balance"
+          "pay_with": "اشترِ باستخدام",
+          "available_balance": "الرصيد المتاح",
+          "open_swaps": "المبادلات المفتوحة",
+          "low_balance": "رصيد منخفض"
         },
         "claim": {
-          "claim_button": "Claim Airdrop",
-          "created_by": "Created by %{creator}",
+          "claim_button": "مطالبة الإسقاط الجوي",
+          "created_by": "صنع بواسطة %{creator}",
           "title": "المطالبة"
         },
         "about": {
-          "title": "About",
-          "what_is": "What is %{assetName}?"
+          "title": "حول",
+          "what_is": "ما هو %{assetName}؟"
         }
       },
       "chart": {
@@ -767,10 +767,10 @@
             "month_11": "ديسمبر"
           }
         },
-        "no_chart_data": "No Chart Data",
-        "no_price_data": "No Price Data",
+        "no_chart_data": "لا توجد بيانات للرسم البياني",
+        "no_price_data": "لا توجد بيانات أسعار",
         "past_timespan": "الماضي %{formattedTimespan}",
-        "today": "Past Day",
+        "today": "اليوم الماضي",
         "token_pool": "%{tokenName} بركة"
       },
       "contact_profile": {
@@ -1632,7 +1632,7 @@
         "invalid_referral_code_alert": "رمز الإحالة غير صحيح. يرجى التحقق من الرمز والمحاولة مرة أخرى.",
         "no_balance_alert": "للتسجيل في النقاط، يجب أن يكون رصيد المحفظة لديك غير صفر.",
         "referral_link_is_ready": "رابط الإحالة الخاص بك جاهز",
-        "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
+        "referral_link_bonus_text": "غرد رابط إحالتك وستحصل على 10٪ من النقاط التي يكسبها أي شخص تشير إليه",
         "referral_link_bonus_text_extended": "بالإضافة إلى أنك ستربح 10% من النقاط التي يحصل عليها أي شخص تقوم بإحالته",
         "complete_onboarding": "تم",
         "share_to_x": "مشاركة إلى X",
@@ -2281,9 +2281,9 @@
           "failed": "فشل التفاعل"
         },
         "launch": {
-          "pending": "Launching",
-          "confirmed": "Launched",
-          "failed": "Launch Failed"
+          "pending": "إطلاق",
+          "confirmed": "تم الإطلاق",
+          "failed": "الإطلاق فشل"
         },
         "swap": {
           "pending": "تبديل",
@@ -2647,20 +2647,20 @@
         "watching": "مشاهدة",
         "ledger": "ليدجر",
         "wallets": "المحافظ",
-        "all_wallets": "All Wallets",
-        "total_balance": "Total Balance",
+        "all_wallets": "كل المحافظ",
+        "total_balance": "الرصيد الإجمالي",
         "edit_hint_tooltip": {
-          "title": "Customize Your Wallets",
+          "title": "تخصيص محافظك",
           "subtitle": {
-            "prefix": "Tap the",
+            "prefix": "اضغط على",
             "action": "تعديل",
-            "suffix": "button above to set up"
+            "suffix": "الزر أعلاه لإعدادها"
           }
         },
         "address_menu": {
           "edit": "تعديل المحفظة",
           "copy": "نسخ العنوان",
-          "settings": "Wallet Settings",
+          "settings": "إعدادات المحفظة",
           "notifications": "إعدادات الإشعار",
           "remove": "إزالة المحفظة"
         }
@@ -2735,12 +2735,12 @@
       "network_title": "الشبكة",
       "new": {
         "choose_wallet_group": {
-          "title": "Choose Wallet Group",
-          "description": "Choose the wallet group you’d like to create a new wallet within, or create a new one."
+          "title": "اختيار مجموعة محفظة",
+          "description": "اختر مجموعة المحفظة التي ترغب في إنشاء محفظة جديدة ضمنها، أو أنشئ واحدة جديدة."
         },
         "new_wallet_group": {
-          "title": "New Wallet Group",
-          "description": "Create a new wallet group"
+          "title": "مجموعة المحفظة الجديدة",
+          "description": "إنشاء مجموعة محفظة جديدة"
         },
         "add_wallet_sheet": {
           "options": {
@@ -3056,10 +3056,10 @@
           "buy_native_token": "اشتري %{symbol}"
         },
         "formatted_dates": {
-          "minute_ago": "minute ago",
-          "minutes_ago": "minutes ago",
-          "hour_ago": "hour ago",
-          "hours_ago": "hours ago",
+          "minute_ago": "دقيقة مضت",
+          "minutes_ago": "دقائق مضت",
+          "hour_ago": "ساعة مضت",
+          "hours_ago": "ساعات مضت",
           "today": "اليوم",
           "day_ago": "منذ يوم واحد",
           "days_ago": "منذ أيام",
@@ -3169,176 +3169,176 @@
     },
     "network_selector": {
       "customize_networks_banner": {
-        "title": "Customize Networks",
-        "tap_the": "Tap the",
-        "button_to_set_up": "button below to set up"
+        "title": "تخصيص الشبكات",
+        "tap_the": "اضغط على",
+        "button_to_set_up": "الزر أدناه لإعدادها"
       },
-      "drop_here_to_unpin": "Drop Here to Unpin",
+      "drop_here_to_unpin": "إفلات هنا لإلغاء التثبيت",
       "edit": "تعديل",
       "network": "الشبكة",
       "networks": "الشبكات",
-      "drag_to_rearrange": "Drag to Rearrange",
-      "show_less": "Show Less",
+      "drag_to_rearrange": "سحب لإعادة الترتيب",
+      "show_less": "اعرض أقل",
       "more": "أكثر",
-      "show_more": "More Networks",
+      "show_more": "المزيد من الشبكات",
       "all_networks": "جميع الشبكات"
     },
     "token_launcher": {
       "airdrop": {
-        "address_or_ens": "Address or ENS",
-        "suggested_users": "SUGGESTED USERS",
-        "airdrop_lists": "AIRDROP LISTS",
-        "max_recipients_reached": "Max %{maxRecipientCount} recipients reached"
+        "address_or_ens": "العنوان أو ENS",
+        "suggested_users": "المستخدمون المقترحون",
+        "airdrop_lists": "قوائم الإسقاط",
+        "max_recipients_reached": "تم الوصول إلى حد أقصى %{maxRecipientCount} للمستلمين"
       },
       "image_upload_error": {
-        "title": "Sorry, there was an error uploading your image.",
-        "subtitle": "Please try again."
+        "title": "عذرًا، حدث خطأ أثناء تحميل صورتك.",
+        "subtitle": "يرجى المحاولة مرة أخرى."
       },
       "allocation_breakdown": {
-        "my_share": "MY SHARE",
-        "airdropping": "AIRDROPPING",
-        "start_price": "START PRICE",
+        "my_share": "مشاركتي",
+        "airdropping": "الإسقاط",
+        "start_price": "سعر البدء",
         "sections": {
           "my_share": {
-            "title": "Creator Share",
-            "description": "Your personal stake in the project"
+            "title": "حصة المنشئ",
+            "description": "نصيبك الشخصي في المشروع"
           },
           "airdropping": {
-            "title": "Airdrop Share",
-            "description": "Distributed to friends and supporters"
+            "title": "حصة الإسقاط",
+            "description": "تم توزيعها على الأصدقاء والداعمين"
           },
           "liquidity_pool": {
-            "title": "Liquidity Pool Share",
-            "description": "Ensures smooth trading and liquidity"
+            "title": "حصة مجموعة السيولة",
+            "description": "ضمان تداول سلس وسيولة"
           },
           "rainbow_share": {
-            "title": "Over the Rainbow",
-            "description": "Future Community Distributions"
+            "title": "فوق قوس قزح",
+            "description": "توزيعات المجتمع المستقبلية"
           }
         }
       },
       "network_field": {
-        "balance": "Balance: %{balance}",
-        "not_enough_funds": "Not enough funds to launch a token"
+        "balance": "الرصيد: %{balance}",
+        "not_enough_funds": "لا توجد أموال كافية لإطلاق رمز"
       },
       "prebuy": {
-        "balance_after_gas_fee": "Available Balance: %{balance}",
-        "title": "Pre-buy more tokens"
+        "balance_after_gas_fee": "رصيد متاح: %{balance}",
+        "title": "شراء المزيد من الرموز مسبقًا"
       },
       "review": {
-        "token_allocation": "Token allocation",
-        "your_share": "Your share",
-        "airdropping": "Airdropping",
-        "about": "About",
-        "total_cost": "Total cost",
-        "initial_price": "Initial price",
+        "token_allocation": "تخصيص الرمز",
+        "your_share": "نصيبك",
+        "airdropping": "إسقاط",
+        "about": "حول",
+        "total_cost": "التكلفة الإجمالية",
+        "initial_price": "السعر الأولي",
         "market_cap": "قيمة السوق",
-        "total_supply": "Total supply",
+        "total_supply": "الإمداد الكلي",
         "network": "الشبكة"
       },
       "creating": {
-        "deploying": "Deploying %{symbol}..."
+        "deploying": "جاري نشر %{symbol}..."
       },
       "success": {
-        "title": "%{symbol} is live!",
-        "congrats": "Congrats, you just launched %{name} into the world! Share it to spread the vibes."
+        "title": "%{symbol} على قيد الحياة!",
+        "congrats": "تهانينا، لقد أطلقت %{name} للتو في العالم! شاركها لنشر الإيجابية."
       },
       "input_errors": {
-        "too_long": "Too long, friend.",
-        "invalid_input": "Invalid input",
-        "symbol_required": "Ticker is required",
-        "name_required": "Name is required",
-        "too_big": "Too big.",
-        "must_be_greater_than_0": "Must be greater than 0",
-        "amount_is_greater_than_balance": "Amount is greater than balance",
-        "amount_is_greater_than_max_prebuy_amount": "Exceeds max pre-buy amount of %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_is_less_than_min_prebuy_amount": "Must exceed min pre-buy amount of %{minPrebuyAmount} %{chainNativeAssetSymbol}",
-        "amount_too_small": "Amount too small! Try a little more!"
+        "too_long": "طويل جدًا، صديقي.",
+        "invalid_input": "إدخال غير صالح",
+        "symbol_required": "التسمية مطلوبة",
+        "name_required": "الاسم مطلوب",
+        "too_big": "كبير جدًا.",
+        "must_be_greater_than_0": "يجب أن يكون أكبر من 0",
+        "amount_is_greater_than_balance": "المبلغ أكبر من الرصيد",
+        "amount_is_greater_than_max_prebuy_amount": "يتجاوز الحد الأقصى للشراء المسبق %{maxPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_is_less_than_min_prebuy_amount": "يجب أن يتجاوز الحد الأدنى للشراء المسبق %{minPrebuyAmount} %{chainNativeAssetSymbol}",
+        "amount_too_small": "المبلغ صغير جدًا! حاول استخدام المزيد!"
       },
       "titles": {
-        "total_supply": "Total supply",
-        "ticker": "Ticker",
+        "total_supply": "الإمداد الكلي",
+        "ticker": "التسمية",
         "name": "الاسم",
         "network": "الشبكة",
         "description": "الوصف",
-        "airdrop": "Airdrop to friends",
-        "required_info": "REQUIRED INFO",
-        "about": "ABOUT",
-        "token_allocation": "TOKEN ALLOCATION",
-        "token_allocation_breakdown": "Token Allocation Breakdown",
-        "mcap": "MCAP"
+        "airdrop": "الإسقاط على الأصدقاء",
+        "required_info": "المعلومات المطلوبة",
+        "about": "حول",
+        "token_allocation": "تخصيص الرمز",
+        "token_allocation_breakdown": "تفصيل تخصيص الرمز",
+        "mcap": "رأس المال السوقي"
       },
       "placeholders": {
-        "ticker": "$NAME",
-        "enter_coin_name": "Enter coin name",
-        "describe_your_coin": "Describe your coin"
+        "ticker": "$اسم",
+        "enter_coin_name": "أدخل اسم العملة",
+        "describe_your_coin": "صف عملتك"
       },
       "buttons": {
-        "hold_to_create": "Hold to Create",
-        "creating": "Creating...",
+        "hold_to_create": "اضغط للمشاركة",
+        "creating": "جاري الإنشاء...",
         "share_link": "شارك الرابط",
-        "token_allocation_info": "More Info",
+        "token_allocation_info": "مزيد من المعلومات",
         "got_it": "فهمت",
         "cancel": "إلغاء"
       },
       "header": {
-        "new_coin": "New Coin",
+        "new_coin": "عملة جديدة",
         "review": "مراجعة",
-        "creating": "Creating"
+        "creating": "إنشاء"
       },
       "links": {
         "x": {
-          "name": "X/Twitter",
-          "placeholder": "Username"
+          "name": "X/تويتر",
+          "placeholder": "اسم المستخدم"
         },
         "telegram": {
           "name": "تيليجرام",
-          "placeholder": "Channel"
+          "placeholder": "القناة"
         },
         "farcaster": {
           "name": "فاركاستر",
-          "placeholder": "Username"
+          "placeholder": "اسم المستخدم"
         },
         "website": {
           "name": "الموقع الإلكتروني",
           "placeholder": "https://homepage.com"
         },
         "other": {
-          "name": "Other",
+          "name": "آخر",
           "placeholder": "https://other.com"
         },
-        "add_more": "Add More"
+        "add_more": "إضافة المزيد"
       },
-      "discard_and_exit": "Discard & Exit",
+      "discard_and_exit": "تجاهل واخرج",
       "airdrops_sheet": {
         "claim_button_text": "المطالبة",
-        "empty_state_title": "No Airdrops Yet",
-        "title": "Claim Rainbow Coins"
+        "empty_state_title": "لا توجد إسقاطات بعد",
+        "title": "ادعاء عملات قوس قزح"
       },
       "cards": {
         "airdrops": {
-          "subtitle_loading": "LOADING",
-          "subtitle_has_airdrops": "AVAILABLE TO CLAIM",
-          "subtitle_no_airdrops": "NO AIRDROPS YET",
-          "title": "Airdrops",
-          "title_singular": "Airdrop"
+          "subtitle_loading": "جار التحميل",
+          "subtitle_has_airdrops": "متاح للمطالبة",
+          "subtitle_no_airdrops": "لا توجد إسقاطات بعد",
+          "title": "الإسقاطات",
+          "title_singular": "إسقاط جوي"
         },
         "launch": {
-          "line_one": "Launch\n",
-          "line_two": "your Coin"
+          "line_one": "إطلاق\n",
+          "line_two": "عملتك"
         }
       },
       "claim_airdrop_sheet": {
-        "by": "by",
+        "by": "بواسطة",
         "claiming": "يتم المطالبة",
-        "created_by": "Created by %{name}",
-        "gifted_to": "Gifted to",
-        "hold_to_claim": "Hold to Claim",
-        "hold_to_retry": "Hold to Retry",
-        "successfully_claimed": "Successfully Claimed",
-        "title": "Claim $%{symbol}",
-        "to_claim_on": "to claim on %{network}",
-        "view_coin": "View Coin",
+        "created_by": "مصنوع بواسطة %{name}",
+        "gifted_to": "مهدى إلى",
+        "hold_to_claim": "اضغط للمطالبة",
+        "hold_to_retry": "اضغط لإعادة المحاولة",
+        "successfully_claimed": "تمت المطالبة بنجاح",
+        "title": "طالب ب $%{symbol}",
+        "to_claim_on": "للمطالبة على %{network}",
+        "view_coin": "عرض العملة",
         "you": "أنت"
       }
     },
