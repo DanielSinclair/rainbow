@@ -1989,11 +1989,11 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - VisionCamera (4.6.4):
-    - VisionCamera/Core (= 4.6.4)
-    - VisionCamera/React (= 4.6.4)
-  - VisionCamera/Core (4.6.4)
-  - VisionCamera/React (4.6.4):
+  - VisionCamera (5.3.0):
+    - VisionCamera/Core (= 5.3.0)
+    - VisionCamera/React (= 5.3.0)
+  - VisionCamera/Core (5.3.0)
+  - VisionCamera/React (5.3.0):
     - React-Core
   - Yoga (0.0.0)
 
